@@ -1,0 +1,1403 @@
+Troop 5 Ketch the Executioner  Page 1 Line 1:  - Comment: NW名前指定 死刑執行人ケッチ
+Troop 5 Ketch the Executioner  Page 2 Line 1:  - Comment: NW名前指定 死刑執行人ケッチ
+Troop 5 Ketch the Executioner  Page 2 Line 6:  - Comment: NW名前指定 死刑執行人ケッチ
+Troop 29 Frederick of Fear  Page 1 Line 1:  - Comment: NW名前指定 恐怖のフレデリック
+Troop 29 Frederick of Fear  Page 2 Line 1:  - Comment: NW名前指定 恐怖のフレデリック
+Troop 29 Frederick of Fear  Page 2 Line 6:  - Comment: NW名前指定 恐怖のフレデリック
+Troop 31 Unaccounted Flea  Page 1 Line 1:  - Comment: NW名前指定 行方不明のノミ
+Troop 32 Skipjack  Page 1 Line 1:  - Comment: NW名前指定 玩具のカエル
+Troop 34 Failure  Page 1 Line 1:  - Comment: NW名前指定　失敗作
+Troop 35 Angel Manufacturer Amelia  Page 1 Line 1:  - Comment: NW名前指定 天使の製造者アメリア
+Troop 35 Angel Manufacturer Amelia  Page 2 Line 1:  - Comment: NW名前指定 天使の製造者アメリア
+Troop 35 Angel Manufacturer Amelia  Page 2 Line 7:  - Comment: NW名前指定 天使の製造者アメリア
+Troop 36 Hollow Cook  Page 2 Line 2:  - Comment: NW名前指定 莠｡閠?さ繝?け
+Troop 36 Hollow Cook  Page 2 Line 7:  - Comment: NW名前指定 莠｡閠?さ繝?け
+Troop 36 Hollow Cook  Page 2 Line 13:  - Comment: NW名前指定 亡者コック
+Troop 36 Hollow Cook  Page 2 Line 18:  - Comment: NW名前指定 亡者コック
+Troop 60 Cotton the Witch  Page 1 Line 2:  - Comment: NW名前指定 呪術師コットン
+Troop 60 Cotton the Witch  Page 1 Line 6:  - Comment: NW名前指定 呪術師コットン
+Troop 60 Cotton the Witch  Page 2 Line 1:  - Comment: NW名前指定 呪術師コットン
+Troop 60 Cotton the Witch  Page 2 Line 6:  - Comment: NW名前指定 呪術師コットン
+Troop 60 Cotton the Witch  Page 2 Line 10:  - Comment: NW名前指定 呪術師コットン
+Troop 71 Sadistic Mistress Brownrigg  Page 1 Line 1:  - Comment: NW名前指定 拷問家ブラウンリッグ
+Troop 71 Sadistic Mistress Brownrigg  Page 1 Line 6:  - Comment: NW名前指定 拷問家ブラウンリッグ
+Troop 71 Sadistic Mistress Brownrigg  Page 2 Line 1:  - Comment: NW名前指定 拷問家ブラウンリッグ
+Troop 71 Sadistic Mistress Brownrigg  Page 2 Line 6:  - Comment: NW名前指定 拷問家ブラウンリッグ
+Troop 91 Monster Butler Archibald  Page 1 Line 1:  - Comment: NW名前指定 怪物執事アーチボルド
+Troop 91 Monster Butler Archibald  Page 2 Line 4:  - Comment: NW名前指定 怪物執事アーチボルド
+Troop 91 Monster Butler Archibald  Page 3 Line 4:  - Comment: NW名前指定 怪物執事アーチボルド
+Troop 91 Monster Butler Archibald  Page 4 Line 4:  - Comment: NW名前指定 怪物執事アーチボルド
+Troop 91 Monster Butler Archibald  Page 5 Line 4:  - Comment: NW名前指定 怪物執事アーチボルド
+Troop 91 Monster Butler Archibald  Page 5 Line 10:  - Comment: NW名前指定 怪物執事アーチボルド
+Troop 115 Hollow Soldier Christie  Page 1 Line 2:  - Comment: NW名前指定 虚ろの兵士クリスティ
+Troop 115 Hollow Soldier Christie  Page 2 Line 1:  - Comment: NW名前指定 虚ろの兵士クリスティ
+Troop 115 Hollow Soldier Christie  Page 2 Line 6:  - Comment: NW名前指定 虚ろの兵士クリスティ
+Troop 116 Cannibal Sawney Bean  Page 1 Line 2:  - Comment: NW名前指定 食人族ソニー・ビーン
+Troop 116 Cannibal Sawney Bean  Page 2 Line 1:  - Comment: NW名前指定 食人族ソニー・ビーン
+Troop 123 Demolisher*2  Page 2 Line 25:  - Comment: ===============================================================
+Troop 126 Corpse Thief Hare, Corpse Carrier Burke  Page 1 Line 1:  - Comment: NW名前指定 死体盗みヘア
+Troop 126 Corpse Thief Hare, Corpse Carrier Burke  Page 1 Line 6:  - Comment: NW名前指定 死体盗みヘア
+Troop 126 Corpse Thief Hare, Corpse Carrier Burke  Page 1 Line 13:  - Comment: NW名前指定 死体運びバーク
+Troop 126 Corpse Thief Hare, Corpse Carrier Burke  Page 2 Line 1:  - Comment: NW名前指定 死体盗みヘア
+Troop 126 Corpse Thief Hare, Corpse Carrier Burke  Page 2 Line 6:  - Comment: NW名前指定 死体盗みヘア
+Troop 126 Corpse Thief Hare, Corpse Carrier Burke  Page 2 Line 14:  - Comment: NW名前指定 死体盗みヘア
+Troop 126 Corpse Thief Hare, Corpse Carrier Burke  Page 2 Line 20:  - Comment: NW名前指定 死体盗みヘア
+Troop 126 Corpse Thief Hare, Corpse Carrier Burke  Page 2 Line 27:  - Comment: NW名前指定 死体盗みヘア
+Troop 127 Fleeing Knight Jim  Page 1 Line 2:  - Comment: NW名前指定 逃亡騎士ジム
+Troop 127 Fleeing Knight Jim  Page 2 Line 1:  - Comment: NW名前指定 逃亡騎士ジム
+Troop 127 Fleeing Knight Jim  Page 2 Line 6:  - Comment: NW名前指定 逃亡騎士ジム
+Troop 128 Boojum  Page 1 Line 3:  - Comment: NW名前指定 髱ｴ逎ｨ縺阪ヶ繝ｼ繝
+Troop 128 Boojum  Page 1 Line 7:  - Comment: NW名前指定 髱ｴ逎ｨ縺阪ヶ繝ｼ繝
+Troop 128 Boojum  Page 1 Line 13:  - Comment: NW名前指定 ブージャム
+Troop 128 Boojum  Page 1 Line 17:  - Comment: NW名前指定 ブージャム
+Troop 139 Wainwright the Sinful  Page 1 Line 1:  - Comment: NW名前指定 罪作りなウェインライト
+Troop 139 Wainwright the Sinful  Page 2 Line 1:  - Comment: NW名前指定 罪作りなウェインライト
+Troop 139 Wainwright the Sinful  Page 2 Line 5:  - Comment: NW名前指定 罪作りなウェインライト
+Troop 152 Dark Doctor Harold  Page 1 Line 1:  - Comment: NW名前指定 闇医者ハロルド
+Troop 152 Dark Doctor Harold  Page 1 Line 6:  - Comment: NW名前指定 闇医者ハロルド
+Troop 152 Dark Doctor Harold  Page 2 Line 1:  - Comment: NW名前指定 闇医者ハロルド
+Troop 152 Dark Doctor Harold  Page 2 Line 7:  - Comment: NW名前指定 闇医者ハロルド
+Troop 171 Barber Todd  Page 1 Line 1:  - Comment: NW名前指定 理髪師トッド
+Troop 171 Barber Todd  Page 2 Line 1:  - Comment: NW名前指定 理髪師トッド
+Troop 171 Barber Todd  Page 2 Line 7:  - Comment: NW名前指定 理髪師トッド
+Troop 174 Headhunting Beast  Page 1 Line 7:  - Comment: NW名前指定 首狩りのビースト
+Troop 174 Headhunting Beast  Page 1 Line 25:  - Comment: NW名前指定 首狩りのビースト
+Troop 174 Headhunting Beast  Page 1 Line 43:  - Comment: NW名前指定 首狩りのビースト
+Troop 174 Headhunting Beast  Page 1 Line 61:  - Comment: NW名前指定 首狩りのビースト
+Troop 174 Headhunting Beast  Page 1 Line 79:  - Comment: NW名前指定 首狩りのビースト
+Troop 174 Headhunting Beast  Page 1 Line 97:  - Comment: NW名前指定 首狩りのビースト
+Troop 174 Headhunting Beast  Page 1 Line 115:  - Comment: NW名前指定 首狩りのビースト
+Troop 174 Headhunting Beast  Page 1 Line 133:  - Comment: NW名前指定 首狩りのビースト
+Troop 174 Headhunting Beast  Page 1 Line 151:  - Comment: NW名前指定 首狩りのビースト
+Troop 174 Headhunting Beast  Page 1 Line 169:  - Comment: NW名前指定 首狩りのビースト
+Troop 174 Headhunting Beast  Page 3 Line 5:  - Comment: NW名前指定 邪竜狩りヴォーパル
+Troop 174 Headhunting Beast  Page 5 Line 24:  - Comment: Audioフェードイン 100,4000
+Troop 179 Bellcaller Bellman  Page 4 Line 5:  - Comment: NW名前指定 繝吶Ν繝槭Φ
+Troop 179 Bellcaller Bellman  Page 4 Line 10:  - Comment: NW名前指定 繝吶Ν繝槭Φ
+Troop 179 Bellcaller Bellman  Page 4 Line 18:  - Comment: NW名前指定 呼鐘のベルマン
+Troop 179 Bellcaller Bellman  Page 4 Line 23:  - Comment: NW名前指定 呼鐘のベルマン
+Troop 180 Beastclad Butcher  Page 1 Line 3:  - Comment: NW名前指定 迯｣陲ｫ繧翫ヶ繝?メ繝｣繝ｼ
+Troop 180 Beastclad Butcher  Page 1 Line 9:  - Comment: NW名前指定 迯｣陲ｫ繧翫ヶ繝?メ繝｣繝ｼ
+Troop 180 Beastclad Butcher  Page 1 Line 15:  - Comment: NW名前指定 迯｣陲ｫ繧翫ヶ繝?メ繝｣繝ｼ
+Troop 180 Beastclad Butcher  Page 1 Line 21:  - Comment: NW名前指定 獣被りブッチャー
+Troop 180 Beastclad Butcher  Page 1 Line 27:  - Comment: NW名前指定 獣被りブッチャー
+Troop 180 Beastclad Butcher  Page 1 Line 33:  - Comment: NW名前指定 獣被りブッチャー
+Troop 180 Beastclad Butcher  Page 3 Line 2:  - Comment: NW名前指定 迯｣陲ｫ繧翫ヶ繝?メ繝｣繝ｼ
+Troop 180 Beastclad Butcher  Page 3 Line 8:  - Comment: NW名前指定 迯｣陲ｫ繧翫ヶ繝?メ繝｣繝ｼ
+Troop 180 Beastclad Butcher  Page 3 Line 13:  - Comment: NW名前指定 迯｣陲ｫ繧翫ヶ繝?メ繝｣繝ｼ
+Troop 180 Beastclad Butcher  Page 3 Line 20:  - Comment: NW名前指定 獣被りブッチャー
+Troop 180 Beastclad Butcher  Page 3 Line 26:  - Comment: NW名前指定 獣被りブッチャー
+Troop 180 Beastclad Butcher  Page 3 Line 31:  - Comment: NW名前指定 獣被りブッチャー
+Troop 181 Great Grey Eagle Edith  Page 3 Line 2:  - Comment: NW名前指定 驤崎牡縺ｮ螟ｧ鮃ｲ繧､繝ｼ繝?ぅ繧ｹ
+Troop 181 Great Grey Eagle Edith  Page 3 Line 5:  - Comment: NW名前指定 驤崎牡縺ｮ螟ｧ鮃ｲ繧､繝ｼ繝?ぅ繧ｹ
+Troop 181 Great Grey Eagle Edith  Page 3 Line 9:  - Comment: NW名前指定 驤崎牡縺ｮ螟ｧ鮃ｲ繧､繝ｼ繝?ぅ繧ｹ
+Troop 181 Great Grey Eagle Edith  Page 3 Line 14:  - Comment: NW名前指定 鈍色の大鷲イーディス
+Troop 181 Great Grey Eagle Edith  Page 3 Line 17:  - Comment: NW名前指定 鈍色の大鷲イーディス
+Troop 181 Great Grey Eagle Edith  Page 3 Line 21:  - Comment: NW名前指定 鈍色の大鷲イーディス
+Troop 189 Lizard Bill Demonbeast  Page 1 Line 6:  - Comment: NW名前指定 繝医き繧ｲ縺ｮ繝薙Ν
+Troop 189 Lizard Bill Demonbeast  Page 1 Line 12:  - Comment: NW名前指定 繝医き繧ｲ縺ｮ繝薙Ν
+Troop 189 Lizard Bill Demonbeast  Page 1 Line 17:  - Comment: NW名前指定 繝医き繧ｲ縺ｮ繝薙Ν
+Troop 189 Lizard Bill Demonbeast  Page 1 Line 25:  - Comment: NW名前指定 トカゲのビル
+Troop 189 Lizard Bill Demonbeast  Page 1 Line 31:  - Comment: NW名前指定 トカゲのビル
+Troop 189 Lizard Bill Demonbeast  Page 1 Line 36:  - Comment: NW名前指定 トカゲのビル
+Troop 189 Lizard Bill Demonbeast  Page 2 Line 5:  - Comment: NW名前指定 繝医き繧ｲ縺ｮ繝薙Ν
+Troop 189 Lizard Bill Demonbeast  Page 2 Line 10:  - Comment: NW名前指定 繝医き繧ｲ縺ｮ繝薙Ν
+Troop 189 Lizard Bill Demonbeast  Page 2 Line 17:  - Comment: NW名前指定 トカゲのビル
+Troop 189 Lizard Bill Demonbeast  Page 2 Line 22:  - Comment: NW名前指定 トカゲのビル
+Troop 191 Foolish Dodo Demonbeast  Page 1 Line 3:  - Comment: NW名前指定 諢夐ｳ･繝峨ラ
+Troop 191 Foolish Dodo Demonbeast  Page 1 Line 8:  - Comment: NW名前指定 諢夐ｳ･繝峨ラ
+Troop 191 Foolish Dodo Demonbeast  Page 1 Line 13:  - Comment: NW名前指定 諢夐ｳ･繝峨ラ
+Troop 191 Foolish Dodo Demonbeast  Page 1 Line 20:  - Comment: NW名前指定 愚鳥ドド
+Troop 191 Foolish Dodo Demonbeast  Page 1 Line 25:  - Comment: NW名前指定 愚鳥ドド
+Troop 191 Foolish Dodo Demonbeast  Page 1 Line 30:  - Comment: NW名前指定 愚鳥ドド
+Troop 191 Foolish Dodo Demonbeast  Page 2 Line 2:  - Comment: NW名前指定 諢夐ｳ･繝峨ラ
+Troop 191 Foolish Dodo Demonbeast  Page 2 Line 5:  - Comment: NW名前指定 諢夐ｳ･繝峨ラ
+Troop 191 Foolish Dodo Demonbeast  Page 2 Line 12:  - Comment: NW名前指定 愚鳥ドド
+Troop 191 Foolish Dodo Demonbeast  Page 2 Line 15:  - Comment: NW名前指定 愚鳥ドド
+Troop 194 Caterpillar Shisha Demonbeast  Page 1 Line 3:  - Comment: NW名前指定 闃玖勠繧ｷ繝ｼ繧ｷ繝｣
+Troop 194 Caterpillar Shisha Demonbeast  Page 1 Line 7:  - Comment: NW名前指定 闃玖勠繧ｷ繝ｼ繧ｷ繝｣
+Troop 194 Caterpillar Shisha Demonbeast  Page 1 Line 14:  - Comment: NW名前指定 芋虫シーシャ
+Troop 194 Caterpillar Shisha Demonbeast  Page 1 Line 18:  - Comment: NW名前指定 芋虫シーシャ
+Troop 194 Caterpillar Shisha Demonbeast  Page 2 Line 6:  - Comment: NW名前指定 闃玖勠繧ｷ繝ｼ繧ｷ繝｣
+Troop 194 Caterpillar Shisha Demonbeast  Page 2 Line 11:  - Comment: NW名前指定 闃玖勠繧ｷ繝ｼ繧ｷ繝｣
+Troop 194 Caterpillar Shisha Demonbeast  Page 2 Line 18:  - Comment: NW名前指定 芋虫シーシャ
+Troop 194 Caterpillar Shisha Demonbeast  Page 2 Line 23:  - Comment: NW名前指定 芋虫シーシャ
+Troop 197 Duchess Demonbeast  Page 1 Line 3:  - Comment: NW名前指定 蜈ｬ辷ｵ螟ｫ莠ｺ繝槭Ν繧ｬ繝ｬ繝ｼ繝??繝輔か繝ｳ繝ｻ繝?ぅ繝ｭ繝
+Troop 197 Duchess Demonbeast  Page 1 Line 4:  - Comment: ｫ
+Troop 197 Duchess Demonbeast  Page 1 Line 9:  - Comment: NW名前指定 蜈ｬ辷ｵ螟ｫ莠ｺ繝槭Ν繧ｬ繝ｬ繝ｼ繝??繝輔か繝ｳ繝ｻ繝?ぅ繝ｭ繝
+Troop 197 Duchess Demonbeast  Page 1 Line 10:  - Comment: ｫ
+Troop 197 Duchess Demonbeast  Page 1 Line 16:  - Comment: NW名前指定 公爵夫人マルガレーテ・フォン・ティロル
+Troop 197 Duchess Demonbeast  Page 1 Line 21:  - Comment: NW名前指定 公爵夫人マルガレーテ・フォン・ティロル
+Troop 197 Duchess Demonbeast  Page 3 Line 2:  - Comment: NW名前指定 蜈ｬ辷ｵ螟ｫ莠ｺ繝槭Ν繧ｬ繝ｬ繝ｼ繝??繝輔か繝ｳ繝ｻ繝?ぅ繝ｭ繝
+Troop 197 Duchess Demonbeast  Page 3 Line 3:  - Comment: ｫ
+Troop 197 Duchess Demonbeast  Page 3 Line 7:  - Comment: NW名前指定 蜈ｬ辷ｵ螟ｫ莠ｺ繝槭Ν繧ｬ繝ｬ繝ｼ繝??繝輔か繝ｳ繝ｻ繝?ぅ繝ｭ繝
+Troop 197 Duchess Demonbeast  Page 3 Line 8:  - Comment: ｫ
+Troop 197 Duchess Demonbeast  Page 3 Line 15:  - Comment: NW名前指定 公爵夫人マルガレーテ・フォン・ティロル
+Troop 197 Duchess Demonbeast  Page 3 Line 19:  - Comment: NW名前指定 公爵夫人マルガレーテ・フォン・ティロル
+Troop 200 Tweedle Dum Demonbeast  Page 1 Line 3:  - Comment: NW名前指定 繝医ぇ繧､繝ｼ繝峨Ν繝?繝?
+Troop 200 Tweedle Dum Demonbeast  Page 1 Line 10:  - Comment: NW名前指定 トゥイードルダム
+Troop 210 Grape Guardbeast  Page 2 Line 6:  - Comment: NW名前指定 葡萄の番獣
+Troop 210 Grape Guardbeast  Page 3 Line 4:  - Comment: NW名前指定 葡萄の番獣
+Troop 211 Mock Turtle 0sen Kill  Page 1 Line 5:  - Comment: NW名前指定 繧ｦ繝溘ぎ繝｡繝｢繝峨く
+Troop 211 Mock Turtle 0sen Kill  Page 1 Line 12:  - Comment: NW名前指定 ウミガメモドキ
+Troop 211 Mock Turtle 0sen Kill  Page 2 Line 2:  - Comment: NW名前指定 繧ｦ繝溘ぎ繝｡繝｢繝峨く
+Troop 211 Mock Turtle 0sen Kill  Page 2 Line 8:  - Comment: NW名前指定 繧ｦ繝溘ぎ繝｡繝｢繝峨く
+Troop 211 Mock Turtle 0sen Kill  Page 2 Line 12:  - Comment: NW名前指定 繧ｦ繝溘ぎ繝｡繝｢繝峨く
+Troop 211 Mock Turtle 0sen Kill  Page 2 Line 19:  - Comment: NW名前指定 ウミガメモドキ
+Troop 211 Mock Turtle 0sen Kill  Page 2 Line 25:  - Comment: NW名前指定 ウミガメモドキ
+Troop 211 Mock Turtle 0sen Kill  Page 2 Line 29:  - Comment: NW名前指定 ウミガメモドキ
+Troop 211 Mock Turtle 0sen Kill  Page 9 Line 2:  - Comment: NW名前指定 繧ｦ繝溘ぎ繝｡繝｢繝峨く
+Troop 211 Mock Turtle 0sen Kill  Page 9 Line 5:  - Comment: NW名前指定 繧ｦ繝溘ぎ繝｡繝｢繝峨く
+Troop 211 Mock Turtle 0sen Kill  Page 9 Line 19:  - Comment: NW名前指定 繧ｦ繝溘ぎ繝｡繝｢繝峨く
+Troop 211 Mock Turtle 0sen Kill  Page 9 Line 33:  - Comment: NW名前指定 繧ｦ繝溘ぎ繝｡繝｢繝峨く
+Troop 211 Mock Turtle 0sen Kill  Page 9 Line 67:  - Comment: NW名前指定 繧ｦ繝溘ぎ繝｡繝｢繝峨く
+Troop 211 Mock Turtle 0sen Kill  Page 9 Line 71:  - Comment: NW名前指定 繧ｦ繝溘ぎ繝｡繝｢繝峨く
+Troop 211 Mock Turtle 0sen Kill  Page 9 Line 77:  - Comment: NW名前指定 繧ｦ繝溘ぎ繝｡繝｢繝峨く
+Troop 211 Mock Turtle 0sen Kill  Page 9 Line 90:  - Comment: NW名前指定 ウミガメモドキ
+Troop 211 Mock Turtle 0sen Kill  Page 9 Line 93:  - Comment: NW名前指定 ウミガメモドキ
+Troop 211 Mock Turtle 0sen Kill  Page 9 Line 107:  - Comment: NW名前指定 ウミガメモドキ
+Troop 211 Mock Turtle 0sen Kill  Page 9 Line 121:  - Comment: NW名前指定 ウミガメモドキ
+Troop 211 Mock Turtle 0sen Kill  Page 9 Line 155:  - Comment: NW名前指定 ウミガメモドキ
+Troop 211 Mock Turtle 0sen Kill  Page 9 Line 159:  - Comment: NW名前指定 ウミガメモドキ
+Troop 211 Mock Turtle 0sen Kill  Page 9 Line 165:  - Comment: NW名前指定 ウミガメモドキ
+Troop 212 Lewd Demonbeast Victoria  Page 1 Line 2:  - Comment: NW名前指定 淫魔獣ビクトリア
+Troop 212 Lewd Demonbeast Victoria  Page 1 Line 6:  - Comment: NW名前指定 淫魔獣ビクトリア
+Troop 212 Lewd Demonbeast Victoria  Page 2 Line 1:  - Comment: NW名前指定 淫魔獣ビクトリア
+Troop 212 Lewd Demonbeast Victoria  Page 2 Line 6:  - Comment: NW名前指定 淫魔獣ビクトリア
+Troop 215 Griffy Demonbeast  Page 1 Line 3:  - Comment: NW名前指定 鮃ｲ迯?ｭ舌げ繝ｪ繝輔ぅ
+Troop 215 Griffy Demonbeast  Page 1 Line 9:  - Comment: NW名前指定 鷲獅子グリフィ
+Troop 215 Griffy Demonbeast  Page 2 Line 2:  - Comment: NW名前指定 鮃ｲ迯?ｭ舌げ繝ｪ繝輔ぅ
+Troop 215 Griffy Demonbeast  Page 2 Line 7:  - Comment: NW名前指定 鮃ｲ迯?ｭ舌げ繝ｪ繝輔ぅ
+Troop 215 Griffy Demonbeast  Page 2 Line 13:  - Comment: NW名前指定 鷲獅子グリフィ
+Troop 215 Griffy Demonbeast  Page 2 Line 18:  - Comment: NW名前指定 鷲獅子グリフィ
+Troop 215 Griffy Demonbeast  Page 2 Line 22:  - Comment: NW名前指定 鷲獅子グリフィ
+Troop 222 Queen of Torture Tools  Page 2 Line 7:  - Comment: Audioフェードイン 100,4000
+Troop 222 Queen of Torture Tools  Page 4 Line 16:  - Comment: Audioフェードイン 100,4000
+Troop 225 Bluebeard  Page 1 Line 2:  - Comment: NW名前指定 青ひげ
+Troop 225 Bluebeard  Page 1 Line 7:  - Comment: NW名前指定 青ひげ
+Troop 225 Bluebeard  Page 2 Line 1:  - Comment: NW名前指定 青ひげ
+Troop 225 Bluebeard  Page 2 Line 6:  - Comment: NW名前指定 青ひげ
+Troop 226 Farthest Beast Rascal  Page 1 Line 2:  - Comment: NW名前指定 遥かなる獣ラスカル
+Troop 227 Sly Monkey  Page 1 Line 4:  - Comment: NW名前指定 狡猾な猿
+Troop 227 Sly Monkey  Page 1 Line 10:  - Comment: NW名前指定 狡猾な猿
+Troop 227 Sly Monkey  Page 1 Line 18:  - Comment: NW名前指定 狡猾な猿
+Troop 228 The Great Monkey-Killing Crab  Page 1 Line 2:  - Comment: NW名前指定 猿殺しの大蟹
+Troop 228 The Great Monkey-Killing Crab  Page 2 Line 1:  - Comment: NW名前指定 猿殺しの大蟹
+Troop 228 The Great Monkey-Killing Crab  Page 2 Line 7:  - Comment: NW名前指定 猿殺しの大蟹
+Troop 229 Boy Who Cried Wolf  Page 1 Line 2:  - Comment: NW名前指定 狼少年
+Troop 229 Boy Who Cried Wolf  Page 2 Line 1:  - Comment: NW名前指定 狼少年
+Troop 229 Boy Who Cried Wolf  Page 2 Line 6:  - Comment: NW名前指定 狼少年
+Troop 230 Greedy Dog  Page 1 Line 2:  - Comment: NW名前指定 欲張りな犬
+Troop 230 Greedy Dog  Page 2 Line 1:  - Comment: NW名前指定 欲張りな犬
+Troop 230 Greedy Dog  Page 2 Line 6:  - Comment: NW名前指定 欲張りな犬
+Troop 231 The Gigantic Turnip  Page 1 Line 2:  - Comment: NW名前指定 
+Troop 231 The Gigantic Turnip  Page 2 Line 1:  - Comment: NW名前指定 
+Troop 231 The Gigantic Turnip  Page 2 Line 5:  - Comment: NW名前指定 
+Troop 232 Tanuki of the Crackling Mountain  Page 1 Line 2:  - Comment: NW名前指定 かちかち山の狸
+Troop 232 Tanuki of the Crackling Mountain  Page 2 Line 1:  - Comment: NW名前指定 かちかち山の狸
+Troop 232 Tanuki of the Crackling Mountain  Page 2 Line 4:  - Comment: NW名前指定 かちかち山の狸
+Troop 232 Tanuki of the Crackling Mountain  Page 3 Line 2:  - Comment: NW名前指定 かちかち山の狸
+Troop 233 Winnie-the-Pooh  Page 1 Line 2:  - Comment: NW名前指定 クマのプーさん
+Troop 233 Winnie-the-Pooh  Page 1 Line 6:  - Comment: NW名前指定 クマのプーさん
+Troop 233 Winnie-the-Pooh  Page 2 Line 1:  - Comment: NW名前指定 クマのプーさん
+Troop 233 Winnie-the-Pooh  Page 2 Line 7:  - Comment: NW名前指定 クマのプーさん
+Troop 233 Winnie-the-Pooh  Page 2 Line 12:  - Comment: NW名前指定 クマのプーさん
+Troop 268 Franklin Bollvolt I  Page 1 Line 2:  - Comment: NW名前指定 フランクリン・ボルヴォルト1世
+Troop 268 Franklin Bollvolt I  Page 1 Line 7:  - Comment: NW名前指定 フランクリン・ボルヴォルト1世
+Troop 268 Franklin Bollvolt I  Page 2 Line 1:  - Comment: NW名前指定 フランクリン・ボルヴォルト1世
+Troop 268 Franklin Bollvolt I  Page 2 Line 6:  - Comment: NW名前指定 フランクリン・ボルヴォルト1世
+Troop 268 Franklin Bollvolt I  Page 3 Line 1:  - Comment: NW名前指定 フランクリン・ボルヴォルト1世
+Troop 268 Franklin Bollvolt I  Page 3 Line 6:  - Comment: NW名前指定 フランクリン・ボルヴォルト1世
+Troop 269 Fist Duelist Byron  Page 1 Line 2:  - Comment: NW名前指定 拳の決闘士バイロン
+Troop 269 Fist Duelist Byron  Page 2 Line 1:  - Comment: NW名前指定 拳の決闘士バイロン
+Troop 269 Fist Duelist Byron  Page 2 Line 6:  - Comment: NW名前指定 拳の決闘士バイロン
+Troop 270 Goat*8  Page 1 Line 1:  - Comment: NW名前指定 子山羊
+Troop 271 Acid Practitioner Haigh  Page 1 Line 2:  - Comment: NW名前指定 酸術師ヘイグ
+Troop 271 Acid Practitioner Haigh  Page 2 Line 1:  - Comment: NW名前指定 酸術師ヘイグ
+Troop 272 Teacup Poisoner Graham, Experimental Body*2  Page 1 Line 2:  - Comment: NW名前指定 洋食器の毒殺者グレアム
+Troop 272 Teacup Poisoner Graham, Experimental Body*2  Page 2 Line 1:  - Comment: NW名前指定 洋食器の毒殺者グレアム
+Troop 272 Teacup Poisoner Graham, Experimental Body*2  Page 2 Line 5:  - Comment: NW名前指定 洋食器の毒殺者グレアム
+Troop 273 Doctor Blackwell  Page 1 Line 2:  - Comment: NW名前指定 蛹ｻ蟶ｫ繝悶Λ繝?け繧ｦ繧ｧ繝ｫ
+Troop 273 Doctor Blackwell  Page 1 Line 8:  - Comment: NW名前指定 医師ブラックウェル
+Troop 273 Doctor Blackwell  Page 2 Line 2:  - Comment: NW名前指定 蛹ｻ蟶ｫ繝悶Λ繝?け繧ｦ繧ｧ繝ｫ
+Troop 273 Doctor Blackwell  Page 2 Line 8:  - Comment: NW名前指定 蛹ｻ蟶ｫ繝悶Λ繝?け繧ｦ繧ｧ繝ｫ
+Troop 273 Doctor Blackwell  Page 2 Line 15:  - Comment: NW名前指定 医師ブラックウェル
+Troop 273 Doctor Blackwell  Page 2 Line 21:  - Comment: NW名前指定 医師ブラックウェル
+Troop 313 Lizard Bill  Nightmare  Page 1 Line 2:  - Comment: NW名前指定 トカゲのビル
+Troop 313 Lizard Bill  Nightmare  Page 1 Line 6:  - Comment: NW名前指定 トカゲのビル
+Troop 313 Lizard Bill  Nightmare  Page 2 Line 2:  - Comment: NW名前指定 トカゲのビル
+Troop 313 Lizard Bill  Nightmare  Page 2 Line 6:  - Comment: NW名前指定 トカゲのビル
+Troop 314 Foolish Bird Dodo Nightmare  Page 1 Line 1:  - Comment: NW名前指定 愚鳥ドド
+Troop 314 Foolish Bird Dodo Nightmare  Page 2 Line 1:  - Comment: NW名前指定 愚鳥ドド
+Troop 314 Foolish Bird Dodo Nightmare  Page 2 Line 6:  - Comment: NW名前指定 愚鳥ドド
+Troop 315 Caterpillar Shisha Nightmare  Page 1 Line 2:  - Comment: NW名前指定 芋虫シーシャ
+Troop 315 Caterpillar Shisha Nightmare  Page 2 Line 12:  - Comment: NW名前指定 芋虫シーシャ
+Troop 316 Duchess Nightmare  Page 1 Line 2:  - Comment: NW名前指定 公爵夫人
+Troop 316 Duchess Nightmare  Page 3 Line 1:  - Comment: NW名前指定 公爵夫人
+Troop 317 Tweedle Twins Nightmare  Page 1 Line 2:  - Comment: NW名前指定 トゥイードル・ダム
+Troop 317 Tweedle Twins Nightmare  Page 1 Line 5:  - Comment: NW名前指定 トゥイードル・ディー
+Troop 318 Queen of the Heart Lorina Nightmare  Page 1 Line 2:  - Comment: NW名前指定 心臓の女王ロリーナ
+Troop 318 Queen of the Heart Lorina Nightmare  Page 3 Line 3:  - Comment: NW名前指定 心臓の女王ロリーナ
+Troop 318 Queen of the Heart Lorina Nightmare  Page 3 Line 9:  - Comment: NW名前指定 心臓の女王ロリーナ
+Troop 318 Queen of the Heart Lorina Nightmare  Page 3 Line 14:  - Comment: NW名前指定 心臓の女王ロリーナ
+Troop 318 Queen of the Heart Lorina Nightmare  Page 3 Line 19:  - Comment: NW名前指定 心臓の女王ロリーナ
+Troop 319 Hatter Nightmare  Page 1 Line 2:  - Comment: NW名前指定 帽子屋
+Troop 319 Hatter Nightmare  Page 1 Line 5:  - Comment: NW名前指定 帽子屋
+Troop 320 The March Hare Nightmare  Page 1 Line 2:  - Comment: NW名前指定 三月兎
+Troop 321 Dormouse Nightmare  Page 1 Line 2:  - Comment: NW名前指定 眠り鼠
+Troop 322 Griffy Nightmare  Page 1 Line 2:  - Comment: NW名前指定 鷲獅子グリフィ
+Troop 322 Griffy Nightmare  Page 2 Line 1:  - Comment: NW名前指定 鷲獅子グリフィ
+Troop 323 Mock Turtle Nightmare  Page 1 Line 2:  - Comment: NW名前指定 ウミガメモドキ
+Troop 323 Mock Turtle Nightmare  Page 2 Line 1:  - Comment: NW名前指定 ウミガメモドキ
+Troop 341 The Deep Sea Knight  Page 3 Line 11:  - Comment: Audioフェードイン 100,2000
+Troop 342 Blackbeard Edward  Page 1 Line 1:  - Comment: NW名前指定 黒髭エドワード
+Troop 342 Blackbeard Edward  Page 2 Line 3:  - Comment: NW名前指定 黒髭エドワード
+Troop 342 Blackbeard Edward  Page 3 Line 1:  - Comment: NW名前指定 黒髭エドワード
+Troop 343 Captain Kidd  Page 1 Line 1:  - Comment: NW名前指定 キャプテン・キッド
+Troop 343 Captain Kidd  Page 1 Line 7:  - Comment: NW名前指定 キャプテン・キッド
+Troop 343 Captain Kidd  Page 2 Line 1:  - Comment: NW名前指定 キャプテン・キッド
+Troop 343 Captain Kidd  Page 3 Line 3:  - Comment: NW名前指定 キャプテン・キッド
+Troop 343 Captain Kidd  Page 3 Line 9:  - Comment: NW名前指定 キャプテン・キッド
+Troop 357 Zoa from Wolris  Page 1 Line 4:  - Comment: NW名前指定 貅滓ｵｷ縺ｮ謐暮｣溯??す繝ｴ繝ｼ繝
+Troop 357 Zoa from Wolris  Page 1 Line 13:  - Comment: NW名前指定 繝ｫ繝ｫ繧､繧ｨ縺ｮ蟋ｫ蜷帙だ繝ｼ繧｢
+Troop 357 Zoa from Wolris  Page 1 Line 19:  - Comment: NW名前指定 繝ｫ繝ｫ繧､繧ｨ縺ｮ蟋ｫ蜷帙だ繝ｼ繧｢
+Troop 357 Zoa from Wolris  Page 1 Line 27:  - Comment: NW名前指定 溟海の捕食者シヴーチ
+Troop 357 Zoa from Wolris  Page 1 Line 32:  - Comment: NW名前指定 溟海の捕食者シヴーチ
+Troop 357 Zoa from Wolris  Page 1 Line 41:  - Comment: NW名前指定 ルルイエの姫君ゾーア
+Troop 357 Zoa from Wolris  Page 1 Line 47:  - Comment: NW名前指定 ルルイエの姫君ゾーア
+Troop 358 Wolris Nightmare  Page 1 Line 1:  - Comment: NW名前指定 溟海の捕食者シヴーチ
+Troop 358 Wolris Nightmare  Page 1 Line 5:  - Comment: NW名前指定 溟海の捕食者シヴーチ
+Troop 358 Wolris Nightmare  Page 4 Line 1:  - Comment: NW名前指定 溟海の捕食者シヴーチ
+Troop 361 Zoa, the Princess of R'lyeh  Page 1 Line 1:  - Comment: NW名前指定 ルルイエの姫君ゾーア
+Troop 361 Zoa, the Princess of R'lyeh  Page 2 Line 5:  - Comment: NW名前指定 ルルイエの姫君ゾーア
+Troop 366 Tweedle Dee Demonbeast  Page 1 Line 3:  - Comment: NW名前指定 繝医ぇ繧､繝ｼ繝峨Ν繝?ぅ繝ｼ
+Troop 366 Tweedle Dee Demonbeast  Page 1 Line 10:  - Comment: NW名前指定 トゥイードルディー
+Troop 370 Repulsive Hindley  Page 1 Line 1:  - Comment: NW名前指定 おぞましいヒンドリー
+Troop 370 Repulsive Hindley  Page 1 Line 5:  - Comment: NW名前指定 おぞましいブレイディ
+Troop 370 Repulsive Hindley  Page 1 Line 9:  - Comment: NW名前指定 おぞましいヒンドリー
+Troop 370 Repulsive Hindley  Page 2 Line 4:  - Comment: NW名前指定 おぞましいヒンドリー
+Troop 370 Repulsive Hindley  Page 2 Line 9:  - Comment: NW名前指定 おぞましいヒンドリー
+Troop 370 Repulsive Hindley  Page 3 Line 4:  - Comment: NW名前指定 おぞましいブレイディ
+Troop 370 Repulsive Hindley  Page 3 Line 9:  - Comment: NW名前指定 おぞましいブレイディ
+Troop 373 Jabberwock, the Abominable Evil  Page 1 Line 17:  - Comment: NW名前指定 邪竜ジャバウォック
+Troop 373 Jabberwock, the Abominable Evil  Page 1 Line 23:  - Comment: NW名前指定 邪竜ジャバウォック
+Troop 373 Jabberwock, the Abominable Evil  Page 1 Line 29:  - Comment: NW名前指定 邪竜ジャバウォック
+Troop 373 Jabberwock, the Abominable Evil  Page 1 Line 39:  - Comment: NW名前指定 邪竜ジャバウォック
+Troop 373 Jabberwock, the Abominable Evil  Page 3 Line 1:  - Comment: NW名前指定 邪竜ジャバウォック
+Troop 373 Jabberwock, the Abominable Evil  Page 3 Line 6:  - Comment: NW名前指定 邪竜ジャバウォック
+Troop 539 The Old King of Chess  Page 3 Line 9:  - Comment: Audioフェードイン 100,4000
+Troop 566 Dr. Jekyll(On Kill)  Page 1 Line 1:  - Comment: NW名前指定 ジキル博士
+Troop 566 Dr. Jekyll(On Kill)  Page 2 Line 1:  - Comment: NW名前指定 ジキル博士
+Troop 566 Dr. Jekyll(On Kill)  Page 2 Line 7:  - Comment: NW名前指定 ジキル博士
+Troop 566 Dr. Jekyll(On Kill)  Page 2 Line 16:  - Comment: NW名前指定 狂へる悪魔ハイド
+Troop 567 Mad Devil Hyde  Page 1 Line 2:  - Comment: NW名前指定 狂へる悪魔ハイド
+Troop 567 Mad Devil Hyde  Page 1 Line 8:  - Comment: NW名前指定 狂へる悪魔ハイド
+Troop 567 Mad Devil Hyde  Page 1 Line 14:  - Comment: NW名前指定 狂へる悪魔ハイド
+Troop 567 Mad Devil Hyde  Page 2 Line 1:  - Comment: NW名前指定 狂へる悪魔ハイド
+Troop 567 Mad Devil Hyde  Page 2 Line 7:  - Comment: NW名前指定 ジキル博士
+Troop 567 Mad Devil Hyde  Page 2 Line 12:  - Comment: NW名前指定 ジキル博士
+Troop 567 Mad Devil Hyde  Page 2 Line 17:  - Comment: NW名前指定 ジキル博士
+Troop 567 Mad Devil Hyde  Page 2 Line 22:  - Comment: NW名前指定 ジキル博士
+Troop 569 Founding Doctor Florence  Page 3 Line 54:  - Comment: Audioフェードイン 100,2000
+Troop 600 Brutalizing Angel Lingeriena  Page 3 Line 6:  - Comment: NW名前指定 暴魔ランジェリーナ
+Troop 600 Brutalizing Angel Lingeriena  Page 3 Line 11:  - Comment: NW名前指定 暴魔ランジェリーナ
+Troop 600 Brutalizing Angel Lingeriena  Page 3 Line 16:  - Comment: NW名前指定 暴魔ランジェリーナ
+Troop 604 Snow Queen Gerda  Page 1 Line 1:  - Comment: NW名前指定 雪の女王ゲルダ
+Troop 604 Snow Queen Gerda  Page 1 Line 5:  - Comment: NW名前指定 雪の女王ゲルダ
+Troop 604 Snow Queen Gerda  Page 2 Line 7:  - Comment: NW名前指定 雪の女王ゲルダ
+Troop 604 Snow Queen Gerda  Page 2 Line 11:  - Comment: NW名前指定 雪の女王ゲルダ
+Troop 608 Prince of Fear 1st  Page 1 Line 2:  - Comment: NW名前指定 地獄のプリンス
+Troop 608 Prince of Fear 1st  Page 1 Line 7:  - Comment: NW名前指定 地獄のプリンス
+Troop 608 Prince of Fear 1st  Page 2 Line 1:  - Comment: NW名前指定 地獄のプリンス
+Troop 609 Prince of Fear 2nd  Page 1 Line 2:  - Comment: NW名前指定 地獄のプリンス
+Troop 609 Prince of Fear 2nd  Page 1 Line 8:  - Comment: NW名前指定 地獄のプリンス
+Troop 609 Prince of Fear 2nd  Page 2 Line 1:  - Comment: NW名前指定 地獄のプリンス
+Troop 609 Prince of Fear 2nd  Page 2 Line 7:  - Comment: NW名前指定 地獄のプリンス
+Troop 620 Grand Guignol  Page 9 Line 38:  - Comment: Audioフェードイン 100,2000
+Troop 789 Grand Guignol  Page 9 Line 38:  - Comment: Audioフェードイン 100,2000
+Common Event 57 誓約パートナー解消 Line 1:  - Comment: ==============================================================
+Common Event 57 誓約パートナー解消 Line 2:  - Comment: 
+Common Event 57 誓約パートナー解消 Line 3:  - Comment: アクター２
+Common Event 57 誓約パートナー解消 Line 4:  - Comment: 
+Common Event 57 誓約パートナー解消 Line 5:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 57 誓約パートナー解消 Line 74:  - Comment: ==============================================================
+Common Event 57 誓約パートナー解消 Line 75:  - Comment: 
+Common Event 57 誓約パートナー解消 Line 76:  - Comment: アクター３
+Common Event 57 誓約パートナー解消 Line 77:  - Comment: 
+Common Event 57 誓約パートナー解消 Line 78:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 57 誓約パートナー解消 Line 147:  - Comment: ==============================================================
+Common Event 57 誓約パートナー解消 Line 148:  - Comment: 
+Common Event 57 誓約パートナー解消 Line 149:  - Comment: アクター４
+Common Event 57 誓約パートナー解消 Line 150:  - Comment: 
+Common Event 57 誓約パートナー解消 Line 151:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 57 誓約パートナー解消 Line 220:  - Comment: ==============================================================
+Common Event 57 誓約パートナー解消 Line 221:  - Comment: 
+Common Event 57 誓約パートナー解消 Line 222:  - Comment: アクター５
+Common Event 57 誓約パートナー解消 Line 223:  - Comment: 
+Common Event 57 誓約パートナー解消 Line 224:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 57 誓約パートナー解消 Line 293:  - Comment: ==============================================================
+Common Event 57 誓約パートナー解消 Line 294:  - Comment: 
+Common Event 57 誓約パートナー解消 Line 295:  - Comment: アクター６
+Common Event 57 誓約パートナー解消 Line 296:  - Comment: 
+Common Event 57 誓約パートナー解消 Line 297:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 57 誓約パートナー解消 Line 366:  - Comment: ==============================================================
+Common Event 57 誓約パートナー解消 Line 367:  - Comment: 
+Common Event 57 誓約パートナー解消 Line 368:  - Comment: アクター７
+Common Event 57 誓約パートナー解消 Line 369:  - Comment: 
+Common Event 57 誓約パートナー解消 Line 370:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 57 誓約パートナー解消 Line 439:  - Comment: ==============================================================
+Common Event 57 誓約パートナー解消 Line 440:  - Comment: 
+Common Event 57 誓約パートナー解消 Line 441:  - Comment: アクター８
+Common Event 57 誓約パートナー解消 Line 442:  - Comment: 
+Common Event 57 誓約パートナー解消 Line 443:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 57 誓約パートナー解消 Line 512:  - Comment: ==============================================================
+Common Event 57 誓約パートナー解消 Line 513:  - Comment: 
+Common Event 57 誓約パートナー解消 Line 514:  - Comment: アクター９
+Common Event 57 誓約パートナー解消 Line 515:  - Comment: 
+Common Event 57 誓約パートナー解消 Line 516:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 57 誓約パートナー解消 Line 585:  - Comment: ==============================================================
+Common Event 57 誓約パートナー解消 Line 586:  - Comment: 
+Common Event 57 誓約パートナー解消 Line 587:  - Comment: アクター１０
+Common Event 57 誓約パートナー解消 Line 588:  - Comment: 
+Common Event 57 誓約パートナー解消 Line 589:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 65 ソニビン捕食 Line 2:  - Comment: NW名前指定 食人族ソニー・ビーン
+Common Event 80 ノーデ：誓約 Line 3:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 80 ノーデ：誓約 Line 4:  - Comment: 
+Common Event 80 ノーデ：誓約 Line 5:  - Comment: 誓約Lv0
+Common Event 80 ノーデ：誓約 Line 6:  - Comment: 
+Common Event 80 ノーデ：誓約 Line 7:  - Comment: 
+Common Event 80 ノーデ：誓約 Line 8:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 80 ノーデ：誓約 Line 53:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 80 ノーデ：誓約 Line 54:  - Comment: 
+Common Event 80 ノーデ：誓約 Line 55:  - Comment: 誓約Lv1
+Common Event 80 ノーデ：誓約 Line 56:  - Comment: 
+Common Event 80 ノーデ：誓約 Line 57:  - Comment: 
+Common Event 80 ノーデ：誓約 Line 58:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 80 ノーデ：誓約 Line 119:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 80 ノーデ：誓約 Line 120:  - Comment: 
+Common Event 80 ノーデ：誓約 Line 121:  - Comment: 誓約Lv2
+Common Event 80 ノーデ：誓約 Line 122:  - Comment: 
+Common Event 80 ノーデ：誓約 Line 123:  - Comment: 
+Common Event 80 ノーデ：誓約 Line 124:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 80 ノーデ：誓約 Line 204:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 80 ノーデ：誓約 Line 205:  - Comment: 
+Common Event 80 ノーデ：誓約 Line 206:  - Comment: 誓約Lv3
+Common Event 80 ノーデ：誓約 Line 207:  - Comment: 
+Common Event 80 ノーデ：誓約 Line 208:  - Comment: 
+Common Event 80 ノーデ：誓約 Line 209:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 81 ビル：誓約 Line 3:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 81 ビル：誓約 Line 4:  - Comment: 
+Common Event 81 ビル：誓約 Line 5:  - Comment: 誓約Lv0
+Common Event 81 ビル：誓約 Line 6:  - Comment: 
+Common Event 81 ビル：誓約 Line 7:  - Comment: 
+Common Event 81 ビル：誓約 Line 8:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 81 ビル：誓約 Line 59:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 81 ビル：誓約 Line 60:  - Comment: 
+Common Event 81 ビル：誓約 Line 61:  - Comment: 誓約Lv1
+Common Event 81 ビル：誓約 Line 62:  - Comment: 
+Common Event 81 ビル：誓約 Line 63:  - Comment: 
+Common Event 81 ビル：誓約 Line 64:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 81 ビル：誓約 Line 132:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 81 ビル：誓約 Line 133:  - Comment: 
+Common Event 81 ビル：誓約 Line 134:  - Comment: 誓約Lv2
+Common Event 81 ビル：誓約 Line 135:  - Comment: 
+Common Event 81 ビル：誓約 Line 136:  - Comment: 
+Common Event 81 ビル：誓約 Line 137:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 81 ビル：誓約 Line 225:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 81 ビル：誓約 Line 226:  - Comment: 
+Common Event 81 ビル：誓約 Line 227:  - Comment: 誓約Lv3
+Common Event 81 ビル：誓約 Line 228:  - Comment: 
+Common Event 81 ビル：誓約 Line 229:  - Comment: 
+Common Event 81 ビル：誓約 Line 230:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 82 ドド：誓約 Line 3:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 82 ドド：誓約 Line 4:  - Comment: 
+Common Event 82 ドド：誓約 Line 5:  - Comment: 誓約Lv0
+Common Event 82 ドド：誓約 Line 6:  - Comment: 
+Common Event 82 ドド：誓約 Line 7:  - Comment: 
+Common Event 82 ドド：誓約 Line 8:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 82 ドド：誓約 Line 47:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 82 ドド：誓約 Line 48:  - Comment: 
+Common Event 82 ドド：誓約 Line 49:  - Comment: 誓約Lv1
+Common Event 82 ドド：誓約 Line 50:  - Comment: 
+Common Event 82 ドド：誓約 Line 51:  - Comment: 
+Common Event 82 ドド：誓約 Line 52:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 82 ドド：誓約 Line 122:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 82 ドド：誓約 Line 123:  - Comment: 
+Common Event 82 ドド：誓約 Line 124:  - Comment: 誓約Lv2
+Common Event 82 ドド：誓約 Line 125:  - Comment: 
+Common Event 82 ドド：誓約 Line 126:  - Comment: 
+Common Event 82 ドド：誓約 Line 127:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 82 ドド：誓約 Line 211:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 82 ドド：誓約 Line 212:  - Comment: 
+Common Event 82 ドド：誓約 Line 213:  - Comment: 誓約Lv3
+Common Event 82 ドド：誓約 Line 214:  - Comment: 
+Common Event 82 ドド：誓約 Line 215:  - Comment: 
+Common Event 82 ドド：誓約 Line 216:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 83 シーシャ：誓約 Line 3:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 83 シーシャ：誓約 Line 4:  - Comment: 
+Common Event 83 シーシャ：誓約 Line 5:  - Comment: 誓約Lv0
+Common Event 83 シーシャ：誓約 Line 6:  - Comment: 
+Common Event 83 シーシャ：誓約 Line 7:  - Comment: 
+Common Event 83 シーシャ：誓約 Line 8:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 83 シーシャ：誓約 Line 47:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 83 シーシャ：誓約 Line 48:  - Comment: 
+Common Event 83 シーシャ：誓約 Line 49:  - Comment: 誓約Lv1
+Common Event 83 シーシャ：誓約 Line 50:  - Comment: 
+Common Event 83 シーシャ：誓約 Line 51:  - Comment: 
+Common Event 83 シーシャ：誓約 Line 52:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 83 シーシャ：誓約 Line 114:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 83 シーシャ：誓約 Line 115:  - Comment: 
+Common Event 83 シーシャ：誓約 Line 116:  - Comment: 誓約Lv2
+Common Event 83 シーシャ：誓約 Line 117:  - Comment: 
+Common Event 83 シーシャ：誓約 Line 118:  - Comment: 
+Common Event 83 シーシャ：誓約 Line 119:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 83 シーシャ：誓約 Line 214:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 83 シーシャ：誓約 Line 215:  - Comment: 
+Common Event 83 シーシャ：誓約 Line 216:  - Comment: 誓約Lv3
+Common Event 83 シーシャ：誓約 Line 217:  - Comment: 
+Common Event 83 シーシャ：誓約 Line 218:  - Comment: 
+Common Event 83 シーシャ：誓約 Line 219:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 84 公爵夫人：誓約 Line 3:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 84 公爵夫人：誓約 Line 4:  - Comment: 
+Common Event 84 公爵夫人：誓約 Line 5:  - Comment: 誓約Lv0
+Common Event 84 公爵夫人：誓約 Line 6:  - Comment: 
+Common Event 84 公爵夫人：誓約 Line 7:  - Comment: 
+Common Event 84 公爵夫人：誓約 Line 8:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 84 公爵夫人：誓約 Line 53:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 84 公爵夫人：誓約 Line 54:  - Comment: 
+Common Event 84 公爵夫人：誓約 Line 55:  - Comment: 誓約Lv1
+Common Event 84 公爵夫人：誓約 Line 56:  - Comment: 
+Common Event 84 公爵夫人：誓約 Line 57:  - Comment: 
+Common Event 84 公爵夫人：誓約 Line 58:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 84 公爵夫人：誓約 Line 124:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 84 公爵夫人：誓約 Line 125:  - Comment: 
+Common Event 84 公爵夫人：誓約 Line 126:  - Comment: 誓約Lv2
+Common Event 84 公爵夫人：誓約 Line 127:  - Comment: 
+Common Event 84 公爵夫人：誓約 Line 128:  - Comment: 
+Common Event 84 公爵夫人：誓約 Line 129:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 84 公爵夫人：誓約 Line 216:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 84 公爵夫人：誓約 Line 217:  - Comment: 
+Common Event 84 公爵夫人：誓約 Line 218:  - Comment: 誓約Lv3
+Common Event 84 公爵夫人：誓約 Line 219:  - Comment: 
+Common Event 84 公爵夫人：誓約 Line 220:  - Comment: 
+Common Event 84 公爵夫人：誓約 Line 221:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 85 ロリーナ：誓約 Line 3:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 85 ロリーナ：誓約 Line 4:  - Comment: 
+Common Event 85 ロリーナ：誓約 Line 5:  - Comment: 誓約Lv0
+Common Event 85 ロリーナ：誓約 Line 6:  - Comment: 
+Common Event 85 ロリーナ：誓約 Line 7:  - Comment: 
+Common Event 85 ロリーナ：誓約 Line 8:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 85 ロリーナ：誓約 Line 52:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 85 ロリーナ：誓約 Line 53:  - Comment: 
+Common Event 85 ロリーナ：誓約 Line 54:  - Comment: 誓約Lv1
+Common Event 85 ロリーナ：誓約 Line 55:  - Comment: 
+Common Event 85 ロリーナ：誓約 Line 56:  - Comment: 
+Common Event 85 ロリーナ：誓約 Line 57:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 85 ロリーナ：誓約 Line 111:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 85 ロリーナ：誓約 Line 112:  - Comment: 
+Common Event 85 ロリーナ：誓約 Line 113:  - Comment: 誓約Lv2
+Common Event 85 ロリーナ：誓約 Line 114:  - Comment: 
+Common Event 85 ロリーナ：誓約 Line 115:  - Comment: 
+Common Event 85 ロリーナ：誓約 Line 116:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 85 ロリーナ：誓約 Line 202:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 85 ロリーナ：誓約 Line 203:  - Comment: 
+Common Event 85 ロリーナ：誓約 Line 204:  - Comment: 誓約Lv3
+Common Event 85 ロリーナ：誓約 Line 205:  - Comment: 
+Common Event 85 ロリーナ：誓約 Line 206:  - Comment: 
+Common Event 85 ロリーナ：誓約 Line 207:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 86 帽子屋：誓約 Line 3:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 86 帽子屋：誓約 Line 4:  - Comment: 
+Common Event 86 帽子屋：誓約 Line 5:  - Comment: 誓約Lv0
+Common Event 86 帽子屋：誓約 Line 6:  - Comment: 
+Common Event 86 帽子屋：誓約 Line 7:  - Comment: 
+Common Event 86 帽子屋：誓約 Line 8:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 86 帽子屋：誓約 Line 49:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 86 帽子屋：誓約 Line 50:  - Comment: 
+Common Event 86 帽子屋：誓約 Line 51:  - Comment: 誓約Lv1
+Common Event 86 帽子屋：誓約 Line 52:  - Comment: 
+Common Event 86 帽子屋：誓約 Line 53:  - Comment: 
+Common Event 86 帽子屋：誓約 Line 54:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 86 帽子屋：誓約 Line 104:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 86 帽子屋：誓約 Line 105:  - Comment: 
+Common Event 86 帽子屋：誓約 Line 106:  - Comment: 誓約Lv2
+Common Event 86 帽子屋：誓約 Line 107:  - Comment: 
+Common Event 86 帽子屋：誓約 Line 108:  - Comment: 
+Common Event 86 帽子屋：誓約 Line 109:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 86 帽子屋：誓約 Line 184:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 86 帽子屋：誓約 Line 185:  - Comment: 
+Common Event 86 帽子屋：誓約 Line 186:  - Comment: 誓約Lv3
+Common Event 86 帽子屋：誓約 Line 187:  - Comment: 
+Common Event 86 帽子屋：誓約 Line 188:  - Comment: 
+Common Event 86 帽子屋：誓約 Line 189:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 87 ウミガメモドキ：誓約 Line 3:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 87 ウミガメモドキ：誓約 Line 4:  - Comment: 
+Common Event 87 ウミガメモドキ：誓約 Line 5:  - Comment: 誓約Lv0
+Common Event 87 ウミガメモドキ：誓約 Line 6:  - Comment: 
+Common Event 87 ウミガメモドキ：誓約 Line 7:  - Comment: 
+Common Event 87 ウミガメモドキ：誓約 Line 8:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 87 ウミガメモドキ：誓約 Line 52:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 87 ウミガメモドキ：誓約 Line 53:  - Comment: 
+Common Event 87 ウミガメモドキ：誓約 Line 54:  - Comment: 誓約Lv1
+Common Event 87 ウミガメモドキ：誓約 Line 55:  - Comment: 
+Common Event 87 ウミガメモドキ：誓約 Line 56:  - Comment: 
+Common Event 87 ウミガメモドキ：誓約 Line 57:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 87 ウミガメモドキ：誓約 Line 128:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 87 ウミガメモドキ：誓約 Line 129:  - Comment: 
+Common Event 87 ウミガメモドキ：誓約 Line 130:  - Comment: 誓約Lv2
+Common Event 87 ウミガメモドキ：誓約 Line 131:  - Comment: 
+Common Event 87 ウミガメモドキ：誓約 Line 132:  - Comment: 
+Common Event 87 ウミガメモドキ：誓約 Line 133:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 87 ウミガメモドキ：誓約 Line 223:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 87 ウミガメモドキ：誓約 Line 224:  - Comment: 
+Common Event 87 ウミガメモドキ：誓約 Line 225:  - Comment: 誓約Lv3
+Common Event 87 ウミガメモドキ：誓約 Line 226:  - Comment: 
+Common Event 87 ウミガメモドキ：誓約 Line 227:  - Comment: 
+Common Event 87 ウミガメモドキ：誓約 Line 228:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 88 ビクトリア：誓約 Line 3:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 88 ビクトリア：誓約 Line 4:  - Comment: 
+Common Event 88 ビクトリア：誓約 Line 5:  - Comment: 誓約Lv0
+Common Event 88 ビクトリア：誓約 Line 6:  - Comment: 
+Common Event 88 ビクトリア：誓約 Line 7:  - Comment: 
+Common Event 88 ビクトリア：誓約 Line 8:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 88 ビクトリア：誓約 Line 54:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 88 ビクトリア：誓約 Line 55:  - Comment: 
+Common Event 88 ビクトリア：誓約 Line 56:  - Comment: 誓約Lv1
+Common Event 88 ビクトリア：誓約 Line 57:  - Comment: 
+Common Event 88 ビクトリア：誓約 Line 58:  - Comment: 
+Common Event 88 ビクトリア：誓約 Line 59:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 88 ビクトリア：誓約 Line 140:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 88 ビクトリア：誓約 Line 141:  - Comment: 
+Common Event 88 ビクトリア：誓約 Line 142:  - Comment: 誓約Lv2
+Common Event 88 ビクトリア：誓約 Line 143:  - Comment: 
+Common Event 88 ビクトリア：誓約 Line 144:  - Comment: 
+Common Event 88 ビクトリア：誓約 Line 145:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 88 ビクトリア：誓約 Line 237:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 88 ビクトリア：誓約 Line 238:  - Comment: 
+Common Event 88 ビクトリア：誓約 Line 239:  - Comment: 誓約Lv3
+Common Event 88 ビクトリア：誓約 Line 240:  - Comment: 
+Common Event 88 ビクトリア：誓約 Line 241:  - Comment: 
+Common Event 88 ビクトリア：誓約 Line 242:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 89 バンダースナッチ：誓約 Line 3:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 89 バンダースナッチ：誓約 Line 4:  - Comment: 
+Common Event 89 バンダースナッチ：誓約 Line 5:  - Comment: 誓約Lv0
+Common Event 89 バンダースナッチ：誓約 Line 6:  - Comment: 
+Common Event 89 バンダースナッチ：誓約 Line 7:  - Comment: 
+Common Event 89 バンダースナッチ：誓約 Line 8:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 89 バンダースナッチ：誓約 Line 68:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 89 バンダースナッチ：誓約 Line 69:  - Comment: 
+Common Event 89 バンダースナッチ：誓約 Line 70:  - Comment: 誓約Lv1
+Common Event 89 バンダースナッチ：誓約 Line 71:  - Comment: 
+Common Event 89 バンダースナッチ：誓約 Line 72:  - Comment: 
+Common Event 89 バンダースナッチ：誓約 Line 73:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 89 バンダースナッチ：誓約 Line 130:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 89 バンダースナッチ：誓約 Line 131:  - Comment: 
+Common Event 89 バンダースナッチ：誓約 Line 132:  - Comment: 誓約Lv2
+Common Event 89 バンダースナッチ：誓約 Line 133:  - Comment: 
+Common Event 89 バンダースナッチ：誓約 Line 134:  - Comment: 
+Common Event 89 バンダースナッチ：誓約 Line 135:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 89 バンダースナッチ：誓約 Line 204:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 89 バンダースナッチ：誓約 Line 205:  - Comment: 
+Common Event 89 バンダースナッチ：誓約 Line 206:  - Comment: 誓約Lv3
+Common Event 89 バンダースナッチ：誓約 Line 207:  - Comment: 
+Common Event 89 バンダースナッチ：誓約 Line 208:  - Comment: 
+Common Event 89 バンダースナッチ：誓約 Line 209:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 90 ジャブジャブ：誓約 Line 3:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 90 ジャブジャブ：誓約 Line 4:  - Comment: 
+Common Event 90 ジャブジャブ：誓約 Line 5:  - Comment: 誓約Lv0
+Common Event 90 ジャブジャブ：誓約 Line 6:  - Comment: 
+Common Event 90 ジャブジャブ：誓約 Line 7:  - Comment: 
+Common Event 90 ジャブジャブ：誓約 Line 8:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 90 ジャブジャブ：誓約 Line 48:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 90 ジャブジャブ：誓約 Line 49:  - Comment: 
+Common Event 90 ジャブジャブ：誓約 Line 50:  - Comment: 誓約Lv1
+Common Event 90 ジャブジャブ：誓約 Line 51:  - Comment: 
+Common Event 90 ジャブジャブ：誓約 Line 52:  - Comment: 
+Common Event 90 ジャブジャブ：誓約 Line 53:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 90 ジャブジャブ：誓約 Line 108:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 90 ジャブジャブ：誓約 Line 109:  - Comment: 
+Common Event 90 ジャブジャブ：誓約 Line 110:  - Comment: 誓約Lv2
+Common Event 90 ジャブジャブ：誓約 Line 111:  - Comment: 
+Common Event 90 ジャブジャブ：誓約 Line 112:  - Comment: 
+Common Event 90 ジャブジャブ：誓約 Line 113:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 90 ジャブジャブ：誓約 Line 186:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 90 ジャブジャブ：誓約 Line 187:  - Comment: 
+Common Event 90 ジャブジャブ：誓約 Line 188:  - Comment: 誓約Lv3
+Common Event 90 ジャブジャブ：誓約 Line 189:  - Comment: 
+Common Event 90 ジャブジャブ：誓約 Line 190:  - Comment: 
+Common Event 90 ジャブジャブ：誓約 Line 191:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 91 ジャバウォック：誓約 Line 3:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 91 ジャバウォック：誓約 Line 4:  - Comment: 
+Common Event 91 ジャバウォック：誓約 Line 5:  - Comment: 誓約Lv0
+Common Event 91 ジャバウォック：誓約 Line 6:  - Comment: 
+Common Event 91 ジャバウォック：誓約 Line 7:  - Comment: 
+Common Event 91 ジャバウォック：誓約 Line 8:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 91 ジャバウォック：誓約 Line 54:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 91 ジャバウォック：誓約 Line 55:  - Comment: 
+Common Event 91 ジャバウォック：誓約 Line 56:  - Comment: 誓約Lv1
+Common Event 91 ジャバウォック：誓約 Line 57:  - Comment: 
+Common Event 91 ジャバウォック：誓約 Line 58:  - Comment: 
+Common Event 91 ジャバウォック：誓約 Line 59:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 91 ジャバウォック：誓約 Line 119:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 91 ジャバウォック：誓約 Line 120:  - Comment: 
+Common Event 91 ジャバウォック：誓約 Line 121:  - Comment: 誓約Lv2
+Common Event 91 ジャバウォック：誓約 Line 122:  - Comment: 
+Common Event 91 ジャバウォック：誓約 Line 123:  - Comment: 
+Common Event 91 ジャバウォック：誓約 Line 124:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 91 ジャバウォック：誓約 Line 197:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 91 ジャバウォック：誓約 Line 198:  - Comment: 
+Common Event 91 ジャバウォック：誓約 Line 199:  - Comment: 誓約Lv3
+Common Event 91 ジャバウォック：誓約 Line 200:  - Comment: 
+Common Event 91 ジャバウォック：誓約 Line 201:  - Comment: 
+Common Event 91 ジャバウォック：誓約 Line 202:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 92 シヴーチ：誓約 Line 3:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 92 シヴーチ：誓約 Line 4:  - Comment: 
+Common Event 92 シヴーチ：誓約 Line 5:  - Comment: 誓約Lv0
+Common Event 92 シヴーチ：誓約 Line 6:  - Comment: 
+Common Event 92 シヴーチ：誓約 Line 7:  - Comment: 
+Common Event 92 シヴーチ：誓約 Line 8:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 92 シヴーチ：誓約 Line 53:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 92 シヴーチ：誓約 Line 54:  - Comment: 
+Common Event 92 シヴーチ：誓約 Line 55:  - Comment: 誓約Lv1
+Common Event 92 シヴーチ：誓約 Line 56:  - Comment: 
+Common Event 92 シヴーチ：誓約 Line 57:  - Comment: 
+Common Event 92 シヴーチ：誓約 Line 58:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 92 シヴーチ：誓約 Line 112:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 92 シヴーチ：誓約 Line 113:  - Comment: 
+Common Event 92 シヴーチ：誓約 Line 114:  - Comment: 誓約Lv2
+Common Event 92 シヴーチ：誓約 Line 115:  - Comment: 
+Common Event 92 シヴーチ：誓約 Line 116:  - Comment: 
+Common Event 92 シヴーチ：誓約 Line 117:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 92 シヴーチ：誓約 Line 188:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 92 シヴーチ：誓約 Line 189:  - Comment: 
+Common Event 92 シヴーチ：誓約 Line 190:  - Comment: 誓約Lv3
+Common Event 92 シヴーチ：誓約 Line 191:  - Comment: 
+Common Event 92 シヴーチ：誓約 Line 192:  - Comment: 
+Common Event 92 シヴーチ：誓約 Line 193:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 93 クティ：誓約 Line 3:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 93 クティ：誓約 Line 4:  - Comment: 
+Common Event 93 クティ：誓約 Line 5:  - Comment: 誓約Lv0
+Common Event 93 クティ：誓約 Line 6:  - Comment: 
+Common Event 93 クティ：誓約 Line 7:  - Comment: 
+Common Event 93 クティ：誓約 Line 8:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 93 クティ：誓約 Line 53:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 93 クティ：誓約 Line 54:  - Comment: 
+Common Event 93 クティ：誓約 Line 55:  - Comment: 誓約Lv1
+Common Event 93 クティ：誓約 Line 56:  - Comment: 
+Common Event 93 クティ：誓約 Line 57:  - Comment: 
+Common Event 93 クティ：誓約 Line 58:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 93 クティ：誓約 Line 112:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 93 クティ：誓約 Line 113:  - Comment: 
+Common Event 93 クティ：誓約 Line 114:  - Comment: 誓約Lv2
+Common Event 93 クティ：誓約 Line 115:  - Comment: 
+Common Event 93 クティ：誓約 Line 116:  - Comment: 
+Common Event 93 クティ：誓約 Line 117:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 93 クティ：誓約 Line 193:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 93 クティ：誓約 Line 194:  - Comment: 
+Common Event 93 クティ：誓約 Line 195:  - Comment: 誓約Lv3
+Common Event 93 クティ：誓約 Line 196:  - Comment: 
+Common Event 93 クティ：誓約 Line 197:  - Comment: 
+Common Event 93 クティ：誓約 Line 198:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 94 双子：誓約 Line 3:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 94 双子：誓約 Line 4:  - Comment: 
+Common Event 94 双子：誓約 Line 5:  - Comment: 誓約Lv0
+Common Event 94 双子：誓約 Line 6:  - Comment: 
+Common Event 94 双子：誓約 Line 7:  - Comment: 
+Common Event 94 双子：誓約 Line 8:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 94 双子：誓約 Line 55:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 94 双子：誓約 Line 56:  - Comment: 
+Common Event 94 双子：誓約 Line 57:  - Comment: 誓約Lv1
+Common Event 94 双子：誓約 Line 58:  - Comment: 
+Common Event 94 双子：誓約 Line 59:  - Comment: 
+Common Event 94 双子：誓約 Line 60:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 94 双子：誓約 Line 113:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 94 双子：誓約 Line 114:  - Comment: 
+Common Event 94 双子：誓約 Line 115:  - Comment: 誓約Lv2
+Common Event 94 双子：誓約 Line 116:  - Comment: 
+Common Event 94 双子：誓約 Line 117:  - Comment: 
+Common Event 94 双子：誓約 Line 118:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 94 双子：誓約 Line 204:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 94 双子：誓約 Line 205:  - Comment: 
+Common Event 94 双子：誓約 Line 206:  - Comment: 誓約Lv3
+Common Event 94 双子：誓約 Line 207:  - Comment: 
+Common Event 94 双子：誓約 Line 208:  - Comment: 
+Common Event 94 双子：誓約 Line 209:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 95 プリケット：誓約 Line 3:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 95 プリケット：誓約 Line 4:  - Comment: 
+Common Event 95 プリケット：誓約 Line 5:  - Comment: 誓約Lv0
+Common Event 95 プリケット：誓約 Line 6:  - Comment: 
+Common Event 95 プリケット：誓約 Line 7:  - Comment: 
+Common Event 95 プリケット：誓約 Line 8:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 95 プリケット：誓約 Line 46:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 95 プリケット：誓約 Line 47:  - Comment: 
+Common Event 95 プリケット：誓約 Line 48:  - Comment: 誓約Lv1
+Common Event 95 プリケット：誓約 Line 49:  - Comment: 
+Common Event 95 プリケット：誓約 Line 50:  - Comment: 
+Common Event 95 プリケット：誓約 Line 51:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 95 プリケット：誓約 Line 100:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 95 プリケット：誓約 Line 101:  - Comment: 
+Common Event 95 プリケット：誓約 Line 102:  - Comment: 誓約Lv2
+Common Event 95 プリケット：誓約 Line 103:  - Comment: 
+Common Event 95 プリケット：誓約 Line 104:  - Comment: 
+Common Event 95 プリケット：誓約 Line 105:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 95 プリケット：誓約 Line 179:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 95 プリケット：誓約 Line 180:  - Comment: 
+Common Event 95 プリケット：誓約 Line 181:  - Comment: 誓約Lv3
+Common Event 95 プリケット：誓約 Line 182:  - Comment: 
+Common Event 95 プリケット：誓約 Line 183:  - Comment: 
+Common Event 95 プリケット：誓約 Line 184:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 201 周回プレイ準備 Line 244:  - Comment: ==============================================================-
+Common Event 201 周回プレイ準備 Line 245:  - Comment: ネームウィンドウ on
+Common Event 270 ランダム魔物Ａ Line 1:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 270 ランダム魔物Ａ Line 2:  - Comment: EV 2,3,4,5,6 は魔物
+Common Event 270 ランダム魔物Ａ Line 3:  - Comment: 
+Common Event 270 ランダム魔物Ａ Line 4:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 270 ランダム魔物Ａ Line 6:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 270 ランダム魔物Ａ Line 7:  - Comment: 
+Common Event 270 ランダム魔物Ａ Line 8:  - Comment: 深度0
+Common Event 270 ランダム魔物Ａ Line 9:  - Comment: 
+Common Event 270 ランダム魔物Ａ Line 10:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 270 ランダム魔物Ａ Line 78:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 270 ランダム魔物Ａ Line 79:  - Comment: 
+Common Event 270 ランダム魔物Ａ Line 80:  - Comment: 深度1
+Common Event 270 ランダム魔物Ａ Line 81:  - Comment: 
+Common Event 270 ランダム魔物Ａ Line 82:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 270 ランダム魔物Ａ Line 297:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 270 ランダム魔物Ａ Line 298:  - Comment: 
+Common Event 270 ランダム魔物Ａ Line 299:  - Comment: 深度2
+Common Event 270 ランダム魔物Ａ Line 300:  - Comment: 
+Common Event 270 ランダム魔物Ａ Line 301:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 270 ランダム魔物Ａ Line 656:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 270 ランダム魔物Ａ Line 657:  - Comment: 
+Common Event 270 ランダム魔物Ａ Line 658:  - Comment: 深度3
+Common Event 270 ランダム魔物Ａ Line 659:  - Comment: 
+Common Event 270 ランダム魔物Ａ Line 660:  - Comment: 
+Common Event 270 ランダム魔物Ａ Line 661:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 270 ランダム魔物Ａ Line 1058:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 270 ランダム魔物Ａ Line 1059:  - Comment: 
+Common Event 270 ランダム魔物Ａ Line 1060:  - Comment: 深度4
+Common Event 270 ランダム魔物Ａ Line 1061:  - Comment: 
+Common Event 270 ランダム魔物Ａ Line 1062:  - Comment: 
+Common Event 270 ランダム魔物Ａ Line 1063:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 270 ランダム魔物Ａ Line 1425:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 270 ランダム魔物Ａ Line 1426:  - Comment: 
+Common Event 270 ランダム魔物Ａ Line 1427:  - Comment: 深度5
+Common Event 270 ランダム魔物Ａ Line 1428:  - Comment: 
+Common Event 270 ランダム魔物Ａ Line 1429:  - Comment: 
+Common Event 270 ランダム魔物Ａ Line 1430:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 270 ランダム魔物Ａ Line 1876:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 270 ランダム魔物Ａ Line 1877:  - Comment: 
+Common Event 270 ランダム魔物Ａ Line 1878:  - Comment: 深度6
+Common Event 270 ランダム魔物Ａ Line 1879:  - Comment: 
+Common Event 270 ランダム魔物Ａ Line 1880:  - Comment: 
+Common Event 270 ランダム魔物Ａ Line 1881:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 271 ランダム魔物Ｂ Line 1:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 271 ランダム魔物Ｂ Line 2:  - Comment: EV 2,3,4,5,6 は魔物
+Common Event 271 ランダム魔物Ｂ Line 3:  - Comment: 
+Common Event 271 ランダム魔物Ｂ Line 4:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 271 ランダム魔物Ｂ Line 73:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 271 ランダム魔物Ｂ Line 74:  - Comment: 
+Common Event 271 ランダム魔物Ｂ Line 75:  - Comment: 深度1
+Common Event 271 ランダム魔物Ｂ Line 76:  - Comment: 
+Common Event 271 ランダム魔物Ｂ Line 77:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 271 ランダム魔物Ｂ Line 292:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 271 ランダム魔物Ｂ Line 293:  - Comment: 
+Common Event 271 ランダム魔物Ｂ Line 294:  - Comment: 深度2
+Common Event 271 ランダム魔物Ｂ Line 295:  - Comment: 
+Common Event 271 ランダム魔物Ｂ Line 296:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 271 ランダム魔物Ｂ Line 651:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 271 ランダム魔物Ｂ Line 652:  - Comment: 
+Common Event 271 ランダム魔物Ｂ Line 653:  - Comment: 深度3
+Common Event 271 ランダム魔物Ｂ Line 654:  - Comment: 
+Common Event 271 ランダム魔物Ｂ Line 655:  - Comment: 
+Common Event 271 ランダム魔物Ｂ Line 656:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 271 ランダム魔物Ｂ Line 1053:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 271 ランダム魔物Ｂ Line 1054:  - Comment: 
+Common Event 271 ランダム魔物Ｂ Line 1055:  - Comment: 深度4
+Common Event 271 ランダム魔物Ｂ Line 1056:  - Comment: 
+Common Event 271 ランダム魔物Ｂ Line 1057:  - Comment: 
+Common Event 271 ランダム魔物Ｂ Line 1058:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 271 ランダム魔物Ｂ Line 1420:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 271 ランダム魔物Ｂ Line 1421:  - Comment: 
+Common Event 271 ランダム魔物Ｂ Line 1422:  - Comment: 深度5
+Common Event 271 ランダム魔物Ｂ Line 1423:  - Comment: 
+Common Event 271 ランダム魔物Ｂ Line 1424:  - Comment: 
+Common Event 271 ランダム魔物Ｂ Line 1425:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 271 ランダム魔物Ｂ Line 1871:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 271 ランダム魔物Ｂ Line 1872:  - Comment: 
+Common Event 271 ランダム魔物Ｂ Line 1873:  - Comment: 深度6
+Common Event 271 ランダム魔物Ｂ Line 1874:  - Comment: 
+Common Event 271 ランダム魔物Ｂ Line 1875:  - Comment: 
+Common Event 271 ランダム魔物Ｂ Line 1876:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 272 ランダム魔物Ｃ Line 1:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 272 ランダム魔物Ｃ Line 2:  - Comment: EV 2,3,4,5,6 は魔物
+Common Event 272 ランダム魔物Ｃ Line 3:  - Comment: 
+Common Event 272 ランダム魔物Ｃ Line 4:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 272 ランダム魔物Ｃ Line 73:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 272 ランダム魔物Ｃ Line 74:  - Comment: 
+Common Event 272 ランダム魔物Ｃ Line 75:  - Comment: 深度1
+Common Event 272 ランダム魔物Ｃ Line 76:  - Comment: 
+Common Event 272 ランダム魔物Ｃ Line 77:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 272 ランダム魔物Ｃ Line 292:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 272 ランダム魔物Ｃ Line 293:  - Comment: 
+Common Event 272 ランダム魔物Ｃ Line 294:  - Comment: 深度2
+Common Event 272 ランダム魔物Ｃ Line 295:  - Comment: 
+Common Event 272 ランダム魔物Ｃ Line 296:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 272 ランダム魔物Ｃ Line 651:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 272 ランダム魔物Ｃ Line 652:  - Comment: 
+Common Event 272 ランダム魔物Ｃ Line 653:  - Comment: 深度3
+Common Event 272 ランダム魔物Ｃ Line 654:  - Comment: 
+Common Event 272 ランダム魔物Ｃ Line 655:  - Comment: 
+Common Event 272 ランダム魔物Ｃ Line 656:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 272 ランダム魔物Ｃ Line 1053:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 272 ランダム魔物Ｃ Line 1054:  - Comment: 
+Common Event 272 ランダム魔物Ｃ Line 1055:  - Comment: 深度4
+Common Event 272 ランダム魔物Ｃ Line 1056:  - Comment: 
+Common Event 272 ランダム魔物Ｃ Line 1057:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 272 ランダム魔物Ｃ Line 1419:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 272 ランダム魔物Ｃ Line 1420:  - Comment: 
+Common Event 272 ランダム魔物Ｃ Line 1421:  - Comment: 深度5
+Common Event 272 ランダム魔物Ｃ Line 1422:  - Comment: 
+Common Event 272 ランダム魔物Ｃ Line 1423:  - Comment: 
+Common Event 272 ランダム魔物Ｃ Line 1424:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 272 ランダム魔物Ｃ Line 1870:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 272 ランダム魔物Ｃ Line 1871:  - Comment: 
+Common Event 272 ランダム魔物Ｃ Line 1872:  - Comment: 深度6
+Common Event 272 ランダム魔物Ｃ Line 1873:  - Comment: 
+Common Event 272 ランダム魔物Ｃ Line 1874:  - Comment: 
+Common Event 272 ランダム魔物Ｃ Line 1875:  - Comment: ===========================================================
+Common Event 273 ランダム魔物Ｄ Line 1:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 273 ランダム魔物Ｄ Line 2:  - Comment: EV 2,3,4,5,6 は魔物
+Common Event 273 ランダム魔物Ｄ Line 3:  - Comment: 
+Common Event 273 ランダム魔物Ｄ Line 4:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 273 ランダム魔物Ｄ Line 73:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 273 ランダム魔物Ｄ Line 74:  - Comment: 
+Common Event 273 ランダム魔物Ｄ Line 75:  - Comment: 深度1
+Common Event 273 ランダム魔物Ｄ Line 76:  - Comment: 
+Common Event 273 ランダム魔物Ｄ Line 77:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 273 ランダム魔物Ｄ Line 292:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 273 ランダム魔物Ｄ Line 293:  - Comment: 
+Common Event 273 ランダム魔物Ｄ Line 294:  - Comment: 深度2
+Common Event 273 ランダム魔物Ｄ Line 295:  - Comment: 
+Common Event 273 ランダム魔物Ｄ Line 296:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 273 ランダム魔物Ｄ Line 651:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 273 ランダム魔物Ｄ Line 652:  - Comment: 
+Common Event 273 ランダム魔物Ｄ Line 653:  - Comment: 深度3
+Common Event 273 ランダム魔物Ｄ Line 654:  - Comment: 
+Common Event 273 ランダム魔物Ｄ Line 655:  - Comment: 
+Common Event 273 ランダム魔物Ｄ Line 656:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 273 ランダム魔物Ｄ Line 1053:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 273 ランダム魔物Ｄ Line 1054:  - Comment: 
+Common Event 273 ランダム魔物Ｄ Line 1055:  - Comment: 深度4
+Common Event 273 ランダム魔物Ｄ Line 1056:  - Comment: 
+Common Event 273 ランダム魔物Ｄ Line 1057:  - Comment: 
+Common Event 273 ランダム魔物Ｄ Line 1058:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 273 ランダム魔物Ｄ Line 1420:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 273 ランダム魔物Ｄ Line 1421:  - Comment: 
+Common Event 273 ランダム魔物Ｄ Line 1422:  - Comment: 深度5
+Common Event 273 ランダム魔物Ｄ Line 1423:  - Comment: 
+Common Event 273 ランダム魔物Ｄ Line 1424:  - Comment: 
+Common Event 273 ランダム魔物Ｄ Line 1425:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 273 ランダム魔物Ｄ Line 1871:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 273 ランダム魔物Ｄ Line 1872:  - Comment: 
+Common Event 273 ランダム魔物Ｄ Line 1873:  - Comment: 深度6
+Common Event 273 ランダム魔物Ｄ Line 1874:  - Comment: 
+Common Event 273 ランダム魔物Ｄ Line 1875:  - Comment: 
+Common Event 273 ランダム魔物Ｄ Line 1876:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 274 ランダム魔物Ｅ Line 1:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 274 ランダム魔物Ｅ Line 2:  - Comment: EV 2,3,4,5,6 は魔物
+Common Event 274 ランダム魔物Ｅ Line 3:  - Comment: 
+Common Event 274 ランダム魔物Ｅ Line 4:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 274 ランダム魔物Ｅ Line 73:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 274 ランダム魔物Ｅ Line 74:  - Comment: 
+Common Event 274 ランダム魔物Ｅ Line 75:  - Comment: 深度1
+Common Event 274 ランダム魔物Ｅ Line 76:  - Comment: 
+Common Event 274 ランダム魔物Ｅ Line 77:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 274 ランダム魔物Ｅ Line 292:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 274 ランダム魔物Ｅ Line 293:  - Comment: 
+Common Event 274 ランダム魔物Ｅ Line 294:  - Comment: 深度2
+Common Event 274 ランダム魔物Ｅ Line 295:  - Comment: 
+Common Event 274 ランダム魔物Ｅ Line 296:  - Comment: 
+Common Event 274 ランダム魔物Ｅ Line 297:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 274 ランダム魔物Ｅ Line 652:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 274 ランダム魔物Ｅ Line 653:  - Comment: 
+Common Event 274 ランダム魔物Ｅ Line 654:  - Comment: 深度3
+Common Event 274 ランダム魔物Ｅ Line 655:  - Comment: 
+Common Event 274 ランダム魔物Ｅ Line 656:  - Comment: 
+Common Event 274 ランダム魔物Ｅ Line 657:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 274 ランダム魔物Ｅ Line 1054:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 274 ランダム魔物Ｅ Line 1055:  - Comment: 
+Common Event 274 ランダム魔物Ｅ Line 1056:  - Comment: 深度4
+Common Event 274 ランダム魔物Ｅ Line 1057:  - Comment: 
+Common Event 274 ランダム魔物Ｅ Line 1058:  - Comment: 
+Common Event 274 ランダム魔物Ｅ Line 1059:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 274 ランダム魔物Ｅ Line 1421:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 274 ランダム魔物Ｅ Line 1422:  - Comment: 
+Common Event 274 ランダム魔物Ｅ Line 1423:  - Comment: 深度5
+Common Event 274 ランダム魔物Ｅ Line 1424:  - Comment: 
+Common Event 274 ランダム魔物Ｅ Line 1425:  - Comment: 
+Common Event 274 ランダム魔物Ｅ Line 1426:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 274 ランダム魔物Ｅ Line 1872:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 274 ランダム魔物Ｅ Line 1873:  - Comment: 
+Common Event 274 ランダム魔物Ｅ Line 1874:  - Comment: 深度6
+Common Event 274 ランダム魔物Ｅ Line 1875:  - Comment: 
+Common Event 274 ランダム魔物Ｅ Line 1876:  - Comment: 
+Common Event 274 ランダム魔物Ｅ Line 1877:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 278 宝箱中身（アイテム） Line 1:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 278 宝箱中身（アイテム） Line 2:  - Comment: 
+Common Event 278 宝箱中身（アイテム） Line 3:  - Comment: 深度０
+Common Event 278 宝箱中身（アイテム） Line 4:  - Comment: 
+Common Event 278 宝箱中身（アイテム） Line 5:  - Comment: 
+Common Event 278 宝箱中身（アイテム） Line 6:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 278 宝箱中身（アイテム） Line 65:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 278 宝箱中身（アイテム） Line 66:  - Comment: 
+Common Event 278 宝箱中身（アイテム） Line 67:  - Comment: 深度１
+Common Event 278 宝箱中身（アイテム） Line 68:  - Comment: 
+Common Event 278 宝箱中身（アイテム） Line 69:  - Comment: 
+Common Event 278 宝箱中身（アイテム） Line 70:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 278 宝箱中身（アイテム） Line 435:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 278 宝箱中身（アイテム） Line 436:  - Comment: 
+Common Event 278 宝箱中身（アイテム） Line 437:  - Comment: 深度２
+Common Event 278 宝箱中身（アイテム） Line 438:  - Comment: 
+Common Event 278 宝箱中身（アイテム） Line 439:  - Comment: 
+Common Event 278 宝箱中身（アイテム） Line 440:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 278 宝箱中身（アイテム） Line 805:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 278 宝箱中身（アイテム） Line 806:  - Comment: 
+Common Event 278 宝箱中身（アイテム） Line 807:  - Comment: 深度３
+Common Event 278 宝箱中身（アイテム） Line 808:  - Comment: 
+Common Event 278 宝箱中身（アイテム） Line 809:  - Comment: 
+Common Event 278 宝箱中身（アイテム） Line 810:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 278 宝箱中身（アイテム） Line 1175:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 278 宝箱中身（アイテム） Line 1176:  - Comment: 
+Common Event 278 宝箱中身（アイテム） Line 1177:  - Comment: 深度４
+Common Event 278 宝箱中身（アイテム） Line 1178:  - Comment: 
+Common Event 278 宝箱中身（アイテム） Line 1179:  - Comment: 
+Common Event 278 宝箱中身（アイテム） Line 1180:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 278 宝箱中身（アイテム） Line 1545:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 278 宝箱中身（アイテム） Line 1546:  - Comment: 
+Common Event 278 宝箱中身（アイテム） Line 1547:  - Comment: 深度５
+Common Event 278 宝箱中身（アイテム） Line 1548:  - Comment: 
+Common Event 278 宝箱中身（アイテム） Line 1549:  - Comment: 
+Common Event 278 宝箱中身（アイテム） Line 1550:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 278 宝箱中身（アイテム） Line 1975:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 278 宝箱中身（アイテム） Line 1976:  - Comment: 
+Common Event 278 宝箱中身（アイテム） Line 1977:  - Comment: 深度６
+Common Event 278 宝箱中身（アイテム） Line 1978:  - Comment: 
+Common Event 278 宝箱中身（アイテム） Line 1979:  - Comment: 
+Common Event 278 宝箱中身（アイテム） Line 1980:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 279 宝箱中身（装備） Line 1:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 279 宝箱中身（装備） Line 2:  - Comment: 
+Common Event 279 宝箱中身（装備） Line 3:  - Comment: 深度０
+Common Event 279 宝箱中身（装備） Line 4:  - Comment: 
+Common Event 279 宝箱中身（装備） Line 5:  - Comment: 
+Common Event 279 宝箱中身（装備） Line 6:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 279 宝箱中身（装備） Line 347:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 279 宝箱中身（装備） Line 348:  - Comment: 
+Common Event 279 宝箱中身（装備） Line 349:  - Comment: 深度１～２
+Common Event 279 宝箱中身（装備） Line 350:  - Comment: 
+Common Event 279 宝箱中身（装備） Line 351:  - Comment: 
+Common Event 279 宝箱中身（装備） Line 352:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 279 宝箱中身（装備） Line 1321:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 279 宝箱中身（装備） Line 1322:  - Comment: 
+Common Event 279 宝箱中身（装備） Line 1323:  - Comment: 深度３～４
+Common Event 279 宝箱中身（装備） Line 1324:  - Comment: 
+Common Event 279 宝箱中身（装備） Line 1325:  - Comment: 
+Common Event 279 宝箱中身（装備） Line 1326:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 279 宝箱中身（装備） Line 3387:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 279 宝箱中身（装備） Line 3388:  - Comment: 
+Common Event 279 宝箱中身（装備） Line 3389:  - Comment: 深度５～６
+Common Event 279 宝箱中身（装備） Line 3390:  - Comment: 
+Common Event 279 宝箱中身（装備） Line 3391:  - Comment: 
+Common Event 279 宝箱中身（装備） Line 3392:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 279 宝箱中身（装備） Line 5837:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 279 宝箱中身（装備） Line 5838:  - Comment: 
+Common Event 279 宝箱中身（装備） Line 5839:  - Comment: 深度６～７
+Common Event 279 宝箱中身（装備） Line 5840:  - Comment: 
+Common Event 279 宝箱中身（装備） Line 5841:  - Comment: 
+Common Event 279 宝箱中身（装備） Line 5842:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 279 宝箱中身（装備） Line 8635:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 279 宝箱中身（装備） Line 8636:  - Comment: 
+Common Event 279 宝箱中身（装備） Line 8637:  - Comment: 深度８
+Common Event 279 宝箱中身（装備） Line 8638:  - Comment: 
+Common Event 279 宝箱中身（装備） Line 8639:  - Comment: 
+Common Event 279 宝箱中身（装備） Line 8640:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 280 魔書中身 Line 1:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 280 魔書中身 Line 2:  - Comment: 
+Common Event 280 魔書中身 Line 3:  - Comment: 深度０
+Common Event 280 魔書中身 Line 4:  - Comment: 
+Common Event 280 魔書中身 Line 5:  - Comment: 
+Common Event 280 魔書中身 Line 6:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 280 魔書中身 Line 101:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 280 魔書中身 Line 102:  - Comment: 
+Common Event 280 魔書中身 Line 103:  - Comment: 深度１～２
+Common Event 280 魔書中身 Line 104:  - Comment: 
+Common Event 280 魔書中身 Line 105:  - Comment: 
+Common Event 280 魔書中身 Line 106:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 280 魔書中身 Line 379:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 280 魔書中身 Line 380:  - Comment: 
+Common Event 280 魔書中身 Line 381:  - Comment: 深度３～４
+Common Event 280 魔書中身 Line 382:  - Comment: 
+Common Event 280 魔書中身 Line 383:  - Comment: 
+Common Event 280 魔書中身 Line 384:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 280 魔書中身 Line 753:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 280 魔書中身 Line 754:  - Comment: 
+Common Event 280 魔書中身 Line 755:  - Comment: 深度５～６
+Common Event 280 魔書中身 Line 756:  - Comment: 
+Common Event 280 魔書中身 Line 757:  - Comment: 
+Common Event 280 魔書中身 Line 758:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 280 魔書中身 Line 1235:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 280 魔書中身 Line 1236:  - Comment: 
+Common Event 280 魔書中身 Line 1237:  - Comment: 深度７～９
+Common Event 280 魔書中身 Line 1238:  - Comment: 
+Common Event 280 魔書中身 Line 1239:  - Comment: 
+Common Event 280 魔書中身 Line 1240:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 280 魔書中身 Line 2243:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 280 魔書中身 Line 2244:  - Comment: 
+Common Event 280 魔書中身 Line 2245:  - Comment: 深度１０
+Common Event 280 魔書中身 Line 2246:  - Comment: 
+Common Event 280 魔書中身 Line 2247:  - Comment: 
+Common Event 280 魔書中身 Line 2248:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 306 シーン：麻袋女強姦 Line 17:  - Comment: NW名前指定 麻袋女
+Common Event 306 シーン：麻袋女強姦 Line 29:  - Comment: NW名前指定 麻袋女
+Common Event 306 シーン：麻袋女強姦 Line 41:  - Comment: NW名前指定 麻袋女
+Common Event 306 シーン：麻袋女強姦 Line 47:  - Comment: NW名前指定 麻袋女
+Common Event 306 シーン：麻袋女強姦 Line 63:  - Comment: NW名前指定 麻袋女
+Common Event 306 シーン：麻袋女強姦 Line 70:  - Comment: NW名前指定 麻袋女
+Common Event 306 シーン：麻袋女強姦 Line 108:  - Comment: NW名前指定 麻袋女
+Common Event 306 シーン：麻袋女強姦 Line 114:  - Comment: NW名前指定 麻袋女
+Common Event 306 シーン：麻袋女強姦 Line 130:  - Comment: NW名前指定 麻袋女
+Common Event 306 シーン：麻袋女強姦 Line 147:  - Comment: NW名前指定 麻袋女
+Common Event 306 シーン：麻袋女強姦 Line 154:  - Comment: NW名前指定 麻袋女
+Common Event 306 シーン：麻袋女強姦 Line 167:  - Comment: NW名前指定 麻袋女
+Common Event 306 シーン：麻袋女強姦 Line 179:  - Comment: NW名前指定 麻袋女
+Common Event 306 シーン：麻袋女強姦 Line 195:  - Comment: NW名前指定 麻袋女
+Common Event 306 シーン：麻袋女強姦 Line 202:  - Comment: NW名前指定 麻袋女
+Common Event 306 シーン：麻袋女強姦 Line 215:  - Comment: NW名前指定 麻袋女
+Common Event 306 シーン：麻袋女強姦 Line 227:  - Comment: NW名前指定 麻袋女
+Common Event 307 シーン：ブラックウェル強姦 Line 89:  - Comment: NW名前指定 医師ブラックウェル
+Common Event 307 シーン：ブラックウェル強姦 Line 98:  - Comment: NW名前指定 医師ブラックウェル
+Common Event 307 シーン：ブラックウェル強姦 Line 105:  - Comment: NW名前指定 医師ブラックウェル
+Common Event 307 シーン：ブラックウェル強姦 Line 116:  - Comment: NW名前指定 医師ブラックウェル
+Common Event 307 シーン：ブラックウェル強姦 Line 124:  - Comment: NW名前指定 医師ブラックウェル
+Common Event 307 シーン：ブラックウェル強姦 Line 134:  - Comment: NW名前指定 医師ブラックウェル
+Common Event 307 シーン：ブラックウェル強姦 Line 142:  - Comment: NW名前指定 医師ブラックウェル
+Common Event 308 シーン：ブラックウェル監禁 Line 16:  - Comment: NW名前指定 医師ブラックウェル
+Common Event 308 シーン：ブラックウェル監禁 Line 23:  - Comment: NW名前指定 医師ブラックウェル
+Common Event 308 シーン：ブラックウェル監禁 Line 34:  - Comment: NW名前指定 医師ブラックウェル
+Common Event 308 シーン：ブラックウェル監禁 Line 42:  - Comment: NW名前指定 医師ブラックウェル
+Common Event 308 シーン：ブラックウェル監禁 Line 50:  - Comment: NW名前指定 医師ブラックウェル
+Common Event 308 シーン：ブラックウェル監禁 Line 60:  - Comment: NW名前指定 医師ブラックウェル
+Common Event 308 シーン：ブラックウェル監禁 Line 67:  - Comment: NW名前指定 医師ブラックウェル
+Common Event 318 シーン：ランジェリーナ和姦 Line 193:  - Comment: NW名前指定 串刺し公女クルティザンヌ
+Common Event 318 シーン：ランジェリーナ和姦 Line 203:  - Comment: NW名前指定 串刺し公女クルティザンヌ
+Common Event 318 シーン：ランジェリーナ和姦 Line 206:  - Comment: NW名前指定 串刺し公女クルティザンヌ
+Common Event 318 シーン：ランジェリーナ和姦 Line 214:  - Comment: NW名前指定 串刺し公女クルティザンヌ
+Common Event 318 シーン：ランジェリーナ和姦 Line 221:  - Comment: NW名前指定 串刺し公女クルティザンヌ
+Common Event 351 シヨ：誓約 Line 3:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 351 シヨ：誓約 Line 4:  - Comment: 
+Common Event 351 シヨ：誓約 Line 5:  - Comment: 誓約Lv0
+Common Event 351 シヨ：誓約 Line 6:  - Comment: 
+Common Event 351 シヨ：誓約 Line 7:  - Comment: 
+Common Event 351 シヨ：誓約 Line 8:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 351 シヨ：誓約 Line 46:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 351 シヨ：誓約 Line 47:  - Comment: 
+Common Event 351 シヨ：誓約 Line 48:  - Comment: 誓約Lv1
+Common Event 351 シヨ：誓約 Line 49:  - Comment: 
+Common Event 351 シヨ：誓約 Line 50:  - Comment: 
+Common Event 351 シヨ：誓約 Line 51:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 351 シヨ：誓約 Line 99:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 351 シヨ：誓約 Line 100:  - Comment: 
+Common Event 351 シヨ：誓約 Line 101:  - Comment: 誓約Lv2
+Common Event 351 シヨ：誓約 Line 102:  - Comment: 
+Common Event 351 シヨ：誓約 Line 103:  - Comment: 
+Common Event 351 シヨ：誓約 Line 104:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 351 シヨ：誓約 Line 162:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 351 シヨ：誓約 Line 163:  - Comment: 
+Common Event 351 シヨ：誓約 Line 164:  - Comment: 誓約Lv3
+Common Event 351 シヨ：誓約 Line 165:  - Comment: 
+Common Event 351 シヨ：誓約 Line 166:  - Comment: 
+Common Event 351 シヨ：誓約 Line 167:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 354 リデル家場所移動 Line 1:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 354 リデル家場所移動 Line 2:  - Comment: 
+Common Event 354 リデル家場所移動 Line 3:  - Comment: １階廊下
+Common Event 354 リデル家場所移動 Line 4:  - Comment: 
+Common Event 354 リデル家場所移動 Line 5:  - Comment: 
+Common Event 354 リデル家場所移動 Line 6:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 354 リデル家場所移動 Line 226:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 354 リデル家場所移動 Line 227:  - Comment: 
+Common Event 354 リデル家場所移動 Line 228:  - Comment: 居間
+Common Event 354 リデル家場所移動 Line 229:  - Comment: 
+Common Event 354 リデル家場所移動 Line 230:  - Comment: 
+Common Event 354 リデル家場所移動 Line 231:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 354 リデル家場所移動 Line 911:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 354 リデル家場所移動 Line 912:  - Comment: 
+Common Event 354 リデル家場所移動 Line 913:  - Comment: 玄関
+Common Event 354 リデル家場所移動 Line 914:  - Comment: 
+Common Event 354 リデル家場所移動 Line 915:  - Comment: 
+Common Event 354 リデル家場所移動 Line 916:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 354 リデル家場所移動 Line 1352:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 354 リデル家場所移動 Line 1353:  - Comment: 
+Common Event 354 リデル家場所移動 Line 1354:  - Comment: ２階廊下
+Common Event 354 リデル家場所移動 Line 1355:  - Comment: 
+Common Event 354 リデル家場所移動 Line 1356:  - Comment: 
+Common Event 354 リデル家場所移動 Line 1357:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 354 リデル家場所移動 Line 2011:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 354 リデル家場所移動 Line 2012:  - Comment: 
+Common Event 354 リデル家場所移動 Line 2013:  - Comment: 自室
+Common Event 354 リデル家場所移動 Line 2014:  - Comment: 
+Common Event 354 リデル家場所移動 Line 2015:  - Comment: 
+Common Event 354 リデル家場所移動 Line 2016:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 357 リデル家場所移動（崩壊） Line 1:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 357 リデル家場所移動（崩壊） Line 2:  - Comment: 
+Common Event 357 リデル家場所移動（崩壊） Line 3:  - Comment: １階廊下
+Common Event 357 リデル家場所移動（崩壊） Line 4:  - Comment: 
+Common Event 357 リデル家場所移動（崩壊） Line 5:  - Comment: 
+Common Event 357 リデル家場所移動（崩壊） Line 6:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 357 リデル家場所移動（崩壊） Line 84:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 357 リデル家場所移動（崩壊） Line 85:  - Comment: 
+Common Event 357 リデル家場所移動（崩壊） Line 86:  - Comment: 居間
+Common Event 357 リデル家場所移動（崩壊） Line 87:  - Comment: 
+Common Event 357 リデル家場所移動（崩壊） Line 88:  - Comment: 
+Common Event 357 リデル家場所移動（崩壊） Line 89:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 357 リデル家場所移動（崩壊） Line 158:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 357 リデル家場所移動（崩壊） Line 159:  - Comment: 
+Common Event 357 リデル家場所移動（崩壊） Line 160:  - Comment: 玄関
+Common Event 357 リデル家場所移動（崩壊） Line 161:  - Comment: 
+Common Event 357 リデル家場所移動（崩壊） Line 162:  - Comment: 
+Common Event 357 リデル家場所移動（崩壊） Line 163:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 357 リデル家場所移動（崩壊） Line 252:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 357 リデル家場所移動（崩壊） Line 253:  - Comment: 
+Common Event 357 リデル家場所移動（崩壊） Line 254:  - Comment: ２階廊下
+Common Event 357 リデル家場所移動（崩壊） Line 255:  - Comment: 
+Common Event 357 リデル家場所移動（崩壊） Line 256:  - Comment: 
+Common Event 357 リデル家場所移動（崩壊） Line 257:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 357 リデル家場所移動（崩壊） Line 447:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 357 リデル家場所移動（崩壊） Line 448:  - Comment: 
+Common Event 357 リデル家場所移動（崩壊） Line 449:  - Comment: 自室
+Common Event 357 リデル家場所移動（崩壊） Line 450:  - Comment: 
+Common Event 357 リデル家場所移動（崩壊） Line 451:  - Comment: 
+Common Event 357 リデル家場所移動（崩壊） Line 452:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 357 リデル家場所移動（崩壊） Line 500:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 357 リデル家場所移動（崩壊） Line 501:  - Comment: 
+Common Event 357 リデル家場所移動（崩壊） Line 502:  - Comment: イーディスの部屋
+Common Event 357 リデル家場所移動（崩壊） Line 503:  - Comment: 
+Common Event 357 リデル家場所移動（崩壊） Line 504:  - Comment: 
+Common Event 357 リデル家場所移動（崩壊） Line 505:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 357 リデル家場所移動（崩壊） Line 555:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 357 リデル家場所移動（崩壊） Line 556:  - Comment: 
+Common Event 357 リデル家場所移動（崩壊） Line 557:  - Comment: ロリーナの部屋
+Common Event 357 リデル家場所移動（崩壊） Line 558:  - Comment: 
+Common Event 357 リデル家場所移動（崩壊） Line 559:  - Comment: 
+Common Event 357 リデル家場所移動（崩壊） Line 560:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 357 リデル家場所移動（崩壊） Line 609:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 357 リデル家場所移動（崩壊） Line 610:  - Comment: 
+Common Event 357 リデル家場所移動（崩壊） Line 611:  - Comment: アリスの部屋
+Common Event 357 リデル家場所移動（崩壊） Line 612:  - Comment: 
+Common Event 357 リデル家場所移動（崩壊） Line 613:  - Comment: 
+Common Event 357 リデル家場所移動（崩壊） Line 614:  - Comment: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 366 麻袋女未遂 Line 16:  - Comment: NW名前指定 麻袋女
+Common Event 366 麻袋女未遂 Line 23:  - Comment: NW名前指定 麻袋女
+Common Event 366 麻袋女未遂 Line 36:  - Comment: NW名前指定 麻袋女
+Common Event 366 麻袋女未遂 Line 50:  - Comment: NW名前指定 麻袋女
+Common Event 366 麻袋女未遂 Line 54:  - Comment: NW名前指定 麻袋女
+Common Event 366 麻袋女未遂 Line 132:  - Comment: NW名前指定 麻袋女
+Map 7 OP - Event 1 EV001 (0,0) - Page 1 Line 1:  - Comment: ネームウィンドウ on
+Map 8 ラドウィッジ市街 上層● - Event 3 EV003 (43,49) - Page 1 Line 1:  - Comment: NW名前指定 行方不明のノミ
+Map 9 オックス・ウォード学院 - Event 2 EV002 (20,89) - Page 1 Line 1:  - Comment: ジャック倒すと開く
+Map 9 オックス・ウォード学院 - Event 3 EV003 (18,89) - Page 1 Line 1:  - Comment: ジャック倒すと開く
+Map 9 オックス・ウォード学院 - Event 4 EV004 (19,89) - Page 1 Line 1:  - Comment: ジャック倒すと開く
+Map 9 オックス・ウォード学院 - Event 5 EV005 (19,88) - Page 1 Line 1:  - Comment: ジャック倒すと開く
+Map 9 オックス・ウォード学院 - Event 6 EV006 (20,88) - Page 1 Line 1:  - Comment: ジャック倒すと開く
+Map 9 オックス・ウォード学院 - Event 7 EV007 (20,87) - Page 1 Line 1:  - Comment: ジャック倒すと開く
+Map 9 オックス・ウォード学院 - Event 8 EV008 (18,88) - Page 1 Line 1:  - Comment: ジャック倒すと開く
+Map 9 オックス・ウォード学院 - Event 9 EV009 (18,87) - Page 1 Line 1:  - Comment: ジャック倒すと開く
+Map 9 オックス・ウォード学院 - Event 10 EV010 (19,87) - Page 1 Line 1:  - Comment: ジャック倒すと開く
+Map 12 精神病棟 - Event 7 EV007 (14,9) - Page 1 Line 2:  - Comment: NW名前指定 蜿嶺ｻ
+Map 12 精神病棟 - Event 7 EV007 (14,9) - Page 1 Line 15:  - Comment: NW名前指定 蜿嶺ｻ
+Map 12 精神病棟 - Event 7 EV007 (14,9) - Page 1 Line 24:  - Comment: NW名前指定 受付
+Map 12 精神病棟 - Event 7 EV007 (14,9) - Page 1 Line 32:  - Comment: NW名前指定 受付
+Map 12 精神病棟 - Event 7 EV007 (14,9) - Page 1 Line 45:  - Comment: NW名前指定 受付
+Map 12 精神病棟 - Event 8 EV008 (22,17) - Page 1 Line 1:  - Comment: NW名前指定 心折れた兵士
+Map 12 精神病棟 - Event 8 EV008 (22,17) - Page 1 Line 4:  - Comment: NW名前指定 心折れた兵士
+Map 12 精神病棟 - Event 8 EV008 (22,17) - Page 2 Line 1:  - Comment: NW名前指定 心折れた兵士
+Map 12 精神病棟 - Event 8 EV008 (22,17) - Page 2 Line 8:  - Comment: NW名前指定 心折れた兵士
+Map 12 精神病棟 - Event 9 EV009 (11,14) - Page 1 Line 2:  - Comment: NW名前指定 蛹?ｸｯ縺ｮ逕ｷ
+Map 12 精神病棟 - Event 9 EV009 (11,14) - Page 1 Line 20:  - Comment: NW名前指定 包帯の男
+Map 12 精神病棟 - Event 9 EV009 (11,14) - Page 1 Line 28:  - Comment: NW名前指定 包帯の男
+Map 12 精神病棟 - Event 10 EV010 (17,18) - Page 1 Line 2:  - Comment: NW名前指定 迥ｬ逕ｷ
+Map 12 精神病棟 - Event 10 EV010 (17,18) - Page 1 Line 20:  - Comment: NW名前指定 犬男
+Map 12 精神病棟 - Event 10 EV010 (17,18) - Page 1 Line 28:  - Comment: NW名前指定 犬男
+Map 12 精神病棟 - Event 11 EV011 (9,18) - Page 1 Line 2:  - Comment: NW名前指定 雋ｴ譌城｢ｨ縺ｮ逕ｷ
+Map 12 精神病棟 - Event 11 EV011 (9,18) - Page 1 Line 20:  - Comment: NW名前指定 貴族風の男
+Map 12 精神病棟 - Event 11 EV011 (9,18) - Page 1 Line 28:  - Comment: NW名前指定 貴族風の男
+Map 15 ４ - Event 30 EV030 (19,12) - Page 1 Line 2:  - Comment: NW名前指定 闊ｹ荵励ｊ
+Map 15 ４ - Event 30 EV030 (19,12) - Page 1 Line 25:  - Comment: NW名前指定 船乗り
+Map 25 ビリングズゲート魚市場 - Event 14 EV014 (6,7) - Page 1 Line 1:  - Comment: NW名前指定 狡猾な猿
+Map 25 ビリングズゲート魚市場 - Event 14 EV014 (6,7) - Page 1 Line 6:  - Comment: NW名前指定 狡猾な猿
+Map 25 ビリングズゲート魚市場 - Event 14 EV014 (6,7) - Page 1 Line 11:  - Comment: NW名前指定 狡猾な猿
+Map 25 ビリングズゲート魚市場 - Event 33 EV033 (7,7) - Page 1 Line 1:  - Comment: NW名前指定 狡猾な猿
+Map 25 ビリングズゲート魚市場 - Event 33 EV033 (7,7) - Page 1 Line 6:  - Comment: NW名前指定 狡猾な猿
+Map 25 ビリングズゲート魚市場 - Event 33 EV033 (7,7) - Page 1 Line 11:  - Comment: NW名前指定 狡猾な猿
+Map 25 ビリングズゲート魚市場 - Event 35 EV035 (5,7) - Page 1 Line 1:  - Comment: NW名前指定 狡猾な猿
+Map 25 ビリングズゲート魚市場 - Event 35 EV035 (5,7) - Page 1 Line 6:  - Comment: NW名前指定 狡猾な猿
+Map 25 ビリングズゲート魚市場 - Event 35 EV035 (5,7) - Page 1 Line 11:  - Comment: NW名前指定 狡猾な猿
+Map 25 ビリングズゲート魚市場 - Event 36 EV036 (8,7) - Page 1 Line 1:  - Comment: NW名前指定 狡猾な猿
+Map 25 ビリングズゲート魚市場 - Event 36 EV036 (8,7) - Page 1 Line 6:  - Comment: NW名前指定 狡猾な猿
+Map 25 ビリングズゲート魚市場 - Event 36 EV036 (8,7) - Page 1 Line 11:  - Comment: NW名前指定 狡猾な猿
+Map 25 ビリングズゲート魚市場 - Event 37 EV037 (9,7) - Page 1 Line 1:  - Comment: NW名前指定 狡猾な猿
+Map 25 ビリングズゲート魚市場 - Event 37 EV037 (9,7) - Page 1 Line 6:  - Comment: NW名前指定 狡猾な猿
+Map 25 ビリングズゲート魚市場 - Event 37 EV037 (9,7) - Page 1 Line 11:  - Comment: NW名前指定 狡猾な猿
+Map 28 オイスターの腐死海   - Event 2 EV002 (7,12) - Page 1 Line 1:  - Comment: NW名前指定 年寄りカキ
+Map 28 オイスターの腐死海   - Event 2 EV002 (7,12) - Page 1 Line 4:  - Comment: NW名前指定 年寄りカキ
+Map 28 オイスターの腐死海   - Event 2 EV002 (7,12) - Page 1 Line 10:  - Comment: NW名前指定 年寄りカキ
+Map 29 デバッグ - Event 1 ソウル (2,1) - Page 1 Line 1:  - Comment: <出現条件>
+Map 29 デバッグ - Event 1 ソウル (2,1) - Page 1 Line 2:  - Comment: スイッチ[69] == ON 
+Map 29 デバッグ - Event 1 ソウル (2,1) - Page 1 Line 3:  - Comment: 変数[21] == 29
+Map 29 デバッグ - Event 1 ソウル (2,1) - Page 1 Line 4:  - Comment: <条件終了>
+Map 29 デバッグ - Event 23 EV023 (11,1) - Page 1 Line 1:  - Comment: ネームウィンドウ on
+Map 29 デバッグ - Event 25 店 (15,4) - Page 1 Line 2:  - Comment: NW名前指定 シロクマ
+Map 29 デバッグ - Event 25 店 (15,4) - Page 1 Line 5:  - Comment: NW名前指定 シロクマ
+Map 29 デバッグ - Event 26 EV026 (15,1) - Page 1 Line 1:  - Comment: ジャブ誓約時に出現
+Map 29 デバッグ - Event 26 EV026 (15,1) - Page 1 Line 2:  - Comment: 主人公とシたいが素直になれないので
+Map 29 デバッグ - Event 26 EV026 (15,1) - Page 1 Line 3:  - Comment: わざとここに設置した。
+Map 31 キャロル川● - Event 5 EV005 (62,25) - Page 1 Line 3:  - Comment: NW名前指定 驥｣繧贋ｺｺ
+Map 31 キャロル川● - Event 5 EV005 (62,25) - Page 1 Line 21:  - Comment: NW名前指定 釣り人
+Map 31 キャロル川● - Event 5 EV005 (62,25) - Page 1 Line 28:  - Comment: NW名前指定 釣り人
+Map 31 キャロル川● - Event 5 EV005 (62,25) - Page 1 Line 34:  - Comment: NW名前指定 釣り人
+Map 31 キャロル川● - Event 5 EV005 (62,25) - Page 1 Line 38:  - Comment: NW名前指定 釣り人
+Map 31 キャロル川● - Event 5 EV005 (62,25) - Page 1 Line 43:  - Comment: NW名前指定 釣り人
+Map 31 キャロル川● - Event 5 EV005 (62,25) - Page 1 Line 49:  - Comment: NW名前指定 釣り人
+Map 35 心臓の庭園 - Event 40 EV040 (12,63) - Page 1 Line 3:  - Comment: NW名前指定 門兵
+Map 35 心臓の庭園 - Event 40 EV040 (12,63) - Page 1 Line 12:  - Comment: NW名前指定 門兵
+Map 35 心臓の庭園 - Event 40 EV040 (12,63) - Page 1 Line 17:  - Comment: NW名前指定 門兵
+Map 35 心臓の庭園 - Event 40 EV040 (12,63) - Page 1 Line 27:  - Comment: NW名前指定 門兵
+Map 35 心臓の庭園 - Event 40 EV040 (12,63) - Page 1 Line 32:  - Comment: NW名前指定 門兵
+Map 35 心臓の庭園 - Event 40 EV040 (12,63) - Page 1 Line 79:  - Comment: NW名前指定 門兵
+Map 35 心臓の庭園 - Event 40 EV040 (12,63) - Page 1 Line 91:  - Comment: NW名前指定 門兵
+Map 35 心臓の庭園 - Event 40 EV040 (12,63) - Page 1 Line 108:  - Comment: NW名前指定 門兵
+Map 35 心臓の庭園 - Event 40 EV040 (12,63) - Page 1 Line 156:  - Comment: NW名前指定 門兵
+Map 35 心臓の庭園 - Event 42 EV042 (11,63) - Page 1 Line 3:  - Comment: NW名前指定 門兵
+Map 35 心臓の庭園 - Event 42 EV042 (11,63) - Page 1 Line 12:  - Comment: NW名前指定 門兵
+Map 35 心臓の庭園 - Event 42 EV042 (11,63) - Page 1 Line 17:  - Comment: NW名前指定 門兵
+Map 35 心臓の庭園 - Event 42 EV042 (11,63) - Page 1 Line 27:  - Comment: NW名前指定 門兵
+Map 35 心臓の庭園 - Event 42 EV042 (11,63) - Page 1 Line 32:  - Comment: NW名前指定 門兵
+Map 35 心臓の庭園 - Event 42 EV042 (11,63) - Page 1 Line 79:  - Comment: NW名前指定 門兵
+Map 35 心臓の庭園 - Event 42 EV042 (11,63) - Page 1 Line 91:  - Comment: NW名前指定 門兵
+Map 35 心臓の庭園 - Event 42 EV042 (11,63) - Page 1 Line 108:  - Comment: NW名前指定 門兵
+Map 35 心臓の庭園 - Event 42 EV042 (11,63) - Page 1 Line 156:  - Comment: NW名前指定 門兵
+Map 35 心臓の庭園 - Event 43 門兵1 (16,60) - Page 1 Line 1:  - Comment: NW名前指定 門兵
+Map 35 心臓の庭園 - Event 43 門兵1 (16,60) - Page 1 Line 5:  - Comment: NW名前指定 門兵
+Map 35 心臓の庭園 - Event 43 門兵1 (16,60) - Page 1 Line 10:  - Comment: NW名前指定 門兵
+Map 35 心臓の庭園 - Event 43 門兵1 (16,60) - Page 1 Line 18:  - Comment: NW名前指定 門兵
+Map 35 心臓の庭園 - Event 43 門兵1 (16,60) - Page 1 Line 21:  - Comment: NW名前指定 門兵
+Map 35 心臓の庭園 - Event 43 門兵1 (16,60) - Page 2 Line 1:  - Comment: NW名前指定 髢?蜈ｵ
+Map 35 心臓の庭園 - Event 43 門兵1 (16,60) - Page 2 Line 5:  - Comment: NW名前指定 髢?蜈ｵ
+Map 35 心臓の庭園 - Event 43 門兵1 (16,60) - Page 2 Line 10:  - Comment: NW名前指定 髢?蜈ｵ
+Map 35 心臓の庭園 - Event 44 門兵２ (16,59) - Page 1 Line 1:  - Comment: NW名前指定 門兵
+Map 35 心臓の庭園 - Event 44 門兵２ (16,59) - Page 1 Line 5:  - Comment: NW名前指定 門兵
+Map 35 心臓の庭園 - Event 44 門兵２ (16,59) - Page 1 Line 10:  - Comment: NW名前指定 門兵
+Map 35 心臓の庭園 - Event 44 門兵２ (16,59) - Page 1 Line 18:  - Comment: NW名前指定 門兵
+Map 35 心臓の庭園 - Event 44 門兵２ (16,59) - Page 1 Line 21:  - Comment: NW名前指定 門兵
+Map 35 心臓の庭園 - Event 44 門兵２ (16,59) - Page 2 Line 1:  - Comment: NW名前指定 髢?蜈ｵ
+Map 35 心臓の庭園 - Event 44 門兵２ (16,59) - Page 2 Line 5:  - Comment: NW名前指定 髢?蜈ｵ
+Map 35 心臓の庭園 - Event 44 門兵２ (16,59) - Page 2 Line 10:  - Comment: NW名前指定 髢?蜈ｵ
+Map 35 心臓の庭園 - Event 55 EV055 (24,61) - Page 1 Line 2:  - Comment: NW名前指定 繝医Λ繝ｳ繝怜ｺｭ蟶ｫ
+Map 35 心臓の庭園 - Event 55 EV055 (24,61) - Page 1 Line 25:  - Comment: NW名前指定 トランプ庭師
+Map 35 心臓の庭園 - Event 70 EV070 (50,11) - Page 1 Line 2:  - Comment: NW名前指定 繝医Λ繝ｳ繝怜ｮ郁ｭｷ閠
+Map 35 心臓の庭園 - Event 70 EV070 (50,11) - Page 1 Line 6:  - Comment: NW名前指定 繝医Λ繝ｳ繝怜ｮ郁ｭｷ閠
+Map 35 心臓の庭園 - Event 70 EV070 (50,11) - Page 1 Line 29:  - Comment: NW名前指定 トランプ守護者
+Map 35 心臓の庭園 - Event 70 EV070 (50,11) - Page 1 Line 33:  - Comment: NW名前指定 トランプ守護者
+Map 35 心臓の庭園 - Event 71 EV071 (48,11) - Page 1 Line 2:  - Comment: NW名前指定 繝医Λ繝ｳ繝怜ｮ郁ｭｷ閠
+Map 35 心臓の庭園 - Event 71 EV071 (48,11) - Page 1 Line 24:  - Comment: NW名前指定 トランプ守護者
+Map 37 血涙の池 - Event 3 EV003<uninhibited> (41,47) - Page 1 Line 2:  - Comment: NW名前指定 陝ｹ
+Map 37 血涙の池 - Event 3 EV003<uninhibited> (41,47) - Page 1 Line 7:  - Comment: NW名前指定 蟹
+Map 37 血涙の池 - Event 4 EV004<uninhibited> (41,48) - Page 1 Line 2:  - Comment: NW名前指定 陝ｹ
+Map 37 血涙の池 - Event 4 EV004<uninhibited> (41,48) - Page 1 Line 8:  - Comment: NW名前指定 蟹
+Map 37 血涙の池 - Event 5 EV005<uninhibited> (44,49) - Page 1 Line 2:  - Comment: NW名前指定 繝輔け繝ｭ繧ｦ
+Map 37 血涙の池 - Event 5 EV005<uninhibited> (44,49) - Page 1 Line 8:  - Comment: NW名前指定 フクロウ
+Map 37 血涙の池 - Event 6 EV006<uninhibited> (47,49) - Page 1 Line 2:  - Comment: NW名前指定 繝?繝?け繝ｯ繝ｼ繧ｹ
+Map 37 血涙の池 - Event 6 EV006<uninhibited> (47,49) - Page 1 Line 7:  - Comment: NW名前指定 ダックワース
+Map 37 血涙の池 - Event 7 EV007<uninhibited> (47,46) - Page 1 Line 2:  - Comment: NW名前指定 繝ｪ繧ｹ
+Map 37 血涙の池 - Event 7 EV007<uninhibited> (47,46) - Page 1 Line 7:  - Comment: NW名前指定 リス
+Map 37 血涙の池 - Event 8 EV008<uninhibited> (43,44) - Page 1 Line 2:  - Comment: NW名前指定 縺ｲ繧医％
+Map 37 血涙の池 - Event 8 EV008<uninhibited> (43,44) - Page 1 Line 5:  - Comment: NW名前指定 縺ｲ繧医％
+Map 37 血涙の池 - Event 8 EV008<uninhibited> (43,44) - Page 1 Line 10:  - Comment: NW名前指定 ひよこ
+Map 37 血涙の池 - Event 8 EV008<uninhibited> (43,44) - Page 1 Line 13:  - Comment: NW名前指定 ひよこ
+Map 37 血涙の池 - Event 9 EV009<uninhibited> (46,44) - Page 1 Line 2:  - Comment: NW名前指定 繧｢繝ｩ繧､繧ｰ繝
+Map 37 血涙の池 - Event 9 EV009<uninhibited> (46,44) - Page 1 Line 8:  - Comment: NW名前指定 アライグマ
+Map 37 血涙の池 - Event 10 EV010<uninhibited> (42,44) - Page 1 Line 2:  - Comment: NW名前指定 縺ｫ繧上→繧
+Map 37 血涙の池 - Event 10 EV010<uninhibited> (42,44) - Page 1 Line 5:  - Comment: NW名前指定 縺ｫ繧上→繧
+Map 37 血涙の池 - Event 10 EV010<uninhibited> (42,44) - Page 1 Line 11:  - Comment: NW名前指定 にわとり
+Map 37 血涙の池 - Event 10 EV010<uninhibited> (42,44) - Page 1 Line 14:  - Comment: NW名前指定 にわとり
+Map 37 血涙の池 - Event 11 EV011<uninhibited> (41,45) - Page 1 Line 2:  - Comment: NW名前指定 繧ｭ繝?ロ
+Map 37 血涙の池 - Event 11 EV011<uninhibited> (41,45) - Page 1 Line 7:  - Comment: NW名前指定 キツネ
+Map 37 血涙の池 - Event 54 EV054<uninhibited> (43,49) - Page 1 Line 2:  - Comment: NW名前指定 繧ｫ繧ｵ繧ｵ繧ｮ
+Map 37 血涙の池 - Event 54 EV054<uninhibited> (43,49) - Page 1 Line 8:  - Comment: NW名前指定 カササギ
+Map 44 名無しの森 - Event 20 EV020 (14,10) - Page 1 Line 2:  - Comment: NW名前指定　
+Map 44 名無しの森 - Event 20 EV020 (14,10) - Page 1 Line 7:  - Comment: NW名前指定　
+Map 44 名無しの森 - Event 20 EV020 (14,10) - Page 1 Line 24:  - Comment: NW名前指定　
+Map 44 名無しの森 - Event 20 EV020 (14,10) - Page 1 Line 29:  - Comment: NW名前指定　
+Map 44 名無しの森 - Event 20 EV020 (14,10) - Page 2 Line 2:  - Comment: NW名前指定　
+Map 44 名無しの森 - Event 20 EV020 (14,10) - Page 2 Line 24:  - Comment: NW名前指定　
+Map 51 ウサギ穴 - Event 4 EV004 (53,58) - Page 1 Line 1:  - Comment: NW名前指定 扉
+Map 51 ウサギ穴 - Event 4 EV004 (53,58) - Page 2 Line 1:  - Comment: NW名前指定 謇
+Map 51 ウサギ穴 - Event 4 EV004 (53,58) - Page 3 Line 1:  - Comment: NW名前指定 謇
+Map 51 ウサギ穴 - Event 5 EV005 (45,59) - Page 1 Line 1:  - Comment: NW名前指定 扉
+Map 51 ウサギ穴 - Event 5 EV005 (45,59) - Page 2 Line 1:  - Comment: NW名前指定 謇
+Map 51 ウサギ穴 - Event 5 EV005 (45,59) - Page 3 Line 1:  - Comment: NW名前指定 謇
+Map 51 ウサギ穴 - Event 11 EV011 (35,59) - Page 1 Line 2:  - Comment: NW名前指定 蜈
+Map 51 ウサギ穴 - Event 11 EV011 (35,59) - Page 1 Line 6:  - Comment: NW名前指定 蜈
+Map 51 ウサギ穴 - Event 11 EV011 (35,59) - Page 1 Line 16:  - Comment: NW名前指定 兎
+Map 51 ウサギ穴 - Event 11 EV011 (35,59) - Page 1 Line 21:  - Comment: NW名前指定 兎
+Map 51 ウサギ穴 - Event 11 EV011 (35,59) - Page 1 Line 25:  - Comment: NW名前指定 兎
+Map 51 ウサギ穴 - Event 12 EV012 (33,59) - Page 1 Line 2:  - Comment: NW名前指定 蜈
+Map 51 ウサギ穴 - Event 12 EV012 (33,59) - Page 1 Line 6:  - Comment: NW名前指定 蜈
+Map 51 ウサギ穴 - Event 12 EV012 (33,59) - Page 1 Line 15:  - Comment: NW名前指定 兎
+Map 51 ウサギ穴 - Event 12 EV012 (33,59) - Page 1 Line 21:  - Comment: NW名前指定 兎
+Map 51 ウサギ穴 - Event 12 EV012 (33,59) - Page 1 Line 25:  - Comment: NW名前指定 兎
+Map 51 ウサギ穴 - Event 52 EV052 (50,59) - Page 1 Line 2:  - Comment: NW名前指定 蜈
+Map 51 ウサギ穴 - Event 52 EV052 (50,59) - Page 1 Line 8:  - Comment: NW名前指定 兎
+Map 51 ウサギ穴 - Event 52 EV052 (50,59) - Page 1 Line 15:  - Comment: NW名前指定 兎
+Map 52 １ BOSS - Event 9 EV009 (16,34) - Page 1 Line 2:  - Comment: NW名前指定 蜈
+Map 52 １ BOSS - Event 9 EV009 (16,34) - Page 1 Line 5:  - Comment: NW名前指定 蜈
+Map 52 １ BOSS - Event 9 EV009 (16,34) - Page 1 Line 11:  - Comment: NW名前指定 兎
+Map 52 １ BOSS - Event 9 EV009 (16,34) - Page 1 Line 14:  - Comment: NW名前指定 兎
+Map 52 １ BOSS - Event 9 EV009 (16,34) - Page 2 Line 2:  - Comment: NW名前指定 蜈
+Map 52 １ BOSS - Event 9 EV009 (16,34) - Page 2 Line 5:  - Comment: NW名前指定 蜈
+Map 52 １ BOSS - Event 9 EV009 (16,34) - Page 2 Line 11:  - Comment: NW名前指定 兎
+Map 52 １ BOSS - Event 9 EV009 (16,34) - Page 2 Line 14:  - Comment: NW名前指定 兎
+Map 52 １ BOSS - Event 9 EV009 (16,34) - Page 2 Line 19:  - Comment: NW名前指定 兎
+Map 52 １ BOSS - Event 23 EV023 (18,27) - Page 1 Line 38:  - Comment: NW名前指定 邪竜狩りヴォーパル
+Map 52 １ BOSS - Event 23 EV023 (18,27) - Page 2 Line 19:  - Comment: NW名前指定 邪竜狩りヴォーパル
+Map 53 ３● - Event 30 EV030 (6,67) - Page 1 Line 2:  - Comment: NW名前指定　蜈
+Map 53 ３● - Event 30 EV030 (6,67) - Page 1 Line 9:  - Comment: NW名前指定 兎
+Map 53 ３● - Event 30 EV030 (6,67) - Page 1 Line 14:  - Comment: NW名前指定 兎
+Map 53 ３● - Event 46 EV046 (31,37) - Page 1 Line 2:  - Comment: NW名前指定 閭ｸ蜒
+Map 53 ３● - Event 46 EV046 (31,37) - Page 1 Line 7:  - Comment: NW名前指定 胸像
+Map 53 ３● - Event 47 EV047 (29,37) - Page 1 Line 2:  - Comment: NW名前指定 閭ｸ蜒
+Map 53 ３● - Event 47 EV047 (29,37) - Page 1 Line 7:  - Comment: NW名前指定 胸像
+Map 53 ３● - Event 48 EV048 (27,37) - Page 1 Line 2:  - Comment: NW名前指定 閭ｸ蜒
+Map 53 ３● - Event 48 EV048 (27,37) - Page 1 Line 7:  - Comment: NW名前指定 胸像
+Map 53 ３● - Event 49 EV049 (25,37) - Page 1 Line 2:  - Comment: NW名前指定 閭ｸ蜒
+Map 53 ３● - Event 49 EV049 (25,37) - Page 1 Line 7:  - Comment: NW名前指定 胸像
+Map 53 ３● - Event 50 EV050 (23,37) - Page 1 Line 2:  - Comment: NW名前指定 閭ｸ蜒
+Map 53 ３● - Event 50 EV050 (23,37) - Page 1 Line 7:  - Comment: NW名前指定 胸像
+Map 53 ３● - Event 51 EV051 (51,24) - Page 1 Line 2:  - Comment: NW名前指定 閭ｸ蜒
+Map 53 ３● - Event 51 EV051 (51,24) - Page 1 Line 9:  - Comment: NW名前指定 胸像
+Map 53 ３● - Event 52 EV052 (21,37) - Page 1 Line 2:  - Comment: NW名前指定 閭ｸ蜒
+Map 53 ３● - Event 52 EV052 (21,37) - Page 1 Line 7:  - Comment: NW名前指定 胸像
+Map 53 ３● - Event 53 EV053 (19,37) - Page 1 Line 2:  - Comment: NW名前指定 閭ｸ蜒
+Map 53 ３● - Event 53 EV053 (19,37) - Page 1 Line 9:  - Comment: NW名前指定 胸像
+Map 53 ３● - Event 54 EV054 (17,37) - Page 1 Line 2:  - Comment: NW名前指定 閭ｸ蜒
+Map 53 ３● - Event 54 EV054 (17,37) - Page 1 Line 7:  - Comment: NW名前指定 胸像
+Map 53 ３● - Event 55 EV055 (15,37) - Page 1 Line 2:  - Comment: NW名前指定 閭ｸ蜒
+Map 53 ３● - Event 55 EV055 (15,37) - Page 1 Line 7:  - Comment: NW名前指定 胸像
+Map 53 ３● - Event 56 EV056 (13,37) - Page 1 Line 2:  - Comment: NW名前指定 閭ｸ蜒
+Map 53 ３● - Event 56 EV056 (13,37) - Page 1 Line 7:  - Comment: NW名前指定 胸像
+Map 53 ３● - Event 69 EV069 (24,20) - Page 1 Line 2:  - Comment: NW名前指定 閭ｸ蜒
+Map 53 ３● - Event 69 EV069 (24,20) - Page 1 Line 9:  - Comment: NW名前指定 胸像
+Map 56 ２ - Event 77 EV077 (13,6) - Page 1 Line 1:  - Comment: NW名前指定 玩具のカエル
+Map 56 ２ - Event 77 EV077 (13,6) - Page 1 Line 7:  - Comment: NW名前指定 玩具のカエル
+Map 56 ２ - Event 77 EV077 (13,6) - Page 1 Line 11:  - Comment: NW名前指定 玩具のカエル
+Map 57 １ - Event 24 EV024 (16,81) - Page 1 Line 2:  - Comment: NW名前指定 螟｢繝斐お繝ｭ
+Map 57 １ - Event 24 EV024 (16,81) - Page 1 Line 26:  - Comment: NW名前指定 夢ピエロ
+Map 57 １ - Event 27 EV027 (26,80) - Page 1 Line 2:  - Comment: NW名前指定 螟｢繝斐お繝ｭ

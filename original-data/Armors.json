@@ -1,0 +1,9051 @@
+[
+  null,
+  {
+    "id": 1,
+    "atypeId": 1,
+    "description": "EVA&MEV+5%  MDF+5%  SPD-3%\nClothes fit for noble aristocracy.",
+    "etypeId": 3,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.97
+      },
+      {
+        "code": 21,
+        "dataId": 5,
+        "value": 1.05
+      },
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.05
+      },
+      {
+        "code": 22,
+        "dataId": 4,
+        "value": 0.05
+      }
+    ],
+    "iconIndex": 442,
+    "name": "Aristocrat's Clothes",
+    "note": "公爵夫人の館",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 2,
+    "atypeId": 4,
+    "description": "ATK+5%  MAG+5%  SPD-7%\nThe bloodied coat of a violent man.",
+    "etypeId": 3,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.97
+      },
+      {
+        "code": 21,
+        "dataId": 4,
+        "value": 1.05
+      },
+      {
+        "code": 21,
+        "dataId": 2,
+        "value": 1.05
+      }
+    ],
+    "iconIndex": 449,
+    "name": "Cloak of Violence",
+    "note": "公爵館",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 3,
+    "atypeId": 4,
+    "description": "MAG+15%  MDF+15%  SPD-10%\nWorn by the king of Andor, a land swallowed by darkness.",
+    "etypeId": 3,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.9
+      },
+      {
+        "code": 21,
+        "dataId": 4,
+        "value": 1.15
+      },
+      {
+        "code": 21,
+        "dataId": 5,
+        "value": 1.15
+      }
+    ],
+    "iconIndex": 454,
+    "name": "Cloak of the Frenzy King",
+    "note": "フリッセル",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 4,
+    "atypeId": 4,
+    "description": "HP+50%  SPD-4%\nThe angel came down in search of the fallen Goddess.",
+    "etypeId": 3,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.96
+      },
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 1.5
+      }
+    ],
+    "iconIndex": 448,
+    "name": "Angel's Raiment",
+    "note": "名無しの森",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 5,
+    "atypeId": 4,
+    "description": "ATK+8%  DEF+5%  SPD-3%\nCrafted of beast skin, this armor incites violent urges.",
+    "etypeId": 3,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.97
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.05
+      },
+      {
+        "code": 21,
+        "dataId": 2,
+        "value": 1.08
+      }
+    ],
+    "iconIndex": 434,
+    "name": "Leather Armor",
+    "note": "ラドウィッジ",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 6,
+    "atypeId": 1,
+    "description": "EVA&MEV+10%  SPD-2%  Takes Up Head Slot\nBlack garb worn by hunters to repel the blood of demonbeasts.",
+    "etypeId": 3,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.98
+      },
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.1
+      },
+      {
+        "code": 22,
+        "dataId": 4,
+        "value": 0.1
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 0
+      }
+    ],
+    "iconIndex": 710,
+    "name": "Hunter's Attire",
+    "note": "初期\n橋のたもと",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 7,
+    "atypeId": 1,
+    "description": "EVA&MEV+5%  Fire RES+80%  Burn RES+80%\nLittle Match Girl's tunic. It wraps you in nostalgic warmth.",
+    "etypeId": 3,
+    "traits": [
+      {
+        "code": 13,
+        "dataId": 29,
+        "value": 0.2
+      },
+      {
+        "code": 11,
+        "dataId": 3,
+        "value": 0.2
+      },
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.05
+      },
+      {
+        "code": 22,
+        "dataId": 4,
+        "value": 0.05
+      }
+    ],
+    "iconIndex": 450,
+    "name": "Match-Seller's Clothes",
+    "note": "ラドウィッジ",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 8,
+    "atypeId": 1,
+    "description": "EVA&MEV+5%  Oil RES+100%\nWorn by the slaughterhouse's demolishers. Reeks of blood.",
+    "etypeId": 3,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.05
+      },
+      {
+        "code": 13,
+        "dataId": 5,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 4,
+        "value": 0.05
+      }
+    ],
+    "iconIndex": 168,
+    "name": "Work Clothes",
+    "note": "屠殺場",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 9,
+    "atypeId": 1,
+    "description": "EVA&MEV+5%  DEF+3%\nWorn by men of knowledge and culture.",
+    "etypeId": 3,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.03
+      },
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.05
+      },
+      {
+        "code": 22,
+        "dataId": 4,
+        "value": 0.05
+      }
+    ],
+    "iconIndex": 726,
+    "name": "Gentleman's Coat",
+    "note": "ドロップ　紳士",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 10,
+    "atypeId": 1,
+    "description": "EVA&MEV+5% Madness RES+50%\nCross-dressing would really mark you as someone beyond help.",
+    "etypeId": 3,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.05
+      },
+      {
+        "code": 13,
+        "dataId": 28,
+        "value": 0.5
+      },
+      {
+        "code": 22,
+        "dataId": 4,
+        "value": 0.05
+      }
+    ],
+    "iconIndex": 441,
+    "name": "Whore's Clothes",
+    "note": "グール　ドロップ",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 11,
+    "atypeId": 4,
+    "description": "DEF+10%  SPD-3%\nA simple metal sheet to cover your front.",
+    "etypeId": 3,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.97
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.1
+      }
+    ],
+    "iconIndex": 432,
+    "name": "Plate Mail",
+    "note": "精神病棟",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 12,
+    "atypeId": 4,
+    "description": "DEF+10%  All Ailments RES+30%  SPD-10%\nArmor harboring the power of demons born of the Abyss.",
+    "etypeId": 3,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.9
+      },
+      {
+        "code": 13,
+        "dataId": 2,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 3,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 13,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 5,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 6,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 28,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 26,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 29,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 55,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 56,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 61,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 17,
+        "value": 0.7
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.1
+      },
+      {
+        "code": 13,
+        "dataId": 162,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 163,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 4,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 7,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 8,
+        "value": 0.7
+      }
+    ],
+    "iconIndex": 435,
+    "name": "Armor of the Abyss",
+    "note": "病みたる時計塔",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 13,
+    "atypeId": 4,
+    "description": "ATK+15%  DEF+15%  SPD-10%\nWorn by a sun-seeking zealot lost in a land without prayer.",
+    "etypeId": 3,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.9
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.15
+      },
+      {
+        "code": 21,
+        "dataId": 2,
+        "value": 1.15
+      }
+    ],
+    "iconIndex": 437,
+    "name": "Armor of the Sun",
+    "note": "燻りの森",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 14,
+    "atypeId": 3,
+    "description": "DEF+5%  MDF+7%  EVA&MEV+5%  SPD-4%\nGarments worn by preachers and missionaries.",
+    "etypeId": 3,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 5,
+        "value": 1.07
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.96
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.05
+      },
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.05
+      },
+      {
+        "code": 22,
+        "dataId": 4,
+        "value": 0.05
+      }
+    ],
+    "iconIndex": 456,
+    "name": "Clergy Clothes",
+    "note": "初期\nリポン大聖堂",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 15,
+    "atypeId": 3,
+    "description": "MAG+5%  MDF+10%  EVA&MEV+5%  SPD-4%\nA coat awarded to graduates of Elheim's Academy of Magic.",
+    "etypeId": 3,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 5,
+        "value": 1.1
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.96
+      },
+      {
+        "code": 21,
+        "dataId": 4,
+        "value": 1.05
+      },
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.05
+      },
+      {
+        "code": 22,
+        "dataId": 4,
+        "value": 0.05
+      }
+    ],
+    "iconIndex": 443,
+    "name": "Magician's Coat",
+    "note": "初期\n血涙の池",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 16,
+    "atypeId": 3,
+    "description": "DEF+8%  EVA&MEV+5%  SPD-2%\nWorn by assassins and bandits to blend into shadows.",
+    "etypeId": 3,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.08
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.98
+      },
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.05
+      },
+      {
+        "code": 22,
+        "dataId": 4,
+        "value": 0.05
+      }
+    ],
+    "iconIndex": 171,
+    "name": "Cloak of Shadows",
+    "note": "初期\nリデル墓地",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 17,
+    "atypeId": 4,
+    "description": "DEF+15%  SPD-5%  Stun RES+30%\nSteel armor popular among knights.",
+    "etypeId": 3,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.95
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.15
+      },
+      {
+        "code": 13,
+        "dataId": 13,
+        "value": 0.7
+      }
+    ],
+    "iconIndex": 436,
+    "name": "Knight's Armor",
+    "note": "初期\n公爵夫人の館",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 18,
+    "atypeId": 4,
+    "description": "ATK+5%  DEF+10%  SPD-5%\nArmor of warriors hungry for battle.",
+    "etypeId": 3,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.95
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.1
+      },
+      {
+        "code": 21,
+        "dataId": 2,
+        "value": 1.05
+      }
+    ],
+    "iconIndex": 169,
+    "name": "Warrior's Armor",
+    "note": "初期\nビリングズゲート",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 19,
+    "atypeId": 4,
+    "description": "DEF+10%  Flame RES+25%  Burn RES+25%  SPD-3%\nTemplar armor imbued with the blessing of Sheep God Milton.",
+    "etypeId": 3,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.97
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.1
+      },
+      {
+        "code": 11,
+        "dataId": 3,
+        "value": 0.75
+      },
+      {
+        "code": 13,
+        "dataId": 29,
+        "value": 0.75
+      }
+    ],
+    "iconIndex": 170,
+    "name": "Armor of Milton",
+    "note": "初期\nフリッセル",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 20,
+    "atypeId": 4,
+    "description": "DEF+30%  SPD-20%\nArmor of the despotic knights of the Great Tower.",
+    "etypeId": 3,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.8
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.3
+      }
+    ],
+    "iconIndex": 676,
+    "name": "Armor of Babel",
+    "note": "屠殺場",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 21,
+    "atypeId": 3,
+    "description": "EVA&MEV+15%  DEF-10%\nThe cloak worn by Arsène Lupin.",
+    "etypeId": 3,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.15
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 0.9
+      },
+      {
+        "code": 22,
+        "dataId": 4,
+        "value": 0.15
+      }
+    ],
+    "iconIndex": 446,
+    "name": "Phantom Thief's Mantle",
+    "note": "心臓の庭園",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 22,
+    "atypeId": 3,
+    "description": "DEF+2%  MDF+3%  SPD-1%\nLike a halo, it's said to reveal God's Word to the clergy.",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 5,
+        "value": 1.03
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.99
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.02
+      }
+    ],
+    "iconIndex": 166,
+    "name": "Clergy Circlet",
+    "note": "初期\nリポン大聖堂",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 23,
+    "atypeId": 3,
+    "description": "MAG+3%  MDF+5%  SPD-2%\nA hat awarded to graduates of Elheim's Academy of Magic.",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 5,
+        "value": 1.05
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.98
+      },
+      {
+        "code": 21,
+        "dataId": 4,
+        "value": 1.03
+      }
+    ],
+    "iconIndex": 162,
+    "name": "Magician Hat",
+    "note": "初期\n血涙の池",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 24,
+    "atypeId": 3,
+    "description": "DEF+4%  SPD-1%\nTo conceal one's face, silence voice, and hide in shadows.",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.04
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.99
+      }
+    ],
+    "iconIndex": 163,
+    "name": "Thief's Mask",
+    "note": "初期\nリデル墓地",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 25,
+    "atypeId": 4,
+    "description": "DEF+8%  SPD-3%  Stun RES+20%\nA steel helm popular among knights.",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.97
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.08
+      },
+      {
+        "code": 13,
+        "dataId": 13,
+        "value": 0.8
+      }
+    ],
+    "iconIndex": 164,
+    "name": "Knight's Helmet",
+    "note": "初期\n公爵夫人の館",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 26,
+    "atypeId": 4,
+    "description": "ATK+4%  DEF+4%  SPD-3%\nA horned helm indicating a preference for violence.",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.97
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.04
+      },
+      {
+        "code": 21,
+        "dataId": 2,
+        "value": 1.04
+      }
+    ],
+    "iconIndex": 459,
+    "name": "Viking Helm",
+    "note": "初期\n血涙",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 27,
+    "atypeId": 4,
+    "description": "DEF+6%  Flame RES+25%  Burn RES+25%  SPD-3%\nTemplar helm imbued with the blessing of Sheep God Milton.",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.97
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.06
+      },
+      {
+        "code": 11,
+        "dataId": 3,
+        "value": 0.75
+      },
+      {
+        "code": 13,
+        "dataId": 29,
+        "value": 0.75
+      }
+    ],
+    "iconIndex": 458,
+    "name": "Helm of Milton",
+    "note": "初期\nフリッセル",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 28,
+    "atypeId": 1,
+    "description": "SPD+5%  Madness RES+50%\nEars that were all the rage in Wonderland many times.",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 1.05
+      },
+      {
+        "code": 13,
+        "dataId": 28,
+        "value": 0.5
+      }
+    ],
+    "iconIndex": 462,
+    "name": "Bunny Headpiece",
+    "note": "マリー・ハドソンイベント　死体",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 29,
+    "atypeId": 1,
+    "description": "MDF+20%  SPD-2%\nOf a maid who served, thought of, and risked her life for you.",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.98
+      },
+      {
+        "code": 21,
+        "dataId": 5,
+        "value": 1.2
+      }
+    ],
+    "iconIndex": 463,
+    "name": "Maid Headdress",
+    "note": "名無しの森",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 30,
+    "atypeId": 4,
+    "description": "DEF+20%  SPD-10%\nHelmet of the despotic knights of the Great Tower.",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.9
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.2
+      }
+    ],
+    "iconIndex": 674,
+    "name": "Helmet of Babel",
+    "note": "屠殺場",
+    "params": [
+      0,
+      0,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 31,
+    "atypeId": 3,
+    "description": "ATK+2%  DEF+2%\nA headband with a metal plate attached.",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 2,
+        "value": 1.02
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.02
+      }
+    ],
+    "iconIndex": 460,
+    "name": "Hachigane",
+    "note": "ラドウィッジ",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 32,
+    "atypeId": 3,
+    "description": "MAG+8%  SPD-4%\nA strange hat that brings happiness when worn.",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.96
+      },
+      {
+        "code": 21,
+        "dataId": 4,
+        "value": 1.08
+      }
+    ],
+    "iconIndex": 165,
+    "name": "Wonder Hat",
+    "note": "無限食",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 33,
+    "atypeId": 3,
+    "description": "MAG+15%  SPD-2%\n10/6 means 10 shillings and 6 pence! -The Hatter",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.98
+      },
+      {
+        "code": 21,
+        "dataId": 4,
+        "value": 1.15
+      }
+    ],
+    "iconIndex": 727,
+    "name": "The Hatter's Hat",
+    "note": "帽子屋",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 57000
+  },
+  {
+    "id": 34,
+    "atypeId": 3,
+    "description": "EVA&MEV+5%\nThe hat of a knight who flew freely in the sky.",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.05
+      },
+      {
+        "code": 22,
+        "dataId": 4,
+        "value": 0.05
+      }
+    ],
+    "iconIndex": 457,
+    "name": "Sky Knight's Cap",
+    "note": "ラドウィッジ街　上層",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 35,
+    "atypeId": 3,
+    "description": "MDF+10%  DEF+5%  SPD-3%\nSentence first, verdict afterwards, poor barrister beheaded.",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 5,
+        "value": 1.1
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.05
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.97
+      }
+    ],
+    "iconIndex": 465,
+    "name": "Lawyer's Mask",
+    "note": "フリッセル",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 36,
+    "atypeId": 3,
+    "description": "ATK+20%  MAG+20%  SPD-15%\nThe mask used by Igor to hide his hideous face.",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 2,
+        "value": 1.2
+      },
+      {
+        "code": 21,
+        "dataId": 4,
+        "value": 1.2
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.85
+      }
+    ],
+    "iconIndex": 466,
+    "name": "Igor's Mask",
+    "note": "名無しの森",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 37,
+    "atypeId": 1,
+    "description": "SPD+5%  Madness RES+50%\nClothes banned for overexposure. That rabbit might like them.",
+    "etypeId": 3,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 1.05
+      },
+      {
+        "code": 13,
+        "dataId": 28,
+        "value": 0.5
+      }
+    ],
+    "iconIndex": 826,
+    "name": "Bunny Suit",
+    "note": "ウィンターベル",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 38,
+    "atypeId": 5,
+    "description": "GRD Up [Small]  HP Regen+5%  SPD-3%\nSome sort of meat, easy to imagine which kind.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 1.5
+      },
+      {
+        "code": 22,
+        "dataId": 7,
+        "value": 0.05
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.97
+      }
+    ],
+    "iconIndex": 291,
+    "name": "Cannibal's Shield",
+    "note": "ソニー・ビーン",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 39,
+    "atypeId": 6,
+    "description": "GRD Up [Medium]  MAG+10%  SPD-4%\nA shield of the knights guarding a holy temple.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 4,
+        "value": 1.1
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.96
+      },
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 2
+      }
+    ],
+    "iconIndex": 556,
+    "name": "Templar Shield",
+    "note": "初期\nフリッセル",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 40,
+    "atypeId": 5,
+    "description": "ATK+5%  SPD-2%\nAn offensive shield encircled with an edge.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 2,
+        "value": 1.05
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.98
+      }
+    ],
+    "iconIndex": 431,
+    "name": "Blade Shield",
+    "note": "血涙",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 41,
+    "atypeId": 5,
+    "description": "GRD Up [Small]  SPD+5%\nA metal shield of unknown origin adorned with a crest.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 1.05
+      },
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 1.5
+      }
+    ],
+    "iconIndex": 430,
+    "name": "Grass Crest Shield",
+    "note": "無限食　ミミック",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 42,
+    "atypeId": 5,
+    "description": "GRD Up [Small]\nWooden planks barely qualifying as a shield.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 1.5
+      }
+    ],
+    "iconIndex": 505,
+    "name": "Wooden Shield",
+    "note": "ラドウィッジ",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 50
+  },
+  {
+    "id": 43,
+    "atypeId": 5,
+    "description": "EVA&MEV+10%\nA small shield made to deflect attacks.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.1
+      },
+      {
+        "code": 22,
+        "dataId": 4,
+        "value": 0.1
+      }
+    ],
+    "iconIndex": 160,
+    "name": "Buckler",
+    "note": "ウサギ穴",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 44,
+    "atypeId": 5,
+    "description": "GRD Up [Small] Poison RES+50% Poison Chance+30% SPD-1%\nA shield covered with poisonous mushrooms.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.99
+      },
+      {
+        "code": 13,
+        "dataId": 2,
+        "value": 0.5
+      },
+      {
+        "code": 13,
+        "dataId": 3,
+        "value": 0.5
+      },
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 1.5
+      },
+      {
+        "code": 32,
+        "dataId": 2,
+        "value": 0.3
+      }
+    ],
+    "iconIndex": 504,
+    "name": "Mushroom Shield",
+    "note": "胞子の森",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 45,
+    "atypeId": 5,
+    "description": "GRD Up [Small]  EVA&MEV+5%  SPD-2%\nA standard round wooden shield.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.05
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.98
+      },
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 1.5
+      },
+      {
+        "code": 22,
+        "dataId": 4,
+        "value": 0.05
+      }
+    ],
+    "iconIndex": 502,
+    "name": "Round Shield",
+    "note": "ラドウィッジ",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 46,
+    "atypeId": 5,
+    "description": "GRD Up [Medium]  SPD-1%\nA round metal shield commonly used by soldiers.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.99
+      },
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 2
+      }
+    ],
+    "iconIndex": 507,
+    "name": "Iron Round Shield",
+    "note": "リデル墓地",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 47,
+    "atypeId": 5,
+    "description": "GRD Up [Small]  ATK+2%  SPD-2%\nA metal shield said to have been used by ancient warriors.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.98
+      },
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 1.5
+      },
+      {
+        "code": 21,
+        "dataId": 2,
+        "value": 1.02
+      }
+    ],
+    "iconIndex": 508,
+    "name": "Warrior's Round Shield",
+    "note": "血涙",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 48,
+    "atypeId": 5,
+    "description": "EVA&MEV+15%  SPD-3%\nA small metal shield with protrusions to deflect attacks.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.15
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.97
+      },
+      {
+        "code": 22,
+        "dataId": 4,
+        "value": 0.15
+      }
+    ],
+    "iconIndex": 161,
+    "name": "Target Shield",
+    "note": "心臓の庭園",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 49,
+    "atypeId": 5,
+    "description": "GRD Up [Medium]  Counter+30%  Bleed+30%  SPD-2%\nA distorted shield covered in porcupine-like thorns.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.97
+      },
+      {
+        "code": 22,
+        "dataId": 6,
+        "value": 0.3
+      },
+      {
+        "code": 32,
+        "dataId": 26,
+        "value": 0.3
+      },
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 2
+      }
+    ],
+    "iconIndex": 666,
+    "name": "Porcupine Shield",
+    "note": "憂さ晴らしソウル",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 50,
+    "atypeId": 6,
+    "description": "GRD Up [Small]  EVA&MEV+15%  SPD-5%\nA light and powerful shield used by Griffy.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.15
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.95
+      },
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 1.5
+      },
+      {
+        "code": 22,
+        "dataId": 4,
+        "value": 0.15
+      }
+    ],
+    "iconIndex": 501,
+    "name": "Griffin Shield",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 51,
+    "atypeId": 6,
+    "description": "GRD Up [Large]  SPD-2%  Stun RES+50%\nA steel shield popular among knights.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 2.5
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.98
+      },
+      {
+        "code": 13,
+        "dataId": 13,
+        "value": 0.5
+      }
+    ],
+    "iconIndex": 497,
+    "name": "Knight's Shield",
+    "note": "公爵夫人の館",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 52,
+    "atypeId": 6,
+    "description": "GRD Up [Medium]  EVA&MEV+5%  SPD-4%\nAn orthodox medium-sized metal shield.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.96
+      },
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.05
+      },
+      {
+        "code": 22,
+        "dataId": 4,
+        "value": 0.05
+      },
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 2
+      }
+    ],
+    "iconIndex": 509,
+    "name": "Kite Shield",
+    "note": "リポン　ミミック",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 53,
+    "atypeId": 6,
+    "description": "GRD Up [Medium]  Flame RES+50%  Burn RES+50%  SPD-2%\nA bright red metal shield symbolizing arson.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.98
+      },
+      {
+        "code": 11,
+        "dataId": 3,
+        "value": 0.5
+      },
+      {
+        "code": 13,
+        "dataId": 29,
+        "value": 0.5
+      },
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 2
+      }
+    ],
+    "iconIndex": 496,
+    "name": "Red Shield",
+    "note": "フランクリンボルヴォルト",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 54,
+    "atypeId": 6,
+    "description": "GRD Up [Medium]  Lightning RES+50%  SPD-2%\nMock Turtle's shell. Surely it's an imitation.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.98
+      },
+      {
+        "code": 11,
+        "dataId": 5,
+        "value": 0.5
+      },
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 2
+      }
+    ],
+    "iconIndex": 510,
+    "name": "Mock Turtle's Shell",
+    "note": "ウミガメレストラン",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 55,
+    "atypeId": 6,
+    "description": "GRD Up [Medium]  Bleed RES+100%  SPD-2%\nThe youngest pig's shield. Must be great against beasts.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.98
+      },
+      {
+        "code": 13,
+        "dataId": 26,
+        "value": 0
+      },
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 2
+      }
+    ],
+    "iconIndex": 503,
+    "name": "Brick Shield",
+    "note": "名無しの森",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 56,
+    "atypeId": 6,
+    "description": "GRD Up [Medium]  Dark RES+50%  SPD-2%\nA dark shield said to have been used by the black vanguard.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.98
+      },
+      {
+        "code": 11,
+        "dataId": 10,
+        "value": 0.5
+      },
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 2
+      }
+    ],
+    "iconIndex": 500,
+    "name": "Black Vanguard's Shield",
+    "note": "オックス・ウォード",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 57,
+    "atypeId": 6,
+    "description": "GRD Up [Medium]  Light RES+50%  SPD-2%\nSaid to have been used by the holy knight. Smells burnt.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.98
+      },
+      {
+        "code": 11,
+        "dataId": 9,
+        "value": 0.5
+      },
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 2
+      }
+    ],
+    "iconIndex": 675,
+    "name": "Holy Knight's Shield",
+    "note": "燻りの森",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 10000
+  },
+  {
+    "id": 58,
+    "atypeId": 5,
+    "description": "GRD Up [Medium]  Magic Resistance+50%  SPD-3%\nA big, sturdy discolored seashell. There's nothing inside.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 7,
+        "value": 0.5
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.97
+      },
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 2
+      }
+    ],
+    "iconIndex": 363,
+    "name": "Shell Shield",
+    "note": "カキお使い",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 59,
+    "atypeId": 6,
+    "description": "GRD Up [Extra-Large]  SPD-3%\nA shield used by one of Andor's knights of renown—Dega.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 3
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.97
+      }
+    ],
+    "iconIndex": 499,
+    "name": "Dega's Great Shield",
+    "note": "フリッセル",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 60,
+    "atypeId": 6,
+    "description": "GRD Up [Extra-Large]  All Element RES+25%　SPD-5%\nA sign of glory, but glory is the beginning of sloth.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.95
+      },
+      {
+        "code": 11,
+        "dataId": 3,
+        "value": 0.75
+      },
+      {
+        "code": 11,
+        "dataId": 4,
+        "value": 0.75
+      },
+      {
+        "code": 11,
+        "dataId": 5,
+        "value": 0.75
+      },
+      {
+        "code": 11,
+        "dataId": 9,
+        "value": 0.75
+      },
+      {
+        "code": 11,
+        "dataId": 10,
+        "value": 0.75
+      },
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 3
+      }
+    ],
+    "iconIndex": 498,
+    "name": "Greatshield of Sloth",
+    "note": "イグゾー",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 61,
+    "atypeId": 6,
+    "description": "GRD Up [Extra-Large]  All Ailments RES+30%  SPD-5%\nShield harboring the power of demons born of the Abyss.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.95
+      },
+      {
+        "code": 13,
+        "dataId": 2,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 3,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 13,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 5,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 6,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 28,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 26,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 29,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 55,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 56,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 61,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 17,
+        "value": 0.7
+      },
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 3
+      },
+      {
+        "code": 13,
+        "dataId": 162,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 163,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 8,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 7,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 4,
+        "value": 0.7
+      }
+    ],
+    "iconIndex": 690,
+    "name": "Shield of the Abyss",
+    "note": "クイーン・ランド",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 62,
+    "atypeId": 6,
+    "description": "GRD Up [Extra-Large]  Debuff Immunity  SPD-8%\nA selfish god stole a small fish to use in the crimson tale.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.92
+      },
+      {
+        "code": 12,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 12,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 12,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 12,
+        "dataId": 3,
+        "value": 0
+      },
+      {
+        "code": 12,
+        "dataId": 4,
+        "value": 0
+      },
+      {
+        "code": 12,
+        "dataId": 5,
+        "value": 0
+      },
+      {
+        "code": 12,
+        "dataId": 6,
+        "value": 0
+      },
+      {
+        "code": 12,
+        "dataId": 7,
+        "value": 0
+      },
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 3
+      }
+    ],
+    "iconIndex": 686,
+    "name": "Deep Sea Shield",
+    "note": "深海",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 63,
+    "atypeId": 6,
+    "description": "Magic Reflect+50%  SPD-5%\nThe mirror of truth favored by a certain princess.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.95
+      },
+      {
+        "code": 22,
+        "dataId": 5,
+        "value": 0.5
+      }
+    ],
+    "iconIndex": 282,
+    "name": "Mirror Greatshield",
+    "note": "クイーン・ランド",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 10000
+  },
+  {
+    "id": 64,
+    "atypeId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0
+  },
+  {
+    "id": 65,
+    "atypeId": 5,
+    "description": "Break turns into Gun Break.  ACC+5%\nA gun imbued with the power of silver. Used to hunt beasts.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 44,
+        "dataId": 13,
+        "value": 0
+      },
+      {
+        "code": 44,
+        "dataId": 16,
+        "value": 0
+      },
+      {
+        "code": 43,
+        "dataId": 20,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0.05
+      }
+    ],
+    "iconIndex": 706,
+    "name": "Silver Pistol",
+    "note": "初期\n橋のたもと",
+    "params": [
+      0,
+      0,
+      10,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 66,
+    "atypeId": 5,
+    "description": "Break turns into Gun Break.  ACC+20%  SPD-5%\nA long gun with high accuracy used by church hunters.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 44,
+        "dataId": 13,
+        "value": 0
+      },
+      {
+        "code": 44,
+        "dataId": 16,
+        "value": 0
+      },
+      {
+        "code": 43,
+        "dataId": 18,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0.2
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.95
+      }
+    ],
+    "iconIndex": 633,
+    "name": "Church Rifle",
+    "note": "リポン",
+    "params": [
+      0,
+      0,
+      35,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 67,
+    "atypeId": 5,
+    "description": "Break turns into Gun Break.  SPD-5%\nA powerful shotgun used by Jack the Ripper.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 44,
+        "dataId": 13,
+        "value": 0
+      },
+      {
+        "code": 44,
+        "dataId": 16,
+        "value": 0
+      },
+      {
+        "code": 43,
+        "dataId": 19,
+        "value": 0
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.95
+      }
+    ],
+    "iconIndex": 634,
+    "name": "Manslayer's Shotgun",
+    "note": "ジャックのソウル",
+    "params": [
+      0,
+      0,
+      50,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 68,
+    "atypeId": 5,
+    "description": "Break turns into Gun Break.  Crit Chance+5%\nA handgun of Kidd, a tragic pirate dragged into politics.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 44,
+        "dataId": 13,
+        "value": 0
+      },
+      {
+        "code": 44,
+        "dataId": 16,
+        "value": 0
+      },
+      {
+        "code": 43,
+        "dataId": 20,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 2,
+        "value": 0.05
+      }
+    ],
+    "iconIndex": 707,
+    "name": "Pirate Handgun",
+    "note": "キャプテン・キッド",
+    "params": [
+      0,
+      0,
+      40,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 69,
+    "atypeId": 4,
+    "description": "DEF+40%  SPD-20%\nCrafted by the Carpenter to withstand the deep sea.",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.8
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.4
+      }
+    ],
+    "iconIndex": 699,
+    "name": "Deep Sea Knight's Helm",
+    "note": "深海",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 70,
+    "atypeId": 4,
+    "description": "DEF+50%  SPD-30%\nCrafted by the Carpenter to withstand the deep sea.",
+    "etypeId": 3,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.7
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.5
+      }
+    ],
+    "iconIndex": 700,
+    "name": "Deep Sea Knight's Armor",
+    "note": "深海",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 71,
+    "atypeId": 3,
+    "description": "Crit Chance+5%  SPD-1%\nFor survival, even a friend's flesh isn't too nasty.",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.99
+      },
+      {
+        "code": 22,
+        "dataId": 2,
+        "value": 0.05
+      }
+    ],
+    "iconIndex": 685,
+    "name": "Sailor's Bandana",
+    "note": "エレバス号",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 72,
+    "atypeId": 4,
+    "description": "Crit Chance+15%  DEF+15%  SPD-10%\nBorn from a peach, she brought misfortune to the old couple.",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.9
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.15
+      },
+      {
+        "code": 22,
+        "dataId": 2,
+        "value": 0.15
+      }
+    ],
+    "iconIndex": 683,
+    "name": "Helmet of Onimusha",
+    "note": "船の墓場",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 73,
+    "atypeId": 4,
+    "description": "Crit Chance+20%  DEF+20%  SPD-20%\nBorn from a peach, she brought misfortune to the old couple.",
+    "etypeId": 3,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.8
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.2
+      },
+      {
+        "code": 22,
+        "dataId": 2,
+        "value": 0.2
+      }
+    ],
+    "iconIndex": 684,
+    "name": "Armor of Onimusha",
+    "note": "船の墓場",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 74,
+    "atypeId": 1,
+    "description": "Crit Chance+5%  EVA&MEV+5%\nMany a sailor have found themselves invited to the deep sea.",
+    "etypeId": 3,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.05
+      },
+      {
+        "code": 22,
+        "dataId": 4,
+        "value": 0.05
+      },
+      {
+        "code": 22,
+        "dataId": 2,
+        "value": 0.05
+      }
+    ],
+    "iconIndex": 433,
+    "name": "Sailor Clothes",
+    "note": "船乗り　ドロップ",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 75,
+    "atypeId": 5,
+    "description": "Break turns into Gun Break. SPD-20%\nAbsurd weight and absurd power, a man's dream. -Sinbad",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 44,
+        "dataId": 13,
+        "value": 0
+      },
+      {
+        "code": 44,
+        "dataId": 16,
+        "value": 0
+      },
+      {
+        "code": 43,
+        "dataId": 17,
+        "value": 0
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.8
+      }
+    ],
+    "iconIndex": 655,
+    "name": "Cannon",
+    "note": "ビリングズゲート",
+    "params": [
+      0,
+      0,
+      100,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 76,
+    "atypeId": 1,
+    "description": "EVA&MEV+5% Toxicity+100% SPD-2% Start Combat Poisoned\nSnakes wriggle inside. Embroidered with \"Francis Liddell.\"",
+    "etypeId": 3,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.05
+      },
+      {
+        "code": 22,
+        "dataId": 4,
+        "value": 0.05
+      },
+      {
+        "code": 32,
+        "dataId": 3,
+        "value": 1
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.98
+      }
+    ],
+    "iconIndex": 440,
+    "name": "Viper's Clothing",
+    "note": "<戦闘前ステート付与:3,100>\nリデル墓地",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 77,
+    "atypeId": 1,
+    "description": "All Parameters-99%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 0.01
+      },
+      {
+        "code": 21,
+        "dataId": 5,
+        "value": 0.01
+      },
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 0.01
+      },
+      {
+        "code": 21,
+        "dataId": 1,
+        "value": 0.01
+      },
+      {
+        "code": 21,
+        "dataId": 2,
+        "value": 0.01
+      },
+      {
+        "code": 21,
+        "dataId": 4,
+        "value": 0.01
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.01
+      },
+      {
+        "code": 21,
+        "dataId": 7,
+        "value": 0.01
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Ring of Fragile Life",
+    "note": "首切り案内所",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 500
+  },
+  {
+    "id": 78,
+    "atypeId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0
+  },
+  {
+    "id": 79,
+    "atypeId": 1,
+    "description": "HP+5%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 1.05
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Ring of Life",
+    "note": "チェシャ贈り物\nリデル墓地\n",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 80,
+    "atypeId": 1,
+    "description": "GRD Up [Small].",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 1.5
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Ring of the Enduring",
+    "note": "酒場",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 81,
+    "atypeId": 1,
+    "description": "HP Regen+3%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 7,
+        "value": 0.03
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Evil Eye Ring",
+    "note": "橋のたもと",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 82,
+    "atypeId": 1,
+    "description": "Physical Damage Resistance+20%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 6,
+        "value": 0.8
+      },
+      {
+        "code": 11,
+        "dataId": 1,
+        "value": 0.8
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Ring of Steel Protection",
+    "note": "橋のたもと\n大鷲のソウル",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 83,
+    "atypeId": 1,
+    "description": "Fire Resistance+50%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 11,
+        "dataId": 3,
+        "value": 0.5
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Flame Stoneplate Ring",
+    "note": "屠殺場\n燻りの森",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 84,
+    "atypeId": 1,
+    "description": "Lightning Resistance+50%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 11,
+        "dataId": 5,
+        "value": 0.5
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Thunder Stoneplate Ring",
+    "note": "胞子の森\nオイスター",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 85,
+    "atypeId": 1,
+    "description": "Darkness Resistance+50%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 11,
+        "dataId": 10,
+        "value": 0.5
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Dark Stoneplate Ring",
+    "note": "ブラックウェル　魔獣\n名無しの森",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 86,
+    "atypeId": 1,
+    "description": "Increases Magic Defense. Magic Damage Reduction+20%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 7,
+        "value": 0.8
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Spell Stoneplate Ring",
+    "note": "精神病棟\n妊婦のソウル",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      50,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 87,
+    "atypeId": 1,
+    "description": "Doubles the Souls gained from enemies.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 64,
+        "dataId": 4,
+        "value": 0
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Silver Ring of Avarice",
+    "note": "図書室の夢\n<保存禁止>",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0
+  },
+  {
+    "id": 88,
+    "atypeId": 1,
+    "description": "Doubles item droprates.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 64,
+        "dataId": 5,
+        "value": 0
+      }
+    ],
+    "iconIndex": 512,
+    "name": "Golden Ring of Avarice",
+    "note": "図書室の夢\n<保存禁止>",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0
+  },
+  {
+    "id": 89,
+    "atypeId": 1,
+    "description": "Poison&Toxic Resistance+100%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 13,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 13,
+        "dataId": 3,
+        "value": 0
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Poisonbite Ring",
+    "note": "ビル",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 90,
+    "atypeId": 1,
+    "description": "HP Regen+2%  Bleed Resistance+100%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 7,
+        "value": 0.02
+      },
+      {
+        "code": 13,
+        "dataId": 26,
+        "value": 0
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Bloodbite Ring",
+    "note": "ブラウンリッグ",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 91,
+    "atypeId": 1,
+    "description": "Increases Attack.",
+    "etypeId": 4,
+    "traits": [],
+    "iconIndex": 513,
+    "name": "Ring of the Edge",
+    "note": "血涙",
+    "params": [
+      0,
+      0,
+      50,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 92,
+    "atypeId": 1,
+    "description": "Prevents enemy critical strikes and Instant Kill abilities.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 3,
+        "value": 1
+      },
+      {
+        "code": 13,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Resurrectionist's Ring",
+    "note": "死体盗みヘア",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 93,
+    "atypeId": 1,
+    "description": "Crit Chance+20%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 2,
+        "value": 0.2
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Hornet Ring",
+    "note": "霧の公園",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 94,
+    "atypeId": 1,
+    "description": "Increases Defense.",
+    "etypeId": 4,
+    "traits": [],
+    "iconIndex": 513,
+    "name": "Ring of the Wall",
+    "note": "無限食物",
+    "params": [
+      0,
+      0,
+      0,
+      50,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 95,
+    "atypeId": 1,
+    "description": "MP Regen+5%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 8,
+        "value": 0.05
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Ring of Goddess",
+    "note": "ウェインライト",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 96,
+    "atypeId": 1,
+    "description": "Mysterious fluid. HP+15%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 1.15
+      }
+    ],
+    "iconIndex": 99,
+    "name": "Sloppy",
+    "note": "ヘイグ",
+    "params": [
+      3000,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 97,
+    "atypeId": 1,
+    "description": "Mysterious fluid. MP+5%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 1,
+        "value": 1.05
+      }
+    ],
+    "iconIndex": 99,
+    "name": "Squishy",
+    "note": "ヘイグ",
+    "params": [
+      0,
+      200,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 98,
+    "atypeId": 1,
+    "description": "Increases Speed.",
+    "etypeId": 4,
+    "traits": [],
+    "iconIndex": 513,
+    "name": "Wind God's Ring",
+    "note": "胞子の森",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      50,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 99,
+    "atypeId": 1,
+    "description": "Increases Magic.",
+    "etypeId": 4,
+    "traits": [],
+    "iconIndex": 513,
+    "name": "Sorcery Ring",
+    "note": "リポン大聖堂",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      50,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 100,
+    "atypeId": 1,
+    "description": "Chance to be targeted+300%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 0,
+        "value": 3
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Tyrant Ring",
+    "note": "死んだ回数30",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 10
+  },
+  {
+    "id": 101,
+    "atypeId": 1,
+    "description": "The wearer will no longer die from falling from high places.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 11,
+        "dataId": 17,
+        "value": 0
+      }
+    ],
+    "iconIndex": 512,
+    "name": "Cheshire Cat's Ring",
+    "note": "霧の公園",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 10000
+  },
+  {
+    "id": 102,
+    "atypeId": 1,
+    "description": "Changes Break into Hard Break.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 43,
+        "dataId": 16,
+        "value": 0
+      },
+      {
+        "code": 44,
+        "dataId": 13,
+        "value": 0
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Ring of Rebellion",
+    "note": "アーチボルド",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 103,
+    "atypeId": 1,
+    "description": "Chance to Fear+50%  Fear Resistance+100%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 13,
+        "dataId": 56,
+        "value": 0
+      },
+      {
+        "code": 32,
+        "dataId": 56,
+        "value": 0.5
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Ring of Fear",
+    "note": "フレデリック",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 104,
+    "atypeId": 1,
+    "description": "Increases all parameters. HP Regen-20%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 7,
+        "value": -0.2
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Ring of Iron Maiden",
+    "note": "血涙",
+    "params": [
+      1000,
+      100,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50
+    ],
+    "price": 1500
+  },
+  {
+    "id": 105,
+    "atypeId": 1,
+    "description": "Chance to Stun+10%  Stun Resistance+50%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 32,
+        "dataId": 13,
+        "value": 0.1
+      },
+      {
+        "code": 13,
+        "dataId": 13,
+        "value": 0.5
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Knight's Ring",
+    "note": "逃亡騎士ジム",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 106,
+    "atypeId": 1,
+    "description": "MP Regen+3%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 8,
+        "value": 0.03
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Angel's Ring",
+    "note": "悪夢霊　アメリア",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 107,
+    "atypeId": 1,
+    "description": "EVA&MEV+5%  Sleep Resistance+100%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 13,
+        "dataId": 6,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.05
+      },
+      {
+        "code": 22,
+        "dataId": 4,
+        "value": 0.05
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Tinkerbell's Ring",
+    "note": "病みたる時計塔",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 108,
+    "atypeId": 1,
+    "description": "EVA&MEV+10%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.1
+      },
+      {
+        "code": 22,
+        "dataId": 4,
+        "value": 0.1
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Empty Ring",
+    "note": "クリスティ",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 109,
+    "atypeId": 1,
+    "description": "Automatically revive when incapacitated.\n75% chance to break.",
+    "etypeId": 4,
+    "traits": [],
+    "iconIndex": 512,
+    "name": "Ring of Draconic Blessing",
+    "note": "<自動蘇生:500,42,100>\n<自動蘇生破損:75>\nカボチャの拠点",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 10000
+  },
+  {
+    "id": 110,
+    "atypeId": 1,
+    "description": "MAG+50%  Max HP&MP-50%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 0.5
+      },
+      {
+        "code": 21,
+        "dataId": 1,
+        "value": 0.5
+      },
+      {
+        "code": 21,
+        "dataId": 4,
+        "value": 1.5
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Dusk Crown Ring",
+    "note": "ハロルド",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 111,
+    "atypeId": 1,
+    "description": "Recovery+100%  %-based Damage Taken+100%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 2,
+        "value": 2
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Miracle Ring",
+    "note": "オックス・ウォード",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 112,
+    "atypeId": 1,
+    "description": "Increases Attack and Magic.\nDamage received is doubled.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 6,
+        "value": 2
+      },
+      {
+        "code": 23,
+        "dataId": 7,
+        "value": 2
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Ring of the Clown Murderer",
+    "note": "ピエロ",
+    "params": [
+      0,
+      0,
+      200,
+      0,
+      200,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 113,
+    "atypeId": 1,
+    "description": "Greatly increases all parameters, sets MP to 0.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 1.2
+      },
+      {
+        "code": 21,
+        "dataId": 2,
+        "value": 1.2
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.2
+      },
+      {
+        "code": 21,
+        "dataId": 4,
+        "value": 1.2
+      },
+      {
+        "code": 21,
+        "dataId": 5,
+        "value": 1.2
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 1.2
+      },
+      {
+        "code": 21,
+        "dataId": 7,
+        "value": 1.2
+      }
+    ],
+    "iconIndex": 176,
+    "name": "Ring of the Black Goat",
+    "note": "ぺろぺろちょうだい\n<合成設定:0,49,30>",
+    "params": [
+      5000,
+      0,
+      500,
+      500,
+      500,
+      500,
+      500,
+      500
+    ],
+    "price": 100000
+  },
+  {
+    "id": 114,
+    "atypeId": 1,
+    "description": "Increases Attack.\nEvasion&Magic Evasion-50%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": -0.5
+      },
+      {
+        "code": 22,
+        "dataId": 4,
+        "value": -0.5
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Ring of the Reaper",
+    "note": "オイスター",
+    "params": [
+      0,
+      0,
+      400,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 115,
+    "atypeId": 1,
+    "description": "Grants immunity to debuffs.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 12,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 12,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 12,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 12,
+        "dataId": 3,
+        "value": 0
+      },
+      {
+        "code": 12,
+        "dataId": 4,
+        "value": 0
+      },
+      {
+        "code": 12,
+        "dataId": 5,
+        "value": 0
+      },
+      {
+        "code": 12,
+        "dataId": 6,
+        "value": 0
+      },
+      {
+        "code": 12,
+        "dataId": 7,
+        "value": 0
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Barber's Ring",
+    "note": "スウィーニートッド",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 116,
+    "atypeId": 1,
+    "description": "HP+100%  MP+100%  Defense-50%  Magic Defense-50%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 2
+      },
+      {
+        "code": 21,
+        "dataId": 1,
+        "value": 2
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 0.5
+      },
+      {
+        "code": 21,
+        "dataId": 5,
+        "value": 0.5
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Ring of Vanity",
+    "note": "オックス・ウォード",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 117,
+    "atypeId": 1,
+    "description": "Chance to put to Sleep+50%  Sleep Resistance+100%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 32,
+        "dataId": 6,
+        "value": 0.5
+      },
+      {
+        "code": 13,
+        "dataId": 6,
+        "value": 0
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Apple Ring",
+    "note": "屠殺場",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 118,
+    "atypeId": 1,
+    "description": "All Parameters+5%  Evasion&Magic Evasion-5%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 1.05
+      },
+      {
+        "code": 21,
+        "dataId": 1,
+        "value": 1.05
+      },
+      {
+        "code": 21,
+        "dataId": 2,
+        "value": 1.05
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.05
+      },
+      {
+        "code": 21,
+        "dataId": 4,
+        "value": 1.05
+      },
+      {
+        "code": 21,
+        "dataId": 5,
+        "value": 1.05
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 1.05
+      },
+      {
+        "code": 21,
+        "dataId": 7,
+        "value": 1.05
+      },
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": -0.05
+      },
+      {
+        "code": 22,
+        "dataId": 4,
+        "value": -0.05
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Londinium Ring",
+    "note": "キャロル川",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 119,
+    "atypeId": 1,
+    "description": "Basic Attack Hit Count+1.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 34,
+        "dataId": 0,
+        "value": 1
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Pumpkin Knight's Ring",
+    "note": "パンプキン・オー",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 120,
+    "atypeId": 1,
+    "description": "Accuracy+30%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0.3
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Sniper's Ring",
+    "note": "精神病棟",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 121,
+    "atypeId": 1,
+    "description": "MP Regen+10%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 8,
+        "value": 0.1
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Ring of the Deep",
+    "note": "ビリングズゲート",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 122,
+    "atypeId": 1,
+    "description": "Increases Speed.",
+    "etypeId": 4,
+    "traits": [],
+    "iconIndex": 513,
+    "name": "Ring of White Crow",
+    "note": "嘆きの浜辺",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      100,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 123,
+    "atypeId": 1,
+    "description": "Special ring crafted in an Eastern land.\nChanges Dodge into Acrobatics.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 43,
+        "dataId": 87,
+        "value": 0
+      },
+      {
+        "code": 44,
+        "dataId": 12,
+        "value": 0
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Dark Wood Grain Ring",
+    "note": "ぺろぺろ\n<合成設定:0,49,5>",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 124,
+    "atypeId": 1,
+    "description": "Doubles the effectiveness of recovery items.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 3,
+        "value": 2
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Toto's Ring",
+    "note": "魔女の家の残骸",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 125,
+    "atypeId": 1,
+    "description": "Increases Luck.",
+    "etypeId": 4,
+    "traits": [],
+    "iconIndex": 513,
+    "name": "Four-leaf Clover Ring",
+    "note": "名無しの森\nぺろぺろちょうだい\n<合成設定:0,49,5>",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      200
+    ],
+    "price": 1500
+  },
+  {
+    "id": 126,
+    "atypeId": 1,
+    "description": "Auto-combat.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 62,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Puppet's Ring",
+    "note": "亡者コック",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 127,
+    "atypeId": 1,
+    "description": "Crit Chance+60%  Defense-99%  Magic Defense-99%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 2,
+        "value": 0.6
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 0.01
+      },
+      {
+        "code": 21,
+        "dataId": 5,
+        "value": 0.01
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Ring of Reckless Hero",
+    "note": "屠殺場",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 5000
+  },
+  {
+    "id": 128,
+    "atypeId": 1,
+    "description": "Chance to cover enemies in Oil+100%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 32,
+        "dataId": 5,
+        "value": 1
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Banker's Ring",
+    "note": "燻りの森",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 5000
+  },
+  {
+    "id": 129,
+    "atypeId": 1,
+    "description": "Light Resistance+50%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 11,
+        "dataId": 9,
+        "value": 0.5
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Ring of Heaven",
+    "note": "輝星のビーストソウル\nオックス・ウォード",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 130,
+    "atypeId": 1,
+    "description": "Speed+15%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 1.15
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Shoeshiner's Ring",
+    "note": "ブージャム",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 131,
+    "atypeId": 1,
+    "description": "Increases Speed  Evasion&Magic Evasion+20%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.2
+      },
+      {
+        "code": 22,
+        "dataId": 4,
+        "value": 0.2
+      }
+    ],
+    "iconIndex": 512,
+    "name": "Leaf's Ring",
+    "note": "クイーン・ランド\n<保存禁止>",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      200,
+      0
+    ],
+    "price": 20000
+  },
+  {
+    "id": 132,
+    "atypeId": 1,
+    "description": "Madness Resistance+100%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 13,
+        "dataId": 28,
+        "value": 0
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Butcher's Ring",
+    "note": "ブッチャーのソウル",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 5000
+  },
+  {
+    "id": 133,
+    "atypeId": 1,
+    "description": "Feeble Resistance+100%  Bonus Action Chance 10%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 61,
+        "dataId": 0,
+        "value": 0.1
+      },
+      {
+        "code": 13,
+        "dataId": 55,
+        "value": 0
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Harlot's Ring",
+    "note": "ラドウィッジ上層",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 5000
+  },
+  {
+    "id": 134,
+    "atypeId": 1,
+    "description": "Fire/Lightning/Light/Darkness Resistance+20%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 11,
+        "dataId": 3,
+        "value": 0.8
+      },
+      {
+        "code": 11,
+        "dataId": 5,
+        "value": 0.8
+      },
+      {
+        "code": 11,
+        "dataId": 9,
+        "value": 0.8
+      },
+      {
+        "code": 11,
+        "dataId": 10,
+        "value": 0.8
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Exorcist's Ring",
+    "note": "ラドウィッジ上層",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 5000
+  },
+  {
+    "id": 135,
+    "atypeId": 1,
+    "description": "Crit Chance+40%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 2,
+        "value": 0.4
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Ring of the Abyss",
+    "note": "名無しの森",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 5000
+  },
+  {
+    "id": 136,
+    "atypeId": 1,
+    "description": "Stun Resistance+50%  Counterattack Chance+10%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 13,
+        "dataId": 13,
+        "value": 0.5
+      },
+      {
+        "code": 22,
+        "dataId": 6,
+        "value": 0.1
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Champion's Ring",
+    "note": "バイロン",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 5000
+  },
+  {
+    "id": 137,
+    "atypeId": 1,
+    "description": "Bonus Action Chance 100%  MP Costs doubled.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 61,
+        "dataId": 0,
+        "value": 1
+      },
+      {
+        "code": 23,
+        "dataId": 4,
+        "value": 2
+      }
+    ],
+    "iconIndex": 512,
+    "name": "Black Rabbit Ring",
+    "note": "巨人の家のソウル",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 10000
+  },
+  {
+    "id": 138,
+    "atypeId": 1,
+    "description": "Attack+50%  Accuracy-50%  Crit Chance-50%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 2,
+        "value": 1.5
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": -0.5
+      },
+      {
+        "code": 22,
+        "dataId": 2,
+        "value": -0.5
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Troll Ring",
+    "note": "時計塔",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 5000
+  },
+  {
+    "id": 139,
+    "atypeId": 1,
+    "description": "Chance to apply Poison+30%  Chance to apply Deadly Poison+30%\nChance to apply Bleed+30%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 32,
+        "dataId": 2,
+        "value": 0.3
+      },
+      {
+        "code": 32,
+        "dataId": 3,
+        "value": 0.3
+      },
+      {
+        "code": 32,
+        "dataId": 26,
+        "value": 0.3
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Mosquito Ring",
+    "note": "ハノーヴァー",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 5000
+  },
+  {
+    "id": 140,
+    "atypeId": 1,
+    "description": "Attack+20%  Magic+20%.\nRecovery from items halved.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 2,
+        "value": 1.2
+      },
+      {
+        "code": 21,
+        "dataId": 4,
+        "value": 1.2
+      },
+      {
+        "code": 23,
+        "dataId": 3,
+        "value": 0.5
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Red Tearstone Ring",
+    "note": "血涙",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 141,
+    "atypeId": 1,
+    "description": "Allows passage through the gates of Ox Ward University.",
+    "etypeId": 4,
+    "traits": [],
+    "iconIndex": 512,
+    "name": "Edith's Ring",
+    "note": "イーディス\n<保存禁止>\n",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0
+  },
+  {
+    "id": 142,
+    "atypeId": 1,
+    "description": "HP Regen+50%  HP-50%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 7,
+        "value": 0.5
+      },
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 0.5
+      }
+    ],
+    "iconIndex": 512,
+    "name": "Walrus Ring",
+    "note": "オイスター",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 10000
+  },
+  {
+    "id": 143,
+    "atypeId": 1,
+    "description": "Attack+50%  Speed-50%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 2,
+        "value": 1.5
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.5
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Ring of Broken Shackles",
+    "note": "ぺろぺろちょうだい\n<合成設定:0,49,15>",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 144,
+    "atypeId": 1,
+    "description": "HP Regen+10%  MP Regen+10%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 7,
+        "value": 0.1
+      },
+      {
+        "code": 22,
+        "dataId": 8,
+        "value": 0.1
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Knight of Hearts' Ring",
+    "note": "ハートの騎士のソウル",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 145,
+    "atypeId": 1,
+    "description": "Speed+20%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 1.2
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Knight of Spades' Ring",
+    "note": "スペードの騎士のソウル",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 146,
+    "atypeId": 1,
+    "description": "DEF+10%  Stun Resistance+50%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.1
+      },
+      {
+        "code": 13,
+        "dataId": 13,
+        "value": 0.5
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Knight of Clubs' Ring",
+    "note": "クラブの騎士のソウル",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 147,
+    "atypeId": 1,
+    "description": "Bonus Action Chance 50%  All Parameters+20%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 61,
+        "dataId": 0,
+        "value": 0.5
+      },
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 1.2
+      },
+      {
+        "code": 21,
+        "dataId": 1,
+        "value": 1.2
+      },
+      {
+        "code": 21,
+        "dataId": 2,
+        "value": 1.2
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.2
+      },
+      {
+        "code": 21,
+        "dataId": 4,
+        "value": 1.2
+      },
+      {
+        "code": 21,
+        "dataId": 5,
+        "value": 1.2
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 1.2
+      },
+      {
+        "code": 21,
+        "dataId": 7,
+        "value": 1.2
+      }
+    ],
+    "iconIndex": 512,
+    "name": "White Rabbit Ring",
+    "note": "童話コンプリート",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 10000
+  },
+  {
+    "id": 148,
+    "atypeId": 1,
+    "description": "DEF+100%  HP Recovery Disabled.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 2
+      }
+    ],
+    "iconIndex": 513,
+    "name": "God Fish's Ring",
+    "note": "<HP回復無効:100>\n神魚のソウル",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 10000
+  },
+  {
+    "id": 149,
+    "atypeId": 1,
+    "description": "Crit Chance+50%  Accuracy+50%  Evasion+50%\nCounterattack Chance+50%  All Parameters-30%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 0.7
+      },
+      {
+        "code": 21,
+        "dataId": 1,
+        "value": 0.7
+      },
+      {
+        "code": 21,
+        "dataId": 2,
+        "value": 0.7
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 0.7
+      },
+      {
+        "code": 21,
+        "dataId": 4,
+        "value": 0.7
+      },
+      {
+        "code": 21,
+        "dataId": 5,
+        "value": 0.7
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.7
+      },
+      {
+        "code": 21,
+        "dataId": 7,
+        "value": 0.7
+      },
+      {
+        "code": 22,
+        "dataId": 2,
+        "value": 0.5
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0.5
+      },
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.5
+      },
+      {
+        "code": 22,
+        "dataId": 6,
+        "value": 0.5
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Ring of Sin",
+    "note": "深海",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 5000
+  },
+  {
+    "id": 150,
+    "atypeId": 1,
+    "description": "ATK+100%  Sets Magic to 1.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 2,
+        "value": 2
+      },
+      {
+        "code": 21,
+        "dataId": 4,
+        "value": 0
+      }
+    ],
+    "iconIndex": 512,
+    "name": "Celestial Ring",
+    "note": "クティ",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 10000
+  },
+  {
+    "id": 151,
+    "atypeId": 1,
+    "description": "Instant Kill Chance+20%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 32,
+        "dataId": 1,
+        "value": 0.2
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Blackbeard's Ring",
+    "note": "黒髭",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 5000
+  },
+  {
+    "id": 152,
+    "atypeId": 1,
+    "description": "Grants understanding of the incomprehensible language\nof the dear little girl.",
+    "etypeId": 4,
+    "traits": [],
+    "iconIndex": 512,
+    "name": "Prickett's Ring",
+    "note": "<保存禁止>\nプリケット誓約\n",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 20000
+  },
+  {
+    "id": 153,
+    "atypeId": 1,
+    "description": "Defense+50%  Evasion-50%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.5
+      },
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": -0.5
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Ogre Ring",
+    "note": "侯爵夫人の館",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 5000
+  },
+  {
+    "id": 154,
+    "atypeId": 1,
+    "description": "Begin battles Evading.",
+    "etypeId": 4,
+    "traits": [],
+    "iconIndex": 513,
+    "name": "Honeybee Ring",
+    "note": "<戦闘前ステート付与:16,100>\nぺろぺろちょうだい\n<合成設定:0,49,5>",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 155,
+    "atypeId": 1,
+    "description": "Begin battles in a state of Rampage.",
+    "etypeId": 4,
+    "traits": [],
+    "iconIndex": 513,
+    "name": "Frenzy King's Ring",
+    "note": "<戦闘前ステート付与:38,100>\nぺろぺろちょうだい\n<合成設定:0,49,10>",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 156,
+    "atypeId": 1,
+    "description": "Speed+50%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 1.5
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Skanda's Ring",
+    "note": "ぺろぺろちょうだい\n<合成設定:0,49,15>",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 157,
+    "atypeId": 1,
+    "description": "All parameters increase at the start of combat.",
+    "etypeId": 4,
+    "traits": [],
+    "iconIndex": 513,
+    "name": "Ring of My Struggle",
+    "note": "<戦闘前強化付与:2,10,100>\n<戦闘前強化付与:3,10,100>\n<戦闘前強化付与:4,10,100>\n<戦闘前強化付与:5,10,100>\n<戦闘前強化付与:6,10,100>\n<戦闘前強化付与:7,10,100>\nおぞましいヒンドリー",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 158,
+    "atypeId": 1,
+    "description": "Attack-99%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 2,
+        "value": 0.01
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Adultery Ring",
+    "note": "ハノーヴァー",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 500
+  },
+  {
+    "id": 159,
+    "atypeId": 1,
+    "description": "HP+10%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 1.1
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Ring of Life+1",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 160,
+    "atypeId": 1,
+    "description": "HP+25%",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 1.25
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Ring of Life+2",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 161,
+    "atypeId": 1,
+    "description": "HP+50%",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 1.5
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Ring of Life +3",
+    "note": "混沌ダンジョン\nクリミア",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 162,
+    "atypeId": 1,
+    "description": "Guard Effectiveness Up [Medium].",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 2
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Ring of the Enduring+1",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 163,
+    "atypeId": 1,
+    "description": "Guard Effectiveness Up [Large].",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 2.5
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Ring of the Enduring+2",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 164,
+    "atypeId": 1,
+    "description": "Guard Effectiveness Up [Extra Large].",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 3
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Ring of the Enduring+3",
+    "note": "混沌ダンジョン\n白の城下町",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 165,
+    "atypeId": 3,
+    "description": "MDF+25%  MP Regen+5%  SPD-6%\nWorn by a chaplain whose soul was taken by the Goddess.",
+    "etypeId": 3,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 5,
+        "value": 1.25
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.94
+      },
+      {
+        "code": 22,
+        "dataId": 8,
+        "value": 0.05
+      }
+    ],
+    "iconIndex": 714,
+    "name": "Chaplain's Robe",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 166,
+    "atypeId": 4,
+    "description": "DEF+8%  All Ailments RES+20%  SPD-6%\nHelm harboring the power of demons born of the Abyss.",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.94
+      },
+      {
+        "code": 13,
+        "dataId": 2,
+        "value": 0.8
+      },
+      {
+        "code": 13,
+        "dataId": 3,
+        "value": 0.8
+      },
+      {
+        "code": 13,
+        "dataId": 13,
+        "value": 0.8
+      },
+      {
+        "code": 13,
+        "dataId": 5,
+        "value": 0.8
+      },
+      {
+        "code": 13,
+        "dataId": 6,
+        "value": 0.8
+      },
+      {
+        "code": 13,
+        "dataId": 28,
+        "value": 0.8
+      },
+      {
+        "code": 13,
+        "dataId": 26,
+        "value": 0.8
+      },
+      {
+        "code": 13,
+        "dataId": 29,
+        "value": 0.8
+      },
+      {
+        "code": 13,
+        "dataId": 55,
+        "value": 0.8
+      },
+      {
+        "code": 13,
+        "dataId": 56,
+        "value": 0.8
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.08
+      },
+      {
+        "code": 13,
+        "dataId": 17,
+        "value": 0.8
+      },
+      {
+        "code": 13,
+        "dataId": 61,
+        "value": 0.8
+      },
+      {
+        "code": 13,
+        "dataId": 162,
+        "value": 0.8
+      },
+      {
+        "code": 13,
+        "dataId": 163,
+        "value": 0.8
+      },
+      {
+        "code": 13,
+        "dataId": 7,
+        "value": 0.8
+      },
+      {
+        "code": 13,
+        "dataId": 8,
+        "value": 0.8
+      },
+      {
+        "code": 13,
+        "dataId": 4,
+        "value": 0.8
+      }
+    ],
+    "iconIndex": 717,
+    "name": "Helm of the Abyss",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 167,
+    "atypeId": 5,
+    "description": "GRD Up [L]  HP Regen+5%  Fire RES-50%  SPD-3%\nCovered in vines harder than steel. Vulnerable to fire.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 2.5
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.97
+      },
+      {
+        "code": 11,
+        "dataId": 3,
+        "value": 1.5
+      },
+      {
+        "code": 22,
+        "dataId": 7,
+        "value": 0.05
+      }
+    ],
+    "iconIndex": 716,
+    "name": "Bean Tree Shield",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 10000
+  },
+  {
+    "id": 168,
+    "atypeId": 5,
+    "description": "GRD Up [M] SPD-3% Nullifies Enemy Crits&Instant Kill\nThe shield of the legendary King of Immortality.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 2
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.97
+      },
+      {
+        "code": 22,
+        "dataId": 3,
+        "value": 1
+      },
+      {
+        "code": 13,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 667,
+    "name": "Mercury Shield",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 10000
+  },
+  {
+    "id": 169,
+    "atypeId": 1,
+    "description": "EVA&MEV+30%  HP Recovery Disabled\nPainted with black blood, it radiates bottomless evil.",
+    "etypeId": 3,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.3
+      },
+      {
+        "code": 22,
+        "dataId": 4,
+        "value": 0.3
+      }
+    ],
+    "iconIndex": 715,
+    "name": "Abhorrent Coat",
+    "note": "キャロル川\n<HP回復無効:100>",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 170,
+    "atypeId": 4,
+    "description": "Crit Chance+15%  DEF+15%  SPD-10%\nAll-purpose armor made in the military empire Longaia.",
+    "etypeId": 3,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.9
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.15
+      },
+      {
+        "code": 22,
+        "dataId": 2,
+        "value": 0.15
+      }
+    ],
+    "iconIndex": 718,
+    "name": "Armor of Iron Valor",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 171,
+    "atypeId": 1,
+    "description": "Mysterious fluid. HP+30%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 1.3
+      }
+    ],
+    "iconIndex": 99,
+    "name": "Sloppy+1",
+    "note": "混沌ダンジョン",
+    "params": [
+      4000,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 172,
+    "atypeId": 1,
+    "description": "Mysterious fluid. HP+40%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 1.4
+      }
+    ],
+    "iconIndex": 99,
+    "name": "Sloppy+2",
+    "note": "混沌ダンジョン",
+    "params": [
+      4500,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 173,
+    "atypeId": 1,
+    "description": "Mysterious fluid. HP+50%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 1.5
+      }
+    ],
+    "iconIndex": 99,
+    "name": "Sloppy+3",
+    "note": "混沌ダンジョン",
+    "params": [
+      5000,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 174,
+    "atypeId": 1,
+    "description": "Mysterious fluid. MP+10%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 1,
+        "value": 1.1
+      }
+    ],
+    "iconIndex": 99,
+    "name": "Squishy+1",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      300,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 175,
+    "atypeId": 1,
+    "description": "Mysterious fluid. MP+25%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 1,
+        "value": 1.25
+      }
+    ],
+    "iconIndex": 99,
+    "name": "Squishy+2",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      400,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 176,
+    "atypeId": 1,
+    "description": "Mysterious fluid. MP+40%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 1,
+        "value": 1.4
+      }
+    ],
+    "iconIndex": 99,
+    "name": "Squishy+3",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      500,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 177,
+    "atypeId": 1,
+    "description": "Evasion&Magic Evasion+15%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.15
+      },
+      {
+        "code": 22,
+        "dataId": 4,
+        "value": 0.15
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Empty Ring+1",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 178,
+    "atypeId": 1,
+    "description": "Increases Speed  Evasion&Magic Evasion+20%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.2
+      },
+      {
+        "code": 22,
+        "dataId": 4,
+        "value": 0.2
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Empty Ring +2",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 179,
+    "atypeId": 1,
+    "description": "Evasion&Magic Evasion+25%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.25
+      },
+      {
+        "code": 22,
+        "dataId": 4,
+        "value": 0.25
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Empty Ring +3",
+    "note": "混沌ダンジョン\n白の城下町",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 180,
+    "atypeId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0
+  },
+  {
+    "id": 181,
+    "atypeId": 1,
+    "description": "HP Regen+8%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 7,
+        "value": 0.08
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Evil Eye Ring+1",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 182,
+    "atypeId": 1,
+    "description": "HP Regen+15%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 7,
+        "value": 0.15
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Evil Eye Ring+2",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 183,
+    "atypeId": 1,
+    "description": "HP Regen+20%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 7,
+        "value": 0.2
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Evil Eye Ring+3",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 184,
+    "atypeId": 1,
+    "description": "MP Regen+10%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 8,
+        "value": 0.1
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Ring of Goddess+1",
+    "note": "混沌ダンジョン\nクリミア",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 185,
+    "atypeId": 1,
+    "description": "MP Regen+15%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 8,
+        "value": 0.15
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Ring of Goddess+2",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 186,
+    "atypeId": 1,
+    "description": "MP Regen+20%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 8,
+        "value": 0.2
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Ring of Goddess+3",
+    "note": "混沌ダンジョン\n白の城",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 187,
+    "atypeId": 1,
+    "description": "Physical Damage Resistance+25%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 6,
+        "value": 0.75
+      },
+      {
+        "code": 11,
+        "dataId": 1,
+        "value": 0.75
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Ring of Steel Protection+1",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 188,
+    "atypeId": 1,
+    "description": "Physical Damage Resistance+30%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 6,
+        "value": 0.7
+      },
+      {
+        "code": 11,
+        "dataId": 1,
+        "value": 0.7
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Ring of Steel Protection+2",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 189,
+    "atypeId": 1,
+    "description": "Physical Damage Resistance+35%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 6,
+        "value": 0.65
+      },
+      {
+        "code": 11,
+        "dataId": 1,
+        "value": 0.65
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Ring of Steel Protection+3",
+    "note": "混沌ダンジョン\n雪原",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 190,
+    "atypeId": 1,
+    "description": "Increases Magic Defense, Magic Damage Resistance+25%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 7,
+        "value": 0.75
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Spell Stoneplate Ring+1",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      50,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 191,
+    "atypeId": 1,
+    "description": "Increases Magic Defense, Magic Damage Resistance+30%",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 7,
+        "value": 0.7
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Spell Stoneplate Ring+2",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      50,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 192,
+    "atypeId": 1,
+    "description": "Increases Magic Defense, Magic Damage Resistance+35%",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 7,
+        "value": 0.65
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Spell Stoneplate Ring+3",
+    "note": "混沌ダンジョン\n雪原",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      50,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 193,
+    "atypeId": 1,
+    "description": "Accuracy+40%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0.4
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Sniper's Ring+1",
+    "note": "精神病棟",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 194,
+    "atypeId": 1,
+    "description": "Accuracy+50%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0.5
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Sniper's Ring+2",
+    "note": "精神病棟",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 195,
+    "atypeId": 1,
+    "description": "Accuracy+60%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0.6
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Sniper's Ring+3",
+    "note": "精神病棟\nクリミア",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 196,
+    "atypeId": 1,
+    "description": "Crit Chance+30%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 2,
+        "value": 0.3
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Hornet Ring+1",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 197,
+    "atypeId": 1,
+    "description": "Crit Chance+40%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 2,
+        "value": 0.4
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Hornet Ring+2",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 198,
+    "atypeId": 1,
+    "description": "Crit Chance+50%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 2,
+        "value": 0.5
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Hornet Ring+3",
+    "note": "混沌ダンジョン\n雪原",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 199,
+    "atypeId": 1,
+    "description": "Increases Attack.",
+    "etypeId": 4,
+    "traits": [],
+    "iconIndex": 513,
+    "name": "Ring of the Edge+1",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      0,
+      100,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 200,
+    "atypeId": 1,
+    "description": "Increases Attack.",
+    "etypeId": 4,
+    "traits": [],
+    "iconIndex": 513,
+    "name": "Ring of the Edge+2",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      0,
+      150,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 201,
+    "atypeId": 1,
+    "description": "Increases Attack.",
+    "etypeId": 4,
+    "traits": [],
+    "iconIndex": 513,
+    "name": "Ring of the Edge+3",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      0,
+      200,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 202,
+    "atypeId": 1,
+    "description": "Increases Defense.",
+    "etypeId": 4,
+    "traits": [],
+    "iconIndex": 513,
+    "name": "Ring of the Wall+1",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      0,
+      0,
+      100,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 203,
+    "atypeId": 1,
+    "description": "Increases Defense.",
+    "etypeId": 4,
+    "traits": [],
+    "iconIndex": 513,
+    "name": "Ring of the Wall+2",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      0,
+      0,
+      150,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 204,
+    "atypeId": 1,
+    "description": "Increases Defense.",
+    "etypeId": 4,
+    "traits": [],
+    "iconIndex": 513,
+    "name": "Ring of the Wall+3",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      0,
+      0,
+      200,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 205,
+    "atypeId": 1,
+    "description": "Increases Speed.",
+    "etypeId": 4,
+    "traits": [],
+    "iconIndex": 513,
+    "name": "Wind God's Ring+1",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      100,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 206,
+    "atypeId": 1,
+    "description": "Increases Speed.",
+    "etypeId": 4,
+    "traits": [],
+    "iconIndex": 513,
+    "name": "Wind God's Ring+2",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      150,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 207,
+    "atypeId": 1,
+    "description": "Increases Speed.",
+    "etypeId": 4,
+    "traits": [],
+    "iconIndex": 513,
+    "name": "Wind God's Ring+3",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      200,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 208,
+    "atypeId": 1,
+    "description": "Increases Magic.",
+    "etypeId": 4,
+    "traits": [],
+    "iconIndex": 513,
+    "name": "Sorcery Ring+1",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      100,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 209,
+    "atypeId": 1,
+    "description": "Increases Magic.",
+    "etypeId": 4,
+    "traits": [],
+    "iconIndex": 513,
+    "name": "Sorcery Ring+2",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      150,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 210,
+    "atypeId": 1,
+    "description": "Increases Magic.",
+    "etypeId": 4,
+    "traits": [],
+    "iconIndex": 513,
+    "name": "Sorcery Ring+3",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      200,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 211,
+    "atypeId": 1,
+    "description": "All Parameters+10% Evasion&Magic Evasion-10%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 1.1
+      },
+      {
+        "code": 21,
+        "dataId": 1,
+        "value": 1.1
+      },
+      {
+        "code": 21,
+        "dataId": 2,
+        "value": 1.1
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.1
+      },
+      {
+        "code": 21,
+        "dataId": 4,
+        "value": 1.1
+      },
+      {
+        "code": 21,
+        "dataId": 5,
+        "value": 1.1
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 1.1
+      },
+      {
+        "code": 21,
+        "dataId": 7,
+        "value": 1.1
+      },
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": -0.1
+      },
+      {
+        "code": 22,
+        "dataId": 4,
+        "value": -0.1
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Londinium Ring+1",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 212,
+    "atypeId": 1,
+    "description": "All Parameters+20% Evasion&Magic Evasion-15%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 1.2
+      },
+      {
+        "code": 21,
+        "dataId": 1,
+        "value": 1.2
+      },
+      {
+        "code": 21,
+        "dataId": 2,
+        "value": 1.2
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.2
+      },
+      {
+        "code": 21,
+        "dataId": 4,
+        "value": 1.2
+      },
+      {
+        "code": 21,
+        "dataId": 5,
+        "value": 1.2
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 1.2
+      },
+      {
+        "code": 21,
+        "dataId": 7,
+        "value": 1.2
+      },
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": -0.15
+      },
+      {
+        "code": 22,
+        "dataId": 4,
+        "value": -0.15
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Londinium Ring+2",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 213,
+    "atypeId": 1,
+    "description": "All Parameters+30% Evasion&Magic Evasion-20%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 1.3
+      },
+      {
+        "code": 21,
+        "dataId": 1,
+        "value": 1.3
+      },
+      {
+        "code": 21,
+        "dataId": 2,
+        "value": 1.3
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.3
+      },
+      {
+        "code": 21,
+        "dataId": 4,
+        "value": 1.3
+      },
+      {
+        "code": 21,
+        "dataId": 5,
+        "value": 1.3
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 1.3
+      },
+      {
+        "code": 21,
+        "dataId": 7,
+        "value": 1.3
+      },
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": -0.2
+      },
+      {
+        "code": 22,
+        "dataId": 4,
+        "value": -0.2
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Londinium Ring+3",
+    "note": "混沌ダンジョン\n白の城下街",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 214,
+    "atypeId": 1,
+    "description": "Recovery-20%  %-based Damage Taken-20%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 2,
+        "value": 0.8
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Whittled Ring",
+    "note": "麻袋女",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 215,
+    "atypeId": 1,
+    "description": "SPD+100%  Madness RES-100%\nIndeed, there are Great Ones who wish for ghouls to follow them.",
+    "etypeId": 3,
+    "traits": [
+      {
+        "code": 13,
+        "dataId": 28,
+        "value": 2
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 2
+      }
+    ],
+    "iconIndex": 824,
+    "name": "Yellow Cloth",
+    "note": "クリミア",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 216,
+    "atypeId": 4,
+    "description": "80% chance to revive during combat  DEF-30%  MDF-30%\nExiled from Eden, lovely angels were born in a hospital-graveyard.",
+    "etypeId": 3,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 0.7
+      },
+      {
+        "code": 21,
+        "dataId": 5,
+        "value": 0.7
+      }
+    ],
+    "iconIndex": 765,
+    "name": "Guardian Angel",
+    "note": "<自動蘇生:500,42,80>\n乳母たちのソウル",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 217,
+    "atypeId": 5,
+    "description": "GRD Up [S]  Bonus Action Chance 100%  SPD-15%\nSecret desires for her are on Hyde. I'm not to blame. - Dr. Jekyll",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 1.5
+      },
+      {
+        "code": 61,
+        "dataId": 0,
+        "value": 1
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.85
+      }
+    ],
+    "iconIndex": 777,
+    "name": "Two-Faced Buckler",
+    "note": "ジキルとハイド",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 218,
+    "atypeId": 1,
+    "description": "At the start of combat, gain ATK+100% MAG+100% Crit+100% ACC+100%\nThe hood of a playwright elected \"Prince of Hell\" by his peers.",
+    "etypeId": 2,
+    "traits": [],
+    "iconIndex": 781,
+    "name": "Playwright's Hood",
+    "note": "<戦闘前ステート付与:164,100>\nロルド",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 219,
+    "atypeId": 1,
+    "description": "HP+30%  SPD+50%\nYou received it from Lingeriena. Somehow, it reeks of blood.",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 1.5
+      },
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 1.3
+      }
+    ],
+    "iconIndex": 315,
+    "name": "Fake Angel's Wreath",
+    "note": "ランジェリーナ",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      500,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 220,
+    "atypeId": 1,
+    "description": "HP&MP Regen+30%  Bonus Action Chance 50%\nThe mystery, woven beyond the night sky. Won't you look comical?",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 7,
+        "value": 0.3
+      },
+      {
+        "code": 22,
+        "dataId": 8,
+        "value": 0.3
+      },
+      {
+        "code": 61,
+        "dataId": 0,
+        "value": 0.5
+      }
+    ],
+    "iconIndex": 746,
+    "name": "Mystery of Night Sky",
+    "note": "メイベル",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 500000
+  },
+  {
+    "id": 221,
+    "atypeId": 1,
+    "description": "Chance to apply Feeble+100%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 32,
+        "dataId": 55,
+        "value": 1
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Corpse-Eater's Ring",
+    "note": "クリミア",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 222,
+    "atypeId": 1,
+    "description": "Increases all parameters.",
+    "etypeId": 4,
+    "traits": [],
+    "iconIndex": 513,
+    "name": "Almighty Ring",
+    "note": "クリミア看護墓地",
+    "params": [
+      5000,
+      100,
+      500,
+      500,
+      500,
+      500,
+      500,
+      500
+    ],
+    "price": 1500
+  },
+  {
+    "id": 223,
+    "atypeId": 1,
+    "description": "Crit Chance+55%  Accuracy+55%  Evasion+55%\nCounterattack Chance+55%  All Parameters-35%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 0.65
+      },
+      {
+        "code": 21,
+        "dataId": 1,
+        "value": 0.65
+      },
+      {
+        "code": 21,
+        "dataId": 2,
+        "value": 0.65
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 0.65
+      },
+      {
+        "code": 21,
+        "dataId": 4,
+        "value": 0.65
+      },
+      {
+        "code": 21,
+        "dataId": 5,
+        "value": 0.65
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.65
+      },
+      {
+        "code": 21,
+        "dataId": 7,
+        "value": 0.65
+      },
+      {
+        "code": 22,
+        "dataId": 2,
+        "value": 0.55
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0.55
+      },
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.55
+      },
+      {
+        "code": 22,
+        "dataId": 6,
+        "value": 0.55
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Ring of Sin+1",
+    "note": "混沌",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 224,
+    "atypeId": 1,
+    "description": "Crit Chance+60%  Accuracy+60%  Evasion+60%\nCounterattack Chance+60%  All Parameters-40%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 0.6
+      },
+      {
+        "code": 21,
+        "dataId": 1,
+        "value": 0.6
+      },
+      {
+        "code": 21,
+        "dataId": 2,
+        "value": 0.6
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 0.6
+      },
+      {
+        "code": 21,
+        "dataId": 4,
+        "value": 0.6
+      },
+      {
+        "code": 21,
+        "dataId": 5,
+        "value": 0.6
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.6
+      },
+      {
+        "code": 21,
+        "dataId": 7,
+        "value": 0.6
+      },
+      {
+        "code": 22,
+        "dataId": 2,
+        "value": 0.6
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0.6
+      },
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.6
+      },
+      {
+        "code": 22,
+        "dataId": 6,
+        "value": 0.6
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Ring of Sin+2",
+    "note": "混沌",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 225,
+    "atypeId": 1,
+    "description": "Crit Chance+70%  Accuracy+70%  Evasion+70%\nCounterattack Chance+70%  All Parameters-45%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 0.55
+      },
+      {
+        "code": 21,
+        "dataId": 1,
+        "value": 0.55
+      },
+      {
+        "code": 21,
+        "dataId": 2,
+        "value": 0.55
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 0.55
+      },
+      {
+        "code": 21,
+        "dataId": 4,
+        "value": 0.55
+      },
+      {
+        "code": 21,
+        "dataId": 5,
+        "value": 0.55
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.55
+      },
+      {
+        "code": 21,
+        "dataId": 7,
+        "value": 0.55
+      },
+      {
+        "code": 22,
+        "dataId": 2,
+        "value": 0.7
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0.7
+      },
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.7
+      },
+      {
+        "code": 22,
+        "dataId": 6,
+        "value": 0.7
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Ring of Sin+3",
+    "note": "混沌\nウィンターベル",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 226,
+    "atypeId": 1,
+    "description": "Frostbite Resistance+100%  Chance to apply Frostbite+50%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 32,
+        "dataId": 162,
+        "value": 0.5
+      },
+      {
+        "code": 13,
+        "dataId": 162,
+        "value": 0
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Unicorn's Ring",
+    "note": "一角獣の森",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 227,
+    "atypeId": 1,
+    "description": "Laceration Resistance+100%  Chance to apply Laceration+50%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 32,
+        "dataId": 163,
+        "value": 0.5
+      },
+      {
+        "code": 13,
+        "dataId": 163,
+        "value": 0
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Lion's Ring",
+    "note": "獅子の砦",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 228,
+    "atypeId": 1,
+    "description": "Chance to be targeted-100%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Poser's Ring",
+    "note": "心臓の庭園",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 229,
+    "atypeId": 1,
+    "description": "Ice Resistance+50%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 11,
+        "dataId": 4,
+        "value": 0.5
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Ice Stoneplate Ring",
+    "note": "雪原\n城下街",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 230,
+    "atypeId": 1,
+    "description": "Magic+100%  Attack-100%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 21,
+        "dataId": 4,
+        "value": 2
+      }
+    ],
+    "iconIndex": 512,
+    "name": "Old King's Ring",
+    "note": "ぺろぺろバード\nウィンターベル\n<合成設定:0,49,50>",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 10000
+  },
+  {
+    "id": 231,
+    "atypeId": 1,
+    "description": "HP-90%  Crit Chance+100%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 0.1
+      },
+      {
+        "code": 22,
+        "dataId": 2,
+        "value": 1
+      }
+    ],
+    "iconIndex": 512,
+    "name": "Polar Bear's Ring",
+    "note": "ぺろぺろバード\nウィンターベル\n<合成設定:0,49,50>",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 10000
+  },
+  {
+    "id": 232,
+    "atypeId": 1,
+    "description": "At the start of combat, gain DEF+900% MDF+900% HP&MP Regen+100%.",
+    "etypeId": 4,
+    "traits": [],
+    "iconIndex": 513,
+    "name": "Ring of The Indomitable",
+    "note": "<戦闘前ステート付与:170,100>\n白の城下街\n",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 233,
+    "atypeId": 3,
+    "description": "MDF+10%  Ice RES+20%  Magic Reflect+15%  SPD-5%\nThey serve as both the Theatre's assassins and performers' guides.",
+    "etypeId": 3,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 5,
+        "value": 1.1
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.95
+      },
+      {
+        "code": 22,
+        "dataId": 5,
+        "value": 0.15
+      },
+      {
+        "code": 11,
+        "dataId": 4,
+        "value": 0.8
+      }
+    ],
+    "iconIndex": 750,
+    "name": "Winter Witch's Coat",
+    "note": "白の城下",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 234,
+    "atypeId": 4,
+    "description": "DEF+15%  SPD-10%  Crit Avoidance+50%  Ice RES+30%\nOnce people of Winterbell, now they are nothing more than puppets.",
+    "etypeId": 3,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.9
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.15
+      },
+      {
+        "code": 11,
+        "dataId": 4,
+        "value": 0.7
+      },
+      {
+        "code": 22,
+        "dataId": 3,
+        "value": 0.5
+      }
+    ],
+    "iconIndex": 751,
+    "name": "Winter Warrior's Plate",
+    "note": "白の城下",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 235,
+    "atypeId": 4,
+    "description": "DEF+8%  SPD-6%  Crit Avoidance+50%  Ice RES+20%\nOnce people of Winterbell, now they are nothing more than puppets.",
+    "etypeId": 2,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.94
+      },
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.08
+      },
+      {
+        "code": 11,
+        "dataId": 4,
+        "value": 0.8
+      },
+      {
+        "code": 22,
+        "dataId": 3,
+        "value": 0.5
+      }
+    ],
+    "iconIndex": 735,
+    "name": "Winter Warrior's Helm",
+    "note": "白の城下",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 236,
+    "atypeId": 4,
+    "description": "Evasion+100%  Ice RES-50%\nHe cared not for schemes and plots, happy to be where he was.",
+    "etypeId": 3,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 1
+      },
+      {
+        "code": 11,
+        "dataId": 4,
+        "value": 1.5
+      }
+    ],
+    "iconIndex": 447,
+    "name": "Windless Wrap",
+    "note": "冬鐘の風のソウル",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 237,
+    "atypeId": 5,
+    "description": "GRD Up [M]  Basic Attack Hit Count+2  ATK-50%\nFame is a path to wealth, a shining road to escape poverty.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 1.5
+      },
+      {
+        "code": 34,
+        "dataId": 0,
+        "value": 2
+      },
+      {
+        "code": 21,
+        "dataId": 2,
+        "value": 0.5
+      }
+    ],
+    "iconIndex": 767,
+    "name": "Ghost-Finder's Shield",
+    "note": "カーナッキ",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 238,
+    "atypeId": 1,
+    "description": "Vulnerable Resistance+100%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 13,
+        "dataId": 7,
+        "value": 0
+      },
+      {
+        "code": 13,
+        "dataId": 8,
+        "value": 0
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Unbreakable Ring",
+    "note": "クリミア",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 239,
+    "atypeId": 5,
+    "description": "GRD Up [L]  HP+50%  SPD-10%\nIn the pits of Hell, the greedy will carry golden crosses.",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 2.5
+      },
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 1.5
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.9
+      }
+    ],
+    "iconIndex": 281,
+    "name": "Cross Greatshield",
+    "note": "白の城下町",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 240,
+    "atypeId": 1,
+    "description": "All Ailments Resistance+100%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 13,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 13,
+        "dataId": 3,
+        "value": 0
+      },
+      {
+        "code": 13,
+        "dataId": 4,
+        "value": 0
+      },
+      {
+        "code": 13,
+        "dataId": 13,
+        "value": 0
+      },
+      {
+        "code": 13,
+        "dataId": 5,
+        "value": 0
+      },
+      {
+        "code": 13,
+        "dataId": 6,
+        "value": 0
+      },
+      {
+        "code": 13,
+        "dataId": 28,
+        "value": 0
+      },
+      {
+        "code": 13,
+        "dataId": 26,
+        "value": 0
+      },
+      {
+        "code": 13,
+        "dataId": 29,
+        "value": 0
+      },
+      {
+        "code": 13,
+        "dataId": 55,
+        "value": 0
+      },
+      {
+        "code": 13,
+        "dataId": 56,
+        "value": 0
+      },
+      {
+        "code": 13,
+        "dataId": 61,
+        "value": 0
+      },
+      {
+        "code": 13,
+        "dataId": 17,
+        "value": 0
+      },
+      {
+        "code": 13,
+        "dataId": 162,
+        "value": 0
+      },
+      {
+        "code": 13,
+        "dataId": 163,
+        "value": 0
+      },
+      {
+        "code": 13,
+        "dataId": 8,
+        "value": 0
+      },
+      {
+        "code": 13,
+        "dataId": 7,
+        "value": 0
+      }
+    ],
+    "iconIndex": 512,
+    "name": "Black Knight's Ring",
+    "note": "リンダメア",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 10000
+  },
+  {
+    "id": 241,
+    "atypeId": 1,
+    "description": "Counterattack Chance+100%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 6,
+        "value": 1
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Counter Ring",
+    "note": "狂気山脈",
+    "params": [
+      0,
+      0,
+      500,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 242,
+    "atypeId": 1,
+    "description": "All Ailments Resistance+30%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 13,
+        "dataId": 2,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 3,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 13,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 5,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 6,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 28,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 26,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 29,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 55,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 56,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 61,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 17,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 162,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 163,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 8,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 7,
+        "value": 0.7
+      },
+      {
+        "code": 13,
+        "dataId": 4,
+        "value": 0.7
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Ring of the Holy Forest",
+    "note": "キャンディー\n<合成設定:0,49,1>",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 243,
+    "atypeId": 3,
+    "description": "MAG+50%  MDF+50%  MP-99%\nShe of the grotesque shrine proclaims, \"That's surely a miracle.\"",
+    "etypeId": 3,
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 5,
+        "value": 1.5
+      },
+      {
+        "code": 21,
+        "dataId": 4,
+        "value": 1.5
+      },
+      {
+        "code": 21,
+        "dataId": 1,
+        "value": 0.01
+      }
+    ],
+    "iconIndex": 825,
+    "name": "Miracle Maiden's Garb",
+    "note": "混沌ダンジョン",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1000
+  },
+  {
+    "id": 244,
+    "atypeId": 1,
+    "description": "Magic Reflect+10%.",
+    "etypeId": 4,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 5,
+        "value": 0.1
+      }
+    ],
+    "iconIndex": 513,
+    "name": "Treacle Ring",
+    "note": "白の城下町",
+    "params": [
+      0,
+      0,
+      500,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 1500
+  },
+  {
+    "id": 245,
+    "atypeId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0
+  },
+  {
+    "id": 246,
+    "atypeId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0
+  },
+  {
+    "id": 247,
+    "atypeId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0
+  },
+  {
+    "id": 248,
+    "atypeId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0
+  },
+  {
+    "id": 249,
+    "atypeId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0
+  },
+  {
+    "id": 250,
+    "atypeId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0
+  },
+  {
+    "id": 251,
+    "atypeId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0
+  },
+  {
+    "id": 252,
+    "atypeId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0
+  },
+  {
+    "id": 253,
+    "atypeId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0
+  },
+  {
+    "id": 254,
+    "atypeId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0
+  },
+  {
+    "id": 255,
+    "atypeId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0
+  },
+  {
+    "id": 256,
+    "atypeId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0
+  },
+  {
+    "id": 257,
+    "atypeId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0
+  },
+  {
+    "id": 258,
+    "atypeId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0
+  },
+  {
+    "id": 259,
+    "atypeId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0
+  },
+  {
+    "id": 260,
+    "atypeId": 0,
+    "description": "",
+    "etypeId": 1,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "iconIndex": 0,
+    "name": "",
+    "note": "",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 0
+  }
+]
