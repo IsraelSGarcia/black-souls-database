@@ -192,7 +192,8 @@ header h1.clickable-title:hover {
 
 /* Sections View */
 .sections-view {
-    padding: 20px 0;
+    padding-top: 20px;
+    padding-bottom: 0;
     max-height: calc(100vh - 180px);
     overflow-y: auto;
 }
@@ -200,12 +201,24 @@ header h1.clickable-title:hover {
 @media (min-width: 1024px) {
     .sections-view {
         padding: 0 !important;
+        padding-top: 0 !important;
         padding-bottom: 0 !important;
         overflow: visible;
         width: 100%;
         margin: 0 !important;
+        margin-top: 0 !important;
         margin-bottom: 0 !important;
-        max-height: none;
+        max-height: none !important;
+        display: block;
+    }
+    
+    .sections-view > * {
+        margin-bottom: 0 !important;
+    }
+    
+    .sections-view > *:last-child {
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
     }
 }
 
