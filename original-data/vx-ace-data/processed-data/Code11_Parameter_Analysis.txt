@@ -1,0 +1,1001 @@
+CODE 11 (Parameter Rate) - COMPLETE DATA_ID ANALYSIS
+================================================================================
+Total code 11 features: 902
+
+Data ID 1:
+  Occurrences: 37
+  Values: 0.5, 2, 0.95, 0.9, 0.85, 0.8, 0.75, 0.7, 0.65, 0.6, 0.55, 0.45, 0.01, 0.15
+  Files: States, Weapons, Armors, Enemies
+  Details:
+    - States 41 "Knight's Pride": value = 0.5
+    - States 213 "Item 213": value = 2
+    - Weapons 233 "Bunker Shield": value = 0.95
+    - Weapons 234 "Bunker Shield+1": value = 0.9
+    - Weapons 235 "Bunker Shield+2": value = 0.85
+    - Weapons 236 "Bunker Shield+3": value = 0.8
+    - Weapons 237 "Bunker Shield+4": value = 0.75
+    - Weapons 238 "Bunker Shield+5": value = 0.7
+    - Weapons 239 "Bunker Shield+6": value = 0.65
+    - Weapons 240 "Bunker Shield+7": value = 0.6
+    - Weapons 241 "Bunker Shield+8": value = 0.55
+    - Weapons 242 "Bunker Shield+9": value = 0.5
+    - Weapons 243 "Guardian Bunker": value = 0.45
+    - Armors 82 "Ring of Steel Protection": value = 0.8
+    - Armors 187 "Ring of Steel Protection+1": value = 0.75
+    - Armors 188 "Ring of Steel Protection+2": value = 0.7
+    - Armors 189 "Ring of Steel Protection+3": value = 0.65
+    - Enemies 165 "Caterpillar Shisha": value = 0.5
+    - Enemies 166 "Imago Shisha": value = 0.5
+    - Enemies 265 "Peter Pan": value = 0.5
+    - Enemies 326 "Wicked Dragon Hunter Vorpal": value = 0.5
+    - Enemies 328 "Wicked Dragon Hunter Vorpal": value = 0.5
+    - Enemies 459 "Smelter Beast": value = 0.7
+    - Enemies 460 "Smelter Beast": value = 0.7
+    - Enemies 486 "The Lake Inhabiting God": value = 0.5
+    - Enemies 495 "Heavenly Beast Florence": value = 0.01
+    - Enemies 517 "Slime": value = 0.55
+    - Enemies 518 "Dissolution Queen Sho": value = 0.55
+    - Enemies 519 "Dissolution Queen Sho": value = 0.55
+    - Enemies 558 "White Lion Leiden": value = 0.5
+    - Enemies 564 "Beast of Predation": value = 0.5
+    - Enemies 567 "No Face": value = 0.15
+    - Enemies 569 "Gear": value = undefined
+    - Enemies 579 "The Theatre of Darkness, Grand Guignol": value = 0.5
+    - Enemies 589 "Trashlord Kraken": value = 0.5
+    - Enemies 590 "Kraken": value = 0.5
+    - Enemies 593 "Mimic": value = 0.5
+
+Data ID 3:
+  Occurrences: 173
+  Values: 1.5, 2, 0.2, 0.75, 0.5, 0.8, 1.2, 0.1, 5, 0.9, 0.01, 0.85, 0.65
+  Files: States, Armors, Enemies, Actors
+  Details:
+    - States 5 "Oiled": value = 1.5
+    - States 137 "Flame RES Down": value = 1.5
+    - States 248 "Queen Alice Domain": value = 2
+    - Armors 7 "Match-Seller's Clothes": value = 0.2
+    - Armors 19 "Armor of Milton": value = 0.75
+    - Armors 27 "Helm of Milton": value = 0.75
+    - Armors 53 "Red Shield": value = 0.5
+    - Armors 60 "Greatshield of Sloth": value = 0.75
+    - Armors 83 "Flame Stoneplate Ring": value = 0.5
+    - Armors 134 "Exorcist's Ring": value = 0.8
+    - Armors 167 "Bean Tree Shield": value = 1.5
+    - Enemies 5 "Werewolf": value = 1.2
+    - Enemies 6 "Corpse-Eating Rabbit": value = 1.2
+    - Enemies 7 "Werewolf": value = 1.2
+    - Enemies 11 "Rotting Dog": value = 1.2
+    - Enemies 17 "Wererat": value = 1.2
+    - Enemies 18 "Bat Swarm": value = 1.2
+    - Enemies 19 "Snakeman": value = 1.2
+    - Enemies 20 "Wererat": value = 1.2
+    - Enemies 23 "Great Serpent": value = 1.5
+    - Enemies 27 "Hydra": value = 1.5
+    - Enemies 38 "Man-eating Guillotine": value = 2
+    - Enemies 42 "Rainbow Shroom": value = 1.5
+    - Enemies 43 "Shroom Warrior": value = 1.5
+    - Enemies 44 "Shroom Sorcerer": value = 1.5
+    - Enemies 45 "Skull Shroom": value = 1.5
+    - Enemies 46 "Skull Shroom": value = 1.5
+    - Enemies 47 "Skull Shroom": value = 1.5
+    - Enemies 48 "Matango": value = 1.5
+    - Enemies 49 "Chimera": value = 1.5
+    - Enemies 50 "Puppy": value = 1.2
+    - Enemies 55 "Leftovers Feeder": value = 1.5
+    - Enemies 58 "Parasitic Ant": value = 1.5
+    - Enemies 61 "Edible Fly": value = 1.5
+    - Enemies 71 "Hundred-Foot Dog": value = 1.5
+    - Enemies 74 "Corpse Giant": value = 1.5
+    - Enemies 75 "Corpse Giant": value = 1.5
+    - Enemies 78 "Farmer Rabbit": value = 1.2
+    - Enemies 79 "Noble Rabbit": value = 1.2
+    - Enemies 80 "Knight Rabbit": value = 1.2
+    - Enemies 81 "Monarch Rabbit": value = 1.2
+    - Enemies 82 "Duke Rabbit": value = 1.2
+    - Enemies 83 "Unaccounted Flea": value = 1.2
+    - Enemies 84 "Insolent Grasshopper": value = 1.2
+    - Enemies 85 "Skipjack": value = 1.2
+    - Enemies 97 "Cannibal Sawney Bean": value = 1.5
+    - Enemies 102 "Tove": value = 1.5
+    - Enemies 106 "Fungi from Yuggoth": value = 1.5
+    - Enemies 107 "Mi-Go": value = 1.5
+    - Enemies 108 "Santa Claus": value = 1.5
+    - Enemies 137 "Card Gardener": value = 1.5
+    - Enemies 138 "Card Sorcerer": value = 1.5
+    - Enemies 139 "Card Knight": value = 1.5
+    - Enemies 140 "Card Guardian": value = 1.5
+    - Enemies 141 "Card Priest": value = 1.5
+    - Enemies 142 "Joker": value = 1.5
+    - Enemies 146 "Franklin Bollvolt I": value = 0.5
+    - Enemies 148 "The Seven Little Goats": value = 1.2
+    - Enemies 153 "Item 153": value = 1.5
+    - Enemies 154 "Item 154": value = 1.5
+    - Enemies 155 "Item 155": value = 1.5
+    - Enemies 156 "Item 156": value = 1.5
+    - Enemies 160 "Item 160": value = 1.5
+    - Enemies 165 "Caterpillar Shisha": value = 1.5
+    - Enemies 166 "Imago Shisha": value = 1.5
+    - Enemies 172 "Queen of the Heart Lorina": value = 0.5
+    - Enemies 183 "Red Beast": value = 1.5
+    - Enemies 184 "Headhunting Beast": value = 1.5
+    - Enemies 186 "Beast of Distraction": value = 1.5
+    - Enemies 190 "Bellcaller Bellman": value = 0.5
+    - Enemies 194 "Beastclad Butcher": value = 1.5
+    - Enemies 197 "Beast of Conceit": value = 0.5
+    - Enemies 204 "Pin, the Knight of Clubs": value = 0.5
+    - Enemies 207 "Giant House": value = 1.5
+    - Enemies 218 "Farthest Beast Rascal": value = 1.5
+    - Enemies 220 "Sly Monkey": value = 1.2
+    - Enemies 231 "BROWN BEAR": value = 1.5
+    - Enemies 245 "Frumious Bandersnatch": value = 0.5
+    - Enemies 246 "Chaos of the Dark Star": value = 0.5
+    - Enemies 262 "Boy Who Cried Wolf": value = 1.2
+    - Enemies 263 "Tanuki of the Crackling Mountain": value = 0.1
+    - Enemies 266 "Winnie-the-Pooh": value = 1.2
+    - Enemies 267 "Item 267": value = 1.2
+    - Enemies 268 "Tearing Beast, Dinah": value = 1.2
+    - Enemies 269 "Tearing Beast, Dinah": value = 1.2
+    - Enemies 272 "Black Snow": value = 5
+    - Enemies 305 "Blackbeard Edward": value = undefined
+    - Enemies 325 "Phalanx": value = 2
+    - Enemies 326 "Wicked Dragon Hunter Vorpal": value = 2
+    - Enemies 328 "Wicked Dragon Hunter Vorpal": value = 2
+    - Enemies 330 "Chikerost": value = 0.9
+    - Enemies 336 "Sacred Serpent": value = 2
+    - Enemies 339 "Avatar of Red": value = 2
+    - Enemies 342 "Frumious Bandersnatch": value = 0.5
+    - Enemies 348 "Werewolf": value = 1.2
+    - Enemies 349 "Werewolf": value = 1.2
+    - Enemies 350 "Corpse-Eating Rabbit": value = 1.2
+    - Enemies 357 "Headhunting Beast": value = 1.5
+    - Enemies 358 "Beast of Distraction": value = 1.5
+    - Enemies 359 "Hydra": value = 1.5
+    - Enemies 369 "Man-eating Guillotine": value = 2
+    - Enemies 370 "Rainbow Shroom": value = 1.5
+    - Enemies 371 "Matango": value = 1.5
+    - Enemies 372 "Puppy": value = 1.2
+    - Enemies 379 "Hundred-Foot Dog": value = 1.5
+    - Enemies 380 "Corpse Giant": value = 1.5
+    - Enemies 384 "Tove": value = 1.5
+    - Enemies 386 "Gift of the Winter": value = 1.5
+    - Enemies 405 "Phalanx": value = 2
+    - Enemies 414 "Silver Shark": value = 1.5
+    - Enemies 418 "Scowling Stitch": value = 1.5
+    - Enemies 419 "Salamander": value = 0.5
+    - Enemies 422 "Fiend": value = 1.5
+    - Enemies 426 "Fenrir": value = 1.5
+    - Enemies 434 "Cannibal Sawney Bean": value = 1.5
+    - Enemies 442 "Trash-Eater Grasshopper": value = 1.5
+    - Enemies 443 "Slave Ant": value = 1.5
+    - Enemies 444 "Wolf in Grandma's Clothing": value = 0.5
+    - Enemies 445 "Cunning Wolf": value = 1.5
+    - Enemies 446 "The Three Little Pigs": value = 2
+    - Enemies 454 "Liar Doll Pinocchio": value = 0.5
+    - Enemies 455 "The Naked King": value = 0.5
+    - Enemies 459 "Smelter Beast": value = 0.1
+    - Enemies 460 "Smelter Beast": value = 0.1
+    - Enemies 467 "Puss in Boots": value = 1.5
+    - Enemies 468 "Forbidden Beast Behemoth": value = 0.5
+    - Enemies 482 "Demonic Princess of Thorns": value = 1.5
+    - Enemies 483 "Spinning Wheel": value = 1.5
+    - Enemies 484 "Demonic Princess of Thorns": value = 1.5
+    - Enemies 485 "Cinderella, the Queen of Ash": value = 0.5
+    - Enemies 486 "The Lake Inhabiting God": value = 0.5
+    - Enemies 487 "The Black Goat That Births Madness": value = 0.5
+    - Enemies 489 "The Old King": value = 0.5
+    - Enemies 490 "Shadow Reflection": value = 0.5
+    - Enemies 499 "Wind of Winterbell": value = 0.5
+    - Enemies 500 "Wind of Winterbell": value = 0.5
+    - Enemies 506 "Winter Warrior": value = 0.5
+    - Enemies 507 "Winter Witch": value = 0.5
+    - Enemies 511 "Nurse Call": value = 1.5
+    - Enemies 517 "Slime": value = 1.5
+    - Enemies 518 "Dissolution Queen Sho": value = 1.5
+    - Enemies 519 "Dissolution Queen Sho": value = 1.5
+    - Enemies 521 "Ghost-Finder Carnacki": value = 1.5
+    - Enemies 524 "Grizzly": value = 1.5
+    - Enemies 525 "Saber-Tooth": value = 1.5
+    - Enemies 526 "Unseen Horse": value = 1.5
+    - Enemies 527 "Darkfrost Tree": value = 1.5
+    - Enemies 528 "Icehowl Beast": value = 2
+    - Enemies 533 "tes": value = 0.5
+    - Enemies 543 "Snow Queen Gerda": value = 1.5
+    - Enemies 556 "White Unicorn Unis": value = 1.5
+    - Enemies 557 "White Unicorn Unis": value = 1.5
+    - Enemies 558 "White Lion Leiden": value = 1.5
+    - Enemies 560 "Waxwork": value = 1.5
+    - Enemies 564 "Beast of Predation": value = 1.5
+    - Enemies 565 "Beast of Purity": value = 1.5
+    - Enemies 566 "Pure White Prison": value = 0.01
+    - Enemies 569 "Gear": value = undefined
+    - Enemies 577 "The Theatre of Darkness, Grand Guignol": value = 1.5
+    - Enemies 579 "The Theatre of Darkness, Grand Guignol": value = 2
+    - Enemies 580 "Cha1oweaRabit g-ool A 3nd": value = 1.5
+    - Enemies 581 "Cha5illPep BiAd6it vice": value = 1.5
+    - Enemies 582 "Cha7Mad 'sStGro urtuet": value = 1.5
+    - Enemies 583 "Cha12?drille heLoSEv The holice": value = 1.5
+    - Enemies 584 "Cha3owerLook ter2ChaGlaouse": value = 1.5
+    - Enemies 585 "Cha4eedLe umptyWat4ter dledmpty HumW": value = 1.5
+    - Enemies 586 "Cha9liceUni on" myLi and Acorn": value = 1.5
+    - Enemies 591 "God of Sleep": value = 1.5
+    - Enemies 594 "Beggar Wolf": value = 1.2
+    - Actors 37 "Lorina": value = 0.85
+    - Actors 38 "Lorina": value = 0.75
+    - Actors 39 "Lorina": value = 0.65
+    - Actors 40 "Lorina": value = 0.5
+
+Data ID 4:
+  Occurrences: 73
+  Values: 1.5, 2, 0.75, 0.5, 0.8, 0.7, 1.2, 0.3, 0.01, 0.85, 0.65
+  Files: States, Armors, Enemies, Actors, Classes
+  Details:
+    - States 162 "Frostbite": value = 1.5
+    - States 248 "Queen Alice Domain": value = 2
+    - Armors 60 "Greatshield of Sloth": value = 0.75
+    - Armors 229 "Ice Stoneplate Ring": value = 0.5
+    - Armors 233 "Winter Witch's Coat": value = 0.8
+    - Armors 234 "Winter Warrior's Plate": value = 0.7
+    - Armors 235 "Winter Warrior's Helm": value = 0.8
+    - Armors 236 "Windless Wrap": value = 1.5
+    - Enemies 106 "Fungi from Yuggoth": value = 0.5
+    - Enemies 107 "Mi-Go": value = 0.5
+    - Enemies 108 "Santa Claus": value = 0.5
+    - Enemies 172 "Queen of the Heart Lorina": value = 0.5
+    - Enemies 245 "Frumious Bandersnatch": value = 1.5
+    - Enemies 246 "Chaos of the Dark Star": value = 1.5
+    - Enemies 249 "Wicked Dragon Jabberwock": value = 1.5
+    - Enemies 250 "Abominable Hunter": value = 1.5
+    - Enemies 280 "Demonbeast Mary Ann": value = 1.5
+    - Enemies 333 "Corpse Dragon Jabberwock": value = 1.5
+    - Enemies 334 "Serpent God": value = 1.5
+    - Enemies 342 "Frumious Bandersnatch": value = 1.5
+    - Enemies 343 "Corpse Dragon Jabberwock": value = 1.5
+    - Enemies 344 "Jabberwock, the Abominable Evil": value = 1.5
+    - Enemies 359 "Hydra": value = 1.5
+    - Enemies 419 "Salamander": value = 1.5
+    - Enemies 444 "Wolf in Grandma's Clothing": value = 0.5
+    - Enemies 455 "The Naked King": value = 0.5
+    - Enemies 458 "Sand Beauty": value = 1.2
+    - Enemies 459 "Smelter Beast": value = 1.5
+    - Enemies 460 "Smelter Beast": value = 1.5
+    - Enemies 469 "Drake Helkaiser": value = 1.5
+    - Enemies 470 "Rotting Drake Helkaiser": value = 1.5
+    - Enemies 471 "Undead Drake Helkaiser": value = 1.5
+    - Enemies 472 "Ghost Drake Helkaiser": value = 1.5
+    - Enemies 485 "Cinderella, the Queen of Ash": value = 0.5
+    - Enemies 486 "The Lake Inhabiting God": value = 0.5
+    - Enemies 487 "The Black Goat That Births Madness": value = 0.5
+    - Enemies 489 "The Old King": value = 0.5
+    - Enemies 490 "Shadow Reflection": value = 0.5
+    - Enemies 499 "Wind of Winterbell": value = 1.5
+    - Enemies 500 "Wind of Winterbell": value = 1.5
+    - Enemies 506 "Winter Warrior": value = 0.5
+    - Enemies 507 "Winter Witch": value = 0.5
+    - Enemies 511 "Nurse Call": value = 1.5
+    - Enemies 517 "Slime": value = 1.5
+    - Enemies 518 "Dissolution Queen Sho": value = 1.5
+    - Enemies 519 "Dissolution Queen Sho": value = 1.5
+    - Enemies 521 "Ghost-Finder Carnacki": value = 1.5
+    - Enemies 523 "Orc": value = 2
+    - Enemies 524 "Grizzly": value = 1.5
+    - Enemies 525 "Saber-Tooth": value = 0.5
+    - Enemies 526 "Unseen Horse": value = 0.5
+    - Enemies 527 "Darkfrost Tree": value = undefined
+    - Enemies 528 "Icehowl Beast": value = undefined
+    - Enemies 532 "Undead Drake Helkaiser": value = 1.5
+    - Enemies 533 "tes": value = 0.5
+    - Enemies 543 "Snow Queen Gerda": value = undefined
+    - Enemies 552 "Prince of Hell": value = 0.5
+    - Enemies 553 "Prince of Hell": value = 0.5
+    - Enemies 554 "Prince of Hell": value = 0.5
+    - Enemies 556 "White Unicorn Unis": value = 0.3
+    - Enemies 557 "White Unicorn Unis": value = 0.3
+    - Enemies 558 "White Lion Leiden": value = 1.5
+    - Enemies 564 "Beast of Predation": value = 1.5
+    - Enemies 565 "Beast of Purity": value = 0.3
+    - Enemies 566 "Pure White Prison": value = 0.01
+    - Enemies 568 "Queen Alice": value = 1.5
+    - Enemies 569 "Gear": value = undefined
+    - Enemies 591 "God of Sleep": value = 0.01
+    - Actors 37 "Lorina": value = 0.85
+    - Actors 38 "Lorina": value = 0.75
+    - Actors 39 "Lorina": value = 0.65
+    - Actors 40 "Lorina": value = 0.5
+    - Classes 19 "Gerda": value = undefined
+
+Data ID 5:
+  Occurrences: 123
+  Values: 1.5, 2, 0.5, 0.75, 0.8, 1.2, 0.01, 0.85, 0.65
+  Files: States, Armors, Enemies, Actors, Classes
+  Details:
+    - States 138 "Thunder RES Down": value = 1.5
+    - States 248 "Queen Alice Domain": value = 2
+    - Armors 54 "Mock Turtle's Shell": value = 0.5
+    - Armors 60 "Greatshield of Sloth": value = 0.75
+    - Armors 84 "Thunder Stoneplate Ring": value = 0.5
+    - Armors 134 "Exorcist's Ring": value = 0.8
+    - Enemies 15 "Corpse-Eating Crow": value = 1.2
+    - Enemies 51 "Frog-Footman": value = 1.5
+    - Enemies 52 "Fish-Footman": value = 1.5
+    - Enemies 64 "Mermaid": value = 1.5
+    - Enemies 65 "Fish Dog": value = 1.5
+    - Enemies 66 "Sahagin": value = 1.5
+    - Enemies 67 "Hoodlum Sahagin": value = 1.5
+    - Enemies 68 "Priest Sahagin": value = 1.5
+    - Enemies 69 "Karkinos": value = 1.5
+    - Enemies 70 "Storekeeper Sahagin": value = 1.5
+    - Enemies 76 "Boojum": value = 1.5
+    - Enemies 103 "Rath": value = 1.5
+    - Enemies 104 "Borogove": value = 1.5
+    - Enemies 119 "Giant Squid": value = 1.5
+    - Enemies 120 "Tentacles": value = 1.5
+    - Enemies 121 "Human Being": value = 1.5
+    - Enemies 122 "Aberration of the Temple": value = 1.5
+    - Enemies 158 "Item 158": value = 1.5
+    - Enemies 159 "Item 159": value = 1.5
+    - Enemies 164 "Foolish Bird Dodo": value = 1.5
+    - Enemies 172 "Queen of the Heart Lorina": value = 0.5
+    - Enemies 178 "Mock Turtle": value = 1.5
+    - Enemies 190 "Bellcaller Bellman": value = 1.5
+    - Enemies 195 "Great Grey Eagle Edith": value = 1.5
+    - Enemies 196 "Great Grey Eagle Edith": value = 1.5
+    - Enemies 197 "Beast of Conceit": value = 1.5
+    - Enemies 203 "Jude Kelt, the Knight of Spades": value = 0.5
+    - Enemies 221 "The Great Monkey-Killing Crab": value = 1.2
+    - Enemies 223 "Grape Guardbeast": value = 1.5
+    - Enemies 224 "Grape Guardbeast": value = 1.5
+    - Enemies 225 "Grape Guardbeast": value = 1.5
+    - Enemies 232 "Killer Clown Gacy": value = 1.5
+    - Enemies 245 "Frumious Bandersnatch": value = 0.5
+    - Enemies 246 "Chaos of the Dark Star": value = 0.5
+    - Enemies 247 "Mad Bird Jub-Jub": value = 1.5
+    - Enemies 248 "Bird of Cosmos": value = 1.5
+    - Enemies 264 "Greedy Dog": value = 1.2
+    - Enemies 275 "White Rabbit Node": value = 1.5
+    - Enemies 276 "White Rabbit Node": value = 1.5
+    - Enemies 277 "White Queen Node": value = 1.5
+    - Enemies 286 "Follower of the Esoteric": value = 2
+    - Enemies 287 "Ruin of What Was": value = 1.5
+    - Enemies 288 "Sailor": value = 2
+    - Enemies 289 "Pregnant Jellyfish": value = 2
+    - Enemies 292 "Secret Princess Kuti": value = 2
+    - Enemies 298 "The Deep Sea Knight": value = 2
+    - Enemies 299 "The Deep Sea Knight": value = 2
+    - Enemies 300 "God's Odd Fish": value = 2
+    - Enemies 301 "Whale Beast": value = 1.5
+    - Enemies 303 "Captain Kidd": value = 1.5
+    - Enemies 305 "Blackbeard Edward": value = undefined
+    - Enemies 306 "Pirate": value = 1.5
+    - Enemies 307 "Pirate": value = 1.5
+    - Enemies 310 "Bloop": value = 2
+    - Enemies 311 "Human-Shaped": value = 1.5
+    - Enemies 312 "Angel of the Deep Ocean": value = 2
+    - Enemies 313 "Anglerfish": value = 2
+    - Enemies 314 "Placentopus": value = 2
+    - Enemies 315 "Sunfish": value = 2
+    - Enemies 316 "Horn Shark": value = 2
+    - Enemies 317 "Fry": value = 2
+    - Enemies 319 "Deep Sea Predator, Wolris": value = 1.5
+    - Enemies 320 "Deep Sea Predator, Wolris": value = 1.5
+    - Enemies 322 "Zoa, the Princess of R'lyeh": value = 1.5
+    - Enemies 323 "Zoa, the Princess of R'lyeh": value = 1.5
+    - Enemies 341 "Mad Bird Jub-Jub": value = 1.5
+    - Enemies 342 "Frumious Bandersnatch": value = 0.5
+    - Enemies 352 "Corpse-Eating Crow": value = 1.2
+    - Enemies 375 "Mermaid": value = 1.5
+    - Enemies 376 "Sahagin": value = 1.5
+    - Enemies 377 "Priest Sahagin": value = 1.5
+    - Enemies 378 "Karkinos": value = 1.5
+    - Enemies 383 "Rath": value = 1.5
+    - Enemies 385 "Borogove": value = 1.5
+    - Enemies 391 "Giant Squid": value = 1.5
+    - Enemies 408 "Kraken": value = 2
+    - Enemies 411 "Shark": value = 1.5
+    - Enemies 413 "Twin-Head Shark": value = 1.5
+    - Enemies 415 "Sea-Mine Shark": value = 1.5
+    - Enemies 416 "Indescribable Shark": value = 1.5
+    - Enemies 417 "Tornado Shark": value = 1.5
+    - Enemies 426 "Fenrir": value = 0.5
+    - Enemies 444 "Wolf in Grandma's Clothing": value = 0.5
+    - Enemies 448 "Bluebird of Unhappiness": value = 1.5
+    - Enemies 454 "Liar Doll Pinocchio": value = 1.5
+    - Enemies 455 "The Naked King": value = 0.5
+    - Enemies 461 "Great Grey Eagle Edith": value = 1.5
+    - Enemies 462 "Great Grey Eagle Edith": value = 1.5
+    - Enemies 466 "Shuten-dōji": value = 0.5
+    - Enemies 477 "The Old Frog King": value = 1.5
+    - Enemies 478 "The Old Frog King": value = 1.5
+    - Enemies 485 "Cinderella, the Queen of Ash": value = 1.5
+    - Enemies 486 "The Lake Inhabiting God": value = 1.5
+    - Enemies 487 "The Black Goat That Births Madness": value = 0.5
+    - Enemies 489 "The Old King": value = 0.5
+    - Enemies 490 "Shadow Reflection": value = 0.5
+    - Enemies 499 "Wind of Winterbell": value = 0.5
+    - Enemies 506 "Winter Warrior": value = 0.5
+    - Enemies 507 "Winter Witch": value = 0.5
+    - Enemies 511 "Nurse Call": value = 1.5
+    - Enemies 517 "Slime": value = 0.5
+    - Enemies 518 "Dissolution Queen Sho": value = 0.5
+    - Enemies 519 "Dissolution Queen Sho": value = 0.5
+    - Enemies 521 "Ghost-Finder Carnacki": value = undefined
+    - Enemies 524 "Grizzly": value = 0.5
+    - Enemies 533 "tes": value = 0.5
+    - Enemies 558 "White Lion Leiden": value = 0.5
+    - Enemies 564 "Beast of Predation": value = 0.5
+    - Enemies 566 "Pure White Prison": value = 0.01
+    - Enemies 569 "Gear": value = undefined
+    - Enemies 589 "Trashlord Kraken": value = 2
+    - Enemies 590 "Kraken": value = 2
+    - Actors 37 "Lorina": value = 0.85
+    - Actors 38 "Lorina": value = 0.75
+    - Actors 39 "Lorina": value = 0.65
+    - Actors 40 "Lorina": value = 0.5
+    - Classes 17 "Carnacki": value = undefined
+
+Data ID 8:
+  Occurrences: 2
+  Values: 9
+  Files: States
+  Details:
+    - States 6 "Sleep": value = 9
+    - States 149 "Deep Sleep": value = 9
+
+Data ID 9:
+  Occurrences: 207
+  Values: 1.5, 2, 0.5, 0.75, 0.8, 1.2, 3, 0.3, 0.01, 0.25, 0.85, 0.65
+  Files: States, Armors, Enemies, Actors, Classes
+  Details:
+    - States 139 "Light RES Down": value = 1.5
+    - States 248 "Queen Alice Domain": value = 2
+    - Armors 57 "Holy Knight's Shield": value = 0.5
+    - Armors 60 "Greatshield of Sloth": value = 0.75
+    - Armors 129 "Ring of Heaven": value = 0.5
+    - Armors 134 "Exorcist's Ring": value = 0.8
+    - Enemies 1 "Headless Hollow": value = 1.2
+    - Enemies 3 "Headless Knight": value = 1.2
+    - Enemies 8 "Headless Soldier": value = 1.2
+    - Enemies 9 "Dullahan": value = 1.2
+    - Enemies 10 "Frederick of Fear": value = 1.5
+    - Enemies 21 "Hollow": value = 1.2
+    - Enemies 24 "Dark Conjurer": value = 1.5
+    - Enemies 28 "Skeleton": value = 1.5
+    - Enemies 29 "Skeleton": value = 1.5
+    - Enemies 30 "Skeleton": value = 1.5
+    - Enemies 31 "Skeleton": value = 1.5
+    - Enemies 32 "Skeleton": value = 1.5
+    - Enemies 33 "Skeleton": value = 1.5
+    - Enemies 35 "Cotton the Witch": value = 1.5
+    - Enemies 36 "Iron Maiden": value = 1.5
+    - Enemies 37 "Iron Maiden": value = 1.5
+    - Enemies 57 "Knight Pumpkin-O'": value = 1.5
+    - Enemies 62 "Shrimp Beast": value = 1.5
+    - Enemies 74 "Corpse Giant": value = 1.5
+    - Enemies 75 "Corpse Giant": value = 1.5
+    - Enemies 77 "Kidnapper": value = 1.5
+    - Enemies 86 "Winged Lady": value = 1.5
+    - Enemies 88 "Angel Manufacturer Amelia": value = 1.5
+    - Enemies 90 "Sadistic Mistress Brownrigg": value = 1.5
+    - Enemies 91 "Monster Butler Archibald": value = 1.5
+    - Enemies 92 "Monster Butler Archibald": value = 1.5
+    - Enemies 93 "Monster Butler Archibald": value = 1.5
+    - Enemies 94 "Monster Butler Archibald": value = 1.5
+    - Enemies 95 "Monster Butler Archibald": value = 1.5
+    - Enemies 96 "Hollow Soldier Christie": value = 1.5
+    - Enemies 97 "Cannibal Sawney Bean": value = 1.5
+    - Enemies 98 "Corpse Thief Hare": value = 1.5
+    - Enemies 99 "Corpse Carrier Burke": value = 1.5
+    - Enemies 100 "Fleeing Knight Jim": value = 1.5
+    - Enemies 109 "Wainwright the Sinful": value = 1.5
+    - Enemies 114 "Neurosurgeon": value = 1.5
+    - Enemies 115 "Patient": value = 1.5
+    - Enemies 116 "Nurse": value = 1.5
+    - Enemies 117 "Dark Doctor Harold": value = 1.5
+    - Enemies 124 "Demon in White": value = 1.5
+    - Enemies 125 "Whore": value = 1.5
+    - Enemies 126 "Whore": value = 1.5
+    - Enemies 127 "Succubus": value = 1.5
+    - Enemies 129 "Succubus": value = 1.5
+    - Enemies 130 "Barber Todd": value = 1.5
+    - Enemies 144 "Executioner": value = 1.5
+    - Enemies 146 "Franklin Bollvolt I": value = 1.5
+    - Enemies 147 "Fist Duelist Byron": value = 1.5
+    - Enemies 149 "Acid Practitioner Haigh": value = 1.5
+    - Enemies 150 "Teacup Poisoner Graham": value = 1.5
+    - Enemies 151 "Experimental Body": value = 1.5
+    - Enemies 157 "Item 157": value = 3
+    - Enemies 163 "Lizard Bill": value = 1.5
+    - Enemies 167 "Duchess Margaret von Tyrol": value = 1.5
+    - Enemies 169 "Tweedledum": value = 1.5
+    - Enemies 170 "Tweedledee": value = 1.5
+    - Enemies 172 "Queen of the Heart Lorina": value = 0.5
+    - Enemies 174 "Hatta the Hatter": value = 1.5
+    - Enemies 177 "Griffy the Griffin": value = 1.5
+    - Enemies 179 "Red Idol Prickett": value = 0.3
+    - Enemies 180 "Red Idol Prickett": value = 0.3
+    - Enemies 182 "Glass Vial Beast": value = 1.5
+    - Enemies 191 "Bonnet Maker": value = 1.5
+    - Enemies 192 "Billiard Marker": value = 1.5
+    - Enemies 193 "Broker": value = 1.5
+    - Enemies 198 "Jack the Ripper": value = 1.5
+    - Enemies 199 "Jack the Ripper": value = 1.5
+    - Enemies 201 "Dean": value = 1.5
+    - Enemies 205 "Beast of the Bright Star": value = 0.5
+    - Enemies 206 "Old Knight William": value = 1.5
+    - Enemies 208 "Infinite Food": value = 1.5
+    - Enemies 211 "Griffin Knight Griffy": value = 0.5
+    - Enemies 212 "Black Conductor Hein": value = 2
+    - Enemies 219 "Item 219": value = 1.5
+    - Enemies 227 "tw╣f": value = 1.5
+    - Enemies 228 "tw╣f": value = 1.5
+    - Enemies 229 "Dream Clown": value = 1.5
+    - Enemies 230 "Dream Clown": value = 1.5
+    - Enemies 240 "Slave Emperor Sibimet": value = 1.5
+    - Enemies 241 "Slave Emperor Sibimet": value = 1.5
+    - Enemies 242 "Slave Empress Tabikat": value = 1.5
+    - Enemies 243 "Slave Empress Tabikat": value = 1.5
+    - Enemies 245 "Frumious Bandersnatch": value = 1.5
+    - Enemies 246 "Chaos of the Dark Star": value = 1.5
+    - Enemies 247 "Mad Bird Jub-Jub": value = 0.5
+    - Enemies 248 "Bird of Cosmos": value = 0.5
+    - Enemies 249 "Wicked Dragon Jabberwock": value = 1.5
+    - Enemies 250 "Abominable Hunter": value = 1.5
+    - Enemies 256 "Dark Matter": value = 1.2
+    - Enemies 257 "Dark Matter": value = 1.2
+    - Enemies 258 "Dark Matter": value = 1.2
+    - Enemies 259 "Dark Matter": value = 1.2
+    - Enemies 260 "Item 260": value = 1.2
+    - Enemies 270 "Night Gaunt": value = 1.5
+    - Enemies 271 "The Black One": value = 1.5
+    - Enemies 273 "Shadow Demoness": value = 1.5
+    - Enemies 282 "Little Girl Alice": value = 0.5
+    - Enemies 283 "The Crawling Little Girls": value = 0.3
+    - Enemies 284 "è[ÁäÊ/Ï%Ñ>Ċ<ÑÈÈ%ÁċÑÊ%Ë": value = 1.5
+    - Enemies 305 "Blackbeard Edward": value = undefined
+    - Enemies 311 "Human-Shaped": value = undefined
+    - Enemies 322 "Zoa, the Princess of R'lyeh": value = 0.01
+    - Enemies 323 "Zoa, the Princess of R'lyeh": value = 0.01
+    - Enemies 325 "Phalanx": value = 2
+    - Enemies 326 "Wicked Dragon Hunter Vorpal": value = 0.5
+    - Enemies 328 "Wicked Dragon Hunter Vorpal": value = 0.5
+    - Enemies 333 "Corpse Dragon Jabberwock": value = 1.5
+    - Enemies 337 "Repulsive Hindley": value = 1.5
+    - Enemies 339 "Avatar of Red": value = 2
+    - Enemies 340 "Corpse Eating Demon Meryphillia": value = 2
+    - Enemies 341 "Mad Bird Jub-Jub": value = 0.5
+    - Enemies 342 "Frumious Bandersnatch": value = 1.5
+    - Enemies 343 "Corpse Dragon Jabberwock": value = 1.5
+    - Enemies 344 "Jabberwock, the Abominable Evil": value = 1.5
+    - Enemies 347 "Glass Vial Beast": value = 1.5
+    - Enemies 355 "Hollow": value = 1.2
+    - Enemies 356 "Dark Conjurer": value = 1.5
+    - Enemies 360 "Skeleton": value = 1.5
+    - Enemies 361 "Skeleton": value = 1.5
+    - Enemies 362 "Skeleton": value = 1.5
+    - Enemies 363 "Skeleton": value = 1.5
+    - Enemies 364 "Skeleton": value = 1.5
+    - Enemies 365 "Skeleton": value = 1.5
+    - Enemies 367 "Iron Maiden": value = 1.5
+    - Enemies 368 "Iron Maiden": value = 1.5
+    - Enemies 380 "Corpse Giant": value = 1.5
+    - Enemies 381 "Kidnapper": value = 1.5
+    - Enemies 382 "Winged Lady": value = 1.5
+    - Enemies 390 "Patient": value = 1.5
+    - Enemies 394 "Succubus": value = 1.5
+    - Enemies 395 "Succubus": value = 1.5
+    - Enemies 398 "Executioner": value = 1.5
+    - Enemies 399 "Dark Matter": value = 1.2
+    - Enemies 405 "Phalanx": value = 2
+    - Enemies 406 "Knight of the Lost Empire": value = 1.5
+    - Enemies 407 "Wheel Skeleton": value = 1.5
+    - Enemies 412 "Apparition Shark": value = 1.5
+    - Enemies 421 "WHITE KING": value = undefined
+    - Enemies 427 "Wall of the Dead": value = 1.5
+    - Enemies 431 "Cotton the Witch": value = 1.5
+    - Enemies 432 "Sadistic Mistress Brownrigg": value = 1.5
+    - Enemies 433 "Hollow Soldier Christie": value = 1.5
+    - Enemies 434 "Cannibal Sawney Bean": value = 1.5
+    - Enemies 435 "Fleeing Knight Jim": value = 1.5
+    - Enemies 436 "Wainwright the Sinful": value = 1.5
+    - Enemies 437 "Barber Todd": value = 1.5
+    - Enemies 438 "Dark Doctor Harold": value = 1.5
+    - Enemies 439 "Fist Duelist Byron": value = 1.5
+    - Enemies 440 "Acid Practitioner Haigh": value = 1.5
+    - Enemies 444 "Wolf in Grandma's Clothing": value = 0.5
+    - Enemies 455 "The Naked King": value = 0.5
+    - Enemies 463 "Jack the Ripper": value = 1.5
+    - Enemies 464 "Jack the Ripper": value = 1.5
+    - Enemies 465 "Prince Charming": value = 0.5
+    - Enemies 468 "Forbidden Beast Behemoth": value = 1.5
+    - Enemies 473 "Lust Demon Satyr": value = 1.5
+    - Enemies 485 "Cinderella, the Queen of Ash": value = 0.5
+    - Enemies 486 "The Lake Inhabiting God": value = 0.5
+    - Enemies 487 "The Black Goat That Births Madness": value = 1.5
+    - Enemies 489 "The Old King": value = 0.5
+    - Enemies 490 "Shadow Reflection": value = 0.5
+    - Enemies 492 "Founding Doctor Florence": value = 0.25
+    - Enemies 495 "Heavenly Beast Florence": value = 0.25
+    - Enemies 499 "Wind of Winterbell": value = 0.5
+    - Enemies 502 "Volunteer": value = 1.5
+    - Enemies 503 "Corpse-Eater": value = 2
+    - Enemies 504 "Patient": value = 2
+    - Enemies 506 "Winter Warrior": value = 0.5
+    - Enemies 507 "Winter Witch": value = 0.5
+    - Enemies 509 "Star Pest": value = 1.5
+    - Enemies 510 "Star Pest": value = 1.5
+    - Enemies 511 "Nurse Call": value = 0.25
+    - Enemies 513 "Dr. Jekyll": value = 1.5
+    - Enemies 514 "Mad Devil Hyde": value = 1.5
+    - Enemies 517 "Slime": value = 0.5
+    - Enemies 518 "Dissolution Queen Sho": value = 0.5
+    - Enemies 519 "Dissolution Queen Sho": value = 0.5
+    - Enemies 530 "Albino Penguin": value = 1.5
+    - Enemies 533 "tes": value = 0.5
+    - Enemies 535 "Brutalizing Angel Lingeriena": value = undefined
+    - Enemies 536 "Violence Demon Lingeriena": value = 1.5
+    - Enemies 545 "Black Knight Lindamea": value = 1.5
+    - Enemies 546 "Hunting Horse": value = 1.5
+    - Enemies 547 "Black Knight Lindamea": value = 1.5
+    - Enemies 548 "Black Knight Lindamea": value = 1.5
+    - Enemies 549 "Guardian Eye": value = 2
+    - Enemies 550 "Black Knight Lindamea": value = 1.5
+    - Enemies 556 "White Unicorn Unis": value = 0.3
+    - Enemies 557 "White Unicorn Unis": value = 0.3
+    - Enemies 561 "Alice of Wonderland": value = 0.5
+    - Enemies 562 "Alice of Under Ground": value = 0.5
+    - Enemies 563 "Alice of Looking-Glass Land": value = 0.5
+    - Enemies 565 "Beast of Purity": value = 0.3
+    - Enemies 566 "Pure White Prison": value = 0.01
+    - Enemies 569 "Gear": value = undefined
+    - Enemies 591 "God of Sleep": value = 1.5
+    - Actors 37 "Lorina": value = 0.85
+    - Actors 38 "Lorina": value = 0.75
+    - Actors 39 "Lorina": value = 0.65
+    - Actors 40 "Lorina": value = 0.5
+    - Classes 18 "Florence": value = 0.25
+
+Data ID 10:
+  Occurrences: 130
+  Values: 1.5, 2, 0.5, 0.75, 0.8, 1.2, 0.3, 0.25, 0.01, 0.85, 0.65
+  Files: States, Armors, Enemies, Actors, Classes
+  Details:
+    - States 140 "Dark RES Down": value = 1.5
+    - States 201 "Lindamea Domain": value = 2
+    - States 248 "Queen Alice Domain": value = 2
+    - Armors 56 "Black Vanguard's Shield": value = 0.5
+    - Armors 60 "Greatshield of Sloth": value = 0.75
+    - Armors 85 "Dark Stoneplate Ring": value = 0.5
+    - Armors 134 "Exorcist's Ring": value = 0.8
+    - Enemies 25 "Yigzoh the Gravekeeper": value = 1.5
+    - Enemies 26 "Serpent Spirit": value = 1.5
+    - Enemies 34 "Lamia": value = 1.5
+    - Enemies 39 "Hanged Angel": value = 1.5
+    - Enemies 59 "Pound Cake": value = 1.5
+    - Enemies 63 "Hollow Cook": value = 1.5
+    - Enemies 73 "She": value = 1.5
+    - Enemies 73 "She": value = 0.5
+    - Enemies 117 "Dark Doctor Harold": value = 0.5
+    - Enemies 124 "Demon in White": value = 0.5
+    - Enemies 132 "Brain Sapper": value = 1.5
+    - Enemies 133 "Student": value = 1.5
+    - Enemies 134 "Moon Beast": value = 1.5
+    - Enemies 135 "Hundred-Foot Woman": value = 1.5
+    - Enemies 143 "Gargoyle": value = 1.5
+    - Enemies 154 "Item 154": value = 1.5
+    - Enemies 155 "Item 155": value = 1.5
+    - Enemies 156 "Item 156": value = 1.5
+    - Enemies 162 "Doctor Blackwell": value = 1.5
+    - Enemies 163 "Lizard Bill": value = 1.5
+    - Enemies 168 "Edible Cake": value = 1.5
+    - Enemies 171 "Humpty Dumpty": value = 1.5
+    - Enemies 172 "Queen of the Heart Lorina": value = 0.5
+    - Enemies 173 "Queen's Tarts": value = 1.5
+    - Enemies 175 "Haigha the March Rabbit": value = 1.5
+    - Enemies 176 "Dormouse the Sleeping Rat": value = 1.5
+    - Enemies 188 "Pregnant Cake": value = 1.5
+    - Enemies 189 "Baby Cake": value = 1.5
+    - Enemies 200 "Vagina Dentata": value = 1.5
+    - Enemies 201 "Dean": value = 0.5
+    - Enemies 202 "Kiska, the Knight of Hearts": value = 0.5
+    - Enemies 205 "Beast of the Bright Star": value = 1.5
+    - Enemies 212 "Black Conductor Hein": value = 0.5
+    - Enemies 227 "tw╣f": value = 1.5
+    - Enemies 228 "tw╣f": value = 1.5
+    - Enemies 240 "Slave Emperor Sibimet": value = 0.5
+    - Enemies 241 "Slave Emperor Sibimet": value = 0.5
+    - Enemies 242 "Slave Empress Tabikat": value = 0.5
+    - Enemies 243 "Slave Empress Tabikat": value = 0.5
+    - Enemies 245 "Frumious Bandersnatch": value = 0.5
+    - Enemies 246 "Chaos of the Dark Star": value = 0.5
+    - Enemies 247 "Mad Bird Jub-Jub": value = 0.5
+    - Enemies 248 "Bird of Cosmos": value = 0.5
+    - Enemies 249 "Wicked Dragon Jabberwock": value = 0.5
+    - Enemies 250 "Abominable Hunter": value = 0.5
+    - Enemies 252 "Queen of Torture Tools": value = 1.5
+    - Enemies 253 "Queen of Torture Tools": value = 1.5
+    - Enemies 254 "Torture Queen Elizabeth": value = 1.5
+    - Enemies 261 "Bluebeard": value = 1.2
+    - Enemies 274 "The Elk-Goddess": value = 1.5
+    - Enemies 282 "Little Girl Alice": value = 1.5
+    - Enemies 283 "The Crawling Little Girls": value = 1.5
+    - Enemies 284 "è[ÁäÊ/Ï%Ñ>Ċ<ÑÈÈ%ÁċÑÊ%Ë": value = 0.3
+    - Enemies 305 "Blackbeard Edward": value = undefined
+    - Enemies 326 "Wicked Dragon Hunter Vorpal": value = 0.5
+    - Enemies 328 "Wicked Dragon Hunter Vorpal": value = 0.5
+    - Enemies 333 "Corpse Dragon Jabberwock": value = 0.5
+    - Enemies 338 "Repulsive Brady": value = 1.5
+    - Enemies 340 "Corpse Eating Demon Meryphillia": value = 0.5
+    - Enemies 341 "Mad Bird Jub-Jub": value = 0.5
+    - Enemies 342 "Frumious Bandersnatch": value = 0.5
+    - Enemies 343 "Corpse Dragon Jabberwock": value = 0.5
+    - Enemies 344 "Jabberwock, the Abominable Evil": value = 0.5
+    - Enemies 366 "Serpent Spirit": value = 1.5
+    - Enemies 374 "Pound Cake": value = 1.5
+    - Enemies 392 "Hundred-Foot Woman": value = 1.5
+    - Enemies 393 "Student": value = 1.5
+    - Enemies 396 "Moon Beast": value = 1.5
+    - Enemies 397 "Gargoyle": value = 1.5
+    - Enemies 421 "WHITE KING": value = undefined
+    - Enemies 425 "Bell Ringer": value = 1.5
+    - Enemies 428 "Iron Apega": value = 1.5
+    - Enemies 438 "Dark Doctor Harold": value = 0.5
+    - Enemies 444 "Wolf in Grandma's Clothing": value = 0.5
+    - Enemies 447 "Frankenstein's Monster": value = 1.5
+    - Enemies 455 "The Naked King": value = 0.5
+    - Enemies 465 "Prince Charming": value = 0.5
+    - Enemies 466 "Shuten-dōji": value = 0.5
+    - Enemies 473 "Lust Demon Satyr": value = 0.5
+    - Enemies 474 "Moon Beast": value = 1.5
+    - Enemies 485 "Cinderella, the Queen of Ash": value = 0.5
+    - Enemies 486 "The Lake Inhabiting God": value = 0.5
+    - Enemies 487 "The Black Goat That Births Madness": value = 0.5
+    - Enemies 489 "The Old King": value = 0.5
+    - Enemies 490 "Shadow Reflection": value = 0.5
+    - Enemies 492 "Founding Doctor Florence": value = 0.25
+    - Enemies 495 "Heavenly Beast Florence": value = 0.25
+    - Enemies 502 "Volunteer": value = undefined
+    - Enemies 503 "Corpse-Eater": value = 0.5
+    - Enemies 506 "Winter Warrior": value = 0.5
+    - Enemies 507 "Winter Witch": value = 0.5
+    - Enemies 511 "Nurse Call": value = 0.25
+    - Enemies 517 "Slime": value = 0.5
+    - Enemies 518 "Dissolution Queen Sho": value = 0.5
+    - Enemies 519 "Dissolution Queen Sho": value = 0.5
+    - Enemies 527 "Darkfrost Tree": value = undefined
+    - Enemies 530 "Albino Penguin": value = undefined
+    - Enemies 533 "tes": value = 0.5
+    - Enemies 535 "Brutalizing Angel Lingeriena": value = 1.5
+    - Enemies 536 "Violence Demon Lingeriena": value = undefined
+    - Enemies 545 "Black Knight Lindamea": value = undefined
+    - Enemies 546 "Hunting Horse": value = undefined
+    - Enemies 547 "Black Knight Lindamea": value = undefined
+    - Enemies 548 "Black Knight Lindamea": value = undefined
+    - Enemies 549 "Guardian Eye": value = undefined
+    - Enemies 550 "Black Knight Lindamea": value = undefined
+    - Enemies 552 "Prince of Hell": value = 0.5
+    - Enemies 553 "Prince of Hell": value = 0.5
+    - Enemies 554 "Prince of Hell": value = 0.5
+    - Enemies 556 "White Unicorn Unis": value = 1.5
+    - Enemies 557 "White Unicorn Unis": value = 1.5
+    - Enemies 561 "Alice of Wonderland": value = 1.5
+    - Enemies 562 "Alice of Under Ground": value = 1.5
+    - Enemies 563 "Alice of Looking-Glass Land": value = 1.5
+    - Enemies 565 "Beast of Purity": value = 1.5
+    - Enemies 566 "Pure White Prison": value = 0.01
+    - Enemies 567 "No Face": value = 0.01
+    - Enemies 569 "Gear": value = undefined
+    - Actors 37 "Lorina": value = 0.85
+    - Actors 38 "Lorina": value = 0.75
+    - Actors 39 "Lorina": value = 0.65
+    - Actors 40 "Lorina": value = 0.5
+    - Classes 18 "Florence": value = 0.25
+
+Data ID 11:
+  Occurrences: 2
+  Values: 2
+  Files: States, Enemies
+  Details:
+    - States 26 "Bleeding": value = 2
+    - Enemies 569 "Gear": value = undefined
+
+Data ID 12:
+  Occurrences: 1
+  Values: 
+  Files: Enemies
+  Details:
+    - Enemies 569 "Gear": value = undefined
+
+Data ID 13:
+  Occurrences: 134
+  Values: 1.2, 1.5, 2
+  Files: Enemies
+  Details:
+    - Enemies 5 "Werewolf": value = 1.2
+    - Enemies 6 "Corpse-Eating Rabbit": value = 1.2
+    - Enemies 7 "Werewolf": value = 1.2
+    - Enemies 11 "Rotting Dog": value = 1.2
+    - Enemies 15 "Corpse-Eating Crow": value = 1.2
+    - Enemies 17 "Wererat": value = 1.2
+    - Enemies 18 "Bat Swarm": value = 1.2
+    - Enemies 19 "Snakeman": value = 1.2
+    - Enemies 20 "Wererat": value = 1.2
+    - Enemies 27 "Hydra": value = 1.5
+    - Enemies 34 "Lamia": value = 1.2
+    - Enemies 49 "Chimera": value = 1.2
+    - Enemies 50 "Puppy": value = 1.2
+    - Enemies 59 "Pound Cake": value = 1.2
+    - Enemies 62 "Shrimp Beast": value = 1.2
+    - Enemies 65 "Fish Dog": value = 1.2
+    - Enemies 71 "Hundred-Foot Dog": value = 1.5
+    - Enemies 78 "Farmer Rabbit": value = 1.2
+    - Enemies 79 "Noble Rabbit": value = 1.2
+    - Enemies 80 "Knight Rabbit": value = 1.2
+    - Enemies 81 "Monarch Rabbit": value = 1.2
+    - Enemies 82 "Duke Rabbit": value = 1.2
+    - Enemies 102 "Tove": value = 1.5
+    - Enemies 103 "Rath": value = 1.5
+    - Enemies 104 "Borogove": value = 1.5
+    - Enemies 134 "Moon Beast": value = 1.5
+    - Enemies 135 "Hundred-Foot Woman": value = 1.2
+    - Enemies 145 "Beast of Criminality": value = 1.5
+    - Enemies 148 "The Seven Little Goats": value = 1.2
+    - Enemies 151 "Experimental Body": value = 1.2
+    - Enemies 158 "Item 158": value = 1.2
+    - Enemies 162 "Doctor Blackwell": value = 1.2
+    - Enemies 163 "Lizard Bill": value = 1.2
+    - Enemies 164 "Foolish Bird Dodo": value = 1.2
+    - Enemies 165 "Caterpillar Shisha": value = 1.2
+    - Enemies 166 "Imago Shisha": value = 1.2
+    - Enemies 167 "Duchess Margaret von Tyrol": value = 1.2
+    - Enemies 169 "Tweedledum": value = 1.2
+    - Enemies 170 "Tweedledee": value = 1.2
+    - Enemies 171 "Humpty Dumpty": value = 1.2
+    - Enemies 172 "Queen of the Heart Lorina": value = 1.2
+    - Enemies 174 "Hatta the Hatter": value = 1.2
+    - Enemies 175 "Haigha the March Rabbit": value = 1.2
+    - Enemies 176 "Dormouse the Sleeping Rat": value = 1.2
+    - Enemies 177 "Griffy the Griffin": value = 1.2
+    - Enemies 178 "Mock Turtle": value = 1.2
+    - Enemies 182 "Glass Vial Beast": value = 1.2
+    - Enemies 183 "Red Beast": value = 1.2
+    - Enemies 184 "Headhunting Beast": value = 1.5
+    - Enemies 185 "Headhunting Beast": value = 1.5
+    - Enemies 186 "Beast of Distraction": value = 1.5
+    - Enemies 194 "Beastclad Butcher": value = 1.2
+    - Enemies 195 "Great Grey Eagle Edith": value = 1.5
+    - Enemies 196 "Great Grey Eagle Edith": value = 1.5
+    - Enemies 197 "Beast of Conceit": value = 1.5
+    - Enemies 198 "Jack the Ripper": value = 1.5
+    - Enemies 199 "Jack the Ripper": value = 1.5
+    - Enemies 202 "Kiska, the Knight of Hearts": value = 1.2
+    - Enemies 203 "Jude Kelt, the Knight of Spades": value = 1.2
+    - Enemies 204 "Pin, the Knight of Clubs": value = 1.2
+    - Enemies 205 "Beast of the Bright Star": value = 1.5
+    - Enemies 211 "Griffin Knight Griffy": value = 1.5
+    - Enemies 213 "Lewd Demonbeast Victoria": value = 2
+    - Enemies 214 "Lewd Demon Victoria": value = 2
+    - Enemies 215 "Lewd Demon Victoria": value = 2
+    - Enemies 216 "Lewd Demon Victoria": value = 2
+    - Enemies 217 "Rabbit Knight Vernai": value = 1.2
+    - Enemies 218 "Farthest Beast Rascal": value = 1.5
+    - Enemies 220 "Sly Monkey": value = 1.5
+    - Enemies 221 "The Great Monkey-Killing Crab": value = 1.2
+    - Enemies 223 "Grape Guardbeast": value = 1.2
+    - Enemies 224 "Grape Guardbeast": value = 1.2
+    - Enemies 225 "Grape Guardbeast": value = 1.2
+    - Enemies 231 "BROWN BEAR": value = 1.2
+    - Enemies 261 "Bluebeard": value = 1.2
+    - Enemies 262 "Boy Who Cried Wolf": value = 1.2
+    - Enemies 263 "Tanuki of the Crackling Mountain": value = 1.5
+    - Enemies 264 "Greedy Dog": value = 1.2
+    - Enemies 266 "Winnie-the-Pooh": value = 1.2
+    - Enemies 267 "Item 267": value = 1.2
+    - Enemies 268 "Tearing Beast, Dinah": value = 1.5
+    - Enemies 269 "Tearing Beast, Dinah": value = 1.5
+    - Enemies 301 "Whale Beast": value = 1.5
+    - Enemies 319 "Deep Sea Predator, Wolris": value = 1.2
+    - Enemies 320 "Deep Sea Predator, Wolris": value = 1.2
+    - Enemies 326 "Wicked Dragon Hunter Vorpal": value = 1.5
+    - Enemies 328 "Wicked Dragon Hunter Vorpal": value = 1.5
+    - Enemies 330 "Chikerost": value = 1.2
+    - Enemies 347 "Glass Vial Beast": value = 1.2
+    - Enemies 348 "Werewolf": value = 1.2
+    - Enemies 349 "Werewolf": value = 1.2
+    - Enemies 350 "Corpse-Eating Rabbit": value = 1.2
+    - Enemies 352 "Corpse-Eating Crow": value = 1.2
+    - Enemies 357 "Headhunting Beast": value = 1.5
+    - Enemies 358 "Beast of Distraction": value = 1.5
+    - Enemies 359 "Hydra": value = 1.5
+    - Enemies 372 "Puppy": value = 1.2
+    - Enemies 374 "Pound Cake": value = 1.2
+    - Enemies 379 "Hundred-Foot Dog": value = 1.5
+    - Enemies 383 "Rath": value = 1.5
+    - Enemies 384 "Tove": value = 1.5
+    - Enemies 385 "Borogove": value = 1.5
+    - Enemies 392 "Hundred-Foot Woman": value = 1.2
+    - Enemies 396 "Moon Beast": value = 1.5
+    - Enemies 444 "Wolf in Grandma's Clothing": value = 1.2
+    - Enemies 445 "Cunning Wolf": value = 1.2
+    - Enemies 446 "The Three Little Pigs": value = 1.2
+    - Enemies 448 "Bluebird of Unhappiness": value = 1.2
+    - Enemies 459 "Smelter Beast": value = 1.2
+    - Enemies 460 "Smelter Beast": value = 1.2
+    - Enemies 461 "Great Grey Eagle Edith": value = 1.5
+    - Enemies 462 "Great Grey Eagle Edith": value = 1.5
+    - Enemies 463 "Jack the Ripper": value = 1.5
+    - Enemies 464 "Jack the Ripper": value = 1.5
+    - Enemies 467 "Puss in Boots": value = 1.2
+    - Enemies 474 "Moon Beast": value = 1.5
+    - Enemies 477 "The Old Frog King": value = 1.5
+    - Enemies 478 "The Old Frog King": value = 1.5
+    - Enemies 492 "Founding Doctor Florence": value = 1.5
+    - Enemies 495 "Heavenly Beast Florence": value = 1.5
+    - Enemies 523 "Orc": value = 1.5
+    - Enemies 524 "Grizzly": value = 1.5
+    - Enemies 525 "Saber-Tooth": value = 1.5
+    - Enemies 526 "Unseen Horse": value = 1.5
+    - Enemies 528 "Icehowl Beast": value = 1.5
+    - Enemies 543 "Snow Queen Gerda": value = 1.5
+    - Enemies 546 "Hunting Horse": value = 1.5
+    - Enemies 556 "White Unicorn Unis": value = 1.5
+    - Enemies 557 "White Unicorn Unis": value = 1.5
+    - Enemies 558 "White Lion Leiden": value = 1.5
+    - Enemies 564 "Beast of Predation": value = 1.5
+    - Enemies 565 "Beast of Purity": value = 1.5
+    - Enemies 569 "Gear": value = undefined
+    - Enemies 594 "Beggar Wolf": value = 1.2
+
+Data ID 14:
+  Occurrences: 6
+  Values: 5
+  Files: Enemies
+  Details:
+    - Enemies 249 "Wicked Dragon Jabberwock": value = 5
+    - Enemies 250 "Abominable Hunter": value = 5
+    - Enemies 333 "Corpse Dragon Jabberwock": value = 5
+    - Enemies 343 "Corpse Dragon Jabberwock": value = 5
+    - Enemies 344 "Jabberwock, the Abominable Evil": value = 5
+    - Enemies 569 "Gear": value = undefined
+
+Data ID 15:
+  Occurrences: 2
+  Values: 2
+  Files: States, Enemies
+  Details:
+    - States 13 "Stun": value = 2
+    - Enemies 569 "Gear": value = undefined
+
+Data ID 16:
+  Occurrences: 3
+  Values: 5
+  Files: States, Enemies
+  Details:
+    - States 7 "Hard Break Vulnerable": value = 5
+    - States 8 "Break Vulnerable": value = 5
+    - Enemies 569 "Gear": value = undefined
+
+Data ID 17:
+  Occurrences: 1
+  Values: 
+  Files: Armors
+  Details:
+    - Armors 101 "Cheshire Cat's Ring": value = undefined
+
+Data ID 18:
+  Occurrences: 3
+  Values: 1.5
+  Files: States, Enemies
+  Details:
+    - States 2 "Poison": value = 1.5
+    - States 3 "Deadly Poison": value = 1.5
+    - Enemies 569 "Gear": value = undefined
+
+Data ID 19:
+  Occurrences: 5
+  Values: 1.5
+  Files: States, Enemies
+  Details:
+    - States 204 "Item 204": value = 1.5
+    - States 205 "Item 205": value = 1.5
+    - States 206 "Item 206": value = 1.5
+    - States 207 "Item 207": value = 1.5
+    - Enemies 569 "Gear": value = undefined

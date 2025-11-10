@@ -1,0 +1,46 @@
+1. Script: Vocab (ID: 97506006)
+============================================================
+ッセージ
+  PlayerPosError  = "プレイヤーの初期位置が設定されていません。"
+  EventOverflow   = "コモンイベントの呼び出しが上限を超えました。"
+
+  # 基本ステータス
+  def self.basic(basic_id)
+    $data_system.terms.basic[basic_id]
+  end
+
+  # 能力値
+  def self.param(param_id)
+    $data_system.terms.params[param_id]
+  end
+
+  # 装備タイプ
+  def self.etype(etype_id)
+    $data_system.terms.etypes[etype_id]
+  end
+
+  # コマンド
+  def self.command(command_id)
+    $data_system.terms.commands[command_id]
+  end
+
+  # 通貨単位
+  def self.currency_unit
+    $data_system.currency_unit
+  end
+
+  #--------------------------------------------------------------------------
+  def self.level;       basic(0);     end   # レベル
+  def self.level_a;     basic(1);     end   # レベル (短)
+  def self.hp;          basic(2);     end   # HP
+  def self.hp_a;        basic(3);     end   # HP (短)
+  def self.mp;          basic(4);     end   # MP
+  def self.mp_a;        basic(5);     end   # MP (短)
+  def self.tp;          basic(6);     end   # TP
+  def self.tp_a;        basic(7);     end   # TP (短)
+  def self.fight;       command(0);   end   # 戦う
+  def self.escape;      command(1);   end   # 逃げる
+  def self.attack;      command(2);   end   # 攻撃
+  def self.gua
+============================================================
+

@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "process-data": "node process-data.js"
+    "process-data": "node process-data.js",
+    "process-vx-ace-data": "node process-vx-ace-data.js"
   },
   "keywords": [
     "black-souls",
@@ -17,6 +18,9 @@
   "license": "MIT",
   "engines": {
     "node": ">=12.0.0"
+  },
+  "dependencies": {
+    "@savannstm/marshal": "^0.6.3"
   }
 }
 

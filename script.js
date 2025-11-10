@@ -60,13 +60,16 @@ function buildURL(state) {
     if (state.view === 'games') {
         return '#/';
     } else if (state.view === 'sections') {
-        return `#/${state.game || 'black-souls-ii'}/sections`;
+        const game = state.game === 'bs2' ? 'bs2' : (state.game || 'bs2');
+        return `#/${game}`;
     } else if (state.view && state.selectedId) {
         const section = state.view;
-        return `#/${state.game || 'black-souls-ii'}/${section}/${state.selectedId}`;
+        const game = state.game === 'bs2' ? 'bs2' : (state.game || 'bs2');
+        return `#/${game}/${section}/${state.selectedId}`;
     } else if (state.view) {
         const section = state.view;
-        return `#/${state.game || 'black-souls-ii'}/${section}`;
+        const game = state.game === 'bs2' ? 'bs2' : (state.game || 'bs2');
+        return `#/${game}/${section}`;
     }
     return '#/';
 }
@@ -166,7 +169,7 @@ function restoreStateFromHistory(state) {
         if (savedView === 'games') {
             showGamesView();
         } else if (savedView === 'sections') {
-            showSectionsView(savedGame || 'Black Souls II');
+            showSectionsView(savedGame || 'bs2');
         } else if (savedView) {
             // Restore section
             showSection(savedView, true); // preserveSearch = true
@@ -296,14 +299,23 @@ function parseURL() {
         if (parts.length === 0) {
             return { view: 'games' };
         } else if (parts.length === 1 && parts[0] === 'sections') {
-            return { view: 'sections', game: 'black-souls-ii' };
+            return { view: 'sections', game: 'bs2' };
+        } else if (parts.length === 1 && parts[0] === 'bs2') {
+            return { view: 'sections', game: 'bs2' };
         } else if (parts.length === 1) {
-            return { view: parts[0], game: 'black-souls-ii' };
+            return { view: parts[0], game: 'bs2' };
         } else if (parts.length === 2) {
+            // Handle /bs2/section format
+            if (parts[0] === 'bs2') {
+                const section = parts[1];
+                if (['skills', 'states', 'weapons', 'armors', 'items', 'enemies'].includes(section)) {
+                    return { view: section, game: 'bs2' };
+                }
+            }
             const section = parts[0];
             const id = parseInt(parts[1]);
             if (!isNaN(id)) {
-                return { view: section, selectedId: id, game: 'black-souls-ii' };
+                return { view: section, selectedId: id, game: 'bs2' };
             }
         }
     }
@@ -314,29 +326,38 @@ function parseURL() {
     if (parts.length === 0) {
         return { view: 'games' };
     } else if (parts.length === 1 && parts[0] === 'sections') {
-        return { view: 'sections', game: 'black-souls-ii' };
+        return { view: 'sections', game: 'bs2' };
+    } else if (parts.length === 1 && parts[0] === 'bs2') {
+        return { view: 'sections', game: 'bs2' };
     } else if (parts.length === 1) {
         const section = parts[0];
         if (['skills', 'states', 'weapons', 'armors', 'items', 'enemies'].includes(section)) {
-            return { view: section, game: 'black-souls-ii' };
+            return { view: section, game: 'bs2' };
         }
     } else if (parts.length === 2) {
+        // Handle /bs2/section format
+        if (parts[0] === 'bs2') {
+            const section = parts[1];
+            if (['skills', 'states', 'weapons', 'armors', 'items', 'enemies'].includes(section)) {
+                return { view: section, game: 'bs2' };
+            }
+        }
         const section = parts[0];
         const id = parseInt(parts[1]);
         if (!isNaN(id) && ['skills', 'states', 'weapons', 'armors', 'items', 'enemies'].includes(section)) {
-            return { view: section, selectedId: id, game: 'black-souls-ii' };
+            return { view: section, selectedId: id, game: 'bs2' };
         }
     } else if (parts.length === 3 && parts[0] === 'sections') {
-        return { view: 'sections', game: parts[1] };
+        return { view: 'sections', game: parts[1] === 'bs2' ? 'bs2' : parts[1] };
     } else if (parts.length === 3) {
         const game = parts[0];
         const section = parts[1];
         const id = parseInt(parts[2]);
         if (!isNaN(id) && ['skills', 'states', 'weapons', 'armors', 'items', 'enemies'].includes(section)) {
-            return { view: section, selectedId: id, game: game };
+            return { view: section, selectedId: id, game: game === 'bs2' ? 'bs2' : game };
         }
     } else if (parts.length === 2 && parts[1] === 'sections') {
-        return { view: 'sections', game: parts[0] };
+        return { view: 'sections', game: parts[0] === 'bs2' ? 'bs2' : parts[0] };
     }
     
     return { view: 'games' };
@@ -551,9 +572,8 @@ const backButton = document.getElementById('back-button');
 const headerTitle = document.getElementById('header-title');
 const headerSubtitle = document.getElementById('header-subtitle');
 
-// Make header title clickable for navigation
-headerTitle.classList.add('clickable-title');
-headerTitle.addEventListener('click', () => {
+// Navigation function to go back to top level (same as clicking title)
+function navigateToTopLevel() {
     const titleText = headerTitle.textContent;
     
     if (titleText === 'Black Souls Database') {
@@ -566,7 +586,14 @@ headerTitle.addEventListener('click', () => {
         // On a section view (Skills, States, etc.), go back to sections
         showSectionsView('bs2');
     }
-});
+}
+
+// Make header title clickable for navigation
+headerTitle.classList.add('clickable-title');
+headerTitle.addEventListener('click', navigateToTopLevel);
+
+// Make back button navigate to top level
+backButton.addEventListener('click', navigateToTopLevel);
 const searchInput = document.getElementById('search-input');
 const resultsList = document.getElementById('results-list');
 const resultsCount = document.getElementById('results-count');
@@ -1076,17 +1103,24 @@ function showSectionsView(gameName) {
     detailContent.style.display = 'none';
     
     updateHelpContent('sections');
+    
+    // Update browser history
+    if (!isRestoringState) {
+        pushHistoryState(buildNavigationState());
+    }
 }
 
 // Show Section Details (e.g., Skills, States)
 // preserveSearch: if true, don't clear the search input
 function showSection(sectionName, preserveSearch = false) {
+    // Show back button when viewing a section
+    backButton.classList.remove('hidden');
+    
     if (sectionName === 'skills') {
         gamesView.classList.add('hidden');
         sectionsView.classList.add('hidden');
         searchSection.classList.remove('hidden');
         mainContent.classList.remove('hidden');
-        backButton.classList.remove('hidden');
         
         currentSection = sectionName;
         
@@ -1121,7 +1155,6 @@ function showSection(sectionName, preserveSearch = false) {
         sectionsView.classList.add('hidden');
         searchSection.classList.remove('hidden');
         mainContent.classList.remove('hidden');
-        backButton.classList.remove('hidden');
         
         currentSection = sectionName;
         
@@ -1156,7 +1189,6 @@ function showSection(sectionName, preserveSearch = false) {
         sectionsView.classList.add('hidden');
         searchSection.classList.remove('hidden');
         mainContent.classList.remove('hidden');
-        backButton.classList.remove('hidden');
         
         currentSection = sectionName;
         
@@ -1191,7 +1223,6 @@ function showSection(sectionName, preserveSearch = false) {
         sectionsView.classList.add('hidden');
         searchSection.classList.remove('hidden');
         mainContent.classList.remove('hidden');
-        backButton.classList.remove('hidden');
         
         currentSection = sectionName;
         
@@ -1226,7 +1257,6 @@ function showSection(sectionName, preserveSearch = false) {
         sectionsView.classList.add('hidden');
         searchSection.classList.remove('hidden');
         mainContent.classList.remove('hidden');
-        backButton.classList.remove('hidden');
         
         currentSection = sectionName;
         
@@ -1261,7 +1291,6 @@ function showSection(sectionName, preserveSearch = false) {
         sectionsView.classList.add('hidden');
         searchSection.classList.remove('hidden');
         mainContent.classList.remove('hidden');
-        backButton.classList.remove('hidden');
         
         currentSection = sectionName;
         
@@ -1566,8 +1595,6 @@ function selectSkill(skillId) {
         document.querySelector('.detail-panel').style.display = 'block';
         document.querySelector('.detail-panel').classList.add('mobile-active');
         
-        // Update back button text
-        backButton.querySelector('img').nextSibling.textContent = ' Back';
     }
     
     // Update browser history
@@ -3592,10 +3619,6 @@ document.querySelectorAll('.section-card').forEach(card => {
     });
 });
 
-// Back button handler
-backButton.addEventListener('click', () => {
-    handleBackNavigation();
-});
 
 // Help modal functionality
 const helpButton = document.getElementById('help-button');
