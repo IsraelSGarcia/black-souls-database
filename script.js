@@ -1512,7 +1512,7 @@ function renderResults() {
             <div class="skill-card ${selectedSkillId === skill.id ? 'active' : ''}" data-skill-id="${skill.id}">
                 <div class="skill-card-header">
                     <div class="skill-icon" ${iconStyle}></div>
-                    <div class="skill-card-title">${skill.name}</div>
+                    <div class="skill-card-title">${skill.name} <span class="detail-id">#${skill.id}</span></div>
                     <div class="skill-card-costs">
                         ${mpCost}
                     </div>
@@ -1585,7 +1585,7 @@ function renderSkillDetail(skill) {
         <div class="detail-header">
             <div class="detail-title-row">
                 <div class="detail-icon" ${iconStyle}></div>
-                <div class="detail-title">${escapeHtml(skill.name)}</div>
+                <div class="detail-title">${escapeHtml(skill.name)} <span class="detail-id">#${skill.id}</span></div>
             </div>
             <div class="detail-description">${convertCrossReferencesAndEscape(skill.description)}</div>
         </div>
@@ -1972,7 +1972,7 @@ function renderStatesResults() {
             <div class="skill-card ${selectedStateId === state.id ? 'active' : ''}" data-state-id="${state.id}">
                 <div class="skill-card-header">
                     <div class="skill-icon" ${iconStyle}></div>
-                    <div class="skill-card-title">${state.name}</div>
+                    <div class="skill-card-title">${state.name} <span class="detail-id">#${state.id}</span></div>
                 </div>
                 <div class="skill-card-description">${state.duration} duration</div>
             </div>
@@ -2033,7 +2033,7 @@ function renderStateDetail(state) {
         <div class="detail-header">
             <div class="detail-title-row">
                 <div class="detail-icon" ${iconStyle}></div>
-                <div class="detail-title">${escapeHtml(state.name)}</div>
+                <div class="detail-title">${escapeHtml(state.name)} <span class="detail-id">#${state.id}</span></div>
             </div>
         </div>
         
@@ -2433,7 +2433,7 @@ function renderWeaponsResults() {
             <div class="skill-card ${selectedWeaponId === weapon.id ? 'active' : ''}" data-weapon-id="${weapon.id}">
                 <div class="skill-card-header">
                     <div class="skill-icon" ${iconStyle}></div>
-                    <div class="skill-card-title">${weapon.name}</div>
+                    <div class="skill-card-title">${weapon.name} <span class="detail-id">#${weapon.id}</span></div>
                 </div>
                 <div class="skill-card-description">${weapon.price > 0 ? `${weapon.price}G` : ''}</div>
             </div>
@@ -2472,7 +2472,7 @@ function renderArmorsResults() {
             <div class="skill-card ${selectedArmorId === armor.id ? 'active' : ''}" data-armor-id="${armor.id}">
                 <div class="skill-card-header">
                     <div class="skill-icon" ${iconStyle}></div>
-                    <div class="skill-card-title">${armor.name}</div>
+                    <div class="skill-card-title">${armor.name} <span class="detail-id">#${armor.id}</span></div>
                 </div>
                 <div class="skill-card-description">${armor.price > 0 ? `${armor.price}G` : ''}</div>
             </div>
@@ -2523,7 +2523,7 @@ function renderEnemiesResults() {
             <div class="skill-card ${selectedEnemyId === enemy.id ? 'active' : ''}" data-enemy-id="${enemy.id}">
                 <div class="skill-card-header">
                     ${imageHtml}
-                    <div class="skill-card-title">${enemy.name}</div>
+                    <div class="skill-card-title">${enemy.name} <span class="detail-id">#${enemy.id}</span></div>
                 </div>
                 <div class="skill-card-description">${enemy.exp > 0 ? `${enemy.exp} EXP` : ''} ${enemy.gold > 0 ? ` • ${enemy.gold}G` : ''}</div>
             </div>
@@ -2562,7 +2562,7 @@ function renderItemsResults() {
             <div class="skill-card ${selectedItemId === item.id ? 'active' : ''}" data-item-id="${item.id}">
                 <div class="skill-card-header">
                     <div class="skill-icon" ${iconStyle}></div>
-                    <div class="skill-card-title">${item.name}</div>
+                    <div class="skill-card-title">${item.name} <span class="detail-id">#${item.id}</span></div>
                 </div>
                 <div class="skill-card-description">${item.price > 0 ? `${item.price}G` : ''} ${item.consumable ? '• Consumable' : ''}</div>
             </div>
@@ -2623,7 +2623,7 @@ function renderWeaponDetail(weapon) {
         <div class="detail-header">
             <div class="detail-title-row">
                 <div class="detail-icon" ${iconStyle}></div>
-                <div class="detail-title">${escapeHtml(weapon.name)}</div>
+                <div class="detail-title">${escapeHtml(weapon.name)} <span class="detail-id">#${weapon.id}</span></div>
             </div>
         </div>
         
@@ -2735,7 +2735,6 @@ function renderWeaponBasicStats(weapon) {
         <div class="detail-section">
             <div class="section-title">Basic Information</div>
             <div class="stats-grid">
-                <div class="stat-item">
                 ${weapon.price > 0 ? `
                     <div class="stat-item">
                         <div class="stat-label">Price</div>
@@ -2933,7 +2932,7 @@ function renderArmorDetail(armor) {
         <div class="detail-header">
             <div class="detail-title-row">
                 <div class="detail-icon" ${iconStyle}></div>
-                <div class="detail-title">${escapeHtml(armor.name)}</div>
+                <div class="detail-title">${escapeHtml(armor.name)} <span class="detail-id">#${armor.id}</span></div>
             </div>
         </div>
         
@@ -3134,7 +3133,7 @@ function renderEnemyDetail(enemy) {
         <div class="detail-header">
             <div class="detail-title-row">
                 ${imageHtml}
-                <div class="detail-title">${escapeHtml(enemy.name)}</div>
+                <div class="detail-title">${escapeHtml(enemy.name)} <span class="detail-id">#${enemy.id}</span></div>
             </div>
         </div>
         
@@ -3340,7 +3339,7 @@ function renderItemDetail(item) {
         <div class="detail-header">
             <div class="detail-title-row">
                 <div class="detail-icon" ${iconStyle}></div>
-                <div class="detail-title">${escapeHtml(item.name)}</div>
+                <div class="detail-title">${escapeHtml(item.name)} <span class="detail-id">#${item.id}</span></div>
             </div>
         </div>
         
