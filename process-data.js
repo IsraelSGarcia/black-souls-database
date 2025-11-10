@@ -14,13 +14,13 @@ const path = require('path');
 // ============================================================================
 
 // Load data files
-const systemData = JSON.parse(fs.readFileSync('original-data/System.json', 'utf8'));
-const statesData = JSON.parse(fs.readFileSync('original-data/States.json', 'utf8'));
-const skillsData = JSON.parse(fs.readFileSync('original-data/Skills.json', 'utf8'));
-const weaponsData = JSON.parse(fs.readFileSync('original-data/Weapons.json', 'utf8'));
-const armorsData = JSON.parse(fs.readFileSync('original-data/Armors.json', 'utf8'));
-const enemiesData = JSON.parse(fs.readFileSync('original-data/Enemies.json', 'utf8'));
-const itemsData = JSON.parse(fs.readFileSync('original-data/Items.json', 'utf8'));
+const systemData = JSON.parse(fs.readFileSync('original-data/mv-data/System.json', 'utf8'));
+const statesData = JSON.parse(fs.readFileSync('original-data/mv-data/States.json', 'utf8'));
+const skillsData = JSON.parse(fs.readFileSync('original-data/mv-data/Skills.json', 'utf8'));
+const weaponsData = JSON.parse(fs.readFileSync('original-data/mv-data/Weapons.json', 'utf8'));
+const armorsData = JSON.parse(fs.readFileSync('original-data/mv-data/Armors.json', 'utf8'));
+const enemiesData = JSON.parse(fs.readFileSync('original-data/mv-data/Enemies.json', 'utf8'));
+const itemsData = JSON.parse(fs.readFileSync('original-data/mv-data/Items.json', 'utf8'));
 
 // Translate Japanese element names to English
 const elementTranslations = {
@@ -1560,18 +1560,42 @@ function processTraits(traits, statesData) {
         };
         
         // Generate readable descriptions based on trait code
-        if (trait.code === 11) { // HP Regeneration
-            const percent = Math.round(trait.value * 100);
-            if (percent > 0) {
-                if (percent >= 100) {
-                    traitInfo.description = `Heals ${percent}% of maximum HP each turn (fully heals)`;
+        // NOTE: Code 11 can be either HP Regeneration OR Element Rate depending on dataId
+        // If dataId corresponds to an element, it's Element Rate; otherwise it's HP Regeneration
+        if (trait.code === 11) {
+            // Check if dataId is an element (element IDs start from 0, but element 0 is empty)
+            // If elements[trait.dataId] exists and is not empty, it's an Element Rate
+            const elementName = elements[trait.dataId] || "";
+            if (elementName && elementName.trim() !== "") {
+                // This is Element Rate (code 11 is used for Element Rate in this game)
+                traitInfo.codeName = "Element Rate";
+                if (trait.value === 0) {
+                    traitInfo.description = `Immune to ${elementName} damage`;
+                } else if (trait.value < 1) {
+                    // Resistance: takes less damage
+                    const damagePercent = Math.round(trait.value * 100);
+                    traitInfo.description = `Takes ${damagePercent}% ${elementName} damage (reduced)`;
+                } else if (trait.value > 1) {
+                    // Weakness: takes more damage
+                    const damagePercent = Math.round(trait.value * 100);
+                    traitInfo.description = `Takes ${damagePercent}% ${elementName} damage (increased)`;
                 } else {
-                    traitInfo.description = `Heals ${percent}% of maximum HP each turn`;
+                    traitInfo.description = `Takes normal ${elementName} damage`;
                 }
-            } else if (percent === 0) {
-                traitInfo.description = `No HP regeneration`;
             } else {
-                traitInfo.description = `Loses ${Math.abs(percent)}% of maximum HP each turn`;
+                // This is HP Regeneration (standard behavior)
+                const percent = Math.round(trait.value * 100);
+                if (percent > 0) {
+                    if (percent >= 100) {
+                        traitInfo.description = `Heals ${percent}% of maximum HP each turn (fully heals)`;
+                    } else {
+                        traitInfo.description = `Heals ${percent}% of maximum HP each turn`;
+                    }
+                } else if (percent === 0) {
+                    traitInfo.description = `No HP regeneration`;
+                } else {
+                    traitInfo.description = `Loses ${Math.abs(percent)}% of maximum HP each turn`;
+                }
             }
         } else if (trait.code === 12) { // MP Regeneration
             const percent = Math.round(trait.value * 100);
@@ -1640,31 +1664,70 @@ function processTraits(traits, statesData) {
             } else {
                 traitInfo.description = `Takes normal ${elementName} damage`;
             }
-        } else if (trait.code === 22) { // Debuff Rate
-            // Extended parameter names for values beyond standard 8
-            const extendedParamNames = {
-                16: "EXP Gain",
-                27: "EXP Gain Rate",
-                35: "HP Drain Rate",
-                39: "MP Drain Rate"
-            };
-            const paramName = parameterNames[trait.dataId] || extendedParamNames[trait.dataId] || "Unknown Parameter";
-            if (trait.value === 0) {
-                traitInfo.description = `Immune to ${paramName} debuffs`;
-            } else if (trait.value < 0) {
-                // Negative values: debuffs become buffs instead
-                const percent = Math.round(Math.abs(trait.value) * 100);
-                traitInfo.description = `When ${paramName} debuff is applied, it becomes a ${percent}% buff instead`;
-            } else if (trait.value < 1) {
-                // 0 < value < 1: debuffs are less effective
-                const damagePercent = Math.round(trait.value * 100);
-                traitInfo.description = `${paramName} debuffs are only ${damagePercent}% effective`;
-            } else if (trait.value === 1) {
-                traitInfo.description = `Normal ${paramName} debuff effectiveness`;
+        } else if (trait.code === 22) {
+            // NOTE: In this game, code 22 with dataId 7 is used for HP Regeneration (drain)
+            // This is a non-standard usage - normally code 22 is Debuff Rate
+            // Check if this is HP/MP Regeneration first (dataId 7 = HP, dataId 8 = MP in this context)
+            if (trait.dataId === 7) {
+                // This is HP Regeneration (drain when negative)
+                traitInfo.codeName = "HP Regeneration";
+                const percent = Math.round(trait.value * 100);
+                if (percent > 0) {
+                    if (percent >= 100) {
+                        traitInfo.description = `Heals ${percent}% of maximum HP each turn (fully heals)`;
+                    } else {
+                        traitInfo.description = `Heals ${percent}% of maximum HP each turn`;
+                    }
+                } else if (percent === 0) {
+                    traitInfo.description = `No HP regeneration`;
+                } else {
+                    traitInfo.description = `Loses ${Math.abs(percent)}% of maximum HP each turn`;
+                }
+            } else if (trait.dataId === 8) {
+                // This is MP Regeneration (drain when negative)
+                traitInfo.codeName = "MP Regeneration";
+                const percent = Math.round(trait.value * 100);
+                if (percent > 0) {
+                    if (percent >= 100) {
+                        traitInfo.description = `Restores ${percent}% of maximum MP each turn (fully restores)`;
+                    } else {
+                        traitInfo.description = `Restores ${percent}% of maximum MP each turn`;
+                    }
+                } else if (percent === 0) {
+                    traitInfo.description = `No MP regeneration`;
+                } else {
+                    traitInfo.description = `Loses ${Math.abs(percent)}% of maximum MP each turn`;
+                }
             } else {
-                // value > 1: debuffs are more effective
-                const damagePercent = Math.round(trait.value * 100);
-                traitInfo.description = `${paramName} debuffs are ${damagePercent}% effective`;
+                // Standard Debuff Rate behavior for other dataIds
+                traitInfo.codeName = "Debuff Rate";
+                // Extended parameter names for values beyond standard 8
+                const extendedParamNames = {
+                    16: "EXP Gain",
+                    27: "EXP Gain Rate",
+                    35: "HP Drain Rate",
+                    39: "MP Drain Rate"
+                };
+                const paramName = parameterNames[trait.dataId] || extendedParamNames[trait.dataId] || "Unknown Parameter";
+                if (trait.value === 0) {
+                    traitInfo.description = `Immune to ${paramName} debuffs`;
+                } else if (trait.value < 0) {
+                    // Negative values: debuffs become buffs instead
+                    // In RPG Maker, a negative debuff rate inverts debuffs to buffs
+                    // The absolute value represents the effectiveness/magnitude
+                    const percent = Math.round(Math.abs(trait.value) * 100);
+                    traitInfo.description = `When ${paramName} debuff is applied, it is converted to a buff with ${percent}% effectiveness`;
+                } else if (trait.value < 1) {
+                    // 0 < value < 1: debuffs are less effective
+                    const damagePercent = Math.round(trait.value * 100);
+                    traitInfo.description = `${paramName} debuffs are only ${damagePercent}% effective`;
+                } else if (trait.value === 1) {
+                    traitInfo.description = `Normal ${paramName} debuff effectiveness`;
+                } else {
+                    // value > 1: debuffs are more effective
+                    const damagePercent = Math.round(trait.value * 100);
+                    traitInfo.description = `${paramName} debuffs are ${damagePercent}% effective`;
+                }
             }
         } else if (trait.code === 23) { // State Rate
             const state = statesData.find(s => s && s.id === trait.dataId);

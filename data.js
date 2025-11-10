@@ -1,10 +1,3 @@
-// ============================================================================
-// IMPORTANT: TP (Technical Points) REMOVAL NOTICE
-// ============================================================================
-// TP (Technical Points) has been completely removed from this database.
-// DO NOT add tpCost or tpGain properties back to skill objects.
-// ============================================================================
-
 const skillsData = {
   "skills": [
     {
@@ -64117,28 +64110,28 @@ const statesData = {
           "codeName": "Debuff Rate",
           "dataId": 6,
           "value": -1,
-          "description": "When Agility debuff is applied, it becomes a 100% buff instead"
+          "description": "When Agility debuff is applied, it is converted to a buff with 100% effectiveness"
         },
         {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 6,
           "value": -1,
-          "description": "When Agility debuff is applied, it becomes a 100% buff instead"
+          "description": "When Agility debuff is applied, it is converted to a buff with 100% effectiveness"
         },
         {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 5,
           "value": -1,
-          "description": "When Magic Defense debuff is applied, it becomes a 100% buff instead"
+          "description": "When Magic Defense debuff is applied, it is converted to a buff with 100% effectiveness"
         },
         {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 5,
           "value": -1,
-          "description": "When Magic Defense debuff is applied, it becomes a 100% buff instead"
+          "description": "When Magic Defense debuff is applied, it is converted to a buff with 100% effectiveness"
         }
       ],
       "motion": 0,
@@ -64176,17 +64169,17 @@ const statesData = {
       "traits": [
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": -0.02,
-          "description": "When Luck debuff is applied, it becomes a 2% buff instead"
+          "description": "Loses 2% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 18,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Poison Bonus damage (increased)"
         }
       ],
       "motion": 0,
@@ -64224,17 +64217,17 @@ const statesData = {
       "traits": [
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": -0.03,
-          "description": "When Luck debuff is applied, it becomes a 3% buff instead"
+          "description": "Loses 3% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 18,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Poison Bonus damage (increased)"
         }
       ],
       "motion": 0,
@@ -64270,10 +64263,10 @@ const statesData = {
       "traits": [
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": -0.1,
-          "description": "When Luck debuff is applied, it becomes a 10% buff instead"
+          "description": "Loses 10% of maximum HP each turn"
         }
       ],
       "motion": 0,
@@ -64311,10 +64304,10 @@ const statesData = {
       "traits": [
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 21,
@@ -64364,14 +64357,14 @@ const statesData = {
           "codeName": "Debuff Rate",
           "dataId": 1,
           "value": -1,
-          "description": "When Max MP debuff is applied, it becomes a 100% buff instead"
+          "description": "When Max MP debuff is applied, it is converted to a buff with 100% effectiveness"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 8,
           "value": 9,
-          "description": "Heals 900% of maximum HP each turn (fully heals)"
+          "description": "Takes 900% Sleep Bonus damage (increased)"
         }
       ],
       "motion": 0,
@@ -64413,14 +64406,14 @@ const statesData = {
           "codeName": "Debuff Rate",
           "dataId": 1,
           "value": -1,
-          "description": "When Max MP debuff is applied, it becomes a 100% buff instead"
+          "description": "When Max MP debuff is applied, it is converted to a buff with 100% effectiveness"
         },
         {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 4,
           "value": -1,
-          "description": "When Magic Attack debuff is applied, it becomes a 100% buff instead"
+          "description": "When Magic Attack debuff is applied, it is converted to a buff with 100% effectiveness"
         },
         {
           "code": 23,
@@ -64441,7 +64434,7 @@ const statesData = {
           "codeName": "Parameter Rate",
           "dataId": 32,
           "value": 0,
-          "description": "[Removed - TP functionality]"
+          "description": "Unknown Parameter set to 0"
         },
         {
           "code": 14,
@@ -64462,7 +64455,7 @@ const statesData = {
           "codeName": "Parameter Rate",
           "dataId": 31,
           "value": 0,
-          "description": "[Removed - TP functionality]"
+          "description": "Unknown Parameter set to 0"
         },
         {
           "code": 21,
@@ -64507,25 +64500,39 @@ const statesData = {
           "description": "Unknown Parameter set to 0"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 6,
           "value": -1,
-          "description": "When Agility debuff is applied, it becomes a 100% buff instead"
+          "description": "When Agility debuff is applied, it is converted to a buff with 100% effectiveness"
         },
         {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 5,
           "value": -1,
-          "description": "When Magic Defense debuff is applied, it becomes a 100% buff instead"
+          "description": "When Magic Defense debuff is applied, it is converted to a buff with 100% effectiveness"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 16,
           "value": 5,
-          "description": "Heals 500% of maximum HP each turn (fully heals)"
+          "description": "Takes 500% Vulnerable Bonus damage (increased)"
         }
       ],
       "motion": 0,
@@ -64567,14 +64574,14 @@ const statesData = {
           "codeName": "Debuff Rate",
           "dataId": 1,
           "value": -1,
-          "description": "When Max MP debuff is applied, it becomes a 100% buff instead"
+          "description": "When Max MP debuff is applied, it is converted to a buff with 100% effectiveness"
         },
         {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 4,
           "value": -1,
-          "description": "When Magic Attack debuff is applied, it becomes a 100% buff instead"
+          "description": "When Magic Attack debuff is applied, it is converted to a buff with 100% effectiveness"
         },
         {
           "code": 23,
@@ -64595,7 +64602,7 @@ const statesData = {
           "codeName": "Parameter Rate",
           "dataId": 32,
           "value": 0,
-          "description": "[Removed - TP functionality]"
+          "description": "Unknown Parameter set to 0"
         },
         {
           "code": 14,
@@ -64616,7 +64623,7 @@ const statesData = {
           "codeName": "Parameter Rate",
           "dataId": 31,
           "value": 0,
-          "description": "[Removed - TP functionality]"
+          "description": "Unknown Parameter set to 0"
         },
         {
           "code": 21,
@@ -64661,25 +64668,39 @@ const statesData = {
           "description": "Unknown Parameter set to 0"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 6,
           "value": -1,
-          "description": "When Agility debuff is applied, it becomes a 100% buff instead"
+          "description": "When Agility debuff is applied, it is converted to a buff with 100% effectiveness"
         },
         {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 5,
           "value": -1,
-          "description": "When Magic Defense debuff is applied, it becomes a 100% buff instead"
+          "description": "When Magic Defense debuff is applied, it is converted to a buff with 100% effectiveness"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 16,
           "value": 5,
-          "description": "Heals 500% of maximum HP each turn (fully heals)"
+          "description": "Takes 500% Vulnerable Bonus damage (increased)"
         }
       ],
       "motion": 0,
@@ -64728,14 +64749,14 @@ const statesData = {
           "codeName": "Debuff Rate",
           "dataId": 1,
           "value": -1,
-          "description": "When Max MP debuff is applied, it becomes a 100% buff instead"
+          "description": "When Max MP debuff is applied, it is converted to a buff with 100% effectiveness"
         },
         {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 4,
           "value": -1,
-          "description": "When Magic Attack debuff is applied, it becomes a 100% buff instead"
+          "description": "When Magic Attack debuff is applied, it is converted to a buff with 100% effectiveness"
         },
         {
           "code": 21,
@@ -64745,11 +64766,67 @@ const statesData = {
           "description": "Takes 150% unknown element damage (increased)"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 3,
           "value": 1,
           "description": "Normal Defense debuff effectiveness"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 165,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "motion": 0,
@@ -64913,14 +64990,14 @@ const statesData = {
           "codeName": "Debuff Rate",
           "dataId": 1,
           "value": -1,
-          "description": "When Max MP debuff is applied, it becomes a 100% buff instead"
+          "description": "When Max MP debuff is applied, it is converted to a buff with 100% effectiveness"
         },
         {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 4,
           "value": -1,
-          "description": "When Magic Attack debuff is applied, it becomes a 100% buff instead"
+          "description": "When Magic Attack debuff is applied, it is converted to a buff with 100% effectiveness"
         },
         {
           "code": 21,
@@ -64931,10 +65008,10 @@ const statesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 15,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Stun x2 damage (increased)"
         }
       ],
       "motion": 0,
@@ -64972,10 +65049,10 @@ const statesData = {
       "traits": [
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.1,
-          "description": "Luck debuffs are only 10% effective"
+          "description": "Heals 10% of maximum HP each turn"
         }
       ],
       "motion": 0,
@@ -65013,10 +65090,10 @@ const statesData = {
       "traits": [
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 0.1,
-          "description": "Unknown Parameter debuffs are only 10% effective"
+          "description": "Restores 10% of maximum MP each turn"
         }
       ],
       "motion": 0,
@@ -65075,6 +65152,97 @@ const statesData = {
           "description": "Takes 150% unknown element damage (increased)"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 5,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 17,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 63,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 157,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 156,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 12,
           "codeName": "MP Regeneration",
           "dataId": 0,
@@ -65129,6 +65297,20 @@ const statesData = {
           "dataId": 7,
           "value": 0,
           "description": "No MP regeneration"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 162,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 163,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "motion": 0,
@@ -65242,10 +65424,10 @@ const statesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": -0.3,
-          "description": "When Luck debuff is applied, it becomes a 30% buff instead"
+          "description": "Loses 30% of maximum HP each turn"
         },
         {
           "code": 14,
@@ -65351,6 +65533,48 @@ const statesData = {
           "dataId": 6,
           "value": 1,
           "description": "Normal Agility debuff effectiveness"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
         },
         {
           "code": 23,
@@ -65587,10 +65811,129 @@ const statesData = {
       "traits": [
         {
           "code": 13,
-          "codeName": "[Removed]",
+          "codeName": "Unknown Trait",
           "dataId": 2,
           "value": 0,
-          "description": "[Removed - TP functionality]"
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 4,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 5,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 31,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 37,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 54,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 63,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 162,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 163,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "motion": 0,
@@ -65626,17 +65969,17 @@ const statesData = {
       "traits": [
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 11,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Bleed x2 damage (increased)"
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": -0.03,
-          "description": "When Luck debuff is applied, it becomes a 3% buff instead"
+          "description": "Loses 3% of maximum HP each turn"
         }
       ],
       "motion": 0,
@@ -65715,10 +66058,10 @@ const statesData = {
       "traits": [
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": -0.5,
-          "description": "When Luck debuff is applied, it becomes a 50% buff instead"
+          "description": "Loses 50% of maximum HP each turn"
         },
         {
           "code": 21,
@@ -65768,10 +66111,10 @@ const statesData = {
       "traits": [
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": -0.05,
-          "description": "When Luck debuff is applied, it becomes a 5% buff instead"
+          "description": "Loses 5% of maximum HP each turn"
         }
       ],
       "motion": 0,
@@ -65810,7 +66153,7 @@ const statesData = {
           "codeName": "Debuff Rate",
           "dataId": 0,
           "value": -0.5,
-          "description": "When Max HP debuff is applied, it becomes a 50% buff instead"
+          "description": "When Max HP debuff is applied, it is converted to a buff with 50% effectiveness"
         }
       ],
       "motion": 0,
@@ -65849,10 +66192,10 @@ const statesData = {
       "traits": [
         {
           "code": 13,
-          "codeName": "[Removed]",
+          "codeName": "Unknown Trait",
           "dataId": 8,
           "value": 10,
-          "description": "[Removed - TP functionality]"
+          "description": "Unknown Trait"
         },
         {
           "code": 21,
@@ -65862,11 +66205,60 @@ const statesData = {
           "description": "Takes 200% unknown element damage (increased)"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 23,
           "codeName": "State Rate",
           "dataId": 6,
           "value": 0.5,
           "description": "50% resistance to [[STATE:6:Sleep]]"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
         },
         {
           "code": 21,
@@ -65912,10 +66304,10 @@ const statesData = {
       "traits": [
         {
           "code": 13,
-          "codeName": "[Removed]",
+          "codeName": "Unknown Trait",
           "dataId": 8,
           "value": 10,
-          "description": "[Removed - TP functionality]"
+          "description": "Unknown Trait"
         },
         {
           "code": 21,
@@ -65923,6 +66315,55 @@ const statesData = {
           "dataId": 6,
           "value": 1.5,
           "description": "Takes 150% unknown element damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
         }
       ],
       "motion": 0,
@@ -66024,10 +66465,10 @@ const statesData = {
       "traits": [
         {
           "code": 13,
-          "codeName": "[Removed]",
+          "codeName": "Unknown Trait",
           "dataId": 8,
           "value": 10,
-          "description": "[Removed - TP functionality]"
+          "description": "Unknown Trait"
         },
         {
           "code": 21,
@@ -66035,6 +66476,55 @@ const statesData = {
           "dataId": 6,
           "value": 1.5,
           "description": "Takes 150% unknown element damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -66080,10 +66570,10 @@ const statesData = {
       "traits": [
         {
           "code": 13,
-          "codeName": "[Removed]",
+          "codeName": "Unknown Trait",
           "dataId": 8,
           "value": 10,
-          "description": "[Removed - TP functionality]"
+          "description": "Unknown Trait"
         },
         {
           "code": 21,
@@ -66091,6 +66581,55 @@ const statesData = {
           "dataId": 6,
           "value": 2,
           "description": "Takes 200% unknown element damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
         }
       ],
       "motion": 0,
@@ -66129,10 +66668,10 @@ const statesData = {
       "traits": [
         {
           "code": 13,
-          "codeName": "[Removed]",
+          "codeName": "Unknown Trait",
           "dataId": 8,
           "value": 10,
-          "description": "[Removed - TP functionality]"
+          "description": "Unknown Trait"
         },
         {
           "code": 21,
@@ -66140,6 +66679,55 @@ const statesData = {
           "dataId": 6,
           "value": 3,
           "description": "Takes 300% unknown element damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
         }
       ],
       "motion": 0,
@@ -66226,10 +66814,10 @@ const statesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.05,
-          "description": "Luck debuffs are only 5% effective"
+          "description": "Heals 5% of maximum HP each turn"
         }
       ],
       "motion": 0,
@@ -66279,6 +66867,48 @@ const statesData = {
           "dataId": 2,
           "value": 1.5,
           "description": "Takes 150% Absorption damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
         }
       ],
       "motion": 0,
@@ -66337,6 +66967,97 @@ const statesData = {
           "description": "Takes 150% unknown element damage (increased)"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 5,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 156,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 63,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 157,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 17,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 12,
           "codeName": "MP Regeneration",
           "dataId": 0,
@@ -66391,6 +67112,20 @@ const statesData = {
           "dataId": 7,
           "value": 0,
           "description": "No MP regeneration"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 163,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 162,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "motion": 0,
@@ -66428,10 +67163,24 @@ const statesData = {
       "traits": [
         {
           "code": 13,
-          "codeName": "[Removed]",
+          "codeName": "Unknown Trait",
           "dataId": 7,
           "value": 0,
-          "description": "[Removed - TP functionality]"
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 21,
@@ -66504,10 +67253,24 @@ const statesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 1,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Physical damage (reduced)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "motion": 0,
@@ -66708,14 +67471,14 @@ const statesData = {
           "codeName": "Debuff Rate",
           "dataId": 1,
           "value": -1,
-          "description": "When Max MP debuff is applied, it becomes a 100% buff instead"
+          "description": "When Max MP debuff is applied, it is converted to a buff with 100% effectiveness"
         },
         {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 4,
           "value": -1,
-          "description": "When Magic Attack debuff is applied, it becomes a 100% buff instead"
+          "description": "When Magic Attack debuff is applied, it is converted to a buff with 100% effectiveness"
         }
       ],
       "motion": 0,
@@ -66883,10 +67646,10 @@ const statesData = {
       "traits": [
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.5,
-          "description": "Luck debuffs are only 50% effective"
+          "description": "Heals 50% of maximum HP each turn"
         }
       ],
       "motion": 0,
@@ -66973,10 +67736,10 @@ const statesData = {
       "traits": [
         {
           "code": 13,
-          "codeName": "[Removed]",
+          "codeName": "Unknown Trait",
           "dataId": 8,
           "value": 10,
-          "description": "[Removed - TP functionality]"
+          "description": "Unknown Trait"
         },
         {
           "code": 21,
@@ -66984,6 +67747,55 @@ const statesData = {
           "dataId": 6,
           "value": 9,
           "description": "Takes 900% unknown element damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
         }
       ],
       "motion": 0,
@@ -67022,10 +67834,10 @@ const statesData = {
       "traits": [
         {
           "code": 13,
-          "codeName": "[Removed]",
+          "codeName": "Unknown Trait",
           "dataId": 8,
           "value": 10,
-          "description": "[Removed - TP functionality]"
+          "description": "Unknown Trait"
         },
         {
           "code": 21,
@@ -67033,6 +67845,55 @@ const statesData = {
           "dataId": 6,
           "value": 9,
           "description": "Takes 900% unknown element damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
         }
       ],
       "motion": 0,
@@ -67077,10 +67938,10 @@ const statesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": -0.3,
-          "description": "When Luck debuff is applied, it becomes a 30% buff instead"
+          "description": "Loses 30% of maximum HP each turn"
         }
       ],
       "motion": 0,
@@ -67278,14 +68139,14 @@ const statesData = {
           "codeName": "Debuff Rate",
           "dataId": 1,
           "value": -1,
-          "description": "When Max MP debuff is applied, it becomes a 100% buff instead"
+          "description": "When Max MP debuff is applied, it is converted to a buff with 100% effectiveness"
         },
         {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 4,
           "value": -1,
-          "description": "When Magic Attack debuff is applied, it becomes a 100% buff instead"
+          "description": "When Magic Attack debuff is applied, it is converted to a buff with 100% effectiveness"
         },
         {
           "code": 14,
@@ -68242,10 +69103,10 @@ const statesData = {
       "traits": [
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": -0.1,
-          "description": "When Unknown Parameter debuff is applied, it becomes a 10% buff instead"
+          "description": "Loses 10% of maximum MP each turn"
         }
       ],
       "motion": 0,
@@ -70832,10 +71693,10 @@ const statesData = {
       "traits": [
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": -0.5,
-          "description": "When Unknown Parameter debuff is applied, it becomes a 50% buff instead"
+          "description": "Loses 50% of maximum MP each turn"
         }
       ],
       "motion": 0,
@@ -71019,10 +71880,10 @@ const statesData = {
       "traits": [
         {
           "code": 13,
-          "codeName": "[Removed]",
+          "codeName": "Unknown Trait",
           "dataId": 8,
           "value": 10,
-          "description": "[Removed - TP functionality]"
+          "description": "Unknown Trait"
         },
         {
           "code": 21,
@@ -71030,6 +71891,55 @@ const statesData = {
           "dataId": 6,
           "value": 1.5,
           "description": "Takes 150% unknown element damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
         }
       ],
       "motion": 0,
@@ -71067,10 +71977,10 @@ const statesData = {
       "traits": [
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         }
       ],
       "motion": 0,
@@ -71108,10 +72018,10 @@ const statesData = {
       "traits": [
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         }
       ],
       "motion": 0,
@@ -71149,10 +72059,10 @@ const statesData = {
       "traits": [
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         }
       ],
       "motion": 0,
@@ -71190,10 +72100,10 @@ const statesData = {
       "traits": [
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
         }
       ],
       "motion": 0,
@@ -71320,10 +72230,10 @@ const statesData = {
       "traits": [
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": -0.15,
-          "description": "When Luck debuff is applied, it becomes a 15% buff instead"
+          "description": "Loses 15% of maximum HP each turn"
         },
         {
           "code": 23,
@@ -71368,10 +72278,10 @@ const statesData = {
       "traits": [
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.1,
-          "description": "Luck debuffs are only 10% effective"
+          "description": "Heals 10% of maximum HP each turn"
         }
       ],
       "motion": 0,
@@ -71557,14 +72467,14 @@ const statesData = {
           "codeName": "Debuff Rate",
           "dataId": 1,
           "value": -1,
-          "description": "When Max MP debuff is applied, it becomes a 100% buff instead"
+          "description": "When Max MP debuff is applied, it is converted to a buff with 100% effectiveness"
         },
         {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 4,
           "value": -1,
-          "description": "When Magic Attack debuff is applied, it becomes a 100% buff instead"
+          "description": "When Magic Attack debuff is applied, it is converted to a buff with 100% effectiveness"
         }
       ],
       "motion": 0,
@@ -71607,7 +72517,7 @@ const statesData = {
           "codeName": "Debuff Rate",
           "dataId": 1,
           "value": -1,
-          "description": "When Max MP debuff is applied, it becomes a 100% buff instead"
+          "description": "When Max MP debuff is applied, it is converted to a buff with 100% effectiveness"
         },
         {
           "code": 14,
@@ -71618,10 +72528,10 @@ const statesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 8,
           "value": 9,
-          "description": "Heals 900% of maximum HP each turn (fully heals)"
+          "description": "Takes 900% Sleep Bonus damage (increased)"
         }
       ],
       "motion": 0,
@@ -71659,10 +72569,10 @@ const statesData = {
       "traits": [
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.03,
-          "description": "Luck debuffs are only 3% effective"
+          "description": "Heals 3% of maximum HP each turn"
         }
       ],
       "motion": 0,
@@ -72131,10 +73041,10 @@ const statesData = {
       "traits": [
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.05,
-          "description": "Luck debuffs are only 5% effective"
+          "description": "Heals 5% of maximum HP each turn"
         },
         {
           "code": 21,
@@ -72179,10 +73089,10 @@ const statesData = {
       "traits": [
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": -0.1,
-          "description": "When Luck debuff is applied, it becomes a 10% buff instead"
+          "description": "Loses 10% of maximum HP each turn"
         }
       ],
       "motion": 0,
@@ -72268,10 +73178,17 @@ const statesData = {
       "traits": [
         {
           "code": 13,
-          "codeName": "[Removed]",
+          "codeName": "Unknown Trait",
           "dataId": 7,
           "value": 0,
-          "description": "[Removed - TP functionality]"
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "motion": 0,
@@ -72309,10 +73226,10 @@ const statesData = {
       "traits": [
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Ice damage (increased)"
         },
         {
           "code": 21,
@@ -72357,10 +73274,10 @@ const statesData = {
       "traits": [
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": -0.02,
-          "description": "When Luck debuff is applied, it becomes a 2% buff instead"
+          "description": "Loses 2% of maximum HP each turn"
         },
         {
           "code": 21,
@@ -72639,10 +73556,10 @@ const statesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.3,
-          "description": "Luck debuffs are only 30% effective"
+          "description": "Heals 30% of maximum HP each turn"
         }
       ],
       "motion": 0,
@@ -72757,10 +73674,10 @@ const statesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 1,
-          "description": "Normal Luck debuff effectiveness"
+          "description": "Heals 100% of maximum HP each turn (fully heals)"
         }
       ],
       "motion": 0,
@@ -73458,7 +74375,7 @@ const statesData = {
           "codeName": "Debuff Rate",
           "dataId": 1,
           "value": -1,
-          "description": "When Max MP debuff is applied, it becomes a 100% buff instead"
+          "description": "When Max MP debuff is applied, it is converted to a buff with 100% effectiveness"
         },
         {
           "code": 44,
@@ -73791,7 +74708,7 @@ const statesData = {
           "codeName": "Debuff Rate",
           "dataId": 2,
           "value": -1,
-          "description": "When Attack debuff is applied, it becomes a 100% buff instead"
+          "description": "When Attack debuff is applied, it is converted to a buff with 100% effectiveness"
         },
         {
           "code": 21,
@@ -73836,17 +74753,17 @@ const statesData = {
       "traits": [
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Dark damage (increased)"
         },
         {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 3,
           "value": -1,
-          "description": "When Defense debuff is applied, it becomes a 100% buff instead"
+          "description": "When Defense debuff is applied, it is converted to a buff with 100% effectiveness"
         }
       ],
       "motion": 0,
@@ -74386,7 +75303,7 @@ const statesData = {
           "codeName": "Debuff Rate",
           "dataId": 1,
           "value": -0.15,
-          "description": "When Max MP debuff is applied, it becomes a 15% buff instead"
+          "description": "When Max MP debuff is applied, it is converted to a buff with 15% effectiveness"
         },
         {
           "code": 21,
@@ -74434,7 +75351,7 @@ const statesData = {
           "codeName": "Debuff Rate",
           "dataId": 1,
           "value": -0.3,
-          "description": "When Max MP debuff is applied, it becomes a 30% buff instead"
+          "description": "When Max MP debuff is applied, it is converted to a buff with 30% effectiveness"
         },
         {
           "code": 21,
@@ -74482,7 +75399,7 @@ const statesData = {
           "codeName": "Debuff Rate",
           "dataId": 1,
           "value": -0.45,
-          "description": "When Max MP debuff is applied, it becomes a 45% buff instead"
+          "description": "When Max MP debuff is applied, it is converted to a buff with 45% effectiveness"
         },
         {
           "code": 21,
@@ -74530,7 +75447,7 @@ const statesData = {
           "codeName": "Debuff Rate",
           "dataId": 1,
           "value": -0.65,
-          "description": "When Max MP debuff is applied, it becomes a 65% buff instead"
+          "description": "When Max MP debuff is applied, it is converted to a buff with 65% effectiveness"
         },
         {
           "code": 21,
@@ -74578,7 +75495,7 @@ const statesData = {
           "codeName": "Debuff Rate",
           "dataId": 1,
           "value": -0.85,
-          "description": "When Max MP debuff is applied, it becomes a 85% buff instead"
+          "description": "When Max MP debuff is applied, it is converted to a buff with 85% effectiveness"
         },
         {
           "code": 21,
@@ -74626,7 +75543,7 @@ const statesData = {
           "codeName": "Debuff Rate",
           "dataId": 1,
           "value": -1,
-          "description": "When Max MP debuff is applied, it becomes a 100% buff instead"
+          "description": "When Max MP debuff is applied, it is converted to a buff with 100% effectiveness"
         },
         {
           "code": 21,
@@ -74954,7 +75871,7 @@ const statesData = {
           "codeName": "Debuff Rate",
           "dataId": 1,
           "value": -0.15,
-          "description": "When Max MP debuff is applied, it becomes a 15% buff instead"
+          "description": "When Max MP debuff is applied, it is converted to a buff with 15% effectiveness"
         },
         {
           "code": 21,
@@ -75219,7 +76136,7 @@ const statesData = {
           "codeName": "Debuff Rate",
           "dataId": 1,
           "value": -0.3,
-          "description": "When Max MP debuff is applied, it becomes a 30% buff instead"
+          "description": "When Max MP debuff is applied, it is converted to a buff with 30% effectiveness"
         },
         {
           "code": 21,
@@ -75484,7 +76401,7 @@ const statesData = {
           "codeName": "Debuff Rate",
           "dataId": 1,
           "value": -0.45,
-          "description": "When Max MP debuff is applied, it becomes a 45% buff instead"
+          "description": "When Max MP debuff is applied, it is converted to a buff with 45% effectiveness"
         },
         {
           "code": 21,
@@ -75749,7 +76666,7 @@ const statesData = {
           "codeName": "Debuff Rate",
           "dataId": 1,
           "value": -0.65,
-          "description": "When Max MP debuff is applied, it becomes a 65% buff instead"
+          "description": "When Max MP debuff is applied, it is converted to a buff with 65% effectiveness"
         },
         {
           "code": 21,
@@ -76014,7 +76931,7 @@ const statesData = {
           "codeName": "Debuff Rate",
           "dataId": 1,
           "value": -0.85,
-          "description": "When Max MP debuff is applied, it becomes a 85% buff instead"
+          "description": "When Max MP debuff is applied, it is converted to a buff with 85% effectiveness"
         },
         {
           "code": 21,
@@ -76279,7 +77196,7 @@ const statesData = {
           "codeName": "Debuff Rate",
           "dataId": 1,
           "value": -1,
-          "description": "When Max MP debuff is applied, it becomes a 100% buff instead"
+          "description": "When Max MP debuff is applied, it is converted to a buff with 100% effectiveness"
         },
         {
           "code": 21,
@@ -76840,6 +77757,132 @@ const statesData = {
           "dataId": 5,
           "value": 0.05,
           "description": "Takes 5% Lightning damage (reduced)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 2,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 2,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 2,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 4,
+          "value": 2,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 5,
+          "value": 2,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 2,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 2,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 2,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 2,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 17,
+          "value": 2,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 2,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 28,
+          "value": 2,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 2,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 2,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 2,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 61,
+          "value": 2,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 162,
+          "value": 2,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 163,
+          "value": 2,
+          "description": "Unknown Trait"
         }
       ],
       "motion": 0,
@@ -77185,73 +78228,73 @@ const statesData = {
       "traits": [
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Fire damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Ice damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Lightning damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Light damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Dark damage (increased)"
         },
         {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 0,
           "value": -0.3,
-          "description": "When Max HP debuff is applied, it becomes a 30% buff instead"
+          "description": "When Max HP debuff is applied, it is converted to a buff with 30% effectiveness"
         },
         {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 1,
           "value": -0.3,
-          "description": "When Max MP debuff is applied, it becomes a 30% buff instead"
+          "description": "When Max MP debuff is applied, it is converted to a buff with 30% effectiveness"
         },
         {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 4,
           "value": -0.3,
-          "description": "When Magic Attack debuff is applied, it becomes a 30% buff instead"
+          "description": "When Magic Attack debuff is applied, it is converted to a buff with 30% effectiveness"
         },
         {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 3,
           "value": -0.3,
-          "description": "When Defense debuff is applied, it becomes a 30% buff instead"
+          "description": "When Defense debuff is applied, it is converted to a buff with 30% effectiveness"
         },
         {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 2,
           "value": -0.3,
-          "description": "When Attack debuff is applied, it becomes a 30% buff instead"
+          "description": "When Attack debuff is applied, it is converted to a buff with 30% effectiveness"
         },
         {
           "code": 21,
@@ -77438,6 +78481,48 @@ const statesData = {
           "dataId": 6,
           "value": 1,
           "description": "Normal Agility debuff effectiveness"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
         }
       ],
       "motion": 0,
@@ -77480,6 +78565,48 @@ const statesData = {
           "dataId": 6,
           "value": 1,
           "description": "Normal Agility debuff effectiveness"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
         }
       ],
       "motion": 0,
@@ -83299,7 +84426,7 @@ const weaponsData = {
           "codeName": "Debuff Rate",
           "dataId": 0,
           "value": -0.3,
-          "description": "When Max HP debuff is applied, it becomes a 30% buff instead"
+          "description": "When Max HP debuff is applied, it is converted to a buff with 30% effectiveness"
         },
         {
           "code": 32,
@@ -83364,7 +84491,7 @@ const weaponsData = {
           "codeName": "Debuff Rate",
           "dataId": 0,
           "value": -0.3,
-          "description": "When Max HP debuff is applied, it becomes a 30% buff instead"
+          "description": "When Max HP debuff is applied, it is converted to a buff with 30% effectiveness"
         },
         {
           "code": 32,
@@ -83429,7 +84556,7 @@ const weaponsData = {
           "codeName": "Debuff Rate",
           "dataId": 0,
           "value": -0.3,
-          "description": "When Max HP debuff is applied, it becomes a 30% buff instead"
+          "description": "When Max HP debuff is applied, it is converted to a buff with 30% effectiveness"
         },
         {
           "code": 32,
@@ -83494,7 +84621,7 @@ const weaponsData = {
           "codeName": "Debuff Rate",
           "dataId": 0,
           "value": -0.3,
-          "description": "When Max HP debuff is applied, it becomes a 30% buff instead"
+          "description": "When Max HP debuff is applied, it is converted to a buff with 30% effectiveness"
         },
         {
           "code": 32,
@@ -83559,7 +84686,7 @@ const weaponsData = {
           "codeName": "Debuff Rate",
           "dataId": 0,
           "value": -0.3,
-          "description": "When Max HP debuff is applied, it becomes a 30% buff instead"
+          "description": "When Max HP debuff is applied, it is converted to a buff with 30% effectiveness"
         },
         {
           "code": 32,
@@ -83624,7 +84751,7 @@ const weaponsData = {
           "codeName": "Debuff Rate",
           "dataId": 0,
           "value": -0.3,
-          "description": "When Max HP debuff is applied, it becomes a 30% buff instead"
+          "description": "When Max HP debuff is applied, it is converted to a buff with 30% effectiveness"
         },
         {
           "code": 32,
@@ -83689,7 +84816,7 @@ const weaponsData = {
           "codeName": "Debuff Rate",
           "dataId": 0,
           "value": -0.3,
-          "description": "When Max HP debuff is applied, it becomes a 30% buff instead"
+          "description": "When Max HP debuff is applied, it is converted to a buff with 30% effectiveness"
         },
         {
           "code": 32,
@@ -83754,7 +84881,7 @@ const weaponsData = {
           "codeName": "Debuff Rate",
           "dataId": 0,
           "value": -0.3,
-          "description": "When Max HP debuff is applied, it becomes a 30% buff instead"
+          "description": "When Max HP debuff is applied, it is converted to a buff with 30% effectiveness"
         },
         {
           "code": 32,
@@ -83819,7 +84946,7 @@ const weaponsData = {
           "codeName": "Debuff Rate",
           "dataId": 0,
           "value": -0.3,
-          "description": "When Max HP debuff is applied, it becomes a 30% buff instead"
+          "description": "When Max HP debuff is applied, it is converted to a buff with 30% effectiveness"
         },
         {
           "code": 32,
@@ -83884,7 +85011,7 @@ const weaponsData = {
           "codeName": "Debuff Rate",
           "dataId": 0,
           "value": -0.3,
-          "description": "When Max HP debuff is applied, it becomes a 30% buff instead"
+          "description": "When Max HP debuff is applied, it is converted to a buff with 30% effectiveness"
         },
         {
           "code": 32,
@@ -84018,10 +85145,10 @@ const weaponsData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.2,
-          "description": "Luck debuffs are only 20% effective"
+          "description": "Heals 20% of maximum HP each turn"
         }
       ],
       "note": {
@@ -84062,10 +85189,10 @@ const weaponsData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.2,
-          "description": "Luck debuffs are only 20% effective"
+          "description": "Heals 20% of maximum HP each turn"
         },
         {
           "code": 43,
@@ -84120,10 +85247,10 @@ const weaponsData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.2,
-          "description": "Luck debuffs are only 20% effective"
+          "description": "Heals 20% of maximum HP each turn"
         },
         {
           "code": 43,
@@ -84178,10 +85305,10 @@ const weaponsData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.2,
-          "description": "Luck debuffs are only 20% effective"
+          "description": "Heals 20% of maximum HP each turn"
         },
         {
           "code": 43,
@@ -84236,10 +85363,10 @@ const weaponsData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.3,
-          "description": "Luck debuffs are only 30% effective"
+          "description": "Heals 30% of maximum HP each turn"
         },
         {
           "code": 43,
@@ -84294,10 +85421,10 @@ const weaponsData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.3,
-          "description": "Luck debuffs are only 30% effective"
+          "description": "Heals 30% of maximum HP each turn"
         },
         {
           "code": 43,
@@ -84352,10 +85479,10 @@ const weaponsData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.3,
-          "description": "Luck debuffs are only 30% effective"
+          "description": "Heals 30% of maximum HP each turn"
         },
         {
           "code": 43,
@@ -84410,10 +85537,10 @@ const weaponsData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.4,
-          "description": "Luck debuffs are only 40% effective"
+          "description": "Heals 40% of maximum HP each turn"
         },
         {
           "code": 43,
@@ -84468,10 +85595,10 @@ const weaponsData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.4,
-          "description": "Luck debuffs are only 40% effective"
+          "description": "Heals 40% of maximum HP each turn"
         },
         {
           "code": 43,
@@ -84526,10 +85653,10 @@ const weaponsData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.4,
-          "description": "Luck debuffs are only 40% effective"
+          "description": "Heals 40% of maximum HP each turn"
         },
         {
           "code": 43,
@@ -84584,10 +85711,10 @@ const weaponsData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.5,
-          "description": "Luck debuffs are only 50% effective"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 43,
@@ -85975,10 +87102,10 @@ const weaponsData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 1,
           "value": 0.95,
-          "description": "Heals 95% of maximum HP each turn"
+          "description": "Takes 95% Physical damage (reduced)"
         },
         {
           "code": 32,
@@ -86029,10 +87156,10 @@ const weaponsData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 1,
           "value": 0.9,
-          "description": "Heals 90% of maximum HP each turn"
+          "description": "Takes 90% Physical damage (reduced)"
         },
         {
           "code": 32,
@@ -86083,10 +87210,10 @@ const weaponsData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 1,
           "value": 0.85,
-          "description": "Heals 85% of maximum HP each turn"
+          "description": "Takes 85% Physical damage (reduced)"
         },
         {
           "code": 32,
@@ -86137,10 +87264,10 @@ const weaponsData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 1,
           "value": 0.8,
-          "description": "Heals 80% of maximum HP each turn"
+          "description": "Takes 80% Physical damage (reduced)"
         },
         {
           "code": 32,
@@ -86191,10 +87318,10 @@ const weaponsData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 1,
           "value": 0.75,
-          "description": "Heals 75% of maximum HP each turn"
+          "description": "Takes 75% Physical damage (reduced)"
         },
         {
           "code": 32,
@@ -86245,10 +87372,10 @@ const weaponsData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 1,
           "value": 0.7,
-          "description": "Heals 70% of maximum HP each turn"
+          "description": "Takes 70% Physical damage (reduced)"
         },
         {
           "code": 32,
@@ -86299,10 +87426,10 @@ const weaponsData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 1,
           "value": 0.65,
-          "description": "Heals 65% of maximum HP each turn"
+          "description": "Takes 65% Physical damage (reduced)"
         },
         {
           "code": 32,
@@ -86353,10 +87480,10 @@ const weaponsData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 1,
           "value": 0.6,
-          "description": "Heals 60% of maximum HP each turn"
+          "description": "Takes 60% Physical damage (reduced)"
         },
         {
           "code": 32,
@@ -86407,10 +87534,10 @@ const weaponsData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 1,
           "value": 0.55,
-          "description": "Heals 55% of maximum HP each turn"
+          "description": "Takes 55% Physical damage (reduced)"
         },
         {
           "code": 32,
@@ -86461,10 +87588,10 @@ const weaponsData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 1,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Physical damage (reduced)"
         },
         {
           "code": 32,
@@ -86522,10 +87649,10 @@ const weaponsData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 1,
           "value": 0.45,
-          "description": "Heals 45% of maximum HP each turn"
+          "description": "Takes 45% Physical damage (reduced)"
         },
         {
           "code": 32,
@@ -87771,7 +88898,7 @@ const weaponsData = {
           "codeName": "Debuff Rate",
           "dataId": 0,
           "value": -0.3,
-          "description": "When Max HP debuff is applied, it becomes a 30% buff instead"
+          "description": "When Max HP debuff is applied, it is converted to a buff with 30% effectiveness"
         },
         {
           "code": 43,
@@ -87829,7 +88956,7 @@ const weaponsData = {
           "codeName": "Debuff Rate",
           "dataId": 0,
           "value": -0.3,
-          "description": "When Max HP debuff is applied, it becomes a 30% buff instead"
+          "description": "When Max HP debuff is applied, it is converted to a buff with 30% effectiveness"
         },
         {
           "code": 43,
@@ -87887,7 +89014,7 @@ const weaponsData = {
           "codeName": "Debuff Rate",
           "dataId": 0,
           "value": -0.3,
-          "description": "When Max HP debuff is applied, it becomes a 30% buff instead"
+          "description": "When Max HP debuff is applied, it is converted to a buff with 30% effectiveness"
         },
         {
           "code": 43,
@@ -87945,7 +89072,7 @@ const weaponsData = {
           "codeName": "Debuff Rate",
           "dataId": 0,
           "value": -0.3,
-          "description": "When Max HP debuff is applied, it becomes a 30% buff instead"
+          "description": "When Max HP debuff is applied, it is converted to a buff with 30% effectiveness"
         },
         {
           "code": 43,
@@ -88003,7 +89130,7 @@ const weaponsData = {
           "codeName": "Debuff Rate",
           "dataId": 0,
           "value": -0.3,
-          "description": "When Max HP debuff is applied, it becomes a 30% buff instead"
+          "description": "When Max HP debuff is applied, it is converted to a buff with 30% effectiveness"
         },
         {
           "code": 43,
@@ -88061,7 +89188,7 @@ const weaponsData = {
           "codeName": "Debuff Rate",
           "dataId": 0,
           "value": -0.3,
-          "description": "When Max HP debuff is applied, it becomes a 30% buff instead"
+          "description": "When Max HP debuff is applied, it is converted to a buff with 30% effectiveness"
         },
         {
           "code": 43,
@@ -88119,7 +89246,7 @@ const weaponsData = {
           "codeName": "Debuff Rate",
           "dataId": 0,
           "value": -0.3,
-          "description": "When Max HP debuff is applied, it becomes a 30% buff instead"
+          "description": "When Max HP debuff is applied, it is converted to a buff with 30% effectiveness"
         },
         {
           "code": 43,
@@ -88177,7 +89304,7 @@ const weaponsData = {
           "codeName": "Debuff Rate",
           "dataId": 0,
           "value": -0.3,
-          "description": "When Max HP debuff is applied, it becomes a 30% buff instead"
+          "description": "When Max HP debuff is applied, it is converted to a buff with 30% effectiveness"
         },
         {
           "code": 43,
@@ -88235,7 +89362,7 @@ const weaponsData = {
           "codeName": "Debuff Rate",
           "dataId": 0,
           "value": -0.3,
-          "description": "When Max HP debuff is applied, it becomes a 30% buff instead"
+          "description": "When Max HP debuff is applied, it is converted to a buff with 30% effectiveness"
         },
         {
           "code": 43,
@@ -88293,7 +89420,7 @@ const weaponsData = {
           "codeName": "Debuff Rate",
           "dataId": 0,
           "value": -0.3,
-          "description": "When Max HP debuff is applied, it becomes a 30% buff instead"
+          "description": "When Max HP debuff is applied, it is converted to a buff with 30% effectiveness"
         },
         {
           "code": 43,
@@ -88351,7 +89478,7 @@ const weaponsData = {
           "codeName": "Debuff Rate",
           "dataId": 0,
           "value": -0.3,
-          "description": "When Max HP debuff is applied, it becomes a 30% buff instead"
+          "description": "When Max HP debuff is applied, it is converted to a buff with 30% effectiveness"
         },
         {
           "code": 43,
@@ -91840,17 +92967,17 @@ const weaponsData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 0.06,
-          "description": "Unknown Parameter debuffs are only 6% effective"
+          "description": "Restores 6% of maximum MP each turn"
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.06,
-          "description": "Luck debuffs are only 6% effective"
+          "description": "Heals 6% of maximum HP each turn"
         },
         {
           "code": 32,
@@ -91929,17 +93056,17 @@ const weaponsData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.06,
-          "description": "Luck debuffs are only 6% effective"
+          "description": "Heals 6% of maximum HP each turn"
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 0.06,
-          "description": "Unknown Parameter debuffs are only 6% effective"
+          "description": "Restores 6% of maximum MP each turn"
         },
         {
           "code": 32,
@@ -92018,17 +93145,17 @@ const weaponsData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.06,
-          "description": "Luck debuffs are only 6% effective"
+          "description": "Heals 6% of maximum HP each turn"
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 0.06,
-          "description": "Unknown Parameter debuffs are only 6% effective"
+          "description": "Restores 6% of maximum MP each turn"
         },
         {
           "code": 32,
@@ -92107,17 +93234,17 @@ const weaponsData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.06,
-          "description": "Luck debuffs are only 6% effective"
+          "description": "Heals 6% of maximum HP each turn"
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 0.06,
-          "description": "Unknown Parameter debuffs are only 6% effective"
+          "description": "Restores 6% of maximum MP each turn"
         },
         {
           "code": 32,
@@ -92196,17 +93323,17 @@ const weaponsData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.06,
-          "description": "Luck debuffs are only 6% effective"
+          "description": "Heals 6% of maximum HP each turn"
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 0.06,
-          "description": "Unknown Parameter debuffs are only 6% effective"
+          "description": "Restores 6% of maximum MP each turn"
         },
         {
           "code": 32,
@@ -92285,17 +93412,17 @@ const weaponsData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.06,
-          "description": "Luck debuffs are only 6% effective"
+          "description": "Heals 6% of maximum HP each turn"
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 0.06,
-          "description": "Unknown Parameter debuffs are only 6% effective"
+          "description": "Restores 6% of maximum MP each turn"
         },
         {
           "code": 43,
@@ -93740,17 +94867,17 @@ const weaponsData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.05,
-          "description": "Luck debuffs are only 5% effective"
+          "description": "Heals 5% of maximum HP each turn"
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 0.05,
-          "description": "Unknown Parameter debuffs are only 5% effective"
+          "description": "Restores 5% of maximum MP each turn"
         },
         {
           "code": 43,
@@ -93805,17 +94932,17 @@ const weaponsData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.05,
-          "description": "Luck debuffs are only 5% effective"
+          "description": "Heals 5% of maximum HP each turn"
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 0.05,
-          "description": "Unknown Parameter debuffs are only 5% effective"
+          "description": "Restores 5% of maximum MP each turn"
         },
         {
           "code": 43,
@@ -93870,17 +94997,17 @@ const weaponsData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.05,
-          "description": "Luck debuffs are only 5% effective"
+          "description": "Heals 5% of maximum HP each turn"
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 0.05,
-          "description": "Unknown Parameter debuffs are only 5% effective"
+          "description": "Restores 5% of maximum MP each turn"
         },
         {
           "code": 43,
@@ -93935,17 +95062,17 @@ const weaponsData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.05,
-          "description": "Luck debuffs are only 5% effective"
+          "description": "Heals 5% of maximum HP each turn"
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 0.05,
-          "description": "Unknown Parameter debuffs are only 5% effective"
+          "description": "Restores 5% of maximum MP each turn"
         },
         {
           "code": 43,
@@ -94000,17 +95127,17 @@ const weaponsData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.05,
-          "description": "Luck debuffs are only 5% effective"
+          "description": "Heals 5% of maximum HP each turn"
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 0.05,
-          "description": "Unknown Parameter debuffs are only 5% effective"
+          "description": "Restores 5% of maximum MP each turn"
         },
         {
           "code": 43,
@@ -94065,17 +95192,17 @@ const weaponsData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.15,
-          "description": "Luck debuffs are only 15% effective"
+          "description": "Heals 15% of maximum HP each turn"
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 0.15,
-          "description": "Unknown Parameter debuffs are only 15% effective"
+          "description": "Restores 15% of maximum MP each turn"
         },
         {
           "code": 43,
@@ -95281,10 +96408,10 @@ const weaponsData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 0.5,
-          "description": "Unknown Parameter debuffs are only 50% effective"
+          "description": "Restores 50% of maximum MP each turn"
         },
         {
           "code": 22,
@@ -95328,10 +96455,10 @@ const weaponsData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 0.5,
-          "description": "Unknown Parameter debuffs are only 50% effective"
+          "description": "Restores 50% of maximum MP each turn"
         },
         {
           "code": 22,
@@ -95375,10 +96502,10 @@ const weaponsData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 0.5,
-          "description": "Unknown Parameter debuffs are only 50% effective"
+          "description": "Restores 50% of maximum MP each turn"
         },
         {
           "code": 22,
@@ -95422,10 +96549,10 @@ const weaponsData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 0.5,
-          "description": "Unknown Parameter debuffs are only 50% effective"
+          "description": "Restores 50% of maximum MP each turn"
         },
         {
           "code": 22,
@@ -95469,10 +96596,10 @@ const weaponsData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 0.5,
-          "description": "Unknown Parameter debuffs are only 50% effective"
+          "description": "Restores 50% of maximum MP each turn"
         },
         {
           "code": 22,
@@ -95516,10 +96643,10 @@ const weaponsData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 0.5,
-          "description": "Unknown Parameter debuffs are only 50% effective"
+          "description": "Restores 50% of maximum MP each turn"
         },
         {
           "code": 22,
@@ -95577,7 +96704,7 @@ const weaponsData = {
           "codeName": "Debuff Rate",
           "dataId": 2,
           "value": -1,
-          "description": "When Attack debuff is applied, it becomes a 100% buff instead"
+          "description": "When Attack debuff is applied, it is converted to a buff with 100% effectiveness"
         },
         {
           "code": 43,
@@ -95642,7 +96769,7 @@ const weaponsData = {
           "codeName": "Debuff Rate",
           "dataId": 2,
           "value": -1,
-          "description": "When Attack debuff is applied, it becomes a 100% buff instead"
+          "description": "When Attack debuff is applied, it is converted to a buff with 100% effectiveness"
         },
         {
           "code": 43,
@@ -95707,7 +96834,7 @@ const weaponsData = {
           "codeName": "Debuff Rate",
           "dataId": 2,
           "value": -1,
-          "description": "When Attack debuff is applied, it becomes a 100% buff instead"
+          "description": "When Attack debuff is applied, it is converted to a buff with 100% effectiveness"
         },
         {
           "code": 43,
@@ -95772,7 +96899,7 @@ const weaponsData = {
           "codeName": "Debuff Rate",
           "dataId": 2,
           "value": -1,
-          "description": "When Attack debuff is applied, it becomes a 100% buff instead"
+          "description": "When Attack debuff is applied, it is converted to a buff with 100% effectiveness"
         },
         {
           "code": 43,
@@ -95837,7 +96964,7 @@ const weaponsData = {
           "codeName": "Debuff Rate",
           "dataId": 2,
           "value": -1,
-          "description": "When Attack debuff is applied, it becomes a 100% buff instead"
+          "description": "When Attack debuff is applied, it is converted to a buff with 100% effectiveness"
         },
         {
           "code": 43,
@@ -95902,7 +97029,7 @@ const weaponsData = {
           "codeName": "Debuff Rate",
           "dataId": 2,
           "value": -1,
-          "description": "When Attack debuff is applied, it becomes a 100% buff instead"
+          "description": "When Attack debuff is applied, it is converted to a buff with 100% effectiveness"
         },
         {
           "code": 43,
@@ -97785,6 +98912,13 @@ const weaponsData = {
           "description": "Immune to Max HP debuffs"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 14,
           "codeName": "Parameter Rate",
           "dataId": 38,
@@ -97827,6 +98961,139 @@ const weaponsData = {
           "dataId": 6,
           "value": 2,
           "description": "Takes 200% unknown element damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 4,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 5,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 17,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 28,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 30,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 38,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 61,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 162,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 163,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "note": {
@@ -98804,17 +100071,17 @@ const armorsData = {
       "traits": [
         {
           "code": 13,
-          "codeName": "[Removed]",
+          "codeName": "Unknown Trait",
           "dataId": 29,
           "value": 0.2,
-          "description": "[Removed - TP functionality]"
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 0.2,
-          "description": "Heals 20% of maximum HP each turn"
+          "description": "Takes 20% Fire damage (reduced)"
         },
         {
           "code": 22,
@@ -98861,6 +100128,13 @@ const armorsData = {
           "dataId": 1,
           "value": 0.05,
           "description": "Max MP debuffs are only 5% effective"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 5,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -98948,6 +100222,13 @@ const armorsData = {
           "description": "Max MP debuffs are only 5% effective"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 28,
+          "value": 0.5,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 4,
@@ -99026,11 +100307,130 @@ const armorsData = {
           "description": "Takes 90% unknown element damage (reduced)"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 5,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 28,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 61,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 17,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 21,
           "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.1,
           "description": "Takes 110% Fire damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 162,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 163,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 4,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.7,
+          "description": "Unknown Trait"
         }
       ],
       "note": {
@@ -99289,6 +100689,13 @@ const armorsData = {
           "dataId": 3,
           "value": 1.15,
           "description": "Takes 115% Fire damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.7,
+          "description": "Unknown Trait"
         }
       ],
       "note": {
@@ -99377,10 +100784,17 @@ const armorsData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 0.75,
-          "description": "Heals 75% of maximum HP each turn"
+          "description": "Takes 75% Fire damage (reduced)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0.75,
+          "description": "Unknown Trait"
         }
       ],
       "note": {
@@ -99636,6 +101050,13 @@ const armorsData = {
           "dataId": 3,
           "value": 1.08,
           "description": "Takes 108% Fire damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.8,
+          "description": "Unknown Trait"
         }
       ],
       "note": {
@@ -99724,10 +101145,17 @@ const armorsData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 0.75,
-          "description": "Heals 75% of maximum HP each turn"
+          "description": "Takes 75% Fire damage (reduced)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0.75,
+          "description": "Unknown Trait"
         }
       ],
       "note": {
@@ -99760,6 +101188,13 @@ const armorsData = {
           "dataId": 6,
           "value": 1.05,
           "description": "Takes 105% unknown element damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 28,
+          "value": 0.5,
+          "description": "Unknown Trait"
         }
       ],
       "note": {
@@ -100123,6 +101558,13 @@ const armorsData = {
           "dataId": 6,
           "value": 1.05,
           "description": "Takes 105% unknown element damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 28,
+          "value": 0.5,
+          "description": "Unknown Trait"
         }
       ],
       "note": {
@@ -100158,10 +101600,10 @@ const armorsData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.05,
-          "description": "Luck debuffs are only 5% effective"
+          "description": "Heals 5% of maximum HP each turn"
         },
         {
           "code": 21,
@@ -100396,6 +101838,20 @@ const armorsData = {
           "dataId": 6,
           "value": 0.99,
           "description": "Takes 99% unknown element damage (reduced)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0.5,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0.5,
+          "description": "Unknown Trait"
         },
         {
           "code": 23,
@@ -100739,6 +102195,13 @@ const armorsData = {
           "dataId": 6,
           "value": 0.98,
           "description": "Takes 98% unknown element damage (reduced)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
         }
       ],
       "note": {
@@ -100827,10 +102290,17 @@ const armorsData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Fire damage (reduced)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0.5,
+          "description": "Unknown Trait"
         },
         {
           "code": 23,
@@ -100873,10 +102343,10 @@ const armorsData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Lightning damage (reduced)"
         },
         {
           "code": 23,
@@ -100916,6 +102386,13 @@ const armorsData = {
           "dataId": 6,
           "value": 0.98,
           "description": "Takes 98% unknown element damage (reduced)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 23,
@@ -100958,10 +102435,10 @@ const armorsData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         },
         {
           "code": 23,
@@ -101004,10 +102481,10 @@ const armorsData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Light damage (reduced)"
         },
         {
           "code": 23,
@@ -101135,38 +102612,38 @@ const armorsData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 0.75,
-          "description": "Heals 75% of maximum HP each turn"
+          "description": "Takes 75% Fire damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 0.75,
-          "description": "Heals 75% of maximum HP each turn"
+          "description": "Takes 75% Ice damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 0.75,
-          "description": "Heals 75% of maximum HP each turn"
+          "description": "Takes 75% Lightning damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0.75,
-          "description": "Heals 75% of maximum HP each turn"
+          "description": "Takes 75% Light damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.75,
-          "description": "Heals 75% of maximum HP each turn"
+          "description": "Takes 75% Dark damage (reduced)"
         },
         {
           "code": 23,
@@ -101208,11 +102685,130 @@ const armorsData = {
           "description": "Takes 95% unknown element damage (reduced)"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 5,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 28,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 61,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 17,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 23,
           "codeName": "State Rate",
           "dataId": 1,
           "value": 3,
           "description": "Normal [[STATE:1:Incapacitated]] susceptibility"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 162,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 163,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 4,
+          "value": 0.7,
+          "description": "Unknown Trait"
         }
       ],
       "note": {
@@ -102125,10 +103721,10 @@ const armorsData = {
       "traits": [
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.03,
-          "description": "Luck debuffs are only 3% effective"
+          "description": "Heals 3% of maximum HP each turn"
         }
       ],
       "note": {
@@ -102164,10 +103760,10 @@ const armorsData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 1,
           "value": 0.8,
-          "description": "Heals 80% of maximum HP each turn"
+          "description": "Takes 80% Physical damage (reduced)"
         }
       ],
       "note": {
@@ -102196,10 +103792,10 @@ const armorsData = {
       "traits": [
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Fire damage (reduced)"
         }
       ],
       "note": {
@@ -102228,10 +103824,10 @@ const armorsData = {
       "traits": [
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Lightning damage (reduced)"
         }
       ],
       "note": {
@@ -102260,10 +103856,10 @@ const armorsData = {
       "traits": [
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         }
       ],
       "note": {
@@ -102393,10 +103989,17 @@ const armorsData = {
       "traits": [
         {
           "code": 13,
-          "codeName": "[Removed]",
+          "codeName": "Unknown Trait",
           "dataId": 2,
           "value": 0,
-          "description": "[Removed - TP functionality]"
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "note": {
@@ -102425,10 +104028,17 @@ const armorsData = {
       "traits": [
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.02,
-          "description": "Luck debuffs are only 2% effective"
+          "description": "Heals 2% of maximum HP each turn"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "note": {
@@ -102490,6 +104100,13 @@ const armorsData = {
           "dataId": 3,
           "value": 1,
           "description": "Normal Defense debuff effectiveness"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "note": {
@@ -102579,10 +104196,10 @@ const armorsData = {
       "traits": [
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 0.05,
-          "description": "Unknown Parameter debuffs are only 5% effective"
+          "description": "Restores 5% of maximum MP each turn"
         }
       ],
       "note": {
@@ -102775,10 +104392,10 @@ const armorsData = {
       "traits": [
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 17,
           "value": 0,
-          "description": "No HP regeneration"
+          "description": "Immune to Fall damage"
         }
       ],
       "note": {
@@ -102846,10 +104463,10 @@ const armorsData = {
       "traits": [
         {
           "code": 13,
-          "codeName": "[Removed]",
+          "codeName": "Unknown Trait",
           "dataId": 56,
           "value": 0,
-          "description": "[Removed - TP functionality]"
+          "description": "Unknown Trait"
         },
         {
           "code": 32,
@@ -102918,10 +104535,10 @@ const armorsData = {
       "traits": [
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": -0.2,
-          "description": "When Luck debuff is applied, it becomes a 20% buff instead"
+          "description": "Loses 20% of maximum HP each turn"
         }
       ],
       "note": {
@@ -102954,6 +104571,13 @@ const armorsData = {
           "dataId": 13,
           "value": 0.1,
           "description": "Skill Type Seal"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
         }
       ],
       "note": {
@@ -102982,10 +104606,10 @@ const armorsData = {
       "traits": [
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 0.03,
-          "description": "Unknown Parameter debuffs are only 3% effective"
+          "description": "Restores 3% of maximum MP each turn"
         }
       ],
       "note": {
@@ -103014,10 +104638,10 @@ const armorsData = {
       "traits": [
         {
           "code": 13,
-          "codeName": "[Removed]",
+          "codeName": "Unknown Trait",
           "dataId": 6,
           "value": 0,
-          "description": "[Removed - TP functionality]"
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -103367,14 +104991,14 @@ const armorsData = {
           "codeName": "Debuff Rate",
           "dataId": 1,
           "value": -0.5,
-          "description": "When Max MP debuff is applied, it becomes a 50% buff instead"
+          "description": "When Max MP debuff is applied, it is converted to a buff with 50% effectiveness"
         },
         {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 4,
           "value": -0.5,
-          "description": "When Magic Attack debuff is applied, it becomes a 50% buff instead"
+          "description": "When Magic Attack debuff is applied, it is converted to a buff with 50% effectiveness"
         }
       ],
       "note": {
@@ -103541,6 +105165,13 @@ const armorsData = {
           "dataId": 6,
           "value": 0.5,
           "description": "Skill Type Seal"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "note": {
@@ -103628,14 +105259,14 @@ const armorsData = {
           "codeName": "Debuff Rate",
           "dataId": 1,
           "value": -0.05,
-          "description": "When Max MP debuff is applied, it becomes a 5% buff instead"
+          "description": "When Max MP debuff is applied, it is converted to a buff with 5% effectiveness"
         },
         {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 4,
           "value": -0.05,
-          "description": "When Magic Attack debuff is applied, it becomes a 5% buff instead"
+          "description": "When Magic Attack debuff is applied, it is converted to a buff with 5% effectiveness"
         }
       ],
       "note": {
@@ -103728,10 +105359,10 @@ const armorsData = {
       "traits": [
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 0.1,
-          "description": "Unknown Parameter debuffs are only 10% effective"
+          "description": "Restores 10% of maximum MP each turn"
         }
       ],
       "note": {
@@ -103999,10 +105630,10 @@ const armorsData = {
       "traits": [
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Light damage (reduced)"
         }
       ],
       "note": {
@@ -104107,10 +105738,10 @@ const armorsData = {
       "traits": [
         {
           "code": 13,
-          "codeName": "[Removed]",
+          "codeName": "Unknown Trait",
           "dataId": 28,
           "value": 0,
-          "description": "[Removed - TP functionality]"
+          "description": "Unknown Trait"
         }
       ],
       "note": {
@@ -104143,6 +105774,13 @@ const armorsData = {
           "dataId": 0,
           "value": 0.1,
           "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "note": {
@@ -104171,31 +105809,31 @@ const armorsData = {
       "traits": [
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 0.8,
-          "description": "Heals 80% of maximum HP each turn"
+          "description": "Takes 80% Fire damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 0.8,
-          "description": "Heals 80% of maximum HP each turn"
+          "description": "Takes 80% Lightning damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0.8,
-          "description": "Heals 80% of maximum HP each turn"
+          "description": "Takes 80% Light damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.8,
-          "description": "Heals 80% of maximum HP each turn"
+          "description": "Takes 80% Dark damage (reduced)"
         }
       ],
       "note": {
@@ -104256,10 +105894,10 @@ const armorsData = {
       "traits": [
         {
           "code": 13,
-          "codeName": "[Removed]",
+          "codeName": "Unknown Trait",
           "dataId": 13,
           "value": 0.5,
-          "description": "[Removed - TP functionality]"
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -104344,14 +105982,14 @@ const armorsData = {
           "codeName": "Debuff Rate",
           "dataId": 0,
           "value": -0.5,
-          "description": "When Max HP debuff is applied, it becomes a 50% buff instead"
+          "description": "When Max HP debuff is applied, it is converted to a buff with 50% effectiveness"
         },
         {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 2,
           "value": -0.5,
-          "description": "When Attack debuff is applied, it becomes a 50% buff instead"
+          "description": "When Attack debuff is applied, it is converted to a buff with 50% effectiveness"
         }
       ],
       "note": {
@@ -104496,10 +106134,10 @@ const armorsData = {
       "traits": [
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.5,
-          "description": "Luck debuffs are only 50% effective"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 21,
@@ -104574,17 +106212,17 @@ const armorsData = {
       "traits": [
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.1,
-          "description": "Luck debuffs are only 10% effective"
+          "description": "Heals 10% of maximum HP each turn"
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 0.1,
-          "description": "Unknown Parameter debuffs are only 10% effective"
+          "description": "Restores 10% of maximum MP each turn"
         }
       ],
       "note": {
@@ -104649,6 +106287,13 @@ const armorsData = {
           "dataId": 3,
           "value": 1.1,
           "description": "Takes 110% Fire damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
         }
       ],
       "note": {
@@ -105011,7 +106656,7 @@ const armorsData = {
           "codeName": "Debuff Rate",
           "dataId": 1,
           "value": -0.5,
-          "description": "When Max MP debuff is applied, it becomes a 50% buff instead"
+          "description": "When Max MP debuff is applied, it is converted to a buff with 50% effectiveness"
         }
       ],
       "note": {
@@ -105382,10 +107027,10 @@ const armorsData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 0.05,
-          "description": "Unknown Parameter debuffs are only 5% effective"
+          "description": "Restores 5% of maximum MP each turn"
         }
       ],
       "note": {
@@ -105420,11 +107065,130 @@ const armorsData = {
           "description": "Takes 94% unknown element damage (reduced)"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0.8,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0.8,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.8,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 5,
+          "value": 0.8,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0.8,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 28,
+          "value": 0.8,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0.8,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0.8,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 0.8,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 0.8,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 21,
           "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.08,
           "description": "Takes 108% Fire damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 17,
+          "value": 0.8,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 61,
+          "value": 0.8,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 162,
+          "value": 0.8,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 163,
+          "value": 0.8,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.8,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.8,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 4,
+          "value": 0.8,
+          "description": "Unknown Trait"
         }
       ],
       "note": {
@@ -105467,17 +107231,17 @@ const armorsData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.05,
-          "description": "Luck debuffs are only 5% effective"
+          "description": "Heals 5% of maximum HP each turn"
         }
       ],
       "note": {
@@ -105524,6 +107288,13 @@ const armorsData = {
           "dataId": 3,
           "value": 1,
           "description": "Normal Defense debuff effectiveness"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "note": {
@@ -105976,10 +107747,10 @@ const armorsData = {
       "traits": [
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.08,
-          "description": "Luck debuffs are only 8% effective"
+          "description": "Heals 8% of maximum HP each turn"
         }
       ],
       "note": {
@@ -106008,10 +107779,10 @@ const armorsData = {
       "traits": [
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.15,
-          "description": "Luck debuffs are only 15% effective"
+          "description": "Heals 15% of maximum HP each turn"
         }
       ],
       "note": {
@@ -106040,10 +107811,10 @@ const armorsData = {
       "traits": [
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.2,
-          "description": "Luck debuffs are only 20% effective"
+          "description": "Heals 20% of maximum HP each turn"
         }
       ],
       "note": {
@@ -106072,10 +107843,10 @@ const armorsData = {
       "traits": [
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 0.1,
-          "description": "Unknown Parameter debuffs are only 10% effective"
+          "description": "Restores 10% of maximum MP each turn"
         }
       ],
       "note": {
@@ -106104,10 +107875,10 @@ const armorsData = {
       "traits": [
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 0.15,
-          "description": "Unknown Parameter debuffs are only 15% effective"
+          "description": "Restores 15% of maximum MP each turn"
         }
       ],
       "note": {
@@ -106136,10 +107907,10 @@ const armorsData = {
       "traits": [
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 0.2,
-          "description": "Unknown Parameter debuffs are only 20% effective"
+          "description": "Restores 20% of maximum MP each turn"
         }
       ],
       "note": {
@@ -106175,10 +107946,10 @@ const armorsData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 1,
           "value": 0.75,
-          "description": "Heals 75% of maximum HP each turn"
+          "description": "Takes 75% Physical damage (reduced)"
         }
       ],
       "note": {
@@ -106214,10 +107985,10 @@ const armorsData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 1,
           "value": 0.7,
-          "description": "Heals 70% of maximum HP each turn"
+          "description": "Takes 70% Physical damage (reduced)"
         }
       ],
       "note": {
@@ -106253,10 +108024,10 @@ const armorsData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 1,
           "value": 0.65,
-          "description": "Heals 65% of maximum HP each turn"
+          "description": "Takes 65% Physical damage (reduced)"
         }
       ],
       "note": {
@@ -106995,14 +108766,14 @@ const armorsData = {
           "codeName": "Debuff Rate",
           "dataId": 1,
           "value": -0.1,
-          "description": "When Max MP debuff is applied, it becomes a 10% buff instead"
+          "description": "When Max MP debuff is applied, it is converted to a buff with 10% effectiveness"
         },
         {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 4,
           "value": -0.1,
-          "description": "When Magic Attack debuff is applied, it becomes a 10% buff instead"
+          "description": "When Magic Attack debuff is applied, it is converted to a buff with 10% effectiveness"
         }
       ],
       "note": {
@@ -107090,14 +108861,14 @@ const armorsData = {
           "codeName": "Debuff Rate",
           "dataId": 1,
           "value": -0.15,
-          "description": "When Max MP debuff is applied, it becomes a 15% buff instead"
+          "description": "When Max MP debuff is applied, it is converted to a buff with 15% effectiveness"
         },
         {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 4,
           "value": -0.15,
-          "description": "When Magic Attack debuff is applied, it becomes a 15% buff instead"
+          "description": "When Magic Attack debuff is applied, it is converted to a buff with 15% effectiveness"
         }
       ],
       "note": {
@@ -107185,14 +108956,14 @@ const armorsData = {
           "codeName": "Debuff Rate",
           "dataId": 1,
           "value": -0.2,
-          "description": "When Max MP debuff is applied, it becomes a 20% buff instead"
+          "description": "When Max MP debuff is applied, it is converted to a buff with 20% effectiveness"
         },
         {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 4,
           "value": -0.2,
-          "description": "When Magic Attack debuff is applied, it becomes a 20% buff instead"
+          "description": "When Magic Attack debuff is applied, it is converted to a buff with 20% effectiveness"
         }
       ],
       "note": {
@@ -107253,10 +109024,10 @@ const armorsData = {
       "traits": [
         {
           "code": 13,
-          "codeName": "[Removed]",
+          "codeName": "Unknown Trait",
           "dataId": 28,
           "value": 2,
-          "description": "[Removed - TP functionality]"
+          "description": "Unknown Trait"
         },
         {
           "code": 21,
@@ -107450,17 +109221,17 @@ const armorsData = {
       "traits": [
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.3,
-          "description": "Luck debuffs are only 30% effective"
+          "description": "Heals 30% of maximum HP each turn"
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 0.3,
-          "description": "Unknown Parameter debuffs are only 30% effective"
+          "description": "Restores 30% of maximum MP each turn"
         },
         {
           "code": 61,
@@ -107916,6 +109687,13 @@ const armorsData = {
           "dataId": 162,
           "value": 0.5,
           "description": "Skill Type Seal"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 162,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "note": {
@@ -107948,6 +109726,13 @@ const armorsData = {
           "dataId": 163,
           "value": 0.5,
           "description": "Skill Type Seal"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 163,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "note": {
@@ -108008,10 +109793,10 @@ const armorsData = {
       "traits": [
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Ice damage (reduced)"
         }
       ],
       "note": {
@@ -108163,10 +109948,10 @@ const armorsData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 0.8,
-          "description": "Heals 80% of maximum HP each turn"
+          "description": "Takes 80% Ice damage (reduced)"
         }
       ],
       "note": {
@@ -108209,10 +109994,10 @@ const armorsData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 0.7,
-          "description": "Heals 70% of maximum HP each turn"
+          "description": "Takes 70% Ice damage (reduced)"
         },
         {
           "code": 22,
@@ -108262,10 +110047,10 @@ const armorsData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 0.8,
-          "description": "Heals 80% of maximum HP each turn"
+          "description": "Takes 80% Ice damage (reduced)"
         },
         {
           "code": 22,
@@ -108308,10 +110093,10 @@ const armorsData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Ice damage (increased)"
         }
       ],
       "note": {
@@ -108386,10 +110171,17 @@ const armorsData = {
       "traits": [
         {
           "code": 13,
-          "codeName": "[Removed]",
+          "codeName": "Unknown Trait",
           "dataId": 7,
           "value": 0,
-          "description": "[Removed - TP functionality]"
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "note": {
@@ -108464,10 +110256,122 @@ const armorsData = {
       "traits": [
         {
           "code": 13,
-          "codeName": "[Removed]",
+          "codeName": "Unknown Trait",
           "dataId": 2,
           "value": 0,
-          "description": "[Removed - TP functionality]"
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 4,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 5,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 28,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 61,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 17,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 162,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 163,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "note": {
@@ -108533,10 +110437,122 @@ const armorsData = {
       "traits": [
         {
           "code": 13,
-          "codeName": "[Removed]",
+          "codeName": "Unknown Trait",
           "dataId": 2,
           "value": 0.7,
-          "description": "[Removed - TP functionality]"
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 5,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 28,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 61,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 17,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 162,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 163,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.7,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 4,
+          "value": 0.7,
+          "description": "Unknown Trait"
         }
       ],
       "note": {
@@ -108663,11 +110679,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Light damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 2,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -108742,6 +110786,13 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 23,
           "codeName": "State Rate",
           "dataId": 1,
@@ -108749,11 +110800,32 @@ const enemiesData = {
           "description": "Normal [[STATE:1:Incapacitated]] susceptibility"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Light damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 2,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -108844,11 +110916,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 2,
           "value": 0.1,
           "description": "Attack debuffs are only 10% effective"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -108955,18 +111048,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 3,
-          "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 3,
+          "value": 1.2,
+          "description": "Takes 120% Fire damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         }
       ],
       "actions": [
@@ -109048,18 +111162,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 3,
-          "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 3,
+          "value": 1.2,
+          "description": "Takes 120% Fire damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 2,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -109134,18 +111269,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 3,
-          "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 3,
+          "value": 1.2,
+          "description": "Takes 120% Fire damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         }
       ],
       "actions": [
@@ -109220,11 +111376,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Light damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 2,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -109307,11 +111491,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Light damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 2,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -109410,11 +111622,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         }
       ],
       "actions": [
@@ -109520,11 +111760,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Fire damage (increased)"
         },
         {
           "code": 32,
@@ -109535,10 +111789,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 2,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -109611,6 +111872,20 @@ const enemiesData = {
           "dataId": 1,
           "value": 100,
           "description": "Normal attacks +100 times"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
         },
         {
           "code": 32,
@@ -109715,11 +111990,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 1,
           "value": 0.05,
           "description": "Max MP debuffs are only 5% effective"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 2,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -109802,11 +112098,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 1,
           "value": 0.05,
           "description": "Max MP debuffs are only 5% effective"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 2,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -109896,18 +112213,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 13,
-          "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 13,
+          "value": 1.2,
+          "description": "Takes 120% Beast Bonus damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Lightning damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 2,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -109980,6 +112318,27 @@ const enemiesData = {
           "dataId": 1,
           "value": 100,
           "description": "Normal attacks +100 times"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 2,
+          "description": "Unknown Trait"
         },
         {
           "code": 32,
@@ -110061,18 +112420,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 13,
-          "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 13,
+          "value": 1.2,
+          "description": "Takes 120% Beast Bonus damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Fire damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 2,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -110155,18 +112535,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 13,
-          "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 13,
+          "value": 1.2,
+          "description": "Takes 120% Beast Bonus damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Fire damage (increased)"
         },
         {
           "code": 61,
@@ -110263,6 +112657,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 2,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 61,
           "codeName": "Unknown Trait",
           "dataId": 0,
@@ -110271,17 +112686,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Fire damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         }
       ],
       "actions": [
@@ -110364,18 +112779,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 13,
-          "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 13,
+          "value": 1.2,
+          "description": "Takes 120% Beast Bonus damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Fire damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 2,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -110450,11 +112886,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Light damage (increased)"
         },
         {
           "code": 32,
@@ -110462,6 +112912,13 @@ const enemiesData = {
           "dataId": 26,
           "value": 0.3,
           "description": "Skill Type Seal"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 2,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -110534,6 +112991,20 @@ const enemiesData = {
           "dataId": 1,
           "value": 100,
           "description": "Normal attacks +100 times"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -110616,6 +113087,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 2,
@@ -110624,10 +113109,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 22,
@@ -110709,11 +113194,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         }
       ],
       "actions": [
@@ -110796,6 +113295,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 61,
           "codeName": "Unknown Trait",
           "dataId": 0,
@@ -110807,6 +113320,13 @@ const enemiesData = {
           "codeName": "Unknown Trait",
           "dataId": 0,
           "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
           "description": "Unknown Trait"
         },
         {
@@ -110818,10 +113338,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
         },
         {
           "code": 22,
@@ -110846,10 +113366,10 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.01,
-          "description": "Luck debuffs are only 1% effective"
+          "description": "Heals 1% of maximum HP each turn"
         }
       ],
       "actions": [
@@ -110948,6 +113468,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 1,
@@ -110963,17 +113497,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.02,
-          "description": "Luck debuffs are only 2% effective"
+          "description": "Heals 2% of maximum HP each turn"
         }
       ],
       "actions": [
@@ -111056,6 +113590,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 61,
           "codeName": "Unknown Trait",
           "dataId": 0,
@@ -111119,18 +113667,25 @@ const enemiesData = {
           "description": "Skill Type Seal"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 13,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 13,
+          "value": 1.5,
+          "description": "Takes 150% Beast Bonus damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         }
       ],
       "actions": [
@@ -111205,11 +113760,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 23,
@@ -111306,6 +113875,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 2,
@@ -111314,10 +113897,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 23,
@@ -111399,11 +113982,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 23,
@@ -111493,11 +114090,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 23,
@@ -111587,11 +114198,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 23,
@@ -111688,6 +114313,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 23,
           "codeName": "State Rate",
           "dataId": 6,
@@ -111696,10 +114335,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 23,
@@ -111797,18 +114436,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 10,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 10,
+          "value": 1.5,
+          "description": "Takes 150% Dark damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         }
       ],
       "actions": [
@@ -111907,11 +114560,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         }
       ],
       "actions": [
@@ -112010,11 +114684,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 23,
@@ -112104,11 +114799,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -112198,11 +114914,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Fire damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -112301,11 +115038,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -112393,6 +115151,27 @@ const enemiesData = {
           "dataId": 1,
           "value": 100,
           "description": "Normal attacks +100 times"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -112475,6 +115254,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 1,
@@ -112487,6 +115280,13 @@ const enemiesData = {
           "dataId": 4,
           "value": 1,
           "description": "Normal Magic Attack debuff effectiveness"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -112569,11 +115369,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 32,
@@ -112662,11 +115490,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 32,
@@ -112764,11 +115606,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         }
       ],
       "actions": [
@@ -112851,11 +115707,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -112930,11 +115807,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -113009,11 +115907,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -113088,6 +116007,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 2,
@@ -113095,11 +116028,25 @@ const enemiesData = {
           "description": "Normal Attack debuff effectiveness"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         }
       ],
       "actions": [
@@ -113175,10 +116122,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 32,
@@ -113188,11 +116135,32 @@ const enemiesData = {
           "description": "Skill Type Seal"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         }
       ],
       "actions": [
@@ -113283,18 +116251,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 3,
-          "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 1,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 3,
+          "value": 1.2,
+          "description": "Takes 120% Fire damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 32,
@@ -113390,11 +116379,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         },
         {
           "code": 61,
@@ -113484,11 +116487,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         },
         {
           "code": 61,
@@ -113576,6 +116593,20 @@ const enemiesData = {
           "dataId": 1,
           "value": 100,
           "description": "Normal attacks +100 times"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -113666,11 +116697,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 23,
           "codeName": "State Rate",
           "dataId": 6,
           "value": 0.9,
           "description": "10% resistance to [[STATE:6:Sleep]]"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -113753,11 +116805,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 61,
@@ -113862,11 +116928,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 2,
           "value": 1,
           "description": "Normal Attack debuff effectiveness"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 1.5,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -113989,6 +117083,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 13,
@@ -113997,10 +117112,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         }
       ],
       "actions": [
@@ -114115,11 +117230,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -114194,11 +117330,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
         },
         {
           "code": 61,
@@ -114208,11 +117358,18 @@ const enemiesData = {
           "description": "Unknown Trait"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         }
       ],
       "actions": [
@@ -114301,6 +117458,20 @@ const enemiesData = {
           "dataId": 1,
           "value": 100,
           "description": "Normal attacks +100 times"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -114375,6 +117546,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 26,
@@ -114383,10 +117568,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 22,
@@ -114475,18 +117660,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 9,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 9,
+          "value": 1.5,
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 32,
@@ -114494,6 +117693,13 @@ const enemiesData = {
           "dataId": 5,
           "value": 1,
           "description": "Skill Type Seal"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -114568,11 +117774,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
         },
         {
           "code": 32,
@@ -114654,11 +117874,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         },
         {
           "code": 22,
@@ -114756,18 +117990,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 5,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 1,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 5,
+          "value": 1.5,
+          "description": "Takes 150% Lightning damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 22,
@@ -114864,6 +118112,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 5,
@@ -114872,10 +118134,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         }
       ],
       "actions": [
@@ -114958,6 +118220,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 13,
@@ -114966,10 +118249,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         },
         {
           "code": 22,
@@ -115074,11 +118357,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         }
       ],
       "actions": [
@@ -115161,6 +118458,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 23,
           "codeName": "State Rate",
           "dataId": 6,
@@ -115169,10 +118480,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         },
         {
           "code": 23,
@@ -115262,6 +118573,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 5,
@@ -115270,10 +118595,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         }
       ],
       "actions": [
@@ -115356,6 +118681,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 3,
@@ -115364,17 +118703,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         },
         {
           "code": 22,
@@ -115454,6 +118793,20 @@ const enemiesData = {
           "dataId": 1,
           "value": 100,
           "description": "Normal attacks +100 times"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
         },
         {
           "code": 32,
@@ -115558,6 +118911,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 6,
@@ -115572,18 +118939,25 @@ const enemiesData = {
           "description": "Skill Type Seal"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 10,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 10,
+          "value": 1.5,
+          "description": "Takes 150% Dark damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         }
       ],
       "actions": [
@@ -115658,6 +119032,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 61,
           "codeName": "Unknown Trait",
           "dataId": 0,
@@ -115680,17 +119068,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 14,
@@ -115772,6 +119160,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 61,
           "codeName": "Unknown Trait",
           "dataId": 0,
@@ -115780,17 +119182,24 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 21,
@@ -115901,11 +119310,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         },
         {
           "code": 32,
@@ -115920,6 +119343,13 @@ const enemiesData = {
           "dataId": 2,
           "value": 0.15,
           "description": "Attack debuffs are only 15% effective"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -116038,11 +119468,46 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -116133,18 +119598,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 3,
-          "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 3,
+          "value": 1.2,
+          "description": "Takes 120% Fire damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 22,
@@ -116234,18 +119720,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 3,
-          "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 3,
+          "value": 1.2,
+          "description": "Takes 120% Fire damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 22,
@@ -116335,18 +119842,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 3,
-          "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 3,
+          "value": 1.2,
+          "description": "Takes 120% Fire damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 22,
@@ -116436,18 +119964,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 3,
-          "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 3,
+          "value": 1.2,
+          "description": "Takes 120% Fire damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 23,
@@ -116544,18 +120093,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 3,
-          "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 3,
+          "value": 1.2,
+          "description": "Takes 120% Fire damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 23,
@@ -116665,11 +120235,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Fire damage (increased)"
         }
       ],
       "actions": [
@@ -116744,11 +120335,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Fire damage (increased)"
         }
       ],
       "actions": [
@@ -116823,11 +120435,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Fire damage (increased)"
         },
         {
           "code": 22,
@@ -116909,11 +120542,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -117076,18 +120730,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.01,
-          "description": "Luck debuffs are only 1% effective"
+          "description": "Heals 1% of maximum HP each turn"
         }
       ],
       "actions": [
@@ -117176,6 +120851,27 @@ const enemiesData = {
           "dataId": 1,
           "value": 100,
           "description": "Normal attacks +100 times"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -117250,6 +120946,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 26,
@@ -117265,17 +120982,24 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.02,
-          "description": "Luck debuffs are only 2% effective"
+          "description": "Heals 2% of maximum HP each turn"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         }
       ],
       "actions": [
@@ -117366,11 +121090,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         }
       ],
       "actions": [
@@ -117445,6 +121190,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 61,
           "codeName": "Unknown Trait",
           "dataId": 0,
@@ -117453,10 +121219,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         }
       ],
       "actions": [
@@ -117539,6 +121305,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 61,
           "codeName": "Unknown Trait",
           "dataId": 0,
@@ -117554,10 +121341,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         }
       ],
       "actions": [
@@ -117640,11 +121427,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         }
       ],
       "actions": [
@@ -117719,6 +121527,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 61,
           "codeName": "Unknown Trait",
           "dataId": 0,
@@ -117741,10 +121570,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         }
       ],
       "actions": [
@@ -117867,6 +121696,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 1,
@@ -117875,10 +121725,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         }
       ],
       "actions": [
@@ -117969,18 +121819,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 3,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 3,
+          "value": 1.5,
+          "description": "Takes 150% Fire damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         }
       ],
       "actions": [
@@ -118063,6 +121934,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 26,
@@ -118078,10 +121970,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         }
       ],
       "actions": [
@@ -118180,6 +122072,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 3,
@@ -118188,10 +122101,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         }
       ],
       "actions": [
@@ -118290,6 +122203,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 13,
@@ -118305,10 +122239,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         }
       ],
       "actions": [
@@ -118415,18 +122349,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 3,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 3,
+          "value": 1.5,
+          "description": "Takes 150% Fire damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         }
       ],
       "actions": [
@@ -118509,18 +122457,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 5,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 5,
+          "value": 1.5,
+          "description": "Takes 150% Lightning damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         }
       ],
       "actions": [
@@ -118603,18 +122565,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 5,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 5,
+          "value": 1.5,
+          "description": "Takes 150% Lightning damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         },
         {
           "code": 22,
@@ -118710,18 +122686,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 3,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 3,
+          "value": 1.5,
+          "description": "Takes 150% Fire damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Ice damage (reduced)"
         },
         {
           "code": 22,
@@ -118743,6 +122733,13 @@ const enemiesData = {
           "dataId": 13,
           "value": 0.7,
           "description": "Skill Type Seal"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -118825,18 +122822,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 3,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 3,
+          "value": 1.5,
+          "description": "Takes 150% Fire damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Ice damage (reduced)"
         },
         {
           "code": 22,
@@ -118858,6 +122869,13 @@ const enemiesData = {
           "dataId": 13,
           "value": 0,
           "description": "Unknown Parameter set to 0"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 23,
@@ -118947,18 +122965,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 3,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 3,
+          "value": 1.5,
+          "description": "Takes 150% Fire damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Ice damage (reduced)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -119049,6 +123088,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 5,
@@ -119071,10 +123131,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         }
       ],
       "actions": [
@@ -119179,6 +123239,27 @@ const enemiesData = {
           "dataId": 1,
           "value": 100,
           "description": "Normal attacks +100 times"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -119290,6 +123371,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 1,
@@ -119397,6 +123499,27 @@ const enemiesData = {
           "dataId": 1,
           "value": 100,
           "description": "Normal attacks +100 times"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -119508,17 +123631,45 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 61,
           "codeName": "Unknown Trait",
           "dataId": 0,
           "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
           "description": "Unknown Trait"
         },
         {
@@ -119632,11 +123783,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 32,
@@ -119734,11 +123899,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         }
       ],
       "actions": [
@@ -119813,6 +123992,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 2,
@@ -119849,17 +124049,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         }
       ],
       "actions": [
@@ -119958,11 +124158,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         },
         {
           "code": 32,
@@ -119972,10 +124186,10 @@ const enemiesData = {
           "description": "Skill Type Seal"
         },
         {
-          "code": 61,
+          "code": 13,
           "codeName": "Unknown Trait",
-          "dataId": 0,
-          "value": 1,
+          "dataId": 1,
+          "value": 0,
           "description": "Unknown Trait"
         },
         {
@@ -120011,6 +124225,20 @@ const enemiesData = {
           "codeName": "Unknown Trait",
           "dataId": 0,
           "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 61,
+          "codeName": "Unknown Trait",
+          "dataId": 0,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
           "description": "Unknown Trait"
         }
       ],
@@ -120094,11 +124322,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 61,
@@ -120201,11 +124450,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 1,
-          "description": "Normal Luck debuff effectiveness"
+          "description": "Heals 100% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -120216,10 +124486,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         }
       ],
       "actions": [
@@ -120310,11 +124580,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 23,
@@ -120435,18 +124726,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 9,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 9,
+          "value": 1.5,
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         },
         {
           "code": 32,
@@ -120536,11 +124841,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 32,
@@ -120548,6 +124867,13 @@ const enemiesData = {
           "dataId": 26,
           "value": 0.5,
           "description": "Skill Type Seal"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 2,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -120622,11 +124948,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 32,
@@ -120634,6 +124974,13 @@ const enemiesData = {
           "dataId": 56,
           "value": 0.5,
           "description": "Skill Type Seal"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 2,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -120708,11 +125055,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 14,
@@ -120810,6 +125171,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 1,
@@ -120822,6 +125197,13 @@ const enemiesData = {
           "dataId": 4,
           "value": 0.5,
           "description": "Magic Attack debuffs are only 50% effective"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -120912,11 +125294,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         }
       ],
       "actions": [
@@ -120991,6 +125387,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 26,
@@ -120998,11 +125415,18 @@ const enemiesData = {
           "description": "Skill Type Seal"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         }
       ],
       "actions": [
@@ -121093,11 +125517,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
         }
       ],
       "actions": [
@@ -121172,11 +125610,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
         }
       ],
       "actions": [
@@ -121259,6 +125711,34 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 1,
@@ -121267,17 +125747,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         },
         {
           "code": 32,
@@ -121366,18 +125846,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 10,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 10,
+          "value": 1.5,
+          "description": "Takes 150% Dark damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 32,
@@ -121475,11 +125969,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 22,
@@ -121568,11 +126076,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 22,
@@ -121662,11 +126184,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 22,
@@ -121748,11 +126284,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 22,
@@ -121848,11 +126398,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 22,
@@ -121934,11 +126498,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 22,
@@ -122035,17 +126613,45 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 61,
           "codeName": "Unknown Trait",
           "dataId": 0,
           "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
           "description": "Unknown Trait"
         },
         {
@@ -122151,11 +126757,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -122238,11 +126872,46 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -122348,18 +127017,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 3,
-          "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 3,
+          "value": 0.5,
+          "description": "Takes 50% Fire damage (reduced)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         }
       ],
       "actions": [
@@ -122466,11 +127156,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 22,
@@ -122584,18 +127302,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 13,
-          "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 13,
+          "value": 1.2,
+          "description": "Takes 120% Beast Bonus damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Fire damage (increased)"
         }
       ],
       "actions": [
@@ -122678,11 +127410,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         }
       ],
       "actions": [
@@ -122789,11 +127549,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 32,
@@ -122807,6 +127595,20 @@ const enemiesData = {
           "codeName": "Unknown Trait",
           "dataId": 0,
           "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0,
           "description": "Unknown Trait"
         }
       ],
@@ -122906,11 +127708,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 32,
@@ -122920,11 +127750,25 @@ const enemiesData = {
           "description": "Skill Type Seal"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         }
       ],
       "actions": [
@@ -123157,11 +128001,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
         },
         {
           "code": 61,
@@ -123200,10 +128072,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 22,
@@ -123323,6 +128195,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -123330,18 +128216,32 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 9,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 9,
+          "value": 1.5,
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
         },
         {
           "code": 61,
@@ -123373,17 +128273,17 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.02,
-          "description": "Luck debuffs are only 2% effective"
+          "description": "Heals 2% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         }
       ],
       "actions": [
@@ -123538,6 +128438,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -123545,18 +128459,32 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 5,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 5,
+          "value": 1.5,
+          "description": "Takes 150% Lightning damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -123655,6 +128583,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -123662,18 +128604,32 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 3,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 3,
+          "value": 1.5,
+          "description": "Takes 150% Fire damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 23,
@@ -123684,10 +128640,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 1,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Physical damage (reduced)"
         }
       ],
       "actions": [
@@ -123770,6 +128726,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -123777,18 +128747,32 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 3,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 3,
+          "value": 1.5,
+          "description": "Takes 150% Fire damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 23,
@@ -123799,10 +128783,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 1,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Physical damage (reduced)"
         },
         {
           "code": 61,
@@ -123924,6 +128908,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -123931,18 +128929,32 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 9,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 9,
+          "value": 1.5,
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 61,
@@ -124079,11 +129091,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
         }
       ],
       "actions": [
@@ -124158,18 +129184,46 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 9,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 9,
+          "value": 1.5,
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -124284,18 +129338,46 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 9,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 9,
+          "value": 1.5,
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -124410,18 +129492,46 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 10,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 10,
+          "value": 1.5,
+          "description": "Takes 150% Dark damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
+          "description": "Unknown Trait"
         },
         {
           "code": 63,
@@ -124510,6 +129620,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -124517,46 +129641,60 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Light damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Ice damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Fire damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Lightning damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 61,
@@ -124710,11 +129848,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
         },
         {
           "code": 61,
@@ -124811,18 +129963,46 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 9,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 9,
+          "value": 1.5,
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
+          "description": "Unknown Trait"
         },
         {
           "code": 61,
@@ -124947,18 +130127,46 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 10,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 10,
+          "value": 1.5,
+          "description": "Takes 150% Dark damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
+          "description": "Unknown Trait"
         },
         {
           "code": 32,
@@ -125072,18 +130280,53 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 10,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 10,
+          "value": 1.5,
+          "description": "Takes 150% Dark damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 2,
+          "description": "Unknown Trait"
         },
         {
           "code": 32,
@@ -125165,6 +130408,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -125172,18 +130429,32 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 9,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 9,
+          "value": 1.5,
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -125327,6 +130598,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -125334,18 +130619,32 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 5,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 5,
+          "value": 1.5,
+          "description": "Takes 150% Lightning damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
+          "description": "Unknown Trait"
         },
         {
           "code": 23,
@@ -125448,6 +130747,83 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 28,
@@ -125456,10 +130832,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0.3,
-          "description": "Heals 30% of maximum HP each turn"
+          "description": "Takes 30% Light damage (reduced)"
         }
       ],
       "actions": [
@@ -125550,6 +130926,83 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 28,
@@ -125558,10 +131011,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0.3,
-          "description": "Heals 30% of maximum HP each turn"
+          "description": "Takes 30% Light damage (reduced)"
         }
       ],
       "actions": [
@@ -125715,18 +131168,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 9,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 1,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 9,
+          "value": 1.5,
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 23,
@@ -125831,11 +131305,18 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 63,
@@ -125845,11 +131326,25 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 22,
@@ -125857,6 +131352,13 @@ const enemiesData = {
           "dataId": 2,
           "value": 0.1,
           "description": "Attack debuffs are only 10% effective"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -126003,11 +131505,18 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 63,
@@ -126017,11 +131526,25 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         }
       ],
       "actions": [
@@ -126127,11 +131650,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         }
       ],
       "actions": [
@@ -126206,11 +131743,18 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 63,
@@ -126220,11 +131764,25 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         },
         {
           "code": 22,
@@ -126345,18 +131903,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.05,
-          "description": "Luck debuffs are only 5% effective"
+          "description": "Heals 5% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
         }
       ],
       "actions": [
@@ -126439,11 +132018,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
         }
       ],
       "actions": [
@@ -126534,18 +132127,46 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 5,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 5,
+          "value": 1.5,
+          "description": "Takes 150% Lightning damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Fire damage (reduced)"
         },
         {
           "code": 23,
@@ -126682,11 +132303,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         }
       ],
       "actions": [
@@ -126761,11 +132396,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         }
       ],
       "actions": [
@@ -126840,11 +132489,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         }
       ],
       "actions": [
@@ -126919,11 +132582,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 63,
@@ -126933,11 +132610,18 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 22,
@@ -126945,6 +132629,13 @@ const enemiesData = {
           "dataId": 2,
           "value": 0.5,
           "description": "Attack debuffs are only 50% effective"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
         },
         {
           "code": 32,
@@ -127089,11 +132780,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         },
         {
           "code": 63,
@@ -127103,11 +132808,25 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -127237,11 +132956,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         },
         {
           "code": 63,
@@ -127251,11 +132984,25 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -127284,6 +133031,62 @@ const enemiesData = {
           "dataId": 4,
           "value": 1,
           "description": "Normal Magic Attack debuff effectiveness"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 5,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 28,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -127365,11 +133168,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         },
         {
           "code": 63,
@@ -127379,11 +133196,25 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
         },
         {
           "code": 32,
@@ -127394,10 +133225,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Fire damage (reduced)"
         },
         {
           "code": 61,
@@ -127566,6 +133397,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -127573,11 +133418,18 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         },
         {
           "code": 32,
@@ -127609,10 +133461,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         }
       ],
       "actions": [
@@ -127711,6 +133563,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -127718,11 +133584,18 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         },
         {
           "code": 32,
@@ -127761,10 +133634,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         }
       ],
       "actions": [
@@ -127879,6 +133752,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -127886,11 +133773,18 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
         },
         {
           "code": 23,
@@ -128002,6 +133896,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -128009,11 +133917,25 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -128024,10 +133946,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         }
       ],
       "actions": [
@@ -128134,18 +134056,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 10,
-          "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 10,
+          "value": 0.5,
+          "description": "Takes 50% Dark damage (reduced)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 32,
@@ -128273,18 +134216,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 5,
-          "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 5,
+          "value": 0.5,
+          "description": "Takes 50% Lightning damage (reduced)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 23,
@@ -128405,11 +134369,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Fire damage (reduced)"
         },
         {
           "code": 22,
@@ -128420,10 +134405,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 23,
@@ -128544,11 +134529,18 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
         },
         {
           "code": 63,
@@ -128558,18 +134550,32 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 13,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 13,
+          "value": 1.5,
+          "description": "Takes 150% Beast Bonus damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Light damage (reduced)"
         },
         {
           "code": 22,
@@ -128714,11 +134720,18 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 63,
@@ -128726,6 +134739,20 @@ const enemiesData = {
           "dataId": 1,
           "value": 0,
           "description": "Force Action Speed"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
         },
         {
           "code": 23,
@@ -128754,6 +134781,13 @@ const enemiesData = {
           "dataId": 2,
           "value": 0.25,
           "description": "Attack debuffs are only 25% effective"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 6,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -128868,6 +134902,13 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -128875,11 +134916,25 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 12,
@@ -128908,6 +134963,13 @@ const enemiesData = {
           "dataId": 6,
           "value": 0,
           "description": "No MP regeneration"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 32,
@@ -129044,6 +135106,13 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -129051,11 +135120,32 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 32,
@@ -129254,6 +135344,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 23,
           "codeName": "State Rate",
           "dataId": 6,
@@ -129377,6 +135488,27 @@ const enemiesData = {
           "dataId": 1,
           "value": 100,
           "description": "Normal attacks +100 times"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
         },
         {
           "code": 23,
@@ -129504,18 +135636,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 9,
-          "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 9,
+          "value": 0.5,
+          "description": "Takes 50% Light damage (reduced)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         },
         {
           "code": 32,
@@ -129659,6 +135812,62 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 3,
@@ -129666,18 +135875,25 @@ const enemiesData = {
           "description": "Skill Type Seal"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 9,
-          "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0.3,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 9,
+          "value": 2,
+          "description": "Takes 200% Light damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         },
         {
           "code": 32,
@@ -129805,11 +136021,60 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 14,
           "codeName": "Parameter Rate",
           "dataId": 13,
           "value": 0,
           "description": "Unknown Parameter set to 0"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 5,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0.3,
+          "description": "Unknown Trait"
         },
         {
           "code": 14,
@@ -129819,11 +136084,25 @@ const enemiesData = {
           "description": "Agility set to 0"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Beast Bonus damage (increased)"
         },
         {
           "code": 63,
@@ -129862,10 +136141,10 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.15,
-          "description": "Luck debuffs are only 15% effective"
+          "description": "Heals 15% of maximum HP each turn"
         }
       ],
       "actions": [
@@ -130019,11 +136298,88 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 5,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Beast Bonus damage (increased)"
         }
       ],
       "actions": [],
@@ -130096,11 +136452,88 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 5,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Beast Bonus damage (increased)"
         }
       ],
       "actions": [],
@@ -130173,11 +136606,88 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 5,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Beast Bonus damage (increased)"
         }
       ],
       "actions": [],
@@ -130243,11 +136753,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 32,
@@ -130265,10 +136796,10 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.03,
-          "description": "Luck debuffs are only 3% effective"
+          "description": "Heals 3% of maximum HP each turn"
         },
         {
           "code": 61,
@@ -130382,18 +136913,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 3,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 3,
+          "value": 1.5,
+          "description": "Takes 150% Fire damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         }
       ],
       "actions": [
@@ -130508,18 +137060,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 3,
-          "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 3,
+          "value": 1.2,
+          "description": "Takes 120% Fire damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         },
         {
           "code": 14,
@@ -130652,18 +137225,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 5,
-          "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 5,
+          "value": 1.2,
+          "description": "Takes 120% Lightning damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 22,
@@ -130856,18 +137450,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 5,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 1,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 5,
+          "value": 1.5,
+          "description": "Takes 150% Lightning damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 32,
@@ -130957,18 +137572,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 5,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 5,
+          "value": 1.5,
+          "description": "Takes 150% Lightning damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 32,
@@ -131074,18 +137710,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 5,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 5,
+          "value": 1.5,
+          "description": "Takes 150% Lightning damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 32,
@@ -131188,6 +137845,27 @@ const enemiesData = {
           "description": "Skill Type Seal"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 61,
           "codeName": "Unknown Trait",
           "dataId": 0,
@@ -131203,17 +137881,24 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -131310,6 +137995,27 @@ const enemiesData = {
           "description": "Skill Type Seal"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 61,
           "codeName": "Unknown Trait",
           "dataId": 0,
@@ -131325,17 +138031,24 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -131439,11 +138152,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 23,
@@ -131458,6 +138185,13 @@ const enemiesData = {
           "dataId": 7,
           "value": 0.5,
           "description": "50% resistance to [[STATE:7:Hard Break Vulnerable]]"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -131546,11 +138280,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 23,
@@ -131565,6 +138313,13 @@ const enemiesData = {
           "dataId": 7,
           "value": 0.5,
           "description": "50% resistance to [[STATE:7:Hard Break Vulnerable]]"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
         },
         {
           "code": 32,
@@ -131653,11 +138408,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 23,
@@ -131672,6 +138441,13 @@ const enemiesData = {
           "dataId": 7,
           "value": 0.5,
           "description": "50% resistance to [[STATE:7:Hard Break Vulnerable]]"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 32,
@@ -131689,10 +138465,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         }
       ],
       "actions": [
@@ -131783,11 +138559,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -131795,6 +138592,13 @@ const enemiesData = {
           "dataId": 2,
           "value": 0.5,
           "description": "Attack debuffs are only 50% effective"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
         },
         {
           "code": 32,
@@ -131914,6 +138718,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 28,
@@ -132016,6 +138841,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 23,
           "codeName": "State Rate",
           "dataId": 6,
@@ -132028,6 +138867,13 @@ const enemiesData = {
           "dataId": 7,
           "value": 0.5,
           "description": "50% resistance to [[STATE:7:Hard Break Vulnerable]]"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 32,
@@ -132125,6 +138971,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 23,
           "codeName": "State Rate",
           "dataId": 6,
@@ -132144,6 +139004,13 @@ const enemiesData = {
           "dataId": 4,
           "value": 1,
           "description": "Normal Magic Attack debuff effectiveness"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -132232,6 +139099,27 @@ const enemiesData = {
           "dataId": 1,
           "value": 100,
           "description": "Normal attacks +100 times"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -132365,6 +139253,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 23,
           "codeName": "State Rate",
           "dataId": 6,
@@ -132377,6 +139279,13 @@ const enemiesData = {
           "dataId": 7,
           "value": 0.5,
           "description": "50% resistance to [[STATE:7:Hard Break Vulnerable]]"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -132481,6 +139390,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -132488,11 +139411,25 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
         },
         {
           "code": 23,
@@ -132517,10 +139454,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         }
       ],
       "actions": [
@@ -132643,6 +139580,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -132650,11 +139601,25 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 23,
@@ -132679,10 +139644,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         }
       ],
       "actions": [
@@ -132789,6 +139754,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -132796,11 +139775,25 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -132811,10 +139804,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 23,
@@ -132951,6 +139944,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -132958,11 +139965,25 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -132973,10 +139994,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 23,
@@ -133089,6 +140110,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -133096,18 +140131,32 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 9,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 9,
+          "value": 1.5,
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Lightning damage (reduced)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -133118,10 +140167,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Fire damage (reduced)"
         },
         {
           "code": 32,
@@ -133132,17 +140181,38 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 58,
+          "value": 9,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 58,
+          "value": 9,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 58,
+          "value": 9,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Ice damage (increased)"
         }
       ],
       "actions": [
@@ -133289,6 +140359,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -133296,18 +140380,32 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 9,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 9,
+          "value": 1.5,
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Lightning damage (reduced)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -133318,10 +140416,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Fire damage (reduced)"
         },
         {
           "code": 32,
@@ -133339,10 +140437,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         },
         {
           "code": 61,
@@ -133367,10 +140465,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Ice damage (increased)"
         }
       ],
       "actions": [
@@ -133501,6 +140599,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -133508,18 +140620,32 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 9,
-          "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 9,
+          "value": 0.5,
+          "description": "Takes 50% Light damage (reduced)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
+          "description": "Unknown Trait"
         },
         {
           "code": 32,
@@ -133530,17 +140656,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.5,
-          "description": "Luck debuffs are only 50% effective"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 22,
@@ -133700,6 +140826,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -133707,18 +140847,32 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 9,
-          "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 9,
+          "value": 0.5,
+          "description": "Takes 50% Light damage (reduced)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
+          "description": "Unknown Trait"
         },
         {
           "code": 32,
@@ -133729,17 +140883,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.55,
-          "description": "Luck debuffs are only 55% effective"
+          "description": "Heals 55% of maximum HP each turn"
         },
         {
           "code": 22,
@@ -133899,6 +141053,27 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -133914,17 +141089,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 23,
@@ -133932,6 +141107,13 @@ const enemiesData = {
           "dataId": 6,
           "value": 0.5,
           "description": "50% resistance to [[STATE:6:Sleep]]"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
         },
         {
           "code": 32,
@@ -133949,17 +141131,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 14,
           "value": 5,
-          "description": "Heals 500% of maximum HP each turn (fully heals)"
+          "description": "Takes 500% Jabberwock Bonus damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Ice damage (increased)"
         }
       ],
       "actions": [
@@ -134082,6 +141264,27 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -134097,17 +141300,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 23,
@@ -134115,6 +141318,13 @@ const enemiesData = {
           "dataId": 6,
           "value": 0.5,
           "description": "50% resistance to [[STATE:6:Sleep]]"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
         },
         {
           "code": 32,
@@ -134146,17 +141356,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 14,
           "value": 5,
-          "description": "Heals 500% of maximum HP each turn (fully heals)"
+          "description": "Takes 500% Jabberwock Bonus damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Ice damage (increased)"
         }
       ],
       "actions": [
@@ -134271,6 +141481,27 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -134279,10 +141510,10 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.05,
-          "description": "Luck debuffs are only 5% effective"
+          "description": "Heals 5% of maximum HP each turn"
         },
         {
           "code": 32,
@@ -134300,10 +141531,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
         }
       ],
       "actions": [
@@ -134410,6 +141641,27 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -134418,10 +141670,10 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.05,
-          "description": "Luck debuffs are only 5% effective"
+          "description": "Heals 5% of maximum HP each turn"
         },
         {
           "code": 32,
@@ -134453,10 +141705,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
         }
       ],
       "actions": [
@@ -134571,11 +141823,32 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.02,
-          "description": "Luck debuffs are only 2% effective"
+          "description": "Heals 2% of maximum HP each turn"
         },
         {
           "code": 61,
@@ -134593,10 +141866,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
         }
       ],
       "actions": [
@@ -134727,11 +142000,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Light damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 2,
+          "description": "Unknown Trait"
         },
         {
           "code": 23,
@@ -134828,11 +142129,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Light damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 2,
+          "description": "Unknown Trait"
         },
         {
           "code": 23,
@@ -134929,11 +142258,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Light damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 2,
+          "description": "Unknown Trait"
         },
         {
           "code": 23,
@@ -135030,11 +142387,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Light damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 2,
+          "description": "Unknown Trait"
         },
         {
           "code": 23,
@@ -135131,11 +142516,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Dark damage (increased)"
         },
         {
           "code": 61,
@@ -135153,10 +142559,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         }
       ],
       "actions": [
@@ -135271,6 +142677,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 26,
@@ -135279,17 +142706,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Fire damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 22,
@@ -135387,6 +142814,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 29,
@@ -135395,17 +142843,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 0.1,
-          "description": "Heals 10% of maximum HP each turn"
+          "description": "Takes 10% Fire damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         },
         {
           "code": 22,
@@ -135519,6 +142967,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 13,
@@ -135527,17 +142996,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Lightning damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 22,
@@ -135643,10 +143112,31 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 1,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Physical damage (reduced)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 1,
+          "description": "Unknown Trait"
         },
         {
           "code": 12,
@@ -135787,18 +143277,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 3,
-          "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 3,
+          "value": 1.2,
+          "description": "Takes 120% Fire damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 32,
@@ -135819,6 +143330,13 @@ const enemiesData = {
           "codeName": "Unknown Trait",
           "dataId": 0,
           "value": 0.5,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
           "description": "Unknown Trait"
         }
       ],
@@ -135926,6 +143444,27 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -135934,17 +143473,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Fire damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         },
         {
           "code": 14,
@@ -135952,6 +143491,13 @@ const enemiesData = {
           "dataId": 6,
           "value": 0,
           "description": "Agility set to 0"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
+          "description": "Unknown Trait"
         },
         {
           "code": 32,
@@ -136088,6 +143634,27 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -136096,17 +143663,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Fire damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         },
         {
           "code": 14,
@@ -136114,6 +143681,13 @@ const enemiesData = {
           "dataId": 6,
           "value": 0,
           "description": "Agility set to 0"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -136278,6 +143852,27 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 1,
@@ -136293,10 +143888,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 22,
@@ -136378,6 +143973,27 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -136386,10 +144002,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
+          "description": "Unknown Trait"
         },
         {
           "code": 32,
@@ -136400,10 +144023,10 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.01,
-          "description": "Luck debuffs are only 1% effective"
+          "description": "Heals 1% of maximum HP each turn"
         },
         {
           "code": 12,
@@ -136501,6 +144124,27 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 14,
           "codeName": "Parameter Rate",
           "dataId": 2,
@@ -136572,10 +144216,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 5,
-          "description": "Heals 500% of maximum HP each turn (fully heals)"
+          "description": "Takes 500% Fire damage (increased)"
         },
         {
           "code": 22,
@@ -136657,6 +144301,27 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 61,
           "codeName": "Unknown Trait",
           "dataId": 0,
@@ -136693,10 +144358,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
+          "description": "Unknown Trait"
         },
         {
           "code": 32,
@@ -136832,6 +144504,27 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 61,
           "codeName": "Unknown Trait",
           "dataId": 0,
@@ -136854,10 +144547,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
         },
         {
           "code": 23,
@@ -136879,6 +144572,13 @@ const enemiesData = {
           "dataId": 28,
           "value": 0.5,
           "description": "Skill Type Seal"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
+          "description": "Unknown Trait"
         },
         {
           "code": 12,
@@ -137031,6 +144731,27 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 4,
@@ -137039,10 +144760,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         },
         {
           "code": 23,
@@ -137052,11 +144773,81 @@ const enemiesData = {
           "description": "70% resistance to [[STATE:6:Sleep]]"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 14,
           "codeName": "Parameter Rate",
           "dataId": 1,
           "value": 0,
           "description": "Max MP set to 0"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 5,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 0.3,
+          "description": "Unknown Trait"
         },
         {
           "code": 12,
@@ -137198,6 +144989,27 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 4,
@@ -137206,10 +145018,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         },
         {
           "code": 23,
@@ -137219,11 +145031,81 @@ const enemiesData = {
           "description": "70% resistance to [[STATE:6:Sleep]]"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 14,
           "codeName": "Parameter Rate",
           "dataId": 1,
           "value": 0,
           "description": "Max MP set to 0"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 5,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 0.3,
+          "description": "Unknown Trait"
         },
         {
           "code": 12,
@@ -137396,11 +145278,102 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 5,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 0.3,
+          "description": "Unknown Trait"
         },
         {
           "code": 63,
@@ -137657,6 +145630,27 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 14,
           "codeName": "Parameter Rate",
           "dataId": 2,
@@ -137815,6 +145809,97 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 5,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 14,
           "codeName": "Parameter Rate",
           "dataId": 1,
@@ -137955,6 +146040,90 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 5,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 12,
           "codeName": "MP Regeneration",
           "dataId": 2,
@@ -138005,10 +146174,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Ice damage (increased)"
         }
       ],
       "actions": [
@@ -138123,11 +146292,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 2,
           "value": 0.1,
           "description": "Attack debuffs are only 10% effective"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 61,
@@ -138294,6 +146491,27 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 14,
           "codeName": "Parameter Rate",
           "dataId": 6,
@@ -138306,6 +146524,13 @@ const enemiesData = {
           "dataId": 28,
           "value": 1,
           "description": "Skill Type Seal"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
+          "description": "Unknown Trait"
         },
         {
           "code": 12,
@@ -138358,17 +146583,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Light damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
         },
         {
           "code": 22,
@@ -138505,6 +146730,27 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 14,
           "codeName": "Parameter Rate",
           "dataId": 6,
@@ -138533,6 +146779,55 @@ const enemiesData = {
           "description": "Unknown Parameter set to 0"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 5,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 12,
           "codeName": "MP Regeneration",
           "dataId": 7,
@@ -138541,17 +146836,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0.3,
-          "description": "Heals 30% of maximum HP each turn"
+          "description": "Takes 30% Light damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
         },
         {
           "code": 63,
@@ -138678,6 +146973,27 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 14,
           "codeName": "Parameter Rate",
           "dataId": 6,
@@ -138756,17 +147072,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.3,
-          "description": "Heals 30% of maximum HP each turn"
+          "description": "Takes 30% Dark damage (reduced)"
         },
         {
           "code": 63,
@@ -138893,6 +147209,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 28,
@@ -138922,17 +147259,17 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.2,
-          "description": "Luck debuffs are only 20% effective"
+          "description": "Heals 20% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Lightning damage (increased)"
         }
       ],
       "actions": [
@@ -139031,11 +147368,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         },
         {
           "code": 32,
@@ -139045,10 +147396,10 @@ const enemiesData = {
           "description": "Skill Type Seal"
         },
         {
-          "code": 61,
+          "code": 13,
           "codeName": "Unknown Trait",
-          "dataId": 0,
-          "value": 1,
+          "dataId": 1,
+          "value": 0,
           "description": "Unknown Trait"
         },
         {
@@ -139091,6 +147442,20 @@ const enemiesData = {
           "codeName": "Unknown Trait",
           "dataId": 0,
           "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 61,
+          "codeName": "Unknown Trait",
+          "dataId": 0,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
           "description": "Unknown Trait"
         },
         {
@@ -139109,10 +147474,10 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.01,
-          "description": "Luck debuffs are only 1% effective"
+          "description": "Heals 1% of maximum HP each turn"
         }
       ],
       "actions": [
@@ -139203,6 +147568,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 6,
@@ -139225,17 +147611,17 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.2,
-          "description": "Luck debuffs are only 20% effective"
+          "description": "Heals 20% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Lightning damage (increased)"
         }
       ],
       "actions": [
@@ -139310,18 +147696,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.1,
-          "description": "Luck debuffs are only 10% effective"
+          "description": "Heals 10% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Lightning damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 14,
@@ -139410,6 +147817,13 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -139417,11 +147831,25 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Lightning damage (increased)"
         },
         {
           "code": 23,
@@ -139436,6 +147864,27 @@ const enemiesData = {
           "dataId": 7,
           "value": 0.3,
           "description": "70% resistance to [[STATE:7:Hard Break Vulnerable]]"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0.3,
+          "description": "Unknown Trait"
         },
         {
           "code": 14,
@@ -139693,6 +148142,13 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 14,
           "codeName": "Parameter Rate",
           "dataId": 2,
@@ -139733,6 +148189,20 @@ const enemiesData = {
           "dataId": 8,
           "value": 0,
           "description": "Unknown Parameter set to 0"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0.5,
+          "description": "Unknown Trait"
         },
         {
           "code": 14,
@@ -139899,6 +148369,13 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 14,
           "codeName": "Parameter Rate",
           "dataId": 2,
@@ -139939,6 +148416,20 @@ const enemiesData = {
           "dataId": 8,
           "value": 0,
           "description": "Unknown Parameter set to 0"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0.5,
+          "description": "Unknown Trait"
         },
         {
           "code": 14,
@@ -140105,6 +148596,13 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 14,
           "codeName": "Parameter Rate",
           "dataId": 2,
@@ -140145,6 +148643,20 @@ const enemiesData = {
           "dataId": 8,
           "value": 0,
           "description": "Unknown Parameter set to 0"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0.5,
+          "description": "Unknown Trait"
         },
         {
           "code": 14,
@@ -140311,6 +148823,13 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 14,
           "codeName": "Parameter Rate",
           "dataId": 2,
@@ -140351,6 +148870,20 @@ const enemiesData = {
           "dataId": 8,
           "value": 0,
           "description": "Unknown Parameter set to 0"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0.5,
+          "description": "Unknown Trait"
         },
         {
           "code": 14,
@@ -140510,11 +149043,39 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 13,
           "value": 1,
           "description": "Skill Type Seal"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.15,
+          "description": "Unknown Trait"
         },
         {
           "code": 14,
@@ -140609,10 +149170,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Lightning damage (increased)"
         },
         {
           "code": 12,
@@ -140718,11 +149279,39 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 13,
           "value": 1,
           "description": "Skill Type Seal"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.15,
+          "description": "Unknown Trait"
         },
         {
           "code": 14,
@@ -140817,10 +149406,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Lightning damage (increased)"
         },
         {
           "code": 12,
@@ -140926,6 +149515,13 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -140933,11 +149529,25 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Lightning damage (increased)"
         },
         {
           "code": 32,
@@ -140973,6 +149583,13 @@ const enemiesData = {
           "dataId": 3,
           "value": 0,
           "description": "Defense set to 0"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0.5,
+          "description": "Unknown Trait"
         },
         {
           "code": 14,
@@ -141172,25 +149789,46 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 5,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 5,
+          "value": 1.5,
+          "description": "Takes 150% Lightning damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.01,
-          "description": "Luck debuffs are only 1% effective"
+          "description": "Heals 1% of maximum HP each turn"
         },
         {
           "code": 22,
@@ -141296,11 +149934,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -141308,6 +149967,13 @@ const enemiesData = {
           "dataId": 2,
           "value": 0.45,
           "description": "Attack debuffs are only 45% effective"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.1,
+          "description": "Unknown Trait"
         },
         {
           "code": 61,
@@ -141427,6 +150093,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 2,
@@ -141434,32 +150121,46 @@ const enemiesData = {
           "description": "Attack debuffs are only 45% effective"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0.1,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 0,
-          "description": "No HP regeneration"
+          "description": "Immune to Lightning damage"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 0,
-          "description": "No HP regeneration"
+          "description": "Immune to Fire damage"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0,
-          "description": "No HP regeneration"
+          "description": "Immune to Light damage"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0,
-          "description": "No HP regeneration"
+          "description": "Immune to Dark damage"
         },
         {
           "code": 61,
@@ -141588,11 +150289,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         },
         {
           "code": 23,
@@ -141718,11 +150433,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         },
         {
           "code": 23,
@@ -141853,6 +150582,13 @@ const enemiesData = {
           "dataId": 1,
           "value": 0,
           "description": "Cannot use normal attacks"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 14,
@@ -142025,6 +150761,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 1,
@@ -142033,10 +150790,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Lightning damage (increased)"
         },
         {
           "code": 23,
@@ -142170,11 +150927,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 1,
-          "description": "Normal Luck debuff effectiveness"
+          "description": "Heals 100% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -142185,17 +150963,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0,
-          "description": "No HP regeneration"
+          "description": "Immune to Light damage"
         },
         {
           "code": 22,
@@ -142306,6 +151084,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 1,
@@ -142321,10 +151120,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Lightning damage (increased)"
         },
         {
           "code": 22,
@@ -142414,6 +151213,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 26,
@@ -142422,10 +151242,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Lightning damage (increased)"
         }
       ],
       "actions": [
@@ -142500,11 +151320,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Lightning damage (increased)"
         },
         {
           "code": 61,
@@ -142586,6 +151427,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 4,
@@ -142594,10 +151456,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Lightning damage (increased)"
         }
       ],
       "actions": [
@@ -142672,6 +151534,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 1,
@@ -142680,17 +151563,17 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.2,
-          "description": "Luck debuffs are only 20% effective"
+          "description": "Heals 20% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Lightning damage (increased)"
         }
       ],
       "actions": [
@@ -142765,6 +151648,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 3,
@@ -142787,10 +151691,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Lightning damage (increased)"
         },
         {
           "code": 22,
@@ -142872,6 +151776,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -142879,18 +151797,25 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 5,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 5,
+          "value": 1.5,
+          "description": "Takes 150% Lightning damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 61,
@@ -142915,17 +151840,17 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.1,
-          "description": "Luck debuffs are only 10% effective"
+          "description": "Heals 10% of maximum HP each turn"
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 0.1,
-          "description": "Unknown Parameter debuffs are only 10% effective"
+          "description": "Restores 10% of maximum MP each turn"
         },
         {
           "code": 14,
@@ -143030,11 +151955,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
           "value": 0,
           "description": "Force Action Speed"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 14,
@@ -143045,17 +151991,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 61,
@@ -143080,17 +152026,17 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.05,
-          "description": "Luck debuffs are only 5% effective"
+          "description": "Heals 5% of maximum HP each turn"
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 0.05,
-          "description": "Unknown Parameter debuffs are only 5% effective"
+          "description": "Restores 5% of maximum MP each turn"
         },
         {
           "code": 32,
@@ -143187,11 +152133,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
           "value": 0,
           "description": "Force Action Speed"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 14,
@@ -143216,17 +152183,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0.01,
-          "description": "Heals 1% of maximum HP each turn"
+          "description": "Takes 1% Light damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         },
         {
           "code": 61,
@@ -143258,10 +152225,10 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 0.5,
-          "description": "Unknown Parameter debuffs are only 50% effective"
+          "description": "Restores 50% of maximum MP each turn"
         },
         {
           "code": 32,
@@ -143407,11 +152374,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
           "value": 0,
           "description": "Force Action Speed"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 14,
@@ -143436,17 +152424,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0.01,
-          "description": "Heals 1% of maximum HP each turn"
+          "description": "Takes 1% Light damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         },
         {
           "code": 61,
@@ -143478,10 +152466,10 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 0.5,
-          "description": "Unknown Parameter debuffs are only 50% effective"
+          "description": "Restores 50% of maximum MP each turn"
         },
         {
           "code": 22,
@@ -143663,18 +152651,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 3,
-          "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 3,
+          "value": 2,
+          "description": "Takes 200% Fire damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Light damage (increased)"
         }
       ],
       "actions": [
@@ -143757,11 +152766,18 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Fire damage (increased)"
         },
         {
           "code": 63,
@@ -143771,11 +152787,25 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         },
         {
           "code": 23,
@@ -143821,24 +152851,24 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Light damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 1,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Physical damage (reduced)"
         },
         {
           "code": 12,
@@ -143895,6 +152925,20 @@ const enemiesData = {
           "dataId": 13,
           "value": 0.15,
           "description": "Skill Type Seal"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0.5,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -143993,11 +153037,18 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Fire damage (increased)"
         },
         {
           "code": 63,
@@ -144007,11 +153058,25 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         },
         {
           "code": 23,
@@ -144057,24 +153122,24 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Light damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 1,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Physical damage (reduced)"
         },
         {
           "code": 12,
@@ -144138,6 +153203,13 @@ const enemiesData = {
           "dataId": 6,
           "value": 0,
           "description": "Agility set to 0"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -144252,6 +153324,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 5,
@@ -144260,17 +153353,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 0.9,
-          "description": "Heals 90% of maximum HP each turn"
+          "description": "Takes 90% Fire damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 22,
@@ -144281,10 +153374,10 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.07,
-          "description": "Luck debuffs are only 7% effective"
+          "description": "Heals 7% of maximum HP each turn"
         },
         {
           "code": 22,
@@ -144299,6 +153392,13 @@ const enemiesData = {
           "dataId": 3,
           "value": 1,
           "description": "Normal Defense debuff effectiveness"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -144381,6 +153481,27 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -144396,17 +153517,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 23,
@@ -144414,6 +153535,13 @@ const enemiesData = {
           "dataId": 6,
           "value": 0.5,
           "description": "50% resistance to [[STATE:6:Sleep]]"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
         },
         {
           "code": 32,
@@ -144431,17 +153559,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 14,
           "value": 5,
-          "description": "Heals 500% of maximum HP each turn (fully heals)"
+          "description": "Takes 500% Jabberwock Bonus damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Ice damage (increased)"
         }
       ],
       "actions": [
@@ -144548,11 +153676,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
           "value": 0,
           "description": "Force Action Speed"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
+          "description": "Unknown Trait"
         },
         {
           "code": 61,
@@ -144598,17 +153754,17 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.02,
-          "description": "Luck debuffs are only 2% effective"
+          "description": "Heals 2% of maximum HP each turn"
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 0.02,
-          "description": "Unknown Parameter debuffs are only 2% effective"
+          "description": "Restores 2% of maximum MP each turn"
         },
         {
           "code": 14,
@@ -144647,10 +153803,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Ice damage (increased)"
         }
       ],
       "actions": [
@@ -144892,6 +154048,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 4,
@@ -144907,17 +154084,17 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.2,
-          "description": "Luck debuffs are only 20% effective"
+          "description": "Heals 20% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Fire damage (increased)"
         },
         {
           "code": 12,
@@ -145044,6 +154221,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 55,
@@ -145052,10 +154250,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         }
       ],
       "actions": [
@@ -145146,6 +154344,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 56,
@@ -145154,10 +154373,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
         }
       ],
       "actions": [
@@ -145248,18 +154467,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 3,
-          "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 3,
+          "value": 2,
+          "description": "Takes 200% Fire damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Light damage (increased)"
         }
       ],
       "actions": [
@@ -145342,11 +154582,74 @@ const enemiesData = {
           "description": "Max MP debuffs are only 5% effective"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 5,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Light damage (increased)"
         },
         {
           "code": 22,
@@ -145364,10 +154667,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -145450,18 +154760,46 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 9,
-          "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 9,
+          "value": 0.5,
+          "description": "Takes 50% Light damage (reduced)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
+          "description": "Unknown Trait"
         },
         {
           "code": 32,
@@ -145472,17 +154810,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.5,
-          "description": "Luck debuffs are only 50% effective"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 22,
@@ -145642,25 +154980,53 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Ice damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Lightning damage (reduced)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -145671,10 +155037,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Fire damage (reduced)"
         },
         {
           "code": 32,
@@ -145685,10 +155051,31 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 58,
+          "value": 9,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 58,
+          "value": 9,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 58,
+          "value": 9,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -145763,6 +155150,27 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 0,
@@ -145771,24 +155179,24 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Ice damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 23,
@@ -145796,6 +155204,13 @@ const enemiesData = {
           "dataId": 6,
           "value": 0.5,
           "description": "50% resistance to [[STATE:6:Sleep]]"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
         },
         {
           "code": 32,
@@ -145813,10 +155228,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 14,
           "value": 5,
-          "description": "Heals 500% of maximum HP each turn (fully heals)"
+          "description": "Takes 500% Jabberwock Bonus damage (increased)"
         }
       ],
       "actions": [
@@ -145939,6 +155354,27 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -145954,24 +155390,24 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Ice damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 23,
@@ -145979,6 +155415,13 @@ const enemiesData = {
           "dataId": 6,
           "value": 0.5,
           "description": "50% resistance to [[STATE:6:Sleep]]"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.1,
+          "description": "Unknown Trait"
         },
         {
           "code": 32,
@@ -146003,10 +155446,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 14,
           "value": 5,
-          "description": "Heals 500% of maximum HP each turn (fully heals)"
+          "description": "Takes 500% Jabberwock Bonus damage (increased)"
         },
         {
           "code": 22,
@@ -146017,10 +155460,10 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.52,
-          "description": "Luck debuffs are only 52% effective"
+          "description": "Heals 52% of maximum HP each turn"
         },
         {
           "code": 22,
@@ -146251,18 +155694,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 9,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 1,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 9,
+          "value": 1.5,
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 23,
@@ -146359,18 +155823,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 3,
-          "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 3,
+          "value": 1.2,
+          "description": "Takes 120% Fire damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         }
       ],
       "actions": [
@@ -146445,18 +155930,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 3,
-          "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 3,
+          "value": 1.2,
+          "description": "Takes 120% Fire damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         }
       ],
       "actions": [
@@ -146538,18 +156044,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 3,
-          "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 3,
+          "value": 1.2,
+          "description": "Takes 120% Fire damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 2,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -146629,6 +156156,20 @@ const enemiesData = {
           "dataId": 1,
           "value": 100,
           "description": "Normal attacks +100 times"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 32,
@@ -146731,18 +156272,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 13,
-          "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 13,
+          "value": 1.2,
+          "description": "Takes 120% Beast Bonus damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Lightning damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 2,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -146831,11 +156393,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 1,
           "value": 0.05,
           "description": "Max MP debuffs are only 5% effective"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 2,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -146926,11 +156509,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 1,
           "value": 0.05,
           "description": "Max MP debuffs are only 5% effective"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 2,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -147021,11 +156625,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Light damage (increased)"
         },
         {
           "code": 32,
@@ -147033,6 +156651,13 @@ const enemiesData = {
           "dataId": 26,
           "value": 0.45,
           "description": "Skill Type Seal"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 2,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -147107,11 +156732,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         }
       ],
       "actions": [
@@ -147194,18 +156833,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 3,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 3,
+          "value": 1.5,
+          "description": "Takes 150% Fire damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         },
         {
           "code": 22,
@@ -147311,18 +156971,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 3,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 3,
+          "value": 1.5,
+          "description": "Takes 150% Fire damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         },
         {
           "code": 22,
@@ -147443,6 +157124,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 61,
           "codeName": "Unknown Trait",
           "dataId": 0,
@@ -147520,25 +157215,32 @@ const enemiesData = {
           "description": "Skill Type Seal"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Ice damage (increased)"
         }
       ],
       "actions": [
@@ -147613,11 +157315,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 23,
@@ -147714,6 +157430,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 2,
@@ -147722,10 +157452,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 23,
@@ -147815,11 +157545,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 23,
@@ -147909,11 +157653,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 23,
@@ -148003,11 +157761,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 23,
@@ -148104,6 +157876,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 23,
           "codeName": "State Rate",
           "dataId": 6,
@@ -148112,10 +157898,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 23,
@@ -148213,6 +157999,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 1,
@@ -148228,17 +158028,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.02,
-          "description": "Luck debuffs are only 2% effective"
+          "description": "Heals 2% of maximum HP each turn"
         }
       ],
       "actions": [
@@ -148321,11 +158121,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 23,
@@ -148415,11 +158236,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -148516,11 +158358,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Fire damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -148626,11 +158489,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 32,
@@ -148734,6 +158625,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 2,
@@ -148741,11 +158646,25 @@ const enemiesData = {
           "description": "Normal Attack debuff effectiveness"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         }
       ],
       "actions": [
@@ -148820,18 +158739,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 3,
-          "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 1,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 3,
+          "value": 1.2,
+          "description": "Takes 120% Fire damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 32,
@@ -148935,6 +158875,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 13,
@@ -149030,11 +158984,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
         },
         {
           "code": 61,
@@ -149044,11 +159012,18 @@ const enemiesData = {
           "description": "Unknown Trait"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 32,
@@ -149146,11 +159121,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         },
         {
           "code": 22,
@@ -149255,6 +159244,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 5,
@@ -149263,10 +159266,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         },
         {
           "code": 61,
@@ -149356,11 +159359,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         }
       ],
       "actions": [
@@ -149443,6 +159460,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 23,
           "codeName": "State Rate",
           "dataId": 6,
@@ -149451,10 +159482,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         },
         {
           "code": 23,
@@ -149559,6 +159590,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 3,
@@ -149567,17 +159612,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         },
         {
           "code": 22,
@@ -149659,6 +159704,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 61,
           "codeName": "Unknown Trait",
           "dataId": 0,
@@ -149667,17 +159726,24 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 21,
@@ -149796,11 +159862,46 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -149891,11 +159992,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -149986,18 +160108,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 5,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 5,
+          "value": 1.5,
+          "description": "Takes 150% Lightning damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         }
       ],
       "actions": [
@@ -150080,18 +160216,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 3,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 3,
+          "value": 1.5,
+          "description": "Takes 150% Fire damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         }
       ],
       "actions": [
@@ -150174,18 +160324,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 5,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 5,
+          "value": 1.5,
+          "description": "Takes 150% Lightning damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         },
         {
           "code": 22,
@@ -150281,11 +160445,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -150374,6 +160559,27 @@ const enemiesData = {
           "dataId": 1,
           "value": 100,
           "description": "Normal attacks +100 times"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -150485,6 +160691,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 1,
@@ -150592,6 +160819,27 @@ const enemiesData = {
           "dataId": 1,
           "value": 100,
           "description": "Normal attacks +100 times"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -150703,11 +160951,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 32,
@@ -150812,11 +161074,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         },
         {
           "code": 32,
@@ -150826,10 +161102,10 @@ const enemiesData = {
           "description": "Skill Type Seal"
         },
         {
-          "code": 61,
+          "code": 13,
           "codeName": "Unknown Trait",
-          "dataId": 0,
-          "value": 1,
+          "dataId": 1,
+          "value": 0,
           "description": "Unknown Trait"
         },
         {
@@ -150865,6 +161141,20 @@ const enemiesData = {
           "codeName": "Unknown Trait",
           "dataId": 0,
           "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 61,
+          "codeName": "Unknown Trait",
+          "dataId": 0,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
           "description": "Unknown Trait"
         },
         {
@@ -150955,18 +161245,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 10,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 10,
+          "value": 1.5,
+          "description": "Takes 150% Dark damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 32,
@@ -151070,11 +161374,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
         }
       ],
       "actions": [
@@ -151157,11 +161475,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 14,
@@ -151179,10 +161511,10 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.02,
-          "description": "Luck debuffs are only 2% effective"
+          "description": "Heals 2% of maximum HP each turn"
         }
       ],
       "actions": [
@@ -151265,11 +161597,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 22,
@@ -151351,18 +161697,46 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 10,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 10,
+          "value": 1.5,
+          "description": "Takes 150% Dark damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         },
         {
           "code": 32,
@@ -151473,17 +161847,45 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 61,
           "codeName": "Unknown Trait",
           "dataId": 0,
           "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
           "description": "Unknown Trait"
         },
         {
@@ -151589,11 +161991,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -151676,11 +162106,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Light damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 2,
+          "description": "Unknown Trait"
         },
         {
           "code": 23,
@@ -151777,6 +162235,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 23,
           "codeName": "State Rate",
           "dataId": 6,
@@ -151789,6 +162261,13 @@ const enemiesData = {
           "dataId": 7,
           "value": 0.5,
           "description": "50% resistance to [[STATE:7:Hard Break Vulnerable]]"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -151893,6 +162372,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 23,
           "codeName": "State Rate",
           "dataId": 6,
@@ -151905,6 +162398,13 @@ const enemiesData = {
           "dataId": 7,
           "value": 0.5,
           "description": "50% resistance to [[STATE:7:Hard Break Vulnerable]]"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 32,
@@ -152002,6 +162502,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 23,
           "codeName": "State Rate",
           "dataId": 6,
@@ -152021,6 +162535,13 @@ const enemiesData = {
           "dataId": 4,
           "value": 1,
           "description": "Normal Magic Attack debuff effectiveness"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -152109,6 +162630,27 @@ const enemiesData = {
           "dataId": 1,
           "value": 100,
           "description": "Normal attacks +100 times"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -152242,18 +162784,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 3,
-          "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 3,
+          "value": 2,
+          "description": "Takes 200% Fire damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Light damage (increased)"
         },
         {
           "code": 22,
@@ -152343,11 +162906,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -152476,11 +163067,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         }
       ],
       "actions": [
@@ -152555,6 +163160,55 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 4,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 61,
           "codeName": "Unknown Trait",
           "dataId": 0,
@@ -152566,14 +163220,28 @@ const enemiesData = {
           "codeName": "Unknown Trait",
           "dataId": 0,
           "value": 0.5,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0.3,
           "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Lightning damage (increased)"
         }
       ],
       "actions": [
@@ -152684,6 +163352,27 @@ const enemiesData = {
           "dataId": 2,
           "value": 0.5,
           "description": "Attack debuffs are only 50% effective"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -152774,11 +163463,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 2,
           "value": 1,
           "description": "Normal Attack debuff effectiveness"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -152901,11 +163618,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         },
         {
           "code": 32,
@@ -153002,11 +163733,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 32,
@@ -153110,11 +163855,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         },
         {
           "code": 32,
@@ -153218,11 +163977,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 32,
@@ -153319,11 +164092,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         }
       ],
       "actions": [
@@ -153406,11 +164193,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         },
         {
           "code": 32,
@@ -153508,11 +164309,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         },
         {
           "code": 31,
@@ -153616,11 +164431,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 32,
@@ -153731,11 +164560,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Fire damage (reduced)"
         },
         {
           "code": 61,
@@ -153749,6 +164592,13 @@ const enemiesData = {
           "codeName": "Unknown Trait",
           "dataId": 0,
           "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
           "description": "Unknown Trait"
         },
         {
@@ -153759,11 +164609,18 @@ const enemiesData = {
           "description": "Unknown Parameter set to 0"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Ice damage (increased)"
         }
       ],
       "actions": [
@@ -153836,6 +164693,20 @@ const enemiesData = {
           "dataId": 1,
           "value": 100,
           "description": "Normal attacks +100 times"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 23,
@@ -153970,25 +164841,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0,
-          "description": "No HP regeneration"
+          "description": "Immune to Dark damage"
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.15,
-          "description": "Luck debuffs are only 15% effective"
+          "description": "Heals 15% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0,
-          "description": "No HP regeneration"
+          "description": "Immune to Light damage"
         }
       ],
       "actions": [
@@ -154071,11 +164956,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 22,
@@ -154097,6 +164996,13 @@ const enemiesData = {
           "dataId": 6,
           "value": 0.5,
           "description": "Agility debuffs are only 50% effective"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -154179,6 +165085,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 61,
           "codeName": "Unknown Trait",
           "dataId": 0,
@@ -154191,6 +165111,20 @@ const enemiesData = {
           "dataId": 13,
           "value": 0,
           "description": "Unknown Parameter set to 0"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -154285,6 +165219,27 @@ const enemiesData = {
           "dataId": 1,
           "value": 100,
           "description": "Normal attacks +100 times"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 10,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -154405,11 +165360,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
         },
         {
           "code": 22,
@@ -154506,18 +165475,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 5,
-          "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 5,
+          "value": 0.5,
+          "description": "Takes 50% Lightning damage (reduced)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 14,
@@ -154622,18 +165605,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.01,
-          "description": "Luck debuffs are only 1% effective"
+          "description": "Heals 1% of maximum HP each turn"
         }
       ],
       "actions": [
@@ -154724,11 +165721,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
         },
         {
           "code": 32,
@@ -154832,11 +165843,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 2,
           "value": 1,
           "description": "Normal Attack debuff effectiveness"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 21,
@@ -154979,11 +166011,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 21,
@@ -155089,6 +166142,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 26,
@@ -155104,17 +166178,24 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.02,
-          "description": "Luck debuffs are only 2% effective"
+          "description": "Heals 2% of maximum HP each turn"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         }
       ],
       "actions": [
@@ -155205,6 +166286,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 1,
@@ -155220,10 +166322,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 32,
@@ -155321,18 +166423,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 3,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 3,
+          "value": 1.5,
+          "description": "Takes 150% Fire damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         }
       ],
       "actions": [
@@ -155415,6 +166538,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 13,
@@ -155430,10 +166574,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 61,
@@ -155554,6 +166698,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 5,
@@ -155569,10 +166734,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         }
       ],
       "actions": [
@@ -155687,6 +166852,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 26,
@@ -155694,11 +166880,18 @@ const enemiesData = {
           "description": "Skill Type Seal"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         }
       ],
       "actions": [
@@ -155789,6 +166982,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 4,
@@ -155825,17 +167039,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         }
       ],
       "actions": [
@@ -155934,11 +167148,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 22,
@@ -156059,11 +167301,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         }
       ],
       "actions": [
@@ -156170,11 +167440,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 1.5,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 22,
@@ -156280,11 +167578,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -156359,46 +167678,67 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.05,
-          "description": "Luck debuffs are only 5% effective"
+          "description": "Heals 5% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Fire damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Ice damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Lightning damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Light damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         },
         {
           "code": 23,
@@ -156423,10 +167763,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         }
       ],
       "actions": [
@@ -156517,18 +167857,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 3,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 1,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 3,
+          "value": 1.5,
+          "description": "Takes 150% Fire damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         }
       ],
       "actions": [
@@ -156619,18 +167980,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 3,
-          "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 3,
+          "value": 2,
+          "description": "Takes 200% Fire damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         }
       ],
       "actions": [
@@ -156729,11 +168111,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
         },
         {
           "code": 32,
@@ -156863,11 +168266,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         },
         {
           "code": 22,
@@ -156885,10 +168309,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         }
       ],
       "actions": [
@@ -157002,6 +168426,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 23,
           "codeName": "State Rate",
           "dataId": 6,
@@ -157102,6 +168547,27 @@ const enemiesData = {
           "dataId": 1,
           "value": 100,
           "description": "Normal attacks +100 times"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
         },
         {
           "code": 23,
@@ -157222,10 +168688,31 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 61,
           "codeName": "Unknown Trait",
           "dataId": 0,
           "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
           "description": "Unknown Trait"
         },
         {
@@ -157347,11 +168834,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 2,
           "value": 1,
           "description": "Normal Attack debuff effectiveness"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
         },
         {
           "code": 23,
@@ -157456,6 +168964,13 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 1,
@@ -157475,6 +168990,20 @@ const enemiesData = {
           "dataId": 6,
           "value": 0.5,
           "description": "Agility debuffs are only 50% effective"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
         },
         {
           "code": 23,
@@ -157596,11 +169125,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         },
         {
           "code": 14,
@@ -157611,10 +169161,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Fire damage (reduced)"
         },
         {
           "code": 22,
@@ -157744,39 +169294,60 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Fire damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Ice damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Lightning damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Light damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         }
       ],
       "actions": [
@@ -157889,6 +169460,27 @@ const enemiesData = {
           "dataId": 1,
           "value": 100,
           "description": "Normal attacks +100 times"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -158003,6 +169595,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 14,
           "codeName": "Parameter Rate",
           "dataId": 6,
@@ -158080,11 +169693,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Ice damage (increased)"
         }
       ],
       "actions": [
@@ -158159,6 +169793,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 14,
           "codeName": "Parameter Rate",
           "dataId": 29,
@@ -158167,17 +169822,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Ice damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 0.1,
-          "description": "Heals 10% of maximum HP each turn"
+          "description": "Takes 10% Fire damage (reduced)"
         },
         {
           "code": 14,
@@ -158216,17 +169871,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 1,
           "value": 0.7,
-          "description": "Heals 70% of maximum HP each turn"
+          "description": "Takes 70% Physical damage (reduced)"
         }
       ],
       "actions": [
@@ -158325,6 +169980,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 14,
           "codeName": "Parameter Rate",
           "dataId": 29,
@@ -158333,17 +170009,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Ice damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 0.1,
-          "description": "Heals 10% of maximum HP each turn"
+          "description": "Takes 10% Fire damage (reduced)"
         },
         {
           "code": 14,
@@ -158389,17 +170065,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 1,
           "value": 0.7,
-          "description": "Heals 70% of maximum HP each turn"
+          "description": "Takes 70% Physical damage (reduced)"
         }
       ],
       "actions": [
@@ -158498,18 +170174,46 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 5,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 5,
+          "value": 1.5,
+          "description": "Takes 150% Lightning damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -158639,18 +170343,46 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 5,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 5,
+          "value": 1.5,
+          "description": "Takes 150% Lightning damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -158679,6 +170411,62 @@ const enemiesData = {
           "dataId": 4,
           "value": 1,
           "description": "Normal Magic Attack debuff effectiveness"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 5,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 28,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -158760,11 +170548,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         },
         {
           "code": 32,
@@ -158796,10 +170605,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 22,
@@ -158912,11 +170721,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         },
         {
           "code": 32,
@@ -158955,10 +170785,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 22,
@@ -159087,18 +170917,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 10,
-          "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 10,
+          "value": 0.5,
+          "description": "Takes 50% Dark damage (reduced)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Light damage (reduced)"
         },
         {
           "code": 22,
@@ -159211,18 +171062,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 5,
-          "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 5,
+          "value": 0.5,
+          "description": "Takes 50% Lightning damage (reduced)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         },
         {
           "code": 22,
@@ -159350,11 +171222,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 22,
@@ -159372,10 +171265,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 22,
@@ -159496,11 +171389,67 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 4,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 14,
           "codeName": "Parameter Rate",
           "dataId": 6,
           "value": 0,
           "description": "Agility set to 0"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -159518,17 +171467,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Fire damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 12,
@@ -159679,11 +171628,81 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
           "value": 0,
           "description": "Force Action Speed"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 14,
@@ -159694,10 +171713,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Ice damage (increased)"
         }
       ],
       "actions": [
@@ -159803,11 +171822,81 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
           "value": 0,
           "description": "Force Action Speed"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 14,
@@ -159832,10 +171921,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Ice damage (increased)"
         }
       ],
       "actions": [
@@ -159933,11 +172022,81 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
           "value": 0,
           "description": "Force Action Speed"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 32,
@@ -159969,10 +172128,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Ice damage (increased)"
         }
       ],
       "actions": [
@@ -160054,6 +172213,69 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 23,
           "codeName": "State Rate",
           "dataId": 6,
@@ -160069,10 +172291,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Ice damage (increased)"
         }
       ],
       "actions": [
@@ -160193,18 +172415,88 @@ const enemiesData = {
           "description": "Skill Type Seal"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 9,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 4,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0.3,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 9,
+          "value": 1.5,
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         },
         {
           "code": 23,
@@ -160325,18 +172617,46 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 10,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 10,
+          "value": 1.5,
+          "description": "Takes 150% Dark damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         },
         {
           "code": 32,
@@ -160612,6 +172932,97 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 4,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 17,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 2,
@@ -160620,10 +173031,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         },
         {
           "code": 61,
@@ -160648,17 +173059,17 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 0.02,
-          "description": "Unknown Parameter debuffs are only 2% effective"
+          "description": "Restores 2% of maximum MP each turn"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         }
       ],
       "actions": [
@@ -160765,6 +173176,97 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 4,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 17,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 2,
@@ -160773,10 +173275,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         },
         {
           "code": 23,
@@ -160808,17 +173310,17 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 0.02,
-          "description": "Unknown Parameter debuffs are only 2% effective"
+          "description": "Restores 2% of maximum MP each turn"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         }
       ],
       "actions": [
@@ -160931,6 +173433,97 @@ const enemiesData = {
           "dataId": 1,
           "value": 0,
           "description": "Cannot use normal attacks"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 4,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 17,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -161100,6 +173693,83 @@ const enemiesData = {
           "dataId": 1,
           "value": 0,
           "description": "Cannot use normal attacks"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 4,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 17,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -161277,6 +173947,83 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 4,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 17,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 14,
           "codeName": "Parameter Rate",
           "dataId": 8,
@@ -161421,11 +174168,81 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 4,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 17,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 23,
@@ -161554,11 +174371,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 14,
@@ -161636,6 +174467,13 @@ const enemiesData = {
           "dataId": 6,
           "value": 0.5,
           "description": "Skill Type Seal"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -161710,11 +174548,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 2,
+          "description": "Unknown Trait"
         },
         {
           "code": 14,
@@ -161787,39 +174646,102 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.5,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 17,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Light damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Ice damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Fire damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         }
       ],
       "actions": [
@@ -161934,46 +174856,116 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 17,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 1,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Physical damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Light damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Ice damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Fire damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         },
         {
           "code": 22,
@@ -162165,39 +175157,95 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Ice damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Fire damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Lightning damage (reduced)"
         },
         {
           "code": 22,
@@ -162441,6 +175489,55 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 23,
           "codeName": "State Rate",
           "dataId": 6,
@@ -162572,39 +175669,88 @@ const enemiesData = {
           "description": "Force Action Speed"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0.5,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0.6,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Light damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Ice damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Fire damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Lightning damage (reduced)"
         },
         {
           "code": 23,
@@ -162770,39 +175916,88 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Light damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Ice damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Fire damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Lightning damage (reduced)"
         },
         {
           "code": 23,
@@ -162906,18 +176101,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 9,
-          "value": 0.25,
-          "description": "Heals 25% of maximum HP each turn"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.0001,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 9,
+          "value": 0.25,
+          "description": "Takes 25% Light damage (reduced)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.25,
-          "description": "Heals 25% of maximum HP each turn"
+          "description": "Takes 25% Dark damage (reduced)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.01,
+          "description": "Unknown Trait"
         },
         {
           "code": 14,
@@ -162925,6 +176141,34 @@ const enemiesData = {
           "dataId": 6,
           "value": 0,
           "description": "Agility set to 0"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 9,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 9,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 9,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 12,
@@ -163033,10 +176277,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         },
         {
           "code": 21,
@@ -163324,18 +176568,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 9,
-          "value": 0.25,
-          "description": "Heals 25% of maximum HP each turn"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 9,
+          "value": 0.25,
+          "description": "Takes 25% Light damage (reduced)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.25,
-          "description": "Heals 25% of maximum HP each turn"
+          "description": "Takes 25% Dark damage (reduced)"
         },
         {
           "code": 14,
@@ -163350,6 +176608,48 @@ const enemiesData = {
           "dataId": 6,
           "value": 0,
           "description": "Agility set to 0"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 9,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 9,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 9,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 9,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 9,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 12,
@@ -163402,10 +176702,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         },
         {
           "code": 63,
@@ -163416,17 +176716,17 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.05,
-          "description": "Luck debuffs are only 5% effective"
+          "description": "Heals 5% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 1,
           "value": 0.01,
-          "description": "Heals 1% of maximum HP each turn"
+          "description": "Takes 1% Physical damage (reduced)"
         }
       ],
       "actions": [
@@ -163563,6 +176863,27 @@ const enemiesData = {
           "description": "Normal Attack debuff effectiveness"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 21,
           "codeName": "Element Rate",
           "dataId": 6,
@@ -163582,6 +176903,13 @@ const enemiesData = {
           "dataId": 7,
           "value": 9,
           "description": "Takes 900% unknown element damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -163672,6 +177000,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 14,
           "codeName": "Parameter Rate",
           "dataId": 13,
@@ -163684,6 +177026,13 @@ const enemiesData = {
           "dataId": 6,
           "value": 0,
           "description": "Agility set to 0"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 21,
@@ -163743,31 +177092,31 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Fire damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Lightning damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Light damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Ice damage (increased)"
         },
         {
           "code": 21,
@@ -163924,6 +177273,20 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 14,
           "codeName": "Parameter Rate",
           "dataId": 13,
@@ -163936,6 +177299,13 @@ const enemiesData = {
           "dataId": 6,
           "value": 0,
           "description": "Agility set to 0"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 21,
@@ -163981,17 +177351,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Fire damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Ice damage (increased)"
         },
         {
           "code": 21,
@@ -164080,18 +177450,46 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 9,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 9,
+          "value": 1.5,
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0,
-          "description": "No HP regeneration"
+          "description": "Immune to Dark damage"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.1,
+          "description": "Unknown Trait"
         },
         {
           "code": 14,
@@ -164182,10 +177580,10 @@ const enemiesData = {
       "traits": [
         {
           "code": 13,
-          "codeName": "[Removed]",
+          "codeName": "Unknown Trait",
           "dataId": 1,
           "value": 0,
-          "description": "[Removed - TP functionality]"
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -164202,6 +177600,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.1,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 14,
           "codeName": "Parameter Rate",
           "dataId": 6,
@@ -164210,17 +177629,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Light damage (increased)"
         },
         {
           "code": 21,
@@ -164302,11 +177721,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Light damage (increased)"
         },
         {
           "code": 32,
@@ -164396,11 +177829,39 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 14,
           "codeName": "Parameter Rate",
           "dataId": 6,
           "value": 0,
           "description": "Agility set to 0"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.001,
+          "description": "Unknown Trait"
         },
         {
           "code": 32,
@@ -164453,10 +177914,10 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.02,
-          "description": "Luck debuffs are only 2% effective"
+          "description": "Heals 2% of maximum HP each turn"
         },
         {
           "code": 61,
@@ -164467,38 +177928,38 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Ice damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Fire damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Lightning damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Light damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         },
         {
           "code": 22,
@@ -164612,6 +178073,104 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 55,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 17,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 162,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 163,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 2,
@@ -164620,38 +178179,38 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Fire damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Ice damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Lightning damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Light damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         },
         {
           "code": 22,
@@ -164676,10 +178235,10 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 0.02,
-          "description": "Unknown Parameter debuffs are only 2% effective"
+          "description": "Restores 2% of maximum MP each turn"
         },
         {
           "code": 21,
@@ -164828,11 +178387,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 32,
@@ -164889,6 +178462,13 @@ const enemiesData = {
           "dataId": 4,
           "value": 2,
           "description": "Takes 200% Ice damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 14,
@@ -164978,11 +178558,25 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 32,
@@ -165039,6 +178633,13 @@ const enemiesData = {
           "dataId": 4,
           "value": 2,
           "description": "Takes 200% Ice damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 14,
@@ -165128,39 +178729,60 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Ice damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Lightning damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0.25,
-          "description": "Heals 25% of maximum HP each turn"
+          "description": "Takes 25% Light damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.25,
-          "description": "Heals 25% of maximum HP each turn"
+          "description": "Takes 25% Dark damage (reduced)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.01,
+          "description": "Unknown Trait"
         },
         {
           "code": 14,
@@ -165182,6 +178804,20 @@ const enemiesData = {
           "dataId": 3,
           "value": 0,
           "description": "Defense set to 0"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 9,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 12,
@@ -165234,10 +178870,10 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.01,
-          "description": "Luck debuffs are only 1% effective"
+          "description": "Heals 1% of maximum HP each turn"
         },
         {
           "code": 21,
@@ -165359,11 +178995,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 14,
@@ -165373,11 +179030,18 @@ const enemiesData = {
           "description": "Agility set to 0"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.05,
-          "description": "Luck debuffs are only 5% effective"
+          "description": "Heals 5% of maximum HP each turn"
         },
         {
           "code": 21,
@@ -165618,6 +179282,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 55,
@@ -165626,10 +179311,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.01,
+          "description": "Unknown Trait"
         },
         {
           "code": 14,
@@ -165640,10 +179332,10 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.05,
-          "description": "Luck debuffs are only 5% effective"
+          "description": "Heals 5% of maximum HP each turn"
         },
         {
           "code": 21,
@@ -165884,39 +179576,53 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Ice damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Lightning damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Light damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         },
         {
           "code": 14,
@@ -165983,10 +179689,10 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.5,
-          "description": "Luck debuffs are only 50% effective"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 23,
@@ -165997,10 +179703,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 1,
           "value": 0.55,
-          "description": "Heals 55% of maximum HP each turn"
+          "description": "Takes 55% Physical damage (reduced)"
         }
       ],
       "actions": [
@@ -166075,39 +179781,53 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Ice damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Lightning damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Light damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         },
         {
           "code": 14,
@@ -166143,6 +179863,13 @@ const enemiesData = {
           "dataId": 26,
           "value": 0,
           "description": "Unknown Parameter set to 0"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 12,
@@ -166216,10 +179943,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 1,
           "value": 0.55,
-          "description": "Heals 55% of maximum HP each turn"
+          "description": "Takes 55% Physical damage (reduced)"
         }
       ],
       "actions": [
@@ -166294,39 +180021,53 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Ice damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Lightning damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Light damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         },
         {
           "code": 14,
@@ -166362,6 +180103,13 @@ const enemiesData = {
           "dataId": 26,
           "value": 0,
           "description": "Unknown Parameter set to 0"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 12,
@@ -166442,10 +180190,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 1,
           "value": 0.55,
-          "description": "Heals 55% of maximum HP each turn"
+          "description": "Takes 55% Physical damage (reduced)"
         }
       ],
       "actions": [
@@ -166560,25 +180308,60 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Ice damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 0,
-          "description": "No HP regeneration"
+          "description": "Immune to Lightning damage"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0.05,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.05,
+          "description": "Unknown Trait"
         },
         {
           "code": 21,
@@ -166741,11 +180524,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Ice damage (increased)"
         },
         {
           "code": 21,
@@ -166770,10 +180574,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         }
       ],
       "actions": [
@@ -166856,6 +180660,27 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 2,
@@ -166871,31 +180696,31 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Ice damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Lightning damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         },
         {
           "code": 21,
@@ -166931,6 +180756,13 @@ const enemiesData = {
           "dataId": 0,
           "value": 6,
           "description": "Takes 600% unknown element damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 9,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -167013,25 +180845,46 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Ice damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0.3,
+          "description": "Unknown Trait"
         },
         {
           "code": 21,
@@ -167063,10 +180916,10 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.05,
-          "description": "Luck debuffs are only 5% effective"
+          "description": "Heals 5% of maximum HP each turn"
         },
         {
           "code": 23,
@@ -167162,18 +181015,46 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 4,
-          "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 4,
+          "value": 0.5,
+          "description": "Takes 50% Ice damage (reduced)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0.3,
+          "description": "Unknown Trait"
         },
         {
           "code": 21,
@@ -167233,10 +181114,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         },
         {
           "code": 22,
@@ -167341,25 +181222,53 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 0,
-          "description": "No HP regeneration"
+          "description": "Immune to Ice damage"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0,
-          "description": "No HP regeneration"
+          "description": "Immune to Dark damage"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.01,
+          "description": "Unknown Trait"
         },
         {
           "code": 14,
@@ -167497,18 +181406,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 3,
-          "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 3,
+          "value": 2,
+          "description": "Takes 200% Fire damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 0,
-          "description": "No HP regeneration"
+          "description": "Immune to Ice damage"
         },
         {
           "code": 21,
@@ -167540,10 +181463,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         }
       ],
       "actions": [
@@ -167626,18 +181549,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 9,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 9,
+          "value": 1.5,
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0,
-          "description": "No HP regeneration"
+          "description": "Immune to Dark damage"
         },
         {
           "code": 14,
@@ -167755,6 +181692,76 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 4,
@@ -167784,10 +181791,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Ice damage (increased)"
         }
       ],
       "actions": [
@@ -167862,11 +181869,39 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.05,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 14,
           "codeName": "Parameter Rate",
           "dataId": 6,
           "value": 0,
           "description": "Agility set to 0"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.0001,
+          "description": "Unknown Trait"
         },
         {
           "code": 32,
@@ -167912,38 +181947,38 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Ice damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Fire damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Lightning damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Light damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Dark damage (reduced)"
         },
         {
           "code": 22,
@@ -168025,18 +182060,53 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 9,
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
           "value": 0,
-          "description": "No HP regeneration"
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 9,
+          "value": 0,
+          "description": "Immune to Light damage"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0.05,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 21,
@@ -168061,17 +182131,17 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 1,
-          "description": "Normal Luck debuff effectiveness"
+          "description": "Heals 100% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 1,
-          "description": "Normal Unknown Parameter debuff effectiveness"
+          "description": "Restores 100% of maximum MP each turn (fully restores)"
         },
         {
           "code": 21,
@@ -168176,18 +182246,53 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 9,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 9,
+          "value": 1.5,
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0,
-          "description": "No HP regeneration"
+          "description": "Immune to Dark damage"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.05,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0.05,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 21,
@@ -168212,17 +182317,17 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 1,
-          "description": "Normal Luck debuff effectiveness"
+          "description": "Heals 100% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "MP Regeneration",
           "dataId": 8,
           "value": 1,
-          "description": "Normal Unknown Parameter debuff effectiveness"
+          "description": "Restores 100% of maximum MP each turn (fully restores)"
         },
         {
           "code": 22,
@@ -168325,6 +182430,34 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 21,
           "codeName": "Element Rate",
           "dataId": 0,
@@ -168333,10 +182466,10 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.05,
-          "description": "Luck debuffs are only 5% effective"
+          "description": "Heals 5% of maximum HP each turn"
         },
         {
           "code": 23,
@@ -168474,18 +182607,60 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 4,
-          "value": 0,
-          "description": "No HP regeneration"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.0001,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 4,
+          "value": 0,
+          "description": "Immune to Ice damage"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 162,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 21,
@@ -168552,10 +182727,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         }
       ],
       "actions": [
@@ -168638,18 +182813,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 9,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.0001,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 9,
+          "value": 1.5,
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0,
-          "description": "No HP regeneration"
+          "description": "Immune to Dark damage"
         },
         {
           "code": 14,
@@ -168664,6 +182853,13 @@ const enemiesData = {
           "dataId": 6,
           "value": 0,
           "description": "Agility set to 0"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 12,
@@ -168737,10 +182933,10 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.5,
-          "description": "Luck debuffs are only 50% effective"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 21,
@@ -168907,18 +183103,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 9,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.0001,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 9,
+          "value": 1.5,
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0,
-          "description": "No HP regeneration"
+          "description": "Immune to Dark damage"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.01,
+          "description": "Unknown Trait"
         },
         {
           "code": 14,
@@ -168926,6 +183143,13 @@ const enemiesData = {
           "dataId": 6,
           "value": 0,
           "description": "Agility set to 0"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 12,
@@ -169006,10 +183230,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         }
       ],
       "actions": [
@@ -169116,18 +183340,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 9,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.0001,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 9,
+          "value": 1.5,
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0,
-          "description": "No HP regeneration"
+          "description": "Immune to Dark damage"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.01,
+          "description": "Unknown Trait"
         },
         {
           "code": 14,
@@ -169135,6 +183380,13 @@ const enemiesData = {
           "dataId": 6,
           "value": 0,
           "description": "Agility set to 0"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 12,
@@ -169361,18 +183613,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 9,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 9,
+          "value": 1.5,
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0,
-          "description": "No HP regeneration"
+          "description": "Immune to Dark damage"
         },
         {
           "code": 14,
@@ -169387,6 +183653,13 @@ const enemiesData = {
           "dataId": 6,
           "value": 0,
           "description": "Agility set to 0"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 12,
@@ -169573,18 +183846,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 9,
-          "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 9,
+          "value": 2,
+          "description": "Takes 200% Light damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0,
-          "description": "No HP regeneration"
+          "description": "Immune to Dark damage"
         },
         {
           "code": 21,
@@ -169702,18 +183989,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 9,
-          "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.0001,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 9,
+          "value": 1.5,
+          "description": "Takes 150% Light damage (increased)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0,
-          "description": "No HP regeneration"
+          "description": "Immune to Dark damage"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.01,
+          "description": "Unknown Trait"
         },
         {
           "code": 14,
@@ -169721,6 +184029,13 @@ const enemiesData = {
           "dataId": 6,
           "value": 0,
           "description": "Agility set to 0"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 12,
@@ -169829,10 +184144,10 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.1,
-          "description": "Luck debuffs are only 10% effective"
+          "description": "Heals 10% of maximum HP each turn"
         }
       ],
       "actions": [
@@ -169931,18 +184246,53 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 10,
-          "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 10,
+          "value": 0.5,
+          "description": "Takes 50% Dark damage (reduced)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Ice damage (reduced)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0.05,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.05,
+          "description": "Unknown Trait"
         },
         {
           "code": 21,
@@ -170119,18 +184469,53 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 10,
-          "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 10,
+          "value": 0.5,
+          "description": "Takes 50% Dark damage (reduced)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Ice damage (reduced)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0.05,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.05,
+          "description": "Unknown Trait"
         },
         {
           "code": 21,
@@ -170297,18 +184682,53 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
-          "code": 11,
-          "codeName": "HP Regeneration",
-          "dataId": 10,
-          "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
+          "dataId": 10,
+          "value": 0.5,
+          "description": "Takes 50% Dark damage (reduced)"
+        },
+        {
+          "code": 11,
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Ice damage (reduced)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0.05,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.05,
+          "description": "Unknown Trait"
         },
         {
           "code": 21,
@@ -170454,32 +184874,53 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 0.3,
-          "description": "Heals 30% of maximum HP each turn"
+          "description": "Takes 30% Ice damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0.3,
-          "description": "Heals 30% of maximum HP each turn"
+          "description": "Takes 30% Light damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.01,
+          "description": "Unknown Trait"
         },
         {
           "code": 14,
@@ -170487,6 +184928,13 @@ const enemiesData = {
           "dataId": 6,
           "value": 0,
           "description": "Agility set to 0"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 12,
@@ -170546,10 +184994,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         },
         {
           "code": 22,
@@ -170570,6 +185018,13 @@ const enemiesData = {
           "codeName": "Unknown Trait",
           "dataId": 0,
           "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 10,
           "description": "Unknown Trait"
         },
         {
@@ -170737,32 +185192,53 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 0.3,
-          "description": "Heals 30% of maximum HP each turn"
+          "description": "Takes 30% Ice damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0.3,
-          "description": "Heals 30% of maximum HP each turn"
+          "description": "Takes 30% Light damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.01,
+          "description": "Unknown Trait"
         },
         {
           "code": 14,
@@ -170770,6 +185246,13 @@ const enemiesData = {
           "dataId": 6,
           "value": 0,
           "description": "Agility set to 0"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 12,
@@ -170829,10 +185312,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         },
         {
           "code": 22,
@@ -170847,6 +185330,13 @@ const enemiesData = {
           "dataId": 19,
           "value": 1,
           "description": "Normal attacks +1 times"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 10,
+          "description": "Unknown Trait"
         }
       ],
       "actions": [
@@ -170985,25 +185475,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Lightning damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Ice damage (increased)"
         },
         {
           "code": 14,
@@ -171018,6 +185522,13 @@ const enemiesData = {
           "dataId": 6,
           "value": 0,
           "description": "Agility set to 0"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 12,
@@ -171077,10 +185588,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         },
         {
           "code": 23,
@@ -171098,17 +185609,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 1,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Physical damage (reduced)"
         },
         {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 1,
           "value": -1,
-          "description": "When Max MP debuff is applied, it becomes a 100% buff instead"
+          "description": "When Max MP debuff is applied, it is converted to a buff with 100% effectiveness"
         }
       ],
       "actions": [
@@ -171223,6 +185734,34 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 21,
           "codeName": "Element Rate",
           "dataId": 6,
@@ -171259,10 +185798,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 22,
@@ -171423,6 +185962,34 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 21,
           "codeName": "Element Rate",
           "dataId": 6,
@@ -171473,17 +186040,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Light damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
         },
         {
           "code": 22,
@@ -171658,6 +186225,34 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 21,
           "codeName": "Element Rate",
           "dataId": 6,
@@ -171694,17 +186289,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Light damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
         },
         {
           "code": 22,
@@ -171816,6 +186411,34 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 21,
           "codeName": "Element Rate",
           "dataId": 6,
@@ -171852,17 +186475,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Light damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
         },
         {
           "code": 22,
@@ -171991,25 +186614,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Lightning damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Ice damage (increased)"
         },
         {
           "code": 14,
@@ -172024,6 +186661,13 @@ const enemiesData = {
           "dataId": 6,
           "value": 0,
           "description": "Agility set to 0"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 12,
@@ -172083,10 +186727,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         },
         {
           "code": 23,
@@ -172104,17 +186748,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 1,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Physical damage (reduced)"
         },
         {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 1,
           "value": -1,
-          "description": "When Max MP debuff is applied, it becomes a 100% buff instead"
+          "description": "When Max MP debuff is applied, it is converted to a buff with 100% effectiveness"
         }
       ],
       "actions": [
@@ -172229,32 +186873,53 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 0.3,
-          "description": "Heals 30% of maximum HP each turn"
+          "description": "Takes 30% Ice damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0.3,
-          "description": "Heals 30% of maximum HP each turn"
+          "description": "Takes 30% Light damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Dark damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.01,
+          "description": "Unknown Trait"
         },
         {
           "code": 14,
@@ -172262,6 +186927,13 @@ const enemiesData = {
           "dataId": 6,
           "value": 0,
           "description": "Agility set to 0"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 12,
@@ -172321,10 +186993,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Beast Bonus damage (increased)"
         },
         {
           "code": 22,
@@ -172339,6 +187011,13 @@ const enemiesData = {
           "dataId": 19,
           "value": 1,
           "description": "Normal attacks +1 times"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 10,
+          "description": "Unknown Trait"
         },
         {
           "code": 22,
@@ -172512,39 +187191,53 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0.01,
-          "description": "Heals 1% of maximum HP each turn"
+          "description": "Takes 1% Light damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.01,
-          "description": "Heals 1% of maximum HP each turn"
+          "description": "Takes 1% Dark damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 0.01,
-          "description": "Heals 1% of maximum HP each turn"
+          "description": "Takes 1% Fire damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 0.01,
-          "description": "Heals 1% of maximum HP each turn"
+          "description": "Takes 1% Ice damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 0.01,
-          "description": "Heals 1% of maximum HP each turn"
+          "description": "Takes 1% Lightning damage (reduced)"
         },
         {
           "code": 14,
@@ -172622,6 +187315,13 @@ const enemiesData = {
           "dataId": 163,
           "value": 0,
           "description": "Unknown Parameter set to 0"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 12,
@@ -172730,10 +187430,10 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.01,
-          "description": "Luck debuffs are only 1% effective"
+          "description": "Heals 1% of maximum HP each turn"
         },
         {
           "code": 23,
@@ -172854,11 +187554,32 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0.01,
-          "description": "Heals 1% of maximum HP each turn"
+          "description": "Takes 1% Dark damage (reduced)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.001,
+          "description": "Unknown Trait"
         },
         {
           "code": 14,
@@ -172866,6 +187587,13 @@ const enemiesData = {
           "dataId": 6,
           "value": 0,
           "description": "Agility set to 0"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 21,
@@ -172918,10 +187646,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 1,
           "value": 0.15,
-          "description": "Heals 15% of maximum HP each turn"
+          "description": "Takes 15% Physical damage (reduced)"
         },
         {
           "code": 22,
@@ -173137,11 +187865,53 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Ice damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 9,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 63,
@@ -173236,10 +188006,10 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.03,
-          "description": "Luck debuffs are only 3% effective"
+          "description": "Heals 3% of maximum HP each turn"
         },
         {
           "code": 21,
@@ -173525,6 +188295,27 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 14,
           "codeName": "Parameter Rate",
           "dataId": 13,
@@ -173631,101 +188422,101 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 12,
           "value": 0,
-          "description": "No HP regeneration"
+          "description": "Immune to Helbreath damage"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 0,
-          "description": "No HP regeneration"
+          "description": "Immune to Beast Bonus damage"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 14,
           "value": 0,
-          "description": "No HP regeneration"
+          "description": "Immune to Jabberwock Bonus damage"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 15,
           "value": 0,
-          "description": "No HP regeneration"
+          "description": "Immune to Stun x2 damage"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 16,
           "value": 0,
-          "description": "No HP regeneration"
+          "description": "Immune to Vulnerable Bonus damage"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 18,
           "value": 0,
-          "description": "No HP regeneration"
+          "description": "Immune to Poison Bonus damage"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 19,
           "value": 0,
-          "description": "No HP regeneration"
+          "description": "Immune to Rapier Bonus damage"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 11,
           "value": 0,
-          "description": "No HP regeneration"
+          "description": "Immune to Bleed x2 damage"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 1,
           "value": 0,
-          "description": "No HP regeneration"
+          "description": "Immune to Physical damage"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 0,
-          "description": "No HP regeneration"
+          "description": "Immune to Fire damage"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 0,
-          "description": "No HP regeneration"
+          "description": "Immune to Ice damage"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 0,
-          "description": "No HP regeneration"
+          "description": "Immune to Lightning damage"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 0,
-          "description": "No HP regeneration"
+          "description": "Immune to Light damage"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 10,
           "value": 0,
-          "description": "No HP regeneration"
+          "description": "Immune to Dark damage"
         }
       ],
       "actions": [
@@ -173814,6 +188605,41 @@ const enemiesData = {
           "dataId": 1,
           "value": 0,
           "description": "Cannot use normal attacks"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 63,
@@ -173970,6 +188796,41 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -174122,6 +188983,41 @@ const enemiesData = {
           "dataId": 1,
           "value": 0,
           "description": "Cannot use normal attacks"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 63,
@@ -174278,6 +189174,41 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -174430,6 +189361,41 @@ const enemiesData = {
           "dataId": 1,
           "value": 0,
           "description": "Cannot use normal attacks"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 63,
@@ -174586,6 +189552,41 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -174738,6 +189739,41 @@ const enemiesData = {
           "dataId": 1,
           "value": 0,
           "description": "Cannot use normal attacks"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 63,
@@ -174894,6 +189930,41 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 63,
           "codeName": "Force Action Speed",
           "dataId": 1,
@@ -174902,10 +189973,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 12,
@@ -175072,11 +190143,46 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Fire damage (increased)"
         },
         {
           "code": 63,
@@ -175171,10 +190277,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 1,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Physical damage (reduced)"
         },
         {
           "code": 23,
@@ -175264,11 +190370,46 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 21,
@@ -175356,10 +190497,10 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.08,
-          "description": "Luck debuffs are only 8% effective"
+          "description": "Heals 8% of maximum HP each turn"
         }
       ],
       "actions": [
@@ -175458,11 +190599,46 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 21,
@@ -175557,10 +190733,10 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.08,
-          "description": "Luck debuffs are only 8% effective"
+          "description": "Heals 8% of maximum HP each turn"
         }
       ],
       "actions": [
@@ -175659,11 +190835,46 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 21,
@@ -175758,10 +190969,10 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.08,
-          "description": "Luck debuffs are only 8% effective"
+          "description": "Heals 8% of maximum HP each turn"
         }
       ],
       "actions": [
@@ -175860,11 +191071,46 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 21,
@@ -175952,10 +191198,10 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.08,
-          "description": "Luck debuffs are only 8% effective"
+          "description": "Heals 8% of maximum HP each turn"
         }
       ],
       "actions": [
@@ -176054,11 +191300,46 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 21,
@@ -176153,10 +191434,10 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.08,
-          "description": "Luck debuffs are only 8% effective"
+          "description": "Heals 8% of maximum HP each turn"
         }
       ],
       "actions": [
@@ -176255,11 +191536,46 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 21,
@@ -176354,10 +191670,10 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.08,
-          "description": "Luck debuffs are only 8% effective"
+          "description": "Heals 8% of maximum HP each turn"
         }
       ],
       "actions": [
@@ -176456,11 +191772,46 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.0001,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 21,
@@ -176548,10 +191899,10 @@ const enemiesData = {
         },
         {
           "code": 22,
-          "codeName": "Debuff Rate",
+          "codeName": "HP Regeneration",
           "dataId": 7,
           "value": 0.08,
-          "description": "Luck debuffs are only 8% effective"
+          "description": "Heals 8% of maximum HP each turn"
         }
       ],
       "actions": [
@@ -176729,6 +192080,69 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 5,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 61,
           "codeName": "Unknown Trait",
           "dataId": 0,
@@ -176740,14 +192154,35 @@ const enemiesData = {
           "codeName": "Unknown Trait",
           "dataId": 0,
           "value": 1,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0.3,
           "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Lightning damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 0.3,
+          "description": "Unknown Trait"
         },
         {
           "code": 32,
@@ -176765,10 +192200,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 1,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Physical damage (reduced)"
         }
       ],
       "actions": [
@@ -176875,6 +192310,69 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 2,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 3,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 5,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 61,
           "codeName": "Unknown Trait",
           "dataId": 0,
@@ -176886,14 +192384,35 @@ const enemiesData = {
           "codeName": "Unknown Trait",
           "dataId": 0,
           "value": 0.5,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 26,
+          "value": 0.3,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 29,
+          "value": 0.3,
           "description": "Unknown Trait"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 5,
           "value": 2,
-          "description": "Heals 200% of maximum HP each turn (fully heals)"
+          "description": "Takes 200% Lightning damage (increased)"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 56,
+          "value": 0.3,
+          "description": "Unknown Trait"
         },
         {
           "code": 32,
@@ -176911,10 +192430,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 1,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Physical damage (reduced)"
         }
       ],
       "actions": [
@@ -177021,25 +192540,60 @@ const enemiesData = {
           "description": "Cannot use normal attacks"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 6,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 4,
           "value": 0.01,
-          "description": "Heals 1% of maximum HP each turn"
+          "description": "Takes 1% Ice damage (reduced)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Fire damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 9,
           "value": 1.5,
-          "description": "Heals 150% of maximum HP each turn (fully heals)"
+          "description": "Takes 150% Light damage (increased)"
         },
         {
           "code": 61,
@@ -177174,11 +192728,39 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0.01,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 22,
           "codeName": "Debuff Rate",
           "dataId": 2,
           "value": 1,
           "description": "Normal Attack debuff effectiveness"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 13,
+          "value": 0,
+          "description": "Unknown Trait"
         },
         {
           "code": 23,
@@ -177196,10 +192778,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 1,
           "value": 0.5,
-          "description": "Heals 50% of maximum HP each turn"
+          "description": "Takes 50% Physical damage (reduced)"
         },
         {
           "code": 61,
@@ -177343,6 +192925,27 @@ const enemiesData = {
           "description": "Normal attacks +100 times"
         },
         {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 8,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 7,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
+          "code": 13,
+          "codeName": "Unknown Trait",
+          "dataId": 1,
+          "value": 0,
+          "description": "Unknown Trait"
+        },
+        {
           "code": 32,
           "codeName": "Skill Type Seal",
           "dataId": 13,
@@ -177351,17 +192954,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 3,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Fire damage (increased)"
         },
         {
           "code": 11,
-          "codeName": "HP Regeneration",
+          "codeName": "Element Rate",
           "dataId": 13,
           "value": 1.2,
-          "description": "Heals 120% of maximum HP each turn (fully heals)"
+          "description": "Takes 120% Beast Bonus damage (increased)"
         },
         {
           "code": 22,

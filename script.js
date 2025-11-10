@@ -1689,7 +1689,7 @@ function renderSkillDetail(skill) {
                     `;
                 } else {
                     // Show original data
-                    let originalData = `Code: ${effect.code} (${effect.codeName})`;
+                    let originalData = `Code: ${effect.code}`;
                     
                     // Add any raw values that are present
                     if (effect.dataId !== undefined) originalData += `\nData ID: ${effect.dataId}`;
@@ -2082,7 +2082,7 @@ function renderStateDetail(state) {
                 `;
             } else {
                 // Show original data
-                let originalData = `Code: ${trait.code} (${trait.codeName})`;
+                let originalData = `Code: ${trait.code}`;
                 
                 // Add raw values
                 if (trait.dataId !== undefined) originalData += `\nData ID: ${trait.dataId}`;
@@ -2682,7 +2682,7 @@ function renderWeaponDetail(weapon) {
                 `;
             } else {
                 // Show original data
-                let originalData = `Code: ${trait.code} (${trait.codeName})`;
+                let originalData = `Code: ${trait.code}`;
                 
                 // Add raw values
                 if (trait.dataId !== undefined) originalData += `\nData ID: ${trait.dataId}`;
@@ -2984,7 +2984,7 @@ function renderArmorDetail(armor) {
                 originalDataBox.remove();
                 toggle.innerHTML = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke="currentColor" stroke-width="2"/><path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" stroke="currentColor" stroke-width="2"/></svg>Show Original Data`;
             } else {
-                let originalData = `Code: ${trait.code} (${trait.codeName})`;
+                let originalData = `Code: ${trait.code}`;
                 if (trait.dataId !== undefined) originalData += `\nData ID: ${trait.dataId}`;
                 if (trait.value !== undefined) originalData += `\nValue: ${trait.value}`;
                 
@@ -3182,7 +3182,7 @@ function renderEnemyDetail(enemy) {
                 originalDataBox.remove();
                 toggle.innerHTML = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke="currentColor" stroke-width="2"/><path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" stroke="currentColor" stroke-width="2"/></svg>Show Original Data`;
             } else {
-                let originalData = `Code: ${trait.code} (${trait.codeName})`;
+                let originalData = `Code: ${trait.code}`;
                 if (trait.dataId !== undefined) originalData += `\nData ID: ${trait.dataId}`;
                 if (trait.value !== undefined) originalData += `\nValue: ${trait.value}`;
                 
