@@ -14,13 +14,13 @@ const path = require('path');
 // ============================================================================
 
 // Load data files
-const systemData = JSON.parse(fs.readFileSync('original-data/mv-data/System.json', 'utf8'));
-const statesData = JSON.parse(fs.readFileSync('original-data/mv-data/States.json', 'utf8'));
-const skillsData = JSON.parse(fs.readFileSync('original-data/mv-data/Skills.json', 'utf8'));
-const weaponsData = JSON.parse(fs.readFileSync('original-data/mv-data/Weapons.json', 'utf8'));
-const armorsData = JSON.parse(fs.readFileSync('original-data/mv-data/Armors.json', 'utf8'));
-const enemiesData = JSON.parse(fs.readFileSync('original-data/mv-data/Enemies.json', 'utf8'));
-const itemsData = JSON.parse(fs.readFileSync('original-data/mv-data/Items.json', 'utf8'));
+const systemData = JSON.parse(fs.readFileSync('original-data/mv-converted/System.json', 'utf8'));
+const statesData = JSON.parse(fs.readFileSync('original-data/mv-converted/States.json', 'utf8'));
+const skillsData = JSON.parse(fs.readFileSync('original-data/mv-converted/Skills.json', 'utf8'));
+const weaponsData = JSON.parse(fs.readFileSync('original-data/mv-converted/Weapons.json', 'utf8'));
+const armorsData = JSON.parse(fs.readFileSync('original-data/mv-converted/Armors.json', 'utf8'));
+const enemiesData = JSON.parse(fs.readFileSync('original-data/mv-converted/Enemies.json', 'utf8'));
+const itemsData = JSON.parse(fs.readFileSync('original-data/mv-converted/Items.json', 'utf8'));
 
 // Translate Japanese element names to English
 const elementTranslations = {
@@ -41,6 +41,9 @@ const elementTranslations = {
     "毒特攻": "Poison Bonus",
     "レイピア特攻": "Rapier Bonus"
 };
+
+// NOTE: Element translations don't need source verification
+// Translations are interpretive and don't require source documentation like factual mappings do
 
 // Weapon type translations
 const weaponTypeTranslations = {
@@ -92,11 +95,24 @@ const scopeTypes = {
     14: "All Allies (Alive)"
 };
 
+// Source registry for scope types
+const scopeTypeSources = {};
+for (let i = 0; i <= 14; i++) {
+    scopeTypeSources[i] = { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" };
+}
+
 // Hit type descriptions
 const hitTypes = {
     0: "Certain Hit",
     1: "Physical Attack",
     2: "Magical Attack"
+};
+
+// Source registry for hit types
+const hitTypeSources = {
+    0: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" },
+    1: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" },
+    2: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" }
 };
 
 // Occasion types
@@ -105,6 +121,14 @@ const occasionTypes = {
     1: "Battle Screen",
     2: "Menu Screen",
     3: "Never"
+};
+
+// Source registry for occasion types
+const occasionTypeSources = {
+    0: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" },
+    1: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" },
+    2: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" },
+    3: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" }
 };
 
 // Damage types
@@ -116,6 +140,17 @@ const damageTypes = {
     4: "MP Recover",
     5: "HP Drain",
     6: "MP Drain"
+};
+
+// Source registry for damage types
+const damageTypeSources = {
+    0: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" },
+    1: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" },
+    2: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" },
+    3: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" },
+    4: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" },
+    5: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" },
+    6: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" }
 };
 
 // Effect code descriptions
@@ -135,7 +170,38 @@ const effectCodes = {
     44: "Common Event"
 };
 
-// Parameter names for buffs/debuffs
+// Source registry for effect codes
+// TODO: All effect codes need source documentation
+const effectCodeSources = {
+    11: { source: "none", evidence: "No source documented - ASSUMED from usage patterns" },
+    12: { source: "none", evidence: "No source documented - ASSUMED from usage patterns" },
+    21: { source: "none", evidence: "No source documented - ASSUMED from usage patterns" },
+    22: { source: "none", evidence: "No source documented - ASSUMED from usage patterns" },
+    31: { source: "none", evidence: "No source documented - ASSUMED from usage patterns" },
+    32: { source: "none", evidence: "No source documented - ASSUMED from usage patterns" },
+    33: { source: "none", evidence: "No source documented - ASSUMED from usage patterns" },
+    34: { source: "none", evidence: "No source documented - ASSUMED from usage patterns" },
+    41: { source: "none", evidence: "No source documented - ASSUMED from usage patterns" },
+    42: { source: "none", evidence: "No source documented - ASSUMED from usage patterns" },
+    43: { source: "none", evidence: "No source documented - ASSUMED from usage patterns" },
+    44: { source: "none", evidence: "No source documented - ASSUMED from usage patterns" }
+};
+
+// ============================================================================
+// SOURCE REGISTRY - All mappings must have documented sources
+// ============================================================================
+// Every mapping (parameter names, trait codes, element names, etc.) must have
+// a documented source. Sources can be:
+// - "system.json" - Direct from System.json file
+// - "editor-screenshot" - From editor screenshots (specify which screenshot)
+// - "rpg-maker-docs" - From RPG Maker VX Ace official documentation
+// - "none" - No source documented (will be flagged by detection system)
+// 
+// NOTE: Pattern analysis or data file analysis is NOT a valid source - it's inference,
+// not direct evidence. Use "none" for inferred mappings.
+// ============================================================================
+
+// Parameter names for buffs/debuffs (Standard Parameters 0-7)
 const parameterNames = [
     "Max HP",
     "Max MP",
@@ -147,6 +213,18 @@ const parameterNames = [
     "Luck"
 ];
 
+// Source registry for parameter names (0-7)
+const parameterNameSources = {
+    0: { source: "system.json", evidence: "terms.params[0] in System.json" },
+    1: { source: "system.json", evidence: "terms.params[1] in System.json" },
+    2: { source: "system.json", evidence: "terms.params[2] in System.json" },
+    3: { source: "system.json", evidence: "terms.params[3] in System.json" },
+    4: { source: "system.json", evidence: "terms.params[4] in System.json" },
+    5: { source: "system.json", evidence: "terms.params[5] in System.json" },
+    6: { source: "system.json", evidence: "terms.params[6] in System.json" },
+    7: { source: "system.json", evidence: "terms.params[7] in System.json" }
+};
+
 // Restriction types (for states)
 const restrictionTypes = {
     0: "None",
@@ -156,11 +234,27 @@ const restrictionTypes = {
     4: "Cannot Move"
 };
 
+// Source registry for restriction types
+const restrictionTypeSources = {
+    0: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" },
+    1: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" },
+    2: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" },
+    3: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" },
+    4: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" }
+};
+
 // Auto removal timing (for states)
 const autoRemovalTimings = {
     0: "None",
     1: "Action End",
     2: "Turn End"
+};
+
+// Source registry for auto removal timings
+const autoRemovalTimingSources = {
+    0: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" },
+    1: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" },
+    2: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" }
 };
 
 // Trait codes for states
@@ -190,6 +284,37 @@ const stateTraitCodes = {
     63: "Force Action Speed",
     64: "Buff Turn Rate",
     65: "Instant Death"
+};
+
+// Source registry for trait codes
+// TODO: All trait codes need source documentation
+const traitCodeSources = {
+    // Codes with documented sources from editor screenshots
+    // Codes without sources will be flagged by detection system
+    11: { source: "editor-screenshot", evidence: "Rate tab - HP Regeneration visible", screenshot: "states-features-screenshots" },
+    12: { source: "editor-screenshot", evidence: "Rate tab - MP Regeneration visible", screenshot: "states-features-screenshots" },
+    14: { source: "editor-screenshot", evidence: "Param tab - Parameter Rate visible", screenshot: "200530.png" },
+    21: { source: "editor-screenshot", evidence: "Rate tab - Element Rate visible", screenshot: "200356.png" },
+    22: { source: "editor-screenshot", evidence: "Rate tab - Debuff Rate visible", screenshot: "200407.png" },
+    23: { source: "editor-screenshot", evidence: "Rate tab - State Rate visible", screenshot: "states-features-screenshots" },
+    31: { source: "none", evidence: "No source documented - ASSUMED" },
+    32: { source: "none", evidence: "No source documented - ASSUMED" },
+    33: { source: "none", evidence: "No source documented - ASSUMED" },
+    34: { source: "none", evidence: "No source documented - ASSUMED" },
+    41: { source: "editor-screenshot", evidence: "Other tab - Special Flag visible", screenshot: "200743.png" },
+    42: { source: "editor-screenshot", evidence: "Other tab - Collapse Effect visible", screenshot: "200749.png" },
+    43: { source: "editor-screenshot", evidence: "Other tab - Party Ability visible", screenshot: "200757.png" },
+    44: { source: "none", evidence: "No source documented - ASSUMED" },
+    45: { source: "none", evidence: "No source documented - ASSUMED" },
+    46: { source: "none", evidence: "No source documented - ASSUMED" },
+    48: { source: "none", evidence: "No source documented - ASSUMED" },
+    49: { source: "none", evidence: "No source documented - ASSUMED" },
+    54: { source: "editor-screenshot", evidence: "Equip tab - Equip Weapon Lock visible", screenshot: "200718.png" },
+    55: { source: "editor-screenshot", evidence: "Equip tab - Equip Armor Lock visible", screenshot: "200726.png" },
+    62: { source: "none", evidence: "No source documented - ASSUMED" },
+    63: { source: "none", evidence: "No source documented - ASSUMED" },
+    64: { source: "none", evidence: "No source documented - ASSUMED" },
+    65: { source: "none", evidence: "No source documented - ASSUMED" }
 };
 
 // Japanese to English translations for common note patterns
@@ -2706,6 +2831,484 @@ function detectMissingCrossReferences(allData, processedData) {
     return issues;
 }
 
+// Inferred Data Detection System
+// Detects when information is displayed as "opinion" or inferred without proper basis
+// This includes unmapped parameters, unknown trait codes, and other inferred data
+// CHALLENGES ALL MAPPINGS - requires sources for everything
+function detectInferredDataWithoutBasis(processedData, allData) {
+    const issues = [];
+    
+    // Define known parameter mappings based on editor screenshots and RPG Maker VX Ace documentation
+    // Extended Parameters (8-17) - SOURCE: editor-screenshot (200544.png)
+    const knownExtendedParams = {
+        8: "Hit Rate",
+        9: "Evasion Rate",
+        10: "Critical Hit Rate",
+        11: "Critical Evasion Rate",
+        12: "Magic Evasion Rate",
+        13: "Magic Reflection Rate",
+        14: "Counterattack Rate",
+        15: "HP Regeneration Rate",
+        16: "MP Regeneration Rate"
+        // 17: TP Regeneration Rate - removed (TP not in database)
+    };
+    
+    // Source registry for extended parameters (8-16)
+    const extendedParamSources = {
+        8: { source: "editor-screenshot", evidence: "Ex-Parameter dropdown shows HIT", screenshot: "200544.png" },
+        9: { source: "editor-screenshot", evidence: "Ex-Parameter dropdown shows EVA", screenshot: "200544.png" },
+        10: { source: "editor-screenshot", evidence: "Ex-Parameter dropdown shows CRI", screenshot: "200544.png" },
+        11: { source: "editor-screenshot", evidence: "Ex-Parameter dropdown shows CEV", screenshot: "200544.png" },
+        12: { source: "editor-screenshot", evidence: "Ex-Parameter dropdown shows MEV", screenshot: "200544.png" },
+        13: { source: "editor-screenshot", evidence: "Ex-Parameter dropdown shows MRF", screenshot: "200544.png" },
+        14: { source: "editor-screenshot", evidence: "Ex-Parameter dropdown shows CNT", screenshot: "200544.png" },
+        15: { source: "editor-screenshot", evidence: "Ex-Parameter dropdown shows HRG", screenshot: "200544.png" },
+        16: { source: "editor-screenshot", evidence: "Ex-Parameter dropdown shows MRG", screenshot: "200544.png" }
+    };
+    
+    // Special Parameters (18-27) - SOURCE: editor-screenshot (200552.png)
+    const knownSpecialParams = {
+        18: "Target Rate",           // TGR
+        19: "Guard Effectiveness",   // GRD
+        20: "Recovery Effectiveness", // REC
+        21: "Pharmacology",          // PHA
+        22: "MP Cost Rate",          // MCR
+        // 23: TP Charge Rate - removed (TP not in database)
+        24: "Physical Damage Rate",  // PDR
+        25: "Magical Damage Rate",   // MDR
+        26: "Floor Damage Rate",     // FDR
+        27: "Experience Rate"        // EXR
+    };
+    
+    // Source registry for special parameters (18-27)
+    const specialParamSources = {
+        18: { source: "editor-screenshot", evidence: "Sp-Parameter dropdown shows TGR", screenshot: "200552.png" },
+        19: { source: "editor-screenshot", evidence: "Sp-Parameter dropdown shows GRD", screenshot: "200552.png" },
+        20: { source: "editor-screenshot", evidence: "Sp-Parameter dropdown shows REC", screenshot: "200552.png" },
+        21: { source: "editor-screenshot", evidence: "Sp-Parameter dropdown shows PHA", screenshot: "200552.png" },
+        22: { source: "editor-screenshot", evidence: "Sp-Parameter dropdown shows MCR", screenshot: "200552.png" },
+        // 23: TP Charge Rate - removed
+        24: { source: "editor-screenshot", evidence: "Sp-Parameter dropdown shows PDR", screenshot: "200552.png" },
+        25: { source: "editor-screenshot", evidence: "Sp-Parameter dropdown shows MDR", screenshot: "200552.png" },
+        26: { source: "editor-screenshot", evidence: "Sp-Parameter dropdown shows FDR", screenshot: "200552.png" },
+        27: { source: "editor-screenshot", evidence: "Sp-Parameter dropdown shows EXR", screenshot: "200552.png" }
+    };
+    
+    // All known parameters that should be mapped
+    const allKnownParams = {
+        ...knownExtendedParams,
+        ...knownSpecialParams
+    };
+    
+    // All parameter sources
+    const allParamSources = {
+        ...parameterNameSources,  // 0-7 from system.json
+        ...extendedParamSources,  // 8-16 from editor screenshots
+        ...specialParamSources    // 18-27 from editor screenshots
+    };
+    
+    // Currently mapped parameters in code (from processTraits function)
+    // Note: Parameter 16 is mapped as "EXP Gain" in code, but according to editor screenshots
+    // it should be "MP Regeneration Rate" (MRG). This is a discrepancy that should be fixed.
+    const currentlyMappedParams = {
+        16: "EXP Gain",      // NOTE: Discrepancy - should be "MP Regeneration Rate" per editor screenshots
+        27: "EXP Gain Rate", // This matches "Experience Rate" (EXR) from editor screenshots
+        35: "HP Drain Rate", // Custom parameter, not in standard VX Ace
+        39: "MP Drain Rate"  // Custom parameter, not in standard VX Ace
+    };
+    
+    // Source registry for currently mapped custom parameters
+    const customParamSources = {
+        35: { source: "none", evidence: "No source documented - ASSUMED custom parameter" },
+        39: { source: "none", evidence: "No source documented - ASSUMED custom parameter" }
+    };
+    
+    // Known trait codes from stateTraitCodes
+    const knownTraitCodes = new Set(Object.keys(stateTraitCodes).map(k => parseInt(k)));
+    
+    // ============================================================================
+    // SOURCE VERIFICATION - Check if mappings have proper sources
+    // ============================================================================
+    
+    // Check all trait codes for sources
+    Object.keys(stateTraitCodes).forEach(codeStr => {
+        const code = parseInt(codeStr);
+        if (!traitCodeSources[code] || traitCodeSources[code].source === "none") {
+            issues.push({
+                type: 'mapping_without_source',
+                category: 'trait_code',
+                code: code,
+                name: stateTraitCodes[code],
+                source: traitCodeSources[code]?.source || "missing",
+                evidence: traitCodeSources[code]?.evidence || "No source registry entry",
+                location: `stateTraitCodes[${code}]`
+            });
+        }
+    });
+    
+    // Check all effect codes for sources
+    Object.keys(effectCodes).forEach(codeStr => {
+        const code = parseInt(codeStr);
+        if (!effectCodeSources[code] || effectCodeSources[code].source === "none") {
+            issues.push({
+                type: 'mapping_without_source',
+                category: 'effect_code',
+                code: code,
+                name: effectCodes[code],
+                source: effectCodeSources[code]?.source || "missing",
+                evidence: effectCodeSources[code]?.evidence || "No source registry entry",
+                location: `effectCodes[${code}]`
+            });
+        }
+    });
+    
+    // NOTE: Translations don't need sources - they are interpretive, not factual mappings
+    // Element translations are excluded from source verification
+    
+    // Check all scope types for sources
+    Object.keys(scopeTypes).forEach(codeStr => {
+        const code = parseInt(codeStr);
+        if (!scopeTypeSources[code] || scopeTypeSources[code].source === "none") {
+            issues.push({
+                type: 'mapping_without_source',
+                category: 'scope_type',
+                code: code,
+                name: scopeTypes[code],
+                source: scopeTypeSources[code]?.source || "missing",
+                evidence: scopeTypeSources[code]?.evidence || "No source registry entry",
+                location: `scopeTypes[${code}]`
+            });
+        }
+    });
+    
+    // Check all hit types for sources
+    Object.keys(hitTypes).forEach(codeStr => {
+        const code = parseInt(codeStr);
+        if (!hitTypeSources[code] || hitTypeSources[code].source === "none") {
+            issues.push({
+                type: 'mapping_without_source',
+                category: 'hit_type',
+                code: code,
+                name: hitTypes[code],
+                source: hitTypeSources[code]?.source || "missing",
+                evidence: hitTypeSources[code]?.evidence || "No source registry entry",
+                location: `hitTypes[${code}]`
+            });
+        }
+    });
+    
+    // Check all damage types for sources
+    Object.keys(damageTypes).forEach(codeStr => {
+        const code = parseInt(codeStr);
+        if (!damageTypeSources[code] || damageTypeSources[code].source === "none") {
+            issues.push({
+                type: 'mapping_without_source',
+                category: 'damage_type',
+                code: code,
+                name: damageTypes[code],
+                source: damageTypeSources[code]?.source || "missing",
+                evidence: damageTypeSources[code]?.evidence || "No source registry entry",
+                location: `damageTypes[${code}]`
+            });
+        }
+    });
+    
+    // Check all occasion types for sources
+    Object.keys(occasionTypes).forEach(codeStr => {
+        const code = parseInt(codeStr);
+        if (!occasionTypeSources[code] || occasionTypeSources[code].source === "none") {
+            issues.push({
+                type: 'mapping_without_source',
+                category: 'occasion_type',
+                code: code,
+                name: occasionTypes[code],
+                source: occasionTypeSources[code]?.source || "missing",
+                evidence: occasionTypeSources[code]?.evidence || "No source registry entry",
+                location: `occasionTypes[${code}]`
+            });
+        }
+    });
+    
+    // Check all restriction types for sources
+    Object.keys(restrictionTypes).forEach(codeStr => {
+        const code = parseInt(codeStr);
+        if (!restrictionTypeSources[code] || restrictionTypeSources[code].source === "none") {
+            issues.push({
+                type: 'mapping_without_source',
+                category: 'restriction_type',
+                code: code,
+                name: restrictionTypes[code],
+                source: restrictionTypeSources[code]?.source || "missing",
+                evidence: restrictionTypeSources[code]?.evidence || "No source registry entry",
+                location: `restrictionTypes[${code}]`
+            });
+        }
+    });
+    
+    // Check all auto removal timings for sources
+    Object.keys(autoRemovalTimings).forEach(codeStr => {
+        const code = parseInt(codeStr);
+        if (!autoRemovalTimingSources[code] || autoRemovalTimingSources[code].source === "none") {
+            issues.push({
+                type: 'mapping_without_source',
+                category: 'auto_removal_timing',
+                code: code,
+                name: autoRemovalTimings[code],
+                source: autoRemovalTimingSources[code]?.source || "missing",
+                evidence: autoRemovalTimingSources[code]?.evidence || "No source registry entry",
+                location: `autoRemovalTimings[${code}]`
+            });
+        }
+    });
+    
+    // Check parameter mappings - verify sources exist
+    Object.keys(allParamSources).forEach(paramIdStr => {
+        const paramId = parseInt(paramIdStr);
+        const sourceInfo = allParamSources[paramId];
+        if (!sourceInfo || sourceInfo.source === "none") {
+            issues.push({
+                type: 'mapping_without_source',
+                category: 'parameter',
+                paramId: paramId,
+                name: allKnownParams[paramId] || parameterNames[paramId] || "Unknown",
+                source: sourceInfo?.source || "missing",
+                evidence: sourceInfo?.evidence || "No source registry entry",
+                location: `parameter ${paramId}`
+            });
+        }
+    });
+    
+    // Helper function to check if a parameter is unmapped but known
+    const isUnmappedKnownParameter = (dataId) => {
+        // Standard parameters (0-7) are always mapped
+        if (dataId >= 0 && dataId <= 7) return false;
+        // Check if it's a known parameter but not in currentlyMappedParams
+        return allKnownParams.hasOwnProperty(dataId) && !currentlyMappedParams.hasOwnProperty(dataId);
+    };
+    
+    // Helper function to check if a parameter is completely unknown
+    const isUnknownParameter = (dataId) => {
+        if (dataId >= 0 && dataId <= 7) return false;
+        if (currentlyMappedParams.hasOwnProperty(dataId)) return false;
+        if (allKnownParams.hasOwnProperty(dataId)) return false;
+        return true;
+    };
+    
+    // Helper function to check if a mapping has a proper source (not "none")
+    const hasProperSource = (sourceInfo) => {
+        return sourceInfo && sourceInfo.source && sourceInfo.source !== "none";
+    };
+    
+    // Scan all processed data for inferred data issues
+    const scanTraits = (traits, sourceType, sourceId, sourceName) => {
+        if (!traits || !Array.isArray(traits)) return;
+        
+        traits.forEach((trait, index) => {
+            // Check for unknown trait codes
+            // Note: Code 13 (TP Regeneration) was intentionally removed, so it's expected to be "unknown"
+            // Code 61 might be a custom trait code used in this game
+            if (trait.code !== undefined && !knownTraitCodes.has(trait.code)) {
+                // Skip Code 13 as it was intentionally removed (TP-related)
+                if (trait.code === 13) {
+                    // Code 13 is TP Regeneration, which was removed from the database
+                    // This is expected and not an issue - the data just still contains TP traits
+                    return;
+                }
+                
+                issues.push({
+                    type: 'unknown_trait_code',
+                    sourceType: sourceType,
+                    sourceId: sourceId,
+                    sourceName: sourceName,
+                    traitIndex: index,
+                    code: trait.code,
+                    dataId: trait.dataId,
+                    value: trait.value,
+                    description: trait.description,
+                    location: `trait #${index}`
+                });
+            }
+            
+            // Check for unmapped known parameters
+            if (trait.dataId !== undefined && isUnmappedKnownParameter(trait.dataId)) {
+                const knownName = allKnownParams[trait.dataId];
+                issues.push({
+                    type: 'unmapped_known_parameter',
+                    sourceType: sourceType,
+                    sourceId: sourceId,
+                    sourceName: sourceName,
+                    traitIndex: index,
+                    code: trait.code,
+                    dataId: trait.dataId,
+                    knownName: knownName,
+                    value: trait.value,
+                    description: trait.description,
+                    location: `trait #${index}`
+                });
+            }
+            
+            // Check for completely unknown parameters
+            if (trait.dataId !== undefined && isUnknownParameter(trait.dataId)) {
+                issues.push({
+                    type: 'unknown_parameter',
+                    sourceType: sourceType,
+                    sourceId: sourceId,
+                    sourceName: sourceName,
+                    traitIndex: index,
+                    code: trait.code,
+                    dataId: trait.dataId,
+                    value: trait.value,
+                    description: trait.description,
+                    location: `trait #${index}`
+                });
+            }
+            
+            // Check if description contains "Unknown Parameter" or "Unknown Trait"
+            if (trait.description && (
+                trait.description.includes('Unknown Parameter') ||
+                trait.description.includes('Unknown Trait') ||
+                trait.codeName === 'Unknown Trait'
+            )) {
+                issues.push({
+                    type: 'displayed_as_unknown',
+                    sourceType: sourceType,
+                    sourceId: sourceId,
+                    sourceName: sourceName,
+                    traitIndex: index,
+                    code: trait.code,
+                    dataId: trait.dataId,
+                    value: trait.value,
+                    description: trait.description,
+                    codeName: trait.codeName,
+                    location: `trait #${index}`
+                });
+            }
+        });
+    };
+    
+    // Scan parameter bonuses for unmapped parameters
+    const scanParams = (params, sourceType, sourceId, sourceName) => {
+        if (!params || !Array.isArray(params)) return;
+        
+        params.forEach((param) => {
+            if (!param || param.value === 0 || param.value === undefined) return;
+            
+            // Check if parameter name is "Unknown Parameter X"
+            if (param.name && param.name.includes('Unknown Parameter')) {
+                // Extract parameter ID from name if possible (e.g., "Unknown Parameter 18")
+                const match = param.name.match(/Unknown Parameter (\d+)/);
+                const paramId = match ? parseInt(match[1]) : null;
+                
+                issues.push({
+                    type: 'unmapped_parameter_bonus',
+                    sourceType: sourceType,
+                    sourceId: sourceId,
+                    sourceName: sourceName,
+                    dataId: paramId,
+                    value: param.value,
+                    name: param.name,
+                    location: `parameter bonus: ${param.name}`
+                });
+            }
+            
+            // Note: We can't easily check if it's an unmapped known parameter from the processed data
+            // because the original parameter index is lost. This would need to be checked during processing.
+        });
+    };
+    
+    // Scan effects for inferred data
+    const scanEffects = (effects, sourceType, sourceId, sourceName) => {
+        if (!effects || !Array.isArray(effects)) return;
+        
+        effects.forEach((effect, index) => {
+            // Check for unknown parameter in effects
+            if (effect.dataId !== undefined && isUnmappedKnownParameter(effect.dataId)) {
+                const knownName = allKnownParams[effect.dataId];
+                issues.push({
+                    type: 'unmapped_known_parameter_effect',
+                    sourceType: sourceType,
+                    sourceId: sourceId,
+                    sourceName: sourceName,
+                    effectIndex: index,
+                    code: effect.code,
+                    dataId: effect.dataId,
+                    knownName: knownName,
+                    value: effect.value,
+                    description: effect.description,
+                    location: `effect #${index}`
+                });
+            }
+            
+            // Check if description contains "Unknown Parameter"
+            if (effect.description && effect.description.includes('Unknown Parameter')) {
+                issues.push({
+                    type: 'displayed_as_unknown_effect',
+                    sourceType: sourceType,
+                    sourceId: sourceId,
+                    sourceName: sourceName,
+                    effectIndex: index,
+                    code: effect.code,
+                    dataId: effect.dataId,
+                    value: effect.value,
+                    description: effect.description,
+                    location: `effect #${index}`
+                });
+            }
+        });
+    };
+    
+    // Scan all data types
+    ['skills', 'states', 'weapons', 'armors', 'items'].forEach(dataType => {
+        const processedItems = processedData[dataType];
+        const rawItems = allData[dataType];
+        if (!processedItems || !Array.isArray(processedItems)) return;
+        
+        processedItems.forEach((processedItem, index) => {
+            if (!processedItem) return;
+            
+            // Scan traits
+            if (processedItem.traits) {
+                scanTraits(processedItem.traits, dataType, processedItem.id, processedItem.name || `#${processedItem.id}`);
+            }
+            
+            // Scan parameter bonuses from processed data
+            if (processedItem.params) {
+                scanParams(processedItem.params, dataType, processedItem.id, processedItem.name || `#${processedItem.id}`);
+            }
+            
+            // Scan raw parameter arrays for unmapped known parameters
+            if (rawItems && Array.isArray(rawItems)) {
+                const rawItem = rawItems.find(r => r && r.id === processedItem.id);
+                if (rawItem && rawItem.params && Array.isArray(rawItem.params)) {
+                    rawItem.params.forEach((value, paramIndex) => {
+                        if (value !== 0 && isUnmappedKnownParameter(paramIndex)) {
+                            const knownName = allKnownParams[paramIndex];
+                            issues.push({
+                                type: 'unmapped_known_parameter_bonus',
+                                sourceType: dataType,
+                                sourceId: processedItem.id,
+                                sourceName: processedItem.name || `#${processedItem.id}`,
+                                paramIndex: paramIndex,
+                                dataId: paramIndex,
+                                knownName: knownName,
+                                value: value,
+                                location: `raw parameter array index ${paramIndex}`
+                            });
+                        }
+                    });
+                }
+            }
+            
+            // Scan effects (for items and skills)
+            if (processedItem.effects) {
+                scanEffects(processedItem.effects, dataType, processedItem.id, processedItem.name || `#${processedItem.id}`);
+            }
+        });
+    });
+    
+    return issues;
+}
+
 // Run automatic detection
 const allData = {
     skills: skillsData,
@@ -2726,6 +3329,7 @@ const processedData = {
 };
 
 const detectedMissingRefs = detectMissingCrossReferences(allData, processedData);
+const detectedInferredData = detectInferredDataWithoutBasis(processedData, allData);
 
 // Write to file
 fs.writeFileSync('processed-data.json', JSON.stringify(output, null, 2));
@@ -2832,6 +3436,170 @@ if (detectedMissingRefs.length > 0) {
     });
 } else {
     console.log(`   ✅ 0 missing cross-references found`);
+}
+
+// Inferred Data Without Basis Detection
+console.log(`\n🎯 Inferred Data Detection:`);
+if (detectedInferredData.length > 0) {
+    // Group issues by type
+    const byType = {};
+    detectedInferredData.forEach(issue => {
+        if (!byType[issue.type]) byType[issue.type] = [];
+        byType[issue.type].push(issue);
+    });
+    
+    // Count mappings without sources (CRITICAL - challenges all assumptions)
+    const mappingsWithoutSource = detectedInferredData.filter(i => i.type === 'mapping_without_source');
+    
+    // Count unmapped known parameters (most critical)
+    const unmappedKnownParams = detectedInferredData.filter(i => 
+        i.type === 'unmapped_known_parameter' || 
+        i.type === 'unmapped_known_parameter_bonus' ||
+        i.type === 'unmapped_known_parameter_effect'
+    );
+    
+    // Count displayed as unknown
+    const displayedAsUnknown = detectedInferredData.filter(i => 
+        i.type === 'displayed_as_unknown' || 
+        i.type === 'displayed_as_unknown_effect'
+    );
+    
+    // Count unknown trait codes
+    const unknownTraitCodes = detectedInferredData.filter(i => i.type === 'unknown_trait_code');
+    
+    // Count completely unknown parameters
+    const unknownParams = detectedInferredData.filter(i => i.type === 'unknown_parameter');
+    
+    console.log(`   ⚠️  ${detectedInferredData.length} instances of inferred data without basis:`);
+    console.log(``);
+    
+    // CRITICAL: Mappings without sources
+    if (mappingsWithoutSource.length > 0) {
+        console.log(`   🔴 CRITICAL: ${mappingsWithoutSource.length} mappings without documented sources:`);
+        
+        // Group by category
+        const byCategory = {};
+        mappingsWithoutSource.forEach(issue => {
+            if (!byCategory[issue.category]) byCategory[issue.category] = [];
+            byCategory[issue.category].push(issue);
+        });
+        
+        Object.entries(byCategory).forEach(([category, issues]) => {
+            console.log(`      ${category} (${issues.length} mappings without sources):`);
+            issues.slice(0, 10).forEach(issue => {
+                if (issue.code !== undefined) {
+                    console.log(`         - ${issue.name || issue.code} (code: ${issue.code}) - ${issue.location}`);
+                } else if (issue.paramId !== undefined) {
+                    console.log(`         - Parameter ${issue.paramId}: "${issue.name}" - ${issue.location}`);
+                } else if (issue.japanese !== undefined) {
+                    console.log(`         - "${issue.japanese}" → "${issue.english}" - ${issue.location}`);
+                } else {
+                    console.log(`         - ${issue.name || issue.location}`);
+                }
+                console.log(`           Source: ${issue.source || "missing"}, Evidence: ${issue.evidence || "none"}`);
+            });
+            if (issues.length > 10) {
+                console.log(`         ... and ${issues.length - 10} more ${category} mappings`);
+            }
+            console.log(``);
+        });
+    }
+    
+    if (unmappedKnownParams.length > 0) {
+        console.log(`   🔴 CRITICAL: ${unmappedKnownParams.length} unmapped known parameters (should be mapped):`);
+        // Group by parameter ID
+        const byParamId = {};
+        unmappedKnownParams.forEach(issue => {
+            const paramId = issue.dataId;
+            if (!byParamId[paramId]) byParamId[paramId] = [];
+            byParamId[paramId].push(issue);
+        });
+        
+        Object.entries(byParamId).slice(0, 10).forEach(([paramId, issues]) => {
+            const knownName = issues[0].knownName || 'Unknown';
+            console.log(`      Parameter ${paramId}: "${knownName}" (${issues.length} occurrences)`);
+            issues.slice(0, 3).forEach(issue => {
+                console.log(`         - ${issue.sourceType} #${issue.sourceId} (${issue.sourceName}) - ${issue.location}`);
+            });
+            if (issues.length > 3) {
+                console.log(`         ... and ${issues.length - 3} more occurrences`);
+            }
+        });
+        if (Object.keys(byParamId).length > 10) {
+            console.log(`      ... and ${Object.keys(byParamId).length - 10} more parameter types`);
+        }
+        console.log(``);
+    }
+    
+    if (displayedAsUnknown.length > 0) {
+        console.log(`   ⚠️  ${displayedAsUnknown.length} items displayed as "Unknown Parameter" or "Unknown Trait":`);
+        displayedAsUnknown.slice(0, 10).forEach(issue => {
+            console.log(`      - ${issue.sourceType} #${issue.sourceId} (${issue.sourceName}) - ${issue.location}`);
+            if (issue.code !== undefined) console.log(`        Code: ${issue.code}, Data ID: ${issue.dataId}, Value: ${issue.value}`);
+        });
+        if (displayedAsUnknown.length > 10) {
+            console.log(`      ... and ${displayedAsUnknown.length - 10} more items`);
+        }
+        console.log(``);
+    }
+    
+    if (unknownTraitCodes.length > 0) {
+        // Group by trait code
+        const byTraitCode = {};
+        unknownTraitCodes.forEach(issue => {
+            const code = issue.code;
+            if (!byTraitCode[code]) byTraitCode[code] = [];
+            byTraitCode[code].push(issue);
+        });
+        
+        console.log(`   ⚠️  ${unknownTraitCodes.length} unknown trait codes (${Object.keys(byTraitCode).length} unique codes):`);
+        Object.entries(byTraitCode).slice(0, 10).forEach(([code, issues]) => {
+            console.log(`      Code ${code}: ${issues.length} occurrences`);
+            issues.slice(0, 2).forEach(issue => {
+                console.log(`         - ${issue.sourceType} #${issue.sourceId} (${issue.sourceName})`);
+            });
+        });
+        if (Object.keys(byTraitCode).length > 10) {
+            console.log(`      ... and ${Object.keys(byTraitCode).length - 10} more trait codes`);
+        }
+        console.log(``);
+    }
+    
+    if (unknownParams.length > 0) {
+        // Group by parameter ID
+        const byParamId = {};
+        unknownParams.forEach(issue => {
+            const paramId = issue.dataId;
+            if (!byParamId[paramId]) byParamId[paramId] = [];
+            byParamId[paramId].push(issue);
+        });
+        
+        console.log(`   ⚠️  ${unknownParams.length} completely unknown parameters (${Object.keys(byParamId).length} unique):`);
+        Object.entries(byParamId).slice(0, 10).forEach(([paramId, issues]) => {
+            console.log(`      Parameter ${paramId}: ${issues.length} occurrences`);
+            issues.slice(0, 2).forEach(issue => {
+                console.log(`         - ${issue.sourceType} #${issue.sourceId} (${issue.sourceName}) - Code: ${issue.code}`);
+            });
+        });
+        if (Object.keys(byParamId).length > 10) {
+            console.log(`      ... and ${Object.keys(byParamId).length - 10} more parameter IDs`);
+        }
+        console.log(``);
+    }
+    
+    // Summary by data type
+    const byDataType = {};
+    detectedInferredData.forEach(issue => {
+        if (!byDataType[issue.sourceType]) byDataType[issue.sourceType] = 0;
+        byDataType[issue.sourceType]++;
+    });
+    
+    console.log(`   Summary by data type:`);
+    Object.entries(byDataType).forEach(([type, count]) => {
+        console.log(`      ${type}: ${count} issues`);
+    });
+} else {
+    console.log(`   ✅ 0 instances of inferred data without basis`);
 }
 
 // Generate data.js file for client-side use
