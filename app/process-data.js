@@ -14,13 +14,14 @@ const path = require('path');
 // ============================================================================
 
 // Load data files
-const systemData = JSON.parse(fs.readFileSync('original-data/mv-converted/System.json', 'utf8'));
-const statesData = JSON.parse(fs.readFileSync('original-data/mv-converted/States.json', 'utf8'));
-const skillsData = JSON.parse(fs.readFileSync('original-data/mv-converted/Skills.json', 'utf8'));
-const weaponsData = JSON.parse(fs.readFileSync('original-data/mv-converted/Weapons.json', 'utf8'));
-const armorsData = JSON.parse(fs.readFileSync('original-data/mv-converted/Armors.json', 'utf8'));
-const enemiesData = JSON.parse(fs.readFileSync('original-data/mv-converted/Enemies.json', 'utf8'));
-const itemsData = JSON.parse(fs.readFileSync('original-data/mv-converted/Items.json', 'utf8'));
+const dataDir = path.join(__dirname, '..', 'original-data', 'mv-converted');
+const systemData = JSON.parse(fs.readFileSync(path.join(dataDir, 'System.json'), 'utf8'));
+const statesData = JSON.parse(fs.readFileSync(path.join(dataDir, 'States.json'), 'utf8'));
+const skillsData = JSON.parse(fs.readFileSync(path.join(dataDir, 'Skills.json'), 'utf8'));
+const weaponsData = JSON.parse(fs.readFileSync(path.join(dataDir, 'Weapons.json'), 'utf8'));
+const armorsData = JSON.parse(fs.readFileSync(path.join(dataDir, 'Armors.json'), 'utf8'));
+const enemiesData = JSON.parse(fs.readFileSync(path.join(dataDir, 'Enemies.json'), 'utf8'));
+const itemsData = JSON.parse(fs.readFileSync(path.join(dataDir, 'Items.json'), 'utf8'));
 
 // Translate Japanese element names to English
 const elementTranslations = {
@@ -3332,7 +3333,7 @@ const detectedMissingRefs = detectMissingCrossReferences(allData, processedData)
 const detectedInferredData = detectInferredDataWithoutBasis(processedData, allData);
 
 // Write to file
-fs.writeFileSync('processed-data.json', JSON.stringify(output, null, 2));
+fs.writeFileSync(path.join(__dirname, 'processed-data.json'), JSON.stringify(output, null, 2));
 // Processed items (no verbose logging)
 
 // Summary: Count untranslated items
@@ -3609,5 +3610,5 @@ const weaponsData = ${JSON.stringify({ weapons: processedWeapons }, null, 2)};
 const armorsData = ${JSON.stringify({ armors: processedArmors }, null, 2)};
 const enemiesData = ${JSON.stringify({ enemies: processedEnemies }, null, 2)};
 const itemsData = ${JSON.stringify({ items: processedItems }, null, 2)};`;
-fs.writeFileSync('data.js', dataJsContent);
+fs.writeFileSync(path.join(__dirname, 'data.js'), dataJsContent);
 
