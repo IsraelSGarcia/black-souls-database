@@ -1686,42 +1686,19 @@ function processTraits(traits, statesData) {
         };
         
         // Generate readable descriptions based on trait code
-        // NOTE: Code 11 can be either HP Regeneration OR Element Rate depending on dataId
-        // If dataId corresponds to an element, it's Element Rate; otherwise it's HP Regeneration
         if (trait.code === 11) {
-            // Check if dataId is an element (element IDs start from 0, but element 0 is empty)
-            // If elements[trait.dataId] exists and is not empty, it's an Element Rate
-            const elementName = elements[trait.dataId] || "";
-            if (elementName && elementName.trim() !== "") {
-                // This is Element Rate (code 11 is used for Element Rate in this game)
-                traitInfo.codeName = "Element Rate";
-                if (trait.value === 0) {
-                    traitInfo.description = `Immune to ${elementName} damage`;
-                } else if (trait.value < 1) {
-                    // Resistance: takes less damage
-                    const damagePercent = Math.round(trait.value * 100);
-                    traitInfo.description = `Takes ${damagePercent}% ${elementName} damage (reduced)`;
-                } else if (trait.value > 1) {
-                    // Weakness: takes more damage
-                    const damagePercent = Math.round(trait.value * 100);
-                    traitInfo.description = `Takes ${damagePercent}% ${elementName} damage (increased)`;
+            // HP Regeneration
+            const percent = Math.round(trait.value * 100);
+            if (percent > 0) {
+                if (percent >= 100) {
+                    traitInfo.description = `Heals ${percent}% of maximum HP each turn (fully heals)`;
                 } else {
-                    traitInfo.description = `Takes normal ${elementName} damage`;
+                    traitInfo.description = `Heals ${percent}% of maximum HP each turn`;
                 }
+            } else if (percent === 0) {
+                traitInfo.description = `No HP regeneration`;
             } else {
-                // This is HP Regeneration (standard behavior)
-                const percent = Math.round(trait.value * 100);
-                if (percent > 0) {
-                    if (percent >= 100) {
-                        traitInfo.description = `Heals ${percent}% of maximum HP each turn (fully heals)`;
-                    } else {
-                        traitInfo.description = `Heals ${percent}% of maximum HP each turn`;
-                    }
-                } else if (percent === 0) {
-                    traitInfo.description = `No HP regeneration`;
-                } else {
-                    traitInfo.description = `Loses ${Math.abs(percent)}% of maximum HP each turn`;
-                }
+                traitInfo.description = `Loses ${Math.abs(percent)}% of maximum HP each turn`;
             }
         } else if (trait.code === 12) { // MP Regeneration
             const percent = Math.round(trait.value * 100);

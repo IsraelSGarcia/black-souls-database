@@ -100,10 +100,9 @@ The application processes data from RPG Maker VX Ace and MV game files. The data
 
 #### Processing MV Data
 ```bash
-cd app
-npm run process-data
+npm run process-data --prefix app
 # or
-node process-data.js
+node app/process-data.js
 ```
 
 This will:
@@ -115,10 +114,9 @@ This will:
 
 #### Processing VX Ace Data
 ```bash
-cd app
-npm run process-vx-ace-data
+npm run process-vx-ace-data --prefix app
 # or
-node process-vx-ace-data.js
+node app/process-vx-ace-data.js
 ```
 
 This will:
@@ -184,8 +182,7 @@ To add translations for new Japanese text:
 
 3. **Run the script** to see warnings for any remaining untranslated content:
    ```bash
-   cd app
-   node process-data.js
+   node app/process-data.js
    ```
 
 The system will automatically detect and report any remaining Japanese text, making it easy to identify what needs translation.
@@ -297,8 +294,7 @@ The project uses multiple data sources for verification:
 
 Install dependencies:
 ```bash
-cd app
-npm install
+npm install --prefix app
 ```
 
 ## Development
@@ -307,32 +303,83 @@ npm install
 1. Clone the repository
 2. Install dependencies:
    ```bash
-   cd app
-   npm install
+   npm install --prefix app
    ```
 3. Place game data files in `original-data/` directory:
    - VX Ace files (`.rvdata2`) in `original-data/vx-ace/`
    - MV files (JSON) in `original-data/mv-converted/`
 
+### Deployment
+
+#### GitHub Pages Deployment
+
+The application can be deployed to GitHub Pages using one of the following methods:
+
+**Option 1: GitHub Actions (Recommended)**
+
+1. Go to your repository on GitHub
+2. Click **"Settings" → "Pages"**
+3. Under **"Source"**, select **"GitHub Actions"** (NOT "Deploy from a branch")
+4. Save the settings
+5. Go to **"Actions"** tab and check if the workflow ran
+   - If it hasn't run, manually trigger it: Actions → "Deploy to GitHub Pages" → "Run workflow"
+6. Wait for the workflow to complete (usually 1-2 minutes)
+7. Your site should be live at `https://[your-username].github.io/black-souls-database/`
+
+**Option 2: Deploy from Root Folder**
+
+If GitHub Actions isn't working, you can configure GitHub Pages to serve from the root:
+
+1. Copy files to root (run this once):
+   ```bash
+   cp -r app/* .
+   cp app/.nojekyll . 2>/dev/null || touch .nojekyll
+   ```
+
+2. Commit and push:
+   ```bash
+   git add .
+   git commit -m "Deploy to root for GitHub Pages"
+   git push
+   ```
+
+3. Configure GitHub Pages:
+   - Go to Settings → Pages
+   - Source: Select "Deploy from a branch"
+   - Branch: Select "main" (or "master")
+   - Folder: Select "/ (root)"
+   - Save
+
+**Troubleshooting:**
+- **404 Error**: Make sure GitHub Pages source is set correctly
+- **Files not updating**: Clear browser cache or wait a few minutes
+- **Workflow not running**: Check the "Actions" tab for errors
+- **Still not working**: Make sure `.nojekyll` file exists in the deployment directory
+
 ### Processing Data
 1. **Convert VX Ace files** (if needed):
    ```bash
-   cd app
-   npm run process-vx-ace-data
+   npm run process-vx-ace-data --prefix app
+   # or
+   node app/process-vx-ace-data.js
    ```
 
 2. **Process MV data**:
    ```bash
-   cd app
-   npm run process-data
+   npm run process-data --prefix app
+   # or
+   node app/process-data.js
    ```
 
 3. **Open the application**:
-   - Open `app/index.html` in your web browser
-   - Or use a local server (recommended for development):
+   - Open `app/index.html` in your web browser (works directly, no server needed)
+   - For development, you can use any local server:
      ```bash
-     cd app
-     npm start  # If server.js exists
+     # Using Python
+     python -m http.server 8000 --directory app
+     
+     # Using Node.js http-server
+     npx http-server app -p 8000
      ```
 
 ### Contributing

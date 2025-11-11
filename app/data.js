@@ -64176,10 +64176,10 @@ const statesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 18,
           "value": 1.5,
-          "description": "Takes 150% Poison Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "motion": 0,
@@ -64224,10 +64224,10 @@ const statesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 18,
           "value": 1.5,
-          "description": "Takes 150% Poison Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "motion": 0,
@@ -64304,10 +64304,10 @@ const statesData = {
       "traits": [
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 21,
@@ -64361,10 +64361,10 @@ const statesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 8,
           "value": 9,
-          "description": "Takes 900% Sleep Bonus damage (increased)"
+          "description": "Heals 900% of maximum HP each turn (fully heals)"
         }
       ],
       "motion": 0,
@@ -64529,10 +64529,10 @@ const statesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 16,
           "value": 5,
-          "description": "Takes 500% Vulnerable Bonus damage (increased)"
+          "description": "Heals 500% of maximum HP each turn (fully heals)"
         }
       ],
       "motion": 0,
@@ -64697,10 +64697,10 @@ const statesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 16,
           "value": 5,
-          "description": "Takes 500% Vulnerable Bonus damage (increased)"
+          "description": "Heals 500% of maximum HP each turn (fully heals)"
         }
       ],
       "motion": 0,
@@ -65008,10 +65008,10 @@ const statesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 15,
           "value": 2,
-          "description": "Takes 200% Stun x2 damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         }
       ],
       "motion": 0,
@@ -65969,10 +65969,10 @@ const statesData = {
       "traits": [
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 11,
           "value": 2,
-          "description": "Takes 200% Bleed x2 damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -67253,10 +67253,10 @@ const statesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 1,
           "value": 0.5,
-          "description": "Takes 50% Physical damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 13,
@@ -71977,10 +71977,10 @@ const statesData = {
       "traits": [
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "motion": 0,
@@ -72018,10 +72018,10 @@ const statesData = {
       "traits": [
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "motion": 0,
@@ -72059,10 +72059,10 @@ const statesData = {
       "traits": [
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "motion": 0,
@@ -72100,10 +72100,10 @@ const statesData = {
       "traits": [
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "motion": 0,
@@ -72528,10 +72528,10 @@ const statesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 8,
           "value": 9,
-          "description": "Takes 900% Sleep Bonus damage (increased)"
+          "description": "Heals 900% of maximum HP each turn (fully heals)"
         }
       ],
       "motion": 0,
@@ -73226,10 +73226,10 @@ const statesData = {
       "traits": [
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 1.5,
-          "description": "Takes 150% Ice damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 21,
@@ -74753,10 +74753,10 @@ const statesData = {
       "traits": [
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 2,
-          "description": "Takes 200% Dark damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -78228,38 +78228,38 @@ const statesData = {
       "traits": [
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 2,
-          "description": "Takes 200% Fire damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 2,
-          "description": "Takes 200% Ice damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 2,
-          "description": "Takes 200% Lightning damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 2,
-          "description": "Takes 200% Light damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 2,
-          "description": "Takes 200% Dark damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -87102,10 +87102,10 @@ const weaponsData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 1,
           "value": 0.95,
-          "description": "Takes 95% Physical damage (reduced)"
+          "description": "Heals 95% of maximum HP each turn"
         },
         {
           "code": 32,
@@ -87156,10 +87156,10 @@ const weaponsData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 1,
           "value": 0.9,
-          "description": "Takes 90% Physical damage (reduced)"
+          "description": "Heals 90% of maximum HP each turn"
         },
         {
           "code": 32,
@@ -87210,10 +87210,10 @@ const weaponsData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 1,
           "value": 0.85,
-          "description": "Takes 85% Physical damage (reduced)"
+          "description": "Heals 85% of maximum HP each turn"
         },
         {
           "code": 32,
@@ -87264,10 +87264,10 @@ const weaponsData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 1,
           "value": 0.8,
-          "description": "Takes 80% Physical damage (reduced)"
+          "description": "Heals 80% of maximum HP each turn"
         },
         {
           "code": 32,
@@ -87318,10 +87318,10 @@ const weaponsData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 1,
           "value": 0.75,
-          "description": "Takes 75% Physical damage (reduced)"
+          "description": "Heals 75% of maximum HP each turn"
         },
         {
           "code": 32,
@@ -87372,10 +87372,10 @@ const weaponsData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 1,
           "value": 0.7,
-          "description": "Takes 70% Physical damage (reduced)"
+          "description": "Heals 70% of maximum HP each turn"
         },
         {
           "code": 32,
@@ -87426,10 +87426,10 @@ const weaponsData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 1,
           "value": 0.65,
-          "description": "Takes 65% Physical damage (reduced)"
+          "description": "Heals 65% of maximum HP each turn"
         },
         {
           "code": 32,
@@ -87480,10 +87480,10 @@ const weaponsData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 1,
           "value": 0.6,
-          "description": "Takes 60% Physical damage (reduced)"
+          "description": "Heals 60% of maximum HP each turn"
         },
         {
           "code": 32,
@@ -87534,10 +87534,10 @@ const weaponsData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 1,
           "value": 0.55,
-          "description": "Takes 55% Physical damage (reduced)"
+          "description": "Heals 55% of maximum HP each turn"
         },
         {
           "code": 32,
@@ -87588,10 +87588,10 @@ const weaponsData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 1,
           "value": 0.5,
-          "description": "Takes 50% Physical damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 32,
@@ -87649,10 +87649,10 @@ const weaponsData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 1,
           "value": 0.45,
-          "description": "Takes 45% Physical damage (reduced)"
+          "description": "Heals 45% of maximum HP each turn"
         },
         {
           "code": 32,
@@ -100078,10 +100078,10 @@ const armorsData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0.2,
-          "description": "Takes 20% Fire damage (reduced)"
+          "description": "Heals 20% of maximum HP each turn"
         },
         {
           "code": 22,
@@ -100784,10 +100784,10 @@ const armorsData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0.75,
-          "description": "Takes 75% Fire damage (reduced)"
+          "description": "Heals 75% of maximum HP each turn"
         },
         {
           "code": 13,
@@ -101145,10 +101145,10 @@ const armorsData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0.75,
-          "description": "Takes 75% Fire damage (reduced)"
+          "description": "Heals 75% of maximum HP each turn"
         },
         {
           "code": 13,
@@ -102290,10 +102290,10 @@ const armorsData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0.5,
-          "description": "Takes 50% Fire damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 13,
@@ -102343,10 +102343,10 @@ const armorsData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 0.5,
-          "description": "Takes 50% Lightning damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 23,
@@ -102435,10 +102435,10 @@ const armorsData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 23,
@@ -102481,10 +102481,10 @@ const armorsData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.5,
-          "description": "Takes 50% Light damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 23,
@@ -102612,38 +102612,38 @@ const armorsData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0.75,
-          "description": "Takes 75% Fire damage (reduced)"
+          "description": "Heals 75% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 0.75,
-          "description": "Takes 75% Ice damage (reduced)"
+          "description": "Heals 75% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 0.75,
-          "description": "Takes 75% Lightning damage (reduced)"
+          "description": "Heals 75% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.75,
-          "description": "Takes 75% Light damage (reduced)"
+          "description": "Heals 75% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.75,
-          "description": "Takes 75% Dark damage (reduced)"
+          "description": "Heals 75% of maximum HP each turn"
         },
         {
           "code": 23,
@@ -103760,10 +103760,10 @@ const armorsData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 1,
           "value": 0.8,
-          "description": "Takes 80% Physical damage (reduced)"
+          "description": "Heals 80% of maximum HP each turn"
         }
       ],
       "note": {
@@ -103792,10 +103792,10 @@ const armorsData = {
       "traits": [
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0.5,
-          "description": "Takes 50% Fire damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         }
       ],
       "note": {
@@ -103824,10 +103824,10 @@ const armorsData = {
       "traits": [
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 0.5,
-          "description": "Takes 50% Lightning damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         }
       ],
       "note": {
@@ -103856,10 +103856,10 @@ const armorsData = {
       "traits": [
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         }
       ],
       "note": {
@@ -104392,10 +104392,10 @@ const armorsData = {
       "traits": [
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 17,
           "value": 0,
-          "description": "Immune to Fall damage"
+          "description": "No HP regeneration"
         }
       ],
       "note": {
@@ -105630,10 +105630,10 @@ const armorsData = {
       "traits": [
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.5,
-          "description": "Takes 50% Light damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         }
       ],
       "note": {
@@ -105809,31 +105809,31 @@ const armorsData = {
       "traits": [
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0.8,
-          "description": "Takes 80% Fire damage (reduced)"
+          "description": "Heals 80% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 0.8,
-          "description": "Takes 80% Lightning damage (reduced)"
+          "description": "Heals 80% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.8,
-          "description": "Takes 80% Light damage (reduced)"
+          "description": "Heals 80% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.8,
-          "description": "Takes 80% Dark damage (reduced)"
+          "description": "Heals 80% of maximum HP each turn"
         }
       ],
       "note": {
@@ -107231,10 +107231,10 @@ const armorsData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -107946,10 +107946,10 @@ const armorsData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 1,
           "value": 0.75,
-          "description": "Takes 75% Physical damage (reduced)"
+          "description": "Heals 75% of maximum HP each turn"
         }
       ],
       "note": {
@@ -107985,10 +107985,10 @@ const armorsData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 1,
           "value": 0.7,
-          "description": "Takes 70% Physical damage (reduced)"
+          "description": "Heals 70% of maximum HP each turn"
         }
       ],
       "note": {
@@ -108024,10 +108024,10 @@ const armorsData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 1,
           "value": 0.65,
-          "description": "Takes 65% Physical damage (reduced)"
+          "description": "Heals 65% of maximum HP each turn"
         }
       ],
       "note": {
@@ -109793,10 +109793,10 @@ const armorsData = {
       "traits": [
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 0.5,
-          "description": "Takes 50% Ice damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         }
       ],
       "note": {
@@ -109948,10 +109948,10 @@ const armorsData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 0.8,
-          "description": "Takes 80% Ice damage (reduced)"
+          "description": "Heals 80% of maximum HP each turn"
         }
       ],
       "note": {
@@ -109994,10 +109994,10 @@ const armorsData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 0.7,
-          "description": "Takes 70% Ice damage (reduced)"
+          "description": "Heals 70% of maximum HP each turn"
         },
         {
           "code": 22,
@@ -110047,10 +110047,10 @@ const armorsData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 0.8,
-          "description": "Takes 80% Ice damage (reduced)"
+          "description": "Heals 80% of maximum HP each turn"
         },
         {
           "code": 22,
@@ -110093,10 +110093,10 @@ const armorsData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 1.5,
-          "description": "Takes 150% Ice damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "note": {
@@ -110701,10 +110701,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.2,
-          "description": "Takes 120% Light damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -110815,10 +110815,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.2,
-          "description": "Takes 120% Light damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -111070,17 +111070,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.2,
-          "description": "Takes 120% Fire damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -111177,17 +111177,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.2,
-          "description": "Takes 120% Fire damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -111291,17 +111291,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.2,
-          "description": "Takes 120% Fire damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -111391,10 +111391,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.2,
-          "description": "Takes 120% Light damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -111506,10 +111506,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.2,
-          "description": "Takes 120% Light damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -111651,10 +111651,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -111775,10 +111775,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.2,
-          "description": "Takes 120% Fire damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -111789,10 +111789,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -112228,17 +112228,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.2,
-          "description": "Takes 120% Lightning damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -112435,17 +112435,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.2,
-          "description": "Takes 120% Fire damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -112550,17 +112550,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.2,
-          "description": "Takes 120% Fire damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 61,
@@ -112686,17 +112686,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.2,
-          "description": "Takes 120% Fire damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -112794,17 +112794,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.2,
-          "description": "Takes 120% Fire damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -112901,10 +112901,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.2,
-          "description": "Takes 120% Light damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -113109,10 +113109,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -113209,10 +113209,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -113338,10 +113338,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -113497,10 +113497,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -113675,17 +113675,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -113775,10 +113775,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -113897,10 +113897,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -113997,10 +113997,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -114105,10 +114105,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -114213,10 +114213,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -114335,10 +114335,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -114451,17 +114451,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -114582,10 +114582,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -114699,10 +114699,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -114814,10 +114814,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -114929,10 +114929,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 2,
-          "description": "Takes 200% Fire damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -115053,10 +115053,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -115384,10 +115384,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -115505,10 +115505,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -115621,10 +115621,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -115722,10 +115722,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -115822,10 +115822,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -115922,10 +115922,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -116043,10 +116043,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -116122,10 +116122,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -116157,10 +116157,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -116273,17 +116273,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.2,
-          "description": "Takes 120% Fire damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -116394,10 +116394,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 61,
@@ -116502,10 +116502,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 61,
@@ -116820,10 +116820,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 61,
@@ -117112,10 +117112,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -117245,10 +117245,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -117345,10 +117345,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 61,
@@ -117366,10 +117366,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -117568,10 +117568,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -117675,17 +117675,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -117789,10 +117789,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -117889,10 +117889,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -118005,17 +118005,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -118134,10 +118134,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -118249,10 +118249,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -118372,10 +118372,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -118480,10 +118480,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -118595,10 +118595,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -118703,17 +118703,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -118947,17 +118947,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         }
       ],
       "actions": [
@@ -119068,17 +119068,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 14,
@@ -119182,17 +119182,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -119325,10 +119325,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -119490,10 +119490,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -119620,17 +119620,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.2,
-          "description": "Takes 120% Fire damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -119742,17 +119742,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.2,
-          "description": "Takes 120% Fire damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -119864,17 +119864,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.2,
-          "description": "Takes 120% Fire damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -119986,17 +119986,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.2,
-          "description": "Takes 120% Fire damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -120115,17 +120115,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.2,
-          "description": "Takes 120% Fire damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -120257,10 +120257,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.2,
-          "description": "Takes 120% Fire damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -120357,10 +120357,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.2,
-          "description": "Takes 120% Fire damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -120457,10 +120457,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.2,
-          "description": "Takes 120% Fire damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -120550,10 +120550,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -120752,10 +120752,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -120996,10 +120996,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -121112,10 +121112,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -121219,10 +121219,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -121341,10 +121341,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -121449,10 +121449,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -121570,10 +121570,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -121725,10 +121725,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -121841,17 +121841,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -121970,10 +121970,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -122101,10 +122101,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -122239,10 +122239,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -122364,17 +122364,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -122472,17 +122472,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -122580,17 +122580,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -122701,17 +122701,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 0.5,
-          "description": "Takes 50% Ice damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 22,
@@ -122837,17 +122837,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 0.5,
-          "description": "Takes 50% Ice damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 22,
@@ -122980,17 +122980,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 0.5,
-          "description": "Takes 50% Ice damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 13,
@@ -123131,10 +123131,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -123646,10 +123646,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -123798,10 +123798,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -123914,10 +123914,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -124049,17 +124049,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         }
       ],
       "actions": [
@@ -124173,10 +124173,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -124337,10 +124337,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -124486,10 +124486,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -124595,10 +124595,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -124741,17 +124741,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 32,
@@ -124856,10 +124856,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -124963,10 +124963,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -125070,10 +125070,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 14,
@@ -125309,10 +125309,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -125423,10 +125423,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -125532,10 +125532,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -125625,10 +125625,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -125747,17 +125747,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -125861,17 +125861,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -125984,10 +125984,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -126091,10 +126091,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -126199,10 +126199,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -126299,10 +126299,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -126413,10 +126413,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -126513,10 +126513,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -126628,10 +126628,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -126772,10 +126772,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -126894,10 +126894,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -127039,17 +127039,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0.5,
-          "description": "Takes 50% Fire damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -127185,10 +127185,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -127317,17 +127317,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.2,
-          "description": "Takes 120% Fire damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -127439,10 +127439,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -127578,10 +127578,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -127737,10 +127737,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -127765,10 +127765,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -128030,10 +128030,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 61,
@@ -128072,10 +128072,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -128231,17 +128231,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 61,
@@ -128280,10 +128280,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -128467,17 +128467,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -128619,17 +128619,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -128640,10 +128640,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 1,
           "value": 0.5,
-          "description": "Takes 50% Physical damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         }
       ],
       "actions": [
@@ -128762,17 +128762,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -128783,10 +128783,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 1,
           "value": 0.5,
-          "description": "Takes 50% Physical damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 61,
@@ -128944,17 +128944,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 61,
@@ -129106,10 +129106,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -129206,17 +129206,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -129360,17 +129360,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -129514,17 +129514,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -129656,45 +129656,45 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.5,
-          "description": "Takes 50% Light damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 0.5,
-          "description": "Takes 50% Ice damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0.5,
-          "description": "Takes 50% Fire damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 0.5,
-          "description": "Takes 50% Lightning damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 61,
@@ -129863,10 +129863,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 61,
@@ -129985,17 +129985,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -130149,17 +130149,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -130302,17 +130302,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -130437,17 +130437,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -130627,17 +130627,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -130832,10 +130832,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.3,
-          "description": "Takes 30% Light damage (reduced)"
+          "description": "Heals 30% of maximum HP each turn"
         }
       ],
       "actions": [
@@ -131011,10 +131011,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.3,
-          "description": "Takes 30% Light damage (reduced)"
+          "description": "Heals 30% of maximum HP each turn"
         }
       ],
       "actions": [
@@ -131176,10 +131176,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -131197,10 +131197,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -131313,10 +131313,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 63,
@@ -131341,10 +131341,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -131513,10 +131513,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 63,
@@ -131541,10 +131541,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -131665,10 +131665,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -131751,10 +131751,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 63,
@@ -131779,10 +131779,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -131932,10 +131932,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -132033,10 +132033,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -132149,10 +132149,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -132163,10 +132163,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0.5,
-          "description": "Takes 50% Fire damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 23,
@@ -132318,10 +132318,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -132411,10 +132411,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -132504,10 +132504,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -132597,10 +132597,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 63,
@@ -132618,10 +132618,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -132795,10 +132795,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 63,
@@ -132816,10 +132816,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -132971,10 +132971,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 63,
@@ -132992,10 +132992,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -133183,10 +133183,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 63,
@@ -133204,10 +133204,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -133225,10 +133225,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0.5,
-          "description": "Takes 50% Fire damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 61,
@@ -133426,10 +133426,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -133461,10 +133461,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -133592,10 +133592,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -133634,10 +133634,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -133781,10 +133781,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -133925,10 +133925,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 13,
@@ -133946,10 +133946,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -134078,17 +134078,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -134238,17 +134238,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 0.5,
-          "description": "Takes 50% Lightning damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -134391,10 +134391,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0.5,
-          "description": "Takes 50% Fire damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 22,
@@ -134405,10 +134405,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -134537,10 +134537,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 63,
@@ -134565,17 +134565,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.5,
-          "description": "Takes 50% Light damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 22,
@@ -134728,10 +134728,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 63,
@@ -134931,10 +134931,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 12,
@@ -135135,10 +135135,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -135658,17 +135658,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.5,
-          "description": "Takes 50% Light damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -135883,17 +135883,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 2,
-          "description": "Takes 200% Light damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 32,
@@ -136099,10 +136099,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 2,
-          "description": "Takes 200% Beast Bonus damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 63,
@@ -136376,10 +136376,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 2,
-          "description": "Takes 200% Beast Bonus damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [],
@@ -136530,10 +136530,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 2,
-          "description": "Takes 200% Beast Bonus damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [],
@@ -136684,10 +136684,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 2,
-          "description": "Takes 200% Beast Bonus damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [],
@@ -136775,10 +136775,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -136928,10 +136928,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -136942,10 +136942,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -137082,17 +137082,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.2,
-          "description": "Takes 120% Fire damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 14,
@@ -137247,17 +137247,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.2,
-          "description": "Takes 120% Lightning damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -137458,10 +137458,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -137479,10 +137479,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -137580,10 +137580,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -137601,10 +137601,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -137718,10 +137718,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -137739,10 +137739,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -137881,17 +137881,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -138031,17 +138031,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -138167,10 +138167,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -138295,10 +138295,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -138423,10 +138423,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -138465,10 +138465,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -138574,10 +138574,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -139419,10 +139419,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -139454,10 +139454,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         }
       ],
       "actions": [
@@ -139609,10 +139609,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -139644,10 +139644,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         }
       ],
       "actions": [
@@ -139783,10 +139783,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 13,
@@ -139804,10 +139804,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -139973,10 +139973,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 13,
@@ -139994,10 +139994,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -140139,17 +140139,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 0.5,
-          "description": "Takes 50% Lightning damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 13,
@@ -140167,10 +140167,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0.5,
-          "description": "Takes 50% Fire damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 32,
@@ -140181,10 +140181,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 13,
@@ -140209,10 +140209,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 1.5,
-          "description": "Takes 150% Ice damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -140388,17 +140388,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 0.5,
-          "description": "Takes 50% Lightning damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 13,
@@ -140416,10 +140416,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0.5,
-          "description": "Takes 50% Fire damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 32,
@@ -140437,10 +140437,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 61,
@@ -140465,10 +140465,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 1.5,
-          "description": "Takes 150% Ice damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -140628,17 +140628,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.5,
-          "description": "Takes 50% Light damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -140656,10 +140656,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 22,
@@ -140855,17 +140855,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.5,
-          "description": "Takes 50% Light damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -140883,10 +140883,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 22,
@@ -141089,17 +141089,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -141131,17 +141131,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 14,
           "value": 5,
-          "description": "Takes 500% Jabberwock Bonus damage (increased)"
+          "description": "Heals 500% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 1.5,
-          "description": "Takes 150% Ice damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -141300,17 +141300,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -141356,17 +141356,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 14,
           "value": 5,
-          "description": "Takes 500% Jabberwock Bonus damage (increased)"
+          "description": "Heals 500% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 1.5,
-          "description": "Takes 150% Ice damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -141531,10 +141531,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -141705,10 +141705,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -141866,10 +141866,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -142022,10 +142022,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.2,
-          "description": "Takes 120% Light damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -142151,10 +142151,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.2,
-          "description": "Takes 120% Light damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -142280,10 +142280,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.2,
-          "description": "Takes 120% Light damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -142409,10 +142409,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.2,
-          "description": "Takes 120% Light damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -142538,10 +142538,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.2,
-          "description": "Takes 120% Dark damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 61,
@@ -142559,10 +142559,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -142706,17 +142706,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.2,
-          "description": "Takes 120% Fire damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -142843,17 +142843,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0.1,
-          "description": "Takes 10% Fire damage (reduced)"
+          "description": "Heals 10% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -142996,17 +142996,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.2,
-          "description": "Takes 120% Lightning damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -143112,10 +143112,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 1,
           "value": 0.5,
-          "description": "Takes 50% Physical damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 13,
@@ -143299,17 +143299,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.2,
-          "description": "Takes 120% Fire damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -143473,17 +143473,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.2,
-          "description": "Takes 120% Fire damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 14,
@@ -143663,17 +143663,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.2,
-          "description": "Takes 120% Fire damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 14,
@@ -143888,10 +143888,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -144002,10 +144002,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -144216,10 +144216,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 5,
-          "description": "Takes 500% Fire damage (increased)"
+          "description": "Heals 500% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -144358,10 +144358,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -144547,10 +144547,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -144760,10 +144760,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -145018,10 +145018,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -145300,10 +145300,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -146174,10 +146174,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 1.5,
-          "description": "Takes 150% Ice damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -146583,17 +146583,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.5,
-          "description": "Takes 50% Light damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -146836,17 +146836,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.3,
-          "description": "Takes 30% Light damage (reduced)"
+          "description": "Heals 30% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 63,
@@ -147072,17 +147072,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.3,
-          "description": "Takes 30% Dark damage (reduced)"
+          "description": "Heals 30% of maximum HP each turn"
         },
         {
           "code": 63,
@@ -147266,10 +147266,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 2,
-          "description": "Takes 200% Lightning damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -147383,10 +147383,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -147618,10 +147618,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 2,
-          "description": "Takes 200% Lightning damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -147718,10 +147718,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 2,
-          "description": "Takes 200% Lightning damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -147846,10 +147846,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 2,
-          "description": "Takes 200% Lightning damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -149170,10 +149170,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 2,
-          "description": "Takes 200% Lightning damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 12,
@@ -149406,10 +149406,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 2,
-          "description": "Takes 200% Lightning damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 12,
@@ -149544,10 +149544,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 2,
-          "description": "Takes 200% Lightning damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -149811,17 +149811,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -149949,10 +149949,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -150136,31 +150136,31 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 0,
-          "description": "Immune to Lightning damage"
+          "description": "No HP regeneration"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0,
-          "description": "Immune to Fire damage"
+          "description": "No HP regeneration"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0,
-          "description": "Immune to Light damage"
+          "description": "No HP regeneration"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0,
-          "description": "Immune to Dark damage"
+          "description": "No HP regeneration"
         },
         {
           "code": 61,
@@ -150304,10 +150304,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -150448,10 +150448,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -150790,10 +150790,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 2,
-          "description": "Takes 200% Lightning damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -150963,17 +150963,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0,
-          "description": "Immune to Light damage"
+          "description": "No HP regeneration"
         },
         {
           "code": 22,
@@ -151120,10 +151120,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 2,
-          "description": "Takes 200% Lightning damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -151242,10 +151242,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 2,
-          "description": "Takes 200% Lightning damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -151342,10 +151342,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 2,
-          "description": "Takes 200% Lightning damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 61,
@@ -151456,10 +151456,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 2,
-          "description": "Takes 200% Lightning damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -151570,10 +151570,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 2,
-          "description": "Takes 200% Lightning damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -151691,10 +151691,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 2,
-          "description": "Takes 200% Lightning damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -151805,17 +151805,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 61,
@@ -151991,17 +151991,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 61,
@@ -152183,17 +152183,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.01,
-          "description": "Takes 1% Light damage (reduced)"
+          "description": "Heals 1% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 61,
@@ -152424,17 +152424,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.01,
-          "description": "Takes 1% Light damage (reduced)"
+          "description": "Heals 1% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 61,
@@ -152673,17 +152673,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 2,
-          "description": "Takes 200% Fire damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 2,
-          "description": "Takes 200% Light damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -152774,10 +152774,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 2,
-          "description": "Takes 200% Fire damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 63,
@@ -152802,10 +152802,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -152851,24 +152851,24 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.5,
-          "description": "Takes 50% Light damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 1,
           "value": 0.5,
-          "description": "Takes 50% Physical damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 12,
@@ -153045,10 +153045,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 2,
-          "description": "Takes 200% Fire damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 63,
@@ -153073,10 +153073,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -153122,24 +153122,24 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.5,
-          "description": "Takes 50% Light damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 1,
           "value": 0.5,
-          "description": "Takes 50% Physical damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 12,
@@ -153353,17 +153353,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0.9,
-          "description": "Takes 90% Fire damage (reduced)"
+          "description": "Heals 90% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -153517,17 +153517,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -153559,17 +153559,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 14,
           "value": 5,
-          "description": "Takes 500% Jabberwock Bonus damage (increased)"
+          "description": "Heals 500% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 1.5,
-          "description": "Takes 150% Ice damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -153803,10 +153803,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 1.5,
-          "description": "Takes 150% Ice damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -154091,10 +154091,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 2,
-          "description": "Takes 200% Fire damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 12,
@@ -154250,10 +154250,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -154373,10 +154373,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -154489,17 +154489,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 2,
-          "description": "Takes 200% Fire damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 2,
-          "description": "Takes 200% Light damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -154646,10 +154646,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 2,
-          "description": "Takes 200% Light damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -154667,10 +154667,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 13,
@@ -154782,17 +154782,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.5,
-          "description": "Takes 50% Light damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -154810,10 +154810,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 22,
@@ -155002,24 +155002,24 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 1.5,
-          "description": "Takes 150% Ice damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 0.5,
-          "description": "Takes 50% Lightning damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 13,
@@ -155037,10 +155037,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0.5,
-          "description": "Takes 50% Fire damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 32,
@@ -155051,10 +155051,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 13,
@@ -155179,24 +155179,24 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 1.5,
-          "description": "Takes 150% Ice damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -155228,10 +155228,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 14,
           "value": 5,
-          "description": "Takes 500% Jabberwock Bonus damage (increased)"
+          "description": "Heals 500% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -155390,24 +155390,24 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 1.5,
-          "description": "Takes 150% Ice damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -155446,10 +155446,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 14,
           "value": 5,
-          "description": "Takes 500% Jabberwock Bonus damage (increased)"
+          "description": "Heals 500% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -155702,10 +155702,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -155723,10 +155723,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -155845,17 +155845,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.2,
-          "description": "Takes 120% Fire damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -155952,17 +155952,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.2,
-          "description": "Takes 120% Fire damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -156059,17 +156059,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.2,
-          "description": "Takes 120% Fire damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -156287,17 +156287,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.2,
-          "description": "Takes 120% Lightning damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -156640,10 +156640,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.2,
-          "description": "Takes 120% Light damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -156747,10 +156747,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -156841,10 +156841,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -156862,10 +156862,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -156979,10 +156979,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -157000,10 +157000,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -157223,24 +157223,24 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 1.5,
-          "description": "Takes 150% Ice damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -157330,10 +157330,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -157452,10 +157452,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -157560,10 +157560,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -157668,10 +157668,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -157776,10 +157776,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -157898,10 +157898,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -158028,10 +158028,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -158136,10 +158136,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -158251,10 +158251,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -158373,10 +158373,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 2,
-          "description": "Takes 200% Fire damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -158504,10 +158504,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -158661,10 +158661,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -158761,17 +158761,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.2,
-          "description": "Takes 120% Fire damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -158999,10 +158999,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 61,
@@ -159020,10 +159020,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -159136,10 +159136,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -159266,10 +159266,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 61,
@@ -159374,10 +159374,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -159482,10 +159482,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -159612,17 +159612,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -159726,17 +159726,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -159884,10 +159884,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -160000,10 +160000,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -160123,17 +160123,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -160231,17 +160231,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -160339,17 +160339,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -160460,10 +160460,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -160966,10 +160966,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -161089,10 +161089,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -161260,17 +161260,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -161389,10 +161389,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -161490,10 +161490,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 14,
@@ -161612,10 +161612,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -161726,17 +161726,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -161862,10 +161862,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -162006,10 +162006,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -162128,10 +162128,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.2,
-          "description": "Takes 120% Light damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -162806,17 +162806,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 2,
-          "description": "Takes 200% Fire damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 2,
-          "description": "Takes 200% Light damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -162921,10 +162921,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -163082,10 +163082,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -163238,10 +163238,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 2,
-          "description": "Takes 200% Lightning damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -163633,10 +163633,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -163748,10 +163748,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -163870,10 +163870,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -163992,10 +163992,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -164107,10 +164107,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -164208,10 +164208,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -164324,10 +164324,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 31,
@@ -164446,10 +164446,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -164575,10 +164575,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0.5,
-          "description": "Takes 50% Fire damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 61,
@@ -164617,10 +164617,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 1.5,
-          "description": "Takes 150% Ice damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -164856,10 +164856,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0,
-          "description": "Immune to Dark damage"
+          "description": "No HP regeneration"
         },
         {
           "code": 22,
@@ -164870,10 +164870,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0,
-          "description": "Immune to Light damage"
+          "description": "No HP regeneration"
         }
       ],
       "actions": [
@@ -164971,10 +164971,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -165375,10 +165375,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -165490,17 +165490,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 0.5,
-          "description": "Takes 50% Lightning damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 14,
@@ -165620,10 +165620,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -165736,10 +165736,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -166033,10 +166033,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 21,
@@ -166192,10 +166192,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -166322,10 +166322,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -166445,17 +166445,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -166574,10 +166574,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 61,
@@ -166734,10 +166734,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -166888,10 +166888,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -167039,17 +167039,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         }
       ],
       "actions": [
@@ -167177,10 +167177,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -167330,10 +167330,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -167469,10 +167469,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -167593,10 +167593,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -167707,38 +167707,38 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0.5,
-          "description": "Takes 50% Fire damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 0.5,
-          "description": "Takes 50% Ice damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 0.5,
-          "description": "Takes 50% Lightning damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.5,
-          "description": "Takes 50% Light damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 23,
@@ -167763,10 +167763,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -167879,17 +167879,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -168002,17 +168002,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 2,
-          "description": "Takes 200% Fire damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -168133,10 +168133,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -168288,10 +168288,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -168309,10 +168309,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -169147,10 +169147,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 14,
@@ -169161,10 +169161,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0.5,
-          "description": "Takes 50% Fire damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 22,
@@ -169316,38 +169316,38 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0.5,
-          "description": "Takes 50% Fire damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 0.5,
-          "description": "Takes 50% Ice damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 0.5,
-          "description": "Takes 50% Lightning damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.5,
-          "description": "Takes 50% Light damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         }
       ],
       "actions": [
@@ -169715,10 +169715,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 1.2,
-          "description": "Takes 120% Ice damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -169822,17 +169822,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 1.5,
-          "description": "Takes 150% Ice damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0.1,
-          "description": "Takes 10% Fire damage (reduced)"
+          "description": "Heals 10% of maximum HP each turn"
         },
         {
           "code": 14,
@@ -169871,17 +169871,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 1,
           "value": 0.7,
-          "description": "Takes 70% Physical damage (reduced)"
+          "description": "Heals 70% of maximum HP each turn"
         }
       ],
       "actions": [
@@ -170009,17 +170009,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 1.5,
-          "description": "Takes 150% Ice damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0.1,
-          "description": "Takes 10% Fire damage (reduced)"
+          "description": "Heals 10% of maximum HP each turn"
         },
         {
           "code": 14,
@@ -170065,17 +170065,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 1,
           "value": 0.7,
-          "description": "Takes 70% Physical damage (reduced)"
+          "description": "Heals 70% of maximum HP each turn"
         }
       ],
       "actions": [
@@ -170189,10 +170189,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -170203,10 +170203,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -170358,10 +170358,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -170372,10 +170372,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -170570,10 +170570,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -170605,10 +170605,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -170743,10 +170743,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -170785,10 +170785,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -170939,17 +170939,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.5,
-          "description": "Takes 50% Light damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 22,
@@ -171084,17 +171084,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 0.5,
-          "description": "Takes 50% Lightning damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 22,
@@ -171244,10 +171244,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -171265,10 +171265,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -171467,17 +171467,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0.5,
-          "description": "Takes 50% Fire damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 12,
@@ -171713,10 +171713,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 1.5,
-          "description": "Takes 150% Ice damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -171921,10 +171921,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 1.5,
-          "description": "Takes 150% Ice damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -172128,10 +172128,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 1.5,
-          "description": "Takes 150% Ice damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -172291,10 +172291,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 1.5,
-          "description": "Takes 150% Ice damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -172486,17 +172486,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 23,
@@ -172646,17 +172646,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -173031,10 +173031,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 61,
@@ -173066,10 +173066,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -173275,10 +173275,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -173317,10 +173317,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -174239,10 +174239,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -174386,10 +174386,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 14,
@@ -174563,10 +174563,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -174710,38 +174710,38 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.5,
-          "description": "Takes 50% Light damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 0.5,
-          "description": "Takes 50% Ice damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0.5,
-          "description": "Takes 50% Fire damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -174927,45 +174927,45 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 1,
           "value": 0.5,
-          "description": "Takes 50% Physical damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.5,
-          "description": "Takes 50% Light damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 0.5,
-          "description": "Takes 50% Ice damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0.5,
-          "description": "Takes 50% Fire damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -175214,38 +175214,38 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 0.5,
-          "description": "Takes 50% Ice damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0.5,
-          "description": "Takes 50% Fire damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 0.5,
-          "description": "Takes 50% Lightning damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 22,
@@ -175719,38 +175719,38 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.5,
-          "description": "Takes 50% Light damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 0.5,
-          "description": "Takes 50% Ice damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0.5,
-          "description": "Takes 50% Fire damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 0.5,
-          "description": "Takes 50% Lightning damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 23,
@@ -175966,38 +175966,38 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.5,
-          "description": "Takes 50% Light damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 0.5,
-          "description": "Takes 50% Ice damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0.5,
-          "description": "Takes 50% Fire damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 0.5,
-          "description": "Takes 50% Lightning damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 23,
@@ -176116,17 +176116,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.25,
-          "description": "Takes 25% Light damage (reduced)"
+          "description": "Heals 25% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.25,
-          "description": "Takes 25% Dark damage (reduced)"
+          "description": "Heals 25% of maximum HP each turn"
         },
         {
           "code": 13,
@@ -176277,10 +176277,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 21,
@@ -176583,17 +176583,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.25,
-          "description": "Takes 25% Light damage (reduced)"
+          "description": "Heals 25% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.25,
-          "description": "Takes 25% Dark damage (reduced)"
+          "description": "Heals 25% of maximum HP each turn"
         },
         {
           "code": 14,
@@ -176702,10 +176702,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 63,
@@ -176723,10 +176723,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 1,
           "value": 0.01,
-          "description": "Takes 1% Physical damage (reduced)"
+          "description": "Heals 1% of maximum HP each turn"
         }
       ],
       "actions": [
@@ -177092,31 +177092,31 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0.5,
-          "description": "Takes 50% Fire damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 0.5,
-          "description": "Takes 50% Lightning damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.5,
-          "description": "Takes 50% Light damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 1.5,
-          "description": "Takes 150% Ice damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 21,
@@ -177351,17 +177351,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0.5,
-          "description": "Takes 50% Fire damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 1.5,
-          "description": "Takes 150% Ice damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 21,
@@ -177465,17 +177465,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0,
-          "description": "Immune to Dark damage"
+          "description": "No HP regeneration"
         },
         {
           "code": 13,
@@ -177629,17 +177629,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 2,
-          "description": "Takes 200% Light damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 21,
@@ -177736,10 +177736,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 2,
-          "description": "Takes 200% Light damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -177928,38 +177928,38 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 0.5,
-          "description": "Takes 50% Ice damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0.5,
-          "description": "Takes 50% Fire damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 0.5,
-          "description": "Takes 50% Lightning damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.5,
-          "description": "Takes 50% Light damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 22,
@@ -178179,38 +178179,38 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0.5,
-          "description": "Takes 50% Fire damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 0.5,
-          "description": "Takes 50% Ice damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 0.5,
-          "description": "Takes 50% Lightning damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.5,
-          "description": "Takes 50% Light damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 22,
@@ -178402,10 +178402,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -178573,10 +178573,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 32,
@@ -178744,38 +178744,38 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 1.5,
-          "description": "Takes 150% Ice damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 1.5,
-          "description": "Takes 150% Lightning damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.25,
-          "description": "Takes 25% Light damage (reduced)"
+          "description": "Heals 25% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.25,
-          "description": "Takes 25% Dark damage (reduced)"
+          "description": "Heals 25% of maximum HP each turn"
         },
         {
           "code": 13,
@@ -179017,10 +179017,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 14,
@@ -179311,10 +179311,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -179591,38 +179591,38 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 1.5,
-          "description": "Takes 150% Ice damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 0.5,
-          "description": "Takes 50% Lightning damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.5,
-          "description": "Takes 50% Light damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 14,
@@ -179703,10 +179703,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 1,
           "value": 0.55,
-          "description": "Takes 55% Physical damage (reduced)"
+          "description": "Heals 55% of maximum HP each turn"
         }
       ],
       "actions": [
@@ -179796,38 +179796,38 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 1.5,
-          "description": "Takes 150% Ice damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 0.5,
-          "description": "Takes 50% Lightning damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.5,
-          "description": "Takes 50% Light damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 14,
@@ -179943,10 +179943,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 1,
           "value": 0.55,
-          "description": "Takes 55% Physical damage (reduced)"
+          "description": "Heals 55% of maximum HP each turn"
         }
       ],
       "actions": [
@@ -180036,38 +180036,38 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 1.5,
-          "description": "Takes 150% Ice damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 0.5,
-          "description": "Takes 50% Lightning damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.5,
-          "description": "Takes 50% Light damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 14,
@@ -180190,10 +180190,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 1,
           "value": 0.55,
-          "description": "Takes 55% Physical damage (reduced)"
+          "description": "Heals 55% of maximum HP each turn"
         }
       ],
       "actions": [
@@ -180330,24 +180330,24 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 1.5,
-          "description": "Takes 150% Ice damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 0,
-          "description": "Immune to Lightning damage"
+          "description": "No HP regeneration"
         },
         {
           "code": 13,
@@ -180546,10 +180546,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 2,
-          "description": "Takes 200% Ice damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 21,
@@ -180574,10 +180574,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -180696,31 +180696,31 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 1.5,
-          "description": "Takes 150% Ice damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 0.5,
-          "description": "Takes 50% Lightning damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 21,
@@ -180860,24 +180860,24 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 0.5,
-          "description": "Takes 50% Ice damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -181030,17 +181030,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 0.5,
-          "description": "Takes 50% Ice damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -181114,10 +181114,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -181237,24 +181237,24 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 0,
-          "description": "Immune to Ice damage"
+          "description": "No HP regeneration"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0,
-          "description": "Immune to Dark damage"
+          "description": "No HP regeneration"
         },
         {
           "code": 13,
@@ -181421,17 +181421,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 2,
-          "description": "Takes 200% Fire damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 0,
-          "description": "Immune to Ice damage"
+          "description": "No HP regeneration"
         },
         {
           "code": 21,
@@ -181463,10 +181463,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -181564,17 +181564,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0,
-          "description": "Immune to Dark damage"
+          "description": "No HP regeneration"
         },
         {
           "code": 14,
@@ -181791,10 +181791,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 1.5,
-          "description": "Takes 150% Ice damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -181947,38 +181947,38 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 0.5,
-          "description": "Takes 50% Ice damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0.5,
-          "description": "Takes 50% Fire damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 0.5,
-          "description": "Takes 50% Lightning damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.5,
-          "description": "Takes 50% Light damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 22,
@@ -182075,17 +182075,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0,
-          "description": "Immune to Light damage"
+          "description": "No HP regeneration"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -182261,17 +182261,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0,
-          "description": "Immune to Dark damage"
+          "description": "No HP regeneration"
         },
         {
           "code": 13,
@@ -182622,17 +182622,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 0,
-          "description": "Immune to Ice damage"
+          "description": "No HP regeneration"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -182727,10 +182727,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -182828,17 +182828,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0,
-          "description": "Immune to Dark damage"
+          "description": "No HP regeneration"
         },
         {
           "code": 14,
@@ -183118,17 +183118,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0,
-          "description": "Immune to Dark damage"
+          "description": "No HP regeneration"
         },
         {
           "code": 13,
@@ -183230,10 +183230,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         }
       ],
       "actions": [
@@ -183355,17 +183355,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0,
-          "description": "Immune to Dark damage"
+          "description": "No HP regeneration"
         },
         {
           "code": 13,
@@ -183628,17 +183628,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0,
-          "description": "Immune to Dark damage"
+          "description": "No HP regeneration"
         },
         {
           "code": 14,
@@ -183861,17 +183861,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 2,
-          "description": "Takes 200% Light damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0,
-          "description": "Immune to Dark damage"
+          "description": "No HP regeneration"
         },
         {
           "code": 21,
@@ -184004,17 +184004,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0,
-          "description": "Immune to Dark damage"
+          "description": "No HP regeneration"
         },
         {
           "code": 13,
@@ -184268,17 +184268,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 0.5,
-          "description": "Takes 50% Ice damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 13,
@@ -184491,17 +184491,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 0.5,
-          "description": "Takes 50% Ice damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 13,
@@ -184704,17 +184704,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.5,
-          "description": "Takes 50% Dark damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 0.5,
-          "description": "Takes 50% Ice damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 13,
@@ -184889,31 +184889,31 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 0.3,
-          "description": "Takes 30% Ice damage (reduced)"
+          "description": "Heals 30% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.3,
-          "description": "Takes 30% Light damage (reduced)"
+          "description": "Heals 30% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -184994,10 +184994,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -185207,31 +185207,31 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 0.3,
-          "description": "Takes 30% Ice damage (reduced)"
+          "description": "Heals 30% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.3,
-          "description": "Takes 30% Light damage (reduced)"
+          "description": "Heals 30% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -185312,10 +185312,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -185490,24 +185490,24 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 0.5,
-          "description": "Takes 50% Lightning damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 1.5,
-          "description": "Takes 150% Ice damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 14,
@@ -185588,10 +185588,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -185609,10 +185609,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 1,
           "value": 0.5,
-          "description": "Takes 50% Physical damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 22,
@@ -185798,10 +185798,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -186040,17 +186040,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.5,
-          "description": "Takes 50% Light damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -186289,17 +186289,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.5,
-          "description": "Takes 50% Light damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -186475,17 +186475,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.5,
-          "description": "Takes 50% Light damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -186629,24 +186629,24 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 0.5,
-          "description": "Takes 50% Lightning damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 1.5,
-          "description": "Takes 150% Ice damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 14,
@@ -186727,10 +186727,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 23,
@@ -186748,10 +186748,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 1,
           "value": 0.5,
-          "description": "Takes 50% Physical damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 22,
@@ -186888,31 +186888,31 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 0.3,
-          "description": "Takes 30% Ice damage (reduced)"
+          "description": "Heals 30% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.3,
-          "description": "Takes 30% Light damage (reduced)"
+          "description": "Heals 30% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 1.5,
-          "description": "Takes 150% Dark damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -186993,10 +186993,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.5,
-          "description": "Takes 150% Beast Bonus damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
@@ -187206,38 +187206,38 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0.01,
-          "description": "Takes 1% Light damage (reduced)"
+          "description": "Heals 1% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.01,
-          "description": "Takes 1% Dark damage (reduced)"
+          "description": "Heals 1% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0.01,
-          "description": "Takes 1% Fire damage (reduced)"
+          "description": "Heals 1% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 0.01,
-          "description": "Takes 1% Ice damage (reduced)"
+          "description": "Heals 1% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 0.01,
-          "description": "Takes 1% Lightning damage (reduced)"
+          "description": "Heals 1% of maximum HP each turn"
         },
         {
           "code": 14,
@@ -187569,10 +187569,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0.01,
-          "description": "Takes 1% Dark damage (reduced)"
+          "description": "Heals 1% of maximum HP each turn"
         },
         {
           "code": 13,
@@ -187646,10 +187646,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 1,
           "value": 0.15,
-          "description": "Takes 15% Physical damage (reduced)"
+          "description": "Heals 15% of maximum HP each turn"
         },
         {
           "code": 22,
@@ -187887,10 +187887,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 1.5,
-          "description": "Takes 150% Ice damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -188422,101 +188422,101 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 12,
           "value": 0,
-          "description": "Immune to Helbreath damage"
+          "description": "No HP regeneration"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 0,
-          "description": "Immune to Beast Bonus damage"
+          "description": "No HP regeneration"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 14,
           "value": 0,
-          "description": "Immune to Jabberwock Bonus damage"
+          "description": "No HP regeneration"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 15,
           "value": 0,
-          "description": "Immune to Stun x2 damage"
+          "description": "No HP regeneration"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 16,
           "value": 0,
-          "description": "Immune to Vulnerable Bonus damage"
+          "description": "No HP regeneration"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 18,
           "value": 0,
-          "description": "Immune to Poison Bonus damage"
+          "description": "No HP regeneration"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 19,
           "value": 0,
-          "description": "Immune to Rapier Bonus damage"
+          "description": "No HP regeneration"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 11,
           "value": 0,
-          "description": "Immune to Bleed x2 damage"
+          "description": "No HP regeneration"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 1,
           "value": 0,
-          "description": "Immune to Physical damage"
+          "description": "No HP regeneration"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 0,
-          "description": "Immune to Fire damage"
+          "description": "No HP regeneration"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 0,
-          "description": "Immune to Ice damage"
+          "description": "No HP regeneration"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 0,
-          "description": "Immune to Lightning damage"
+          "description": "No HP regeneration"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 0,
-          "description": "Immune to Light damage"
+          "description": "No HP regeneration"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 10,
           "value": 0,
-          "description": "Immune to Dark damage"
+          "description": "No HP regeneration"
         }
       ],
       "actions": [
@@ -189973,10 +189973,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 12,
@@ -190179,10 +190179,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 2,
-          "description": "Takes 200% Fire damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 63,
@@ -190277,10 +190277,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 1,
           "value": 0.5,
-          "description": "Takes 50% Physical damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 23,
@@ -190392,10 +190392,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -190621,10 +190621,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -190857,10 +190857,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -191093,10 +191093,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -191322,10 +191322,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -191558,10 +191558,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -191794,10 +191794,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -192172,10 +192172,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 2,
-          "description": "Takes 200% Lightning damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -192200,10 +192200,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 1,
           "value": 0.5,
-          "description": "Takes 50% Physical damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         }
       ],
       "actions": [
@@ -192402,10 +192402,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 5,
           "value": 2,
-          "description": "Takes 200% Lightning damage (increased)"
+          "description": "Heals 200% of maximum HP each turn (fully heals)"
         },
         {
           "code": 13,
@@ -192430,10 +192430,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 1,
           "value": 0.5,
-          "description": "Takes 50% Physical damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         }
       ],
       "actions": [
@@ -192576,24 +192576,24 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 4,
           "value": 0.01,
-          "description": "Takes 1% Ice damage (reduced)"
+          "description": "Heals 1% of maximum HP each turn"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.5,
-          "description": "Takes 150% Fire damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 9,
           "value": 1.5,
-          "description": "Takes 150% Light damage (increased)"
+          "description": "Heals 150% of maximum HP each turn (fully heals)"
         },
         {
           "code": 61,
@@ -192778,10 +192778,10 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 1,
           "value": 0.5,
-          "description": "Takes 50% Physical damage (reduced)"
+          "description": "Heals 50% of maximum HP each turn"
         },
         {
           "code": 61,
@@ -192954,17 +192954,17 @@ const enemiesData = {
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 3,
           "value": 1.2,
-          "description": "Takes 120% Fire damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 11,
-          "codeName": "Element Rate",
+          "codeName": "HP Regeneration",
           "dataId": 13,
           "value": 1.2,
-          "description": "Takes 120% Beast Bonus damage (increased)"
+          "description": "Heals 120% of maximum HP each turn (fully heals)"
         },
         {
           "code": 22,
