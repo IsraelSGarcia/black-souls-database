@@ -107,12 +107,12 @@ header {
     width: 100%;
 }
 
-.back-button,
+.up-button,
 .help-button {
     flex-shrink: 0;
 }
 
-.back-button {
+.up-button {
     margin-right: auto;
 }
 
@@ -336,7 +336,7 @@ header h1.clickable-title:hover {
 }
 
 /* Back Button */
-.back-button {
+.up-button {
     background: var(--surface);
     border: 1px solid var(--border);
     color: var(--text-primary);
@@ -350,11 +350,11 @@ header h1.clickable-title:hover {
     transition: all 0.2s ease;
 }
 
-.back-button.hidden {
+.up-button.hidden {
     display: none;
 }
 
-.back-button:hover {
+.up-button:hover {
     background: var(--surface-light);
     border-color: var(--primary-color);
     transform: translateY(-2px);
@@ -1257,7 +1257,7 @@ header h1.clickable-title:hover {
         font-size: 0.9rem;
     }
     
-    .back-button,
+    .up-button,
     .help-button {
         min-width: 44px;
         min-height: 44px;
@@ -1527,14 +1527,14 @@ header h1.clickable-title:hover {
         gap: 8px;
     }
     
-    .back-button,
+    .up-button,
     .help-button {
         min-width: 40px;
         min-height: 40px;
         padding: 10px;
     }
     
-    .back-button img,
+    .up-button img,
     .help-button img {
         width: 18px;
         height: 18px;
@@ -1743,7 +1743,7 @@ header h1.clickable-title:hover {
         transform: scale(0.98);
     }
     
-    .back-button:active,
+    .up-button:active,
     .help-button:active {
         transform: scale(0.95);
     }

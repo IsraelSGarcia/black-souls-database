@@ -103,10 +103,14 @@ function hasStateChanged(newState) {
 
 // Push state to browser history
 function pushHistoryState(state, replace = false, force = false) {
-    if (isRestoringState) return;
+    if (isRestoringState) {
+        console.log('[pushHistoryState] Blocked - isRestoringState=true', { replace, force, state });
+        return;
+    }
     
     // If not replacing and not forcing, check if state actually changed to avoid duplicates
     if (!replace && !force && !hasStateChanged(state)) {
+        console.log('[pushHistoryState] Skipped duplicate state', state);
         return; // Don't push duplicate states
     }
     
@@ -157,8 +161,21 @@ function getPageTitle(state) {
 }
 
 // Restore state from history
-function restoreStateFromHistory(state) {
+function restoreStateFromHistory(state, forceRestore = false) {
     if (!state) return;
+    
+    // Check if we're already on this state to avoid unnecessary restoration
+    // But allow restoration if forceRestore is true (e.g., when replacing null state entries)
+    if (!forceRestore) {
+        const currentState = buildNavigationState();
+        if (currentState.view === state.view && 
+            currentState.selectedId === state.selectedId &&
+            currentState.game === state.game &&
+            currentState.searchQuery === state.searchQuery) {
+            // Already on this state, no need to restore
+            return;
+        }
+    }
     
     isRestoringState = true;
     
@@ -174,17 +191,30 @@ function restoreStateFromHistory(state) {
         const title = getPageTitle(state);
         document.title = title;
         
+        // Track pending async operations to know when restoration is complete
+        let pendingOperations = 0;
+        const markOperationComplete = () => {
+            pendingOperations--;
+            if (pendingOperations === 0) {
+                // All async operations complete, safe to reset flag
+                isRestoringState = false;
+            }
+        };
+        
         // Restore view
         if (savedView === 'games') {
             showGamesView();
+            isRestoringState = false; // No async operations for games view
         } else if (savedView === 'sections') {
             showSectionsView(savedGame || 'bs2');
+            isRestoringState = false; // No async operations for sections view
         } else if (savedView) {
             // Restore section
             showSection(savedView, true); // preserveSearch = true
             
             // Restore search query and trigger search
             if (savedSearchQuery && searchInput) {
+                pendingOperations++;
                 setTimeout(() => {
                     searchInput.value = savedSearchQuery;
                     // Trigger search with the query
@@ -211,17 +241,21 @@ function restoreStateFromHistory(state) {
                         renderElementsResults();
                     }
                     updateResultsCount(); // Update results count after search
+                    markOperationComplete();
                 }, 100);
             } else {
                 // No search query, but still update results count
+                pendingOperations++;
                 setTimeout(() => {
                     updateResultsCount();
+                    markOperationComplete();
                 }, 100);
             }
             
             // Restore selection and scroll positions after a delay to ensure section is loaded
             if (savedSelectedId) {
                 // Use a longer delay to ensure section is fully loaded
+                pendingOperations++;
                 setTimeout(() => {
                     // Restore selection based on view with retry logic
                     let selectionAttempts = 0;
@@ -275,6 +309,9 @@ function restoreStateFromHistory(state) {
                             // Retry if content might not be loaded yet
                             if (scrollAttempts < maxScrollAttempts && (!detailPanel || detailPanel.scrollHeight === 0)) {
                                 setTimeout(restoreScrolls, 100);
+                            } else {
+                                // All scroll restoration attempts complete
+                                markOperationComplete();
                             }
                         };
                         setTimeout(restoreScrolls, 100);
@@ -283,21 +320,32 @@ function restoreStateFromHistory(state) {
                 }, 300); // Increased delay to ensure section is fully loaded
             } else {
                 // Even if no selection, restore scroll positions
+                pendingOperations++;
                 setTimeout(() => {
                     if (resultsList) {
                         resultsList.scrollTop = savedResultsListScrollTop;
                     }
                     // Restore detail panel scroll with a longer delay to ensure content is rendered
+                    pendingOperations++;
                     setTimeout(() => {
                         if (detailPanel) {
                             detailPanel.scrollTop = savedDetailPanelScrollTop;
                         }
+                        markOperationComplete();
                     }, 100);
+                    markOperationComplete();
                 }, 200);
             }
+            
+            // If no async operations were scheduled, reset flag immediately
+            if (pendingOperations === 0) {
+                isRestoringState = false;
+            }
         }
-    } finally {
+    } catch (error) {
+        // On error, reset flag to prevent getting stuck
         isRestoringState = false;
+        throw error;
     }
 }
 
@@ -455,13 +503,17 @@ function navigateToCrossReference(type, id) {
     
     // Always save current state to browser history before navigating via cross-reference
     // This ensures the navigation path is preserved for back/forward navigation
-    // We need to push even if state hasn't changed, because we're about to navigate away
     // IMPORTANT: Build state BEFORE calling showSection, which changes currentSection
     if (!isRestoringState && targetSection && currentSection !== targetSection) {
         const currentState = buildNavigationState();
-        // Always push before navigating - force push to preserve navigation path
-        // This ensures we can go back to the exact state we were in
-        pushHistoryState(currentState, false, true);
+        // Only push if the state is different from the current history state
+        // This prevents creating duplicate entries when navigating
+        const historyState = history.state;
+        if (!historyState || hasStateChanged(currentState)) {
+            // Push before navigating to preserve navigation path
+            // Don't use force=true here - let hasStateChanged prevent duplicates
+            pushHistoryState(currentState, false, false);
+        }
     }
     
     // Navigate to the appropriate section and select the item
@@ -472,55 +524,127 @@ function navigateToCrossReference(type, id) {
         const wasRestoring = isRestoringState;
         isRestoringState = true; // Prevent showSection from pushing state
         showSection(targetSection);
-        isRestoringState = wasRestoring; // Restore original value
         // Wait for section to load, then select and scroll
+        // Keep isRestoringState true during selection to prevent duplicate pushes
+        // We'll manually push the new state after selection
         setTimeout(() => {
+            // Temporarily keep isRestoringState true to prevent selectX from pushing
+            isRestoringState = true;
+            let newState = null;
             if (targetSection === 'skills') {
                 selectSkill(parseInt(id));
+                newState = buildNavigationState();
                 scrollToSelectedItem(targetSection, parseInt(id));
             } else if (targetSection === 'states') {
                 selectState(parseInt(id));
+                newState = buildNavigationState();
                 scrollToSelectedItem(targetSection, parseInt(id));
             } else if (targetSection === 'weapons') {
                 selectWeapon(parseInt(id));
+                newState = buildNavigationState();
                 scrollToSelectedItem(targetSection, parseInt(id));
             } else if (targetSection === 'armors') {
                 selectArmor(parseInt(id));
+                newState = buildNavigationState();
                 scrollToSelectedItem(targetSection, parseInt(id));
             } else if (targetSection === 'items') {
                 selectItem(parseInt(id));
+                newState = buildNavigationState();
                 scrollToSelectedItem(targetSection, parseInt(id));
             } else if (targetSection === 'enemies') {
                 selectEnemy(parseInt(id));
+                newState = buildNavigationState();
                 scrollToSelectedItem(targetSection, parseInt(id));
             } else if (targetSection === 'elements') {
                 selectElement(parseInt(id));
+                newState = buildNavigationState();
                 scrollToSelectedItem(targetSection, parseInt(id));
+            }
+            // Now restore isRestoringState and push the new state
+            isRestoringState = wasRestoring;
+            if (newState && !wasRestoring) {
+                pushHistoryState(newState);
             }
         }, 200);
     } else {
-        // Navigating within the same section - preserve search query
+        // Navigating within the same section - clear search bar when navigating via cross-reference
+        // First, push current state to preserve navigation path
+        const wasRestoring = isRestoringState;
+        if (!isRestoringState) {
+            const currentState = buildNavigationState();
+            // Only push if state is different from current history state
+            const historyState = history.state;
+            if (!historyState || hasStateChanged(currentState)) {
+                pushHistoryState(currentState, false, false);
+            }
+        }
+        
+        // Clear search input and reset filtered arrays
+        if (searchInput) {
+            searchInput.value = '';
+        }
+        
+        // Temporarily set isRestoringState to prevent selectX from pushing
+        // We'll manually push the new state after selection
+        isRestoringState = true;
+        let newState = null;
+        
+        // Reset search for the current section
         if (targetSection === 'skills') {
+            searchSkills('');
+            renderResults();
+            updateResultsCount();
             selectSkill(parseInt(id));
+            newState = buildNavigationState();
             scrollToSelectedItem(targetSection, parseInt(id));
         } else if (targetSection === 'states') {
+            searchStates('');
+            renderStatesResults();
+            updateResultsCount();
             selectState(parseInt(id));
+            newState = buildNavigationState();
             scrollToSelectedItem(targetSection, parseInt(id));
         } else if (targetSection === 'weapons') {
+            searchWeapons('');
+            renderWeaponsResults();
+            updateResultsCount();
             selectWeapon(parseInt(id));
+            newState = buildNavigationState();
             scrollToSelectedItem(targetSection, parseInt(id));
         } else if (targetSection === 'armors') {
+            searchArmors('');
+            renderArmorsResults();
+            updateResultsCount();
             selectArmor(parseInt(id));
+            newState = buildNavigationState();
             scrollToSelectedItem(targetSection, parseInt(id));
         } else if (targetSection === 'items') {
+            searchItems('');
+            renderItemsResults();
+            updateResultsCount();
             selectItem(parseInt(id));
+            newState = buildNavigationState();
             scrollToSelectedItem(targetSection, parseInt(id));
         } else if (targetSection === 'enemies') {
+            searchEnemies('');
+            renderEnemiesResults();
+            updateResultsCount();
             selectEnemy(parseInt(id));
+            newState = buildNavigationState();
             scrollToSelectedItem(targetSection, parseInt(id));
         } else if (targetSection === 'elements') {
+            searchElements('');
+            renderElementsResults();
+            updateResultsCount();
             selectElement(parseInt(id));
+            newState = buildNavigationState();
             scrollToSelectedItem(targetSection, parseInt(id));
+        }
+        
+        // Restore isRestoringState and push the new state
+        isRestoringState = wasRestoring;
+        if (newState && !wasRestoring) {
+            pushHistoryState(newState);
         }
     }
 }
@@ -592,7 +716,7 @@ function attachCrossReferenceListeners() {
 // It's kept as a fallback for edge cases, but should rarely be used
 function navigateBackFromCrossReference() {
     // Just use browser history - it has all the state we need
-    handleBackNavigation();
+    handleUpButton();
 }
 
 
@@ -601,12 +725,12 @@ const gamesView = document.getElementById('games-view');
 const sectionsView = document.getElementById('sections-view');
 const searchSection = document.getElementById('search-section');
 const mainContent = document.getElementById('main-content');
-const backButton = document.getElementById('back-button');
+const upButton = document.getElementById('up-button');
 const headerTitle = document.getElementById('header-title');
 const headerSubtitle = document.getElementById('header-subtitle');
 
-// Navigation function to go back to top level (same as clicking title)
-function navigateToTopLevel() {
+// Navigation function to go back to up level (same as clicking title)
+function navigateToUpLevel() {
     const titleText = headerTitle.textContent;
     
     if (titleText === 'Black Souls Database') {
@@ -623,10 +747,10 @@ function navigateToTopLevel() {
 
 // Make header title clickable for navigation
 headerTitle.classList.add('clickable-title');
-headerTitle.addEventListener('click', navigateToTopLevel);
+headerTitle.addEventListener('click', navigateToUpLevel);
 
-// Make back button navigate to top level
-backButton.addEventListener('click', handleBackNavigation);
+// Make up button navigate to up level
+upButton.addEventListener('click', handleUpButton);
 const searchInput = document.getElementById('search-input');
 const resultsList = document.getElementById('results-list');
 const resultsCount = document.getElementById('results-count');
@@ -694,7 +818,7 @@ function updateHelpContent(view) {
             
             <section class="help-section">
                 <h3>Navigation</h3>
-                <p>Click on a section card to view its contents. Use the top button (↑) in the header to return to the game selection.</p>
+                <p>Click on a section card to view its contents. Use the up button (↑) in the header to return to the game selection.</p>
             </section>
         `;
     } else if (view === 'skills') {
@@ -769,7 +893,7 @@ function updateHelpContent(view) {
                 <p>All references to skills, states, weapons, armors, items, and enemies in skill descriptions and notes are clickable cross-references.</p>
                 <ul>
                     <li>Click any reference to navigate to that item's detail page</li>
-                    <li>Use the back button or browser history to return to the previous view</li>
+                    <li>Use the up button or browser history to return to the previous view</li>
                 </ul>
                 <p>This makes it easy to explore how skills interact with other game mechanics.</p>
             </section>
@@ -844,7 +968,7 @@ function updateHelpContent(view) {
                 <p>All references to skills, states, weapons, armors, items, and enemies in state descriptions and notes are clickable cross-references.</p>
                 <ul>
                     <li>Click any reference to navigate to that item's detail page</li>
-                    <li>Use the back button or browser history to return to the previous view</li>
+                    <li>Use the up button or browser history to return to the previous view</li>
                 </ul>
                 <p>This makes it easy to explore how states interact with other game mechanics.</p>
             </section>
@@ -916,7 +1040,7 @@ function updateHelpContent(view) {
                 <p>All references to skills, states, weapons, armors, items, and enemies in weapon descriptions and notes are clickable cross-references.</p>
                 <ul>
                     <li>Click any reference to navigate to that item's detail page</li>
-                    <li>Use the back button or browser history to return to the previous view</li>
+                    <li>Use the up button or browser history to return to the previous view</li>
                 </ul>
             </section>
         `;
@@ -989,7 +1113,7 @@ function updateHelpContent(view) {
                 <p>All references to skills, states, weapons, armors, items, and enemies in armor descriptions and notes are clickable cross-references.</p>
                 <ul>
                     <li>Click any reference to navigate to that item's detail page</li>
-                    <li>Use the back button or browser history to return to the previous view</li>
+                    <li>Use the up button or browser history to return to the previous view</li>
                 </ul>
             </section>
         `;
@@ -1064,7 +1188,7 @@ function updateHelpContent(view) {
                 <p>All references to skills, states, weapons, armors, items, and enemies in enemy descriptions, actions, and drops are clickable cross-references.</p>
                 <ul>
                     <li>Click any reference to navigate to that item's detail page</li>
-                    <li>Use the back button or browser history to return to the previous view</li>
+                    <li>Use the up button or browser history to return to the previous view</li>
                 </ul>
             </section>
         `;
@@ -1136,7 +1260,7 @@ function updateHelpContent(view) {
                 <p>All references to skills, states, weapons, armors, items, and enemies in item descriptions and notes are clickable cross-references.</p>
                 <ul>
                     <li>Click any reference to navigate to that item's detail page</li>
-                    <li>Use the back button or browser history to return to the previous view</li>
+                    <li>Use the up button or browser history to return to the previous view</li>
                 </ul>
             </section>
         `;
@@ -1186,7 +1310,7 @@ function updateHelpContent(view) {
                 <p>All references to skills, items, weapons, armors, states, and enemies are clickable cross-references.</p>
                 <ul>
                     <li>Click any reference to navigate to that item's detail page</li>
-                    <li>Use the top button or browser history to return to the element page</li>
+                    <li>Use the up button or browser history to return to the element page</li>
                 </ul>
                 <p>This makes it easy to explore how elements interact with other game mechanics.</p>
             </section>
@@ -1202,7 +1326,7 @@ function showGamesView() {
     sectionsView.classList.add('hidden');
     searchSection.classList.add('hidden');
     mainContent.classList.add('hidden');
-    backButton.classList.add('hidden');
+    upButton.classList.add('hidden');
     
     headerTitle.textContent = 'Black Souls Database';
     headerSubtitle.textContent = 'Select a game to explore';
@@ -1215,8 +1339,16 @@ function showGamesView() {
     updateHelpContent('games');
     
     // Update browser history
+    // Use replaceState if state hasn't meaningfully changed to avoid duplicates
     if (!isRestoringState) {
-        pushHistoryState(buildNavigationState());
+        const newState = buildNavigationState();
+        const currentState = history.state;
+        // If state hasn't changed (same view, game, selectedId, searchQuery), use replaceState
+        if (currentState && !hasStateChanged(newState)) {
+            pushHistoryState(newState, true); // Use replaceState to avoid duplicates
+        } else {
+            pushHistoryState(newState); // Use pushState for actual navigation changes
+        }
     }
 }
 
@@ -1226,7 +1358,7 @@ function showSectionsView(gameName) {
     sectionsView.classList.remove('hidden');
     searchSection.classList.add('hidden');
     mainContent.classList.add('hidden');
-    backButton.classList.remove('hidden');
+    upButton.classList.remove('hidden');
     
     currentGame = gameName;
     currentSection = null;
@@ -1250,8 +1382,16 @@ function showSectionsView(gameName) {
     updateHelpContent('sections');
     
     // Update browser history
+    // Use replaceState if state hasn't meaningfully changed to avoid duplicates
     if (!isRestoringState) {
-        pushHistoryState(buildNavigationState());
+        const newState = buildNavigationState();
+        const currentState = history.state;
+        // If state hasn't changed (same view, game, selectedId, searchQuery), use replaceState
+        if (currentState && !hasStateChanged(newState)) {
+            pushHistoryState(newState, true); // Use replaceState to avoid duplicates
+        } else {
+            pushHistoryState(newState); // Use pushState for actual navigation changes
+        }
     }
 }
 
@@ -1281,8 +1421,8 @@ function updatePlaceholderIcon(sectionName) {
 // Show Section Details (e.g., Skills, States)
 // preserveSearch: if true, don't clear the search input
 function showSection(sectionName, preserveSearch = false) {
-    // Show back button when viewing a section
-    backButton.classList.remove('hidden');
+    // Show up button when viewing a section
+    upButton.classList.remove('hidden');
     
     if (sectionName === 'skills') {
         gamesView.classList.add('hidden');
@@ -1658,14 +1798,22 @@ function showSection(sectionName, preserveSearch = false) {
     }
     
     // Update browser history
+    // Use replaceState if state hasn't meaningfully changed to avoid duplicates
     if (!isRestoringState) {
-        pushHistoryState(buildNavigationState());
+        const newState = buildNavigationState();
+        const currentState = history.state;
+        // If state hasn't changed (same view, game, selectedId, searchQuery), use replaceState
+        if (currentState && !hasStateChanged(newState)) {
+            pushHistoryState(newState, true); // Use replaceState to avoid duplicates
+        } else {
+            pushHistoryState(newState); // Use pushState for actual navigation changes
+        }
     }
 }
 
-// Handle back button navigation
+// Handle up button navigation
 // Navigates up one layer at a time: Detail -> Section List -> Sections Menu -> Games View -> (nothing)
-function handleBackNavigation() {
+function handleUpButton() {
     // Get current state to determine what layer we're on
     const currentState = history.state;
     const urlState = parseURL();
@@ -2227,8 +2375,16 @@ function selectSkill(skillId) {
     }
     
     // Update browser history
+    // Use replaceState if state hasn't meaningfully changed to avoid duplicates
     if (!isRestoringState) {
-        pushHistoryState(buildNavigationState());
+        const newState = buildNavigationState();
+        const currentState = history.state;
+        // If state hasn't changed (same view, game, selectedId, searchQuery), use replaceState
+        if (currentState && !hasStateChanged(newState)) {
+            pushHistoryState(newState, true); // Use replaceState to avoid duplicates
+        } else {
+            pushHistoryState(newState); // Use pushState for actual navigation changes
+        }
     }
 }
 
@@ -3319,8 +3475,16 @@ function selectState(stateId) {
     }
     
     // Update browser history
+    // Use replaceState if state hasn't meaningfully changed to avoid duplicates
     if (!isRestoringState) {
-        pushHistoryState(buildNavigationState());
+        const newState = buildNavigationState();
+        const currentState = history.state;
+        // If state hasn't changed (same view, game, selectedId, searchQuery), use replaceState
+        if (currentState && !hasStateChanged(newState)) {
+            pushHistoryState(newState, true); // Use replaceState to avoid duplicates
+        } else {
+            pushHistoryState(newState); // Use pushState for actual navigation changes
+        }
     }
 }
 
@@ -4098,8 +4262,16 @@ function selectWeapon(weaponId) {
     }
     
     // Update browser history
+    // Use replaceState if state hasn't meaningfully changed to avoid duplicates
     if (!isRestoringState) {
-        pushHistoryState(buildNavigationState());
+        const newState = buildNavigationState();
+        const currentState = history.state;
+        // If state hasn't changed (same view, game, selectedId, searchQuery), use replaceState
+        if (currentState && !hasStateChanged(newState)) {
+            pushHistoryState(newState, true); // Use replaceState to avoid duplicates
+        } else {
+            pushHistoryState(newState); // Use pushState for actual navigation changes
+        }
     }
 }
 
@@ -4381,8 +4553,16 @@ function selectArmor(armorId) {
     }
     
     // Update browser history
+    // Use replaceState if state hasn't meaningfully changed to avoid duplicates
     if (!isRestoringState) {
-        pushHistoryState(buildNavigationState());
+        const newState = buildNavigationState();
+        const currentState = history.state;
+        // If state hasn't changed (same view, game, selectedId, searchQuery), use replaceState
+        if (currentState && !hasStateChanged(newState)) {
+            pushHistoryState(newState, true); // Use replaceState to avoid duplicates
+        } else {
+            pushHistoryState(newState); // Use pushState for actual navigation changes
+        }
     }
 }
 
@@ -4430,8 +4610,16 @@ function selectEnemy(enemyId) {
     }
     
     // Update browser history
+    // Use replaceState if state hasn't meaningfully changed to avoid duplicates
     if (!isRestoringState) {
-        pushHistoryState(buildNavigationState());
+        const newState = buildNavigationState();
+        const currentState = history.state;
+        // If state hasn't changed (same view, game, selectedId, searchQuery), use replaceState
+        if (currentState && !hasStateChanged(newState)) {
+            pushHistoryState(newState, true); // Use replaceState to avoid duplicates
+        } else {
+            pushHistoryState(newState); // Use pushState for actual navigation changes
+        }
     }
 }
 
@@ -4479,8 +4667,16 @@ function selectItem(itemId) {
     }
     
     // Update browser history
+    // Use replaceState if state hasn't meaningfully changed to avoid duplicates
     if (!isRestoringState) {
-        pushHistoryState(buildNavigationState());
+        const newState = buildNavigationState();
+        const currentState = history.state;
+        // If state hasn't changed (same view, game, selectedId, searchQuery), use replaceState
+        if (currentState && !hasStateChanged(newState)) {
+            pushHistoryState(newState, true); // Use replaceState to avoid duplicates
+        } else {
+            pushHistoryState(newState); // Use pushState for actual navigation changes
+        }
     }
 }
 
@@ -4528,8 +4724,16 @@ function selectElement(elementId) {
     }
     
     // Update browser history
+    // Use replaceState if state hasn't meaningfully changed to avoid duplicates
     if (!isRestoringState) {
-        pushHistoryState(buildNavigationState());
+        const newState = buildNavigationState();
+        const currentState = history.state;
+        // If state hasn't changed (same view, game, selectedId, searchQuery), use replaceState
+        if (currentState && !hasStateChanged(newState)) {
+            pushHistoryState(newState, true); // Use replaceState to avoid duplicates
+        } else {
+            pushHistoryState(newState); // Use pushState for actual navigation changes
+        }
     }
 }
 
@@ -5512,9 +5716,27 @@ window.addEventListener('popstate', (e) => {
         // Restore state from history (works for both back and forward)
         restoreStateFromHistory(e.state);
     } else {
-        // No state in history, parse URL
+        // No state in history, parse URL and restore
+        // This happens when going back to an entry that was created before we started using state objects
+        // or when the state object was lost
         const state = parseURL();
-        restoreStateFromHistory(state);
+        if (state) {
+            // Force restore even if we're already on this state, to ensure UI is correct
+            restoreStateFromHistory(state, true);
+            // After restoration completes (async), replace the current history entry with a proper state object
+            // This ensures future back/forward navigation works correctly
+            setTimeout(() => {
+                if (!isRestoringState) {
+                    const currentState = buildNavigationState();
+                    // Replace the null-state entry with a proper state object
+                    if (currentState.view === state.view && 
+                        currentState.selectedId === state.selectedId &&
+                        currentState.game === state.game) {
+                        pushHistoryState(currentState, true); // Use replaceState
+                    }
+                }
+            }, 500); // Wait for async restoration to complete
+        }
     }
 });
 
