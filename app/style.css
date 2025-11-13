@@ -127,7 +127,7 @@ header h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    margin-bottom: 4px;
+    margin: 0 0 4px;
 }
 
 header h1.clickable-title {
@@ -142,6 +142,7 @@ header h1.clickable-title:hover {
 .subtitle {
     color: var(--text-secondary);
     font-size: 0.9rem;
+    margin: 0;
 }
 
 /* Games View */
@@ -153,21 +154,30 @@ header h1.clickable-title:hover {
 }
 
 .games-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    gap: 24px;
-    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
     margin: 0 auto;
+    width: min(100%, 1040px);
 }
 
 .game-card {
     background: var(--surface);
     border: 2px solid var(--border);
-    border-radius: 20px;
-    padding: 40px;
+    border-radius: 26px;
+    padding: 56px;
     text-align: center;
     cursor: pointer;
     transition: all 0.3s ease;
+    aspect-ratio: 1 / 1;
+    flex: 0 0 320px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
 }
 
 .game-card:hover {
@@ -178,11 +188,11 @@ header h1.clickable-title:hover {
 }
 
 .game-icon {
-    width: 96px;
-    height: 96px;
-    margin: 0 auto 24px;
+    width: 140px;
+    height: 140px;
+    margin: 0 auto 36px;
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
-    border-radius: 20px;
+    border-radius: 26px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -219,7 +229,8 @@ header h1.clickable-title:hover {
         padding: 0 !important;
         padding-top: 0 !important;
         padding-bottom: 0 !important;
-        overflow: visible;
+        /* Do not disable scrolling here; forcing overflow hidden is a hack and strictly prohibited */
+        overflow-y: auto;
         width: 100%;
         margin: 0 !important;
         margin-top: 1.5rem !important;
@@ -239,47 +250,36 @@ header h1.clickable-title:hover {
 }
 
 .sections-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 16px;
-    max-width: 900px;
     margin: 0 auto;
     width: 100%;
+    max-width: 1100px;
 }
 
-@media (min-width: 1024px) {
-    .sections-grid {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 16px;
-        max-width: 100%;
-        width: 100%;
-        margin: 0 !important;
-        margin-bottom: 0 !important;
-        padding: 0 !important;
-        padding-bottom: 0 !important;
-        align-content: start;
-    }
-    
-    .section-card:last-child {
-        margin-bottom: 0 !important;
-        padding-bottom: 0 !important;
-    }
+.section-card:last-child {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
 }
 
 .section-card {
     background: var(--surface);
     border: 2px solid var(--border);
-    border-radius: 16px;
-    padding: 24px;
+    border-radius: 18px;
+    padding: 28px;
     text-align: center;
     cursor: pointer;
     transition: all 0.3s ease;
-}
-
-@media (min-width: 1024px) {
-    .section-card {
-        padding: 20px;
-    }
+    aspect-ratio: 1 / 1;
+    flex: 0 0 220px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
 }
 
 .section-card:hover {
@@ -290,23 +290,16 @@ header h1.clickable-title:hover {
 }
 
 .section-icon {
-    width: 70px;
-    height: 70px;
-    margin: 0 auto 16px;
+    width: 88px;
+    height: 88px;
+    margin: 0 auto 20px;
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
-    border-radius: 16px;
+    border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     transition: transform 0.3s ease;
-}
-
-@media (min-width: 1024px) {
-    .section-icon {
-        width: 64px;
-        height: 64px;
-    }
 }
 
 .section-card:hover .section-icon {

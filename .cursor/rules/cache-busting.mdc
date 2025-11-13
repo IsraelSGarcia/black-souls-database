@@ -1,0 +1,8 @@
+---
+alwaysApply: false
+---
+
+Always update the cache-busting query parameter on static assets served via GitHub Pages.
+
+- When you change `style.css`, `script.js`, or `data.js`, increment the timestamp in the `?v=` query inside `app/index.html`.
+- Use a UTC timestamp down to the second (e.g. `YYYYMMDDThhmmssZ`) so browsers fetch the newest files without Shift+Reload.
