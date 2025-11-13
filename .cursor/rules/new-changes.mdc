@@ -1,0 +1,4 @@
+---
+alwaysApply: true
+1: Whenever making new changes that need node app/process-mv-converted-data.js to be run, do it before the user.
+---

@@ -1206,6 +1206,8 @@ function showGamesView() {
     
     headerTitle.textContent = 'Black Souls Database';
     headerSubtitle.textContent = 'Select a game to explore';
+    headerTitle.classList.remove('hidden');
+    headerSubtitle.classList.add('hidden');
     
     currentGame = null;
     currentSection = null;
@@ -1233,6 +1235,8 @@ function showSectionsView(gameName) {
         headerTitle.textContent = 'Black Souls II Database';
         headerSubtitle.textContent = 'Select a section to explore';
     }
+    headerTitle.classList.add('hidden');
+    headerSubtitle.classList.add('hidden');
     
     // Reset search and selection
     searchInput.value = '';
@@ -1290,6 +1294,8 @@ function showSection(sectionName, preserveSearch = false) {
         
         headerTitle.textContent = 'Black Souls II Database - Skills';
         headerSubtitle.textContent = 'Search and explore all skills from Black Souls II';
+        headerTitle.classList.add('hidden');
+        headerSubtitle.classList.add('hidden');
         
         // Ensure panels are visible
         document.querySelector('.results-panel').style.display = 'block';
@@ -1341,6 +1347,8 @@ function showSection(sectionName, preserveSearch = false) {
         
         headerTitle.textContent = 'Black Souls II Database - States';
         headerSubtitle.textContent = 'Search and explore all status effects from Black Souls II';
+        headerTitle.classList.add('hidden');
+        headerSubtitle.classList.add('hidden');
         
         // Ensure panels are visible
         document.querySelector('.results-panel').style.display = 'block';
@@ -1392,6 +1400,8 @@ function showSection(sectionName, preserveSearch = false) {
         
         headerTitle.textContent = 'Black Souls II Database - Weapons';
         headerSubtitle.textContent = 'Search and explore all weapons from Black Souls II';
+        headerTitle.classList.add('hidden');
+        headerSubtitle.classList.add('hidden');
         
         // Ensure panels are visible
         document.querySelector('.results-panel').style.display = 'block';
@@ -1443,6 +1453,8 @@ function showSection(sectionName, preserveSearch = false) {
         
         headerTitle.textContent = 'Black Souls II Database - Armors';
         headerSubtitle.textContent = 'Search and explore all armor and defensive equipment from Black Souls II';
+        headerTitle.classList.add('hidden');
+        headerSubtitle.classList.add('hidden');
         
         // Ensure panels are visible
         document.querySelector('.results-panel').style.display = 'block';
@@ -1494,6 +1506,8 @@ function showSection(sectionName, preserveSearch = false) {
         
         headerTitle.textContent = 'Black Souls II Database - Enemies';
         headerSubtitle.textContent = 'Search and explore all enemies and monsters from Black Souls II';
+        headerTitle.classList.add('hidden');
+        headerSubtitle.classList.add('hidden');
         
         // Ensure panels are visible
         document.querySelector('.results-panel').style.display = 'block';
@@ -1545,6 +1559,8 @@ function showSection(sectionName, preserveSearch = false) {
         
         headerTitle.textContent = 'Black Souls II Database - Items';
         headerSubtitle.textContent = 'Search and explore all consumable items and equipment from Black Souls II';
+        headerTitle.classList.add('hidden');
+        headerSubtitle.classList.add('hidden');
         
         // Ensure panels are visible
         document.querySelector('.results-panel').style.display = 'block';
@@ -1596,6 +1612,8 @@ function showSection(sectionName, preserveSearch = false) {
         
         headerTitle.textContent = 'Black Souls II Database - Elements';
         headerSubtitle.textContent = 'Search and explore all damage elements and their interactions from Black Souls II';
+        headerTitle.classList.add('hidden');
+        headerSubtitle.classList.add('hidden');
         
         // Ensure panels are visible
         document.querySelector('.results-panel').style.display = 'block';
@@ -5265,7 +5283,8 @@ window.addEventListener('DOMContentLoaded', () => {
             // Not on the games view, restore from URL
             restoreStateFromHistory(state);
         } else {
-            // On games view, set initial state
+            // On games view, ensure it's properly initialized
+            showGamesView();
             pushHistoryState(buildNavigationState(), true);
         }
     }
