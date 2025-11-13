@@ -1,0 +1,4 @@
+---
+alwaysApply: false
+---
+When this rule is called, first test the problem in the browser, try to fix and test again. You should not stop testing until you have confirmed with browser testing that the problem did indeed get solved.
