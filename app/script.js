@@ -2043,21 +2043,25 @@ function renderSkillDetail(skill) {
                         Show Original Data
                     `;
                 } else {
-                    // Show original data
+                    // CRITICAL: Show ONLY original raw values from JSON file
+                    // DO NOT show processed/transformed values (chance, stateName, percent, flat, turns, parameter)
+                    // These processed values are for display purposes only, not original data
+                    // Original data = exactly what's in the JSON: code, dataId, value1, value2
                     let originalData = `Code: ${effect.code}`;
                     
-                    // Add any raw values that are present
+                    // Add ONLY raw values from original JSON file
                     if (effect.dataId !== undefined) originalData += `\nData ID: ${effect.dataId}`;
                     if (effect.value1 !== undefined) originalData += `\nValue 1: ${effect.value1}`;
                     if (effect.value2 !== undefined) originalData += `\nValue 2: ${effect.value2}`;
                     
-                    // Add transformed values
-                    if (effect.percent !== undefined) originalData += `\nPercent: ${effect.percent}%`;
-                    if (effect.flat !== undefined) originalData += `\nFlat: ${effect.flat}`;
-                    if (effect.chance !== undefined) originalData += `\nChance: ${effect.chance}%`;
-                    if (effect.turns !== undefined) originalData += `\nTurns: ${effect.turns}`;
-                    if (effect.stateName !== undefined) originalData += `\nState: ${effect.stateName}`;
-                    if (effect.parameter !== undefined) originalData += `\nParameter: ${effect.parameter}`;
+                    // DO NOT add processed values here:
+                    // - effect.chance (processed from value1)
+                    // - effect.stateName (resolved from dataId)
+                    // - effect.percent (processed from value1)
+                    // - effect.flat (processed from value2)
+                    // - effect.turns (processed from value1)
+                    // - effect.parameter (resolved from dataId)
+                    // These are NOT original data!
                     
                     originalDataBox = document.createElement('div');
                     originalDataBox.className = 'original-data-box';

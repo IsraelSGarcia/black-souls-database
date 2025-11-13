@@ -98,6 +98,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:9:Guard]]",
+          "dataId": 9,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Guard",
           "chance": 100
         }
@@ -305,7 +308,10 @@ const skillsData = {
         {
           "code": 41,
           "codeName": "Special Effect",
-          "description": "Escape"
+          "description": "Escape",
+          "dataId": 0,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -412,6 +418,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:29:Burning]]",
+          "dataId": 29,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Burning",
           "chance": 50
         }
@@ -520,6 +529,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 100
         }
@@ -578,6 +590,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:3:Deadly Poison]]",
+          "dataId": 3,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Deadly Poison",
           "chance": 50
         }
@@ -636,6 +651,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:16:Dodge]]",
+          "dataId": 16,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dodge",
           "chance": 100
         }
@@ -694,6 +712,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:8:Break Vulnerable]]",
+          "dataId": 8,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Vulnerable",
           "chance": 100
         }
@@ -852,6 +873,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:7:Hard Break Vulnerable]]",
+          "dataId": 7,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Hard Break Vulnerable",
           "chance": 100
         }
@@ -910,6 +934,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:7:Hard Break Vulnerable]]",
+          "dataId": 7,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Hard Break Vulnerable",
           "chance": 100
         }
@@ -968,6 +995,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:8:Break Vulnerable]]",
+          "dataId": 8,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Vulnerable",
           "chance": 100
         }
@@ -1026,6 +1056,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:8:Break Vulnerable]]",
+          "dataId": 8,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Vulnerable",
           "chance": 100
         }
@@ -1084,6 +1117,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:8:Break Vulnerable]]",
+          "dataId": 8,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Vulnerable",
           "chance": 100
         }
@@ -1142,6 +1178,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:20:Counterattack Stance]]",
+          "dataId": 20,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Counterattack Stance",
           "chance": 100
         }
@@ -1200,6 +1239,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:40:Stone Flesh]]",
+          "dataId": 40,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stone Flesh",
           "chance": 100
         }
@@ -1408,6 +1450,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:15:MP Regen]]",
+          "dataId": 15,
+          "value1": 1,
+          "value2": 0,
           "stateName": "MP Regen",
           "chance": 100
         }
@@ -1666,96 +1711,144 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:2:Poison]]",
+          "dataId": 2,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Poison"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:3:Deadly Poison]]",
+          "dataId": 3,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Deadly Poison"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:5:Oiled]]",
+          "dataId": 5,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Oiled"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stun"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:29:Burning]]",
+          "dataId": 29,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Burning"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Bleeding"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:55:Weakness]]",
+          "dataId": 55,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Weakness"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:56:Fear]]",
+          "dataId": 56,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Fear"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:6:Sleep]]",
+          "dataId": 6,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Sleep"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:63:Decelerate]]",
+          "dataId": 63,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Decelerate"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:28:Madness]]",
+          "dataId": 28,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Madness"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:30:Mud]]",
+          "dataId": 30,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Mud"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:17:Silence]]",
+          "dataId": 17,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Silence"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:61:Frailty]]",
+          "dataId": 61,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Frailty"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:162:Frostbite]]",
+          "dataId": 162,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Frostbite"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:163:Laceration]]",
+          "dataId": 163,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Laceration"
         }
       ],
@@ -1812,12 +1905,18 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 218,
+          "value1": 0,
+          "value2": 0
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:72:Clock]]",
+          "dataId": 72,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Clock",
           "chance": 100
         }
@@ -1876,6 +1975,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:1:Incapacitated]]",
+          "dataId": 1,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Incapacitated"
         }
       ],
@@ -1933,6 +2035,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:1:Incapacitated]]",
+          "dataId": 1,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Incapacitated"
         }
       ],
@@ -1990,6 +2095,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:2:Poison]]",
+          "dataId": 2,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Poison",
           "chance": 50
         }
@@ -2048,6 +2156,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:3:Deadly Poison]]",
+          "dataId": 3,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Deadly Poison",
           "chance": 50
         }
@@ -2106,6 +2217,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 50
         },
@@ -2113,6 +2227,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 5% HP",
+          "dataId": 1,
+          "value1": -0.05,
+          "value2": 0,
           "percent": -5,
           "flat": 0
         }
@@ -2171,6 +2288,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:56:Fear]]",
+          "dataId": 56,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Fear",
           "chance": 100
         }
@@ -2229,6 +2349,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:6:Sleep]]",
+          "dataId": 6,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Sleep",
           "chance": 50
         }
@@ -2287,6 +2410,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 10 turns",
+          "dataId": 2,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 10
         }
@@ -2345,6 +2471,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Defense for 10 turns",
+          "dataId": 3,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 10
         }
@@ -2403,6 +2532,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Defense for 10 turns",
+          "dataId": 5,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 10
         }
@@ -2461,6 +2593,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 10 turns",
+          "dataId": 6,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 10
         }
@@ -2519,6 +2654,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Attack for 10 turns",
+          "dataId": 2,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 10
         }
@@ -2577,6 +2715,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 10 turns",
+          "dataId": 3,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 10
         }
@@ -2635,6 +2776,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Defense for 10 turns",
+          "dataId": 5,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 10
         }
@@ -2693,6 +2837,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 10 turns",
+          "dataId": 6,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 10
         }
@@ -2851,6 +2998,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -2858,6 +3008,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -2865,6 +3018,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         },
@@ -2872,6 +3028,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         },
@@ -2879,6 +3038,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -2886,6 +3048,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Luck for 5 turns",
+          "dataId": 7,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Luck",
           "turns": 5
         }
@@ -2944,13 +3109,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:32:Store Power 150]]",
+          "dataId": 32,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Store Power 150",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -3006,7 +3177,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -3063,13 +3237,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:31:Limit Break]]",
+          "dataId": 31,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Limit Break",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -3125,7 +3305,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -3181,12 +3364,18 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         },
         {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 100% HP",
+          "dataId": 1,
+          "value1": -1,
+          "value2": 0,
           "percent": -100,
           "flat": 0
         }
@@ -3244,7 +3433,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 44,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -3501,6 +3693,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 10 turns",
+          "dataId": 2,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 10
         }
@@ -3559,13 +3754,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:32:Store Power 150]]",
+          "dataId": 32,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Store Power 150",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -3622,6 +3823,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "30% chance to inflict [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 0.3,
+          "value2": 0,
           "stateName": "Bleeding",
           "chance": 30
         }
@@ -3830,13 +4034,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:31:Limit Break]]",
+          "dataId": 31,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Limit Break",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -3892,7 +4102,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -4049,13 +4262,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:72:Clock]]",
+          "dataId": 72,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Clock",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 13,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -4112,6 +4331,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         }
@@ -4220,6 +4442,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:59:Grit]]",
+          "dataId": 59,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Grit",
           "chance": 100
         }
@@ -4328,6 +4553,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:56:Fear]]",
+          "dataId": 56,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Fear",
           "chance": 100
         }
@@ -4586,6 +4814,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:38:Rampage]]",
+          "dataId": 38,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Rampage",
           "chance": 100
         }
@@ -4644,6 +4875,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 10 turns",
+          "dataId": 3,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 10
         },
@@ -4651,6 +4885,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 10 turns",
+          "dataId": 3,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 10
         }
@@ -4709,6 +4946,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:56:Fear]]",
+          "dataId": 56,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Fear",
           "chance": 100
         }
@@ -4767,6 +5007,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 50
         }
@@ -4825,96 +5068,144 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:2:Poison]]",
+          "dataId": 2,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Poison"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:3:Deadly Poison]]",
+          "dataId": 3,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Deadly Poison"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:5:Oiled]]",
+          "dataId": 5,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Oiled"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stun"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:6:Sleep]]",
+          "dataId": 6,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Sleep"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Bleeding"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:29:Burning]]",
+          "dataId": 29,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Burning"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:55:Weakness]]",
+          "dataId": 55,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Weakness"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:56:Fear]]",
+          "dataId": 56,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Fear"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:63:Decelerate]]",
+          "dataId": 63,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Decelerate"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:28:Madness]]",
+          "dataId": 28,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Madness"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:30:Mud]]",
+          "dataId": 30,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Mud"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:17:Silence]]",
+          "dataId": 17,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Silence"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:61:Frailty]]",
+          "dataId": 61,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Frailty"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:162:Frostbite]]",
+          "dataId": 162,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Frostbite"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:163:Laceration]]",
+          "dataId": 163,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Laceration"
         }
       ],
@@ -4972,6 +5263,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:39:Acrobatics]]",
+          "dataId": 39,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Acrobatics",
           "chance": 100
         }
@@ -5130,6 +5424,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:11:Protect]]",
+          "dataId": 11,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Protect",
           "chance": 100
         }
@@ -5188,6 +5485,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:12:Hollow]]",
+          "dataId": 12,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Hollow",
           "chance": 100
         }
@@ -5296,6 +5596,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:41:Knight's Pride]]",
+          "dataId": 41,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Knight's Pride",
           "chance": 100
         },
@@ -5303,6 +5606,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Recover 50% HP",
+          "dataId": 1,
+          "value1": 0.5,
+          "value2": 0,
           "percent": 50,
           "flat": 0
         }
@@ -5461,216 +5767,324 @@ const skillsData = {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Attack increase",
+          "dataId": 2,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Attack"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Defense increase",
+          "dataId": 3,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Defense"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Magic Attack increase",
+          "dataId": 4,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Attack"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Magic Defense increase",
+          "dataId": 5,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Defense"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Agility increase",
+          "dataId": 6,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Agility"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Luck increase",
+          "dataId": 7,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Luck"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:37:SawneyBean Full Belly]]",
+          "dataId": 37,
+          "value1": 1,
+          "value2": 0,
           "stateName": "SawneyBean Full Belly"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:42:Rage]]",
+          "dataId": 42,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Rage"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:38:Rampage]]",
+          "dataId": 38,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Rampage"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:21:Power of Flame]]",
+          "dataId": 21,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Flame"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:23:Power of Lightning]]",
+          "dataId": 23,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Lightning"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:24:Power of Darkness]]",
+          "dataId": 24,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Darkness"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:16:Dodge]]",
+          "dataId": 16,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dodge"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:39:Acrobatics]]",
+          "dataId": 39,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Acrobatics"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:59:Grit]]",
+          "dataId": 59,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Grit"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:52:Power Within]]",
+          "dataId": 52,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power Within"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:41:Knight's Pride]]",
+          "dataId": 41,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Knight's Pride"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:27:Requiem]]",
+          "dataId": 27,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Requiem"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:20:Counterattack Stance]]",
+          "dataId": 20,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Counterattack Stance"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:25:Condition Immunity]]",
+          "dataId": 25,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Condition Immunity"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:65:Crit Avoidance]]",
+          "dataId": 65,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Avoidance"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:74:Croc 1]]",
+          "dataId": 74,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Croc 1"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:75:Croc 2]]",
+          "dataId": 75,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Croc 2"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:76:Croc 3]]",
+          "dataId": 76,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Croc 3"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:45:Crit Chance+30%.]]",
+          "dataId": 45,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Chance+30%."
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:47:Accuracy+100%]]",
+          "dataId": 47,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Accuracy+100%"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:48:Auto-Recovery 50]]",
+          "dataId": 48,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Auto-Recovery 50"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:46:Self-Mutilation]]",
+          "dataId": 46,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Self-Mutilation"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:62:Accelerate]]",
+          "dataId": 62,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Accelerate"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:49:Increased Evasion]]",
+          "dataId": 49,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Increased Evasion"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:128:Inevitable]]",
+          "dataId": 128,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Inevitable"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:54:Eclipse]]",
+          "dataId": 54,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Eclipse"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:133:Soul Shield]]",
+          "dataId": 133,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Soul Shield"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:161:Break Immunity]]",
+          "dataId": 161,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Immunity"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:40:Stone Flesh]]",
+          "dataId": 40,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stone Flesh"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:57:Crit Rate+100%]]",
+          "dataId": 57,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Rate+100%"
         }
       ],
@@ -5728,6 +6142,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Defense for 10 turns",
+          "dataId": 5,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 10
         },
@@ -5735,6 +6152,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Defense for 10 turns",
+          "dataId": 5,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 10
         }
@@ -5793,6 +6213,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:41:Knight's Pride]]",
+          "dataId": 41,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Knight's Pride",
           "chance": 100
         },
@@ -5800,6 +6223,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Recover 50% HP",
+          "dataId": 1,
+          "value1": 0.5,
+          "value2": 0,
           "percent": 50,
           "flat": 0
         }
@@ -5958,6 +6384,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         }
@@ -6016,6 +6445,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:252:Eight Aspects]]",
+          "dataId": 252,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Eight Aspects",
           "chance": 100
         }
@@ -6124,6 +6556,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "90% chance to inflict [[STATE:1:Incapacitated]]",
+          "dataId": 1,
+          "value1": 0.9,
+          "value2": 0,
           "stateName": "Incapacitated",
           "chance": 90
         }
@@ -6182,6 +6617,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -6189,6 +6627,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:8:Break Vulnerable]]",
+          "dataId": 8,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Vulnerable",
           "chance": 100
         }
@@ -6247,6 +6688,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -6254,6 +6698,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:8:Break Vulnerable]]",
+          "dataId": 8,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Vulnerable",
           "chance": 100
         }
@@ -6312,6 +6759,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:16:Dodge]]",
+          "dataId": 16,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dodge",
           "chance": 100
         },
@@ -6319,6 +6769,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:9:Guard]]",
+          "dataId": 9,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Guard",
           "chance": 100
         },
@@ -6326,6 +6779,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 3 turns",
+          "dataId": 6,
+          "value1": 3,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 3
         },
@@ -6333,6 +6789,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 3 turns",
+          "dataId": 6,
+          "value1": 3,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 3
         }
@@ -6491,6 +6950,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:45:Crit Chance+30%.]]",
+          "dataId": 45,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Chance+30%.",
           "chance": 100
         }
@@ -6549,6 +7011,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Defense for 10 turns",
+          "dataId": 5,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 10
         }
@@ -6657,66 +7122,99 @@ const skillsData = {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Max HP decrease",
+          "dataId": 0,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Max HP"
         },
         {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Max MP decrease",
+          "dataId": 1,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Max MP"
         },
         {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Attack decrease",
+          "dataId": 2,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Attack"
         },
         {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Defense decrease",
+          "dataId": 3,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Defense"
         },
         {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Magic Attack decrease",
+          "dataId": 4,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Attack"
         },
         {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Magic Defense decrease",
+          "dataId": 5,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Defense"
         },
         {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Agility decrease",
+          "dataId": 6,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Agility"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:137:Flame RES Down]]",
+          "dataId": 137,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Flame RES Down"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:138:Thunder RES Down]]",
+          "dataId": 138,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Thunder RES Down"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:139:Light RES Down]]",
+          "dataId": 139,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Light RES Down"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:140:Dark RES Down]]",
+          "dataId": 140,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dark RES Down"
         }
       ],
@@ -6774,6 +7272,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         }
@@ -6932,6 +7433,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "70% chance to inflict [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 0.7,
+          "value2": 0,
           "stateName": "Bleeding",
           "chance": 70
         },
@@ -6939,6 +7443,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:16:Dodge]]",
+          "dataId": 16,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dodge"
         }
       ],
@@ -6996,6 +7503,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -7003,6 +7513,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         }
@@ -7061,6 +7574,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "40% chance to inflict [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 0.4,
+          "value2": 0,
           "stateName": "Bleeding",
           "chance": 40
         }
@@ -7118,7 +7634,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 31,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -7175,6 +7694,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Defense for 10 turns",
+          "dataId": 5,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 10
         },
@@ -7182,6 +7704,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Defense for 10 turns",
+          "dataId": 5,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 10
         },
@@ -7189,6 +7714,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:6:Sleep]]",
+          "dataId": 6,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Sleep",
           "chance": 100
         },
@@ -7196,6 +7724,9 @@ const skillsData = {
           "code": 12,
           "codeName": "Recover MP",
           "description": "Drain 99% MP",
+          "dataId": 0,
+          "value1": -0.99,
+          "value2": 0,
           "percent": -99,
           "flat": 0
         }
@@ -7254,6 +7785,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:47:Accuracy+100%]]",
+          "dataId": 47,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Accuracy+100%",
           "chance": 100
         }
@@ -7312,6 +7846,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "20% chance to inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 0.2,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 20
         }
@@ -7370,6 +7907,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -7377,6 +7917,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -7384,6 +7927,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         },
@@ -7391,6 +7937,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         },
@@ -7398,6 +7947,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -7405,6 +7957,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Luck for 5 turns",
+          "dataId": 7,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Luck",
           "turns": 5
         },
@@ -7412,6 +7967,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Max HP for 5 turns",
+          "dataId": 0,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Max HP",
           "turns": 5
         },
@@ -7419,6 +7977,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Max MP for 5 turns",
+          "dataId": 1,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Max MP",
           "turns": 5
         }
@@ -7527,6 +8088,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:16:Dodge]]",
+          "dataId": 16,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dodge",
           "chance": 100
         }
@@ -7585,6 +8149,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Attack for 10 turns",
+          "dataId": 4,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 10
         },
@@ -7592,6 +8159,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Attack for 10 turns",
+          "dataId": 4,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 10
         }
@@ -7650,6 +8220,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 100
         }
@@ -7708,6 +8281,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 100
         }
@@ -7866,6 +8442,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:29:Burning]]",
+          "dataId": 29,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Burning",
           "chance": 100
         }
@@ -7924,6 +8503,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:29:Burning]]",
+          "dataId": 29,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Burning",
           "chance": 100
         }
@@ -7982,6 +8564,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:2:Poison]]",
+          "dataId": 2,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Poison",
           "chance": 100
         }
@@ -8040,6 +8625,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -8047,6 +8635,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         }
@@ -8105,6 +8696,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:56:Fear]]",
+          "dataId": 56,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Fear",
           "chance": 100
         }
@@ -8213,6 +8807,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:27:Requiem]]",
+          "dataId": 27,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Requiem",
           "chance": 100
         }
@@ -8271,6 +8868,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Recover 50% HP",
+          "dataId": 1,
+          "value1": 0.5,
+          "value2": 0,
           "percent": 50,
           "flat": 0
         },
@@ -8278,78 +8878,117 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:2:Poison]]",
+          "dataId": 2,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Poison"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:3:Deadly Poison]]",
+          "dataId": 3,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Deadly Poison"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Bleeding"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:6:Sleep]]",
+          "dataId": 6,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Sleep"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:5:Oiled]]",
+          "dataId": 5,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Oiled"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:29:Burning]]",
+          "dataId": 29,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Burning"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:28:Madness]]",
+          "dataId": 28,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Madness"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:55:Weakness]]",
+          "dataId": 55,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Weakness"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:56:Fear]]",
+          "dataId": 56,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Fear"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:63:Decelerate]]",
+          "dataId": 63,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Decelerate"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:61:Frailty]]",
+          "dataId": 61,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Frailty"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:162:Frostbite]]",
+          "dataId": 162,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Frostbite"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:163:Laceration]]",
+          "dataId": 163,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Laceration"
         }
       ],
@@ -8407,6 +9046,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 10 turns",
+          "dataId": 2,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 10
         },
@@ -8414,6 +9056,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Defense for 10 turns",
+          "dataId": 3,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 10
         },
@@ -8421,6 +9066,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 10 turns",
+          "dataId": 2,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 10
         },
@@ -8428,6 +9076,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Defense for 10 turns",
+          "dataId": 3,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 10
         },
@@ -8435,6 +9086,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:45:Crit Chance+30%.]]",
+          "dataId": 45,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Chance+30%.",
           "chance": 100
         },
@@ -8442,6 +9096,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:47:Accuracy+100%]]",
+          "dataId": 47,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Accuracy+100%",
           "chance": 100
         }
@@ -8550,6 +9207,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -8557,6 +9217,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "30% chance to inflict [[STATE:162:Frostbite]]",
+          "dataId": 162,
+          "value1": 0.3,
+          "value2": 0,
           "stateName": "Frostbite",
           "chance": 30
         }
@@ -8615,6 +9278,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:29:Burning]]",
+          "dataId": 29,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Burning",
           "chance": 100
         }
@@ -8723,6 +9389,9 @@ const skillsData = {
           "code": 12,
           "codeName": "Recover MP",
           "description": "Recover 100 MP",
+          "dataId": 0,
+          "value1": 0,
+          "value2": 100,
           "percent": 0,
           "flat": 100
         }
@@ -8780,7 +9449,10 @@ const skillsData = {
         {
           "code": 41,
           "codeName": "Special Effect",
-          "description": "Escape"
+          "description": "Escape",
+          "dataId": 0,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -8837,13 +9509,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:34:Chanting]]",
+          "dataId": 34,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Chanting",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -8899,7 +9577,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -8956,6 +9637,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:2:Poison]]",
+          "dataId": 2,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Poison",
           "chance": 50
         },
@@ -8963,6 +9647,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:3:Deadly Poison]]",
+          "dataId": 3,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Deadly Poison",
           "chance": 50
         },
@@ -8970,6 +9657,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:6:Sleep]]",
+          "dataId": 6,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Sleep",
           "chance": 50
         },
@@ -8977,6 +9667,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:17:Silence]]",
+          "dataId": 17,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Silence",
           "chance": 50
         }
@@ -9085,6 +9778,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "30% chance to inflict [[STATE:1:Incapacitated]]",
+          "dataId": 1,
+          "value1": 0.3,
+          "value2": 0,
           "stateName": "Incapacitated",
           "chance": 30
         }
@@ -9193,6 +9889,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:29:Burning]]",
+          "dataId": 29,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Burning",
           "chance": 100
         }
@@ -9301,6 +10000,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -9308,6 +10010,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         }
@@ -9366,13 +10071,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:32:Store Power 150]]",
+          "dataId": 32,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Store Power 150",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -9529,6 +10240,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -9536,6 +10250,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:16:Dodge]]",
+          "dataId": 16,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dodge",
           "chance": 100
         },
@@ -9543,6 +10260,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:45:Crit Chance+30%.]]",
+          "dataId": 45,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Chance+30%.",
           "chance": 100
         }
@@ -9601,13 +10321,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:32:Store Power 150]]",
+          "dataId": 32,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Store Power 150",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -9664,13 +10390,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:33:Forbidden Break]]",
+          "dataId": 33,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Forbidden Break",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -9726,7 +10458,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -9983,6 +10718,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -9990,6 +10728,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:56:Fear]]",
+          "dataId": 56,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Fear",
           "chance": 100
         }
@@ -10098,6 +10839,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -10105,6 +10849,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -10112,6 +10859,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 10% HP",
+          "dataId": 1,
+          "value1": -0.1,
+          "value2": 0,
           "percent": -10,
           "flat": 0
         }
@@ -10220,6 +10970,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Bleeding",
           "chance": 50
         }
@@ -10278,6 +11031,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 50
         }
@@ -10436,6 +11192,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:2:Poison]]",
+          "dataId": 2,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Poison",
           "chance": 50
         }
@@ -10494,6 +11253,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 10 turns",
+          "dataId": 6,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 10
         },
@@ -10501,6 +11263,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:49:Increased Evasion]]",
+          "dataId": 49,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Increased Evasion",
           "chance": 100
         }
@@ -10559,6 +11324,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:14:HP Regen]]",
+          "dataId": 14,
+          "value1": 1,
+          "value2": 0,
           "stateName": "HP Regen",
           "chance": 100
         }
@@ -10617,6 +11385,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:1:Incapacitated]]",
+          "dataId": 1,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Incapacitated"
         }
       ],
@@ -10674,6 +11445,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 10 turns",
+          "dataId": 2,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 10
         },
@@ -10681,6 +11455,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:46:Self-Mutilation]]",
+          "dataId": 46,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Self-Mutilation",
           "chance": 100
         }
@@ -10789,6 +11566,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Recover 50% HP",
+          "dataId": 1,
+          "value1": 0.5,
+          "value2": 0,
           "percent": 50,
           "flat": 0
         },
@@ -10796,6 +11576,9 @@ const skillsData = {
           "code": 12,
           "codeName": "Recover MP",
           "description": "Recover 50% MP",
+          "dataId": 0,
+          "value1": 0.5,
+          "value2": 0,
           "percent": 50,
           "flat": 0
         },
@@ -10803,6 +11586,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:61:Frailty]]",
+          "dataId": 61,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Frailty"
         }
       ],
@@ -10960,6 +11746,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -10967,6 +11756,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -10974,6 +11766,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         },
@@ -10981,6 +11776,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         }
@@ -11039,6 +11837,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:37:SawneyBean Full Belly]]",
+          "dataId": 37,
+          "value1": 1,
+          "value2": 0,
           "stateName": "SawneyBean Full Belly",
           "chance": 100
         }
@@ -11097,6 +11898,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         }
@@ -11255,6 +12059,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Bleeding",
           "chance": 100
         }
@@ -11363,6 +12170,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:52:Power Within]]",
+          "dataId": 52,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power Within",
           "chance": 100
         }
@@ -11470,7 +12280,10 @@ const skillsData = {
         {
           "code": 41,
           "codeName": "Special Effect",
-          "description": "Escape"
+          "description": "Escape",
+          "dataId": 0,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -11527,6 +12340,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -11534,6 +12350,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 50
         }
@@ -11642,6 +12461,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:5:Oiled]]",
+          "dataId": 5,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Oiled",
           "chance": 100
         }
@@ -11700,6 +12522,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:2:Poison]]",
+          "dataId": 2,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Poison",
           "chance": 100
         }
@@ -11758,13 +12583,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:34:Chanting]]",
+          "dataId": 34,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Chanting",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -11820,7 +12651,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -11876,12 +12710,18 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 61,
+          "value1": 0,
+          "value2": 0
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:71:State 3]]",
+          "dataId": 71,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State 3",
           "chance": 100
         }
@@ -11939,12 +12779,18 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 60,
+          "value1": 0,
+          "value2": 0
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:71:State 3]]",
+          "dataId": 71,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State 3",
           "chance": 100
         }
@@ -12003,13 +12849,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "90% chance to inflict [[STATE:1:Incapacitated]]",
+          "dataId": 1,
+          "value1": 0.9,
+          "value2": 0,
           "stateName": "Incapacitated",
           "chance": 90
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -12216,6 +13068,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "70% chance to inflict [[STATE:2:Poison]]",
+          "dataId": 2,
+          "value1": 0.7,
+          "value2": 0,
           "stateName": "Poison",
           "chance": 70
         },
@@ -12223,6 +13078,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "70% chance to inflict [[STATE:3:Deadly Poison]]",
+          "dataId": 3,
+          "value1": 0.7,
+          "value2": 0,
           "stateName": "Deadly Poison",
           "chance": 70
         }
@@ -12331,13 +13189,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:36:Scream]]",
+          "dataId": 36,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Scream",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -12394,6 +13258,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:42:Rage]]",
+          "dataId": 42,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Rage",
           "chance": 100
         }
@@ -12451,7 +13318,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -12507,7 +13377,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -12563,7 +13436,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 65,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -12620,6 +13496,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:1:Incapacitated]]",
+          "dataId": 1,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Incapacitated",
           "chance": 100
         }
@@ -12678,6 +13557,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:68:Third Stage]]",
+          "dataId": 68,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Third Stage",
           "chance": 100
         }
@@ -12735,7 +13617,10 @@ const skillsData = {
         {
           "code": 41,
           "codeName": "Special Effect",
-          "description": "Escape"
+          "description": "Escape",
+          "dataId": 0,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -12792,6 +13677,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:69:State 1]]",
+          "dataId": 69,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State 1",
           "chance": 100
         }
@@ -13050,6 +13938,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 50% HP",
+          "dataId": 1,
+          "value1": -0.5,
+          "value2": 0,
           "percent": -50,
           "flat": 0
         }
@@ -13208,6 +14099,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -13215,6 +14109,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         }
@@ -13373,6 +14270,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 50
         }
@@ -13431,6 +14331,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:16:Dodge]]",
+          "dataId": 16,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dodge",
           "chance": 100
         },
@@ -13438,6 +14341,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -13445,6 +14351,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         }
@@ -13503,6 +14412,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -13510,6 +14422,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:6:Sleep]]",
+          "dataId": 6,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Sleep",
           "chance": 50
         }
@@ -13617,7 +14532,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -13674,13 +14592,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:32:Store Power 150]]",
+          "dataId": 32,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Store Power 150",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -13787,6 +14711,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -13794,6 +14721,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -13801,6 +14731,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         },
@@ -13808,6 +14741,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         },
@@ -13815,6 +14751,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -13822,6 +14761,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Luck for 5 turns",
+          "dataId": 7,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Luck",
           "turns": 5
         }
@@ -13980,6 +14922,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 5% HP",
+          "dataId": 1,
+          "value1": -0.05,
+          "value2": 0,
           "percent": -5,
           "flat": 0
         }
@@ -14038,6 +14983,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:5:Oiled]]",
+          "dataId": 5,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Oiled",
           "chance": 100
         }
@@ -14096,13 +15044,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:32:Store Power 150]]",
+          "dataId": 32,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Store Power 150",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -14158,7 +15112,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -14215,13 +15172,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:72:Clock]]",
+          "dataId": 72,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Clock",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 13,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -14277,7 +15240,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 62,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -14333,7 +15299,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 63,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -14389,7 +15358,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 64,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -14496,6 +15468,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:38:Rampage]]",
+          "dataId": 38,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Rampage",
           "chance": 100
         }
@@ -14554,6 +15529,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -14561,6 +15539,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         }
@@ -14619,6 +15600,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "70% chance to inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 0.7,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 70
         }
@@ -14677,6 +15661,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Bleeding",
           "chance": 50
         },
@@ -14684,6 +15671,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         }
@@ -14742,6 +15732,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "70% chance to inflict [[STATE:1:Incapacitated]]",
+          "dataId": 1,
+          "value1": 0.7,
+          "value2": 0,
           "stateName": "Incapacitated",
           "chance": 70
         }
@@ -14799,7 +15792,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 66,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -14906,6 +15902,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 100
         }
@@ -14964,6 +15963,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 100
         }
@@ -15022,6 +16024,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Bleeding",
           "chance": 100
         }
@@ -15130,13 +16135,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:35:Gather Power 200]]",
+          "dataId": 35,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gather Power 200",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -15193,13 +16204,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Bleeding",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -15256,13 +16273,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Bleeding",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -15319,13 +16342,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:28:Madness]]",
+          "dataId": 28,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Madness",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -15382,6 +16411,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:28:Madness]]",
+          "dataId": 28,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Madness",
           "chance": 100
         }
@@ -15440,6 +16472,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "80% chance to inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 0.8,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 80
         }
@@ -15498,6 +16533,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 10 turns",
+          "dataId": 6,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 10
         },
@@ -15505,6 +16543,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 10 turns",
+          "dataId": 6,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 10
         }
@@ -15563,6 +16604,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:65:Crit Avoidance]]",
+          "dataId": 65,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Avoidance",
           "chance": 100
         }
@@ -15621,6 +16665,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:8:Break Vulnerable]]",
+          "dataId": 8,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Vulnerable",
           "chance": 100
         }
@@ -15679,6 +16726,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "30% chance to inflict [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 0.3,
+          "value2": 0,
           "stateName": "Bleeding",
           "chance": 30
         }
@@ -15737,6 +16787,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "30% chance to inflict [[STATE:6:Sleep]]",
+          "dataId": 6,
+          "value1": 0.3,
+          "value2": 0,
           "stateName": "Sleep",
           "chance": 30
         }
@@ -15795,6 +16848,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 50
         }
@@ -15903,6 +16959,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:29:Burning]]",
+          "dataId": 29,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Burning",
           "chance": 50
         }
@@ -15961,6 +17020,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -15968,6 +17030,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         }
@@ -16026,6 +17091,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         }
@@ -16083,12 +17151,18 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 60,
+          "value1": 0,
+          "value2": 0
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:71:State 3]]",
+          "dataId": 71,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State 3",
           "chance": 100
         }
@@ -16146,7 +17220,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 61,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -16203,6 +17280,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 100
         }
@@ -16511,6 +17591,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:3:Deadly Poison]]",
+          "dataId": 3,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Deadly Poison",
           "chance": 50
         },
@@ -16518,6 +17601,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:8:Break Vulnerable]]",
+          "dataId": 8,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Vulnerable",
           "chance": 100
         }
@@ -16576,6 +17662,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "80% chance to inflict [[STATE:61:Frailty]]",
+          "dataId": 61,
+          "value1": 0.8,
+          "value2": 0,
           "stateName": "Frailty",
           "chance": 80
         }
@@ -16634,13 +17723,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:31:Limit Break]]",
+          "dataId": 31,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Limit Break",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -16697,6 +17792,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -16704,6 +17802,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         }
@@ -16762,6 +17863,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Max HP for 5 turns",
+          "dataId": 0,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Max HP",
           "turns": 5
         },
@@ -16769,6 +17873,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Max HP for 5 turns",
+          "dataId": 0,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Max HP",
           "turns": 5
         }
@@ -16827,6 +17934,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:55:Weakness]]",
+          "dataId": 55,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Weakness",
           "chance": 100
         }
@@ -16885,6 +17995,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:48:Auto-Recovery 50]]",
+          "dataId": 48,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Auto-Recovery 50",
           "chance": 100
         },
@@ -16892,6 +18005,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:22:Power of Ice]]",
+          "dataId": 22,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Ice",
           "chance": 100
         }
@@ -16950,102 +18066,153 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:2:Poison]]",
+          "dataId": 2,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Poison"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:3:Deadly Poison]]",
+          "dataId": 3,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Deadly Poison"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:4:Virulent Poison]]",
+          "dataId": 4,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Virulent Poison"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:5:Oiled]]",
+          "dataId": 5,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Oiled"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:17:Silence]]",
+          "dataId": 17,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Silence"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Bleeding"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:28:Madness]]",
+          "dataId": 28,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Madness"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:29:Burning]]",
+          "dataId": 29,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Burning"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:55:Weakness]]",
+          "dataId": 55,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Weakness"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:56:Fear]]",
+          "dataId": 56,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Fear"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:61:Frailty]]",
+          "dataId": 61,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Frailty"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stun"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:63:Decelerate]]",
+          "dataId": 63,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Decelerate"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:162:Frostbite]]",
+          "dataId": 162,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Frostbite"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:163:Laceration]]",
+          "dataId": 163,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Laceration"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:6:Sleep]]",
+          "dataId": 6,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Sleep"
         },
         {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Recover 70% HP",
+          "dataId": 0,
+          "value1": 0.7,
+          "value2": 0,
           "percent": 70,
           "flat": 0
         },
@@ -17053,6 +18220,9 @@ const skillsData = {
           "code": 12,
           "codeName": "Recover MP",
           "description": "Recover 70% MP",
+          "dataId": 0,
+          "value1": 0.7,
+          "value2": 0,
           "percent": 70,
           "flat": 0
         }
@@ -17111,6 +18281,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Recover 50% HP",
+          "dataId": 1,
+          "value1": 0.5,
+          "value2": 0,
           "percent": 50,
           "flat": 0
         }
@@ -17169,6 +18342,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 50
         }
@@ -17277,6 +18453,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -17284,6 +18463,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         }
@@ -17342,6 +18524,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -17349,6 +18534,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -17356,6 +18544,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -17363,6 +18554,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         }
@@ -17421,6 +18615,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -17428,6 +18625,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -17435,6 +18635,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         },
@@ -17442,6 +18645,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         },
@@ -17449,6 +18655,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -17456,6 +18665,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Luck for 5 turns",
+          "dataId": 7,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Luck",
           "turns": 5
         }
@@ -17564,6 +18776,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "20% chance to inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 0.2,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 20
         },
@@ -17571,6 +18786,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:17:Silence]]",
+          "dataId": 17,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Silence",
           "chance": 50
         }
@@ -17629,6 +18847,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:251:Counter(Mabel)]]",
+          "dataId": 251,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Counter(Mabel)",
           "chance": 100
         }
@@ -17737,6 +18958,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:8:Break Vulnerable]]",
+          "dataId": 8,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Vulnerable",
           "chance": 100
         }
@@ -17845,6 +19069,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Bleeding",
           "chance": 100
         },
@@ -17852,6 +19079,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:46:Self-Mutilation]]",
+          "dataId": 46,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Self-Mutilation",
           "chance": 100
         }
@@ -17960,6 +19190,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "90% chance to inflict [[STATE:1:Incapacitated]]",
+          "dataId": 1,
+          "value1": 0.9,
+          "value2": 0,
           "stateName": "Incapacitated",
           "chance": 90
         }
@@ -18068,6 +19301,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:8:Break Vulnerable]]",
+          "dataId": 8,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Vulnerable",
           "chance": 100
         }
@@ -18126,6 +19362,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "30% chance to inflict [[STATE:1:Incapacitated]]",
+          "dataId": 1,
+          "value1": 0.3,
+          "value2": 0,
           "stateName": "Incapacitated",
           "chance": 30
         }
@@ -18184,6 +19423,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:29:Burning]]",
+          "dataId": 29,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Burning",
           "chance": 100
         }
@@ -18242,6 +19484,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:149:Deep Sleep]]",
+          "dataId": 149,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Deep Sleep",
           "chance": 100
         }
@@ -18450,6 +19695,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:162:Frostbite]]",
+          "dataId": 162,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Frostbite",
           "chance": 100
         },
@@ -18457,6 +19705,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:6:Sleep]]",
+          "dataId": 6,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Sleep",
           "chance": 100
         },
@@ -18464,6 +19715,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 10% HP",
+          "dataId": 0,
+          "value1": -0.1,
+          "value2": 0,
           "percent": -10,
           "flat": 0
         }
@@ -18522,6 +19776,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:62:Accelerate]]",
+          "dataId": 62,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Accelerate",
           "chance": 100
         }
@@ -18580,6 +19837,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:62:Accelerate]]",
+          "dataId": 62,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Accelerate",
           "chance": 100
         }
@@ -18638,6 +19898,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:63:Decelerate]]",
+          "dataId": 63,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Decelerate",
           "chance": 100
         }
@@ -18696,6 +19959,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:8:Break Vulnerable]]",
+          "dataId": 8,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Vulnerable",
           "chance": 100
         },
@@ -18703,6 +19969,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:6:Sleep]]",
+          "dataId": 6,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Sleep",
           "chance": 100
         }
@@ -18761,6 +20030,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 50
         }
@@ -18869,6 +20141,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Max HP for 5 turns",
+          "dataId": 0,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Max HP",
           "turns": 5
         },
@@ -18876,6 +20151,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -18883,6 +20161,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -18890,6 +20171,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         },
@@ -18897,6 +20181,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         },
@@ -18904,6 +20191,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -18911,6 +20201,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Luck for 5 turns",
+          "dataId": 7,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Luck",
           "turns": 5
         }
@@ -18969,6 +20262,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "30% chance to inflict [[STATE:2:Poison]]",
+          "dataId": 2,
+          "value1": 0.3,
+          "value2": 0,
           "stateName": "Poison",
           "chance": 30
         },
@@ -18976,6 +20272,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "30% chance to inflict [[STATE:3:Deadly Poison]]",
+          "dataId": 3,
+          "value1": 0.3,
+          "value2": 0,
           "stateName": "Deadly Poison",
           "chance": 30
         },
@@ -18983,6 +20282,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "30% chance to inflict [[STATE:4:Virulent Poison]]",
+          "dataId": 4,
+          "value1": 0.3,
+          "value2": 0,
           "stateName": "Virulent Poison",
           "chance": 30
         },
@@ -18990,6 +20292,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "30% chance to inflict [[STATE:6:Sleep]]",
+          "dataId": 6,
+          "value1": 0.3,
+          "value2": 0,
           "stateName": "Sleep",
           "chance": 30
         },
@@ -18997,6 +20302,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "30% chance to inflict [[STATE:55:Weakness]]",
+          "dataId": 55,
+          "value1": 0.3,
+          "value2": 0,
           "stateName": "Weakness",
           "chance": 30
         },
@@ -19004,6 +20312,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "30% chance to inflict [[STATE:56:Fear]]",
+          "dataId": 56,
+          "value1": 0.3,
+          "value2": 0,
           "stateName": "Fear",
           "chance": 30
         },
@@ -19011,6 +20322,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "30% chance to inflict [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 0.3,
+          "value2": 0,
           "stateName": "Bleeding",
           "chance": 30
         },
@@ -19018,6 +20332,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "30% chance to inflict [[STATE:29:Burning]]",
+          "dataId": 29,
+          "value1": 0.3,
+          "value2": 0,
           "stateName": "Burning",
           "chance": 30
         }
@@ -19076,6 +20393,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -19083,6 +20403,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:4:Virulent Poison]]",
+          "dataId": 4,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Virulent Poison",
           "chance": 100
         }
@@ -19141,6 +20464,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -19148,6 +20474,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         },
@@ -19155,6 +20484,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:29:Burning]]",
+          "dataId": 29,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Burning",
           "chance": 100
         }
@@ -19213,6 +20545,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -19220,6 +20555,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         },
@@ -19227,6 +20565,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Bleeding",
           "chance": 100
         }
@@ -19285,204 +20626,306 @@ const skillsData = {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Attack increase",
+          "dataId": 2,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Attack"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Defense increase",
+          "dataId": 3,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Defense"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Magic Attack increase",
+          "dataId": 4,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Attack"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Magic Defense increase",
+          "dataId": 5,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Defense"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Agility increase",
+          "dataId": 6,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Agility"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Luck increase",
+          "dataId": 7,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Luck"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:37:SawneyBean Full Belly]]",
+          "dataId": 37,
+          "value1": 1,
+          "value2": 0,
           "stateName": "SawneyBean Full Belly"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:42:Rage]]",
+          "dataId": 42,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Rage"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:38:Rampage]]",
+          "dataId": 38,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Rampage"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:21:Power of Flame]]",
+          "dataId": 21,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Flame"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:23:Power of Lightning]]",
+          "dataId": 23,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Lightning"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:24:Power of Darkness]]",
+          "dataId": 24,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Darkness"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:16:Dodge]]",
+          "dataId": 16,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dodge"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:39:Acrobatics]]",
+          "dataId": 39,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Acrobatics"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:59:Grit]]",
+          "dataId": 59,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Grit"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:52:Power Within]]",
+          "dataId": 52,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power Within"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:41:Knight's Pride]]",
+          "dataId": 41,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Knight's Pride"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:27:Requiem]]",
+          "dataId": 27,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Requiem"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:20:Counterattack Stance]]",
+          "dataId": 20,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Counterattack Stance"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:25:Condition Immunity]]",
+          "dataId": 25,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Condition Immunity"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:65:Crit Avoidance]]",
+          "dataId": 65,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Avoidance"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:74:Croc 1]]",
+          "dataId": 74,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Croc 1"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:75:Croc 2]]",
+          "dataId": 75,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Croc 2"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:76:Croc 3]]",
+          "dataId": 76,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Croc 3"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:45:Crit Chance+30%.]]",
+          "dataId": 45,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Chance+30%."
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:47:Accuracy+100%]]",
+          "dataId": 47,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Accuracy+100%"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:48:Auto-Recovery 50]]",
+          "dataId": 48,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Auto-Recovery 50"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:46:Self-Mutilation]]",
+          "dataId": 46,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Self-Mutilation"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:62:Accelerate]]",
+          "dataId": 62,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Accelerate"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:49:Increased Evasion]]",
+          "dataId": 49,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Increased Evasion"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:128:Inevitable]]",
+          "dataId": 128,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Inevitable"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:54:Eclipse]]",
+          "dataId": 54,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Eclipse"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:133:Soul Shield]]",
+          "dataId": 133,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Soul Shield"
         },
         {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 50% HP",
+          "dataId": 1,
+          "value1": -0.5,
+          "value2": 0,
           "percent": -50,
           "flat": 0
         },
@@ -19490,6 +20933,9 @@ const skillsData = {
           "code": 12,
           "codeName": "Recover MP",
           "description": "Drain 50% MP",
+          "dataId": 0,
+          "value1": -0.5,
+          "value2": 0,
           "percent": -50,
           "flat": 0
         }
@@ -19548,13 +20994,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:8:Break Vulnerable]]",
+          "dataId": 8,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Vulnerable",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -19610,12 +21062,18 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         },
         {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Max HP for 5 turns",
+          "dataId": 0,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Max HP",
           "turns": 5
         },
@@ -19623,6 +21081,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Max MP for 5 turns",
+          "dataId": 1,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Max MP",
           "turns": 5
         },
@@ -19630,6 +21091,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Max HP for 5 turns",
+          "dataId": 0,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Max HP",
           "turns": 5
         },
@@ -19637,6 +21101,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Max MP for 5 turns",
+          "dataId": 1,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Max MP",
           "turns": 5
         },
@@ -19644,6 +21111,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 15% HP",
+          "dataId": 1,
+          "value1": -0.15,
+          "value2": 0,
           "percent": -15,
           "flat": 0
         }
@@ -19702,6 +21172,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -19709,6 +21182,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -19716,6 +21192,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         },
@@ -19723,6 +21202,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         },
@@ -19730,6 +21212,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -19737,6 +21222,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Luck for 5 turns",
+          "dataId": 7,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Luck",
           "turns": 5
         },
@@ -19744,6 +21232,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Recover 10% HP",
+          "dataId": 1,
+          "value1": 0.1,
+          "value2": 0,
           "percent": 10,
           "flat": 0
         }
@@ -19802,13 +21293,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:33:Forbidden Break]]",
+          "dataId": 33,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Forbidden Break",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -19865,13 +21362,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:35:Gather Power 200]]",
+          "dataId": 35,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gather Power 200",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -19928,13 +21431,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "20% chance to inflict [[STATE:1:Incapacitated]]",
+          "dataId": 1,
+          "value1": 0.2,
+          "value2": 0,
           "stateName": "Incapacitated",
           "chance": 20
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -19991,13 +21500,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:33:Forbidden Break]]",
+          "dataId": 33,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Forbidden Break",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -20103,7 +21618,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 43,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -20159,7 +21677,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 41,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -20216,6 +21737,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 100% HP",
+          "dataId": 1,
+          "value1": -1,
+          "value2": 0,
           "percent": -100,
           "flat": 0
         },
@@ -20223,6 +21747,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:1:Incapacitated]]",
+          "dataId": 1,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Incapacitated",
           "chance": 100
         },
@@ -20230,6 +21757,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:27:Requiem]]",
+          "dataId": 27,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Requiem"
         }
       ],
@@ -20787,6 +22317,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:66:First Stage]]",
+          "dataId": 66,
+          "value1": 1,
+          "value2": 0,
           "stateName": "First Stage",
           "chance": 100
         },
@@ -20794,6 +22327,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:68:Third Stage]]",
+          "dataId": 68,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Third Stage"
         }
       ],
@@ -20851,6 +22387,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:67:Second Stage]]",
+          "dataId": 67,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Second Stage",
           "chance": 100
         },
@@ -20858,6 +22397,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:66:First Stage]]",
+          "dataId": 66,
+          "value1": 1,
+          "value2": 0,
           "stateName": "First Stage"
         }
       ],
@@ -20915,6 +22457,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:68:Third Stage]]",
+          "dataId": 68,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Third Stage",
           "chance": 100
         },
@@ -20922,6 +22467,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:67:Second Stage]]",
+          "dataId": 67,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Second Stage"
         }
       ],
@@ -20979,6 +22527,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:21:Power of Flame]]",
+          "dataId": 21,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Flame",
           "chance": 100
         },
@@ -20986,6 +22537,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:23:Power of Lightning]]",
+          "dataId": 23,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Lightning",
           "chance": 100
         },
@@ -20993,6 +22547,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:22:Power of Ice]]",
+          "dataId": 22,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Ice",
           "chance": 100
         },
@@ -21000,6 +22557,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:24:Power of Darkness]]",
+          "dataId": 24,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Darkness",
           "chance": 100
         },
@@ -21007,6 +22567,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:162:Frostbite]]",
+          "dataId": 162,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Frostbite"
         }
       ],
@@ -21214,6 +22777,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:123:First Stage]]",
+          "dataId": 123,
+          "value1": 1,
+          "value2": 0,
           "stateName": "First Stage",
           "chance": 100
         },
@@ -21221,6 +22787,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:125:Third Stage]]",
+          "dataId": 125,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Third Stage"
         }
       ],
@@ -21278,6 +22847,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:124:Second Stage]]",
+          "dataId": 124,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Second Stage",
           "chance": 100
         },
@@ -21285,6 +22857,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:123:First Stage]]",
+          "dataId": 123,
+          "value1": 1,
+          "value2": 0,
           "stateName": "First Stage"
         }
       ],
@@ -21342,6 +22917,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:125:Third Stage]]",
+          "dataId": 125,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Third Stage",
           "chance": 100
         },
@@ -21349,6 +22927,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:124:Second Stage]]",
+          "dataId": 124,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Second Stage"
         }
       ],
@@ -21406,6 +22987,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         }
@@ -21514,6 +23098,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:20:Counterattack Stance]]",
+          "dataId": 20,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Counterattack Stance",
           "chance": 100
         }
@@ -21572,6 +23159,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 50
         },
@@ -21579,6 +23169,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         }
@@ -21637,6 +23230,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "80% chance to inflict [[STATE:6:Sleep]]",
+          "dataId": 6,
+          "value1": 0.8,
+          "value2": 0,
           "stateName": "Sleep",
           "chance": 80
         },
@@ -21644,6 +23240,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Luck for 5 turns",
+          "dataId": 7,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Luck",
           "turns": 5
         }
@@ -21702,6 +23301,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "80% chance to inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 0.8,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 80
         },
@@ -21709,6 +23311,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         }
@@ -21766,7 +23371,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -21823,13 +23431,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:35:Gather Power 200]]",
+          "dataId": 35,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gather Power 200",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -21886,6 +23500,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "70% chance to inflict [[STATE:55:Weakness]]",
+          "dataId": 55,
+          "value1": 0.7,
+          "value2": 0,
           "stateName": "Weakness",
           "chance": 70
         }
@@ -21944,6 +23561,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Recover 20% HP",
+          "dataId": 1,
+          "value1": 0.2,
+          "value2": 0,
           "percent": 20,
           "flat": 0
         }
@@ -22002,6 +23622,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "30% chance to inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 0.3,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 30
         }
@@ -22060,6 +23683,9 @@ const skillsData = {
           "code": 12,
           "codeName": "Recover MP",
           "description": "Drain 20% MP",
+          "dataId": 0,
+          "value1": -0.2,
+          "value2": 0,
           "percent": -20,
           "flat": 0
         }
@@ -22118,6 +23744,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:56:Fear]]",
+          "dataId": 56,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Fear",
           "chance": 50
         },
@@ -22125,6 +23754,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Max HP for 5 turns",
+          "dataId": 0,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Max HP",
           "turns": 5
         },
@@ -22132,6 +23764,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Max HP for 5 turns",
+          "dataId": 0,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Max HP",
           "turns": 5
         }
@@ -22190,6 +23825,9 @@ const skillsData = {
           "code": 12,
           "codeName": "Recover MP",
           "description": "Drain 20% MP",
+          "dataId": 0,
+          "value1": -0.2,
+          "value2": 0,
           "percent": -20,
           "flat": 0
         }
@@ -22248,6 +23886,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         }
@@ -22306,6 +23947,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         }
@@ -22364,6 +24008,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         }
@@ -22422,6 +24069,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "20% chance to inflict [[STATE:17:Silence]]",
+          "dataId": 17,
+          "value1": 0.2,
+          "value2": 0,
           "stateName": "Silence",
           "chance": 20
         }
@@ -22480,6 +24130,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         }
@@ -22588,13 +24241,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:32:Store Power 150]]",
+          "dataId": 32,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Store Power 150",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -22650,7 +24309,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -22707,6 +24369,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:55:Weakness]]",
+          "dataId": 55,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Weakness",
           "chance": 100
         }
@@ -22765,6 +24430,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         },
@@ -22772,6 +24440,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Luck for 5 turns",
+          "dataId": 7,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Luck",
           "turns": 5
         },
@@ -22779,6 +24450,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "80% chance to inflict [[STATE:6:Sleep]]",
+          "dataId": 6,
+          "value1": 0.8,
+          "value2": 0,
           "stateName": "Sleep",
           "chance": 80
         }
@@ -22837,6 +24511,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:41:Knight's Pride]]",
+          "dataId": 41,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Knight's Pride",
           "chance": 100
         }
@@ -22895,6 +24572,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Recover 50% HP",
+          "dataId": 0,
+          "value1": 0.5,
+          "value2": 0,
           "percent": 50,
           "flat": 0
         },
@@ -22902,6 +24582,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Max HP for 10 turns",
+          "dataId": 0,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Max HP",
           "turns": 10
         },
@@ -22909,6 +24592,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Max HP for 10 turns",
+          "dataId": 0,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Max HP",
           "turns": 10
         },
@@ -22916,6 +24602,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 10 turns",
+          "dataId": 2,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 10
         },
@@ -22923,6 +24612,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 10 turns",
+          "dataId": 2,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 10
         },
@@ -22930,6 +24622,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 10 turns",
+          "dataId": 6,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 10
         },
@@ -22937,6 +24632,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 10 turns",
+          "dataId": 6,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 10
         },
@@ -22944,6 +24642,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:20:Counterattack Stance]]",
+          "dataId": 20,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Counterattack Stance",
           "chance": 100
         }
@@ -23002,6 +24703,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Max MP for 5 turns",
+          "dataId": 1,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Max MP",
           "turns": 5
         },
@@ -23009,6 +24713,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Max MP for 5 turns",
+          "dataId": 1,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Max MP",
           "turns": 5
         }
@@ -23066,7 +24773,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -23123,6 +24833,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:8:Break Vulnerable]]",
+          "dataId": 8,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Vulnerable",
           "chance": 100
         }
@@ -23181,6 +24894,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 100
         }
@@ -23239,13 +24955,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:32:Store Power 150]]",
+          "dataId": 32,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Store Power 150",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -23301,12 +25023,18 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:29:Burning]]",
+          "dataId": 29,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Burning",
           "chance": 100
         }
@@ -23415,13 +25143,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:31:Limit Break]]",
+          "dataId": 31,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Limit Break",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -23477,7 +25211,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -23534,6 +25271,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "30% chance to inflict [[STATE:56:Fear]]",
+          "dataId": 56,
+          "value1": 0.3,
+          "value2": 0,
           "stateName": "Fear",
           "chance": 30
         }
@@ -23592,6 +25332,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 25% HP",
+          "dataId": 0,
+          "value1": -0.25,
+          "value2": 0,
           "percent": -25,
           "flat": 0
         },
@@ -23599,6 +25342,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -23606,6 +25352,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         }
@@ -23714,13 +25463,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:32:Store Power 150]]",
+          "dataId": 32,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Store Power 150",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -23777,18 +25532,27 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 30% HP",
+          "dataId": 0,
+          "value1": -0.3,
+          "value2": 0,
           "percent": -30,
           "flat": 0
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         },
         {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -23796,6 +25560,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         }
@@ -23853,7 +25620,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -23910,13 +25680,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:33:Forbidden Break]]",
+          "dataId": 33,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Forbidden Break",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -23972,7 +25748,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -24129,6 +25908,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -24136,6 +25918,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         }
@@ -24244,6 +26029,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 100
         }
@@ -24352,6 +26140,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:6:Sleep]]",
+          "dataId": 6,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Sleep",
           "chance": 100
         }
@@ -24410,6 +26201,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -24417,6 +26211,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -24424,6 +26221,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -24431,6 +26231,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -24438,6 +26241,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:16:Dodge]]",
+          "dataId": 16,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dodge",
           "chance": 100
         }
@@ -24495,7 +26301,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -24552,13 +26361,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:32:Store Power 150]]",
+          "dataId": 32,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Store Power 150",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -24614,7 +26429,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -24671,13 +26489,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:33:Forbidden Break]]",
+          "dataId": 33,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Forbidden Break",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -24734,6 +26558,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:6:Sleep]]",
+          "dataId": 6,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Sleep",
           "chance": 50
         }
@@ -24792,6 +26619,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:6:Sleep]]",
+          "dataId": 6,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Sleep",
           "chance": 50
         }
@@ -24850,6 +26680,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:56:Fear]]",
+          "dataId": 56,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Fear",
           "chance": 100
         },
@@ -24857,6 +26690,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         }
@@ -24915,6 +26751,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -24922,6 +26761,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         }
@@ -25030,6 +26872,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:36:Scream]]",
+          "dataId": 36,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Scream",
           "chance": 100
         },
@@ -25037,6 +26882,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:47:Accuracy+100%]]",
+          "dataId": 47,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Accuracy+100%",
           "chance": 100
         },
@@ -25044,6 +26892,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:46:Self-Mutilation]]",
+          "dataId": 46,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Self-Mutilation",
           "chance": 100
         }
@@ -25101,7 +26952,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 72,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -25158,6 +27012,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Bleeding",
           "chance": 50
         },
@@ -25165,6 +27022,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:56:Fear]]",
+          "dataId": 56,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Fear",
           "chance": 50
         }
@@ -25223,18 +27083,27 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:29:Burning]]",
+          "dataId": 29,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Burning",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         },
         {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -25242,6 +27111,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         }
@@ -25300,18 +27172,27 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         },
         {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         },
@@ -25319,6 +27200,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         }
@@ -25377,18 +27261,27 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:56:Fear]]",
+          "dataId": 56,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Fear",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         },
         {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -25396,6 +27289,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         }
@@ -25454,13 +27350,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:33:Forbidden Break]]",
+          "dataId": 33,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Forbidden Break",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -25517,13 +27419,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:35:Gather Power 200]]",
+          "dataId": 35,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gather Power 200",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -25580,6 +27488,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Bleeding",
           "chance": 50
         },
@@ -25587,13 +27498,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:56:Fear]]",
+          "dataId": 56,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Fear",
           "chance": 50
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -25649,7 +27566,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -25706,6 +27626,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         }
@@ -25764,6 +27687,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Max HP for 5 turns",
+          "dataId": 0,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Max HP",
           "turns": 5
         },
@@ -25771,6 +27697,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Max MP for 5 turns",
+          "dataId": 1,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Max MP",
           "turns": 5
         }
@@ -25828,7 +27757,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -25885,13 +27817,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:32:Store Power 150]]",
+          "dataId": 32,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Store Power 150",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -25948,6 +27886,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         },
@@ -25955,6 +27896,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Bleeding",
           "chance": 100
         }
@@ -26013,6 +27957,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:55:Weakness]]",
+          "dataId": 55,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Weakness",
           "chance": 100
         },
@@ -26020,6 +27967,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         }
@@ -26077,7 +28027,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -26134,13 +28087,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:35:Gather Power 200]]",
+          "dataId": 35,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gather Power 200",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -26197,6 +28156,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:66:First Stage]]",
+          "dataId": 66,
+          "value1": 1,
+          "value2": 0,
           "stateName": "First Stage",
           "chance": 100
         }
@@ -26255,6 +28217,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -26262,6 +28227,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:8:Break Vulnerable]]",
+          "dataId": 8,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Vulnerable",
           "chance": 100
         }
@@ -26320,6 +28288,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -26327,6 +28298,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:8:Break Vulnerable]]",
+          "dataId": 8,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Vulnerable",
           "chance": 100
         }
@@ -26535,6 +28509,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 100
         }
@@ -26593,13 +28570,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:32:Store Power 150]]",
+          "dataId": 32,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Store Power 150",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -26655,7 +28638,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -26712,13 +28698,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:32:Store Power 150]]",
+          "dataId": 32,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Store Power 150",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -26774,12 +28766,18 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:3:Deadly Poison]]",
+          "dataId": 3,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Deadly Poison",
           "chance": 100
         },
@@ -26787,6 +28785,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:55:Weakness]]",
+          "dataId": 55,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Weakness",
           "chance": 100
         },
@@ -26794,6 +28795,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:56:Fear]]",
+          "dataId": 56,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Fear",
           "chance": 100
         },
@@ -26801,6 +28805,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:61:Frailty]]",
+          "dataId": 61,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Frailty",
           "chance": 100
         },
@@ -26808,6 +28815,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:17:Silence]]",
+          "dataId": 17,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Silence",
           "chance": 100
         }
@@ -26916,6 +28926,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 100
         }
@@ -26974,6 +28987,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:28:Madness]]",
+          "dataId": 28,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Madness",
           "chance": 100
         }
@@ -27032,6 +29048,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:8:Break Vulnerable]]",
+          "dataId": 8,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Vulnerable",
           "chance": 100
         }
@@ -27090,6 +29109,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 10 turns",
+          "dataId": 2,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 10
         },
@@ -27097,6 +29119,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 10 turns",
+          "dataId": 2,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 10
         }
@@ -27155,13 +29180,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:31:Limit Break]]",
+          "dataId": 31,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Limit Break",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -27217,12 +29248,18 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:1:Incapacitated]]",
+          "dataId": 1,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Incapacitated",
           "chance": 100
         }
@@ -27281,13 +29318,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:35:Gather Power 200]]",
+          "dataId": 35,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gather Power 200",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -27344,13 +29387,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:33:Forbidden Break]]",
+          "dataId": 33,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Forbidden Break",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -27406,12 +29455,18 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:17:Silence]]",
+          "dataId": 17,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Silence",
           "chance": 100
         }
@@ -27520,6 +29575,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 30% HP",
+          "dataId": 1,
+          "value1": -0.3,
+          "value2": 0,
           "percent": -30,
           "flat": 0
         },
@@ -27527,6 +29585,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -27534,6 +29595,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         }
@@ -27592,6 +29656,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 30% HP",
+          "dataId": 1,
+          "value1": -0.3,
+          "value2": 0,
           "percent": -30,
           "flat": 0
         },
@@ -27599,6 +29666,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -27606,6 +29676,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         }
@@ -27664,6 +29737,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 5% HP",
+          "dataId": 1,
+          "value1": -0.05,
+          "value2": 0,
           "percent": -5,
           "flat": 0
         },
@@ -27671,6 +29747,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         }
@@ -27729,6 +29808,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 100% HP",
+          "dataId": 1,
+          "value1": -1,
+          "value2": 0,
           "percent": -100,
           "flat": 0
         }
@@ -27787,13 +29869,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:33:Forbidden Break]]",
+          "dataId": 33,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Forbidden Break",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -27850,6 +29938,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 5% HP",
+          "dataId": 1,
+          "value1": -0.05,
+          "value2": 0,
           "percent": -5,
           "flat": 0
         },
@@ -27857,6 +29948,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         }
@@ -27915,6 +30009,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:97:Gathering]]",
+          "dataId": 97,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gathering",
           "chance": 100
         }
@@ -27973,6 +30070,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:97:Gathering]]",
+          "dataId": 97,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gathering",
           "chance": 100
         }
@@ -28031,6 +30131,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:97:Gathering]]",
+          "dataId": 97,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gathering",
           "chance": 100
         }
@@ -28089,6 +30192,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:97:Gathering]]",
+          "dataId": 97,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gathering",
           "chance": 100
         }
@@ -28147,6 +30253,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:97:Gathering]]",
+          "dataId": 97,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gathering",
           "chance": 100
         }
@@ -28205,6 +30314,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:97:Gathering]]",
+          "dataId": 97,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gathering",
           "chance": 100
         }
@@ -28263,6 +30375,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:97:Gathering]]",
+          "dataId": 97,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gathering",
           "chance": 100
         }
@@ -28321,6 +30436,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:97:Gathering]]",
+          "dataId": 97,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gathering",
           "chance": 100
         }
@@ -28379,6 +30497,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:97:Gathering]]",
+          "dataId": 97,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gathering",
           "chance": 100
         }
@@ -28487,6 +30608,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:87:Gather 1]]",
+          "dataId": 87,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gather 1",
           "chance": 100
         },
@@ -28494,6 +30618,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:96:Gather 10]]",
+          "dataId": 96,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gather 10"
         }
       ],
@@ -28551,6 +30678,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:88:Gather 2]]",
+          "dataId": 88,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gather 2",
           "chance": 100
         },
@@ -28558,6 +30688,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:87:Gather 1]]",
+          "dataId": 87,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gather 1"
         }
       ],
@@ -28615,6 +30748,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:89:Gather 3]]",
+          "dataId": 89,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gather 3",
           "chance": 100
         },
@@ -28622,6 +30758,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:88:Gather 2]]",
+          "dataId": 88,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gather 2"
         }
       ],
@@ -28679,6 +30818,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:90:Gather 4]]",
+          "dataId": 90,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gather 4",
           "chance": 100
         },
@@ -28686,6 +30828,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:89:Gather 3]]",
+          "dataId": 89,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gather 3"
         }
       ],
@@ -28743,6 +30888,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:91:Gather 5]]",
+          "dataId": 91,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gather 5",
           "chance": 100
         },
@@ -28750,6 +30898,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:90:Gather 4]]",
+          "dataId": 90,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gather 4"
         }
       ],
@@ -28807,6 +30958,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:92:Gather 6]]",
+          "dataId": 92,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gather 6",
           "chance": 100
         },
@@ -28814,6 +30968,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:91:Gather 5]]",
+          "dataId": 91,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gather 5"
         }
       ],
@@ -28871,6 +31028,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:93:Gather 7]]",
+          "dataId": 93,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gather 7",
           "chance": 100
         },
@@ -28878,6 +31038,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:92:Gather 6]]",
+          "dataId": 92,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gather 6"
         }
       ],
@@ -28935,6 +31098,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:94:Gather 8]]",
+          "dataId": 94,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gather 8",
           "chance": 100
         },
@@ -28942,6 +31108,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:93:Gather 7]]",
+          "dataId": 93,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gather 7"
         }
       ],
@@ -28999,6 +31168,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:95:Gather 9]]",
+          "dataId": 95,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gather 9",
           "chance": 100
         },
@@ -29006,6 +31178,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:94:Gather 8]]",
+          "dataId": 94,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gather 8"
         }
       ],
@@ -29063,6 +31238,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:96:Gather 10]]",
+          "dataId": 96,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gather 10",
           "chance": 100
         },
@@ -29070,6 +31248,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:95:Gather 9]]",
+          "dataId": 95,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gather 9"
         }
       ],
@@ -29127,13 +31308,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:35:Gather Power 200]]",
+          "dataId": 35,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gather Power 200",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -29190,6 +31377,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 1% HP",
+          "dataId": 1,
+          "value1": -0.01,
+          "value2": 0,
           "percent": -1,
           "flat": 0
         }
@@ -29248,6 +31438,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 3% HP",
+          "dataId": 1,
+          "value1": -0.03,
+          "value2": 0,
           "percent": -3,
           "flat": 0
         },
@@ -29255,6 +31448,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -29262,6 +31458,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         }
@@ -29320,6 +31519,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 1% HP",
+          "dataId": 1,
+          "value1": -0.01,
+          "value2": 0,
           "percent": -1,
           "flat": 0
         },
@@ -29327,6 +31529,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         }
@@ -29385,6 +31590,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 10% HP",
+          "dataId": 1,
+          "value1": -0.1,
+          "value2": 0,
           "percent": -10,
           "flat": 0
         }
@@ -29593,6 +31801,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:28:Madness]]",
+          "dataId": 28,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Madness",
           "chance": 100
         },
@@ -29600,6 +31811,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:48:Auto-Recovery 50]]",
+          "dataId": 48,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Auto-Recovery 50",
           "chance": 100
         }
@@ -29708,13 +31922,19 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 99% HP",
+          "dataId": 1,
+          "value1": -0.99,
+          "value2": 0,
           "percent": -99,
           "flat": 0
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -29821,13 +32041,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:32:Store Power 150]]",
+          "dataId": 32,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Store Power 150",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -29884,13 +32110,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:31:Limit Break]]",
+          "dataId": 31,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Limit Break",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -29947,13 +32179,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:33:Forbidden Break]]",
+          "dataId": 33,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Forbidden Break",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -30009,7 +32247,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -30116,6 +32357,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "80% chance to inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 0.8,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 80
         },
@@ -30123,6 +32367,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -30130,6 +32377,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         }
@@ -30188,6 +32438,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:30:Mud]]",
+          "dataId": 30,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Mud",
           "chance": 100
         }
@@ -30246,13 +32499,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:32:Store Power 150]]",
+          "dataId": 32,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Store Power 150",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -30308,7 +32567,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 210,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -30365,6 +32627,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 30% HP",
+          "dataId": 1,
+          "value1": -0.3,
+          "value2": 0,
           "percent": -30,
           "flat": 0
         },
@@ -30372,6 +32637,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -30379,6 +32647,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -30386,6 +32657,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         },
@@ -30393,6 +32667,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         },
@@ -30400,6 +32677,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -30407,13 +32687,19 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Luck for 5 turns",
+          "dataId": 7,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Luck",
           "turns": 5
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -30470,13 +32756,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:34:Chanting]]",
+          "dataId": 34,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Chanting",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -30533,6 +32825,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 100% HP",
+          "dataId": 0,
+          "value1": -1,
+          "value2": 0,
           "percent": -100,
           "flat": 0
         }
@@ -30591,6 +32886,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 10 turns",
+          "dataId": 2,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 10
         },
@@ -30598,6 +32896,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 10 turns",
+          "dataId": 2,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 10
         },
@@ -30605,6 +32906,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -30612,6 +32916,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         }
@@ -30670,6 +32977,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Defense for 10 turns",
+          "dataId": 3,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 10
         },
@@ -30677,6 +32987,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Defense for 10 turns",
+          "dataId": 3,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 10
         },
@@ -30684,6 +32997,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         },
@@ -30691,6 +33007,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         }
@@ -30749,6 +33068,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Attack for 10 turns",
+          "dataId": 4,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 10
         },
@@ -30756,6 +33078,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Attack for 10 turns",
+          "dataId": 4,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 10
         },
@@ -30763,6 +33088,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Luck for 5 turns",
+          "dataId": 7,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Luck",
           "turns": 5
         },
@@ -30770,6 +33098,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Luck for 5 turns",
+          "dataId": 7,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Luck",
           "turns": 5
         }
@@ -30828,6 +33159,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -30835,6 +33169,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -30842,6 +33179,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         },
@@ -30849,6 +33189,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         }
@@ -30907,6 +33250,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:8:Break Vulnerable]]",
+          "dataId": 8,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Vulnerable",
           "chance": 100
         }
@@ -30965,6 +33311,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Bleeding",
           "chance": 50
         }
@@ -31023,13 +33372,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:34:Chanting]]",
+          "dataId": 34,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Chanting",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -31086,13 +33441,19 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 99% HP",
+          "dataId": 1,
+          "value1": -0.99,
+          "value2": 0,
           "percent": -99,
           "flat": 0
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -31149,6 +33510,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:8:Break Vulnerable]]",
+          "dataId": 8,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Vulnerable",
           "chance": 100
         }
@@ -31257,13 +33621,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:31:Limit Break]]",
+          "dataId": 31,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Limit Break",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -31320,6 +33690,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:28:Madness]]",
+          "dataId": 28,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Madness",
           "chance": 50
         }
@@ -31378,6 +33751,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 100% HP",
+          "dataId": 0,
+          "value1": -1,
+          "value2": 0,
           "percent": -100,
           "flat": 0
         }
@@ -31436,13 +33812,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:34:Chanting]]",
+          "dataId": 34,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Chanting",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -31498,7 +33880,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -31555,13 +33940,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:31:Limit Break]]",
+          "dataId": 31,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Limit Break",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -31620,13 +34011,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Bleeding",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -31683,13 +34080,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:33:Forbidden Break]]",
+          "dataId": 33,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Forbidden Break",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -31747,7 +34150,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -31804,6 +34210,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:6:Sleep]]",
+          "dataId": 6,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Sleep",
           "chance": 50
         },
@@ -31811,6 +34220,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:63:Decelerate]]",
+          "dataId": 63,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Decelerate",
           "chance": 50
         },
@@ -31818,6 +34230,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:162:Frostbite]]",
+          "dataId": 162,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Frostbite",
           "chance": 50
         },
@@ -31825,6 +34240,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:163:Laceration]]",
+          "dataId": 163,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Laceration",
           "chance": 50
         }
@@ -31883,6 +34301,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:6:Sleep]]",
+          "dataId": 6,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Sleep",
           "chance": 50
         }
@@ -31941,6 +34362,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Recover 5% HP",
+          "dataId": 1,
+          "value1": 0.05,
+          "value2": 0,
           "percent": 5,
           "flat": 0
         },
@@ -31948,6 +34372,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -31955,6 +34382,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -31962,6 +34392,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -31969,6 +34402,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -31976,6 +34412,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         },
@@ -31983,6 +34422,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         },
@@ -31990,6 +34432,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         },
@@ -31997,6 +34442,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         },
@@ -32004,6 +34452,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -32011,6 +34462,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -32018,6 +34472,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Luck for 5 turns",
+          "dataId": 7,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Luck",
           "turns": 5
         },
@@ -32025,6 +34482,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Luck for 5 turns",
+          "dataId": 7,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Luck",
           "turns": 5
         }
@@ -32083,6 +34543,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Recover 5% HP",
+          "dataId": 1,
+          "value1": 0.05,
+          "value2": 0,
           "percent": 5,
           "flat": 0
         },
@@ -32090,6 +34553,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:46:Self-Mutilation]]",
+          "dataId": 46,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Self-Mutilation",
           "chance": 100
         },
@@ -32097,6 +34563,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:41:Knight's Pride]]",
+          "dataId": 41,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Knight's Pride",
           "chance": 100
         }
@@ -32155,6 +34624,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -32162,6 +34634,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Bleeding",
           "chance": 100
         }
@@ -32220,13 +34695,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:34:Chanting]]",
+          "dataId": 34,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Chanting",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -32283,78 +34764,117 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:2:Poison]]",
+          "dataId": 2,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Poison"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:3:Deadly Poison]]",
+          "dataId": 3,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Deadly Poison"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:5:Oiled]]",
+          "dataId": 5,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Oiled"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stun"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:29:Burning]]",
+          "dataId": 29,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Burning"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Bleeding"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:55:Weakness]]",
+          "dataId": 55,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Weakness"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:56:Fear]]",
+          "dataId": 56,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Fear"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:6:Sleep]]",
+          "dataId": 6,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Sleep"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:63:Decelerate]]",
+          "dataId": 63,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Decelerate"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:28:Madness]]",
+          "dataId": 28,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Madness"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:30:Mud]]",
+          "dataId": 30,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Mud"
         },
         {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Recover 10% HP",
+          "dataId": 1,
+          "value1": 0.1,
+          "value2": 0,
           "percent": 10,
           "flat": 0
         },
@@ -32362,6 +34882,9 @@ const skillsData = {
           "code": 12,
           "codeName": "Recover MP",
           "description": "Recover 50% MP",
+          "dataId": 0,
+          "value1": 0.5,
+          "value2": 0,
           "percent": 50,
           "flat": 0
         },
@@ -32369,42 +34892,63 @@ const skillsData = {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Attack decrease",
+          "dataId": 2,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Attack"
         },
         {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Defense decrease",
+          "dataId": 3,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Defense"
         },
         {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Magic Attack decrease",
+          "dataId": 4,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Attack"
         },
         {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Magic Defense decrease",
+          "dataId": 5,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Defense"
         },
         {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Agility decrease",
+          "dataId": 6,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Agility"
         },
         {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Luck decrease",
+          "dataId": 7,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Luck"
         },
         {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -32412,6 +34956,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -32419,6 +34966,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         },
@@ -32426,6 +34976,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         },
@@ -32433,6 +34986,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         }
@@ -32490,7 +35046,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -32547,13 +35106,19 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 99% HP",
+          "dataId": 1,
+          "value1": -0.99,
+          "value2": 0,
           "percent": -99,
           "flat": 0
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -32610,6 +35175,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         }
@@ -32668,13 +35236,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:50:Store Power Last Boss]]",
+          "dataId": 50,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Store Power Last Boss",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -32730,7 +35304,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -32787,6 +35364,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 50% HP",
+          "dataId": 1,
+          "value1": -0.5,
+          "value2": 0,
           "percent": -50,
           "flat": 0
         },
@@ -32794,13 +35374,19 @@ const skillsData = {
           "code": 12,
           "codeName": "Recover MP",
           "description": "Drain 50% MP",
+          "dataId": 0,
+          "value1": -0.5,
+          "value2": 0,
           "percent": -50,
           "flat": 0
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -32857,6 +35443,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 15% HP",
+          "dataId": 1,
+          "value1": -0.15,
+          "value2": 0,
           "percent": -15,
           "flat": 0
         },
@@ -32864,13 +35453,19 @@ const skillsData = {
           "code": 12,
           "codeName": "Recover MP",
           "description": "Drain 15% MP",
+          "dataId": 0,
+          "value1": -0.15,
+          "value2": 0,
           "percent": -15,
           "flat": 0
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -32927,13 +35522,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:51:Store Power Last Boss 2]]",
+          "dataId": 51,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Store Power Last Boss 2",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -32990,13 +35591,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:33:Forbidden Break]]",
+          "dataId": 33,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Forbidden Break",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -33053,6 +35660,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 10% HP",
+          "dataId": 1,
+          "value1": -0.1,
+          "value2": 0,
           "percent": -10,
           "flat": 0
         },
@@ -33060,18 +35670,27 @@ const skillsData = {
           "code": 12,
           "codeName": "Recover MP",
           "description": "Drain 15% MP",
+          "dataId": 0,
+          "value1": -0.15,
+          "value2": 0,
           "percent": -15,
           "flat": 0
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:17:Silence]]",
+          "dataId": 17,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Silence",
           "chance": 50
         },
@@ -33079,6 +35698,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:28:Madness]]",
+          "dataId": 28,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Madness",
           "chance": 50
         },
@@ -33086,6 +35708,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:61:Frailty]]",
+          "dataId": 61,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Frailty",
           "chance": 50
         },
@@ -33093,6 +35718,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 50
         },
@@ -33100,6 +35728,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:12:Hollow]]",
+          "dataId": 12,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Hollow",
           "chance": 50
         },
@@ -33107,6 +35738,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -33114,6 +35748,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -33121,6 +35758,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         },
@@ -33128,6 +35768,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         },
@@ -33135,6 +35778,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -33142,6 +35788,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Luck for 5 turns",
+          "dataId": 7,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Luck",
           "turns": 5
         }
@@ -33250,13 +35899,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:35:Gather Power 200]]",
+          "dataId": 35,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gather Power 200",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -33313,6 +35968,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 100
         }
@@ -33371,6 +36029,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:56:Fear]]",
+          "dataId": 56,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Fear",
           "chance": 100
         },
@@ -33378,12 +36039,18 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:16:Dodge]]",
+          "dataId": 16,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dodge"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:39:Acrobatics]]",
+          "dataId": 39,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Acrobatics"
         }
       ],
@@ -33441,6 +36108,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "80% chance to inflict [[STATE:1:Incapacitated]]",
+          "dataId": 1,
+          "value1": 0.8,
+          "value2": 0,
           "stateName": "Incapacitated",
           "chance": 80
         }
@@ -33499,6 +36169,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:8:Break Vulnerable]]",
+          "dataId": 8,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Vulnerable",
           "chance": 100
         }
@@ -33607,13 +36280,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:33:Forbidden Break]]",
+          "dataId": 33,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Forbidden Break",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -33669,12 +36348,18 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:28:Madness]]",
+          "dataId": 28,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Madness",
           "chance": 100
         }
@@ -33733,180 +36418,270 @@ const skillsData = {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Attack increase",
+          "dataId": 2,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Attack"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Defense increase",
+          "dataId": 3,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Defense"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Magic Attack increase",
+          "dataId": 4,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Attack"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Magic Defense increase",
+          "dataId": 5,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Defense"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Agility increase",
+          "dataId": 6,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Agility"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Luck increase",
+          "dataId": 7,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Luck"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:37:SawneyBean Full Belly]]",
+          "dataId": 37,
+          "value1": 1,
+          "value2": 0,
           "stateName": "SawneyBean Full Belly"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:42:Rage]]",
+          "dataId": 42,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Rage"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:38:Rampage]]",
+          "dataId": 38,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Rampage"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:21:Power of Flame]]",
+          "dataId": 21,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Flame"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:23:Power of Lightning]]",
+          "dataId": 23,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Lightning"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:24:Power of Darkness]]",
+          "dataId": 24,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Darkness"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:16:Dodge]]",
+          "dataId": 16,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dodge"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:39:Acrobatics]]",
+          "dataId": 39,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Acrobatics"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:59:Grit]]",
+          "dataId": 59,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Grit"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:52:Power Within]]",
+          "dataId": 52,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power Within"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:41:Knight's Pride]]",
+          "dataId": 41,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Knight's Pride"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:27:Requiem]]",
+          "dataId": 27,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Requiem"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:20:Counterattack Stance]]",
+          "dataId": 20,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Counterattack Stance"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:25:Condition Immunity]]",
+          "dataId": 25,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Condition Immunity"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:65:Crit Avoidance]]",
+          "dataId": 65,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Avoidance"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:74:Croc 1]]",
+          "dataId": 74,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Croc 1"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:75:Croc 2]]",
+          "dataId": 75,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Croc 2"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:76:Croc 3]]",
+          "dataId": 76,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Croc 3"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:45:Crit Chance+30%.]]",
+          "dataId": 45,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Chance+30%."
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:47:Accuracy+100%]]",
+          "dataId": 47,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Accuracy+100%"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:48:Auto-Recovery 50]]",
+          "dataId": 48,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Auto-Recovery 50"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:46:Self-Mutilation]]",
+          "dataId": 46,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Self-Mutilation"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:62:Accelerate]]",
+          "dataId": 62,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Accelerate"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:49:Increased Evasion]]",
+          "dataId": 49,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Increased Evasion"
         }
       ],
@@ -33964,6 +36739,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -33971,6 +36749,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         }
@@ -34029,6 +36810,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:7:Hard Break Vulnerable]]",
+          "dataId": 7,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Hard Break Vulnerable",
           "chance": 100
         }
@@ -34087,6 +36871,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:39:Acrobatics]]",
+          "dataId": 39,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Acrobatics",
           "chance": 100
         },
@@ -34094,6 +36881,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -34101,6 +36891,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         }
@@ -34209,6 +37002,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "90% chance to inflict [[STATE:1:Incapacitated]]",
+          "dataId": 1,
+          "value1": 0.9,
+          "value2": 0,
           "stateName": "Incapacitated",
           "chance": 90
         }
@@ -34267,13 +37063,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:72:Clock]]",
+          "dataId": 72,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Clock",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 13,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -34330,6 +37132,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:2:Poison]]",
+          "dataId": 2,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Poison",
           "chance": 100
         },
@@ -34337,6 +37142,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:3:Deadly Poison]]",
+          "dataId": 3,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Deadly Poison",
           "chance": 100
         },
@@ -34344,6 +37152,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Bleeding",
           "chance": 100
         },
@@ -34351,6 +37162,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:6:Sleep]]",
+          "dataId": 6,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Sleep",
           "chance": 100
         },
@@ -34358,6 +37172,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:61:Frailty]]",
+          "dataId": 61,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Frailty",
           "chance": 100
         }
@@ -34416,78 +37233,117 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:2:Poison]]",
+          "dataId": 2,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Poison"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:3:Deadly Poison]]",
+          "dataId": 3,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Deadly Poison"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:5:Oiled]]",
+          "dataId": 5,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Oiled"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stun"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:29:Burning]]",
+          "dataId": 29,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Burning"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Bleeding"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:55:Weakness]]",
+          "dataId": 55,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Weakness"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:56:Fear]]",
+          "dataId": 56,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Fear"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:6:Sleep]]",
+          "dataId": 6,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Sleep"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:63:Decelerate]]",
+          "dataId": 63,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Decelerate"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:28:Madness]]",
+          "dataId": 28,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Madness"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:30:Mud]]",
+          "dataId": 30,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Mud"
         },
         {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Recover 10% HP",
+          "dataId": 1,
+          "value1": 0.1,
+          "value2": 0,
           "percent": 10,
           "flat": 0
         },
@@ -34495,6 +37351,9 @@ const skillsData = {
           "code": 12,
           "codeName": "Recover MP",
           "description": "Recover 50% MP",
+          "dataId": 0,
+          "value1": 0.5,
+          "value2": 0,
           "percent": 50,
           "flat": 0
         },
@@ -34502,36 +37361,54 @@ const skillsData = {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Attack decrease",
+          "dataId": 2,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Attack"
         },
         {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Defense decrease",
+          "dataId": 3,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Defense"
         },
         {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Magic Attack decrease",
+          "dataId": 4,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Attack"
         },
         {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Magic Defense decrease",
+          "dataId": 5,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Defense"
         },
         {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Agility decrease",
+          "dataId": 6,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Agility"
         },
         {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Luck decrease",
+          "dataId": 7,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Luck"
         }
       ],
@@ -34589,13 +37466,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:33:Forbidden Break]]",
+          "dataId": 33,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Forbidden Break",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -34702,6 +37585,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:28:Madness]]",
+          "dataId": 28,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Madness",
           "chance": 100
         }
@@ -34760,6 +37646,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 1% HP",
+          "dataId": 1,
+          "value1": -0.01,
+          "value2": 0,
           "percent": -1,
           "flat": 0
         }
@@ -34818,6 +37707,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Recover 50% HP",
+          "dataId": 1,
+          "value1": 0.5,
+          "value2": 0,
           "percent": 50,
           "flat": 0
         },
@@ -34825,6 +37717,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -34832,6 +37727,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -34839,6 +37737,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -34846,6 +37747,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -34853,6 +37757,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         },
@@ -34860,6 +37767,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         },
@@ -34867,6 +37777,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         },
@@ -34874,6 +37787,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         },
@@ -34881,6 +37797,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -34888,6 +37807,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -34895,6 +37817,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Luck for 5 turns",
+          "dataId": 7,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Luck",
           "turns": 5
         },
@@ -34902,6 +37827,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Luck for 5 turns",
+          "dataId": 7,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Luck",
           "turns": 5
         }
@@ -34960,6 +37888,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 2% HP",
+          "dataId": 1,
+          "value1": -0.02,
+          "value2": 0,
           "percent": -2,
           "flat": 0
         }
@@ -35018,6 +37949,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:16:Dodge]]",
+          "dataId": 16,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dodge",
           "chance": 100
         }
@@ -35076,6 +38010,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -35083,6 +38020,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -35090,6 +38030,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -35097,6 +38040,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -35104,6 +38050,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -35111,6 +38060,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         }
@@ -35169,13 +38121,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:33:Forbidden Break]]",
+          "dataId": 33,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Forbidden Break",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -35232,42 +38190,63 @@ const skillsData = {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Attack decrease",
+          "dataId": 2,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Attack"
         },
         {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Defense decrease",
+          "dataId": 3,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Defense"
         },
         {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Magic Attack decrease",
+          "dataId": 4,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Attack"
         },
         {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Magic Defense decrease",
+          "dataId": 5,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Defense"
         },
         {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Agility decrease",
+          "dataId": 6,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Agility"
         },
         {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Luck decrease",
+          "dataId": 7,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Luck"
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:113:High Maneuverability]]",
+          "dataId": 113,
+          "value1": 1,
+          "value2": 0,
           "stateName": "High Maneuverability",
           "chance": 100
         }
@@ -35326,54 +38305,81 @@ const skillsData = {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Max HP decrease",
+          "dataId": 0,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Max HP"
         },
         {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Magic Defense decrease",
+          "dataId": 5,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Defense"
         },
         {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Attack decrease",
+          "dataId": 2,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Attack"
         },
         {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Defense decrease",
+          "dataId": 3,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Defense"
         },
         {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Magic Attack decrease",
+          "dataId": 4,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Attack"
         },
         {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Magic Defense decrease",
+          "dataId": 5,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Defense"
         },
         {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Agility decrease",
+          "dataId": 6,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Agility"
         },
         {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Luck decrease",
+          "dataId": 7,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Luck"
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:116:High Maneuverability]]",
+          "dataId": 116,
+          "value1": 1,
+          "value2": 0,
           "stateName": "High Maneuverability",
           "chance": 100
         }
@@ -35432,6 +38438,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:72:Clock]]",
+          "dataId": 72,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Clock",
           "chance": 100
         }
@@ -35490,54 +38499,81 @@ const skillsData = {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Max HP decrease",
+          "dataId": 0,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Max HP"
         },
         {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Magic Defense decrease",
+          "dataId": 5,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Defense"
         },
         {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Attack decrease",
+          "dataId": 2,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Attack"
         },
         {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Defense decrease",
+          "dataId": 3,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Defense"
         },
         {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Magic Attack decrease",
+          "dataId": 4,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Attack"
         },
         {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Magic Defense decrease",
+          "dataId": 5,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Defense"
         },
         {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Agility decrease",
+          "dataId": 6,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Agility"
         },
         {
           "code": 34,
           "codeName": "Remove Debuff",
           "description": "Remove Luck decrease",
+          "dataId": 7,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Luck"
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:42:Rage]]",
+          "dataId": 42,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Rage",
           "chance": 100
         }
@@ -35596,13 +38632,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:32:Store Power 150]]",
+          "dataId": 32,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Store Power 150",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -35658,12 +38700,18 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:28:Madness]]",
+          "dataId": 28,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Madness",
           "chance": 100
         }
@@ -35722,6 +38770,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:7:Hard Break Vulnerable]]",
+          "dataId": 7,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Hard Break Vulnerable",
           "chance": 100
         }
@@ -35780,6 +38831,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -35787,6 +38841,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -35794,6 +38851,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:56:Fear]]",
+          "dataId": 56,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Fear",
           "chance": 100
         },
@@ -35801,6 +38861,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 15% HP",
+          "dataId": 1,
+          "value1": -0.15,
+          "value2": 0,
           "percent": -15,
           "flat": 0
         }
@@ -35859,6 +38922,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:53:Phalanx]]",
+          "dataId": 53,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Phalanx",
           "chance": 100
         }
@@ -35967,6 +39033,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:8:Break Vulnerable]]",
+          "dataId": 8,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Vulnerable",
           "chance": 100
         }
@@ -36075,6 +39144,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:54:Eclipse]]",
+          "dataId": 54,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Eclipse",
           "chance": 100
         }
@@ -36483,6 +39555,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "30% chance to inflict [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 0.3,
+          "value2": 0,
           "stateName": "Bleeding",
           "chance": 30
         }
@@ -36591,6 +39666,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "30% chance to inflict [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 0.3,
+          "value2": 0,
           "stateName": "Bleeding",
           "chance": 30
         }
@@ -36699,6 +39777,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:127:Slaughter]]",
+          "dataId": 127,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Slaughter",
           "chance": 100
         }
@@ -36857,6 +39938,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:128:Inevitable]]",
+          "dataId": 128,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Inevitable",
           "chance": 100
         }
@@ -36915,6 +39999,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Recover 50% HP",
+          "dataId": 0,
+          "value1": 0.5,
+          "value2": 0,
           "percent": 50,
           "flat": 0
         },
@@ -36922,6 +40009,9 @@ const skillsData = {
           "code": 12,
           "codeName": "Recover MP",
           "description": "Recover 50% MP",
+          "dataId": 0,
+          "value1": 0.5,
+          "value2": 0,
           "percent": 50,
           "flat": 0
         }
@@ -37030,6 +40120,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:29:Burning]]",
+          "dataId": 29,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Burning",
           "chance": 100
         }
@@ -37138,6 +40231,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:5:Oiled]]",
+          "dataId": 5,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Oiled",
           "chance": 100
         }
@@ -37196,6 +40292,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:27:Requiem]]",
+          "dataId": 27,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Requiem",
           "chance": 100
         },
@@ -37203,6 +40302,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 99% HP",
+          "dataId": 0,
+          "value1": -0.99,
+          "value2": 0,
           "percent": -99,
           "flat": 0
         }
@@ -37261,204 +40363,306 @@ const skillsData = {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Attack increase",
+          "dataId": 2,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Attack"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Defense increase",
+          "dataId": 3,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Defense"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Magic Attack increase",
+          "dataId": 4,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Attack"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Magic Defense increase",
+          "dataId": 5,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Defense"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Agility increase",
+          "dataId": 6,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Agility"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Luck increase",
+          "dataId": 7,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Luck"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:37:SawneyBean Full Belly]]",
+          "dataId": 37,
+          "value1": 1,
+          "value2": 0,
           "stateName": "SawneyBean Full Belly"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:42:Rage]]",
+          "dataId": 42,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Rage"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:38:Rampage]]",
+          "dataId": 38,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Rampage"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:21:Power of Flame]]",
+          "dataId": 21,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Flame"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:23:Power of Lightning]]",
+          "dataId": 23,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Lightning"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:24:Power of Darkness]]",
+          "dataId": 24,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Darkness"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:16:Dodge]]",
+          "dataId": 16,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dodge"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:39:Acrobatics]]",
+          "dataId": 39,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Acrobatics"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:59:Grit]]",
+          "dataId": 59,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Grit"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:52:Power Within]]",
+          "dataId": 52,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power Within"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:41:Knight's Pride]]",
+          "dataId": 41,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Knight's Pride"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:27:Requiem]]",
+          "dataId": 27,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Requiem"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:20:Counterattack Stance]]",
+          "dataId": 20,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Counterattack Stance"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:25:Condition Immunity]]",
+          "dataId": 25,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Condition Immunity"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:65:Crit Avoidance]]",
+          "dataId": 65,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Avoidance"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:74:Croc 1]]",
+          "dataId": 74,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Croc 1"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:75:Croc 2]]",
+          "dataId": 75,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Croc 2"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:76:Croc 3]]",
+          "dataId": 76,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Croc 3"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:45:Crit Chance+30%.]]",
+          "dataId": 45,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Chance+30%."
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:47:Accuracy+100%]]",
+          "dataId": 47,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Accuracy+100%"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:48:Auto-Recovery 50]]",
+          "dataId": 48,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Auto-Recovery 50"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:46:Self-Mutilation]]",
+          "dataId": 46,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Self-Mutilation"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:62:Accelerate]]",
+          "dataId": 62,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Accelerate"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:49:Increased Evasion]]",
+          "dataId": 49,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Increased Evasion"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:54:Eclipse]]",
+          "dataId": 54,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Eclipse"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:133:Soul Shield]]",
+          "dataId": 133,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Soul Shield"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:128:Inevitable]]",
+          "dataId": 128,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Inevitable"
         },
         {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 10% HP",
+          "dataId": 1,
+          "value1": -0.1,
+          "value2": 0,
           "percent": -10,
           "flat": 0
         }
@@ -37517,6 +40721,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:27:Requiem]]",
+          "dataId": 27,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Requiem",
           "chance": 100
         }
@@ -37575,6 +40782,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 5% HP",
+          "dataId": 1,
+          "value1": -0.05,
+          "value2": 0,
           "percent": -5,
           "flat": 0
         }
@@ -37633,6 +40843,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 5% HP",
+          "dataId": 1,
+          "value1": -0.05,
+          "value2": 0,
           "percent": -5,
           "flat": 0
         }
@@ -37691,6 +40904,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 5% HP",
+          "dataId": 1,
+          "value1": -0.05,
+          "value2": 0,
           "percent": -5,
           "flat": 0
         }
@@ -37749,6 +40965,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:64:Death Sentence]]",
+          "dataId": 64,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Death Sentence",
           "chance": 100
         }
@@ -37807,6 +41026,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:35:Gather Power 200]]",
+          "dataId": 35,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gather Power 200",
           "chance": 100
         }
@@ -37865,6 +41087,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -37872,6 +41097,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -37879,6 +41107,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         },
@@ -37886,6 +41117,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         },
@@ -37893,6 +41127,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -37900,6 +41137,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         }
@@ -37958,12 +41198,18 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:9:Guard]]",
+          "dataId": 9,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Guard"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:16:Dodge]]",
+          "dataId": 16,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dodge"
         }
       ],
@@ -38071,6 +41317,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:57:Crit Rate+100%]]",
+          "dataId": 57,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Rate+100%",
           "chance": 100
         }
@@ -38129,6 +41378,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:57:Crit Rate+100%]]",
+          "dataId": 57,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Rate+100%",
           "chance": 100
         }
@@ -38237,6 +41489,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:57:Crit Rate+100%]]",
+          "dataId": 57,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Rate+100%"
         }
       ],
@@ -38344,6 +41599,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:133:Soul Shield]]",
+          "dataId": 133,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Soul Shield",
           "chance": 100
         }
@@ -38402,6 +41660,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:61:Frailty]]",
+          "dataId": 61,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Frailty",
           "chance": 100
         },
@@ -38409,6 +41670,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 10% HP",
+          "dataId": 1,
+          "value1": -0.1,
+          "value2": 0,
           "percent": -10,
           "flat": 0
         }
@@ -38467,6 +41731,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:27:Requiem]]",
+          "dataId": 27,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Requiem"
         }
       ],
@@ -38524,6 +41791,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:171:State #171]]",
+          "dataId": 171,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State #171",
           "chance": 100
         },
@@ -38531,6 +41801,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:161:Break Immunity]]",
+          "dataId": 161,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Immunity",
           "chance": 100
         },
@@ -38538,6 +41811,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:16:Dodge]]",
+          "dataId": 16,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dodge",
           "chance": 100
         }
@@ -38596,13 +41872,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:35:Gather Power 200]]",
+          "dataId": 35,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gather Power 200",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -38659,6 +41941,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Recover 100% HP",
+          "dataId": 0,
+          "value1": 1,
+          "value2": 0,
           "percent": 100,
           "flat": 0
         },
@@ -38666,6 +41951,9 @@ const skillsData = {
           "code": 12,
           "codeName": "Recover MP",
           "description": "Recover 100% MP",
+          "dataId": 0,
+          "value1": 1,
+          "value2": 0,
           "percent": 100,
           "flat": 0
         }
@@ -38824,6 +42112,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         }
@@ -38882,6 +42173,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:29:Burning]]",
+          "dataId": 29,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Burning",
           "chance": 100
         }
@@ -38940,6 +42234,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:72:Clock]]",
+          "dataId": 72,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Clock",
           "chance": 100
         }
@@ -38998,13 +42295,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:72:Clock]]",
+          "dataId": 72,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Clock",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 13,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -39061,6 +42364,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Max HP for 5 turns",
+          "dataId": 0,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Max HP",
           "turns": 5
         },
@@ -39068,6 +42374,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Max MP for 5 turns",
+          "dataId": 1,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Max MP",
           "turns": 5
         },
@@ -39075,6 +42384,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -39082,6 +42394,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -39089,6 +42404,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         },
@@ -39096,6 +42414,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         },
@@ -39103,6 +42424,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -39110,6 +42434,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Luck for 5 turns",
+          "dataId": 7,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Luck",
           "turns": 5
         }
@@ -39168,6 +42495,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 15% HP",
+          "dataId": 1,
+          "value1": -0.15,
+          "value2": 0,
           "percent": -15,
           "flat": 0
         }
@@ -39226,6 +42556,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:29:Burning]]",
+          "dataId": 29,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Burning",
           "chance": 100
         }
@@ -39334,6 +42667,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:72:Clock]]",
+          "dataId": 72,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Clock",
           "chance": 100
         }
@@ -39392,6 +42728,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:1:Incapacitated]]",
+          "dataId": 1,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Incapacitated",
           "chance": 100
         }
@@ -39500,6 +42839,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:1:Incapacitated]]",
+          "dataId": 1,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Incapacitated",
           "chance": 100
         }
@@ -39558,6 +42900,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:72:Clock]]",
+          "dataId": 72,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Clock",
           "chance": 100
         }
@@ -39666,6 +43011,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "70% chance to inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 0.7,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 70
         }
@@ -39724,6 +43072,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:16:Dodge]]",
+          "dataId": 16,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dodge",
           "chance": 100
         },
@@ -39731,6 +43082,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:9:Guard]]",
+          "dataId": 9,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Guard",
           "chance": 100
         }
@@ -39789,6 +43143,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:45:Crit Chance+30%.]]",
+          "dataId": 45,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Chance+30%.",
           "chance": 100
         },
@@ -39796,6 +43153,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:49:Increased Evasion]]",
+          "dataId": 49,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Increased Evasion",
           "chance": 100
         },
@@ -39803,6 +43163,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:48:Auto-Recovery 50]]",
+          "dataId": 48,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Auto-Recovery 50",
           "chance": 100
         }
@@ -39861,6 +43224,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 100
         }
@@ -39919,6 +43285,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:8:Break Vulnerable]]",
+          "dataId": 8,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Vulnerable",
           "chance": 100
         }
@@ -39977,6 +43346,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Recover 10% HP",
+          "dataId": 0,
+          "value1": 0.1,
+          "value2": 0,
           "percent": 10,
           "flat": 0
         }
@@ -40235,6 +43607,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -40242,6 +43617,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         }
@@ -40300,13 +43678,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:72:Clock]]",
+          "dataId": 72,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Clock",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 13,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -40363,6 +43747,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 3 turns",
+          "dataId": 6,
+          "value1": 3,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 3
         }
@@ -40421,6 +43808,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:71:State 3]]",
+          "dataId": 71,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State 3",
           "chance": 100
         }
@@ -40479,6 +43869,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:71:State 3]]",
+          "dataId": 71,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State 3",
           "chance": 100
         }
@@ -40536,12 +43929,18 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 61,
+          "value1": 0,
+          "value2": 0
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:71:State 3]]",
+          "dataId": 71,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State 3",
           "chance": 100
         }
@@ -40599,12 +43998,18 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 60,
+          "value1": 0,
+          "value2": 0
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:71:State 3]]",
+          "dataId": 71,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State 3",
           "chance": 100
         }
@@ -40663,6 +44068,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 50
         }
@@ -40821,13 +44229,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:32:Store Power 150]]",
+          "dataId": 32,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Store Power 150",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -40884,13 +44298,19 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 30% HP",
+          "dataId": 1,
+          "value1": -0.3,
+          "value2": 0,
           "percent": -30,
           "flat": 0
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -40947,6 +44367,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:3:Deadly Poison]]",
+          "dataId": 3,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Deadly Poison",
           "chance": 100
         },
@@ -40954,6 +44377,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -40961,6 +44387,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 5% HP",
+          "dataId": 1,
+          "value1": -0.05,
+          "value2": 0,
           "percent": -5,
           "flat": 0
         }
@@ -41118,12 +44547,18 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 100
         }
@@ -41181,12 +44616,18 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 100
         }
@@ -41245,13 +44686,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:33:Forbidden Break]]",
+          "dataId": 33,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Forbidden Break",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -41308,6 +44755,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:32:Store Power 150]]",
+          "dataId": 32,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Store Power 150",
           "chance": 100
         }
@@ -41366,6 +44816,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Luck for 5 turns",
+          "dataId": 7,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Luck",
           "turns": 5
         },
@@ -41373,6 +44826,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Luck for 5 turns",
+          "dataId": 7,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Luck",
           "turns": 5
         }
@@ -41431,6 +44887,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -41438,6 +44897,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:7:Hard Break Vulnerable]]",
+          "dataId": 7,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Hard Break Vulnerable",
           "chance": 100
         }
@@ -41497,7 +44959,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -41554,13 +45019,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:31:Limit Break]]",
+          "dataId": 31,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Limit Break",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -41716,7 +45187,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -41775,13 +45249,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:56:Fear]]",
+          "dataId": 56,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Fear",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -41838,6 +45318,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:3:Deadly Poison]]",
+          "dataId": 3,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Deadly Poison",
           "chance": 50
         },
@@ -41845,13 +45328,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:8:Break Vulnerable]]",
+          "dataId": 8,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Vulnerable",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 38,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -42058,13 +45547,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:135:Unbreakable(Lie)]]",
+          "dataId": 135,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Unbreakable(Lie)",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -42121,6 +45616,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:29:Burning]]",
+          "dataId": 29,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Burning",
           "chance": 100
         }
@@ -42179,13 +45677,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:136:Accumulate power 150 (Lie)]]",
+          "dataId": 136,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Accumulate power 150 (Lie)",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -42292,6 +45796,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:137:Flame RES Down]]",
+          "dataId": 137,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Flame RES Down",
           "chance": 100
         },
@@ -42299,6 +45806,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:138:Thunder RES Down]]",
+          "dataId": 138,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Thunder RES Down",
           "chance": 100
         },
@@ -42306,6 +45816,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:139:Light RES Down]]",
+          "dataId": 139,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Light RES Down",
           "chance": 100
         },
@@ -42313,6 +45826,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:140:Dark RES Down]]",
+          "dataId": 140,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dark RES Down",
           "chance": 100
         }
@@ -42371,6 +45887,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:16:Dodge]]",
+          "dataId": 16,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dodge",
           "chance": 100
         }
@@ -42479,6 +45998,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 100
         }
@@ -42537,13 +46059,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:72:Clock]]",
+          "dataId": 72,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Clock",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 13,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -42600,6 +46128,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 10 turns",
+          "dataId": 2,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 10
         },
@@ -42607,6 +46138,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 10 turns",
+          "dataId": 2,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 10
         },
@@ -42614,6 +46148,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Defense for 10 turns",
+          "dataId": 3,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 10
         },
@@ -42621,6 +46158,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Defense for 10 turns",
+          "dataId": 3,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 10
         },
@@ -42628,6 +46168,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Defense for 10 turns",
+          "dataId": 5,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 10
         },
@@ -42635,6 +46178,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Defense for 10 turns",
+          "dataId": 5,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 10
         },
@@ -42642,6 +46188,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 10 turns",
+          "dataId": 6,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 10
         },
@@ -42649,6 +46198,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 10 turns",
+          "dataId": 6,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 10
         },
@@ -42656,6 +46208,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Luck for 10 turns",
+          "dataId": 7,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Luck",
           "turns": 10
         },
@@ -42663,6 +46218,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Luck for 10 turns",
+          "dataId": 7,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Luck",
           "turns": 10
         }
@@ -42771,6 +46329,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:29:Burning]]",
+          "dataId": 29,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Burning",
           "chance": 100
         },
@@ -42778,12 +46339,18 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:40:Stone Flesh]]",
+          "dataId": 40,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stone Flesh"
         },
         {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 50% HP",
+          "dataId": 0,
+          "value1": -0.5,
+          "value2": 0,
           "percent": -50,
           "flat": 0
         }
@@ -42892,6 +46459,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:57:Crit Rate+100%]]",
+          "dataId": 57,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Rate+100%",
           "chance": 100
         }
@@ -43100,6 +46670,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:142:Prince Crit UP+100%]]",
+          "dataId": 142,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Prince Crit UP+100%",
           "chance": 100
         },
@@ -43107,6 +46680,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 2 turns",
+          "dataId": 2,
+          "value1": 2,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 2
         },
@@ -43114,6 +46690,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 2 turns",
+          "dataId": 2,
+          "value1": 2,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 2
         },
@@ -43121,6 +46700,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 2 turns",
+          "dataId": 6,
+          "value1": 2,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 2
         },
@@ -43128,6 +46710,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 2 turns",
+          "dataId": 6,
+          "value1": 2,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 2
         },
@@ -43135,6 +46720,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:31:Limit Break]]",
+          "dataId": 31,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Limit Break",
           "chance": 100
         }
@@ -43193,18 +46781,27 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:6:Sleep]]",
+          "dataId": 6,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Sleep"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:27:Requiem]]",
+          "dataId": 27,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Requiem"
         },
         {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 50% HP",
+          "dataId": 0,
+          "value1": -0.5,
+          "value2": 0,
           "percent": -50,
           "flat": 0
         }
@@ -43263,6 +46860,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:19:Counterattack Stance 2]]",
+          "dataId": 19,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Counterattack Stance 2",
           "chance": 100
         }
@@ -43321,6 +46921,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "70% chance to inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 0.7,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 70
         }
@@ -43379,6 +46982,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "70% chance to inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 0.7,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 70
         }
@@ -43437,6 +47043,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Recover 5% HP",
+          "dataId": 1,
+          "value1": 0.05,
+          "value2": 0,
           "percent": 5,
           "flat": 0
         },
@@ -43444,6 +47053,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -43451,6 +47063,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -43458,6 +47073,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -43465,6 +47083,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         }
@@ -43523,6 +47144,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "45% chance to inflict [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 0.45,
+          "value2": 0,
           "stateName": "Bleeding",
           "chance": 45
         },
@@ -43530,12 +47154,18 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:16:Dodge]]",
+          "dataId": 16,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dodge"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:39:Acrobatics]]",
+          "dataId": 39,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Acrobatics"
         }
       ],
@@ -43593,6 +47223,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:117:Black Cat Waltz]]",
+          "dataId": 117,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Black Cat Waltz",
           "chance": 100
         }
@@ -43650,7 +47283,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 292,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -43707,6 +47343,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:56:Fear]]",
+          "dataId": 56,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Fear",
           "chance": 100
         }
@@ -43765,6 +47404,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:29:Burning]]",
+          "dataId": 29,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Burning",
           "chance": 100
         },
@@ -43772,6 +47414,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 30% HP",
+          "dataId": 1,
+          "value1": -0.3,
+          "value2": 0,
           "percent": -30,
           "flat": 0
         }
@@ -43830,6 +47475,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 20% HP",
+          "dataId": 1,
+          "value1": -0.2,
+          "value2": 0,
           "percent": -20,
           "flat": 0
         }
@@ -43938,6 +47586,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Max MP for 5 turns",
+          "dataId": 1,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Max MP",
           "turns": 5
         },
@@ -43945,6 +47596,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         }
@@ -44003,6 +47657,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Max MP for 5 turns",
+          "dataId": 1,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Max MP",
           "turns": 5
         },
@@ -44010,6 +47667,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         }
@@ -44068,6 +47728,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:128:Inevitable]]",
+          "dataId": 128,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Inevitable",
           "chance": 100
         },
@@ -44075,6 +47738,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:35:Gather Power 200]]",
+          "dataId": 35,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gather Power 200",
           "chance": 100
         },
@@ -44082,6 +47748,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Recover 15% HP",
+          "dataId": 0,
+          "value1": 0.15,
+          "value2": 0,
           "percent": 15,
           "flat": 0
         },
@@ -44089,6 +47758,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -44096,6 +47768,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         }
@@ -44154,6 +47829,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 30% HP",
+          "dataId": 0,
+          "value1": -0.3,
+          "value2": 0,
           "percent": -30,
           "flat": 0
         },
@@ -44161,6 +47839,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -44168,6 +47849,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -44175,6 +47859,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:61:Frailty]]",
+          "dataId": 61,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Frailty",
           "chance": 100
         }
@@ -44233,6 +47920,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:29:Burning]]",
+          "dataId": 29,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Burning",
           "chance": 50
         }
@@ -44291,6 +47981,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 100
         }
@@ -44349,6 +48042,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Max HP for 5 turns",
+          "dataId": 0,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Max HP",
           "turns": 5
         },
@@ -44356,6 +48052,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Max HP for 5 turns",
+          "dataId": 0,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Max HP",
           "turns": 5
         },
@@ -44363,6 +48062,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:143:Lingering Flame]]",
+          "dataId": 143,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Lingering Flame",
           "chance": 50
         },
@@ -44370,6 +48072,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 20% HP",
+          "dataId": 1,
+          "value1": -0.2,
+          "value2": 0,
           "percent": -20,
           "flat": 0
         }
@@ -44428,13 +48133,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:33:Forbidden Break]]",
+          "dataId": 33,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Forbidden Break",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -44491,6 +48202,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:143:Lingering Flame]]",
+          "dataId": 143,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Lingering Flame",
           "chance": 100
         },
@@ -44498,6 +48212,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 10% HP",
+          "dataId": 1,
+          "value1": -0.1,
+          "value2": 0,
           "percent": -10,
           "flat": 0
         }
@@ -44556,6 +48273,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:143:Lingering Flame]]",
+          "dataId": 143,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Lingering Flame",
           "chance": 100
         }
@@ -44664,6 +48384,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:73:Delay Action]]",
+          "dataId": 73,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Delay Action",
           "chance": 100
         }
@@ -44722,6 +48445,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         },
@@ -44729,6 +48455,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Luck for 5 turns",
+          "dataId": 7,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Luck",
           "turns": 5
         },
@@ -44736,6 +48465,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:61:Frailty]]",
+          "dataId": 61,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Frailty",
           "chance": 100
         }
@@ -44794,6 +48526,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:73:Delay Action]]",
+          "dataId": 73,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Delay Action",
           "chance": 100
         }
@@ -44852,6 +48587,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:2:Poison]]",
+          "dataId": 2,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Poison",
           "chance": 100
         },
@@ -44859,6 +48597,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:3:Deadly Poison]]",
+          "dataId": 3,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Deadly Poison",
           "chance": 100
         },
@@ -44866,6 +48607,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:4:Virulent Poison]]",
+          "dataId": 4,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Virulent Poison",
           "chance": 100
         }
@@ -44924,6 +48668,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:73:Delay Action]]",
+          "dataId": 73,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Delay Action",
           "chance": 100
         }
@@ -44982,12 +48729,18 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:29:Burning]]",
+          "dataId": 29,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Burning"
         },
         {
           "code": 12,
           "codeName": "Recover MP",
           "description": "Drain 10% MP",
+          "dataId": 0,
+          "value1": -0.1,
+          "value2": 0,
           "percent": -10,
           "flat": 0
         }
@@ -45046,6 +48799,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:73:Delay Action]]",
+          "dataId": 73,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Delay Action",
           "chance": 100
         }
@@ -45104,6 +48860,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 100
         },
@@ -45111,6 +48870,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 10% HP",
+          "dataId": 0,
+          "value1": -0.1,
+          "value2": 0,
           "percent": -10,
           "flat": 0
         }
@@ -45219,6 +48981,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Bleeding",
           "chance": 50
         }
@@ -45277,6 +49042,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 50
         }
@@ -45435,6 +49203,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "90% chance to inflict [[STATE:1:Incapacitated]]",
+          "dataId": 1,
+          "value1": 0.9,
+          "value2": 0,
           "stateName": "Incapacitated",
           "chance": 90
         }
@@ -45493,6 +49264,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -45500,6 +49274,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -45507,6 +49284,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -45514,6 +49294,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -45521,6 +49304,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -45528,6 +49314,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         }
@@ -45586,13 +49375,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:31:Limit Break]]",
+          "dataId": 31,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Limit Break",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -45649,12 +49444,18 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:16:Dodge]]",
+          "dataId": 16,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dodge"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:39:Acrobatics]]",
+          "dataId": 39,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Acrobatics"
         }
       ],
@@ -45712,6 +49513,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Bleeding",
           "chance": 50
         },
@@ -45719,6 +49523,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:9:Guard]]",
+          "dataId": 9,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Guard"
         }
       ],
@@ -45776,6 +49583,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 50
         }
@@ -45834,54 +49644,81 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:27:Requiem]]",
+          "dataId": 27,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Requiem"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Max HP increase",
+          "dataId": 0,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Max HP"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Max MP increase",
+          "dataId": 1,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Max MP"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Attack increase",
+          "dataId": 2,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Attack"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Defense increase",
+          "dataId": 3,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Defense"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Magic Attack increase",
+          "dataId": 4,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Attack"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Magic Defense increase",
+          "dataId": 5,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Defense"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Agility increase",
+          "dataId": 6,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Agility"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Luck increase",
+          "dataId": 7,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Luck"
         }
       ],
@@ -45939,6 +49776,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 10% HP",
+          "dataId": 1,
+          "value1": -0.1,
+          "value2": 0,
           "percent": -10,
           "flat": 0
         }
@@ -46096,7 +49936,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 293,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -46153,13 +49996,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:33:Forbidden Break]]",
+          "dataId": 33,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Forbidden Break",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -46216,6 +50065,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:148:Seppuku]]",
+          "dataId": 148,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Seppuku",
           "chance": 100
         },
@@ -46223,6 +50075,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:147:Gauge 3]]",
+          "dataId": 147,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gauge 3"
         }
       ],
@@ -46330,6 +50185,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -46337,6 +50195,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -46344,6 +50205,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         },
@@ -46351,6 +50215,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -46358,6 +50225,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Luck for 5 turns",
+          "dataId": 7,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Luck",
           "turns": 5
         }
@@ -46416,6 +50286,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:45:Crit Chance+30%.]]",
+          "dataId": 45,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Chance+30%.",
           "chance": 100
         },
@@ -46423,6 +50296,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:47:Accuracy+100%]]",
+          "dataId": 47,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Accuracy+100%",
           "chance": 100
         },
@@ -46430,6 +50306,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:49:Increased Evasion]]",
+          "dataId": 49,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Increased Evasion",
           "chance": 100
         }
@@ -46488,6 +50367,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:65:Crit Avoidance]]",
+          "dataId": 65,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Avoidance",
           "chance": 100
         },
@@ -46495,6 +50377,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:53:Phalanx]]",
+          "dataId": 53,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Phalanx",
           "chance": 100
         },
@@ -46502,6 +50387,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:54:Eclipse]]",
+          "dataId": 54,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Eclipse",
           "chance": 100
         }
@@ -46560,6 +50448,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:19:Counterattack Stance 2]]",
+          "dataId": 19,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Counterattack Stance 2",
           "chance": 100
         },
@@ -46567,6 +50458,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:132:Magic Reflection]]",
+          "dataId": 132,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Magic Reflection",
           "chance": 100
         }
@@ -46625,6 +50519,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Recover 10% HP",
+          "dataId": 1,
+          "value1": 0.1,
+          "value2": 0,
           "percent": 10,
           "flat": 0
         },
@@ -46632,6 +50529,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:150:HP Recovery 3]]",
+          "dataId": 150,
+          "value1": 1,
+          "value2": 0,
           "stateName": "HP Recovery 3",
           "chance": 100
         }
@@ -46690,6 +50590,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:128:Inevitable]]",
+          "dataId": 128,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Inevitable",
           "chance": 100
         },
@@ -46697,6 +50600,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:62:Accelerate]]",
+          "dataId": 62,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Accelerate",
           "chance": 100
         }
@@ -46805,6 +50711,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         }
@@ -46863,6 +50772,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:7:Hard Break Vulnerable]]",
+          "dataId": 7,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Hard Break Vulnerable",
           "chance": 100
         }
@@ -46921,174 +50833,261 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:9:Guard]]",
+          "dataId": 9,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Guard"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:16:Dodge]]",
+          "dataId": 16,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dodge"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:39:Acrobatics]]",
+          "dataId": 39,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Acrobatics"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:61:Frailty]]",
+          "dataId": 61,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Frailty"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:21:Power of Flame]]",
+          "dataId": 21,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Flame"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:23:Power of Lightning]]",
+          "dataId": 23,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Lightning"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:24:Power of Darkness]]",
+          "dataId": 24,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Darkness"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:25:Condition Immunity]]",
+          "dataId": 25,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Condition Immunity"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:27:Requiem]]",
+          "dataId": 27,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Requiem"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:40:Stone Flesh]]",
+          "dataId": 40,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stone Flesh"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:45:Crit Chance+30%.]]",
+          "dataId": 45,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Chance+30%."
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:46:Self-Mutilation]]",
+          "dataId": 46,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Self-Mutilation"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:47:Accuracy+100%]]",
+          "dataId": 47,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Accuracy+100%"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:48:Auto-Recovery 50]]",
+          "dataId": 48,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Auto-Recovery 50"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:52:Power Within]]",
+          "dataId": 52,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power Within"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:53:Phalanx]]",
+          "dataId": 53,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Phalanx"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:54:Eclipse]]",
+          "dataId": 54,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Eclipse"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:59:Grit]]",
+          "dataId": 59,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Grit"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:65:Crit Avoidance]]",
+          "dataId": 65,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Avoidance"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:116:High Maneuverability]]",
+          "dataId": 116,
+          "value1": 1,
+          "value2": 0,
           "stateName": "High Maneuverability"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:133:Soul Shield]]",
+          "dataId": 133,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Soul Shield"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Max HP increase",
+          "dataId": 0,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Max HP"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Max MP increase",
+          "dataId": 1,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Max MP"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Attack increase",
+          "dataId": 2,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Attack"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Defense increase",
+          "dataId": 3,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Defense"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Magic Attack increase",
+          "dataId": 4,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Attack"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Magic Defense increase",
+          "dataId": 5,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Defense"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Agility increase",
+          "dataId": 6,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Agility"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Luck increase",
+          "dataId": 7,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Luck"
         }
       ],
@@ -47146,6 +51145,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Attack for 10 turns",
+          "dataId": 4,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 10
         },
@@ -47153,6 +51155,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Attack for 10 turns",
+          "dataId": 4,
+          "value1": 10,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 10
         },
@@ -47160,6 +51165,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:153:Inner Power (Cinderella)]]",
+          "dataId": 153,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Inner Power (Cinderella)",
           "chance": 100
         }
@@ -47268,6 +51276,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 10% HP",
+          "dataId": 0,
+          "value1": -0.1,
+          "value2": 0,
           "percent": -10,
           "flat": 0
         },
@@ -47275,6 +51286,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -47282,6 +51296,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         }
@@ -47340,6 +51357,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 80% HP",
+          "dataId": 0,
+          "value1": -0.8,
+          "value2": 0,
           "percent": -80,
           "flat": 0
         }
@@ -47398,6 +51418,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:73:Delay Action]]",
+          "dataId": 73,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Delay Action",
           "chance": 100
         }
@@ -47456,6 +51479,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:73:Delay Action]]",
+          "dataId": 73,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Delay Action",
           "chance": 100
         }
@@ -47514,6 +51540,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:156:Restraint]]",
+          "dataId": 156,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Restraint",
           "chance": 100
         }
@@ -47722,6 +51751,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:157:Gravity]]",
+          "dataId": 157,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Gravity",
           "chance": 100
         }
@@ -47780,13 +51812,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:34:Chanting]]",
+          "dataId": 34,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Chanting",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -47843,6 +51881,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 100
         },
@@ -47850,6 +51891,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:27:Requiem]]",
+          "dataId": 27,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Requiem"
         }
       ],
@@ -47907,13 +51951,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:72:Clock]]",
+          "dataId": 72,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Clock",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 13,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -47970,6 +52020,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 50% HP",
+          "dataId": 1,
+          "value1": -0.5,
+          "value2": 0,
           "percent": -50,
           "flat": 0
         },
@@ -47977,12 +52030,18 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:27:Requiem]]",
+          "dataId": 27,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Requiem"
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:55:Weakness]]",
+          "dataId": 55,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Weakness",
           "chance": 100
         }
@@ -48041,6 +52100,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:8:Break Vulnerable]]",
+          "dataId": 8,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Vulnerable",
           "chance": 100
         }
@@ -48099,6 +52161,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -48106,6 +52171,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -48113,6 +52181,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -48120,6 +52191,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -48127,6 +52201,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:57:Crit Rate+100%]]",
+          "dataId": 57,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Rate+100%",
           "chance": 100
         }
@@ -48185,6 +52262,9 @@ const skillsData = {
           "code": 12,
           "codeName": "Recover MP",
           "description": "Drain 20% MP",
+          "dataId": 0,
+          "value1": -0.2,
+          "value2": 0,
           "percent": -20,
           "flat": 0
         },
@@ -48192,6 +52272,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:2:Poison]]",
+          "dataId": 2,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Poison",
           "chance": 100
         },
@@ -48199,6 +52282,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:3:Deadly Poison]]",
+          "dataId": 3,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Deadly Poison",
           "chance": 100
         },
@@ -48206,6 +52292,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:28:Madness]]",
+          "dataId": 28,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Madness",
           "chance": 100
         },
@@ -48213,6 +52302,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Bleeding",
           "chance": 100
         }
@@ -48271,6 +52363,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 5% HP",
+          "dataId": 0,
+          "value1": -0.05,
+          "value2": 0,
           "percent": -5,
           "flat": 0
         },
@@ -48278,6 +52373,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:28:Madness]]",
+          "dataId": 28,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Madness",
           "chance": 100
         }
@@ -48436,6 +52534,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:1:Incapacitated]]",
+          "dataId": 1,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Incapacitated",
           "chance": 50
         }
@@ -48494,6 +52595,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "90% chance to inflict [[STATE:1:Incapacitated]]",
+          "dataId": 1,
+          "value1": 0.9,
+          "value2": 0,
           "stateName": "Incapacitated",
           "chance": 90
         },
@@ -48501,6 +52605,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 15% HP",
+          "dataId": 1,
+          "value1": -0.15,
+          "value2": 0,
           "percent": -15,
           "flat": 0
         }
@@ -48559,6 +52666,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 10% HP",
+          "dataId": 0,
+          "value1": -0.1,
+          "value2": 0,
           "percent": -10,
           "flat": 0
         },
@@ -48566,6 +52676,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "80% chance to inflict [[STATE:2:Poison]]",
+          "dataId": 2,
+          "value1": 0.8,
+          "value2": 0,
           "stateName": "Poison",
           "chance": 80
         },
@@ -48573,6 +52686,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "80% chance to inflict [[STATE:3:Deadly Poison]]",
+          "dataId": 3,
+          "value1": 0.8,
+          "value2": 0,
           "stateName": "Deadly Poison",
           "chance": 80
         },
@@ -48580,6 +52696,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "80% chance to inflict [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 0.8,
+          "value2": 0,
           "stateName": "Bleeding",
           "chance": 80
         }
@@ -48638,6 +52757,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:73:Delay Action]]",
+          "dataId": 73,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Delay Action",
           "chance": 100
         }
@@ -48696,6 +52818,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "80% chance to inflict [[STATE:28:Madness]]",
+          "dataId": 28,
+          "value1": 0.8,
+          "value2": 0,
           "stateName": "Madness",
           "chance": 80
         }
@@ -48754,18 +52879,27 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:33:Forbidden Break]]",
+          "dataId": 33,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Forbidden Break",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         },
         {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -48773,6 +52907,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -48780,6 +52917,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -48787,6 +52927,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -48794,6 +52937,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         },
@@ -48801,6 +52947,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         },
@@ -48808,6 +52957,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         },
@@ -48815,6 +52967,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         },
@@ -48822,6 +52977,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -48829,6 +52987,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -48836,6 +52997,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Luck for 5 turns",
+          "dataId": 7,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Luck",
           "turns": 5
         },
@@ -48843,6 +53007,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Luck for 5 turns",
+          "dataId": 7,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Luck",
           "turns": 5
         }
@@ -48951,6 +53118,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 50% HP",
+          "dataId": 0,
+          "value1": -0.5,
+          "value2": 0,
           "percent": -50,
           "flat": 0
         },
@@ -48958,6 +53128,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:6:Sleep]]",
+          "dataId": 6,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Sleep",
           "chance": 100
         }
@@ -49016,24 +53189,36 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:8:Break Vulnerable]]",
+          "dataId": 8,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Vulnerable"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:7:Hard Break Vulnerable]]",
+          "dataId": 7,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Hard Break Vulnerable"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:27:Requiem]]",
+          "dataId": 27,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Requiem"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:59:Grit]]",
+          "dataId": 59,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Grit"
         }
       ],
@@ -49091,6 +53276,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 50
         },
@@ -49098,6 +53286,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:9:Guard]]",
+          "dataId": 9,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Guard"
         }
       ],
@@ -49155,6 +53346,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:8:Break Vulnerable]]",
+          "dataId": 8,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Vulnerable",
           "chance": 100
         }
@@ -49213,6 +53407,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:1:Incapacitated]]",
+          "dataId": 1,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Incapacitated",
           "chance": 100
         }
@@ -49271,6 +53468,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:7:Hard Break Vulnerable]]",
+          "dataId": 7,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Hard Break Vulnerable",
           "chance": 100
         }
@@ -49329,6 +53529,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:9:Guard]]",
+          "dataId": 9,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Guard"
         }
       ],
@@ -49386,6 +53589,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:9:Guard]]",
+          "dataId": 9,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Guard"
         }
       ],
@@ -49443,6 +53649,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Recover 5% HP",
+          "dataId": 1,
+          "value1": 0.05,
+          "value2": 0,
           "percent": 5,
           "flat": 0
         }
@@ -49501,6 +53710,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -49508,6 +53720,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -49515,6 +53730,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:16:Dodge]]",
+          "dataId": 16,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dodge",
           "chance": 100
         },
@@ -49522,6 +53740,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:47:Accuracy+100%]]",
+          "dataId": 47,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Accuracy+100%",
           "chance": 100
         },
@@ -49529,6 +53750,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:57:Crit Rate+100%]]",
+          "dataId": 57,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Rate+100%",
           "chance": 100
         }
@@ -49587,18 +53811,27 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:32:Store Power 150]]",
+          "dataId": 32,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Store Power 150",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         },
         {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -49606,6 +53839,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -49613,6 +53849,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -49620,6 +53859,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -49627,6 +53869,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         },
@@ -49634,6 +53879,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         },
@@ -49641,6 +53889,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -49648,6 +53899,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -49655,6 +53909,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Luck for 5 turns",
+          "dataId": 7,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Luck",
           "turns": 5
         },
@@ -49662,6 +53919,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Luck for 5 turns",
+          "dataId": 7,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Luck",
           "turns": 5
         },
@@ -49669,6 +53929,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Recover 20% HP",
+          "dataId": 1,
+          "value1": 0.2,
+          "value2": 0,
           "percent": 20,
           "flat": 0
         },
@@ -49676,6 +53939,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:161:Break Immunity]]",
+          "dataId": 161,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Immunity",
           "chance": 100
         }
@@ -49734,12 +54000,18 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:16:Dodge]]",
+          "dataId": 16,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dodge"
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:2:Poison]]",
+          "dataId": 2,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Poison",
           "chance": 100
         },
@@ -49747,6 +54019,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:3:Deadly Poison]]",
+          "dataId": 3,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Deadly Poison",
           "chance": 100
         },
@@ -49754,6 +54029,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:4:Virulent Poison]]",
+          "dataId": 4,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Virulent Poison",
           "chance": 100
         },
@@ -49761,6 +54039,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:6:Sleep]]",
+          "dataId": 6,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Sleep",
           "chance": 100
         },
@@ -49768,6 +54049,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:17:Silence]]",
+          "dataId": 17,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Silence",
           "chance": 100
         },
@@ -49775,6 +54059,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:28:Madness]]",
+          "dataId": 28,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Madness",
           "chance": 100
         },
@@ -49782,6 +54069,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Bleeding",
           "chance": 100
         },
@@ -49789,6 +54079,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:29:Burning]]",
+          "dataId": 29,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Burning",
           "chance": 100
         },
@@ -49796,6 +54089,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 100
         }
@@ -49854,18 +54150,27 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:27:Requiem]]",
+          "dataId": 27,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Requiem"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:28:Madness]]",
+          "dataId": 28,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Madness"
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "30% chance to inflict [[STATE:6:Sleep]]",
+          "dataId": 6,
+          "value1": 0.3,
+          "value2": 0,
           "stateName": "Sleep",
           "chance": 30
         },
@@ -49873,6 +54178,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "30% chance to inflict [[STATE:17:Silence]]",
+          "dataId": 17,
+          "value1": 0.3,
+          "value2": 0,
           "stateName": "Silence",
           "chance": 30
         }
@@ -49931,18 +54239,27 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:27:Requiem]]",
+          "dataId": 27,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Requiem"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:28:Madness]]",
+          "dataId": 28,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Madness"
         },
         {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Recover 35% HP",
+          "dataId": 0,
+          "value1": 0.35,
+          "value2": 0,
           "percent": 35,
           "flat": 0
         }
@@ -50001,18 +54318,27 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:27:Requiem]]",
+          "dataId": 27,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Requiem"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:28:Madness]]",
+          "dataId": 28,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Madness"
         },
         {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Recover 5% HP",
+          "dataId": 0,
+          "value1": 0.05,
+          "value2": 0,
           "percent": 5,
           "flat": 0
         }
@@ -50071,12 +54397,18 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:27:Requiem]]",
+          "dataId": 27,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Requiem"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:28:Madness]]",
+          "dataId": 28,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Madness"
         }
       ],
@@ -50134,13 +54466,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:33:Forbidden Break]]",
+          "dataId": 33,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Forbidden Break",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -50197,18 +54535,27 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:27:Requiem]]",
+          "dataId": 27,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Requiem"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:28:Madness]]",
+          "dataId": 28,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Madness"
         },
         {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Recover 100% HP",
+          "dataId": 1,
+          "value1": 1,
+          "value2": 0,
           "percent": 100,
           "flat": 0
         },
@@ -50216,6 +54563,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:1:Incapacitated]]",
+          "dataId": 1,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Incapacitated"
         }
       ],
@@ -50323,6 +54673,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:55:Weakness]]",
+          "dataId": 55,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Weakness",
           "chance": 100
         }
@@ -50380,7 +54733,10 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 344,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -50437,6 +54793,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:165:Dislegging]]",
+          "dataId": 165,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dislegging",
           "chance": 100
         }
@@ -50495,6 +54854,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 100
         }
@@ -50553,6 +54915,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:8:Break Vulnerable]]",
+          "dataId": 8,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Vulnerable",
           "chance": 100
         },
@@ -50560,6 +54925,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "20% chance to inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 0.2,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 20
         },
@@ -50567,6 +54935,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:162:Frostbite]]",
+          "dataId": 162,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Frostbite",
           "chance": 100
         }
@@ -50625,6 +54996,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 100
         },
@@ -50632,6 +55006,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:162:Frostbite]]",
+          "dataId": 162,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Frostbite",
           "chance": 100
         }
@@ -50690,6 +55067,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 30% HP",
+          "dataId": 0,
+          "value1": -0.3,
+          "value2": 0,
           "percent": -30,
           "flat": 0
         },
@@ -50697,6 +55077,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Max HP for 5 turns",
+          "dataId": 0,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Max HP",
           "turns": 5
         }
@@ -50805,6 +55188,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:163:Laceration]]",
+          "dataId": 163,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Laceration",
           "chance": 100
         }
@@ -50863,6 +55249,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:56:Fear]]",
+          "dataId": 56,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Fear",
           "chance": 100
         },
@@ -50870,6 +55259,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 100
         },
@@ -50877,6 +55269,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 15% HP",
+          "dataId": 1,
+          "value1": -0.15,
+          "value2": 0,
           "percent": -15,
           "flat": 0
         }
@@ -50935,6 +55330,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:163:Laceration]]",
+          "dataId": 163,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Laceration",
           "chance": 50
         },
@@ -50942,6 +55340,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:162:Frostbite]]",
+          "dataId": 162,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Frostbite",
           "chance": 50
         },
@@ -50949,6 +55350,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         }
@@ -51007,6 +55411,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:163:Laceration]]",
+          "dataId": 163,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Laceration",
           "chance": 50
         },
@@ -51014,6 +55421,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:162:Frostbite]]",
+          "dataId": 162,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Frostbite",
           "chance": 50
         },
@@ -51021,6 +55431,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         }
@@ -51079,6 +55492,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:163:Laceration]]",
+          "dataId": 163,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Laceration",
           "chance": 50
         },
@@ -51086,6 +55502,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:162:Frostbite]]",
+          "dataId": 162,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Frostbite",
           "chance": 50
         },
@@ -51093,6 +55512,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         }
@@ -51301,12 +55723,18 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:10:Immortal]]",
+          "dataId": 10,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Immortal"
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:1:Incapacitated]]",
+          "dataId": 1,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Incapacitated",
           "chance": 100
         }
@@ -51365,6 +55793,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "20% chance to inflict [[STATE:162:Frostbite]]",
+          "dataId": 162,
+          "value1": 0.2,
+          "value2": 0,
           "stateName": "Frostbite",
           "chance": 20
         },
@@ -51372,6 +55803,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "20% chance to inflict [[STATE:12:Hollow]]",
+          "dataId": 12,
+          "value1": 0.2,
+          "value2": 0,
           "stateName": "Hollow",
           "chance": 20
         },
@@ -51379,6 +55813,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Max HP for 5 turns",
+          "dataId": 0,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Max HP",
           "turns": 5
         },
@@ -51386,6 +55823,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         },
@@ -51393,6 +55833,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 5% HP",
+          "dataId": 1,
+          "value1": -0.05,
+          "value2": 0,
           "percent": -5,
           "flat": 0
         }
@@ -51451,6 +55894,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -51458,6 +55904,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:8:Break Vulnerable]]",
+          "dataId": 8,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Vulnerable",
           "chance": 100
         },
@@ -51465,6 +55914,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 30% HP",
+          "dataId": 0,
+          "value1": -0.3,
+          "value2": 0,
           "percent": -30,
           "flat": 0
         }
@@ -51523,6 +55975,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -51530,6 +55985,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:8:Break Vulnerable]]",
+          "dataId": 8,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Vulnerable",
           "chance": 100
         },
@@ -51537,6 +55995,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 30% HP",
+          "dataId": 0,
+          "value1": -0.3,
+          "value2": 0,
           "percent": -30,
           "flat": 0
         }
@@ -51595,13 +56056,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:31:Limit Break]]",
+          "dataId": 31,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Limit Break",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -51707,12 +56174,18 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 345,
+          "value1": 0,
+          "value2": 0
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:72:Clock]]",
+          "dataId": 72,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Clock",
           "chance": 100
         }
@@ -51771,6 +56244,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:72:Clock]]",
+          "dataId": 72,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Clock",
           "chance": 100
         }
@@ -51979,6 +56455,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 3% HP",
+          "dataId": 1,
+          "value1": -0.03,
+          "value2": 0,
           "percent": -3,
           "flat": 0
         },
@@ -51986,6 +56465,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -51993,6 +56475,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -52000,6 +56485,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         },
@@ -52007,6 +56495,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         },
@@ -52014,6 +56505,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -52021,6 +56515,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Luck for 5 turns",
+          "dataId": 7,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Luck",
           "turns": 5
         },
@@ -52028,12 +56525,18 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:16:Dodge]]",
+          "dataId": 16,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dodge"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:39:Acrobatics]]",
+          "dataId": 39,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Acrobatics"
         }
       ],
@@ -52091,6 +56594,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:163:Laceration]]",
+          "dataId": 163,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Laceration",
           "chance": 100
         },
@@ -52098,6 +56604,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 2% HP",
+          "dataId": 0,
+          "value1": -0.02,
+          "value2": 0,
           "percent": -2,
           "flat": 0
         }
@@ -52206,6 +56715,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:21:Power of Flame]]",
+          "dataId": 21,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Flame",
           "chance": 100
         },
@@ -52213,6 +56725,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:22:Power of Ice]]",
+          "dataId": 22,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Ice",
           "chance": 100
         },
@@ -52220,6 +56735,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:23:Power of Lightning]]",
+          "dataId": 23,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Lightning",
           "chance": 100
         },
@@ -52227,6 +56745,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:57:Crit Rate+100%]]",
+          "dataId": 57,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Rate+100%",
           "chance": 100
         },
@@ -52234,6 +56755,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -52241,6 +56765,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -52248,6 +56775,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -52255,6 +56785,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -52262,6 +56795,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         },
@@ -52269,6 +56805,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         },
@@ -52276,6 +56815,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         },
@@ -52283,6 +56825,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         },
@@ -52290,6 +56835,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -52297,6 +56845,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -52304,6 +56855,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Luck for 5 turns",
+          "dataId": 7,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Luck",
           "turns": 5
         },
@@ -52311,6 +56865,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Luck for 5 turns",
+          "dataId": 7,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Luck",
           "turns": 5
         }
@@ -52369,6 +56926,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:39:Acrobatics]]",
+          "dataId": 39,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Acrobatics",
           "chance": 100
         }
@@ -52427,6 +56987,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Bleeding",
           "chance": 100
         }
@@ -52485,6 +57048,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:168:Holy Banner]]",
+          "dataId": 168,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Holy Banner",
           "chance": 100
         }
@@ -52543,6 +57109,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:61:Frailty]]",
+          "dataId": 61,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Frailty",
           "chance": 100
         },
@@ -52550,6 +57119,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 15% HP",
+          "dataId": 0,
+          "value1": -0.15,
+          "value2": 0,
           "percent": -15,
           "flat": 0
         }
@@ -52658,6 +57230,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:169:Awakening]]",
+          "dataId": 169,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Awakening",
           "chance": 100
         }
@@ -53416,6 +57991,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:182:1 Stack]]",
+          "dataId": 182,
+          "value1": 1,
+          "value2": 0,
           "stateName": "1 Stack",
           "chance": 100
         },
@@ -53423,6 +58001,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:172:1 BF]]",
+          "dataId": 172,
+          "value1": 1,
+          "value2": 0,
           "stateName": "1 BF",
           "chance": 100
         }
@@ -53481,6 +58062,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:173:2 BF]]",
+          "dataId": 173,
+          "value1": 1,
+          "value2": 0,
           "stateName": "2 BF",
           "chance": 100
         },
@@ -53488,6 +58072,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:172:1 BF]]",
+          "dataId": 172,
+          "value1": 1,
+          "value2": 0,
           "stateName": "1 BF",
           "chance": 100
         },
@@ -53495,6 +58082,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:183:2 Stacks]]",
+          "dataId": 183,
+          "value1": 1,
+          "value2": 0,
           "stateName": "2 Stacks",
           "chance": 100
         },
@@ -53502,6 +58092,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:182:1 Stack]]",
+          "dataId": 182,
+          "value1": 1,
+          "value2": 0,
           "stateName": "1 Stack"
         }
       ],
@@ -53559,6 +58152,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:174:3 BF]]",
+          "dataId": 174,
+          "value1": 1,
+          "value2": 0,
           "stateName": "3 BF",
           "chance": 100
         },
@@ -53566,6 +58162,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:173:2 BF]]",
+          "dataId": 173,
+          "value1": 1,
+          "value2": 0,
           "stateName": "2 BF",
           "chance": 100
         },
@@ -53573,6 +58172,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:172:1 BF]]",
+          "dataId": 172,
+          "value1": 1,
+          "value2": 0,
           "stateName": "1 BF",
           "chance": 100
         },
@@ -53580,6 +58182,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:184:3 Stacks]]",
+          "dataId": 184,
+          "value1": 1,
+          "value2": 0,
           "stateName": "3 Stacks",
           "chance": 100
         },
@@ -53587,6 +58192,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:183:2 Stacks]]",
+          "dataId": 183,
+          "value1": 1,
+          "value2": 0,
           "stateName": "2 Stacks"
         }
       ],
@@ -53644,6 +58252,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:175:4 BF]]",
+          "dataId": 175,
+          "value1": 1,
+          "value2": 0,
           "stateName": "4 BF",
           "chance": 100
         },
@@ -53651,6 +58262,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:174:3 BF]]",
+          "dataId": 174,
+          "value1": 1,
+          "value2": 0,
           "stateName": "3 BF",
           "chance": 100
         },
@@ -53658,6 +58272,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:173:2 BF]]",
+          "dataId": 173,
+          "value1": 1,
+          "value2": 0,
           "stateName": "2 BF",
           "chance": 100
         },
@@ -53665,6 +58282,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:172:1 BF]]",
+          "dataId": 172,
+          "value1": 1,
+          "value2": 0,
           "stateName": "1 BF",
           "chance": 100
         },
@@ -53672,6 +58292,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:185:4 Stacks]]",
+          "dataId": 185,
+          "value1": 1,
+          "value2": 0,
           "stateName": "4 Stacks",
           "chance": 100
         },
@@ -53679,6 +58302,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:184:3 Stacks]]",
+          "dataId": 184,
+          "value1": 1,
+          "value2": 0,
           "stateName": "3 Stacks"
         }
       ],
@@ -53736,6 +58362,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:176:5 BF]]",
+          "dataId": 176,
+          "value1": 1,
+          "value2": 0,
           "stateName": "5 BF",
           "chance": 100
         },
@@ -53743,6 +58372,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:175:4 BF]]",
+          "dataId": 175,
+          "value1": 1,
+          "value2": 0,
           "stateName": "4 BF",
           "chance": 100
         },
@@ -53750,6 +58382,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:174:3 BF]]",
+          "dataId": 174,
+          "value1": 1,
+          "value2": 0,
           "stateName": "3 BF",
           "chance": 100
         },
@@ -53757,6 +58392,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:173:2 BF]]",
+          "dataId": 173,
+          "value1": 1,
+          "value2": 0,
           "stateName": "2 BF",
           "chance": 100
         },
@@ -53764,6 +58402,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:172:1 BF]]",
+          "dataId": 172,
+          "value1": 1,
+          "value2": 0,
           "stateName": "1 BF",
           "chance": 100
         },
@@ -53771,6 +58412,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:186:5 Stacks]]",
+          "dataId": 186,
+          "value1": 1,
+          "value2": 0,
           "stateName": "5 Stacks",
           "chance": 100
         },
@@ -53778,6 +58422,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:185:4 Stacks]]",
+          "dataId": 185,
+          "value1": 1,
+          "value2": 0,
           "stateName": "4 Stacks"
         }
       ],
@@ -53835,6 +58482,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:177:6 BF]]",
+          "dataId": 177,
+          "value1": 1,
+          "value2": 0,
           "stateName": "6 BF",
           "chance": 100
         },
@@ -53842,6 +58492,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:176:5 BF]]",
+          "dataId": 176,
+          "value1": 1,
+          "value2": 0,
           "stateName": "5 BF",
           "chance": 100
         },
@@ -53849,6 +58502,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:175:4 BF]]",
+          "dataId": 175,
+          "value1": 1,
+          "value2": 0,
           "stateName": "4 BF",
           "chance": 100
         },
@@ -53856,6 +58512,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:174:3 BF]]",
+          "dataId": 174,
+          "value1": 1,
+          "value2": 0,
           "stateName": "3 BF",
           "chance": 100
         },
@@ -53863,6 +58522,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:173:2 BF]]",
+          "dataId": 173,
+          "value1": 1,
+          "value2": 0,
           "stateName": "2 BF",
           "chance": 100
         },
@@ -53870,6 +58532,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:172:1 BF]]",
+          "dataId": 172,
+          "value1": 1,
+          "value2": 0,
           "stateName": "1 BF",
           "chance": 100
         },
@@ -53877,6 +58542,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:187:6 Stacks]]",
+          "dataId": 187,
+          "value1": 1,
+          "value2": 0,
           "stateName": "6 Stacks",
           "chance": 100
         },
@@ -53884,6 +58552,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:186:5 Stacks]]",
+          "dataId": 186,
+          "value1": 1,
+          "value2": 0,
           "stateName": "5 Stacks"
         }
       ],
@@ -53941,6 +58612,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:178:7 BF]]",
+          "dataId": 178,
+          "value1": 1,
+          "value2": 0,
           "stateName": "7 BF",
           "chance": 100
         },
@@ -53948,6 +58622,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:177:6 BF]]",
+          "dataId": 177,
+          "value1": 1,
+          "value2": 0,
           "stateName": "6 BF",
           "chance": 100
         },
@@ -53955,6 +58632,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:176:5 BF]]",
+          "dataId": 176,
+          "value1": 1,
+          "value2": 0,
           "stateName": "5 BF",
           "chance": 100
         },
@@ -53962,6 +58642,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:175:4 BF]]",
+          "dataId": 175,
+          "value1": 1,
+          "value2": 0,
           "stateName": "4 BF",
           "chance": 100
         },
@@ -53969,6 +58652,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:174:3 BF]]",
+          "dataId": 174,
+          "value1": 1,
+          "value2": 0,
           "stateName": "3 BF",
           "chance": 100
         },
@@ -53976,6 +58662,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:173:2 BF]]",
+          "dataId": 173,
+          "value1": 1,
+          "value2": 0,
           "stateName": "2 BF",
           "chance": 100
         },
@@ -53983,6 +58672,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:172:1 BF]]",
+          "dataId": 172,
+          "value1": 1,
+          "value2": 0,
           "stateName": "1 BF",
           "chance": 100
         },
@@ -53990,6 +58682,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:188:7 Stacks]]",
+          "dataId": 188,
+          "value1": 1,
+          "value2": 0,
           "stateName": "7 Stacks",
           "chance": 100
         },
@@ -53997,6 +58692,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:187:6 Stacks]]",
+          "dataId": 187,
+          "value1": 1,
+          "value2": 0,
           "stateName": "6 Stacks"
         }
       ],
@@ -54054,6 +58752,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:178:7 BF]]",
+          "dataId": 178,
+          "value1": 1,
+          "value2": 0,
           "stateName": "7 BF",
           "chance": 100
         },
@@ -54061,6 +58762,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:177:6 BF]]",
+          "dataId": 177,
+          "value1": 1,
+          "value2": 0,
           "stateName": "6 BF",
           "chance": 100
         },
@@ -54068,6 +58772,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:176:5 BF]]",
+          "dataId": 176,
+          "value1": 1,
+          "value2": 0,
           "stateName": "5 BF",
           "chance": 100
         },
@@ -54075,6 +58782,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:175:4 BF]]",
+          "dataId": 175,
+          "value1": 1,
+          "value2": 0,
           "stateName": "4 BF",
           "chance": 100
         },
@@ -54082,6 +58792,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:174:3 BF]]",
+          "dataId": 174,
+          "value1": 1,
+          "value2": 0,
           "stateName": "3 BF",
           "chance": 100
         },
@@ -54089,6 +58802,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:173:2 BF]]",
+          "dataId": 173,
+          "value1": 1,
+          "value2": 0,
           "stateName": "2 BF",
           "chance": 100
         },
@@ -54096,6 +58812,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:172:1 BF]]",
+          "dataId": 172,
+          "value1": 1,
+          "value2": 0,
           "stateName": "1 BF",
           "chance": 100
         },
@@ -54103,6 +58822,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:188:7 Stacks]]",
+          "dataId": 188,
+          "value1": 1,
+          "value2": 0,
           "stateName": "7 Stacks",
           "chance": 100
         }
@@ -54161,6 +58883,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:8:Break Vulnerable]]",
+          "dataId": 8,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Vulnerable",
           "chance": 100
         },
@@ -54168,6 +58893,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:162:Frostbite]]",
+          "dataId": 162,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Frostbite",
           "chance": 100
         }
@@ -54226,6 +58954,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:9:Guard]]",
+          "dataId": 9,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Guard"
         }
       ],
@@ -54283,6 +59014,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:8:Break Vulnerable]]",
+          "dataId": 8,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Vulnerable",
           "chance": 100
         }
@@ -54341,6 +59075,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:8:Break Vulnerable]]",
+          "dataId": 8,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Vulnerable",
           "chance": 100
         }
@@ -54399,6 +59136,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:7:Hard Break Vulnerable]]",
+          "dataId": 7,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Hard Break Vulnerable",
           "chance": 100
         }
@@ -54457,6 +59197,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:72:Clock]]",
+          "dataId": 72,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Clock",
           "chance": 100
         }
@@ -54565,6 +59308,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:190:Bullet Switch 1]]",
+          "dataId": 190,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Bullet Switch 1",
           "chance": 100
         },
@@ -54572,6 +59318,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:192:Bullet Switch 3]]",
+          "dataId": 192,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Bullet Switch 3"
         }
       ],
@@ -54629,6 +59378,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:191:Bullet Switch 2]]",
+          "dataId": 191,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Bullet Switch 2",
           "chance": 100
         },
@@ -54636,6 +59388,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:190:Bullet Switch 1]]",
+          "dataId": 190,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Bullet Switch 1"
         }
       ],
@@ -54693,6 +59448,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:192:Bullet Switch 3]]",
+          "dataId": 192,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Bullet Switch 3",
           "chance": 100
         },
@@ -54700,6 +59458,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:191:Bullet Switch 2]]",
+          "dataId": 191,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Bullet Switch 2"
         }
       ],
@@ -54807,216 +59568,324 @@ const skillsData = {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Attack increase",
+          "dataId": 2,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Attack"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Defense increase",
+          "dataId": 3,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Defense"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Magic Attack increase",
+          "dataId": 4,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Attack"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Magic Defense increase",
+          "dataId": 5,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Defense"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Agility increase",
+          "dataId": 6,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Agility"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Luck increase",
+          "dataId": 7,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Luck"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:37:SawneyBean Full Belly]]",
+          "dataId": 37,
+          "value1": 1,
+          "value2": 0,
           "stateName": "SawneyBean Full Belly"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:42:Rage]]",
+          "dataId": 42,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Rage"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:38:Rampage]]",
+          "dataId": 38,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Rampage"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:21:Power of Flame]]",
+          "dataId": 21,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Flame"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:23:Power of Lightning]]",
+          "dataId": 23,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Lightning"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:24:Power of Darkness]]",
+          "dataId": 24,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Darkness"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:16:Dodge]]",
+          "dataId": 16,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dodge"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:39:Acrobatics]]",
+          "dataId": 39,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Acrobatics"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:59:Grit]]",
+          "dataId": 59,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Grit"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:52:Power Within]]",
+          "dataId": 52,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power Within"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:41:Knight's Pride]]",
+          "dataId": 41,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Knight's Pride"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:27:Requiem]]",
+          "dataId": 27,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Requiem"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:20:Counterattack Stance]]",
+          "dataId": 20,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Counterattack Stance"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:25:Condition Immunity]]",
+          "dataId": 25,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Condition Immunity"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:65:Crit Avoidance]]",
+          "dataId": 65,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Avoidance"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:74:Croc 1]]",
+          "dataId": 74,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Croc 1"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:75:Croc 2]]",
+          "dataId": 75,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Croc 2"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:76:Croc 3]]",
+          "dataId": 76,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Croc 3"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:45:Crit Chance+30%.]]",
+          "dataId": 45,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Chance+30%."
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:47:Accuracy+100%]]",
+          "dataId": 47,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Accuracy+100%"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:48:Auto-Recovery 50]]",
+          "dataId": 48,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Auto-Recovery 50"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:46:Self-Mutilation]]",
+          "dataId": 46,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Self-Mutilation"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:62:Accelerate]]",
+          "dataId": 62,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Accelerate"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:49:Increased Evasion]]",
+          "dataId": 49,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Increased Evasion"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:128:Inevitable]]",
+          "dataId": 128,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Inevitable"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:54:Eclipse]]",
+          "dataId": 54,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Eclipse"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:133:Soul Shield]]",
+          "dataId": 133,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Soul Shield"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:161:Break Immunity]]",
+          "dataId": 161,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Immunity"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:40:Stone Flesh]]",
+          "dataId": 40,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stone Flesh"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:57:Crit Rate+100%]]",
+          "dataId": 57,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Rate+100%"
         }
       ],
@@ -55074,6 +59943,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:9:Guard]]",
+          "dataId": 9,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Guard"
         }
       ],
@@ -55131,6 +60003,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:9:Guard]]",
+          "dataId": 9,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Guard"
         }
       ],
@@ -55188,6 +60063,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 50
         },
@@ -55195,6 +60073,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 2% HP",
+          "dataId": 0,
+          "value1": -0.02,
+          "value2": 0,
           "percent": -2,
           "flat": 0
         }
@@ -55253,6 +60134,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:72:Clock]]",
+          "dataId": 72,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Clock",
           "chance": 100
         }
@@ -55311,6 +60195,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:72:Clock]]",
+          "dataId": 72,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Clock",
           "chance": 100
         }
@@ -55369,48 +60256,72 @@ const skillsData = {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Max HP increase",
+          "dataId": 0,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Max HP"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Max MP increase",
+          "dataId": 1,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Max MP"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Attack increase",
+          "dataId": 2,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Attack"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Defense increase",
+          "dataId": 3,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Defense"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Magic Attack increase",
+          "dataId": 4,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Attack"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Magic Defense increase",
+          "dataId": 5,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Defense"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Agility increase",
+          "dataId": 6,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Agility"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Luck increase",
+          "dataId": 7,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Luck"
         }
       ],
@@ -55618,6 +60529,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 20% HP",
+          "dataId": 0,
+          "value1": -0.2,
+          "value2": 0,
           "percent": -20,
           "flat": 0
         },
@@ -55625,6 +60539,9 @@ const skillsData = {
           "code": 12,
           "codeName": "Recover MP",
           "description": "Drain 100% MP",
+          "dataId": 0,
+          "value1": -1,
+          "value2": 0,
           "percent": -100,
           "flat": 0
         },
@@ -55632,6 +60549,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -55639,6 +60559,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -55646,6 +60569,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         },
@@ -55653,6 +60579,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         }
@@ -55711,6 +60640,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 100
         }
@@ -55769,6 +60701,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 5% HP",
+          "dataId": 1,
+          "value1": -0.05,
+          "value2": 0,
           "percent": -5,
           "flat": 0
         }
@@ -55827,216 +60762,324 @@ const skillsData = {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Attack increase",
+          "dataId": 2,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Attack"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Defense increase",
+          "dataId": 3,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Defense"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Magic Attack increase",
+          "dataId": 4,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Attack"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Magic Defense increase",
+          "dataId": 5,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Defense"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Agility increase",
+          "dataId": 6,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Agility"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Luck increase",
+          "dataId": 7,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Luck"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:37:SawneyBean Full Belly]]",
+          "dataId": 37,
+          "value1": 1,
+          "value2": 0,
           "stateName": "SawneyBean Full Belly"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:42:Rage]]",
+          "dataId": 42,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Rage"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:38:Rampage]]",
+          "dataId": 38,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Rampage"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:21:Power of Flame]]",
+          "dataId": 21,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Flame"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:23:Power of Lightning]]",
+          "dataId": 23,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Lightning"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:24:Power of Darkness]]",
+          "dataId": 24,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Darkness"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:16:Dodge]]",
+          "dataId": 16,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dodge"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:39:Acrobatics]]",
+          "dataId": 39,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Acrobatics"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:59:Grit]]",
+          "dataId": 59,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Grit"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:52:Power Within]]",
+          "dataId": 52,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power Within"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:41:Knight's Pride]]",
+          "dataId": 41,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Knight's Pride"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:27:Requiem]]",
+          "dataId": 27,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Requiem"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:20:Counterattack Stance]]",
+          "dataId": 20,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Counterattack Stance"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:25:Condition Immunity]]",
+          "dataId": 25,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Condition Immunity"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:65:Crit Avoidance]]",
+          "dataId": 65,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Avoidance"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:74:Croc 1]]",
+          "dataId": 74,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Croc 1"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:75:Croc 2]]",
+          "dataId": 75,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Croc 2"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:76:Croc 3]]",
+          "dataId": 76,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Croc 3"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:45:Crit Chance+30%.]]",
+          "dataId": 45,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Chance+30%."
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:47:Accuracy+100%]]",
+          "dataId": 47,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Accuracy+100%"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:48:Auto-Recovery 50]]",
+          "dataId": 48,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Auto-Recovery 50"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:46:Self-Mutilation]]",
+          "dataId": 46,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Self-Mutilation"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:62:Accelerate]]",
+          "dataId": 62,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Accelerate"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:49:Increased Evasion]]",
+          "dataId": 49,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Increased Evasion"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:128:Inevitable]]",
+          "dataId": 128,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Inevitable"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:54:Eclipse]]",
+          "dataId": 54,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Eclipse"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:133:Soul Shield]]",
+          "dataId": 133,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Soul Shield"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:161:Break Immunity]]",
+          "dataId": 161,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Immunity"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:40:Stone Flesh]]",
+          "dataId": 40,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stone Flesh"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:57:Crit Rate+100%]]",
+          "dataId": 57,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Rate+100%"
         }
       ],
@@ -56094,216 +61137,324 @@ const skillsData = {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Attack increase",
+          "dataId": 2,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Attack"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Defense increase",
+          "dataId": 3,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Defense"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Magic Attack increase",
+          "dataId": 4,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Attack"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Magic Defense increase",
+          "dataId": 5,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Defense"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Agility increase",
+          "dataId": 6,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Agility"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Luck increase",
+          "dataId": 7,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Luck"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:37:SawneyBean Full Belly]]",
+          "dataId": 37,
+          "value1": 1,
+          "value2": 0,
           "stateName": "SawneyBean Full Belly"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:42:Rage]]",
+          "dataId": 42,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Rage"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:38:Rampage]]",
+          "dataId": 38,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Rampage"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:21:Power of Flame]]",
+          "dataId": 21,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Flame"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:23:Power of Lightning]]",
+          "dataId": 23,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Lightning"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:24:Power of Darkness]]",
+          "dataId": 24,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Darkness"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:16:Dodge]]",
+          "dataId": 16,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dodge"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:39:Acrobatics]]",
+          "dataId": 39,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Acrobatics"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:59:Grit]]",
+          "dataId": 59,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Grit"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:52:Power Within]]",
+          "dataId": 52,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power Within"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:41:Knight's Pride]]",
+          "dataId": 41,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Knight's Pride"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:27:Requiem]]",
+          "dataId": 27,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Requiem"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:20:Counterattack Stance]]",
+          "dataId": 20,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Counterattack Stance"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:25:Condition Immunity]]",
+          "dataId": 25,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Condition Immunity"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:65:Crit Avoidance]]",
+          "dataId": 65,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Avoidance"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:74:Croc 1]]",
+          "dataId": 74,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Croc 1"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:75:Croc 2]]",
+          "dataId": 75,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Croc 2"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:76:Croc 3]]",
+          "dataId": 76,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Croc 3"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:45:Crit Chance+30%.]]",
+          "dataId": 45,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Chance+30%."
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:47:Accuracy+100%]]",
+          "dataId": 47,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Accuracy+100%"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:48:Auto-Recovery 50]]",
+          "dataId": 48,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Auto-Recovery 50"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:46:Self-Mutilation]]",
+          "dataId": 46,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Self-Mutilation"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:62:Accelerate]]",
+          "dataId": 62,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Accelerate"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:49:Increased Evasion]]",
+          "dataId": 49,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Increased Evasion"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:128:Inevitable]]",
+          "dataId": 128,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Inevitable"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:54:Eclipse]]",
+          "dataId": 54,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Eclipse"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:133:Soul Shield]]",
+          "dataId": 133,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Soul Shield"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:161:Break Immunity]]",
+          "dataId": 161,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Immunity"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:40:Stone Flesh]]",
+          "dataId": 40,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stone Flesh"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:57:Crit Rate+100%]]",
+          "dataId": 57,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Rate+100%"
         }
       ],
@@ -56361,6 +61512,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:194:Angel's Verdict]]",
+          "dataId": 194,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Angel's Verdict",
           "chance": 100
         },
@@ -56368,6 +61522,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -56375,6 +61532,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -56382,6 +61542,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         },
@@ -56389,6 +61552,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         }
@@ -56447,6 +61613,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "30% chance to inflict [[STATE:17:Silence]]",
+          "dataId": 17,
+          "value1": 0.3,
+          "value2": 0,
           "stateName": "Silence",
           "chance": 30
         },
@@ -56454,6 +61623,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 5% HP",
+          "dataId": 1,
+          "value1": -0.05,
+          "value2": 0,
           "percent": -5,
           "flat": 0
         }
@@ -56512,6 +61684,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "10% chance to inflict [[STATE:17:Silence]]",
+          "dataId": 17,
+          "value1": 0.1,
+          "value2": 0,
           "stateName": "Silence",
           "chance": 10
         },
@@ -56519,6 +61694,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "10% chance to inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 0.1,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 10
         },
@@ -56526,6 +61704,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 10% HP",
+          "dataId": 1,
+          "value1": -0.1,
+          "value2": 0,
           "percent": -10,
           "flat": 0
         }
@@ -56634,6 +61815,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:138:Thunder RES Down]]",
+          "dataId": 138,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Thunder RES Down",
           "chance": 100
         }
@@ -56692,6 +61876,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:163:Laceration]]",
+          "dataId": 163,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Laceration",
           "chance": 100
         }
@@ -56750,6 +61937,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -56757,6 +61947,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 5% HP",
+          "dataId": 1,
+          "value1": -0.05,
+          "value2": 0,
           "percent": -5,
           "flat": 0
         }
@@ -56815,6 +62008,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:56:Fear]]",
+          "dataId": 56,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Fear",
           "chance": 100
         },
@@ -56822,6 +62018,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:28:Madness]]",
+          "dataId": 28,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Madness",
           "chance": 50
         },
@@ -56829,6 +62028,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "60% chance to inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 0.6,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 60
         }
@@ -56937,13 +62139,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:32:Store Power 150]]",
+          "dataId": 32,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Store Power 150",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -56999,12 +62207,18 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 350,
+          "value1": 0,
+          "value2": 0
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:71:State 3]]",
+          "dataId": 71,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State 3",
           "chance": 100
         },
@@ -57012,6 +62226,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:197:Blow Away]]",
+          "dataId": 197,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Blow Away",
           "chance": 100
         },
@@ -57019,6 +62236,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:27:Requiem]]",
+          "dataId": 27,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Requiem"
         }
       ],
@@ -57075,12 +62295,18 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 61,
+          "value1": 0,
+          "value2": 0
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:71:State 3]]",
+          "dataId": 71,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State 3",
           "chance": 100
         },
@@ -57088,6 +62314,9 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:197:Blow Away]]",
+          "dataId": 197,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Blow Away"
         }
       ],
@@ -57245,6 +62474,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:198:Paralysis]]",
+          "dataId": 198,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Paralysis",
           "chance": 100
         }
@@ -57303,6 +62535,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 20% HP",
+          "dataId": 1,
+          "value1": -0.2,
+          "value2": 0,
           "percent": -20,
           "flat": 0
         },
@@ -57310,6 +62545,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:165:Dislegging]]",
+          "dataId": 165,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dislegging",
           "chance": 100
         }
@@ -57368,6 +62606,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 100
         }
@@ -57426,216 +62667,324 @@ const skillsData = {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Attack increase",
+          "dataId": 2,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Attack"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Defense increase",
+          "dataId": 3,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Defense"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Magic Attack increase",
+          "dataId": 4,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Attack"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Magic Defense increase",
+          "dataId": 5,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Defense"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Agility increase",
+          "dataId": 6,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Agility"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Luck increase",
+          "dataId": 7,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Luck"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:37:SawneyBean Full Belly]]",
+          "dataId": 37,
+          "value1": 1,
+          "value2": 0,
           "stateName": "SawneyBean Full Belly"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:42:Rage]]",
+          "dataId": 42,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Rage"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:38:Rampage]]",
+          "dataId": 38,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Rampage"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:21:Power of Flame]]",
+          "dataId": 21,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Flame"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:23:Power of Lightning]]",
+          "dataId": 23,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Lightning"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:24:Power of Darkness]]",
+          "dataId": 24,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Darkness"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:16:Dodge]]",
+          "dataId": 16,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dodge"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:39:Acrobatics]]",
+          "dataId": 39,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Acrobatics"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:59:Grit]]",
+          "dataId": 59,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Grit"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:52:Power Within]]",
+          "dataId": 52,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power Within"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:41:Knight's Pride]]",
+          "dataId": 41,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Knight's Pride"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:27:Requiem]]",
+          "dataId": 27,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Requiem"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:20:Counterattack Stance]]",
+          "dataId": 20,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Counterattack Stance"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:25:Condition Immunity]]",
+          "dataId": 25,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Condition Immunity"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:65:Crit Avoidance]]",
+          "dataId": 65,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Avoidance"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:74:Croc 1]]",
+          "dataId": 74,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Croc 1"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:75:Croc 2]]",
+          "dataId": 75,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Croc 2"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:76:Croc 3]]",
+          "dataId": 76,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Croc 3"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:45:Crit Chance+30%.]]",
+          "dataId": 45,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Chance+30%."
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:47:Accuracy+100%]]",
+          "dataId": 47,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Accuracy+100%"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:48:Auto-Recovery 50]]",
+          "dataId": 48,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Auto-Recovery 50"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:46:Self-Mutilation]]",
+          "dataId": 46,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Self-Mutilation"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:62:Accelerate]]",
+          "dataId": 62,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Accelerate"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:49:Increased Evasion]]",
+          "dataId": 49,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Increased Evasion"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:128:Inevitable]]",
+          "dataId": 128,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Inevitable"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:54:Eclipse]]",
+          "dataId": 54,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Eclipse"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:133:Soul Shield]]",
+          "dataId": 133,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Soul Shield"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:161:Break Immunity]]",
+          "dataId": 161,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Immunity"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:40:Stone Flesh]]",
+          "dataId": 40,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stone Flesh"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:57:Crit Rate+100%]]",
+          "dataId": 57,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Rate+100%"
         }
       ],
@@ -57693,12 +63042,18 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:27:Requiem]]",
+          "dataId": 27,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Requiem"
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 50
         }
@@ -57757,6 +63112,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:2:Poison]]",
+          "dataId": 2,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Poison",
           "chance": 100
         },
@@ -57764,6 +63122,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:3:Deadly Poison]]",
+          "dataId": 3,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Deadly Poison",
           "chance": 100
         }
@@ -57822,6 +63183,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:8:Break Vulnerable]]",
+          "dataId": 8,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Vulnerable",
           "chance": 100
         }
@@ -57880,6 +63244,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:163:Laceration]]",
+          "dataId": 163,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Laceration",
           "chance": 100
         },
@@ -57887,6 +63254,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 40% HP",
+          "dataId": 0,
+          "value1": -0.4,
+          "value2": 0,
           "percent": -40,
           "flat": 0
         }
@@ -57945,222 +63315,333 @@ const skillsData = {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Attack increase",
+          "dataId": 2,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Attack"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Defense increase",
+          "dataId": 3,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Defense"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Magic Attack increase",
+          "dataId": 4,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Attack"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Magic Defense increase",
+          "dataId": 5,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Defense"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Agility increase",
+          "dataId": 6,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Agility"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Luck increase",
+          "dataId": 7,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Luck"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:37:SawneyBean Full Belly]]",
+          "dataId": 37,
+          "value1": 1,
+          "value2": 0,
           "stateName": "SawneyBean Full Belly"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:42:Rage]]",
+          "dataId": 42,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Rage"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:38:Rampage]]",
+          "dataId": 38,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Rampage"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:21:Power of Flame]]",
+          "dataId": 21,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Flame"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:23:Power of Lightning]]",
+          "dataId": 23,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Lightning"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:24:Power of Darkness]]",
+          "dataId": 24,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Darkness"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:16:Dodge]]",
+          "dataId": 16,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dodge"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:39:Acrobatics]]",
+          "dataId": 39,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Acrobatics"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:59:Grit]]",
+          "dataId": 59,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Grit"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:52:Power Within]]",
+          "dataId": 52,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power Within"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:41:Knight's Pride]]",
+          "dataId": 41,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Knight's Pride"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:27:Requiem]]",
+          "dataId": 27,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Requiem"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:20:Counterattack Stance]]",
+          "dataId": 20,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Counterattack Stance"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:25:Condition Immunity]]",
+          "dataId": 25,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Condition Immunity"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:65:Crit Avoidance]]",
+          "dataId": 65,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Avoidance"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:74:Croc 1]]",
+          "dataId": 74,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Croc 1"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:75:Croc 2]]",
+          "dataId": 75,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Croc 2"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:76:Croc 3]]",
+          "dataId": 76,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Croc 3"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:45:Crit Chance+30%.]]",
+          "dataId": 45,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Chance+30%."
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:47:Accuracy+100%]]",
+          "dataId": 47,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Accuracy+100%"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:48:Auto-Recovery 50]]",
+          "dataId": 48,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Auto-Recovery 50"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:46:Self-Mutilation]]",
+          "dataId": 46,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Self-Mutilation"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:62:Accelerate]]",
+          "dataId": 62,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Accelerate"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:49:Increased Evasion]]",
+          "dataId": 49,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Increased Evasion"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:128:Inevitable]]",
+          "dataId": 128,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Inevitable"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:54:Eclipse]]",
+          "dataId": 54,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Eclipse"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:133:Soul Shield]]",
+          "dataId": 133,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Soul Shield"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:161:Break Immunity]]",
+          "dataId": 161,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Immunity"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:40:Stone Flesh]]",
+          "dataId": 40,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stone Flesh"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:57:Crit Rate+100%]]",
+          "dataId": 57,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Rate+100%"
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:28:Madness]]",
+          "dataId": 28,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Madness",
           "chance": 50
         }
@@ -58219,6 +63700,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Max HP for 5 turns",
+          "dataId": 0,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Max HP",
           "turns": 5
         },
@@ -58226,6 +63710,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         }
@@ -58284,6 +63771,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:73:Delay Action]]",
+          "dataId": 73,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Delay Action",
           "chance": 100
         }
@@ -58542,6 +64032,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -58549,6 +64042,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "60% chance to inflict [[STATE:162:Frostbite]]",
+          "dataId": 162,
+          "value1": 0.6,
+          "value2": 0,
           "stateName": "Frostbite",
           "chance": 60
         }
@@ -58607,6 +64103,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 30% HP",
+          "dataId": 1,
+          "value1": -0.3,
+          "value2": 0,
           "percent": -30,
           "flat": 0
         },
@@ -58614,6 +64113,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -58621,6 +64123,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -58628,6 +64133,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         },
@@ -58635,6 +64143,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         },
@@ -58642,6 +64153,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -58649,6 +64163,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Luck for 5 turns",
+          "dataId": 7,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Luck",
           "turns": 5
         },
@@ -58656,12 +64173,18 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:16:Dodge]]",
+          "dataId": 16,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dodge"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:39:Acrobatics]]",
+          "dataId": 39,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Acrobatics"
         }
       ],
@@ -58719,6 +64242,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:162:Frostbite]]",
+          "dataId": 162,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Frostbite",
           "chance": 100
         }
@@ -58827,6 +64353,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:8:Break Vulnerable]]",
+          "dataId": 8,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Vulnerable",
           "chance": 100
         },
@@ -58834,6 +64363,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:162:Frostbite]]",
+          "dataId": 162,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Frostbite",
           "chance": 100
         }
@@ -58892,6 +64424,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 50
         },
@@ -58899,6 +64434,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:17:Silence]]",
+          "dataId": 17,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Silence",
           "chance": 50
         },
@@ -58906,6 +64444,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 6% HP",
+          "dataId": 1,
+          "value1": -0.06,
+          "value2": 0,
           "percent": -6,
           "flat": 0
         }
@@ -58964,18 +64505,27 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:32:Store Power 150]]",
+          "dataId": 32,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Store Power 150",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:16:Dodge]]",
+          "dataId": 16,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dodge",
           "chance": 100
         }
@@ -59034,6 +64584,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 100
         },
@@ -59041,6 +64594,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:162:Frostbite]]",
+          "dataId": 162,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Frostbite",
           "chance": 100
         }
@@ -59149,6 +64705,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 30% HP",
+          "dataId": 1,
+          "value1": -0.3,
+          "value2": 0,
           "percent": -30,
           "flat": 0
         },
@@ -59156,6 +64715,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -59163,6 +64725,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -59170,6 +64735,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         },
@@ -59177,6 +64745,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         },
@@ -59184,6 +64755,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -59191,6 +64765,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Luck for 5 turns",
+          "dataId": 7,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Luck",
           "turns": 5
         },
@@ -59198,12 +64775,18 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:16:Dodge]]",
+          "dataId": 16,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dodge"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:39:Acrobatics]]",
+          "dataId": 39,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Acrobatics"
         }
       ],
@@ -59311,6 +64894,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -59318,6 +64904,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -59325,6 +64914,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:56:Fear]]",
+          "dataId": 56,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Fear",
           "chance": 100
         }
@@ -59383,6 +64975,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:61:Frailty]]",
+          "dataId": 61,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Frailty",
           "chance": 50
         },
@@ -59390,6 +64985,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:17:Silence]]",
+          "dataId": 17,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Silence",
           "chance": 50
         },
@@ -59397,6 +64995,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 20% HP",
+          "dataId": 1,
+          "value1": -0.2,
+          "value2": 0,
           "percent": -20,
           "flat": 0
         }
@@ -59455,6 +65056,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "30% chance to inflict [[STATE:1:Incapacitated]]",
+          "dataId": 1,
+          "value1": 0.3,
+          "value2": 0,
           "stateName": "Incapacitated",
           "chance": 30
         }
@@ -59513,222 +65117,333 @@ const skillsData = {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Attack increase",
+          "dataId": 2,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Attack"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Defense increase",
+          "dataId": 3,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Defense"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Magic Attack increase",
+          "dataId": 4,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Attack"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Magic Defense increase",
+          "dataId": 5,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Defense"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Agility increase",
+          "dataId": 6,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Agility"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Luck increase",
+          "dataId": 7,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Luck"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:37:SawneyBean Full Belly]]",
+          "dataId": 37,
+          "value1": 1,
+          "value2": 0,
           "stateName": "SawneyBean Full Belly"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:42:Rage]]",
+          "dataId": 42,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Rage"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:38:Rampage]]",
+          "dataId": 38,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Rampage"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:21:Power of Flame]]",
+          "dataId": 21,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Flame"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:23:Power of Lightning]]",
+          "dataId": 23,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Lightning"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:24:Power of Darkness]]",
+          "dataId": 24,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Darkness"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:16:Dodge]]",
+          "dataId": 16,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dodge"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:39:Acrobatics]]",
+          "dataId": 39,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Acrobatics"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:59:Grit]]",
+          "dataId": 59,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Grit"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:52:Power Within]]",
+          "dataId": 52,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power Within"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:41:Knight's Pride]]",
+          "dataId": 41,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Knight's Pride"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:27:Requiem]]",
+          "dataId": 27,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Requiem"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:20:Counterattack Stance]]",
+          "dataId": 20,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Counterattack Stance"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:25:Condition Immunity]]",
+          "dataId": 25,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Condition Immunity"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:65:Crit Avoidance]]",
+          "dataId": 65,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Avoidance"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:74:Croc 1]]",
+          "dataId": 74,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Croc 1"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:75:Croc 2]]",
+          "dataId": 75,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Croc 2"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:76:Croc 3]]",
+          "dataId": 76,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Croc 3"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:45:Crit Chance+30%.]]",
+          "dataId": 45,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Chance+30%."
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:47:Accuracy+100%]]",
+          "dataId": 47,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Accuracy+100%"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:48:Auto-Recovery 50]]",
+          "dataId": 48,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Auto-Recovery 50"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:46:Self-Mutilation]]",
+          "dataId": 46,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Self-Mutilation"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:62:Accelerate]]",
+          "dataId": 62,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Accelerate"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:49:Increased Evasion]]",
+          "dataId": 49,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Increased Evasion"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:128:Inevitable]]",
+          "dataId": 128,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Inevitable"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:54:Eclipse]]",
+          "dataId": 54,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Eclipse"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:133:Soul Shield]]",
+          "dataId": 133,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Soul Shield"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:161:Break Immunity]]",
+          "dataId": 161,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Immunity"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:40:Stone Flesh]]",
+          "dataId": 40,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stone Flesh"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:57:Crit Rate+100%]]",
+          "dataId": 57,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Rate+100%"
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 100
         }
@@ -59787,6 +65502,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:2:Poison]]",
+          "dataId": 2,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Poison",
           "chance": 50
         },
@@ -59794,6 +65512,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:3:Deadly Poison]]",
+          "dataId": 3,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Deadly Poison",
           "chance": 50
         },
@@ -59801,6 +65522,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Bleeding",
           "chance": 50
         },
@@ -59808,6 +65532,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:29:Burning]]",
+          "dataId": 29,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Burning",
           "chance": 50
         },
@@ -59815,6 +65542,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:163:Laceration]]",
+          "dataId": 163,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Laceration",
           "chance": 50
         },
@@ -59822,6 +65552,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 30% HP",
+          "dataId": 0,
+          "value1": -0.3,
+          "value2": 0,
           "percent": -30,
           "flat": 0
         },
@@ -59829,6 +65562,9 @@ const skillsData = {
           "code": 12,
           "codeName": "Recover MP",
           "description": "Drain 50% MP",
+          "dataId": 0,
+          "value1": -0.5,
+          "value2": 0,
           "percent": -50,
           "flat": 0
         }
@@ -59887,6 +65623,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Max HP for 5 turns",
+          "dataId": 0,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Max HP",
           "turns": 5
         },
@@ -59894,6 +65633,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Max MP for 5 turns",
+          "dataId": 1,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Max MP",
           "turns": 5
         }
@@ -59952,6 +65694,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 100
         }
@@ -60010,18 +65755,27 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:31:Limit Break]]",
+          "dataId": 31,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Limit Break",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:161:Break Immunity]]",
+          "dataId": 161,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Immunity",
           "chance": 100
         },
@@ -60029,6 +65783,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:24:Power of Darkness]]",
+          "dataId": 24,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Darkness",
           "chance": 100
         }
@@ -60087,6 +65844,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:7:Hard Break Vulnerable]]",
+          "dataId": 7,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Hard Break Vulnerable",
           "chance": 100
         },
@@ -60094,24 +65854,36 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:16:Dodge]]",
+          "dataId": 16,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dodge"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:39:Acrobatics]]",
+          "dataId": 39,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Acrobatics"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:40:Stone Flesh]]",
+          "dataId": 40,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stone Flesh"
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 50
         },
@@ -60119,6 +65891,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:165:Dislegging]]",
+          "dataId": 165,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Dislegging",
           "chance": 50
         }
@@ -60176,12 +65951,18 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 60,
+          "value1": 0,
+          "value2": 0
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:71:State 3]]",
+          "dataId": 71,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State 3",
           "chance": 100
         }
@@ -60240,6 +66021,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 100% HP",
+          "dataId": 1,
+          "value1": -1,
+          "value2": 0,
           "percent": -100,
           "flat": 0
         }
@@ -60298,6 +66082,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Recover 100% HP",
+          "dataId": 1,
+          "value1": 1,
+          "value2": 0,
           "percent": 100,
           "flat": 0
         }
@@ -60356,18 +66143,27 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 40% HP",
+          "dataId": 0,
+          "value1": -0.4,
+          "value2": 0,
           "percent": -40,
           "flat": 0
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 61,
+          "value1": 0,
+          "value2": 0
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:61:Frailty]]",
+          "dataId": 61,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Frailty",
           "chance": 100
         }
@@ -60426,18 +66222,27 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:31:Limit Break]]",
+          "dataId": 31,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Limit Break",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:161:Break Immunity]]",
+          "dataId": 161,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Immunity",
           "chance": 100
         },
@@ -60445,6 +66250,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:24:Power of Darkness]]",
+          "dataId": 24,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Darkness",
           "chance": 100
         }
@@ -60603,6 +66411,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:5:Oiled]]",
+          "dataId": 5,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Oiled",
           "chance": 100
         }
@@ -60661,6 +66472,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:29:Burning]]",
+          "dataId": 29,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Burning",
           "chance": 100
         }
@@ -60719,6 +66533,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:3:Deadly Poison]]",
+          "dataId": 3,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Deadly Poison",
           "chance": 50
         },
@@ -60726,6 +66543,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:2:Poison]]",
+          "dataId": 2,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Poison",
           "chance": 50
         }
@@ -60784,6 +66604,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:2:Poison]]",
+          "dataId": 2,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Poison",
           "chance": 100
         },
@@ -60791,6 +66614,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:3:Deadly Poison]]",
+          "dataId": 3,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Deadly Poison",
           "chance": 100
         }
@@ -60849,6 +66675,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Recover 100% HP",
+          "dataId": 0,
+          "value1": 1,
+          "value2": 0,
           "percent": 100,
           "flat": 0
         },
@@ -60856,84 +66685,126 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:2:Poison]]",
+          "dataId": 2,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Poison"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:3:Deadly Poison]]",
+          "dataId": 3,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Deadly Poison"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:5:Oiled]]",
+          "dataId": 5,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Oiled"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:6:Sleep]]",
+          "dataId": 6,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Sleep"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stun"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:26:Bleeding]]",
+          "dataId": 26,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Bleeding"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:28:Madness]]",
+          "dataId": 28,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Madness"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:29:Burning]]",
+          "dataId": 29,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Burning"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:55:Weakness]]",
+          "dataId": 55,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Weakness"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:56:Fear]]",
+          "dataId": 56,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Fear"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:61:Frailty]]",
+          "dataId": 61,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Frailty"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:17:Silence]]",
+          "dataId": 17,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Silence"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:162:Frostbite]]",
+          "dataId": 162,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Frostbite"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:163:Laceration]]",
+          "dataId": 163,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Laceration"
         }
       ],
@@ -60991,6 +66862,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:56:Fear]]",
+          "dataId": 56,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Fear",
           "chance": 100
         }
@@ -61049,6 +66923,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 15% HP",
+          "dataId": 0,
+          "value1": -0.15,
+          "value2": 0,
           "percent": -15,
           "flat": 0
         },
@@ -61056,6 +66933,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -61063,6 +66943,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         }
@@ -61121,6 +67004,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:165:Dislegging]]",
+          "dataId": 165,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dislegging",
           "chance": 100
         }
@@ -61179,6 +67065,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:8:Break Vulnerable]]",
+          "dataId": 8,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Vulnerable",
           "chance": 100
         }
@@ -61237,6 +67126,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:8:Break Vulnerable]]",
+          "dataId": 8,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Vulnerable",
           "chance": 100
         }
@@ -61295,6 +67187,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:8:Break Vulnerable]]",
+          "dataId": 8,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Vulnerable",
           "chance": 100
         }
@@ -61353,6 +67248,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:7:Hard Break Vulnerable]]",
+          "dataId": 7,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Hard Break Vulnerable",
           "chance": 100
         }
@@ -61411,216 +67309,324 @@ const skillsData = {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Attack increase",
+          "dataId": 2,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Attack"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Defense increase",
+          "dataId": 3,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Defense"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Magic Attack increase",
+          "dataId": 4,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Attack"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Magic Defense increase",
+          "dataId": 5,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Defense"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Agility increase",
+          "dataId": 6,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Agility"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Luck increase",
+          "dataId": 7,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Luck"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:37:SawneyBean Full Belly]]",
+          "dataId": 37,
+          "value1": 1,
+          "value2": 0,
           "stateName": "SawneyBean Full Belly"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:42:Rage]]",
+          "dataId": 42,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Rage"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:38:Rampage]]",
+          "dataId": 38,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Rampage"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:21:Power of Flame]]",
+          "dataId": 21,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Flame"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:23:Power of Lightning]]",
+          "dataId": 23,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Lightning"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:24:Power of Darkness]]",
+          "dataId": 24,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Darkness"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:16:Dodge]]",
+          "dataId": 16,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dodge"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:39:Acrobatics]]",
+          "dataId": 39,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Acrobatics"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:59:Grit]]",
+          "dataId": 59,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Grit"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:52:Power Within]]",
+          "dataId": 52,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power Within"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:41:Knight's Pride]]",
+          "dataId": 41,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Knight's Pride"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:27:Requiem]]",
+          "dataId": 27,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Requiem"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:20:Counterattack Stance]]",
+          "dataId": 20,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Counterattack Stance"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:25:Condition Immunity]]",
+          "dataId": 25,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Condition Immunity"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:65:Crit Avoidance]]",
+          "dataId": 65,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Avoidance"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:74:Croc 1]]",
+          "dataId": 74,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Croc 1"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:75:Croc 2]]",
+          "dataId": 75,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Croc 2"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:76:Croc 3]]",
+          "dataId": 76,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Croc 3"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:45:Crit Chance+30%.]]",
+          "dataId": 45,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Chance+30%."
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:47:Accuracy+100%]]",
+          "dataId": 47,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Accuracy+100%"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:48:Auto-Recovery 50]]",
+          "dataId": 48,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Auto-Recovery 50"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:46:Self-Mutilation]]",
+          "dataId": 46,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Self-Mutilation"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:62:Accelerate]]",
+          "dataId": 62,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Accelerate"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:49:Increased Evasion]]",
+          "dataId": 49,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Increased Evasion"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:128:Inevitable]]",
+          "dataId": 128,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Inevitable"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:54:Eclipse]]",
+          "dataId": 54,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Eclipse"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:133:Soul Shield]]",
+          "dataId": 133,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Soul Shield"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:161:Break Immunity]]",
+          "dataId": 161,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Immunity"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:40:Stone Flesh]]",
+          "dataId": 40,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stone Flesh"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:57:Crit Rate+100%]]",
+          "dataId": 57,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Rate+100%"
         }
       ],
@@ -61678,30 +67684,45 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:204:State #204]]",
+          "dataId": 204,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State #204"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:205:State #205]]",
+          "dataId": 205,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State #205"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:206:State #206]]",
+          "dataId": 206,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State #206"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:207:State #207]]",
+          "dataId": 207,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State #207"
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:204:State #204]]",
+          "dataId": 204,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State #204",
           "chance": 100
         }
@@ -61760,30 +67781,45 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:204:State #204]]",
+          "dataId": 204,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State #204"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:205:State #205]]",
+          "dataId": 205,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State #205"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:206:State #206]]",
+          "dataId": 206,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State #206"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:207:State #207]]",
+          "dataId": 207,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State #207"
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:204:State #204]]",
+          "dataId": 204,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State #204",
           "chance": 100
         }
@@ -61842,6 +67878,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:209:↓Riposte↓]]",
+          "dataId": 209,
+          "value1": 1,
+          "value2": 0,
           "stateName": "↓Riposte↓",
           "chance": 100
         }
@@ -61900,6 +67939,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:204:State #204]]",
+          "dataId": 204,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State #204",
           "chance": 100
         },
@@ -61907,6 +67949,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:205:State #205]]",
+          "dataId": 205,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State #205",
           "chance": 100
         },
@@ -61914,6 +67959,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:206:State #206]]",
+          "dataId": 206,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State #206",
           "chance": 100
         },
@@ -61921,6 +67969,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:207:State #207]]",
+          "dataId": 207,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State #207",
           "chance": 100
         }
@@ -61979,12 +68030,18 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:204:State #204]]",
+          "dataId": 204,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State #204"
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:204:State #204]]",
+          "dataId": 204,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State #204",
           "chance": 100
         }
@@ -62043,6 +68100,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:162:Frostbite]]",
+          "dataId": 162,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Frostbite",
           "chance": 100
         }
@@ -62101,6 +68161,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:48:Auto-Recovery 50]]",
+          "dataId": 48,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Auto-Recovery 50",
           "chance": 100
         }
@@ -62159,6 +68222,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Recover 100% HP",
+          "dataId": 1,
+          "value1": 1,
+          "value2": 0,
           "percent": 100,
           "flat": 0
         }
@@ -62217,30 +68283,45 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:204:State #204]]",
+          "dataId": 204,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State #204"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:205:State #205]]",
+          "dataId": 205,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State #205"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:206:State #206]]",
+          "dataId": 206,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State #206"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:207:State #207]]",
+          "dataId": 207,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State #207"
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:204:State #204]]",
+          "dataId": 204,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State #204",
           "chance": 100
         }
@@ -62299,6 +68380,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:204:State #204]]",
+          "dataId": 204,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State #204",
           "chance": 100
         },
@@ -62306,6 +68390,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:205:State #205]]",
+          "dataId": 205,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State #205",
           "chance": 100
         },
@@ -62313,6 +68400,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:206:State #206]]",
+          "dataId": 206,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State #206",
           "chance": 100
         },
@@ -62320,6 +68410,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:207:State #207]]",
+          "dataId": 207,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State #207",
           "chance": 100
         }
@@ -62378,6 +68471,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:14:HP Regen]]",
+          "dataId": 14,
+          "value1": 1,
+          "value2": 0,
           "stateName": "HP Regen",
           "chance": 100
         }
@@ -62436,6 +68532,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:210:State #210]]",
+          "dataId": 210,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State #210",
           "chance": 100
         }
@@ -62494,12 +68593,18 @@ const skillsData = {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:204:State #204]]",
+          "dataId": 204,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State #204"
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:204:State #204]]",
+          "dataId": 204,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State #204",
           "chance": 100
         }
@@ -62558,18 +68663,27 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:31:Limit Break]]",
+          "dataId": 31,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Limit Break",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         },
         {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -62577,6 +68691,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -62584,6 +68701,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -62591,6 +68711,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -62598,6 +68721,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         },
@@ -62605,6 +68731,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         },
@@ -62612,6 +68741,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         },
@@ -62619,6 +68751,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         },
@@ -62626,6 +68761,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Luck for 5 turns",
+          "dataId": 7,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Luck",
           "turns": 5
         },
@@ -62633,6 +68771,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Luck for 5 turns",
+          "dataId": 7,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Luck",
           "turns": 5
         },
@@ -62640,6 +68781,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:22:Power of Ice]]",
+          "dataId": 22,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Ice",
           "chance": 100
         }
@@ -62698,6 +68842,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:162:Frostbite]]",
+          "dataId": 162,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Frostbite",
           "chance": 100
         }
@@ -62756,6 +68903,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Agility for 5 turns",
+          "dataId": 6,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Agility",
           "turns": 5
         },
@@ -62763,6 +68913,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "60% chance to inflict [[STATE:162:Frostbite]]",
+          "dataId": 162,
+          "value1": 0.6,
+          "value2": 0,
           "stateName": "Frostbite",
           "chance": 60
         }
@@ -62871,6 +69024,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -62878,6 +69034,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         }
@@ -63036,18 +69195,27 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:213:State #213]]",
+          "dataId": 213,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State #213",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:23:Power of Lightning]]",
+          "dataId": 23,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Lightning",
           "chance": 100
         }
@@ -63106,6 +69274,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 50
         },
@@ -63113,6 +69284,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "50% chance to inflict [[STATE:163:Laceration]]",
+          "dataId": 163,
+          "value1": 0.5,
+          "value2": 0,
           "stateName": "Laceration",
           "chance": 50
         }
@@ -63171,6 +69345,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -63178,6 +69355,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         }
@@ -63236,6 +69416,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "30% chance to inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 0.3,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 30
         },
@@ -63243,6 +69426,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "30% chance to inflict [[STATE:163:Laceration]]",
+          "dataId": 163,
+          "value1": 0.3,
+          "value2": 0,
           "stateName": "Laceration",
           "chance": 30
         }
@@ -63301,6 +69487,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "60% chance to inflict [[STATE:162:Frostbite]]",
+          "dataId": 162,
+          "value1": 0.6,
+          "value2": 0,
           "stateName": "Frostbite",
           "chance": 60
         },
@@ -63308,6 +69497,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "60% chance to inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 0.6,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 60
         },
@@ -63315,6 +69507,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Attack for 5 turns",
+          "dataId": 2,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Attack",
           "turns": 5
         },
@@ -63322,6 +69517,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         }
@@ -63380,6 +69578,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "60% chance to inflict [[STATE:55:Weakness]]",
+          "dataId": 55,
+          "value1": 0.6,
+          "value2": 0,
           "stateName": "Weakness",
           "chance": 60
         },
@@ -63387,6 +69588,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "60% chance to inflict [[STATE:163:Laceration]]",
+          "dataId": 163,
+          "value1": 0.6,
+          "value2": 0,
           "stateName": "Laceration",
           "chance": 60
         },
@@ -63394,6 +69598,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "60% chance to inflict [[STATE:61:Frailty]]",
+          "dataId": 61,
+          "value1": 0.6,
+          "value2": 0,
           "stateName": "Frailty",
           "chance": 60
         },
@@ -63401,6 +69608,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -63408,6 +69618,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         }
@@ -63466,6 +69679,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "60% chance to inflict [[STATE:6:Sleep]]",
+          "dataId": 6,
+          "value1": 0.6,
+          "value2": 0,
           "stateName": "Sleep",
           "chance": 60
         },
@@ -63473,6 +69689,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Max HP for 5 turns",
+          "dataId": 0,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Max HP",
           "turns": 5
         },
@@ -63480,6 +69699,9 @@ const skillsData = {
           "code": 32,
           "codeName": "Add Debuff",
           "description": "Decrease Luck for 5 turns",
+          "dataId": 7,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Luck",
           "turns": 5
         },
@@ -63487,6 +69709,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 99% HP",
+          "dataId": 0,
+          "value1": -0.99,
+          "value2": 0,
           "percent": -99,
           "flat": 0
         },
@@ -63494,6 +69719,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:7:Hard Break Vulnerable]]",
+          "dataId": 7,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Hard Break Vulnerable",
           "chance": 100
         }
@@ -63552,222 +69780,333 @@ const skillsData = {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Attack increase",
+          "dataId": 2,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Attack"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Defense increase",
+          "dataId": 3,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Defense"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Magic Attack increase",
+          "dataId": 4,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Attack"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Magic Defense increase",
+          "dataId": 5,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Magic Defense"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Agility increase",
+          "dataId": 6,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Agility"
         },
         {
           "code": 33,
           "codeName": "Remove Buff",
           "description": "Remove Luck increase",
+          "dataId": 7,
+          "value1": 0,
+          "value2": 0,
           "parameter": "Luck"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:37:SawneyBean Full Belly]]",
+          "dataId": 37,
+          "value1": 1,
+          "value2": 0,
           "stateName": "SawneyBean Full Belly"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:42:Rage]]",
+          "dataId": 42,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Rage"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:38:Rampage]]",
+          "dataId": 38,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Rampage"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:21:Power of Flame]]",
+          "dataId": 21,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Flame"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:23:Power of Lightning]]",
+          "dataId": 23,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Lightning"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:24:Power of Darkness]]",
+          "dataId": 24,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power of Darkness"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:16:Dodge]]",
+          "dataId": 16,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Dodge"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:39:Acrobatics]]",
+          "dataId": 39,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Acrobatics"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:59:Grit]]",
+          "dataId": 59,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Grit"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:52:Power Within]]",
+          "dataId": 52,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Power Within"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:41:Knight's Pride]]",
+          "dataId": 41,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Knight's Pride"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:27:Requiem]]",
+          "dataId": 27,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Requiem"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:20:Counterattack Stance]]",
+          "dataId": 20,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Counterattack Stance"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:25:Condition Immunity]]",
+          "dataId": 25,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Condition Immunity"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:65:Crit Avoidance]]",
+          "dataId": 65,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Avoidance"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:74:Croc 1]]",
+          "dataId": 74,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Croc 1"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:75:Croc 2]]",
+          "dataId": 75,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Croc 2"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:76:Croc 3]]",
+          "dataId": 76,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Croc 3"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:45:Crit Chance+30%.]]",
+          "dataId": 45,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Chance+30%."
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:47:Accuracy+100%]]",
+          "dataId": 47,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Accuracy+100%"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:48:Auto-Recovery 50]]",
+          "dataId": 48,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Auto-Recovery 50"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:46:Self-Mutilation]]",
+          "dataId": 46,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Self-Mutilation"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:62:Accelerate]]",
+          "dataId": 62,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Accelerate"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:49:Increased Evasion]]",
+          "dataId": 49,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Increased Evasion"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:128:Inevitable]]",
+          "dataId": 128,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Inevitable"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:54:Eclipse]]",
+          "dataId": 54,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Eclipse"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:133:Soul Shield]]",
+          "dataId": 133,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Soul Shield"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:161:Break Immunity]]",
+          "dataId": 161,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Break Immunity"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:40:Stone Flesh]]",
+          "dataId": 40,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Stone Flesh"
         },
         {
           "code": 22,
           "codeName": "Remove State",
           "description": "Remove [[STATE:57:Crit Rate+100%]]",
+          "dataId": 57,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Crit Rate+100%"
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "90% chance to inflict [[STATE:13:Stun]]",
+          "dataId": 13,
+          "value1": 0.9,
+          "value2": 0,
           "stateName": "Stun",
           "chance": 90
         }
@@ -63826,6 +70165,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:122:State #122]]",
+          "dataId": 122,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State #122",
           "chance": 100
         },
@@ -63833,6 +70175,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         },
@@ -63840,6 +70185,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Attack for 5 turns",
+          "dataId": 4,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Attack",
           "turns": 5
         },
@@ -63847,6 +70195,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -63854,6 +70205,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Defense for 5 turns",
+          "dataId": 3,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Defense",
           "turns": 5
         },
@@ -63861,6 +70215,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         },
@@ -63868,6 +70225,9 @@ const skillsData = {
           "code": 31,
           "codeName": "Add Buff",
           "description": "Increase Magic Defense for 5 turns",
+          "dataId": 5,
+          "value1": 5,
+          "value2": 0,
           "parameter": "Magic Defense",
           "turns": 5
         }
@@ -63925,12 +70285,18 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 60,
+          "value1": 0,
+          "value2": 0
         },
         {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:71:State 3]]",
+          "dataId": 71,
+          "value1": 1,
+          "value2": 0,
           "stateName": "State 3",
           "chance": 100
         }
@@ -63989,13 +70355,19 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:32:Store Power 150]]",
+          "dataId": 32,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Store Power 150",
           "chance": 100
         },
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event"
+          "description": "Trigger Common Event",
+          "dataId": 37,
+          "value1": 0,
+          "value2": 0
         }
       ],
       "note": {
@@ -64052,6 +70424,9 @@ const skillsData = {
           "code": 11,
           "codeName": "Recover HP",
           "description": "Drain 8% HP",
+          "dataId": 1,
+          "value1": -0.08,
+          "value2": 0,
           "percent": -8,
           "flat": 0
         },
@@ -64059,6 +70434,9 @@ const skillsData = {
           "code": 21,
           "codeName": "Add State",
           "description": "Inflict [[STATE:28:Madness]]",
+          "dataId": 28,
+          "value1": 1,
+          "value2": 0,
           "stateName": "Madness",
           "chance": 100
         }

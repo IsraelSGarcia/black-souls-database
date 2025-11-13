@@ -1622,11 +1622,30 @@ const processedSkills = skillsData
                     return true;
                 })
                 .map(effect => {
+                    // CRITICAL: Always preserve original raw values from JSON file for "Show Original Data" feature
+                    // These are the ONLY values that should be shown when displaying "original data"
+                    // DO NOT add processed/transformed values (like chance, stateName, percent, etc.) to original data display
+                    // Always preserve these raw values - they come directly from the original JSON file
+                    // Assign them directly in the object initialization (same approach as items) to ensure they're always included
                     const effectInfo = {
                         code: effect.code,
                         codeName: effectCodes[effect.code] || `Unknown Effect`,
                         description: ""
                     };
+                    
+                    // CRITICAL: Always preserve raw values from original JSON - these are essential for "Show Original Data"
+                    // These must be preserved exactly as they appear in the original JSON file
+                    // The original JSON always has these properties, so assign them directly (same as items processing)
+                    // IMPORTANT: Assign these BEFORE any processing that might modify the object
+                    if (effect.dataId !== undefined) {
+                        effectInfo.dataId = effect.dataId;
+                    }
+                    if (effect.value1 !== undefined) {
+                        effectInfo.value1 = effect.value1;
+                    }
+                    if (effect.value2 !== undefined) {
+                        effectInfo.value2 = effect.value2;
+                    }
                     
                     // Add specific descriptions based on effect code - no IDs shown
                     if (effect.code === 21) { // Add State
@@ -1734,6 +1753,13 @@ const processedSkills = skillsData
                     if (effectInfo.description) {
                         effectInfo.description = resolveAndLog(effectInfo.description, idResolvers, 'skill', skill.id, 'effect');
                     }
+                    
+                    // CRITICAL: Ensure raw values are always present before returning
+                    // These must be in the final object for "Show Original Data" to work
+                    // Double-check that they're assigned (they come from the original JSON, so they should exist)
+                    if (effect.dataId !== undefined) effectInfo.dataId = effect.dataId;
+                    if (effect.value1 !== undefined) effectInfo.value1 = effect.value1;
+                    if (effect.value2 !== undefined) effectInfo.value2 = effect.value2;
                     
                     return effectInfo;
                 }),
@@ -2311,6 +2337,8 @@ const processedItems = itemsData
         }
         
         // Process effects array: similar to traits but with value1/value2 format
+        // CRITICAL: Always preserve original raw values (dataId, value1, value2) from JSON file
+        // These are needed for "Show Original Data" feature - DO NOT remove them
         const effects = (item.effects || []).map(effect => {
             const effectInfo = {
                 code: effect.code,
