@@ -1107,6 +1107,24 @@ header h1.clickable-title:hover {
     
     .detail-panel.mobile-active {
         display: flex;
+        height: calc(100vh - 100px) !important;
+        max-height: calc(100vh - 100px) !important;
+    }
+    
+    /* Hide search bar, title, and description when viewing item detail on mobile */
+    .container:has(.detail-panel.mobile-active) .search-section,
+    body:has(.detail-panel.mobile-active) .search-section {
+        display: none !important;
+    }
+    
+    .container:has(.detail-panel.mobile-active) header h1#header-title,
+    body:has(.detail-panel.mobile-active) header h1#header-title {
+        display: none !important;
+    }
+    
+    .container:has(.detail-panel.mobile-active) header .subtitle#header-subtitle,
+    body:has(.detail-panel.mobile-active) header .subtitle#header-subtitle {
+        display: none !important;
     }
     
     .games-grid {
@@ -1262,6 +1280,12 @@ header h1.clickable-title:hover {
     .detail-panel {
         max-height: calc(100vh - 320px);
         padding: 16px;
+    }
+    
+    /* Make detail panel larger when active on mobile */
+    .detail-panel.mobile-active {
+        height: calc(100vh - 100px) !important;
+        max-height: calc(100vh - 100px) !important;
     }
     
     .detail-header {
@@ -1499,6 +1523,12 @@ header h1.clickable-title:hover {
         padding: 12px;
         height: calc(100vh - 300px);
         max-height: calc(100vh - 300px);
+    }
+    
+    /* Make detail panel larger when active on small mobile */
+    .detail-panel.mobile-active {
+        height: calc(100vh - 80px) !important;
+        max-height: calc(100vh - 80px) !important;
     }
     
     .detail-header {
