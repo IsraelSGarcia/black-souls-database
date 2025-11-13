@@ -2191,75 +2191,15 @@ function getDetailTextContent(obj, type) {
     return text.toLowerCase();
 }
 
-// Fuzzy matching function - typo-tolerant search
-function fuzzyMatch(query, text) {
+// Simple substring matching function
+function simpleMatch(query, text) {
     if (!query || !text) return false;
     
     const lowerQuery = query.toLowerCase().trim();
     const lowerText = text.toLowerCase();
     
-    // First try exact substring match (fast path)
-    if (lowerText.includes(lowerQuery)) return true;
-    
-    // For very short queries, use exact match only
-    if (lowerQuery.length <= 2) return false;
-    
-    // Fuzzy matching: check if query characters appear in order in text
-    // This handles typos like missing letters, extra letters, or swapped letters
-    let queryIndex = 0;
-    let textIndex = 0;
-    let consecutiveMatches = 0;
-    let maxConsecutiveMatches = 0;
-    
-    while (textIndex < lowerText.length && queryIndex < lowerQuery.length) {
-        if (lowerText[textIndex] === lowerQuery[queryIndex]) {
-            consecutiveMatches++;
-            maxConsecutiveMatches = Math.max(maxConsecutiveMatches, consecutiveMatches);
-            queryIndex++;
-            textIndex++;
-        } else {
-            consecutiveMatches = 0;
-            textIndex++;
-        }
-    }
-    
-    // If we matched all characters in order, it's a match
-    if (queryIndex === lowerQuery.length) return true;
-    
-    // Also check for substring matches with 1-2 character tolerance
-    // Split query into words and check if most words match
-    const queryWords = lowerQuery.split(/\s+/).filter(w => w.length > 0);
-    if (queryWords.length > 1) {
-        let matchedWords = 0;
-        for (const word of queryWords) {
-            if (fuzzyMatch(word, lowerText)) {
-                matchedWords++;
-            }
-        }
-        // If most words match, consider it a match
-        if (matchedWords >= Math.ceil(queryWords.length * 0.7)) return true;
-    }
-    
-    // Check for Levenshtein-like distance (simplified)
-    // If query is a significant portion of text and has high character overlap
-    if (lowerQuery.length >= 3 && lowerText.length >= lowerQuery.length) {
-        const minLength = Math.min(lowerQuery.length, lowerText.length);
-        let matchingChars = 0;
-        for (let i = 0; i < minLength; i++) {
-            if (lowerQuery[i] === lowerText[i]) matchingChars++;
-        }
-        // If first few characters match well, it's likely a match
-        if (matchingChars >= Math.ceil(minLength * 0.6)) {
-            // Check if remaining characters can be found
-            let foundChars = matchingChars;
-            for (let i = matchingChars; i < lowerQuery.length; i++) {
-                if (lowerText.includes(lowerQuery[i])) foundChars++;
-            }
-            if (foundChars >= Math.ceil(lowerQuery.length * 0.7)) return true;
-        }
-    }
-    
-    return false;
+    // Simple substring match
+    return lowerText.includes(lowerQuery);
 }
 
 // Calculate relevance score for a search result
@@ -2347,7 +2287,7 @@ function calculateRelevance(obj, query, type) {
         score += positionBonus;
     }
     
-    // Character overlap bonus (for fuzzy matches)
+    // Character overlap bonus
     if (lowerQuery.length >= 3) {
         let matchingChars = 0;
         const minLength = Math.min(lowerQuery.length, lowerText.length);
@@ -2382,7 +2322,7 @@ function searchSkills(query) {
     const resultsWithScores = allSkills
         .map(skill => {
             const detailText = getDetailTextContent(skill, 'skill');
-            if (fuzzyMatch(query, detailText)) {
+            if (simpleMatch(query, detailText)) {
                 return {
                     skill: skill,
                     relevance: calculateRelevance(skill, query, 'skill')
@@ -3565,7 +3505,7 @@ function searchStates(query) {
     const resultsWithScores = allStates
         .map(state => {
             const detailText = getDetailTextContent(state, 'state');
-            if (fuzzyMatch(query, detailText)) {
+            if (simpleMatch(query, detailText)) {
                 return {
                     state: state,
                     relevance: calculateRelevance(state, query, 'state')
@@ -4189,7 +4129,7 @@ function searchWeapons(query) {
     const resultsWithScores = allWeapons
         .map(weapon => {
             const detailText = getDetailTextContent(weapon, 'weapon');
-            if (fuzzyMatch(query, detailText)) {
+            if (simpleMatch(query, detailText)) {
                 return {
                     weapon: weapon,
                     relevance: calculateRelevance(weapon, query, 'weapon')
@@ -4214,7 +4154,7 @@ function searchArmors(query) {
     const resultsWithScores = allArmors
         .map(armor => {
             const detailText = getDetailTextContent(armor, 'armor');
-            if (fuzzyMatch(query, detailText)) {
+            if (simpleMatch(query, detailText)) {
                 return {
                     armor: armor,
                     relevance: calculateRelevance(armor, query, 'armor')
@@ -4239,7 +4179,7 @@ function searchEnemies(query) {
     const resultsWithScores = allEnemies
         .map(enemy => {
             const detailText = getDetailTextContent(enemy, 'enemy');
-            if (fuzzyMatch(query, detailText)) {
+            if (simpleMatch(query, detailText)) {
                 return {
                     enemy: enemy,
                     relevance: calculateRelevance(enemy, query, 'enemy')
@@ -4264,7 +4204,7 @@ function searchItems(query) {
     const resultsWithScores = allItems
         .map(item => {
             const detailText = getDetailTextContent(item, 'item');
-            if (fuzzyMatch(query, detailText)) {
+            if (simpleMatch(query, detailText)) {
                 return {
                     item: item,
                     relevance: calculateRelevance(item, query, 'item')
@@ -4289,7 +4229,7 @@ function searchElements(query) {
     const resultsWithScores = allElements
         .map(element => {
             const detailText = getDetailTextContent(element, 'element');
-            if (fuzzyMatch(query, detailText)) {
+            if (simpleMatch(query, detailText)) {
                 return {
                     element: element,
                     relevance: calculateRelevance(element, query, 'element')
