@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Setting Map Data</title>
+<link href="../style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<h1><a name="key_map_setting">Setting Map Data</a></h1>
+
+<h2>Create Map Dialog Box</h2>
+
+<p>The <B>Create Map</B> dialog box appears when you create a new map or right-click a map and select <B>Map Settings</B> on the shortcut menu. This dialog box allows you to create and edit maps by setting their size, the tilesets they use, background music, conditions for encounters with enemy troops (battle occurrences) and other items that affect game play.</p>
+
+<h2>Available Settings</h2>
+
+<div align="center"><img src="img/2140_01.png" alt="Create Map dialog box"></div>
+
+<dl>
+<dt>Name</dt>
+<dd><p>The name of the map you are creating/editing. This setting is only used by the editor and has no impact on game play.</p></dd>
+
+<dt>Display Name</dt>
+<dd><p>Name displayed when the player moves on this map.</p></dd>
+
+<dt>Width/Height</dt>
+<dd><p>Size of the map. Specify a value between 17 and 500 for <B>Width</B> (horizontal) and 13 and 500 for <B>Height</B> (vertical). If you change a map's size so that it is smaller than before, the portion that will no longer fit will be deleted.</p></dd>
+
+<dt>Tileset</dt>
+<dd><p>Specify the tileset to use for the map design.</p></dd>
+
+<dt>Scroll Type</dt>
+<dd><p>Method for looping the map. Setting a loop connects the edges of the map together in a specified direction, allowing travel in an endless loop.</p>
+	<dl>
+		<dt>No Loop</dt>
+		<dd><p>No loop processing.</p></dd>
+		<dt>Vertical Loop</dt>
+		<dd><p>Connects the top edge of the map to the bottom edge.</p></dd>
+		<dt>Horizontal Loop</dt>
+		<dd><p>Connects the left edge of the map to the right edge.</p></dd>
+		<dt>Both Loop</dt>
+		<dd><p>Connects the map at its top and bottom edges and left and right edges.</p></dd>
+	</dl>
+</dd>
+
+<dt><a name="battlebg">Specify Battle Background</a></dt>
+<dd>
+	<img src="img/2140_03.png" alt="Specify Battle Background" class="float_r">
+	<p>When selected, this setting allows you to specify a combination of two graphics to display as a battle background when a battle occurs on this map.</p>
+	<p>When it is not selected, processing depends on the <a href="3310_db_tileset.html#mode">Mode</a> of the <B>tileset</B> that was set for this map.</p><br>
+	<dl>
+		<dt>Mode is <B>Field Type</B></dt>
+		<dd><p>The battle background is automatically determined by the tile where the player is standing when the battle occurs.</p></dd>
+		<dt>Mode is <B>Area Type</B> or <B>VX-Compatible Type</B></dt>
+		<dd><p>The map and its effects will be used for the battle background.</p></dd>
+	</dl>
+</dd>
+
+<dt>Auto-Change BGM/Auto-Change BGS</dt>
+<dd>
+	<p>When selected, this setting automatically starts playing background music (BGM)/background sounds (BGS) when the player is on this map. Specify the audio files you want to play.</p>
+</dd>
+
+<dt>Disable Dashing</dt>
+<dd><p>When selected, this setting prevents the player from dashing on this map.</p></dd>
+
+<dt>Parallax Background</dt>
+<dd><p>Graphic displayed on the blank area of the map. Click <B>...</B> to open a window for specifying an image file.</p>
+<p>Selecting <B>Loop Horizontal</B> or <B>Loop Vertical</B> scrolls the parallax background when the player moves in the specified direction. And specifying a value between -31 and 32 (except for 0) automatically scrolls the parallax background. A positive value scrolls left/up and a negative value right/down, and the greater the absolute value, the faster the scrolling speed.</p>
+<p>Selecting <B>Show in the Editor</B> allows you to check the parallax background you set. Note that the display method may differ from that when actually playing the game.</p></dd>
+
+<dt>Note</dt>
+<dd><p>Allows you to enter notes when creating a game. This setting is only used by the editor and has no impact on game play.</p></dd>
+
+<dt><a name="key_map_setting_encounter">Encounters</a></dt>
+<dd>
+<img src="img/2140_04.png" alt="Encounters" class="float_r">
+<p>Specifies the enemy troop that the player will randomly encounter while moving on this map. This dialog box opens when you double-click on a blank area within the field, and you can specify the settings described below. Right-clicking on an enemy troop that has been added displays a shortcut menu in which you can copy, delete, and perform other such operations.</p>
+
+<dl>
+<dt>Troop</dt>
+<dd><p>Specifies the enemy troop you want to set.</p></dd>
+
+<dt>Weight</dt>
+<dd><p>Specifies the priority (0 to 100) for this enemy troop to appear as a battle opponent. When multiple enemy troops are set, the larger this value, the higher the encounter rate for this enemy troop. </p>
+<p>Specifically, the encounter rate is calculated using the percentage accounted for by the total value of the weights of the enemy troops that were set.<br> For example, let's say you set a weight of 9 for troop A, 7 for troop B, and 4 for troop C. In that case, the encounter rate for troop A would be 9/20 (9 + 7 + 4 = 20) or 45%. Similarly, the rates for B and C would be 7/20 (35%) and 4/20 (20%), respectively.</p>
+</dd>
+
+<dt>Range</dt>
+<dd><p>Specifies the area in which this enemy troop is encountered. To have the encounter occur regardless of the area, select <B>Entire Map</B>. To have the encounter occur in a specific area only, select <B>Specify by Region ID</B> and then specify up to three region IDs. The method for setting regions is described at the bottom of the page.</p></dd>
+</dl>
+</dd>
+
+<dt>Steps Average</dt>
+<dd><p>Specifies the frequency of encounters while moving on the map using a value that stands for the average number of steps taken (1 to 999 steps with each step representing traveling over one tile). Use a smaller value if you want to have monsters appear more frequently.</p></dd>
+</dl>
+
+<h2><a name="key_map_setting_region">Setting Regions</a></h2>
+
+<img src="img/2140_02.png" alt="Regions" class="float_r">
+<p>Regions as specified in the <B>Encounter</B> dialog box are areas indicating where enemy troop encounters occur. Each map can be divided into 63 regions. </p>
+<p>To set one or more regions, click the <B>Region</B> button on the toolbar (or select <B>Region</B> on the <B>Mode</B> menu) to switch to editing mode. Next, click a region ID (1 through 63) in the upper left part of the window to select it, and then click on map view to set the selected region ID for the clicked position (tile). You can only set one region ID per tile.</p>
+
+<h6></h6>
+</body>
+</html>

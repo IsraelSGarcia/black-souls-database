@@ -1,0 +1,140 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Using Support Tools</title>
+<link href="../style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<h1><a name="key_supporttool">Using Support Tools</a></h1>
+
+<h2><a name="archive">Compress Game Data</a></h2>
+
+<img src="img/1140_01.png" alt="Compress Game Data" class="float_r"><p>Save project content into a compressed file by selecting <B>Compress Game Data</B> on the <B>File</B> menu. This is handy when you want to distribute your completed game. In the <B>Output Folder</B> box, specify where you want to saved the compressed file.</p>
+<p>Enabling <B>Create encrypted archive</B> when saving encrypts your project content to keep it safe from prying eyes. To compress your project along with RTP data, enable the <B>Include RTP data</B> option. This will eliminate the need to download RTP data to play the game, but please note that it will markedly increase the file size.</p><br>
+<p>Note that the <B>Compress Game Data</B> command may fail with game projects exceeding approximately 2 GB.*<br> *This value is merely a guideline. It will vary depending on the PC hardware and OS you are using and the game you are creating.</p>
+
+<h2><a name="material">Manage Resources</a></h2>
+
+<img src="img/1140_02.png" alt="Manage Resources" class="float_r"><p>The <B>Manage Resources</B> dialog box displayed by selecting <B>Manage Resources</B> on the <B>Tools</B> menu is for managing the resource files included in your project. The various parts of the dialog box and the functions of its buttons are described below. Note that in order to use your own images, music, and other files to create a game, they must be in one of the designated standard formats. See <a href="6100_resource.html">Resource Standards</a> for more information.</p>
+
+<dl>
+<dt>Folder List</dt>
+<dd><p>A list of folders containing resource files is displayed here. To import a resource file into your project, specify the folder where it is located.</p></dd>
+
+<dt>File List</dt>
+<dd>
+<p>A list of files located in the folder selected in the folder list is displayed here. A red circle before a file name indicates a resource file that was imported into RPG Maker, while a blue circle indicates a resource file that is included in the RTP.</p>
+</dd>
+
+<dt>Import</dt>
+<dd>
+<p>Imports a resource file into your project. In the folder list, select the folder you want to import the resource file into, click the <B>Import</B> button, and then specify the target resource file. When importing an image, left-clicking assigns a transparent color and right-clicking assigns a translucency color.</p>
+</dd>
+
+<dt>Export</dt>
+<dd>
+  <p>Saves a project resource file outside of the project. In the file list, select the file you want to export, click the <B>Export</B> button, and then specify the save location. Resource files you export in this manner will remain within the project. Note that you can select multiple resource files in the file list by drag-selecting and then export them all at once.</p>
+</dd>
+
+<dt>Preview</dt>
+<dd><p>Displays the image contained in the graphics resource file selected in the file list. To check an audio file, use the <B>Test Audio</B> tool.</p></dd>
+
+<dt>Delete</dt>
+<dd>
+  <p>Deletes from the project the resource files selected in the file list. You cannot delete standard RTP resource files (those with a blue circle in front of their name). Note that deleted files cannot be recovered, so make sure you really want to delete the selected files before proceeding.</p>
+</dd>
+</dl>
+
+<h2><a name="sound_test">Test Audio</a></h2>
+<img src="img/1140_03.png" alt="Test Audio" class="float_r">
+<p>The <B>Test Audio</B> dialog box displayed by selecting <B>Test Audio</B> on the <B>Tools</B> menu is for managing the audio files included in your project. Audio playback continues even after you close the dialog box, allowing you to use this command to play music while you create your game.</p>
+<p>The dialog box contains tabs for four different types of audio: BGM (background music), BGS (background sounds), ME (music effects), and SE (sound effects). Click the tab for the type of audio file you want to test and then select a file from the list. The selected audio file will start playing when you click the <B>Play</B> button. To stop playback, click the <B>Stop</B> button.</p>
+<p>Use the <B>Volume</B> control to adjust the playback volume between 0% and 100% and the <B>Pitch</B> control to adjust the pitch between 50% and 150%.</p><br>
+
+<h2><a name="chara_tkool">Generate Characters</a></h2>
+
+<img src="img/1140_04.png" alt="Generate Characters" class="float_r">
+<p>The <B>Generate Characters</B> dialog box displayed by selecting <B>Generate Characters</B> on the <B>Tools</B> menu is for easily creating character images that you can assign to actors and events.</p>
+<p>Start by clicking the <B>Male</B> or <B>Female</B> tab, depending on the gender of the character you want to create. Next, select the various available parts using the settings provided for the character's face, clothing, and so on. Clicking the <B>Random</B> button randomly specifies the parts to use.</p>
+<p>Changing the setting of any part automatically applies the change to both face graphic and walking graphic as a general rule. However, there are some cases where one of the graphics may not change depending on the part.</p>
+<p>When the image is complete, you will save it as an image file. Click the <B>Output Face</B> button or <B>Output Character</B> button, and in the dialog box that appears, enter a file name, and then click the <B>Save</B> button. Note that if you save the file in the <B>Face</B> or <B>Character</B> folder, which are the standard locations specified for saving the respective type of image, there will be no need to separately import it into your project using <B>Manage Resources</B>.</p>
+
+<h2><a name="option">Options</a></h2>
+
+<img src="img/1140_05.png" alt="Options" class="float_r">
+<p>The <B>Options</B> tool that appears when you select <B>Options</B> on the <B>Tools</B> menu is for changing settings related to image transparency and grid display in the editor. These settings have no effect on game play.</p>
+
+<dl>
+<dt>Transparent Color</dt>
+<dd><p>Set the color to use for the part of a graphic set to <B>Transparent</B>. Use the <B>Red</B>, <B>Green</B>, and <B>Blue</B> slider bars to specify the color to display. Transparent parts of the graphic will be displayed with a checkerboard pattern that uses the specified color.</p></dd>
+
+<dt>Grid</dt>
+<dd>
+  <p>Set whether to display a grid in map view (map editing mode). To display a grid, select the <B>Valid</B> check box and then specify the grid interval in <B>Horizontal</B> and <B>Vertical</B> using a value between 2 and 100 tiles.</p>
+</dd>
+</dl>
+
+<h2><a name="testplay">Play Test</a></h2>
+
+<img src="img/1140_06.png" alt="Play Test" class="float_r">
+<p>The <B>Play Test</B> command executed by selecting <B>Play Test</B> on the <B>Game</B> menu allows you to immediately start testing the game you are creating. Use it to check whether settings and events are operating as you would expect from the final distributable version of the game.</p>
+
+<dl>
+<dt>Using the Debugger</dt>
+<dd><p>Pressing the F9 key during play testing displays the debugger window. This window allows you to change the values of switches and variables for the currently displayed portion of the game.</p>
+<p>To change a value, select the desired switch or variable from the list on the left side of the window (&quot;S&quot; indicates a switch and &quot;V&quot; a variable, while the numbers show the valid range), press the indicated key to confirm, and then move the cursor to the desired switch/variable in the list on the right side. For a switch, use the indicated key to turn it on/off, and for a variable, use the left and right cursor or the L and R keys to change its value. </p>
+</dd>
+<dt>Ending Play Testing</dt>
+<dd><p>You cannot edit your game during play testing. To exit play testing, click the close box (&times;) in the upper right corner of the window. You can also exit by pressing Alt+F4 or selecting <B>Shut Down</B> on the game's menu.</p></dd>
+</dl>
+
+<h2><a name="script_editor">Script Editor</a></h2>
+
+<p>The simple programs that control game execution are known as scripts.</p>
+<p>Generally, commands such as <B>Show Text</B> are referred to as scripts, but in this application, the word script is reserved for code that is more complex than event commands and almost to the level of an actual program. All event commands are interpreted and executed at the script level, rather than by the application itself.</p>
+<p>Script editing is a feature for advanced users to employ in customizing the game system. As such, it has a high level of difficulty. However, there is no need to learn how to use it if you will create your game the normal way. We recommend creating your first game without worrying about scripts. Once you are more experienced with RPG Maker and feel that the default system leaves something to be desired, it will be time to try your hand at scripting.</p>
+
+<p>RPG Maker uses the Ruby programming language, a proven scripting solution, as its scripting engine. The official website for Ruby is <a href="http://www.ruby-lang.org/" target="_blank">http://www.ruby-lang.org/</a>.</p>
+<p>Ruby is freeware developed primarily by Yukihiro Matsumoto. It offers the performance necessary for writing large-scale games. However, as it was originally designed for text processing and similar applications, it is rather difficult to use for game development as is. That is why the Ruby Game Scripting System (RGSS) was developed especially for games. See the <a href="../rgss/index.html">RGSS Reference</a> for more information.</p>
+
+<dl>
+<dt><a name="editor">Editing Scripts</a></dt>
+<dd>
+<img src="img/1140_11.png" alt="Script Editor" class="float_r">
+<p>Selecting <B>Script Editor</B> on the <B>Tools</B> menu displays a large dialog box for editing scripts.</p>
+<p>Since running a large game application such as an RPG requires a large number of programs, the entire game needs to be divided up into an appropriate number of subunits. This application refers to such subunits as sections. The list on the left side of the <B>Script Editor</B> dialog box displays the game's sections.</p>
+<p>The <B>Script Editor</B> was designed to be controlled just like the game's database. Pressing the F4 and F5 keys enables one-touch selection of the previous section and next section, respectively, just as with the database. In addition, the F6 key copies the term where the cursor is as the section name.</p><br></dd>
+
+<dt><a name="section">Section-Related Commands</a></dt>
+<dd>
+<img src="img/script2.png" alt="Section-related commands" class="float_r">
+<p>Right-clicking a section name displays the shortcut menu. Selecting <B>Insert</B> here inserts a new empty section before the selection position. Similarly, using commands such as <B>Cut</B> and <B>Paste</B> allows you to change section order.</p>
+<p>Unlike the database, sections are not managed using IDs. Sections are executed in the order they are listed (top to bottom). Preset scripts include a section called &quot;Main&quot; at the very bottom, and actual game operation does not begin until all the various types of definitions have been made.</p><br></dd>
+
+<dt><a name="edit">Editing-Related Commands</a></dt>
+<dd>
+<img src="img/script3.png" alt="Editing-related commands" class="float_r">
+<p>Right-clicking in the text editor area on the right side of the window displays the shortcut menu shown in the figure to the right. The menu contains a variety of basic editing commands, including <B>Cut</B>, <B>Paste</B>, <B>Find</B>, and <B>Replace</B>.</p>
+<p>Shortcuts key combinations such as Ctrl+F and Ctrl+G work even when the text editor is not in focus.</p>
+<p>To search for text in all sections, not just the one you are editing, select <B>Find</B> on the section shortcut menu. The shortcut key combination for this is Ctrl+Shift+F.</p>
+<br></dd>
+
+<dt><a name="use">Using Scripts</a></dt>
+<dd>
+<p>In addition to directly editing scripts in the <B>Script Editor</B>, you can also use them in the following four ways:</p>
+<ol>
+<li>Use them with the <B>Script</B> event command.</li>
+<li>Use them as a condition for the <B> Conditional Branch</B> event command.</li>
+<li>Use them as an operand for the <B>Control Variables</B> event command.</li>
+<li>Use them as a command within the <B>Move Route</B> command.</li>
+</ol>
+<p>For example, you could use scripts in the above-mentioned ways to call an event command you added with the <B>Script Editor</B>. The fun and interesting ways you can use scripts is limited only by your imagination.</p>
+</dd>
+</dl>
+
+<h6></h6>
+</body>
+</html>

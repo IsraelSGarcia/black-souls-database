@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Editing the Database</title>
+
+<link href="../style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<h1><a name="key_database">Editing the Database</a></h1>
+
+<h2>What is the Database?</h2>
+
+<p>The <B>Database </B> is a collection of elements other than maps and map events that comprise the game. The <B>Database</B> dialog box allows you to prepare game elements and settings, including the characters the player controls, items, and magic, as the fourteen different kinds of data described below.</p>
+<p>You will prepare data for each item appearing in the game, except for <B>System</B> and <B>Terms</B> data, which apply globally. For example, on the <B>Items</B> tab, you create data entries for each item that will appear in your game, such as keys and recovery items, by setting their names, graphics, effects when used, and other characteristics.</p>
+<p>Resource files imported into your project can also be displayed or played back in-game by assigning them to purpose-specific data entries.</p>
+
+<table class="sys" border="1" cellspacing="0" cellpadding="4">
+<tr>
+<th>Actors</th>
+<td>Characters the player can control</td>
+</tr><tr>
+<th>Classes</th>
+<td>Characteristics to give to the actors (such as parameters and development conditions)</td>
+</tr><tr>
+<th>Skills</th>
+<td>Special abilities and actions during battles (normal attacks, special attacks, and magic etc.)</td>
+</tr><tr>
+<th>Items</th>
+<td>The items the player can possess (recovery items and keys etc.)</td>
+</tr><tr>
+<th>Weapons</th>
+<td>Equipment actors use for attacks (swords, staves, and bows etc.)</td>
+</tr><tr>
+<th>Armor</th>
+<td>Equipment actors use for defense (body armor, shields, and accessories etc.)</td>
+</tr><tr>
+<th>Enemies</td>
+<td>Characters that fight against actors</td>
+</tr><tr>
+<th>Troops</th>
+<td>Groups of enemies that appear</td>
+</tr><tr>
+<th>States</td>
+<td>States that affect actors (poison and K.O. etc.)</td>
+</tr><tr>
+<th>Animations</th>
+<td>Visual effects displayed when using skills etc.</td>
+</tr><tr>
+<th>Tilesets</th>
+<td>Tilesets used in creating maps</td>
+</tr><tr>
+<th>Common Events</th>
+<td>Commonly executed event processing</td>
+</tr><tr>
+<th>System</th>
+<td>Basic settings for the overall game, including default settings and music</td>
+</tr><tr>
+<th>Terms</th>
+<td>Names of commands and settings used throughout the game</td>
+</tr></table>
+
+<h2>Editing Procedure</h2>
+
+<dl>
+<dt>Displaying the Database Dialog Box</dt>
+<dd><p>Database content is edited using the <B>Database</B> dialog box. To display it, click the <B>Database</B> button on the tool bar (or select <B>Database</B> on the <B>Tools</B> menu).</p></dd>
+
+<dt>Database Dialog Box</dt>
+<dd><p>The <B>Database</B> dialog box is divided into tabs by data type. To create/edit data, start by clicking the tab for the type of data you want to work with.</p>
+<p>To edit data other than that on the <B>System</B> and <B>Terms</B> tabs, select the data entry you want on the data list on the left side of the dialog box by clicking it. This will allow you to define the data's characteristics by editing the settings on the right side of the dialog box.</p>
+<p>You can switch between the data entries in the data list using the F4 and F5 keys.</p></dd>
+
+<dt>Changing the Number of Data Entries</dt>
+<dd><p>You can define up to 999 data entries for each data type except for <B>System</B> and <B>Terms</B>. To change the number of data items, click <B>Change Maximum</B> at the bottom of the data list and then specify a value between 1 and 999. If you decrease the maximum number, all data entries exceeding the new maximum number will be deleted.</p></dd>
+
+<dt>Shortcut Menu Operations</dt>
+<dd><p>Right-clicking an entry in the data list displays a shortcut menu in which you can copy it to the target and perform other such operations. The available operations are as follows:</p></dd>
+</dl>
+
+<dl><dd><dl><dt>Copy</dt>
+<dd><p>Copies data settings to the clipboard.</p></dd>
+<dt>Paste</dt>
+<dd><p>Applies the settings in the clipboard to the data (overwrites). All data settings from before the operation will be lost. If you copied multiple data entries to the clipboard with the <B>Copy Multiple</B> command, settings will be applied all at once to all the data entries starting from the one that was right-clicked.</p></dd>
+<dt>Clear</dt>
+<dd><p>Clears all data settings.</p></dd>
+<dt>Copy Multiple</dt>
+<dd><p>Copies multiple data settings to the clipboard. Specify the number of entries to load from the right-clicked items.</p></dd></dl></dd></dl>
+
+<dl>
+<dt>About Data IDs</dt>
+<dd><p>The numbers displayed preceding each entry in the data list are data IDs (unique numbers). These IDs can be used in different ways, including when specifying data subject to processing by event commands.</p></dd>
+
+<dt>Using the Memo Field</dt>
+<dd><p>The <B>Memo</B> field is provided for some data types (actors, classes, skills, items, weapons, armor, enemies, states, and tilesets). It is used for writing notes during game creation. It has no impact on game play.</p></dd>
+</dl>
+
+
+<h6></h6>
+</body>
+</html>

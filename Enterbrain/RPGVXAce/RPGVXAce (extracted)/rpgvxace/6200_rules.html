@@ -1,0 +1,172 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<title>Parameters and Formulas</title>
+<link href="../style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+<h1>Parameters and Formulas</h1>
+
+<ul>
+<li><a href="#param">Parameters</a></li>
+<li><a href="#xparam">Ex-Parameters</a></li>
+<li><a href="#sparam">Sp-Parameters</a></li>
+<li><a href="#preemptive">Preemptive Strikes and Surprise</a></li>
+<li><a href="#escape">Escape Success Rate</a></li>
+</ul>
+
+<p>RPG Maker VX Ace has a large number of features that are set up as parameters.  There is no single formula for calculating damage. Such formulas are set on a per skill/item basis.</p>
+
+<h2><a name="param">Parameters</a></h2>
+<p>Parameters are basic values set by the <B>Parameter Curves</B> of the class in question (or in the case of enemies, directly by numeric values). They are then multiplied by the settings in the features list.</p>
+<table class="sys" border="1" cellspacing="0" cellpadding="4">
+<tr>
+ <th>Parameter</th><th>Abbreviation</th><th>Description</th>
+</tr><tr>
+ <td>Max HP</td><td>MHP</td>
+ <td>Max value of HP</td>
+</tr><tr>
+ <td>Max MP</td><td>MMP</td>
+ <td>Max value of MP</td>
+</tr><tr>
+ <td>Attack power</td><td>ATK</td>
+ <td>Affects amount of damage dealt mainly by physical attacks</td>
+</tr><tr>
+ <td>Defense power</td><td>DEF</td>
+ <td>Affects amount of damage suffered mainly from physical attacks</td>
+</tr><tr>
+ <td>Magic attack</td><td>MAT</td>
+ <td>Affects amount of damage dealt mainly by magic attacks</td>
+</tr><tr>
+ <td>Magic defense</td><td>MDF</td>
+ <td>Affects amount of damage suffered mainly from magic attacks</td>
+</tr><tr>
+ <td>Agility</td><td>AGI</td>
+ <td>Determines action order during a turn</td>
+</tr><tr>
+ <td>Luck</td><td>LUK</td>
+ <td>Affects chance of adding state or debuffing a parameter</td>
+</tr></table>
+<p>Attack power, defense power, magic power, and magic defense have no special effects beyond being looked up by the damage calculation formulas that are set for skills/items.</p>
+<dl>
+<p>The change in states and debuff effectiveness due to luck is as shown below. Note, however, that 0 is the lower limit.</p>
+<dd>Chance (%) = 100 + (user's luck - target's luck) &divide; 10</dd>
+</dl>
+
+
+<h2><a name="xparam">Ex-Parameters</a></h2>
+<p>The default value for ex-parameters is 0%, but they can be set to other percentages in the characteristics list.</p>
+<table class="sys" border="1" cellspacing="0" cellpadding="4">
+<tr>
+ <th>Ex-Parameter</th><th>Abbreviation</th><th>Description</th>
+</tr><tr>
+ <td>Accuracy</td><td>HIT</td>
+ <td>Chance of a physical attack scoring a hit on a target</td>
+</tr><tr>
+ <td>Evasion</td><td>EVA</td>
+ <td>Chance of evading a physical attack</td>
+</tr><tr>
+ <td>Critical hit</td><td>CRI</td>
+ <td>Chance of scoring a critical hit</td>
+</tr><tr>
+ <td>Critical evasion rate</td><td>CEV</td>
+ <td>Chance of preventing a critical hit</td>
+</tr><tr>
+ <td>Magic evasion rate</td><td>MEV</td>
+ <td>Chance of nullifying a magic attack</td>
+</tr><tr>
+ <td>Magic reflection</td><td>MRF</td>
+ <td>Chance of reflecting back a magic attack</td>
+</tr><tr>
+ <td>Counter attack</td><td>CNT</td>
+ <td>Chance of a counterattack against a physical attack</td>
+</tr><tr>
+ <td>HP regeneration rate</td><td>HRG</td>
+ <td>Percentage of HP restored at end of each turn</td>
+</tr><tr>
+ <td>MP regeneration rate</td><td>MRG</td>
+ <td>Percentage of MP restored at end of each turn</td>
+</tr><tr>
+ <td>TP regeneration rate</td><td>TRG</td>
+ <td>Percentage of TP added at end of each turn</td>
+</tr></table>
+<p>Hit determinations and avoidance determinations for physical attacks are performed independently of each other.  For example, if accuracy on the attacking side is 90% and avoidance on the target side is 10%, avoidance will be 10% of 90%, resulting in the overall accuracy being calculated at 81%. </p>
+<p>Counterattacking is only possible against physical attacks from enemies.</p>
+
+
+<h2><a name="sparam">Sp-Parameters</a></h2>
+<p>The default value for sp-parameters is 100%, but they can be multiplied by settings  in the characteristics list.</p>
+<table class="sys" border="1" cellspacing="0" cellpadding="4">
+<tr>
+ <th>Sp-Parameter</th><th>Abbreviation</th><th>Description</th>
+</tr><tr>
+ <td>Probability of being targeted</td><td>TGR</td>
+ <td>Chance of being a target of an enemy attack</td>
+</tr><tr>
+ <td>Defense effectiveness</td><td>GRD</td>
+ <td>Strength of damage reduction effect of the defense command</td>
+</tr><tr>
+ <td>Recovery effectiveness</td><td>REC</td>
+ <td>Percentage of HP/MP recovery effect received</td>
+</tr><tr>
+ <td>Medicine lore</td><td>PHA</td>
+ <td>Percentage of HP/MP recovery enhancement by an item</td>
+</tr><tr>
+ <td>MP consumption rate</td><td>MCR</td>
+ <td>Percentage by which to vary MP consumption by a skill</td>
+</tr><tr>
+ <td>TP charge rate</td><td>TCR</td>
+ <td>Percentage by which to vary TP charging by a skill/item</td>
+</tr><tr>
+ <td>Physical damage rate</td><td>PDR</td>
+ <td>Percentage of physical damage received</td>
+</tr><tr>
+ <td>Magic damage rate</td><td>MDR</td>
+ <td>Percentage of magic damage received</td>
+</tr><tr>
+ <td>Floor damage rate</td><td>FDR</td>
+ <td>Percentage of damage received from map terrain</td>
+</tr><tr>
+ <td>Experience acquisition rate</td><td>EXR</td>
+ <td>Percentage at which to vary the amount of experience points acquired</td>
+</tr></table>
+<dl>
+<p>The damage reduction rate by defense effectiveness is as follows:</p>
+<dd>Damage when defending = Normal damage &divide; (2 &times; defense effectiveness)</dd>
+</dl>
+
+
+<h2><a name="preemptive">Preemptive Strikes and Surprise</a></h2>
+<dl>
+<dt>If actor's average agility value &gt;= enemy's average agility value</dt>
+  <dd>Preemptive strike rate (%) = 5</dd>
+  <dd>Surprise rate (%) = 3</dd>
+<dt>If actor's average agility value &lt; enemy's average agility value</dt>
+  <dd>Preemptive strike rate (%) = 3</dd>
+  <dd>Surprise rate (%) = 5</dd>
+</dl>
+
+<ul class="square">
+<li>During a preemptive strike, the enemy will not be able to act on the first turn.</li>
+<li>When surprised, actors will not be able to act on the first turn.</li>
+<li>Preemptive strikes and surprise do not occur in event battles.</li>
+<li>When the party ability <B>Increase Preemptive Strike Rate</B> is enabled, the chance of a preemptive strike increases by a factor of four.</li>
+<li>When the party ability <B>Disable Surprise</B> is enabled, the party will not be surprised.</li>
+</ul>
+
+<h2><a name="escape">Escape Success Rate</a></h2>
+Escape success rate (%) = 150 - 100 &times; Average value of enemy's agility &divide; Average value of actor's agility
+
+<ul class="square">
+<li>10% is added each time an escape fails.</li>
+<li>The player can escape unconditionally during a preemptive strike.</li>
+</ul>
+
+
+
+<h6></h6>
+</body>
+</html>

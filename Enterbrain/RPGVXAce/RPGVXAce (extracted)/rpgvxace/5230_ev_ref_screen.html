@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Screen Effects</title>
+<link href="../style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<h1>Screen Effects</h1>
+
+<h2><a name="screen01"></a>Fadeout Screen</h2>
+<dl>
+<dt>Description</dt>
+<dd><p>Performs a screen fadeout (gradually turns the screen black). There are no settings to be made for this command. </p></dd>
+<dt>Notes</dt>
+
+<dd>
+<p>• The fadeout state continues until the <B>Fadein Screen</B> event command is executed.</p>
+<p>• Menus, the message window, and the battle command window are among the UI elements that will still be displayed during a fadeout.</p>
+<p>• When this command is run in a battle event, everything except for the command window and messages will be blacked out, and the player will not be able to see enemies and other onscreen elements.</p>
+</dd>
+</dl>
+
+<h2><a name="screen02"></a>Fadein Screen</h2>
+<dl>
+<dt>Description</dt>
+<dd><p>Returns a screen blacked out by <B>Fadeout Screen</B> to its original state. There are no settings to be made for this command. </p></dd>
+</dl>
+
+<h2><a name="screen03"></a>Tint Screen</h2>
+<img src="img/5230_03.png" alt="Tint Screen" class="float_r">
+<dl>
+<dt>Description</dt>
+<dd><p>Changes the overall screen color. The color of the message window and pictures will not be changed. </p></dd>
+<dt>Available Settings</dt>
+</dl>
+
+<dl><dd><dl>
+<dt>Color Tone</dt>
+<dd><p>Adjust the color tone (-255 to 255) for <B>Red</B>, <B>Green</B>, and <B>Blue</B>. Use <B>Gray</B> to set the intensity (0 to 255) of the grayscale filter. The higher the value, the greater the overall strength of the color. You can also click the <B>Normal</B>, <B>Dark</B>, <B>Sepia</B>, <B>Dusk</B>, and <B>Night</B> buttons at the bottom of the dialog box to apply the standard values for the tones represented by their respective names. The <B>Normal</B> button reverts to the original color tone. You can check color tone changes in the preview area on the right side of the dialog box.</p></dd>
+<dt>Time</dt>
+<dd><p>Specify the time to spend on processing in frames (1 to 600). One frame is equivalent to 1/60 of a second.</p></dd>
+<dt>Wait for Completion</dt>
+<dd><p>When this option is selected, processing stops until this command is finished running.</p></dd>
+</dl></dd></dl>
+
+<dl>
+<dt>Notes</dt>
+<dd><p>• The change in color tone is active until it is changed again by this command, even during combat.</p></dd>
+</dl>
+<br>
+
+<h2><a name="screen04"></a>Flash Screen</h2>
+<img src="img/5230_04.png" alt="Flash Screen" class="float_r">
+<dl>
+<dt>Description</dt>
+<dd>
+  <p>Fills the entire screen with the specified color for an instant, and then gradually reverts to the original color. This allows you to represent a flash of lightning, etc.</p>
+</dd>
+<dt>Available Settings</dt>
+</dl>
+
+<dl><dd><dl>
+<dt>Flash Color</dt>
+<dd>
+  <p>Use the <B>Red</B>, <B>Green</B>, and <B>Blue</B> slider bars (0 to 255) to specify the color to flash. You can check the color you specified  in the preview area on the right side of the dialog box. Use <B>Strength</B> to specify the color's opacity (0 to 255). Setting &quot;0&quot; makes the color completely transparent, rendering it invisible on screen.</p>
+</dd>
+<dt>Time</dt>
+<dd><p>Specify the time  processing  continues in frames (1 to 600). One frame is equivalent to 1/60 of a second.</p></dd>
+<dt>Wait for Completion</dt>
+<dd><p>When this option is selected, processing stops until this command is finished running.</p></dd>
+</dl></dd></dl>
+<br>
+
+<h2><a name="screen05"></a>Shake Screen</h2>
+<img src="img/5230_05.png" alt="Shake Screen" class="float_r">
+<dl>
+<dt>Description</dt>
+<dd><p>Shakes the entire screen left and right.</p></dd>
+<dt>Available Settings</dt>
+</dl>
+
+<dl><dd><dl>
+<dt>Shake</dt>
+<dd><p>In <B>Power</B>, specify the intensity (1 to 9) of the shaking, and in <B>Speed</B>, specify how fast (1 to 9) the screen will shake.</p></dd>
+<dt>Time</dt>
+<dd><p>Specify the time processing  continues in frames (1 to 600). One frame is equivalent to 1/60 of a second.</p></dd>
+<dt>Wait for Completion</dt>
+<dd><p>When this option is selected, processing stops until this command is finished running.</p></dd>
+</dl></dd></dl>
+<br>
+
+<h6></h6>
+</body>
+</html>

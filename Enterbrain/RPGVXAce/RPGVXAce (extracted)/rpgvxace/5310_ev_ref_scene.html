@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Scene Control</title>
+<link href="../style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<h1>Scene Control</h1>
+
+<h2><a name="scene01"></a>Battle Processing</h2>
+<img src="img/5310_01.png" alt="Battle Processing" class="float_r">
+<dl>
+<dt>Description</dt>
+<dd><p>Spawns an enemy troop and begins a battle against it.</p></dd>
+<dt>Available Settings</dt>
+</dl>
+
+<dl><dd><dl>
+<dt>Troop</dt>
+<dd>
+  <p>Specify the enemy troop the player will battle. To have the player battle a specific troop, select <B>Direct designation</B> and then specify the desired troop. To specify a troop by its ID, select <B>Designation with a variable</B> and then specify the variable to look up. Selecting <B>Same as Random Encounter</B> spawns a troop selected based on the <B>Encounters</B> settings for the map the party is on.</p>
+</dd>
+<dt>Can Escape</dt>
+<dd><p>Selecting this option enables the <B>Escape</B> command during battles, and processing can be branched depending on whether the party won or escaped (<B>If Won</B> or <B>If Escaped</B>).</p></dd>
+<dt>Continue Even When Loser</dt>
+<dd><p>When this option is selected, the game does not end even if the entire party is defeated, and processing can be branched depending on whether the party won or lost (<B>If Won</B> or <B>If Lost</B>).</p></dd>
+</dl></dd>
+<dt>Notes</dt>
+<dd><p>• This command cannot be used in battle events.</p></dd>
+</dl>
+<br>
+
+<h2><a name="scene02"></a>Shop Processing</h2>
+<img src="img/5310_02.png" alt="Shop Processing" class="float_r">
+<dl>
+<dt>Description</dt>
+<dd><p>Starts shop processing for buying/selling weapons, armor, and other items.</p></dd>
+<dt>Available Settings</dt>
+</dl>
+
+<dl><dd><dl>
+<dt>Merchandise List</dt>
+<dd><p>Specify what is for sale. Double-clicking on a blank row displays a dialog box in which you can enter settings for <B>Merchandise</B> and <B>Price</B>. Setting <B>Price</B> to <B>Standard</B> specifies  prices set in the <B>Database</B>, while <B>Specify</B> is for specifying prices to apply only to this event command.</p></dd>
+<dt>Purchase Only</dt>
+<dd><p>When this option is selected, the player will not be able to sell inventory items.</p></dd>
+</dl></dd></dl>
+<dl>
+<dt>Notes</dt>
+<dd><p>• This command cannot be used in battle events.</p></dd>
+</dl>
+<br>
+
+<h2><a name="scene03"></a>Name Input Processing</h2>
+<img src="img/5310_03.png" alt="Name Input Processing" class="float_r">
+<dl><dt>Description</dt>
+<dd><p>Displays a window for the player to enter a new name for an actor.</p></dd>
+<dt>Available Settings</dt></dl>
+
+<dl><dd><dl>
+<dt>Actor</dt>
+<dd><p>Specify the actor subject to the name change.</p></dd>
+<dt>Max Characters</dt>
+<dd><p>Specify the maximum number of characters (1 to 16) that can be entered.</p></dd>
+</dl></dd></dl>
+
+<dl>
+<dt>Notes</dt>
+<dd>
+  <p>• This command cannot be used in battle events.</p>
+  <p>• Name entry while playing the game uses the directional buttons to move the cursor, the confirm button to add characters, and the cancel button to clear a character from the end of the name with each press.
+</p></dd>
+</dl>
+<br>
+
+<h2><a name="scene04"></a>Open Menu Screen</h2>
+<dl>
+<dt>Description</dt>
+<dd><p>Calls a menu screen. There are no settings to be made for this command. </p></dd>
+<dt>Notes</dt>
+<dd><p>• This command cannot be used in battle events.</p></dd>
+</dl>
+
+<h2><a name="scene05"></a>Open Save Screen</h2>
+<dl>
+<dt>Description</dt>
+<dd><p>Calls a save screen. There are no settings to be made for this command. </p></dd>
+<dt>Notes</dt>
+<dd><p>• This command cannot be used in battle events.</p></dd>
+</dl>
+
+<h2><a name="scene06"></a>Game Over</h2>
+<dl>
+<dt>Description</dt>
+<dd><p>Forcibly ends the game and displays the <B>Game Over</B> screen. There are no settings to be made for this command. </p></dd>
+</dl>
+
+<h2><a name="scene07"></a>Return to Title Screen</h2>
+<dl>
+<dt>Description</dt>
+<dd><p>Forcibly ends the game and returns to the title screen. There are no settings to be made for this command. </p></dd>
+</dl>
+
+<h6></h6>
+</body>
+</html>

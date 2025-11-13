@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>State Settings</title>
+<link href="../style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<h1><a name="key_state">State Settings</a></h1>
+
+<h2>Data Role</h2>
+
+<p>States are an abnormal status that impacts a character's health and actions and include things like poison and confusion. You must set the specific effects for when each state is applied. Note that not all states are negative, such as HP being reduced by poison. You can also define positive states, such as ATK being increased by a character getting excited.</p>
+
+<p>State number 001 (<B>knockout</B>) is a special state that is automatically applied when an actor or enemy's HP falls to zero. The game is over if this state is applied to all party members.</p>
+
+<h2>Available Settings</h2>
+
+<div align="center"><img src="img/3290_01.png" alt="States"></div>
+<dl>
+<dt>Name</dt>
+<dd><p>The name of the state. States are displayed using icons, so the name you set here will not actually be used in-game.</p></dd>
+<dt>Icon</dt>
+<dd><p>The image to display with the actor's name while in the state. Double-clicking it displays the <B>Icon </B> dialog box where you can specify an image. Specify an image that makes the state easily identifiable.</p></dd>
+<dt>Restriction</dt>
+<dd><p>A restriction on actions by the character in this state. Specify using the following six items. When multiple restrictions are applied, the one at the bottom of the list takes precedence.</p></dd>
+</dl>
+
+<dl><dd><dl>
+<dt>None</dt>
+<dd><p>There are no restrictions on actions.</p></dd>
+<dt>Attack Enemy</dt>
+<dd><p>The character will always attack an enemy.</p></dd>
+<dt>Attack Enemy or Ally</dt>
+<dd><p>The character will always attack either an enemy or an ally.</p></dd>
+<dt>Attack Ally</dt>
+<dd><p>The character will always attack an ally.</p></dd>
+<dt>Unable to Act</dt>
+<dd><p>The character will not be able to take any sort of action.</p></dd>
+</dl></dd></dl>
+
+<dl>
+<dt>Priority</dt>
+<dd><p>The priority (0 to 100) for displaying state icons. When multiple states have been applied, the state icon that has a higher value for this setting will be displayed. When state icons have the same priority, the one with the most recent ID is given preference.</p></dd>
+<dt>Removal Conditions</dt>
+<dd><p>Conditions for removing the state. Specify using the following  items. When multiple conditions are set, removal is determined by each of those standards.</p></dd>
+</dl>
+
+<dl><dd><dl>
+<dt>Remove at Battle End</dt>
+<dd><p>The state is removed once the battle is over.</p></dd>
+<dt>Remove by Restriction</dt>
+<dd><p>The state is removed if a state with a different action restriction is applied.</p></dd>
+<dt>Auto-Removal Timing/Duration in Turns</dt>
+<dd><p>The state is removed after the turn elapses. <B>At End of Action</B> removes the state once the actor's action is over, while <B>At End of Turn</B> removes it once the turn has ended and the game returns to action selection. In <B>Duration in Turns</B>, specify the minimum and maximum number of turns (0 to 9999) until the state is removed after it is first applied.</p></dd>
+<dt>Remove by Damage</dt>
+<dd><p>The state is removed at the specified probability (0 to 100%) when the target suffers some sort of damage.</p></dd>
+<dt>Remove by Walking</dt>
+<dd><p>The state is removed after moving the specified number of tiles (0 to 9999) on the map.</p></dd>
+</dl></dd></dl>
+
+<dl>
+<dt>Messages</dt>
+<dd><p>These are messages displayed when the state is applied/removed during battle. For each of the four situations provided (<B>Message When Actor Enters State</B>, <B>Message When Enemy Enters State</B>, <B>Message When State Remains</B>, and <B>Message at State Removal</B>) specify a message to display after the target's name.</p></dd>
+<dt>Features</dt>
+<dd>
+  <p>A list of features to give the target to which the state has been applied. See <a href="3410_db_feature.html">Setting Features</a> for more information.</p>
+</dd>
+</dl>
+
+<h6></h6>
+</body>
+</html>

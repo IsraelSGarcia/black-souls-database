@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<title>RPG::Class</title>
+<link href="../style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+<h1>RPG::Class</h1>
+<p>The data class for class.</p>
+
+<h2>Superclass</h2>
+<ul>
+<li><a href="gc_rpg_baseitem.html">RPG::BaseItem</a></li>
+</ul>
+
+<h2>Attributes</h2>
+<dl>
+<dt>exp_params</dt>
+<dd><p>An array of values that decides the experience curve.
+The subscripts are as follows:</p>
+<ul>
+<li>0: Base value</li>
+<li>1: Extra value</li>
+<li>2: Acceleration A</li>
+<li>3: Acceleration B</li>
+</ul></dd>
+<dt>params</dt>
+<dd><p>The parameter development curve. A 2-dimensional array containing ordinary parameters according to level (<a href="gc_table.html">Table</a>).</p>
+<p>The format is params[<var>param_id</var>, <var>level</var>],
+and param_id is assigned as follows:</p>
+<ul>
+<li>0: Maximum hit points</li>
+<li>1: Maximum magic points</li>
+<li>2: Attack power</li>
+<li>3: Defense power</li>
+<li>4: Magic attack power</li>
+<li>5: Magic defense power</li>
+<li>6: Agility</li>
+<li>7: Luck</li>
+</ul></dd>
+<dt>learnings</dt>
+<dd><p>The skills to learn. An array of <a
+href="gc_rpg_class_learning.html">RPG::Class::Learning</a>.</p></dd>
+</dl>
+
+<h2>Method</h2>
+<dl>
+<dt>exp_for_level(<var>level</var>)</dt>
+<dd>
+<p>Calculates and returns the total experience required for leveling up to <var>level</var>.</p>
+</dd>
+</dl>
+
+<h2>Inner Class</h2>
+<ul>
+<li><a href="gc_rpg_class_learning.html">RPG::Class::Learning</a></li>
+</ul>
+
+<h2>Definition</h2>
+<pre>
+class RPG::Class &lt; RPG::BaseItem
+  def initialize
+    super
+    @exp_params = [30,20,30,30]
+    @params = Table.new(8,100)
+    (1..99).each do |i|
+      @params[0,i] = 400+i*50
+      @params[1,i] = 80+i*10
+      (2..5).each {|j| @params[j,i] = 15+i*5/4 }
+      (6..7).each {|j| @params[j,i] = 30+i*5/2 }
+    end
+    @learnings = []
+    @features.push(RPG::BaseItem::Feature.new(23, 0, 1))
+    @features.push(RPG::BaseItem::Feature.new(22, 0, 0.95))
+    @features.push(RPG::BaseItem::Feature.new(22, 1, 0.05))
+    @features.push(RPG::BaseItem::Feature.new(22, 2, 0.04))
+    @features.push(RPG::BaseItem::Feature.new(41, 1))
+    @features.push(RPG::BaseItem::Feature.new(51, 1))
+    @features.push(RPG::BaseItem::Feature.new(52, 1))
+  end
+  def exp_for_level(level)
+    lv = level.to_f
+    basis = @exp_params[0].to_f
+    extra = @exp_params[1].to_f
+    acc_a = @exp_params[2].to_f
+    acc_b = @exp_params[3].to_f
+    return (basis*((lv-1)**(0.9+acc_a/250))*lv*(lv+1)/
+      (6+lv**2/50/acc_b)+(lv-1)*extra).round.to_i
+  end
+  attr_accessor :exp_params
+  attr_accessor :params
+  attr_accessor :learnings
+end
+</pre>
+
+<h6></h6>
+</body>
+</html>

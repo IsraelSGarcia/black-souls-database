@@ -1,0 +1,114 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Flow Control</title>
+<link href="../style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<h1>Flow Control</h1>
+
+<h2><a name="flow01"></a>Conditional Branch</h2>
+<img src="img/5130_01.png" alt="Conditional Branch" class="float_r">
+<dl>
+<dt>Description</dt>
+<dd>
+  <p>Sets the event command for which processing will branch, so that special processing will run only when the specified conditions are met. Selecting <B>Set handling when conditions do not apply</B> allows branching even when the specified conditions are not met.</p>
+</dd>
+<dt>Available Settings</dt>
+<dd>
+  <p>Specify conditions based on the settings described below.</p>
+</dd>
+<dd><dl><dt>Switch</dt>
+<dd><p>Sets a switch value as a condition. Specify the target switch and a value (on/off).</p></dd>
+<dt>Variable</dt>
+<dd><p>Sets the result of a comparison with the variable as a condition. Specify the variable to use, comparison value, and comparison method. To use a variable for the comparison value, select <B>Variable</B> and specify the variable to look up.</p></dd>
+<dt>Self Switch</dt>
+<dd><p>Sets the value of the  specified self switch as a condition. Specify the target switch and a decision value (on/off).</p></dd>
+<dt>Timer</dt>
+<dd><p>Sets the time remaining on the timer as a condition. Specify the time limit and the decision value (more than/less than). </p></dd>
+<dt>Actor</dt>
+<dd><p>Sets actor information as a condition. Specify the target actor, information to look up (<B>In the Party</B>, <B>Name</B>, <B>Skill</B>, <B>Weapon</B>, <B>Armor</B>, or <B>State</B>), and decision criteria (specific items).</p></dd>
+<dt>Enemy</dt>
+<dd><p>Sets the state of an enemy in battle as a condition. Specify the target enemy and decision criteria (<B>Appeared</B>/<B>State</B>). This is valid only in battle events.</p></dd>
+<dt>Character</dt>
+<dd><p>Sets the direction the player or map event is facing as a condition. Specify the target character and direction. This is valid only in map events.</p></dd>
+<dt>Vehicle</dt>
+<dd><p>Sets whether the player is on the specified vehicle (boat, ship, or airship) as a condition.</p></dd>
+<dt>Gold</dt>
+<dd><p>Sets the party's total gold as a condition. Specify the amount of gold and comparison method (greater than/less than).</p></dd>
+<dt>Item</dt>
+<dd><p>Sets the party's possession of the specified item as a condition.</p></dd>
+<dt>Weapon</dt>
+<dd><p>Sets the party's possession of the specified weapon as a condition. Selecting <B>Include Equipments</B> will also make the weapons the actor has equipped subject to the condition decision.</p></dd>
+<dt>Armor</dt>
+<dd><p>Sets the party's possession of the specified armor as a condition. Selecting <B>Include Equipments</B> will also make the armor the actor has equipped subject to the condition decision.</p></dd>
+<dt>Button</dt>
+<dd><p>  Sets the pressing of the specified button  as a condition.</p></dd>
+<dt>Script</dt>
+<dd><p>  Sets the evaluation results of a Ruby script as the standard.</p></dd>
+</dl></dd></dl>
+<br>
+
+<h2><a name="flow02"></a>Loop</h2>
+<dl><dt>Description</dt>
+<dd>
+  <p>Adds the <B>Loop</B> and <B>Repeat</B> controls for event command processing. The events set between these lines are able to run repeatedly. Multiple loops are also possible within loop processing.</p></dd>
+<dt>Notes</dt>
+
+<dd><p>• The event commands within the <B>Loop</B> and <B>Repeat</B> structure are repeated infinitely. To escape repeat processing, use event commands such as <B>Break Loop</B>.</p></dd></dl>
+
+<h2><a name="flow03"></a>Break Loop</h2>
+<dl><dt>Description</dt>
+<dd><p>Breaks the loops being repeated by the <B>Loop</B> event command. When this command runs, it shifts processing to the event command set on the line after <B>Repeat</B>. There are no settings to be made for this command.</p></dd></dl>
+
+<h2><a name="flow04"></a>Exit Event Processing</h2>
+<dl><dt>Description</dt>
+<dd><p>Ends the execution of event commands. No event commands will run once this command executes. There are no settings to be made for this command.</p></dd></dl>
+
+<h2><a name="flow05"></a>Call Common Event</h2>
+<img src="img/5130_05.png" alt="Call Common Event" class="float_r">
+<dl>
+<dt>Description</dt>
+<dd><p>Calls a common event. Once  the called common event is done running, the next event command will run.</p></dd>
+<dt>Available Settings</dt>
+<dd><dl><dt>Common Event</dt>
+<dd><p>Specify the common event to call.</p></dd></dl></dd></dl>
+<br>
+
+<h2><a name="flow06"></a>Label</h2>
+<img src="img/5130_06.png" alt="Label" class="float_r">
+<dl><dt>Description</dt>
+<dd><p>Creates a jump destination (marker) for the <B>Jump to Label</B> event command.</p></dd>
+
+<dt>Available Settings</dt>
+<dd><dl><dt>Label Name</dt>
+<dd><p>  Specify the label's name.</p></dd></dl></dd>
+</dl>
+<br>
+
+<h2><a name="flow07"></a>Jump to Label</h2>
+<img src="img/5130_07.png" alt="Jump to Label" class="float_r">
+<dl>
+<dt>Description</dt>
+<dd><p>Moves to the position of the label specifying the line to process. The event command on the line following the jump label will be processed.</p></dd>
+<dt>Available Settings</dt>
+<dd><dl><dt>Label Name</dt>
+<dd><p>Specify the label name to jump to. You can only specify labels that have been set in the <B>Contents</B> box on the same event page.</p></dd></dl></dd></dl>
+<br>
+
+<h2><a name="flow08"></a>Comment</h2>
+<img src="img/5130_08.png" alt="Comment" class="float_r">
+<dl>
+<dt>Description</dt>
+<dd><p>Adds any comment you want to the <B>Contents</B> list. It will have no impact on game play.</p></dd>
+
+<dt>Available Settings</dt>
+<dd><dl><dt>Comment</dt>
+<dd><p>Specify the text to display as a comment.</p></dd></dl></dd></dl>
+<br>
+
+<h6></h6>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<title>Input</title>
+<link href="../style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+<h1>Input</h1>
+<p>A module that handles input data from a gamepad or keyboard.</p>
+<p>Managed by symbols rather than button numbers in RGSS3.
+<span class="rgss3">(RGSS3)</span></p>
+
+<h2>Module Methods</h2>
+<dl>
+
+<dt>Input.update</dt>
+<dd>
+<p>Updates input data. As a general rule, this method is called once per frame.</p></dd>
+
+<dt>Input.press?(<var>sym</var>)
+<span class="rgss3">(RGSS3)</span></dt>
+<dd>
+<p>Determines whether the button corresponding to the symbol <var>sym</var> is
+currently being pressed.</p>
+<p>If the button is being pressed, returns TRUE. If not, returns FALSE.</p>
+<pre>
+if Input.press?(:C)
+  do_something
+end
+</pre>
+</dd>
+
+<dt>Input.trigger?(<var>sym</var>)
+<span class="rgss3">(RGSS3)</span></dt>
+<dd>
+<p>Determines whether the button corresponding to the symbol <var>sym</var> is
+currently being pressed again.</p>
+<p>"Pressed again" is seen as time having passed between the button being not pressed
+and being pressed.</p>
+<p>If the button is being pressed, returns TRUE. If not, returns FALSE.</p></dd>
+
+<dt>Input.repeat?(<var>sym</var>)
+<span class="rgss3">(RGSS3)</span></dt>
+<dd>
+<p>Determines whether the button corresponding to the symbol <var>sym</var> is
+currently being pressed again.</p>
+<p>Unlike trigger?, takes into account the repeated input of a button
+being held down continuously.</p>
+<p>If the button is being pressed, returns TRUE. If not, returns FALSE.</p></dd>
+
+<dt>Input.dir4</dt>
+<dd>
+<p>Checks the status of the directional buttons,
+translates the data into a specialized 4-direction input format,
+and returns the number pad equivalent (2, 4, 6, 8).</p>
+<p>If no directional buttons are being pressed (or the equivalent), returns 0.</p></dd>
+
+<dt>Input.dir8</dt>
+<dd>
+<p>Checks the status of the directional buttons,
+translates the data into a specialized 8-direction input format,
+and returns the number pad equivalent (1, 2, 3, 4, 6, 7, 8, 9).</p>
+<p>If no directional buttons are being pressed (or the equivalent), returns 0.</p></dd>
+
+</dl>
+
+<h2>Constants</h2>
+<dl>
+
+<p>These constant names are used as the name of symbols.
+For example, right on the directional buttons can be specified using the notation :RIGHT.
+<span class="rgss3">(RGSS3)</span></p>
+
+<dt>DOWN LEFT RIGHT UP</dt>
+<dd>
+<p>Symbols corresponding to the directions down, left, right, and up.</p></dd>
+
+<dt>A B C X Y Z L R</dt>
+<dd>
+<p>The symbols corresponding to buttons.</p></dd>
+
+<dt>SHIFT CTRL ALT</dt>
+<dd>
+<p>Symbols directly corresponding to the keyboard's SHIFT, CTRL, and ALT keys.</p></dd>
+
+<dt>F5 F6 F7 F8 F9</dt>
+<dd>
+<p>Symbols corresponding to the keyboard's function keys.
+The other function keys are reserved by the system and cannot be obtained.</p></dd>
+
+</dl>
+
+<h6></h6>
+</body>
+</html>

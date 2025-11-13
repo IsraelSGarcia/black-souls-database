@@ -1,0 +1,206 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Actor</title>
+<link href="../style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<h1>Actor</h1>
+
+<h2><a name="actor01"></a>Change HP</h2>
+<img src="img/5150_01.png" alt="Change HP" class="float_r">
+<dl>
+<dt>Description</dt>
+<dd><p>Increases/decreases the HP of one or more actors.</p></dd>
+<dt>Available Settings</dt>
+
+<dd><dl><dt>Actor</dt>
+<dd><p>Select the target actor(s). To target a specific actor, select <B>Fixed</B> and then specify the actor. To target all actors in the party, select <B>Whole Party</B>. To specify the target actor by ID number, select <B>Variable </B> and then  specify the variable to look up.</p></dd>
+<dt>Operation</dt>
+<dd><p>Specify the desired operation (<B>Increase</B>/<B>Decrease</B>).</p></dd>
+<dt>Operand</dt>
+<dd><p>Specify the amount by which to increase/decrease HP. To set a fixed value, select <B>Constant</B> and then enter a value between 1 and 9999. To specify a value using a variable, select <B>Variable </B> and then specify the variable to look up.</p></dd>
+<dt>Allow Knockout</dt>
+<dd><p>Selecting this option enables the K.O. state when <B>Change HP</B> results in HP falling to 0 or less. If it is not selected, HP will be set to 1 if it falls to 0 or less as a result of <B>Change HP</B>.</p></dd></dl></dd>
+</dl>
+<br>
+
+<h2><a name="actor02"></a>Change MP</h2>
+<img src="img/5150_02.png" alt="Change MP" class="float_r">
+<dl>
+<dt>Description</dt>
+<dd><p>Increases/decreases the MP of one or more actors.</p></dd>
+<dt>Available Settings</dt>
+
+<dd><dl><dt>Actor</dt>
+<dd><p>Select the target actor(s). To target a specific actor, select <B>Fixed</B> and then specify the actor. To target all actors in the party, select <B>Whole Party</B>. To specify the target actor by ID number, select <B>Variable </B> and then specify the variable to look up.</p></dd>
+<dt>Operation</dt>
+<dd><p>Specify the desired operation (<B>Increase</B>/<B>Decrease</B>).</p></dd>
+<dt>Operand</dt>
+<dd><p>Specify the amount by which to increase/decrease MP. To set a fixed value, select <B>Constant</B> and then enter a value between 1 and 9999. To specify a value using a variable, select <B>Variable </B> and then specify the variable to look up.</p></dd></dl></dd>
+</dl>
+<br>
+
+<h2><a name="actor03"></a>Change State</h2>
+<img src="img/5150_03.png" alt="Change State" class="float_r">
+<dl>
+<dt>Description</dt>
+<dd><p>Changes the state of one or more actors.</p></dd>
+<dt>Available Settings</dt>
+<dd><dl><dt>Actor</dt>
+<dd><p>Select the target actor(s). To target a specific actor, select <B>Fixed</B> and then specify the actor. To target all actors in the party, select <B>Whole Party</B>. To specify the target actor by ID number, select <B>Variable </B> and then specify the variable to look up.</p></dd>
+<dt>Operation</dt>
+<dd><p>Specify the desired operation (<B>Add</B>/<B>Remove</B>).</p></dd>
+<dt>State</dt>
+<dd><p>Select the target state. </p></dd></dl>
+</dd>
+</dl>
+<br>
+
+<h2><a name="actor04"></a>Recover All</h2>
+<img src="img/5150_04.png" alt="Recover All" class="float_r">
+<dl>
+<dt>Description</dt>
+<dd><p>Restores the HP and MP of one or more actors to their maximum values and removes all states.</p></dd>
+<dt>Available Settings</dt>
+
+<dd><dl><dt>Actor</dt>
+<dd><p>Select the target actor(s). To target a specific actor, select <B>Fixed</B> and then specify the actor. To target all actors in the party, select <B>Whole Party</B>. To specify the target actor by ID number, select <B>Variable</B> and then specify the variable to look up.</p></dd></dl></dd>
+</dl>
+<br>
+
+<h2><a name="actor05"></a>Change EXP</h2>
+<img src="img/5150_05.png" alt="Change EXP" class="float_r">
+<dl>
+<dt>Description</dt>
+<dd><p>Increases/decreases the EXP of one or more actors.</p></dd>
+<dt>Available Settings</dt>
+
+<dd><dl><dt>Actor</dt>
+<dd><p>Select the target actor(s). To target a specific actor, select <B>Fixed</B> and then specify the actor. To target all actors in the party, select <B>Whole Party</B>. To specify the target actor by ID number, select <B>Variable</B> and then specify the variable to look up.</p></dd>
+<dt>Operation</dt>
+<dd><p>Specify the desired operation (<B>Increase</B>/<B>Decrease</B>).</p></dd>
+<dt>Operand</dt>
+<dd><p>Specify the amount by which to increase/decrease EXP. To set a fixed value, select <B>Constant</B> and then enter a value between 1 and 9999999. To specify a value using a variable, select <B>Variable</B> and then specify the variable to look up.</p></dd>
+<dt>Show Level Up Message</dt>
+<dd><p>Selecting this option displays a message telling the player that a character has leveled up when their EXP has increased to the necessary amount due to the <B>Change EXP</B> command.</p></dd></dl></dd>
+</dl>
+<br>
+
+<h2><a name="actor06"></a>Change Level</h2>
+<img src="img/5150_06.png" alt="Change Level" class="float_r">
+<dl>
+<dt>Description</dt>
+<dd><p>Increases/decreases the number of levels for one or more actors.</p></dd>
+<dt>Available Settings</dt>
+
+<dd><dl><dt>Actor</dt>
+<dd><p>Select the target actor(s). To target a specific actor, select <B>Fixed</B> and then specify the actor. To target all actors in the party, select <B>Whole Party</B>. To specify the target actor by ID number, select <B>Variable</B> and then specify the variable to look up.</p></dd>
+<dt>Operation</dt>
+<dd><p>Specify the desired operation (<B>Increase</B>/<B>Decrease</B>).</p></dd>
+<dt>Operand</dt>
+<dd><p>Specify the amount by which to increase/decrease levels. To set a fixed value, select <B>Constant</B> and then enter a value between 1 and 9999999. To specify a value using a variable, select <B>Variable</B> and then specify the variable to look up.</p></dd>
+<dt>Show Level Up Message</dt>
+<dd><p>Selecting this option displays a message telling the player that a character has leveled up when their level has risen due to the <B>Change Level</B> command.</p></dd></dl></dd>
+</dl>
+<br>
+
+<h2><a name="actor07"></a>Change Parameters</h2>
+<img src="img/5150_07.png" alt="Change Parameters" class="float_r">
+<dl>
+<dt>Description</dt>
+<dd><p>Increases/decreases a parameter of one or more actors.</p></dd>
+<dt>Available Settings</dt>
+
+<dd><dl><dt>Actor</dt>
+<dd><p>Select the target actor(s). To target a specific actor, select <B>Fixed</B> and then specify the actor. To target all actors in the party, select <B>Whole Party</B>. To specify the target actor by ID number, select <B>Variable</B> and then specify the variable to look up.</p></dd>
+<dt>Operation</dt>
+<dd><p>Specify the desired operation (<B>Increase</B>/<B>Decrease</B>).</p></dd>
+<dt>Operand</dt>
+<dd><p>Specify the amount by which to increase/decrease the parameter. To set a fixed value, select <B>Constant</B> and then enter a value between 1 and 9999. To specify a value using a variable, select <B>Variable</B> and then specify the variable to look up.</p></dd></dl></dd>
+</dl>
+<br>
+
+<h2><a name="actor08"></a>Change Skills</h2>
+<img src="img/5150_08.png" alt="Change Skills" class="float_r">
+<dl>
+<dt>Description</dt>
+<dd><p>Makes an actor learn/forget an available skill.</p></dd>
+<dt>Available Settings</dt>
+
+<dd><dl><dt>Actor</dt>
+<dd><p>Select the target actor. To target a specific actor, select <B>Fixed </B> and then specify the actor. To specify the target actor by ID number, select <B>Variable</B> and then specify the variable to look up.</p></dd>
+<dt>Operation</dt>
+<dd><p>Specify <B>Learn</B> to allow the actor to use the skill and <B>Forget</B> to prevent the actor from using it.</p></dd>
+<dt>Skill</dt>
+<dd><p>Select the target skill.</p></dd></dl></dd>
+</dl>
+<br>
+
+<h2><a name="actor09"></a>Change Equipment</h2>
+<img src="img/5150_09.png" alt="Change Equipment" class="float_r">
+<dl>
+<dt>Description</dt>
+<dd><p>Changes an actor's equipment.</p></dd>
+<dt>Available Settings</dt>
+
+<dd><dl><dt>Actor</dt>
+<dd><p>Select the target actor. </p></dd>
+<dt>Equipment</dt>
+<dd><p>Select the slot where you want to change equipment and then specify the equipment. Specifying <B>None</B> removes the equipment equipped in that slot.</p></dd></dl></dd>
+
+<dt>Notes</dt>
+<dd><p>• The party's equipment will only be changed if they have the specified equipment. To force the equipping of some sort of equipment, you must first use event commands such as <B>Change Weapon</B> or <B>Change Armor</B> to give an actor the desired equipment.</p></dd>
+</dl>
+<br>
+
+<h2><a name="actor10"></a>Change Name</h2>
+<img src="img/5150_10.png" alt="Change Name" class="float_r">
+<dl><dt>Description</dt>
+<dd><p>Changes an actor's name.</p></dd>
+<dt>Available Settings</dt>
+
+<dd><dl><dt>Actor</dt>
+<dd><p>Select the target actor. </p></dd>
+<dt>Name</dt>
+<dd><p>Specify the name to which to change.</p></dd></dl></dd>
+</dl>
+<br>
+
+<h2><a name="actor11"></a>Change Class</h2>
+<img src="img/5150_11.png" alt="Change Class" class="float_r">
+<dl>
+<dt>Description</dt>
+<dd><p>Changes an actor's class.</p></dd>
+<dt>Available Settings</dt>
+
+<dd><dl><dt>Actor</dt>
+<dd><p>Select the target actor. </p></dd>
+<dt>Class</dt>
+<dd><p>Specify the class to which to change.</p></dd></dl></dd>
+
+<dt>Notes</dt>
+<dd><p>• Changing classes causes the actor's level to be recalculated based on his/her current EXP. Parameters and available skills may also change. Furthermore, weapons and armor that can no longer be equipped will be removed automatically.</p></dd>
+</dl>
+<br>
+
+<h2><a name="actor12"></a>Change Nickname</h2>
+<img src="img/5150_12.png" alt="Change Nickname" class="float_r">
+<dl>
+<dt>Description</dt>
+<dd><p>Changes an actor's nickname.</p></dd>
+<dt>Available Settings</dt>
+
+<dd><dl><dt>Actor</dt>
+<dd><p>Select the target actor. </p></dd>
+<dt>Nickname</dt>
+<dd><p>Specify the nickname to which to change.</p></dd></dl></dd>
+</dl>
+<br>
+
+<h6></h6>
+</body>
+</html>

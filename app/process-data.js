@@ -78,85 +78,107 @@ const equipTypes = systemData.equipTypes || [];
 const skillTypes = systemData.skillTypes || [];
 
 // Scope type descriptions
+// NOTE: Only scope types with documented sources should be included here.
+// Types without sources will automatically show as "Unknown" via fallback logic.
 const scopeTypes = {
+    // From RPG Maker VX Ace official documentation (gc_rpg_usableitem.html)
     0: "None",
-    1: "1 Enemy",
+    1: "One Enemy",
     2: "All Enemies",
-    3: "Random Enemy (1x)",
-    4: "Random Enemy (2x)",
-    5: "Random Enemy (3x)",
-    6: "Random Enemy (4x)",
-    7: "1 Ally",
+    3: "One Random Enemy",
+    4: "Two Random Enemies",
+    5: "Three Random Enemies",
+    6: "Four Random Enemies",
+    7: "One Ally",
     8: "All Allies",
-    9: "1 Ally (Dead)",
+    9: "One Ally (Dead)",
     10: "All Allies (Dead)",
-    11: "User",
-    12: "Everybody",
-    13: "1 Ally (Alive)",
-    14: "All Allies (Alive)"
+    11: "The User"
 };
 
 // Source registry for scope types
-const scopeTypeSources = {};
-for (let i = 0; i <= 14; i++) {
-    scopeTypeSources[i] = { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" };
-}
+const scopeTypeSources = {
+    0: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (gc_rpg_usableitem.html - scope attribute: 'None')" },
+    1: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (gc_rpg_usableitem.html - scope attribute: 'One Enemy')" },
+    2: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (gc_rpg_usableitem.html - scope attribute: 'All Enemies')" },
+    3: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (gc_rpg_usableitem.html - scope attribute: 'One Random Enemy')" },
+    4: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (gc_rpg_usableitem.html - scope attribute: 'Two Random Enemies')" },
+    5: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (gc_rpg_usableitem.html - scope attribute: 'Three Random Enemies')" },
+    6: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (gc_rpg_usableitem.html - scope attribute: 'Four Random Enemies')" },
+    7: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (gc_rpg_usableitem.html - scope attribute: 'One Ally')" },
+    8: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (gc_rpg_usableitem.html - scope attribute: 'All Allies')" },
+    9: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (gc_rpg_usableitem.html - scope attribute: 'One Ally (Dead)')" },
+    10: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (gc_rpg_usableitem.html - scope attribute: 'All Allies (Dead)')" },
+    11: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (gc_rpg_usableitem.html - scope attribute: 'The User')" }
+};
 
 // Hit type descriptions
+// NOTE: Only hit types with documented sources should be included here.
+// Types without sources will automatically show as "Unknown" via fallback logic.
 const hitTypes = {
-    0: "Certain Hit",
-    1: "Physical Attack",
-    2: "Magical Attack"
+    // From RPG Maker VX Ace official documentation (gc_rpg_usableitem.html)
+    0: "Certain hit",
+    1: "Physical attack",
+    2: "Magical attack"
 };
 
 // Source registry for hit types
 const hitTypeSources = {
-    0: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" },
-    1: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" },
-    2: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" }
+    0: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (gc_rpg_usableitem.html - hit_type attribute: 'Certain hit')" },
+    1: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (gc_rpg_usableitem.html - hit_type attribute: 'Physical attack')" },
+    2: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (gc_rpg_usableitem.html - hit_type attribute: 'Magical attack')" }
 };
 
 // Occasion types
+// NOTE: Only occasion types with documented sources should be included here.
+// Types without sources will automatically show as "Unknown" via fallback logic.
 const occasionTypes = {
+    // From RPG Maker VX Ace official documentation (gc_rpg_usableitem.html)
     0: "Always",
-    1: "Battle Screen",
-    2: "Menu Screen",
+    1: "Only in battle",
+    2: "Only from the menu",
     3: "Never"
 };
 
 // Source registry for occasion types
 const occasionTypeSources = {
-    0: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" },
-    1: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" },
-    2: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" },
-    3: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" }
+    0: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (gc_rpg_usableitem.html - occasion attribute: 'Always')" },
+    1: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (gc_rpg_usableitem.html - occasion attribute: 'Only in battle')" },
+    2: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (gc_rpg_usableitem.html - occasion attribute: 'Only from the menu')" },
+    3: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (gc_rpg_usableitem.html - occasion attribute: 'Never')" }
 };
 
 // Damage types
+// NOTE: Only damage types with documented sources should be included here.
+// Types without sources will automatically show as "Unknown" via fallback logic.
 const damageTypes = {
+    // From RPG Maker VX Ace official documentation (gc_rpg_usableitem_damage.html)
     0: "None",
-    1: "HP Damage",
-    2: "MP Damage",
-    3: "HP Recover",
-    4: "MP Recover",
-    5: "HP Drain",
-    6: "MP Drain"
+    1: "HP damage",
+    2: "MP damage",
+    3: "HP recovery",
+    4: "MP recovery",
+    5: "HP drain",
+    6: "MP drain"
 };
 
 // Source registry for damage types
 const damageTypeSources = {
-    0: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" },
-    1: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" },
-    2: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" },
-    3: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" },
-    4: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" },
-    5: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" },
-    6: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" }
+    0: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (gc_rpg_usableitem_damage.html - type attribute: 'None')" },
+    1: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (gc_rpg_usableitem_damage.html - type attribute: 'HP damage')" },
+    2: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (gc_rpg_usableitem_damage.html - type attribute: 'MP damage')" },
+    3: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (gc_rpg_usableitem_damage.html - type attribute: 'HP recovery')" },
+    4: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (gc_rpg_usableitem_damage.html - type attribute: 'MP recovery')" },
+    5: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (gc_rpg_usableitem_damage.html - type attribute: 'HP drain')" },
+    6: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (gc_rpg_usableitem_damage.html - type attribute: 'MP drain')" }
 };
 
 // Effect code descriptions
 // NOTE: Code 13 (Gain TP) has been removed - DO NOT add it back
+// NOTE: Only effect codes with documented sources should be included here.
+// Codes without sources will automatically show as "Unknown Effect" via fallback logic.
 const effectCodes = {
+    // From RPG Maker VX Ace official documentation (3420_db_effect.html)
     11: "Recover HP",
     12: "Recover MP",
     21: "Add State",
@@ -166,40 +188,51 @@ const effectCodes = {
     33: "Remove Buff",
     34: "Remove Debuff",
     41: "Special Effect",
-    42: "Grow",
+    42: "Raise Parameter",
     43: "Learn Skill",
     44: "Common Event"
 };
 
 // Source registry for effect codes
-// TODO: All effect codes need source documentation
 const effectCodeSources = {
-    11: { source: "none", evidence: "No source documented - ASSUMED from usage patterns" },
-    12: { source: "none", evidence: "No source documented - ASSUMED from usage patterns" },
-    21: { source: "none", evidence: "No source documented - ASSUMED from usage patterns" },
-    22: { source: "none", evidence: "No source documented - ASSUMED from usage patterns" },
-    31: { source: "none", evidence: "No source documented - ASSUMED from usage patterns" },
-    32: { source: "none", evidence: "No source documented - ASSUMED from usage patterns" },
-    33: { source: "none", evidence: "No source documented - ASSUMED from usage patterns" },
-    34: { source: "none", evidence: "No source documented - ASSUMED from usage patterns" },
-    41: { source: "none", evidence: "No source documented - ASSUMED from usage patterns" },
-    42: { source: "none", evidence: "No source documented - ASSUMED from usage patterns" },
-    43: { source: "none", evidence: "No source documented - ASSUMED from usage patterns" },
-    44: { source: "none", evidence: "No source documented - ASSUMED from usage patterns" }
+    11: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (3420_db_effect.html - Recovery Tab: 'Recover HP')" },
+    12: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (3420_db_effect.html - Recovery Tab: 'Recover MP')" },
+    21: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (3420_db_effect.html - State Tab: 'Add State')" },
+    22: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (3420_db_effect.html - State Tab: 'Remove State')" },
+    31: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (3420_db_effect.html - Parameters Tab: 'Add Buff')" },
+    32: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (3420_db_effect.html - Parameters Tab: 'Add Debuff')" },
+    33: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (3420_db_effect.html - Parameters Tab: 'Remove Buff')" },
+    34: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (3420_db_effect.html - Parameters Tab: 'Remove Debuff')" },
+    41: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (3420_db_effect.html - Other Tab: 'Special Effect')" },
+    42: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (3420_db_effect.html - Other Tab: 'Raise Parameter')" },
+    43: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (3420_db_effect.html - Other Tab: 'Learn Skill')" },
+    44: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (3420_db_effect.html - Other Tab: 'Common Event')" }
 };
 
 // ============================================================================
 // SOURCE REGISTRY - All mappings must have documented sources
 // ============================================================================
-// Every mapping (parameter names, trait codes, element names, etc.) must have
-// a documented source. Sources can be:
+// ⚠️ CRITICAL: INFERRED DATA IS FORBIDDEN ⚠️
+// 
+// DO NOT create mappings based on:
+// - Pattern analysis (e.g., "code 21 must be Parameter because 22 is Ex-Parameter")
+// - Logical inference (e.g., "this must be X because it makes sense")
+// - Assumptions (e.g., "this is probably Y")
+// - Data file analysis without direct evidence
+// - "Logical extension" or "pattern matching"
+//
+// ALL mappings MUST have direct, documented evidence from:
 // - "system.json" - Direct from System.json file
 // - "editor-screenshot" - From editor screenshots (specify which screenshot)
 // - "rpg-maker-docs" - From RPG Maker VX Ace official documentation
+// - "rgss-script-analysis" - From community analysis of RGSS3 core scripts (code evidence only)
+//
+// If you cannot find direct evidence, use:
 // - "none" - No source documented (will be flagged by detection system)
-// 
-// NOTE: Pattern analysis or data file analysis is NOT a valid source - it's inference,
-// not direct evidence. Use "none" for inferred mappings.
+// - The mapping will be displayed as "Unknown" until proper source is found
+//
+// ⚠️ FORBIDDEN: Any mapping with "inferred", "assumed", "logical extension", 
+// "pattern-based", or similar language in the evidence field.
 // ============================================================================
 
 // Parameter names for buffs/debuffs (Standard Parameters 0-7)
@@ -227,95 +260,117 @@ const parameterNameSources = {
 };
 
 // Restriction types (for states)
+// NOTE: Only restriction types with documented sources should be included here.
+// Types without sources will automatically show as "Unknown" via fallback logic.
 const restrictionTypes = {
+    // From RPG Maker VX Ace official documentation (gc_rpg_state.html)
     0: "None",
-    1: "Cannot Attack",
-    2: "Cannot Guard",
-    3: "Cannot Wait",
-    4: "Cannot Move"
+    1: "Attack enemy",
+    2: "Attack enemy or ally",
+    3: "Attack ally",
+    4: "Cannot act"
 };
 
 // Source registry for restriction types
 const restrictionTypeSources = {
-    0: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" },
-    1: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" },
-    2: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" },
-    3: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" },
-    4: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" }
+    0: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (gc_rpg_state.html - restriction attribute: 'None')" },
+    1: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (gc_rpg_state.html - restriction attribute: 'Attack enemy')" },
+    2: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (gc_rpg_state.html - restriction attribute: 'Attack enemy or ally')" },
+    3: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (gc_rpg_state.html - restriction attribute: 'Attack ally')" },
+    4: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (gc_rpg_state.html - restriction attribute: 'Cannot act')" }
 };
 
 // Auto removal timing (for states)
+// NOTE: Only auto removal timings with documented sources should be included here.
+// Types without sources will automatically show as "Unknown" via fallback logic.
 const autoRemovalTimings = {
+    // From RPG Maker VX Ace official documentation (gc_rpg_state.html)
     0: "None",
-    1: "Action End",
-    2: "Turn End"
+    1: "At end of action",
+    2: "At end of turn"
 };
 
 // Source registry for auto removal timings
 const autoRemovalTimingSources = {
-    0: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" },
-    1: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" },
-    2: { source: "none", evidence: "No source documented - ASSUMED from RPG Maker standard" }
+    0: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (gc_rpg_state.html - auto_removal_timing attribute: 'None')" },
+    1: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (gc_rpg_state.html - auto_removal_timing attribute: 'At end of action')" },
+    2: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (gc_rpg_state.html - auto_removal_timing attribute: 'At end of turn')" }
 };
 
 // Trait codes for states
 // NOTE: Code 13 (TP Regeneration) and 47 (TP Charge Rate) have been removed - DO NOT add them back
+// NOTE: Only trait codes with documented sources should be included here.
+// Codes without sources will automatically show as "Unknown Trait" via fallback logic.
 const stateTraitCodes = {
-    11: "HP Regeneration",
-    12: "MP Regeneration",
-    14: "Parameter Rate",
-    21: "Element Rate",
-    22: "Debuff Rate",
-    23: "State Rate",
-    31: "Normal Attack Times",
-    32: "Skill Type Seal",
-    33: "Element Seal",
-    34: "Action Times+",
-    41: "Special Flag",
-    42: "Collapse Type",
-    43: "Party Ability",
-    44: "Auto Battle",
-    45: "Guard Effect Rate",
-    46: "Substitute",
-    48: "Physical Damage Rate",
-    49: "Magical Damage Rate",
-    54: "Equip Weapon Lock",
-    55: "Equip Armor Lock",
-    62: "Action Speed",
-    63: "Force Action Speed",
-    64: "Buff Turn Rate",
-    65: "Instant Death"
+    // Rate Tab (11-14)
+    11: "Element Rate",
+    12: "Debuff Rate",
+    13: "State Rate",
+    14: "State Resist",
+    // Param Tab (21-23)
+    21: "Parameter",
+    22: "Ex-Parameter",
+    23: "Sp-Parameter",
+    // Attack Tab (31-34)
+    31: "Attack Element",
+    32: "Attack State",
+    33: "Attack Speed",
+    34: "Attack Times+",
+    // Skill Tab (41-44)
+    41: "Add Skill Type",
+    42: "Seal Skill Type",
+    43: "Add Skill",
+    44: "Seal Skill",
+    // Equip Tab (51-55)
+    51: "Equip Weapon Type",
+    52: "Equip Armor Type",
+    53: "Fix Equip",
+    54: "Seal Equip",
+    55: "Slot Type",
+    // Other Tab (61-64)
+    61: "Action Times+",
+    62: "Special Flag",
+    63: "Collapse Effect",
+    64: "Party Ability"
 };
 
 // Source registry for trait codes
-// TODO: All trait codes need source documentation
+// ⚠️ CRITICAL: NO INFERRED DATA ALLOWED ⚠️
+// All mappings here MUST have direct evidence (code examples, official docs, screenshots)
+// DO NOT use "logical extension", "pattern matching", "assumed", or "inferred" language
+// Based on community-sourced RGSS3 script analysis (Gemini's RPG Maker VX Ace Code Documentation)
+// and official RPG Maker VX Ace documentation
 const traitCodeSources = {
-    // Codes with documented sources from editor screenshots
-    // Codes without sources will be flagged by detection system
-    11: { source: "editor-screenshot", evidence: "Rate tab - HP Regeneration visible", screenshot: "states-features-screenshots" },
-    12: { source: "editor-screenshot", evidence: "Rate tab - MP Regeneration visible", screenshot: "states-features-screenshots" },
-    14: { source: "editor-screenshot", evidence: "Param tab - Parameter Rate visible", screenshot: "200530.png" },
-    21: { source: "editor-screenshot", evidence: "Rate tab - Element Rate visible", screenshot: "200356.png" },
-    22: { source: "editor-screenshot", evidence: "Rate tab - Debuff Rate visible", screenshot: "200407.png" },
-    23: { source: "editor-screenshot", evidence: "Rate tab - State Rate visible", screenshot: "states-features-screenshots" },
-    31: { source: "editor-screenshot", evidence: "Attack tab - Atk Times+ visible", screenshot: "200600.png" },
-    32: { source: "editor-screenshot", evidence: "Skill tab - Seal Skill Type visible", screenshot: "200706.png" },
-    33: { source: "editor-screenshot", evidence: "Attack tab - Atk Element/Atk State visible (Element Seal)", screenshot: "200600.png" },
-    34: { source: "editor-screenshot", evidence: "Other tab - Action Times+ visible", screenshot: "200731.png" },
-    41: { source: "editor-screenshot", evidence: "Other tab - Special Flag visible", screenshot: "200743.png" },
-    42: { source: "editor-screenshot", evidence: "Other tab - Collapse Effect visible", screenshot: "200749.png" },
-    43: { source: "editor-screenshot", evidence: "Other tab - Party Ability visible", screenshot: "200757.png" },
-    44: { source: "editor-screenshot", evidence: "Other tab - Special Flag dropdown shows Auto Battle option", screenshot: "200743.png" },
-    45: { source: "editor-screenshot", evidence: "Other tab - Special Flag dropdown shows Guard option (Guard Effect Rate is rate-based version)", screenshot: "200743.png" },
-    46: { source: "editor-screenshot", evidence: "Other tab - Special Flag dropdown shows Substitute option", screenshot: "200743.png" },
-    48: { source: "editor-screenshot", evidence: "Param tab - Sp-Parameter dropdown shows PDR (Physical Damage Rate)", screenshot: "200552.png" },
-    49: { source: "editor-screenshot", evidence: "Param tab - Sp-Parameter dropdown shows MDR (Magical Damage Rate)", screenshot: "200552.png" },
-    54: { source: "editor-screenshot", evidence: "Equip tab - Equip Weapon Lock visible", screenshot: "200718.png" },
-    55: { source: "editor-screenshot", evidence: "Equip tab - Equip Armor Lock visible", screenshot: "200726.png" },
-    62: { source: "editor-screenshot", evidence: "Attack tab - Atk Speed visible", screenshot: "200600.png" },
-    63: { source: "none", evidence: "No source documented - ASSUMED" },
-    64: { source: "none", evidence: "No source documented - ASSUMED" },
-    65: { source: "none", evidence: "No source documented - ASSUMED" }
+    // Rate Tab (11-14)
+    11: { source: "rgss-script-analysis", evidence: "From community-sourced RGSS3 script analysis - Rate Tab: Element Rate" },
+    12: { source: "rgss-script-analysis", evidence: "From community-sourced RGSS3 script analysis - Rate Tab: Debuff Rate" },
+    13: { source: "rgss-script-analysis", evidence: "From community-sourced RGSS3 script analysis - Rate Tab: State Rate" },
+    14: { source: "rgss-script-analysis", evidence: "From community-sourced RGSS3 script analysis - Rate Tab: State Resist" },
+    // Param Tab (21-23)
+    21: { source: "rgss-script-analysis", evidence: "From community-sourced RGSS3 script analysis - Code 21 confirmed by Game_BattlerBase.param_rate() method: features_with_id(21, param_id)" },
+    22: { source: "rgss-script-analysis", evidence: "From community-sourced RGSS3 script analysis - Code 22 confirmed by Game_BattlerBase.ex_param_plus() method: features_with_id(22, ex_param_id). Note: Official docs show Feature.new(22, ...) examples but code analysis confirms Ex-Parameter usage" },
+    23: { source: "rgss-script-analysis", evidence: "From community-sourced RGSS3 script analysis - Param Tab: Sp-Parameter. Official docs show Feature.new(23, 0, 1) example confirming code 23 exists" },
+    // Attack Tab (31-34)
+    31: { source: "rgss-script-analysis", evidence: "From community-sourced RGSS3 script analysis - Attack Tab: Attack Element. Official docs show Feature.new(31, 1, 0) examples" },
+    32: { source: "rgss-script-analysis", evidence: "From community-sourced RGSS3 script analysis - Attack Tab: Attack State" },
+    33: { source: "rgss-script-analysis", evidence: "From community-sourced RGSS3 script analysis - Attack Tab: Attack Speed" },
+    34: { source: "rgss-script-analysis", evidence: "From community-sourced RGSS3 script analysis - Attack Tab: Attack Times+" },
+    // Skill Tab (41-44)
+    41: { source: "rgss-script-analysis", evidence: "From community-sourced RGSS3 script analysis - Skill Tab: Add Skill Type. Official docs show Feature.new(41, 1) example" },
+    42: { source: "rgss-script-analysis", evidence: "From community-sourced RGSS3 script analysis - Skill Tab: Seal Skill Type" },
+    43: { source: "rgss-script-analysis", evidence: "From community-sourced RGSS3 script analysis - Skill Tab: Add Skill" },
+    44: { source: "rgss-script-analysis", evidence: "From community-sourced RGSS3 script analysis - Skill Tab: Seal Skill" },
+    // Equip Tab (51-55)
+    51: { source: "rgss-script-analysis", evidence: "From community-sourced RGSS3 script analysis - Equip Tab: Equip Weapon Type. Official docs show Feature.new(51, 1) example" },
+    52: { source: "rgss-script-analysis", evidence: "From community-sourced RGSS3 script analysis - Equip Tab: Equip Armor Type. Official docs show Feature.new(52, 1) example" },
+    53: { source: "rgss-script-analysis", evidence: "From community-sourced RGSS3 script analysis - Equip Tab: Fix Equip" },
+    54: { source: "rgss-script-analysis", evidence: "From community-sourced RGSS3 script analysis - Equip Tab: Seal Equip" },
+    55: { source: "rgss-script-analysis", evidence: "From community-sourced RGSS3 script analysis - Equip Tab: Slot Type" },
+    // Other Tab (61-64)
+    61: { source: "rgss-script-analysis", evidence: "From community-sourced RGSS3 script analysis - Other Tab: Action Times+" },
+    62: { source: "rgss-script-analysis", evidence: "From community-sourced RGSS3 script analysis - Other Tab: Special Flag" },
+    63: { source: "rgss-script-analysis", evidence: "From community-sourced RGSS3 script analysis - Other Tab: Collapse Effect" },
+    64: { source: "rgss-script-analysis", evidence: "From community-sourced RGSS3 script analysis - Other Tab: Party Ability" }
 };
 
 // Japanese to English translations for common note patterns
@@ -365,6 +420,7 @@ const translations = {
     "ステート１番はＨＰが０になったときに自動的に付加されます。": "Automatically applied when HP becomes 0.",
     "[全回復無効ステート]": "[Full Recovery Disabled State]",
     "全回復無効ステート": "Full Recovery Disabled State",
+    "何もしないステート": "Do nothing state",
     
     // Additional patterns
     "武器用": "Weapon-specific",
@@ -676,7 +732,9 @@ function createIDResolvers(skillsData, statesData, weaponsData, armorsData, item
         getStateName: (id) => {
             if (!statesData || !id) return null;
             const state = statesData.find(s => s && s.id === parseInt(id));
-            return state && state.name ? state.name : null;
+            if (!state) return null;
+            // If state exists but has no name, return "State #X" as fallback
+            return state.name && state.name.trim() !== '' ? state.name : `State #${id}`;
         },
         
         // Resolve weapon ID to name
@@ -915,12 +973,17 @@ const idRefStats = {
 
 function detectIdReference(text) {
     if (!text) return false;
+    
+    // First, remove all existing markers to avoid false positives
+    // Markers are in format [[TYPE:ID:NAME]]
+    const textWithoutMarkers = text.replace(/\[\[[^\]]+\]\]/g, '');
+    
     const patterns = [
         /\b(Skill|State|Weapon|Armor|Item|Enemy)\s*#\s*\d+/i,
         /[\[(]\s*#\s*\d+\s*[\])]/,
         /\b#\s*\d+\b/,
     ];
-    return patterns.some(rx => rx.test(text));
+    return patterns.some(rx => rx.test(textWithoutMarkers));
 }
 
 function resolveAndLog(text, resolvers, sourceType, sourceId, fieldName) {
@@ -1025,7 +1088,7 @@ function translateNote(note, skillsData = null, statesData = null, sourceType = 
             const skillName = getSkillName(p1);
             return `After use: ${p3}% chance to cast "${skillName}"`;
         }},
-        // Additional action after use without chance (100% assumed)
+        // Additional action after use without chance (when chance parameter is omitted, defaults to 100%)
         { regex: /<使用後追加行動:(\d+),(-?\d+)>/g, replacement: (m, p1, p2) => {
             const skillName = getSkillName(p1);
             return `After use: Casts "${skillName}"`;
@@ -1568,7 +1631,10 @@ const processedSkills = skillsData
                     // Add specific descriptions based on effect code - no IDs shown
                     if (effect.code === 21) { // Add State
                         const state = statesData.find(s => s && s.id === effect.dataId);
-                        const stateName = state?.name || "Unknown State";
+                        // Use state name if available, otherwise use "State #X" as fallback
+                        const stateName = state?.name && state.name.trim() !== '' 
+                            ? state.name 
+                            : `State #${effect.dataId}`;
                         const chance = Math.round(effect.value1 * 100);
                         effectInfo.stateName = stateName;
                         effectInfo.chance = chance;
@@ -1579,7 +1645,10 @@ const processedSkills = skillsData
                             : `Inflict ${stateRef}`;
                     } else if (effect.code === 22) { // Remove State
                         const state = statesData.find(s => s && s.id === effect.dataId);
-                        const stateName = state?.name || "Unknown State";
+                        // Use state name if available, otherwise use "State #X" as fallback
+                        const stateName = state?.name && state.name.trim() !== '' 
+                            ? state.name 
+                            : `State #${effect.dataId}`;
                         effectInfo.stateName = stateName;
                         // Insert cross-reference marker directly
                         const stateRef = `[[STATE:${effect.dataId}:${stateName}]]`;
@@ -1675,7 +1744,7 @@ const processedSkills = skillsData
     });
 
 // Helper function to process traits (reusable for states and weapons)
-function processTraits(traits, statesData) {
+function processTraits(traits, statesData, skillsData = null, elements = null) {
     return (traits || []).map(trait => {
         const traitInfo = {
             code: trait.code,
@@ -1686,192 +1755,106 @@ function processTraits(traits, statesData) {
         };
         
         // Generate readable descriptions based on trait code
-        if (trait.code === 11) {
-            // HP Regeneration
-            const percent = Math.round(trait.value * 100);
-            if (percent > 0) {
-                if (percent >= 100) {
-                    traitInfo.description = `Heals ${percent}% of maximum HP each turn (fully heals)`;
-                } else {
-                    traitInfo.description = `Heals ${percent}% of maximum HP each turn`;
-                }
-            } else if (percent === 0) {
-                traitInfo.description = `No HP regeneration`;
+        // NOTE: Only generate descriptions for codes with documented sources
+        // All codes are currently marked as "Unknown" until sources are documented
+        if (trait.code === 11) { // Element Rate
+            if (elements && trait.dataId >= 0 && trait.dataId < elements.length) {
+                const elementName = elements[trait.dataId] || `Element ${trait.dataId}`;
+                const rate = trait.value;
+                const ratePercent = Math.round(rate * 100);
+                traitInfo.description = `${elementName} damage rate: ${ratePercent}%`;
             } else {
-                traitInfo.description = `Loses ${Math.abs(percent)}% of maximum HP each turn`;
+                traitInfo.description = `Element Rate (element ${trait.dataId || '?'}, rate ${trait.value || '?'})`;
             }
-        } else if (trait.code === 12) { // MP Regeneration
-            const percent = Math.round(trait.value * 100);
-            if (percent > 0) {
-                if (percent >= 100) {
-                    traitInfo.description = `Restores ${percent}% of maximum MP each turn (fully restores)`;
-                } else {
-                    traitInfo.description = `Restores ${percent}% of maximum MP each turn`;
-                }
-            } else if (percent === 0) {
-                traitInfo.description = `No MP regeneration`;
-            } else {
-                traitInfo.description = `Loses ${Math.abs(percent)}% of maximum MP each turn`;
-            }
-        } else if (trait.code === 14) { // Parameter Rate
-            // Extended parameter names for values beyond standard 8
-            // NOTE: TP (Technical Points) has been removed from this game database
-            // DO NOT add TP Gain Rate (31) or TP Charge Rate (32) back
-            const extendedParamNames = {
-                16: "EXP Gain",
-                27: "EXP Gain Rate",
-                35: "HP Drain Rate",
-                39: "MP Drain Rate"
-            };
-            
-            const paramName = parameterNames[trait.dataId] || extendedParamNames[trait.dataId] || `Unknown Parameter`;
-            const percent = Math.round((trait.value - 1) * 100);
-            
-            if (trait.value === 0) {
-                traitInfo.description = `${paramName} set to 0`;
-            } else if (percent === 0) {
-                traitInfo.description = `${paramName} unchanged`;
-            } else {
-                traitInfo.description = percent > 0 
-                    ? `${paramName} +${percent}%`
-                    : `${paramName} ${percent}%`;
-            }
-        } else if (trait.code === 21) { // Element Rate
-            // Get element name, handling empty strings and missing elements
-            let elementName = elements[trait.dataId] || "";
-            if (!elementName || elementName.trim() === "") {
-                // If element name is empty or missing, use a generic description
-                const damagePercent = Math.round(trait.value * 100);
-                if (trait.value === 0) {
-                    traitInfo.description = `Immune to unknown element damage`;
-                } else if (trait.value < 1) {
-                    traitInfo.description = `Takes ${damagePercent}% unknown element damage (reduced)`;
-                } else if (trait.value > 1) {
-                    traitInfo.description = `Takes ${damagePercent}% unknown element damage (increased)`;
-                } else {
-                    traitInfo.description = `Takes normal unknown element damage`;
-                }
-                return traitInfo;
-            }
-            
-            if (trait.value === 0) {
-                traitInfo.description = `Immune to ${elementName} damage`;
-            } else if (trait.value < 1) {
-                // Resistance: takes less damage
-                const damagePercent = Math.round(trait.value * 100);
-                traitInfo.description = `Takes ${damagePercent}% ${elementName} damage (reduced)`;
-            } else if (trait.value > 1) {
-                // Weakness: takes more damage
-                const damagePercent = Math.round(trait.value * 100);
-                traitInfo.description = `Takes ${damagePercent}% ${elementName} damage (increased)`;
-            } else {
-                traitInfo.description = `Takes normal ${elementName} damage`;
-            }
-        } else if (trait.code === 22) {
-            // NOTE: In this game, code 22 with dataId 7 is used for HP Regeneration (drain)
-            // This is a non-standard usage - normally code 22 is Debuff Rate
-            // Check if this is HP/MP Regeneration first (dataId 7 = HP, dataId 8 = MP in this context)
-            if (trait.dataId === 7) {
-                // This is HP Regeneration (drain when negative)
-                traitInfo.codeName = "HP Regeneration";
-                const percent = Math.round(trait.value * 100);
-                if (percent > 0) {
-                    if (percent >= 100) {
-                        traitInfo.description = `Heals ${percent}% of maximum HP each turn (fully heals)`;
-                    } else {
-                        traitInfo.description = `Heals ${percent}% of maximum HP each turn`;
-                    }
-                } else if (percent === 0) {
-                    traitInfo.description = `No HP regeneration`;
-                } else {
-                    traitInfo.description = `Loses ${Math.abs(percent)}% of maximum HP each turn`;
-                }
-            } else if (trait.dataId === 8) {
-                // This is MP Regeneration (drain when negative)
-                traitInfo.codeName = "MP Regeneration";
-                const percent = Math.round(trait.value * 100);
-                if (percent > 0) {
-                    if (percent >= 100) {
-                        traitInfo.description = `Restores ${percent}% of maximum MP each turn (fully restores)`;
-                    } else {
-                        traitInfo.description = `Restores ${percent}% of maximum MP each turn`;
-                    }
-                } else if (percent === 0) {
-                    traitInfo.description = `No MP regeneration`;
-                } else {
-                    traitInfo.description = `Loses ${Math.abs(percent)}% of maximum MP each turn`;
-                }
-            } else {
-                // Standard Debuff Rate behavior for other dataIds
-                traitInfo.codeName = "Debuff Rate";
-                // Extended parameter names for values beyond standard 8
-                const extendedParamNames = {
-                    16: "EXP Gain",
-                    27: "EXP Gain Rate",
-                    35: "HP Drain Rate",
-                    39: "MP Drain Rate"
-                };
-                const paramName = parameterNames[trait.dataId] || extendedParamNames[trait.dataId] || "Unknown Parameter";
-                if (trait.value === 0) {
-                    traitInfo.description = `Immune to ${paramName} debuffs`;
-                } else if (trait.value < 0) {
-                    // Negative values: debuffs become buffs instead
-                    // In RPG Maker, a negative debuff rate inverts debuffs to buffs
-                    // The absolute value represents the effectiveness/magnitude
-                    const percent = Math.round(Math.abs(trait.value) * 100);
-                    traitInfo.description = `When ${paramName} debuff is applied, it is converted to a buff with ${percent}% effectiveness`;
-                } else if (trait.value < 1) {
-                    // 0 < value < 1: debuffs are less effective
-                    const damagePercent = Math.round(trait.value * 100);
-                    traitInfo.description = `${paramName} debuffs are only ${damagePercent}% effective`;
-                } else if (trait.value === 1) {
-                    traitInfo.description = `Normal ${paramName} debuff effectiveness`;
-                } else {
-                    // value > 1: debuffs are more effective
-                    const damagePercent = Math.round(trait.value * 100);
-                    traitInfo.description = `${paramName} debuffs are ${damagePercent}% effective`;
-                }
-            }
-        } else if (trait.code === 23) { // State Rate
+        } else if (trait.code === 12) { // Debuff Rate
+            // dataId: parameter ID (0-7: standard parameters)
+            const paramName = parameterNames[trait.dataId] || `Parameter ${trait.dataId}`;
+            const rate = trait.value;
+            const ratePercent = Math.round(rate * 100);
+            traitInfo.description = `${paramName} debuff rate: ${ratePercent}%`;
+        } else if (trait.code === 13) { // State Rate
             const state = statesData.find(s => s && s.id === trait.dataId);
-            const stateName = state?.name || "Unknown State";
+            // Use state name if available, otherwise use "State #X" as fallback
+            const stateName = state?.name && state.name.trim() !== '' 
+                ? state.name 
+                : `State #${trait.dataId}`;
             // Insert cross-reference marker directly
             const stateRef = `[[STATE:${trait.dataId}:${stateName}]]`;
-            if (trait.value <= 0) {
-                if (trait.value === 0) {
-                    traitInfo.description = `Immune to ${stateRef}`;
-                } else {
-                    traitInfo.description = `${stateRef} immunity (extended)`;
-                }
-            } else if (trait.value >= 1) {
-                traitInfo.description = `Normal ${stateRef} susceptibility`;
+            const ratePercent = Math.round(trait.value * 100);
+            traitInfo.description = `${stateRef} rate: ${ratePercent}%`;
+        } else if (trait.code === 14) { // State Resist
+            // FIXED: dataId is a state ID, not a parameter ID
+            // Note: According to RPG Maker VX Ace documentation, the presence of this trait implies 100% resistance
+            // The value is not used - just having the trait means complete immunity
+            const state = statesData.find(s => s && s.id === trait.dataId);
+            // Use state name if available, otherwise use "State #X" as fallback
+            const stateName = state?.name && state.name.trim() !== '' 
+                ? state.name 
+                : `State #${trait.dataId}`;
+            const stateRef = `[[STATE:${trait.dataId}:${stateName}]]`;
+            traitInfo.description = `Immune to ${stateRef}`;
+        } else if (trait.code === 21) { // Parameter
+            // Get parameter name (0-7: standard parameters)
+            let paramName = parameterNames[trait.dataId] || `Parameter ${trait.dataId}`;
+            const percent = Math.round((trait.value - 1) * 100);
+            traitInfo.description = percent >= 0 
+                ? `${paramName} +${percent}%`
+                : `${paramName} ${percent}%`;
+        } else if (trait.code === 22) { // Ex-Parameter
+            // Ex-Parameter IDs: 0-9 (HIT, EVA, CRI, CEV, MEV, MRF, CNT, HRG, MRG, TRG)
+            const exParamNames = ["Hit Rate", "Evasion Rate", "Critical Hit Rate", "Critical Evasion Rate", 
+                                 "Magic Evasion Rate", "Magic Reflection Rate", "Counterattack Rate", 
+                                 "HP Regeneration Rate", "MP Regeneration Rate", "TP Regeneration Rate"];
+            const exParamName = exParamNames[trait.dataId] || `Ex-Parameter ${trait.dataId}`;
+            const percent = Math.round(trait.value * 100);
+            traitInfo.description = percent >= 0 
+                ? `${exParamName} +${percent}%`
+                : `${exParamName} ${percent}%`;
+        } else if (trait.code === 23) { // Sp-Parameter
+            // Sp-Parameter IDs: 0-9 (TGR, GRD, REC, PHA, MCR, TCR, PDR, MDR, FDR, EXR)
+            const spParamNames = ["Target Rate", "Guard Effect Rate", "Recovery Effect Rate", "Pharmacology",
+                                 "MP Cost Rate", "TP Charge Rate", "Physical Damage Rate", "Magical Damage Rate",
+                                 "Floor Damage Rate", "Experience Rate"];
+            const spParamName = spParamNames[trait.dataId] || `Sp-Parameter ${trait.dataId}`;
+            const percent = Math.round((trait.value - 1) * 100);
+            traitInfo.description = percent >= 0 
+                ? `${spParamName} +${percent}%`
+                : `${spParamName} ${percent}%`;
+        } else if (trait.code === 31) { // Attack Element
+            // dataId: element ID, value: typically 1 (adds element to attack)
+            if (elements && trait.dataId >= 0 && trait.dataId < elements.length) {
+                const elementName = elements[trait.dataId] || `Element ${trait.dataId}`;
+                traitInfo.description = `Attack Element: ${elementName} (value: ${trait.value})`;
             } else {
-                const resistPercent = Math.round((1 - trait.value) * 100);
-                traitInfo.description = `${resistPercent}% resistance to ${stateRef}`;
+                traitInfo.description = `Attack Element (element ${trait.dataId || '?'}, value ${trait.value || '?'})`;
             }
-        } else if (trait.code === 31) { // Normal Attack Times
-            if (trait.value === 0) {
-                traitInfo.description = `Cannot use normal attacks`;
-            } else {
-                traitInfo.description = `Normal attacks ${trait.value > 0 ? '+' : ''}${trait.value} times`;
-            }
-        } else if (trait.code === 34) { // Action Times+
-            traitInfo.description = `Action times ${trait.value > 0 ? '+' : ''}${trait.value}`;
-        } else if (trait.code === 45) { // Guard Effect Rate
-            const percent = Math.round((trait.value - 1) * 100);
-            traitInfo.description = `Guard effectiveness ${percent > 0 ? '+' : ''}${percent}%`;
-        } else if (trait.code === 48) { // Physical Damage Rate
-            const percent = Math.round((trait.value - 1) * 100);
-            traitInfo.description = `Physical damage ${percent > 0 ? '+' : ''}${percent}%`;
-        } else if (trait.code === 49) { // Magical Damage Rate
-            const percent = Math.round((trait.value - 1) * 100);
-            traitInfo.description = `Magical damage ${percent > 0 ? '+' : ''}${percent}%`;
-        } else if (trait.code === 62) { // Action Speed
-            const percent = Math.round((trait.value - 1) * 100);
-            traitInfo.description = `Action speed ${percent > 0 ? '+' : ''}${percent}%`;
-        } else if (trait.code === 64) { // Buff Turn Rate
-            const percent = Math.round((trait.value - 1) * 100);
-            traitInfo.description = `Buff duration ${percent > 0 ? '+' : ''}${percent}%`;
+        } else if (trait.code === 32) { // Attack State
+            // dataId: state ID, value: probability rate (0.0-1.0, where 1.0 = 100%)
+            const state = statesData.find(s => s && s.id === trait.dataId);
+            // Use state name if available, otherwise use "State #X" as fallback
+            const stateName = state?.name && state.name.trim() !== '' 
+                ? state.name 
+                : `State #${trait.dataId}`;
+            const stateRef = `[[STATE:${trait.dataId}:${stateName}]]`;
+            const chance = Math.round(trait.value * 100);
+            traitInfo.description = `${chance}% chance to inflict ${stateRef}`;
+        } else if (trait.code === 33) { // Attack Speed
+            // dataId: typically 0, value: speed modifier
+            const speedMod = trait.value;
+            const percent = Math.round((speedMod - 1) * 100);
+            traitInfo.description = percent >= 0 
+                ? `Attack speed +${percent}%`
+                : `Attack speed ${percent}%`;
+        } else if (trait.code === 34) { // Attack Times+
+            // dataId: typically 0, value: number of additional attacks
+            const additionalAttacks = trait.value;
+            traitInfo.description = additionalAttacks >= 0 
+                ? `Attack times +${additionalAttacks}`
+                : `Attack times ${additionalAttacks}`;
+        } else if (trait.code === 41) { // Add Skill Type
+            // dataId: skill type ID, value: typically 1
+            const skillType = skillTypes[trait.dataId] || `Skill Type ${trait.dataId}`;
+            traitInfo.description = `Add ${skillType} skill type (value: ${trait.value})`;
         } else if (trait.code === 42) { // Collapse Type
             // Collapse types: 0 = Normal, 1 = Instant, 2 = No Collapse
             const collapseTypes = {
@@ -1881,6 +1864,97 @@ function processTraits(traits, statesData) {
             };
             const collapseType = collapseTypes[trait.dataId] || `Collapse type ${trait.dataId}`;
             traitInfo.description = collapseType;
+        } else if (trait.code === 43) { // Add Skill
+            // dataId: skill ID, value: typically 0
+            if (skillsData) {
+                const skill = skillsData.find(s => s && s.id === trait.dataId);
+                const skillName = skill?.name || "Unknown Skill";
+                const skillRef = `[[SKILL:${trait.dataId}:${skillName}]]`;
+                traitInfo.description = `Add ${skillRef}`;
+            } else {
+                traitInfo.description = `Add Skill (ID: ${trait.dataId})`;
+            }
+        } else if (trait.code === 44) { // Seal Skill
+            // dataId: skill ID, value: typically 0
+            if (skillsData) {
+                const skill = skillsData.find(s => s && s.id === trait.dataId);
+                const skillName = skill?.name || "Unknown Skill";
+                const skillRef = `[[SKILL:${trait.dataId}:${skillName}]]`;
+                traitInfo.description = `Seal ${skillRef}`;
+            } else {
+                traitInfo.description = `Seal Skill (ID: ${trait.dataId})`;
+            }
+        } else if (trait.code === 51) { // Equip Weapon Type
+            // dataId: weapon type ID, value: typically 1
+            if (weaponTypes && trait.dataId >= 0 && trait.dataId < weaponTypes.length) {
+                const weaponType = weaponTypes[trait.dataId] || `Weapon Type ${trait.dataId}`;
+                traitInfo.description = `Equip ${weaponType}`;
+            } else {
+                traitInfo.description = `Equip Weapon Type ${trait.dataId}`;
+            }
+        } else if (trait.code === 52) { // Equip Armor Type
+            // dataId: armor type ID, value: typically 1
+            if (armorTypes && trait.dataId >= 0 && trait.dataId < armorTypes.length) {
+                const armorType = armorTypes[trait.dataId] || `Armor Type ${trait.dataId}`;
+                traitInfo.description = `Equip ${armorType}`;
+            } else {
+                traitInfo.description = `Equip Armor Type ${trait.dataId}`;
+            }
+        } else if (trait.code === 53) { // Fix Equip
+            // dataId: equipment slot ID (0-4: Weapon, Shield, Head, Body, Accessory), value: typically 1
+            const equipSlots = ["Weapon", "Shield", "Head", "Body", "Accessory"];
+            const slotName = equipSlots[trait.dataId] || `Slot ${trait.dataId}`;
+            traitInfo.description = `Fix ${slotName} equipment`;
+        } else if (trait.code === 54) { // Seal Equip
+            // dataId: equipment slot ID (0-4: Weapon, Shield, Head, Body, Accessory), value: typically 1
+            const equipSlots = ["Weapon", "Shield", "Head", "Body", "Accessory"];
+            const slotName = equipSlots[trait.dataId] || `Slot ${trait.dataId}`;
+            traitInfo.description = `Seal ${slotName} equipment`;
+        } else if (trait.code === 55) { // Slot Type
+            // dataId: slot type ID, value: typically 1
+            const slotType = equipTypes[trait.dataId] || `Slot Type ${trait.dataId}`;
+            traitInfo.description = `Slot Type: ${slotType}`;
+        } else if (trait.code === 61) { // Action Times+
+            // dataId: typically 0, value: action count modifier (e.g., 2.0 = double actions)
+            const actionMod = trait.value;
+            const percent = Math.round((actionMod - 1) * 100);
+            traitInfo.description = percent >= 0 
+                ? `Action count +${percent}% (${actionMod}x)`
+                : `Action count ${percent}% (${actionMod}x)`;
+        } else if (trait.code === 62) { // Special Flag
+            // dataId: special flag ID, value: typically 1
+            // Common flags: 0 = Auto Battle, 1 = Guard, 2 = Substitute, 3 = Preserve TP, 4 = Add State Type
+            const specialFlags = {
+                0: "Auto Battle",
+                1: "Guard",
+                2: "Substitute",
+                3: "Preserve TP",
+                4: "Add State Type"
+            };
+            const flagName = specialFlags[trait.dataId] || `Special Flag ${trait.dataId}`;
+            traitInfo.description = flagName;
+        } else if (trait.code === 63) { // Collapse Effect
+            // dataId: collapse effect ID, value: typically 1
+            // This is different from code 42 (Collapse Type) - this affects the visual effect
+            const collapseEffects = {
+                0: "Normal collapse effect",
+                1: "Boss collapse effect",
+                2: "Instant collapse effect"
+            };
+            const effectName = collapseEffects[trait.dataId] || `Collapse Effect ${trait.dataId}`;
+            traitInfo.description = effectName;
+        } else if (trait.code === 64) { // Party Ability
+            // dataId: party ability ID, value: typically 1
+            // Common abilities: 0 = Encounter Half, 1 = Encounter None, 2 = Cancel Surprise, 3 = Raid, 4 = Gold Double
+            const partyAbilities = {
+                0: "Encounter Half",
+                1: "Encounter None",
+                2: "Cancel Surprise",
+                3: "Raid",
+                4: "Gold Double"
+            };
+            const abilityName = partyAbilities[trait.dataId] || `Party Ability ${trait.dataId}`;
+            traitInfo.description = abilityName;
         }
         
         // If no description was set, use the code name
@@ -1895,7 +1969,6 @@ function processTraits(traits, statesData) {
 // Process states data
 const processedStates = statesData
     .filter(state => state !== null) // Remove null entries
-    .filter(state => state.name && state.name.trim() !== '') // Remove nameless states
     .map(state => {
         let translated = translateNote(state.note, skillsData, statesData, 'state', state.id);
         
@@ -1905,7 +1978,7 @@ const processedStates = statesData
         }
         
         // Process traits - map to readable descriptions
-        const traits = processTraits(state.traits, statesData);
+        const traits = processTraits(state.traits, statesData, skillsData, elements);
         
         // Resolve ID references in trait descriptions
         traits.forEach(trait => {
@@ -1915,9 +1988,10 @@ const processedStates = statesData
         });
         
         // Check for untranslated Japanese in state name and messages
-        let stateName = convertJapanesePunctuation(state.name);
+        // Handle empty names - use fallback if name is empty
+        let stateName = state.name ? convertJapanesePunctuation(state.name) : `State #${state.id}`;
         stateName = resolveAndLog(stateName, idResolvers, 'state', state.id, 'name');
-        if (containsJapanese(stateName)) {
+        if (state.name && containsJapanese(stateName)) {
             console.warn(`⚠️  Untranslated Japanese in state name (ID: ${state.id}): "${stateName}"`);
         }
         
@@ -2002,7 +2076,7 @@ const processedWeapons = weaponsData
         const filteredWeaponTraits = (weapon.traits || []).filter(trait => 
             !(trait.code === 31 && trait.value === 0)
         );
-        const traits = processTraits(filteredWeaponTraits, statesData);
+        const traits = processTraits(filteredWeaponTraits, statesData, skillsData, elements);
         
         // Resolve ID references in trait descriptions
         traits.forEach(trait => {
@@ -2071,7 +2145,7 @@ const processedArmors = armorsData
         });
         
         // Process traits using the same logic as weapons/states
-        const traits = processTraits(armor.traits || [], statesData);
+        const traits = processTraits(armor.traits || [], statesData, skillsData, elements);
         
         // Resolve ID references in trait descriptions
         traits.forEach(trait => {
@@ -2138,7 +2212,7 @@ const processedEnemies = enemiesData
         });
         
         // Process traits using the same logic as states
-        const traits = processTraits(enemy.traits || [], statesData);
+        const traits = processTraits(enemy.traits || [], statesData, skillsData, elements);
         
         // Resolve ID references in trait descriptions
         traits.forEach(trait => {
@@ -2561,13 +2635,13 @@ function detectMissingCrossReferences(allData, processedData) {
     });
     
     // Scan States traits
-    // Only check trait code 23 (State Rate) which references other states
+    // Only check trait code 13 (State Rate) which references other states
     allData.states.forEach(state => {
         if (!state || !state.traits) return;
         state.traits.forEach((trait, index) => {
             if (!trait || trait.dataId === undefined || trait.dataId === 0) return;
-            // Only check trait code 23 (State Rate)
-            if (trait.code !== 23) return;
+            // Only check trait code 13 (State Rate) - references state IDs
+            if (trait.code !== 13) return;
             // Skip self-reference
             if (trait.dataId === state.id) return;
             // Only check if dataId matches a state
@@ -2618,13 +2692,13 @@ function detectMissingCrossReferences(allData, processedData) {
     });
     
     // Scan Weapons traits
-    // Only check trait code 23 (State Rate) which references states
+    // Only check trait code 13 (State Rate) which references states
     allData.weapons.forEach(weapon => {
         if (!weapon || !weapon.traits) return;
         weapon.traits.forEach((trait, index) => {
             if (!trait || trait.dataId === undefined || trait.dataId === 0) return;
-            // Only check trait code 23 (State Rate)
-            if (trait.code !== 23) return;
+            // Only check trait code 13 (State Rate) - references state IDs
+            if (trait.code !== 13) return;
             // Skip self-reference
             if (trait.dataId === weapon.id) return;
             // Only check if dataId matches a state
@@ -2675,13 +2749,13 @@ function detectMissingCrossReferences(allData, processedData) {
     });
     
     // Scan Armors traits
-    // Only check trait code 23 (State Rate) which references states
+    // Only check trait code 13 (State Rate) which references states
     allData.armors.forEach(armor => {
         if (!armor || !armor.traits) return;
         armor.traits.forEach((trait, index) => {
             if (!trait || trait.dataId === undefined || trait.dataId === 0) return;
-            // Only check trait code 23 (State Rate)
-            if (trait.code !== 23) return;
+            // Only check trait code 13 (State Rate) - references state IDs
+            if (trait.code !== 13) return;
             // Skip self-reference
             if (trait.dataId === armor.id) return;
             // Only check if dataId matches a state
@@ -2896,9 +2970,13 @@ function detectInferredDataWithoutBasis(processedData, allData) {
     };
     
     // Source registry for currently mapped custom parameters
+    // ⚠️ NOTE: These are custom parameters not in standard RPG Maker VX Ace
+    // They are marked as "none" because they have no documented source
+    // They will be flagged by the detection system until proper source is found
+    // ⚠️ FORBIDDEN: Do not use "ASSUMED" or "inferred" language - use "none" source only
     const customParamSources = {
-        35: { source: "none", evidence: "No source documented - ASSUMED custom parameter" },
-        39: { source: "none", evidence: "No source documented - ASSUMED custom parameter" }
+        35: { source: "none", evidence: "No source documented - Custom parameter not in standard VX Ace" },
+        39: { source: "none", evidence: "No source documented - Custom parameter not in standard VX Ace" }
     };
     
     // Known trait codes from stateTraitCodes
@@ -3086,12 +3164,7 @@ function detectInferredDataWithoutBasis(processedData, allData) {
             // Note: Code 13 (TP Regeneration) was intentionally removed, so it's expected to be "unknown"
             // Code 61 might be a custom trait code used in this game
             if (trait.code !== undefined && !knownTraitCodes.has(trait.code)) {
-                // Skip Code 13 as it was intentionally removed (TP-related)
-                if (trait.code === 13) {
-                    // Code 13 is TP Regeneration, which was removed from the database
-                    // This is expected and not an issue - the data just still contains TP traits
-                    return;
-                }
+                // Code 13 is now "State Rate" (valid trait code) - no longer skipping
                 
                 issues.push({
                     type: 'unknown_trait_code',
@@ -3160,6 +3233,84 @@ function detectInferredDataWithoutBasis(processedData, allData) {
                     codeName: trait.codeName,
                     location: `trait #${index}`
                 });
+            }
+            
+            // Check for ignored data when code/codeName is shown
+            // Detects when ANY trait data (dataId, value) exists but is not meaningfully used in description
+            // This catches ALL cases where data exists but is ignored, including:
+            // 1. Trait codes without handlers (fall back to codeName, ignoring dataId/value)
+            // 2. DataId out of known range (e.g., Ex-Parameter dataId 10+ shown as "Ex-Parameter 10")
+            // 3. Generic placeholders (e.g., "Unknown Parameter", "Parameter 10" for unmapped dataId)
+            // Note: Must check if dataId OR value exists (not just both) to catch all ignored data cases
+            // Also check for null (some data might have null instead of undefined)
+            const hasDataId = trait.dataId !== undefined && trait.dataId !== null;
+            const hasValue = trait.value !== undefined && trait.value !== null;
+            
+            if (trait.codeName && (hasDataId || hasValue)) {
+                let isIgnored = false;
+                let reason = "";
+                
+                // Case 1: Description is just the codeName (fallback - ALL data is ignored)
+                // This catches traits with dataId/value that have no handler and fall back to codeName
+                // This is the most common case - trait codes without handlers (11, 12, 31-34, 41, 43, 44, 51-55, 61-64)
+                const descriptionIsJustCodeName = trait.description === trait.codeName || 
+                                                 (trait.description && trait.description.trim() === trait.codeName.trim());
+                
+                if (descriptionIsJustCodeName) {
+                    isIgnored = true;
+                    const dataParts = [];
+                    if (hasDataId) dataParts.push(`dataId: ${trait.dataId}`);
+                    if (hasValue) dataParts.push(`value: ${trait.value}`);
+                    reason = `Description equals codeName - ${dataParts.join(', ')} ignored`;
+                }
+                
+                // Case 2: DataId exists but shown as generic placeholder (unmapped dataId)
+                // Check for patterns like "Ex-Parameter 10", "Sp-Parameter 10", "Parameter 10", etc.
+                // These indicate dataId exists but is out of known range or unmapped
+                if (!isIgnored && hasDataId && trait.description) {
+                    // Whitelist: State 204 is intentionally nameless (vital spot state)
+                    // State codes that reference states: 13 (State Rate), 14 (State Resist), 32 (Attack State)
+                    const isStateReference = trait.code === 13 || trait.code === 14 || trait.code === 32;
+                    const isWhitelistedState = isStateReference && trait.dataId === 204;
+                    
+                    // Check for generic placeholder patterns in description
+                    const genericPatterns = [
+                        new RegExp(`\\bParameter\\s+${trait.dataId}\\b`),
+                        new RegExp(`\\bEx-Parameter\\s+${trait.dataId}\\b`),
+                        new RegExp(`\\bSp-Parameter\\s+${trait.dataId}\\b`),
+                        new RegExp(`\\bCollapse type\\s+${trait.dataId}\\b`),
+                        /Unknown Parameter/
+                    ];
+                    
+                    // Only check for "Unknown State" if not whitelisted
+                    if (!isWhitelistedState) {
+                        genericPatterns.push(/Unknown State/);
+                    }
+                    
+                    const hasGenericPlaceholder = genericPatterns.some(pattern => pattern.test(trait.description));
+                    
+                    if (hasGenericPlaceholder) {
+                        isIgnored = true;
+                        reason = `DataId (${trait.dataId}) shown as generic/unmapped placeholder`;
+                    }
+                }
+                
+                if (isIgnored) {
+                    issues.push({
+                        type: 'ignored_data_id_value',
+                        sourceType: sourceType,
+                        sourceId: sourceId,
+                        sourceName: sourceName,
+                        traitIndex: index,
+                        code: trait.code,
+                        codeName: trait.codeName,
+                        dataId: trait.dataId,
+                        value: trait.value,
+                        description: trait.description,
+                        location: `trait #${index}`,
+                        message: `${trait.codeName}: ${reason}`
+                    });
+                }
             }
         });
     };
@@ -3236,7 +3387,7 @@ function detectInferredDataWithoutBasis(processedData, allData) {
     };
     
     // Scan all data types
-    ['skills', 'states', 'weapons', 'armors', 'items'].forEach(dataType => {
+    ['skills', 'states', 'weapons', 'armors', 'items', 'enemies'].forEach(dataType => {
         const processedItems = processedData[dataType];
         const rawItems = allData[dataType];
         if (!processedItems || !Array.isArray(processedItems)) return;
@@ -3416,16 +3567,21 @@ if (detectedMissingRefs.length > 0) {
     console.log(`   ✅ 0 missing cross-references found`);
 }
 
+// ============================================================================
+// INFERRED DATA DETECTION REPORTING
+// ============================================================================
+// IMPORTANT: All detection reports must use SIMPLE ONE-LINE OUTPUTS only.
+// - Each issue type should be reported as a single line with count
+// - Format: "✅ 0 [issue type]" when successful, "⚠️  N [issue type]" when issues exist
+// - Do NOT add detailed multi-line examples or verbose output here
+// - This keeps the output clean and readable. Detailed information is available
+//   in the detection systems themselves and can be logged separately if needed.
+// - Each point (issue type) should be an independent line, not nested/indented
+// ============================================================================
+
 // Inferred Data Without Basis Detection
 console.log(`\n🎯 Inferred Data Detection:`);
 if (detectedInferredData.length > 0) {
-    // Group issues by type
-    const byType = {};
-    detectedInferredData.forEach(issue => {
-        if (!byType[issue.type]) byType[issue.type] = [];
-        byType[issue.type].push(issue);
-    });
-    
     // Count mappings without sources (CRITICAL - challenges all assumptions)
     const mappingsWithoutSource = detectedInferredData.filter(i => i.type === 'mapping_without_source');
     
@@ -3448,136 +3604,250 @@ if (detectedInferredData.length > 0) {
     // Count completely unknown parameters
     const unknownParams = detectedInferredData.filter(i => i.type === 'unknown_parameter');
     
-    console.log(`   ⚠️  ${detectedInferredData.length} instances of inferred data without basis:`);
-    console.log(``);
+    // Main summary line
+    console.log(`   ⚠️  ${detectedInferredData.length} instances of inferred data without basis`);
     
-    // CRITICAL: Mappings without sources
+    // Each issue type as independent one-line output (only show if count > 0)
     if (mappingsWithoutSource.length > 0) {
-        console.log(`   🔴 CRITICAL: ${mappingsWithoutSource.length} mappings without documented sources:`);
-        
-        // Group by category
-        const byCategory = {};
-        mappingsWithoutSource.forEach(issue => {
-            if (!byCategory[issue.category]) byCategory[issue.category] = [];
-            byCategory[issue.category].push(issue);
-        });
-        
-        Object.entries(byCategory).forEach(([category, issues]) => {
-            console.log(`      ${category} (${issues.length} mappings without sources):`);
-            issues.slice(0, 10).forEach(issue => {
-                if (issue.code !== undefined) {
-                    console.log(`         - ${issue.name || issue.code} (code: ${issue.code}) - ${issue.location}`);
-                } else if (issue.paramId !== undefined) {
-                    console.log(`         - Parameter ${issue.paramId}: "${issue.name}" - ${issue.location}`);
-                } else if (issue.japanese !== undefined) {
-                    console.log(`         - "${issue.japanese}" → "${issue.english}" - ${issue.location}`);
-                } else {
-                    console.log(`         - ${issue.name || issue.location}`);
-                }
-                console.log(`           Source: ${issue.source || "missing"}, Evidence: ${issue.evidence || "none"}`);
-            });
-            if (issues.length > 10) {
-                console.log(`         ... and ${issues.length - 10} more ${category} mappings`);
-            }
-            console.log(``);
-        });
+        console.log(`   🔍 Mappings without sources: ⚠️  ${mappingsWithoutSource.length} instances`);
     }
-    
     if (unmappedKnownParams.length > 0) {
-        console.log(`   🔴 CRITICAL: ${unmappedKnownParams.length} unmapped known parameters (should be mapped):`);
-        // Group by parameter ID
-        const byParamId = {};
-        unmappedKnownParams.forEach(issue => {
-            const paramId = issue.dataId;
-            if (!byParamId[paramId]) byParamId[paramId] = [];
-            byParamId[paramId].push(issue);
-        });
-        
-        Object.entries(byParamId).slice(0, 10).forEach(([paramId, issues]) => {
-            const knownName = issues[0].knownName || 'Unknown';
-            console.log(`      Parameter ${paramId}: "${knownName}" (${issues.length} occurrences)`);
-            issues.slice(0, 3).forEach(issue => {
-                console.log(`         - ${issue.sourceType} #${issue.sourceId} (${issue.sourceName}) - ${issue.location}`);
-            });
-            if (issues.length > 3) {
-                console.log(`         ... and ${issues.length - 3} more occurrences`);
-            }
-        });
-        if (Object.keys(byParamId).length > 10) {
-            console.log(`      ... and ${Object.keys(byParamId).length - 10} more parameter types`);
-        }
-        console.log(``);
+        console.log(`   🔍 Unmapped known parameters: ⚠️  ${unmappedKnownParams.length} instances`);
     }
-    
     if (displayedAsUnknown.length > 0) {
-        console.log(`   ⚠️  ${displayedAsUnknown.length} items displayed as "Unknown Parameter" or "Unknown Trait":`);
-        displayedAsUnknown.slice(0, 10).forEach(issue => {
-            console.log(`      - ${issue.sourceType} #${issue.sourceId} (${issue.sourceName}) - ${issue.location}`);
-            if (issue.code !== undefined) console.log(`        Code: ${issue.code}, Data ID: ${issue.dataId}, Value: ${issue.value}`);
-        });
-        if (displayedAsUnknown.length > 10) {
-            console.log(`      ... and ${displayedAsUnknown.length - 10} more items`);
-        }
-        console.log(``);
+        console.log(`   🔍 Displayed as unknown: ⚠️  ${displayedAsUnknown.length} instances`);
     }
-    
     if (unknownTraitCodes.length > 0) {
-        // Group by trait code
-        const byTraitCode = {};
-        unknownTraitCodes.forEach(issue => {
-            const code = issue.code;
-            if (!byTraitCode[code]) byTraitCode[code] = [];
-            byTraitCode[code].push(issue);
-        });
-        
-        console.log(`   ⚠️  ${unknownTraitCodes.length} unknown trait codes (${Object.keys(byTraitCode).length} unique codes):`);
-        Object.entries(byTraitCode).slice(0, 10).forEach(([code, issues]) => {
-            console.log(`      Code ${code}: ${issues.length} occurrences`);
-            issues.slice(0, 2).forEach(issue => {
-                console.log(`         - ${issue.sourceType} #${issue.sourceId} (${issue.sourceName})`);
-            });
-        });
-        if (Object.keys(byTraitCode).length > 10) {
-            console.log(`      ... and ${Object.keys(byTraitCode).length - 10} more trait codes`);
-        }
-        console.log(``);
+        console.log(`   🔍 Unknown trait codes: ⚠️  ${unknownTraitCodes.length} instances`);
     }
-    
     if (unknownParams.length > 0) {
-        // Group by parameter ID
-        const byParamId = {};
-        unknownParams.forEach(issue => {
-            const paramId = issue.dataId;
-            if (!byParamId[paramId]) byParamId[paramId] = [];
-            byParamId[paramId].push(issue);
-        });
-        
-        console.log(`   ⚠️  ${unknownParams.length} completely unknown parameters (${Object.keys(byParamId).length} unique):`);
-        Object.entries(byParamId).slice(0, 10).forEach(([paramId, issues]) => {
-            console.log(`      Parameter ${paramId}: ${issues.length} occurrences`);
-            issues.slice(0, 2).forEach(issue => {
-                console.log(`         - ${issue.sourceType} #${issue.sourceId} (${issue.sourceName}) - Code: ${issue.code}`);
-            });
-        });
-        if (Object.keys(byParamId).length > 10) {
-            console.log(`      ... and ${Object.keys(byParamId).length - 10} more parameter IDs`);
-        }
-        console.log(``);
+        console.log(`   🔍 Completely unknown parameters: ⚠️  ${unknownParams.length} instances`);
     }
-    
-    // Summary by data type
-    const byDataType = {};
-    detectedInferredData.forEach(issue => {
-        if (!byDataType[issue.sourceType]) byDataType[issue.sourceType] = 0;
-        byDataType[issue.sourceType]++;
-    });
-    
-    console.log(`   Summary by data type:`);
-    Object.entries(byDataType).forEach(([type, count]) => {
-        console.log(`      ${type}: ${count} issues`);
-    });
 } else {
     console.log(`   ✅ 0 instances of inferred data without basis`);
+}
+
+// Ignored Data ID/Value Detection (independent section)
+// This detects when traits show a code name (e.g., "Ex-Parameter") but ignore dataId and value
+const ignoredDataIdValue = detectedInferredData.filter(i => i.type === 'ignored_data_id_value');
+console.log(`\n🔍 Ignored Data ID/Value:`);
+if (ignoredDataIdValue.length > 0) {
+    console.log(`   ⚠️  ${ignoredDataIdValue.length} instances`);
+    
+    // Detailed report (only shown with --report-ignored flag)
+    // Use --report-ignored-full for complete detailed output
+    if (process.argv.includes('--report-ignored') || process.argv.includes('--detailed-ignored')) {
+        const showFullDetails = process.argv.includes('--report-ignored-full') || process.argv.includes('--full');
+        
+        console.log(`\n${'='.repeat(80)}`);
+        console.log(`IGNORED DATA ID/VALUE - ${showFullDetails ? 'FULL DETAILED' : 'SUMMARY'} REPORT`);
+        console.log('='.repeat(80));
+        
+        // Group by source type
+        const bySourceType = {};
+        ignoredDataIdValue.forEach(issue => {
+            if (!bySourceType[issue.sourceType]) {
+                bySourceType[issue.sourceType] = [];
+            }
+            bySourceType[issue.sourceType].push(issue);
+        });
+        
+        // Group by code/codeName
+        const byCode = {};
+        ignoredDataIdValue.forEach(issue => {
+            const key = `${issue.code} (${issue.codeName})`;
+            if (!byCode[key]) {
+                byCode[key] = [];
+            }
+            byCode[key].push(issue);
+        });
+        
+        // Display summary by source type
+        console.log('\n📊 Summary by Source Type:');
+        Object.entries(bySourceType)
+            .sort((a, b) => b[1].length - a[1].length)
+            .forEach(([sourceType, issues]) => {
+                console.log(`   ${sourceType}: ${issues.length} instances`);
+            });
+        
+        // Display summary by trait code (top 10)
+        console.log('\n📊 Summary by Trait Code (Top 10):');
+        Object.entries(byCode)
+            .sort((a, b) => b[1].length - a[1].length)
+            .slice(0, 10)
+            .forEach(([codeName, issues]) => {
+                console.log(`   ${codeName}: ${issues.length} instances`);
+            });
+        if (Object.keys(byCode).length > 10) {
+            console.log(`   ... and ${Object.keys(byCode).length - 10} more trait codes`);
+        }
+        
+        // Display statistics
+        console.log('\n📈 Statistics:');
+        console.log('─'.repeat(80));
+        
+        // Count by reason type
+        const byReason = {};
+        ignoredDataIdValue.forEach(issue => {
+            const reason = issue.message || 'Unknown reason';
+            const reasonType = reason.split(':')[0]; // Get first part before colon
+            if (!byReason[reasonType]) {
+                byReason[reasonType] = 0;
+            }
+            byReason[reasonType]++;
+        });
+        
+        console.log('\nBy Reason Type:');
+        Object.entries(byReason)
+            .sort((a, b) => b[1] - a[1])
+            .forEach(([reason, count]) => {
+                console.log(`   ${reason}: ${count} instances`);
+            });
+        
+        // Count unique dataIds
+        const uniqueDataIds = new Set();
+        ignoredDataIdValue.forEach(issue => {
+            if (issue.dataId !== undefined && issue.dataId !== null) {
+                uniqueDataIds.add(issue.dataId);
+            }
+        });
+        
+        // Count unique values
+        const uniqueValues = new Set();
+        ignoredDataIdValue.forEach(issue => {
+            if (issue.value !== undefined && issue.value !== null) {
+                uniqueValues.add(issue.value);
+            }
+        });
+        
+        console.log(`\nUnique Data IDs: ${uniqueDataIds.size}`);
+        console.log(`Unique Values: ${uniqueValues.size}`);
+        
+        // Show most common dataIds (top 10)
+        const dataIdCounts = {};
+        ignoredDataIdValue.forEach(issue => {
+            if (issue.dataId !== undefined && issue.dataId !== null) {
+                if (!dataIdCounts[issue.dataId]) {
+                    dataIdCounts[issue.dataId] = 0;
+                }
+                dataIdCounts[issue.dataId]++;
+            }
+        });
+        
+        console.log('\nMost Common Data IDs (Top 10):');
+        Object.entries(dataIdCounts)
+            .sort((a, b) => b[1] - a[1])
+            .slice(0, 10)
+            .forEach(([dataId, count]) => {
+                console.log(`   Data ID ${dataId}: ${count} instances`);
+            });
+        
+        // Show sample items per source type (top 5 sources, top 3 items each)
+        console.log('\n📋 Sample Items (Top 5 Sources, 3 items each):');
+        console.log('─'.repeat(80));
+        
+        Object.entries(bySourceType)
+            .sort((a, b) => b[1].length - a[1].length)
+            .slice(0, 5)
+            .forEach(([sourceType, issues]) => {
+                console.log(`\n${sourceType.toUpperCase()} (${issues.length} total instances):`);
+                
+                // Group by source ID
+                const bySourceId = {};
+                issues.forEach(issue => {
+                    const key = `${issue.sourceId} - ${issue.sourceName}`;
+                    if (!bySourceId[key]) {
+                        bySourceId[key] = [];
+                    }
+                    bySourceId[key].push(issue);
+                });
+                
+                // Show top 3 source IDs with most issues
+                Object.entries(bySourceId)
+                    .sort((a, b) => b[1].length - a[1].length)
+                    .slice(0, 3)
+                    .forEach(([sourceKey, sourceIssues]) => {
+                        const [sourceId, sourceName] = sourceKey.split(' - ');
+                        console.log(`  ${sourceType} #${sourceId} (${sourceName}) - ${sourceIssues.length} traits:`);
+                        
+                        // Show first 3 traits
+                        sourceIssues.slice(0, 3).forEach((issue, idx) => {
+                            const dataInfo = [];
+                            if (issue.dataId !== undefined && issue.dataId !== null) dataInfo.push(`dataId:${issue.dataId}`);
+                            if (issue.value !== undefined && issue.value !== null) dataInfo.push(`value:${issue.value}`);
+                            console.log(`    - Trait #${issue.traitIndex || 'N/A'}: ${issue.codeName} (${dataInfo.join(', ')})`);
+                        });
+                        if (sourceIssues.length > 3) {
+                            console.log(`    ... and ${sourceIssues.length - 3} more traits`);
+                        }
+                    });
+                
+                if (Object.keys(bySourceId).length > 3) {
+                    console.log(`  ... and ${Object.keys(bySourceId).length - 3} more ${sourceType} items`);
+                }
+            });
+        
+        // Full detailed report (only if --report-ignored-full flag is used)
+        if (showFullDetails) {
+            console.log(`\n${'='.repeat(80)}`);
+            console.log('FULL DETAILED REPORT BY SOURCE TYPE');
+            console.log('='.repeat(80));
+            
+            Object.entries(bySourceType)
+                .sort((a, b) => b[1].length - a[1].length)
+                .forEach(([sourceType, issues]) => {
+                    console.log(`\n${'='.repeat(80)}`);
+                    console.log(`${sourceType.toUpperCase()} (${issues.length} instances)`);
+                    console.log('='.repeat(80));
+                    
+                    // Group by source ID for better organization
+                    const bySourceId = {};
+                    issues.forEach(issue => {
+                        const key = `${issue.sourceId} - ${issue.sourceName}`;
+                        if (!bySourceId[key]) {
+                            bySourceId[key] = [];
+                        }
+                        bySourceId[key].push(issue);
+                    });
+                    
+                    Object.entries(bySourceId)
+                        .sort((a, b) => {
+                            // Sort by source ID (numeric)
+                            const idA = parseInt(a[0].split(' - ')[0]);
+                            const idB = parseInt(b[0].split(' - ')[0]);
+                            return idA - idB;
+                        })
+                        .forEach(([sourceKey, sourceIssues]) => {
+                            const [sourceId, sourceName] = sourceKey.split(' - ');
+                            console.log(`\n  ${sourceType} #${sourceId} (${sourceName}):`);
+                            console.log(`  ${'-'.repeat(76)}`);
+                            
+                            sourceIssues.forEach((issue, idx) => {
+                                console.log(`    ${idx + 1}. Trait #${issue.traitIndex !== undefined ? issue.traitIndex : 'N/A'}`);
+                                console.log(`       Code: ${issue.code !== undefined ? issue.code : 'N/A'} (${issue.codeName || 'Unknown'})`);
+                                if (issue.dataId !== undefined && issue.dataId !== null) {
+                                    console.log(`       Data ID: ${issue.dataId}`);
+                                }
+                                if (issue.value !== undefined && issue.value !== null) {
+                                    console.log(`       Value: ${issue.value}`);
+                                }
+                                console.log(`       Description: ${issue.description || '(empty)'}`);
+                                console.log(`       Reason: ${issue.message || 'Data ignored'}`);
+                                console.log(`       Location: ${issue.location || 'N/A'}`);
+                                if (idx < sourceIssues.length - 1) {
+                                    console.log('');
+                                }
+                            });
+                        });
+                });
+        } else {
+            console.log(`\n💡 Tip: Use --report-ignored-full for complete detailed output`);
+        }
+        
+        console.log('\n' + '='.repeat(80));
+    }
+} else {
+    console.log(`   ✅ 0 instances`);
 }
 
 // Generate data.js file for client-side use

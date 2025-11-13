@@ -1,0 +1,194 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Item Settings</title>
+<link href="../style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<h1><a name="key_item">Item Settings</a></h1>
+
+<h2>Data Role</h2>
+<p>Item data is for defining  items other than equipment. It allows you to define the effect that an item has when an actor uses it. It can also be used to create articles that can change the game's story (event details), such as a key to a door.</p>
+
+<h2>Available Settings</h2>
+
+<div align="center"><img src="img/3240_01.png" alt="Items"></div>
+<dl>
+<dt>Name</dt>
+<dd><p>The name of item you are setting. If the name you enter is too long, the entire string may not fit onscreen.</p></dd>
+
+<dt>Icon</dt>
+<dd><p>The icon that displays along with the item name during the game. Double-clicking it displays the <B>Icon </B> window where you can specify an image. </p></dd>
+
+<dt>Description</dt>
+<dd><p>Descriptive text that appears when the player selects the item on the game screen.</p></dd>
+
+<dt>Item Type</dt>
+<dd><p>The type of item you are setting. Setting <B>Key Item</B> displays the item in a different type of frame than normal in the item list that appears in the menu while playing the game.</p></dd>
+
+<dt>Price</dt>
+<dd><p>The item's price when purchased at a shop. The player can sell the item for half this price. Setting &quot;0&quot; prevents the item from being sold.</p></dd>
+
+<dt>Consume</dt>
+<dd><p>Set whether or not the item disappears after use. Setting <B>Yes</B> means the quantity of the item the player has decreases by one when used.</p></dd>
+
+<dt>Scope</dt>
+<dd><p>The target(s) affected when the item is used. Specify one of the following:</p></dd>
+</dl>
+
+<dl><dd><dl>
+<dt>None</dt>
+<dd><p>The item does not require you to specify an area-of-effect.</p></dd>
+
+<dt>One Enemy</dt>
+<dd><p>Affects one specific enemy.</p></dd>
+
+<dt>All Enemies</dt>
+<dd><p>Affects the entire enemy troop.</p></dd>
+
+<dt>x Random Enemies</dt>
+<dd><p>Affects several randomly selected enemies (x is the number of targets).</p></dd>
+
+<dt>One Ally</dt>
+<dd><p>Affects one specific ally.</p></dd>
+
+<dt>All Allies</dt>
+<dd><p>Affects the entire ally group.</p></dd>
+
+<dt>x Random Allies</dt>
+<dd><p>Affects several randomly selected allies (x is the number of targets).</p></dd>
+
+<dt>The User</dt>
+<dd><p>Affects the user only.</p></dd>
+</dl></dd></dl>
+
+<dl>
+<dt>Occasion</dt>
+<dd>
+  <p>Select the occasions when the item can be used. Specify <B>Always </B> (always available during battle and on the menu), <B>Only in battle</B> (only available during battle), <B>Only from the menu</B> (only available on the menu), or <B>Never</B>.</p>
+</dd>
+  
+<dt>Speed</dt>
+<dd>
+  <p>The value (-2000 to 2000) added to the character's agility when using the item. This affects attack order in battle and allows you to create items that are powerful but take a long time to use or items that are weaker but can be quickly used.</p>
+</dd>
+
+<dt>Success Rate</dt>
+<dd><p>The rate (0 to 100%) at which the use of this item succeeds. The actual success rate is affected by the item's effectiveness against the target.</p></dd>
+
+<dt>Repeats</dt>
+<dd><p>The number of times (1 to 9) the effect of the item is applied to the target per use.</p></dd>
+
+<dt>TP Gain</dt>
+<dd><p>The number of TP that will be gained by successfully using the item and having an effect on the target.</p></dd>
+
+<dt>Hit Type</dt>
+<dd><p>The method for determining a hit. </p></dd>
+</dl>
+
+<dl><dd><dl>
+<dt>Certain Hit</dt>
+<dd><p>Treats a successful use of the item as a hit.</p></dd>
+
+<dt>Physical Attack</dt>
+<dd><p>Determines hits based on the user's hit rate and target's evasion rate. This method is subject to counterattacks and substitution.</p></dd>
+
+<dt>Magical Attack</dt>
+<dd><p>Determines hits based on the target's magic evasion rate. This method is subject to magic reflection and substitution.</p></dd>
+</dl></dd></dl>
+
+<dl>
+<dt>Animation</dt>
+<dd><p>The animation displayed for the target when using the item in battle.</p></dd>
+
+<dt>Type</dt>
+<dd>
+  <p>The effect type on HP/MP. Specify one of the six available types. <B>Damage</B> reduces HP/MP, <B>Recover</B> raises HP/MP, <B>Drain</B> transfers HP/MP from target to user (the amount drained will be subtracted from the target and added to the user).</p>
+</dd>
+
+<dt>Element</dt>
+<dd><p>The element applied to the effect.</p></dd>
+
+<dt>Damage</dt>
+<dd>
+  <p>To have the item deal damage to the target, specify the type of damage and the formula for calculating the amount of damage.</p>
+</dd>
+
+<dl><dd><dl>
+
+<dt>Type</dt>
+<dd><p>The effect type on HP/MP. Specify one of the six available types. <B>Damage</B> reduces HP/MP, <B>Recover</B> raises HP/MP, <B>Drain</B> transfers HP/MP from target to user (the amount drained will be subtracted from the target and added to the user).</p></dd>
+
+<dt>Element</dt>
+<dd><p>The element applied to the effect.</p></dd>
+
+<dt>Formula</dt>
+<dd><p>The formula for calculating damage.</p>
+<p>To directly enter a formula, use the character strings shown in the table below to specify parameters you want to look up.  To look up the attacker's parameters change &quot;x&quot; to &quot;a&quot;, and to look up the target's parameters, change &quot;x&quot; to &quot;b&quot;. The string &quot;a.atk&quot; looks up the attacker's ATK parameter. You can also use &quot;v[n]&quot; (n is a numeric value) to look up the value of the nth variable. You can use the four arithmetic operators (+, -, *, and /) in your formulas.</p>
+<p>Entering &quot;a.atk * 4 - b.def * 2&quot; specifies that the damage dealt will be the value calculated by (attacker's ATK &times; 4) - (target's DEF &times; 2).
+<p>Note that you can also create a formula by clicking the <B>Easy Create</B> button. In the dialog box that appears, specify the basic value for the calculation in <B>Base Value</B>, the degree of effect (0 to 1000/100 is standard) the user's ATK and the target's DEF have in <B>Physical</B>, and the degree of effect (0 to 1000/100 is standard) the user's MAT and the target's MDF have in <B>Magical</B>, and then click the <B>OK</B> button.</p>
+<p>The effects of elements and defense actions are reflected elsewhere, and are therefore not included in this formula.</p>
+
+<table class="sys" border="1" cellspacing="0" cellpadding="4">
+<tr>
+ <th>x.atk</th>
+ <td>Attack power</td>
+</tr><tr>
+ <th>x.def</th>
+ <td>Defense power</td>
+</tr><tr>
+ <th>x.mat</th>
+ <td>Magic attack</td>
+</tr><tr>
+ <th>x.mdf</th>
+ <td>Magic defense</td>
+</tr><tr>
+ <th>x.agi</th>
+ <td>Agility</td>
+</tr><tr>
+ <th>x.agi</th>
+ <td>Agility</td>
+</tr><tr>
+ <th>x.luk</th>
+ <td>Luck</td>
+</tr><tr>
+ <th>x.mhp</th>
+ <td>Max HP</td>
+</tr><tr>
+ <th>x.mmp</th>
+ <td>Max MP</td>
+</tr><tr>
+ <th>x.hp</th>
+ <td>Current HP</td>
+</tr><tr>
+ <th>x.mp</th>
+ <td>Current MP</td>
+</tr><tr>
+ <th>x.tp</th>
+ <td>Current TP</td>
+</tr><tr>
+ <th>x.level</th>
+ <td>Level</td>
+</tr></table>
+</dd>
+
+<dt>Variance</dt>
+<dd><p>The degree of variability (0 to 100%). The value of the calculated damage will vary by the percentage value you specify here. For example, if damage was calculated to be 100 and variance is set to 20, the final damage will be between 80 and 120 (100 &plusmn;20).</p></dd>
+
+<dt>Critical</dt>
+<dd><p>Specify whether to enable critical hits by selecting <B>Yes</B> or <B>No</B>. When you select <B>Yes</B>, critical hits will be determined based on the user's critical rate and the target's critical avoidance rate.</p></dd>
+
+</dl></dd></dl>
+
+<dt>Effects</dt>
+<dd>
+  <p>Effects other than damage. Double-clicking the field displays the <B>Effects</B> dialog box. See <a href="3420_db_effect.html">Setting Effects</a> for more information.</p>
+</dd>
+</dl>
+
+<h6></h6>
+</body>
+</html>

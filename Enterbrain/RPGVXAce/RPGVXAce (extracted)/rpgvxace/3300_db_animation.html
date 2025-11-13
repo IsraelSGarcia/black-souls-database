@@ -1,0 +1,134 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Animation Settings </title>
+<link href="../style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<h1><a name="key_animation">Animation Settings</a></h1>
+
+<h2>Data Role</h2>
+
+<p>Animation data is for displaying attacks on enemy characters on the battle screen and for visual representations that can be played back on the map screen and other places. They are created by placing image patterns (cells) in frames.</p>
+
+<h2>Available Settings</h2>
+
+<div align="center"><img src="img/3300_01.png" alt="Animations"></div>
+<dl><dt>Name</dt>
+<dd><p>The name of the animation. This setting is only used by the editor and has no impact on game play. </p></dd>
+<dt>Graphic</dt>
+<dd><p>The graphic files (maximum of two) used in creating the animation. Click the <B>...</B> button in the boxes to display the <B>Animation Graphics</B> dialog box in which you can specify the file you want to use. When specifying a file, you can use the <B>Hue</B> slider to adjust the graphic's hue. When you specify a file, a pattern image will be displayed in the <B>Pattern Palette</B>.</p></dd>
+<dt>Position</dt>
+<dd><p>Specify the animation's display position. <B>Head</B>, <B>Center</B>, and <B>Feet</B> specify the top, middle, and bottom of the target character, respectively. Specifying <B>Screen</B> displays the animation over the entire screen. Note that when the scope of a skill or item that uses this animation is all targets, animations set to <B>Head</B>, <B>Center</B>, or <B>Feet</B> are displayed for each character.</p></dd>
+<dt>Max #</dt>
+<dd><p>Sets the number of frames (1 to 200) for the entire animation. Click the <B>...</B> button and specify a value in the dialog box that appears. The number of frames specified here will be displayed in the frame list. Reducing the number of frames will delete frames beyond the specified number.</p></dd>
+<dt>SE and Flash Timing</dt>
+<dd>
+  <p>Set the sound effects and screen flash colors used in the specified frame during the animation. In the <B>SE and Flash Timing</B> dialog box that appears when you double-click a row in the list (or a blank row to create a new setting), specify the items shown below.</p>
+  <p>  Right-clicking a list item displays a shortcut menu containing the <B>Edit</B>, <B>Cut</B>, <B>Copy</B> and <B>Delete</B> commands.</p></dd>
+</dl>
+  
+<dl><dd><dl>
+<dt>Frame</dt>
+<dd><p>Specify the frame number subject to processing.</p></dd>
+<dt>SE</dt>
+<dd><p>Specify the sound effect to play back.</p></dd>
+<dt>Flash</dt>
+<dd>
+  <p>Specifies the type of flash processing. Specify <B>Target</B> to make a character flash or <B>Screen</B> to make the entire screen flash. Specify the flash color using the  <B>Red</B>, <B>Green</B>, and <B>Blue</B> controls and the flash transparency using the <B>Strength</B> control (1 to 255 for all four controls). For <B>Duration</B>, specify the playback time in frames (1 to 200). <B>Hide Target</B> temporarily hides the target character when you want to display a full-body character animation or other such situations.</p>
+</dd>
+</dl></dd></dl>
+
+<dl>
+<dt>Frame List</dt>
+<dd>
+  <p>A list of frames within the animation. The frame number selected by clicking will be edited and is displayed in frame view on the right. Use the <B>Back</B> and <B>Next</B> buttons at the top and bottom of the list to move to the frame you want to edit. And in the shortcut menu that appears when you right-click a frame number, you can select the commands <B>Copy</B>, <B>Paste</B>, <B>Clear</B>, <B>Insert</B>, and <B>Delete</B> per frame.</p>
+</dd>
+<dt>Frame View</dt>
+<dd><p>Shows a preview of the frame. You can set the display content by placing a pattern palette image here as a cell. The green square represents the game window's display area.</p>
+<p>See &quot;Frame View Controls&quot; below for more information on editing frames.</p></dd>
+<dt>Change Target</dt>
+<dd><p>Changes the graphic for the enemy character currently displayed in frame view. This setting is only used by the editor and has no impact on game play. </p></dd>
+<dt>Paste Last</dt>
+<dd><p>Pastes the cell placed on the previous frame onto the frame currently being edited.</p></dd>
+<dt>Copy Frames</dt>
+<dd><p>Copies the specified range of frames all at once. Specify the starting and ending number of the target frames and to the right of <B>to</B>, specify the frame number of the copy destination.</p></dd>
+<dt>Clear Frames</dt>
+<dd><p>Clears the specified range of frames all at once. Specify the starting and ending number of the target frames.</p></dd>
+<dt>Tweening</dt>
+<dd><p>Automatically tweens the frames between two frames for smoother animation. In <B>Frames</B> and <B>Cells</B>, specify the range of frames and cells subject to tweening, in <B>Tweening Items</B>, select the items to tween, and then click the <B>OK</B> button. For example, if you were to tween frames 1 to 10 targeting the position with frame 1 at the left end and frame 10 at the right end, cells that shift position from left to right would be automatically set in frames 2 through 9.</p></dd>
+<dt>Cell Batch</dt>
+<dd><p>Changes the cells in the specified range of frames to the same settings. In <B>Frames</B> and <B>Cells</B>, specify the range of frames and cells to set, select the items to set, and then specify values for each setting.</p></dd>
+<dt>Entire Slide</dt>
+<dd><p>Moves the cells in the specified range of frames all at once. In <B>Frames</B>, specify the starting and ending number of the target frames, and in <B>X</B> and <B>Y</B> of <B>Movement Amount</B>, specify the movement distance in each direction in pixels. To move to the left or upwards, specify a negative value in <B>X</B> and <B>Y</B>.</p></dd>
+<dt>Play</dt>
+<dd><p>Clicking this button plays the animation you are creating.</p></dd>
+<dt>Pattern Palette</dt>
+<dd>
+  <p>Displays the pattern image in the file specified by <B>Graphic</B>. Clicking a pattern selects it to be placed in the frame. Patterns are numbered starting from 1 on the upper left of the palette, and numbers (pattern numbers) are assigned in order from left to right.</p>
+</dd>
+</dl>
+
+<h2><a name="key_animation_frameview">Frame View Controls</a></h2>
+
+<img src="img/3300_02.png" alt="Frame View Controls" class="float_r">
+<dl>
+<dt>Cell Placement</dt>
+<dd>
+  <p>Use the <B>Pattern Palette</B> to select the image to place in the frame and then click on an empty part of the frame editing area. A cell with the image will be placed. You can place up to sixteen cells in one frame.</p>
+</dd>
+<dt>Display</dt>
+<dd><p>Borders and numbers are displayed for each cell. A white border means the cell is selected, red means it has been placed, and blue means it was placed in the previous frame. The numbers indicate cell priority, with the higher number being closer to the front. </p></dd>
+<dt>Selecting a Cell to Edit</dt>
+<dd><p>Clicking a cell turns its border white, indicating that it has been selected to be edited. Lower-number cells that have other cells over them can be selected by holding down the <B>Ctrl</B> key while clicking.</p></dd>
+<dt>Cell Movement</dt>
+<dd><p>Move cells by dragging them. Normally, you can drag them in eight-pixel increments, but hold down the <B>Alt</B> key if you want to drag them in two-pixel increments. The position of the currently selected cell is displayed as coordinates at the bottom right of the frame editing area. The x and y coordinates for the center of the screen are (0, 0), and the x axis ranges between -272 to 272, while the y axis ranges between -208 and 208.</p></dd>
+<dt>Shortcut Menu Operations</dt>
+<dd><p>Right-clicking a cell displays the shortcut menu in which you can execute the commands described below. The <B>Cell Settings</B> dialog box can be opened by double-clicking a cell.</p></dd>
+</dl>
+
+<dl><dd><dl>
+<dt>Shortcut Menu Commands</dt>
+
+<dt>Set</dt>
+<dd><p>Opens the <B>Cell Settings</B> dialog box. (details below)</p></dd>
+<dt>Undo</dt>
+<dd><p>Undoes the previous operation and reverts to the previous state. You can undo up to eight previous operations.</p></dd>
+<dt>Redo</dt>
+<dd><p>Reverses the result of the <B>Undo</B> command.</p></dd>
+<dt>Cut</dt>
+<dd><p>Copies the selected cell  to the clipboard and deletes the original selection.</p></dd>
+<dt>Copy</dt>
+<dd><p>Copies the selected cell to the clipboard.</p></dd>
+<dt>Paste</dt>
+<dd><p>Places the cell that is currently in the clipboard.</p></dd>
+<dt>Delete</dt>
+<dd><p>Deletes the currently selected cell.</p></dd>
+<dt>Up/Down</dt>
+<dd><p>Changes the display priority (forward/back) of the cell.</p></dd>
+
+<dt>Cell Settings Dialog Box</dt>
+
+<dt>Pattern</dt>
+<dd><p>The number of the pattern. Changing a number changes the pattern to the corresponding number.</p></dd>
+<dt>X/Y</dt>
+<dd><p>The cell's display position. Specify -272 to 272 for the x axis and -208 to 208 for the y axis.</p></dd>
+<dt>Zoom</dt>
+<dd><p>The cell's zoom rate. Specify a zoom rate that is between 20% and 800% of the original image size.</p></dd>
+<dt>Angle</dt>
+<dd><p>The cell's angle of rotation (1 to 360 degrees). The cell will be displayed rotated clockwise by the angle you specify. Note that over use of this command will cause game processing to slow down.</p></dd>
+<dt>Flip</dt>
+<dd><p>Setting <B>Yes</B> will flip the cell pattern horizontally.</p></dd>
+<dt>Opacity</dt>
+<dd><p>The cell's opacity (0 to 255). The lower the value, the greater the transparency. Setting &quot;0&quot; renders the cell invisible.</p></dd>
+<dt>Blending</dt>
+<dd><p>Specifies how to blend colors when one cell overlaps another. <B>Normal</B> is the standard method, <B>Additive</B> results in a lighter color, and <B>Subtractive</B> results in a darker color.</p></dd>
+
+</dl></dd></dl>
+
+<h6></h6>
+</body>
+</html>

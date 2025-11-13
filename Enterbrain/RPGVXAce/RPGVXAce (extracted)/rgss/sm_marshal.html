@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<title>Marshal</title>
+<link href="../style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+<h1>Marshal</h1>
+<p>A module providing the functionality for writing a Ruby object to and reading it
+from a file (or string).</p>
+
+<h2>Module Functions</h2>
+<dl>
+<dt>Marshal.dump(<var>obj</var>[, <var>port</var>][, <var>limit</var>])</dt>
+<dd>
+<p>Writes <var>obj</var> to a file recursively.</p>
+<p>Some objects may not be writeable to a file, such as in instances of
+<a href="sc_file.html">File</a> or <a href="c_matchdata.html">MatchData</a>, or
+with objects that define unusual methods. When attempting to write such objects to a file,
+a <a href="s_exceptions.html#TypeError">TypeError</a> will occur.</p>
+<p><var>port</var> specifies an instance of IO (or a subclass). In this case,
+returns <var>port</var>. When omitted, dump returns the object's dump as a string.</p>
+<p>When <var>limit</var> is specified, no objects linked at or deeper
+than <var>limit</var> can be dumped (The default is 100 levels.)
+When limit is negative, no depth checking is performed.</p></dd>
+<dt>Marshal.load(<var>port</var>)</dt>
+<dd>
+<p>Reads marshal data from <var>port</var> (i.e., the string output from Marshal.dump)
+and creates an object with the same state as the original object.
+<var>port</var> specifies a string or an instance of IO (or a subclass).</p></dd>
+</dl>
+
+<h6></h6>
+</body>
+</html>

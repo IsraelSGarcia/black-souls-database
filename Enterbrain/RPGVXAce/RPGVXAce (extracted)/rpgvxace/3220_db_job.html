@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Class Settings</title>
+<link href="../style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<h1><a name="key_job">Class Settings</a></h1>
+
+<h2>Data Role</h2>
+
+<p>Class data defines the features and abilities of actors. Actors must belong to one of the available classes. The way they level up, how their parameters rise, the skills they can learn, and so on are determined by these settings. You can also assign class-specific features.</p>
+
+<h2>Available Settings</h2>
+
+<div align="center"><img src="img/3220_01.png" alt="Classes"></div>
+<dl>
+<dt>Name</dt>
+<dd><p>The name of the class. This text is displayed on the menu screen and at the top of the actor's status list screen while playing the game.</p></dd>
+
+<dt>EXP Curve</dt>
+<dd>
+<img src="img/3220_02.png" alt="EXP Curve" class="float_r">
+<p>This setting is for the experience points required to level up. Actors gain one level each time they earn the amount of experience required for the next level. Leveling up raises parameters and enables the learning of skills. </p>
+<p>Set the experience points required for leveling up by setting the following four values in the dialog box that appears when you click <B>...</B> in the setting field. The <B>To Next Level</B> tab displays the experience points required to reach the next level along with a graph in the background. Use this information to help you make your settings. The <B>Total</B> tab displays the experience point totals for attaining each level.</p><br>
+</dd>
+</dl>
+  
+<dl><dd><dl>
+<dt>Base Value</dt>
+<dd><p>Sets the base value for calculating the required experience points. Setting a smaller value reduces the required experience points overall.</p></dd>
+
+<dt>Extra Value</dt>
+<dd><p>Sets an extra value to add to the experience points necessary for each level.</p></dd>
+
+<dt>Acceleration A</dt>
+<dd><p>Adjusts the degree of acceleration for the required experience points. Setting a larger value proportionally increases the required experience points as levels increase.</p></dd>
+
+<dt>Acceleration B</dt>
+<dd><p>Adjusts the degree of acceleration for the required experience points. Setting a larger value increases the required experience points mainly at higher levels.</p></dd>
+</dl></dd></dl>
+
+<dl>
+<dt>Parameter Curves</dt>
+<dd><p>Sets parameters by level. Double-clicking a graph displays the <B>Parameter Curves</B>. See <a href="#status_setting">Setting Parameter Curves</a> for more information.</p>
+</dd>
+
+<dt>Skills</dt>
+<dd><p>Sets the skills that can be learned by leveling up. Double clicking the field displays a dialog box for specifying skills and the level at which they can be learned. <B>Memo</B> is for writing notes while creating your game.</p></dd>
+
+<dt>Features</dt>
+<dd>
+  <p>The features given to the actors for which this class is set are displayed here. See <a href="3410_db_feature.html">Setting Features</a> for more information.</p>
+</dd>
+</dl>
+
+<h2><a name="status_setting">Setting Parameter Curves</a></h2>
+<img src="img/3220_03.png" alt="Parameter Curves" class="float_r">
+<p>In the <B>Parameter Curves</B> dialog box, specify parameters per level using the settings described below. Switch between the parameters you want to edit by clicking on their tabs. When you are done editing parameters, click the <B>OK</B> button to apply your settings (clicking <B>Cancel</B> will discard the settings you made).</p><br>
+
+<dl>
+<dt>Quick Setting</dt>
+<dd><p>Applies a predetermined value to the parameters for all levels. There are five value patterns (A through E). Apply the one you want by clicking its button.</p></dd>
+
+<dt>Level/Value</dt>
+<dd><p>Directly edit parameters per level. After specifying a level (1 to 99) in the <B>Level</B> box, enter 1 to 999 in the <B>Value</B> box for parameters at the specified level (enter 1 to 9999 for max HP/max MP).</p></dd>
+
+<dt>Generate Curve</dt>
+<dd><p>Automatically calculates the level values between level 1 and level 99.</p>
+<p>Clicking this button displays the <B>Generate Curve</B> dialog box where you enter 1 to 999 in the <B>Level 1</B> and <B>Level 99</B> boxes for the value at each level (enter 1 to 9999 for max HP/max MP).</p>
+<p>Next, determine the growth type using the slider. The closer to <B>Fast</B> the slider is, the faster the growth rate (parameter increase), and the closer to <B>Slow</B> it is, the slower the growth rate. Clicking the <B>OK</B> button sets parameters according to the settings you made.</p></dd>
+
+<dt>Graph</dt>
+<dd><p>Displays a bar graph for the parameters set by level. Clicking/dragging on the display area changes level parameters at that location.</p></dd>
+</dl>
+
+<h6></h6>
+</body>
+</html>

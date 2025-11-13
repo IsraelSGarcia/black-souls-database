@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Common Event Settings</title>
+<link href="../style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<h1><a name="key_commonevent">Common Event Settings</a></h1>
+
+<h2>Data Role</h2>
+
+<p>Common events are events that can be run at any time during the game. Use then to define general processes within the game as a whole, including the monitoring of play status and performing a process when an item or skill is used. The common events you create can be run using the <B>Common Event</B> event command or by flipping a specific switch on.</p>
+
+<h2>Available Settings</h2>
+
+<div align="center"><img src="img/3320_01.png" alt="Common Events"></div>
+<dl>
+<dt>Name</dt>
+<dd><p>The name of the common event. This setting is only used by the editor and has no impact on game play.</p></dd>
+<dt><a name="key_commonevent_trigger">Trigger</a></dt>
+<dd>
+  <p>Specify one of the following triggers for starting the process defined in <B>Contents</B>. Note that <B>Autorun</B> and <B>Parallel</B> are only valid while displaying the map screen.</p>
+</dd>
+</dl>
+
+<dl><dd><dl>
+<dt>None</dt>
+<dd><p>Starts running the defined common event when explicitly called, such as with the <B>Common Event</B> event command.</p></dd>
+<dt>Autorun</dt>
+<dd><p>Starts running the defined common event when a switch specified by <B>Condition Switch</B> flips on.</p></dd>
+<dt>Parallel</dt>
+<dd><p>Starts running the defined common event when a switch specified by <B>Condition Switch</B> flips on, and will repeatedly run it while the switch remains on. </p></dd>
+</dl></dd></dl>
+
+<dl>
+<dt>Condition Switch</dt>
+<dd><p>If the trigger is <B>Autorun</B> or <B>Parallel</B>, specify the switch that will be the signal for starting the common event. If there are multiple common events for which the same switch is specified, the one with the most recent ID number (on the list) will be run.</p></dd>
+
+<dt>Contents</dt>
+<dd><p>Set the event commands to be run by this common event. The editing method is the same as that for <a href="4140_ev_mapevent_setting.html#command_list">Contents</a> defined for map events.</p>
+</dd>
+</dl>
+
+<h2>Notes on Using Autorun and Parallel Triggers</h2>
+
+<p>When the <B>Autorun</B> or <B>Parallel</B> trigger is specified, the common event defined in <B>Contents</B> will repeatedly run while the switch specified in <B>Condition Switch</B> is on. </p>
+<p>To stop this repeated running, the switch must be flipped off. If this is not done, the game may become unresponsive to user input.</p>
+<p>If you find that the game becomes unresponsive during play testing, click the close box (&times;) at the top right corner of the game window or press Alt+F4 to abort the game.</p>
+
+
+<h6></h6>
+</body>
+</html>

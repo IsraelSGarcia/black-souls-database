@@ -1,0 +1,134 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<title>Graphics</title>
+<link href="../style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+<h1>Graphics</h1>
+<p>The module that carries out graphics processing.</p>
+
+<h2>Module Methods</h2>
+<dl>
+
+<dt>Graphics.update</dt>
+<dd>
+<p>Refreshes the game screen and advances time by 1 frame.
+This method must be called at set intervals.</p>
+<pre>
+loop do
+  Graphics.update
+  Input.update
+  do_something
+end
+</pre>
+</dd>
+
+<dt>Graphics.wait(<var>duration</var>)</dt>
+
+<dd>
+<p>Waits for the specified number of frames. Equivalent to the following:</p>
+<pre>
+duration.times do
+  Graphics.update
+end
+</pre>
+</dd>
+
+<dt><a name="fadeout">Graphics.fadeout(<var>duration</var>)</a></dt>
+
+<dd>
+<p>Performs a fade-out of the screen.</p>
+<p><var>duration</var> is the number of frames to spend on the fade-out.</p>
+</dd>
+
+<dt><a name="fadein">Graphics.fadein(<var>duration</var>)</a></dt>
+
+<dd>
+<p>Performs a fade-in of the screen.</p>
+<p><var>duration</var> is the number of frames to spend on the fade-in.</p>
+</dd>
+
+<dt>Graphics.freeze</dt>
+<dd>
+<p>Freezes the current screen in preparation for transitions.</p>
+<p>Screen rewrites are prohibited until the transition method is called.</p></dd>
+
+<dt><a name="transition">Graphics.transition([<var>duration</var>[, <var>filename</var>[, <var>vague</var>]]])</a></dt>
+<dd>
+<p>Carries out a transition from the screen frozen by Graphics.freeze to the current screen.</p>
+<p><var>duration</var> is the number of frames the transition will last.
+The default is 10.</p>
+<p><var>filename</var> specifies the file name of the transition graphic.
+When not specified, a standard fade will be used.
+Also automatically searches files included in <a
+href="rgss.html#rgss_rtp">RGSS-RTP</a> and encrypted archives.
+File extensions may be omitted.</p>
+<p><var>vague</var> sets the ambiguity of the borderline
+between the graphic's starting and ending points.
+The larger the value, the greater the ambiguity. The default is 40.</p></dd>
+
+<dt><a name="snap_to_bitmap">Graphics.snap_to_bitmap</a></dt>
+
+<dd>
+<p>Gets the current game screen image as a bitmap object.</p>
+<p>This reflects the graphics that should be displayed at that point in time,
+without relation to the use of the freeze method.</p>
+<p>The created bitmap must be freed when it is no longer needed.</p></dd>
+
+<dt>Graphics.frame_reset</dt>
+<dd>
+<p>Resets the screen refresh timing. Call this method after a time-consuming process
+to prevent excessive frame skipping.</p></dd>
+
+<dt><a name="width">Graphics.width</a></dt>
+<dt><a name="height">Graphics.height</a></dt><dd>
+<p>Gets the width and height of the game screen.</p>
+<p>These are normally 544 and 416, respectively.</p></dd>
+
+<dt>Graphics.resize_screen(<var>width</var>, <var>height</var>)</dt>
+
+<dd>
+<p>Changes the size of the game screen.</p>
+<p>Specify a value up to 640 &times; 480 for width and height.</p></dd>
+
+<dt><a name="play_movie">Graphics.play_movie(<var>filename</var>)</a>
+<span class="rgss3">(RGSS3)</span></dt>
+<dd>
+<p>Plays the movie specified by <var>filename</var>.</p>
+<p>Returns process after waiting for playback to end.</p>
+</dd>
+
+</dl>
+
+<h2>Module Properties</h2>
+<dl>
+
+<dt><a name="frame_rate">Graphics.frame_rate</a></dt>
+<dd>
+<p>The number of times the screen is refreshed per second.
+The larger the value, the more CPU power is required. Normally set at 60.</p>
+<p>Changing this property is not recommended, but it can be set anywhere from 10 to 120.
+Out-of-range values are automatically corrected.</p></dd>
+
+<dt>Graphics.frame_count</dt>
+<dd>
+<p>The screen's refresh rate count.
+Set this property to 0 at game start and the game play time (in seconds) can be
+calculated by dividing this value by the frame_rate property value.</p></dd>
+
+<dt>Graphics.brightness</dt>
+
+<dd>
+<p>The brightness of the screen. Takes a value from 0 to 255.
+The fadeout, fadein, and transition methods change this value internally,
+as required.</p></dd>
+
+</dl>
+
+<h6></h6>
+</body>
+</html>
