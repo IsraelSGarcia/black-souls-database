@@ -1,0 +1,4 @@
+---
+alwaysApply: true
+---
+Never use `start app/index.html` or similar commands to open HTML files directly in the browser. Always use a proper Node.js HTTP server (e.g., `http-server`, `serve`, or a custom Express server) to serve the application.

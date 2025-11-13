@@ -829,7 +829,8 @@ function resolveIDReferences(text, resolvers, sourceType = null, sourceId = null
     result = result.replace(/Skill\s*#\s*(\d+)/gi, (match, id) => {
         // Skip if this is a self-reference (same skill referencing itself)
         // NOTE: Same-type references are allowed (e.g., Skill A can reference Skill B)
-        if (sourceType === 'skill' && sourceId === parseInt(id)) return match;
+        // Ensure both are compared as numbers to handle type mismatches
+        if (sourceType === 'skill' && Number(sourceId) === Number(id)) return match;
         const name = resolvers.getSkillName(id);
         return name ? `[[SKILL:${id}:${name}]]` : match;
     });
@@ -838,7 +839,8 @@ function resolveIDReferences(text, resolvers, sourceType = null, sourceId = null
     result = result.replace(/State\s*#\s*(\d+)/gi, (match, id) => {
         // Skip if this is a self-reference (same state referencing itself)
         // NOTE: Same-type references are allowed (e.g., State A can reference State B)
-        if (sourceType === 'state' && sourceId === parseInt(id)) return match;
+        // Ensure both are compared as numbers to handle type mismatches
+        if (sourceType === 'state' && Number(sourceId) === Number(id)) return match;
         const name = resolvers.getStateName(id);
         return name ? `[[STATE:${id}:${name}]]` : match;
     });
@@ -846,7 +848,8 @@ function resolveIDReferences(text, resolvers, sourceType = null, sourceId = null
     // Pattern 3: "Weapon #123" or "Weapon # 123"
     result = result.replace(/Weapon\s*#\s*(\d+)/gi, (match, id) => {
         // Skip if this is a self-reference
-        if (sourceType === 'weapon' && sourceId === parseInt(id)) return match;
+        // Ensure both are compared as numbers to handle type mismatches
+        if (sourceType === 'weapon' && Number(sourceId) === Number(id)) return match;
         const name = resolvers.getWeaponName(id);
         return name ? `[[WEAPON:${id}:${name}]]` : match;
     });
@@ -854,7 +857,8 @@ function resolveIDReferences(text, resolvers, sourceType = null, sourceId = null
     // Pattern 4: "Armor #123" or "Armor # 123"
     result = result.replace(/Armor\s*#\s*(\d+)/gi, (match, id) => {
         // Skip if this is a self-reference
-        if (sourceType === 'armor' && sourceId === parseInt(id)) return match;
+        // Ensure both are compared as numbers to handle type mismatches
+        if (sourceType === 'armor' && Number(sourceId) === Number(id)) return match;
         const name = resolvers.getArmorName(id);
         return name ? `[[ARMOR:${id}:${name}]]` : match;
     });
@@ -862,7 +866,8 @@ function resolveIDReferences(text, resolvers, sourceType = null, sourceId = null
     // Pattern 5: "Item #123" or "Item # 123"
     result = result.replace(/Item\s*#\s*(\d+)/gi, (match, id) => {
         // Skip if this is a self-reference
-        if (sourceType === 'item' && sourceId === parseInt(id)) return match;
+        // Ensure both are compared as numbers to handle type mismatches
+        if (sourceType === 'item' && Number(sourceId) === Number(id)) return match;
         const name = resolvers.getItemName(id);
         return name ? `[[ITEM:${id}:${name}]]` : match;
     });
@@ -870,7 +875,8 @@ function resolveIDReferences(text, resolvers, sourceType = null, sourceId = null
     // Pattern 6: "Enemy #123" or "Enemy # 123"
     result = result.replace(/Enemy\s*#\s*(\d+)/gi, (match, id) => {
         // Skip if this is a self-reference
-        if (sourceType === 'enemy' && sourceId === parseInt(id)) return match;
+        // Ensure both are compared as numbers to handle type mismatches
+        if (sourceType === 'enemy' && Number(sourceId) === Number(id)) return match;
         const name = resolvers.getEnemyName(id);
         return name ? `[[ENEMY:${id}:${name}]]` : match;
     });
@@ -883,7 +889,8 @@ function resolveIDReferences(text, resolvers, sourceType = null, sourceId = null
         if (name) {
             // Skip if this is a self-reference (same skill referencing itself)
             // NOTE: Same-type references are allowed (e.g., Skill A can reference Skill B)
-            if (sourceType === 'skill' && sourceId === idNum) return match;
+            // Ensure both are compared as numbers to handle type mismatches
+            if (sourceType === 'skill' && Number(sourceId) === Number(idNum)) return match;
             const before = string[offset - 1];
             const after = match[match.length - 1];
             const open = before === '(' ? '(' : '[';
@@ -893,7 +900,8 @@ function resolveIDReferences(text, resolvers, sourceType = null, sourceId = null
         name = resolvers.getStateName(id);
         if (name) {
             // Skip if this is a self-reference
-            if (sourceType === 'state' && sourceId === idNum) return match;
+            // Ensure both are compared as numbers to handle type mismatches
+            if (sourceType === 'state' && Number(sourceId) === Number(idNum)) return match;
             const before = string[offset - 1];
             const after = match[match.length - 1];
             const open = before === '(' ? '(' : '[';
@@ -903,7 +911,8 @@ function resolveIDReferences(text, resolvers, sourceType = null, sourceId = null
         name = resolvers.getWeaponName(id);
         if (name) {
             // Skip if this is a self-reference
-            if (sourceType === 'weapon' && sourceId === idNum) return match;
+            // Ensure both are compared as numbers to handle type mismatches
+            if (sourceType === 'weapon' && Number(sourceId) === Number(idNum)) return match;
             const before = string[offset - 1];
             const after = match[match.length - 1];
             const open = before === '(' ? '(' : '[';
@@ -913,7 +922,8 @@ function resolveIDReferences(text, resolvers, sourceType = null, sourceId = null
         name = resolvers.getArmorName(id);
         if (name) {
             // Skip if this is a self-reference
-            if (sourceType === 'armor' && sourceId === idNum) return match;
+            // Ensure both are compared as numbers to handle type mismatches
+            if (sourceType === 'armor' && Number(sourceId) === Number(idNum)) return match;
             const before = string[offset - 1];
             const after = match[match.length - 1];
             const open = before === '(' ? '(' : '[';
@@ -923,7 +933,8 @@ function resolveIDReferences(text, resolvers, sourceType = null, sourceId = null
         name = resolvers.getItemName(id);
         if (name) {
             // Skip if this is a self-reference
-            if (sourceType === 'item' && sourceId === idNum) return match;
+            // Ensure both are compared as numbers to handle type mismatches
+            if (sourceType === 'item' && Number(sourceId) === Number(idNum)) return match;
             const before = string[offset - 1];
             const after = match[match.length - 1];
             const open = before === '(' ? '(' : '[';
@@ -933,7 +944,8 @@ function resolveIDReferences(text, resolvers, sourceType = null, sourceId = null
         name = resolvers.getEnemyName(id);
         if (name) {
             // Skip if this is a self-reference
-            if (sourceType === 'enemy' && sourceId === idNum) return match;
+            // Ensure both are compared as numbers to handle type mismatches
+            if (sourceType === 'enemy' && Number(sourceId) === Number(idNum)) return match;
             const before = string[offset - 1];
             const after = match[match.length - 1];
             const open = before === '(' ? '(' : '[';
@@ -961,37 +973,43 @@ function resolveIDReferences(text, resolvers, sourceType = null, sourceId = null
         if (name) {
             // Skip if this is a self-reference (same skill referencing itself)
             // NOTE: Same-type references are allowed (e.g., Skill A can reference Skill B)
-            if (sourceType === 'skill' && sourceId === idNum) return match;
+            // Ensure both are compared as numbers to handle type mismatches
+            if (sourceType === 'skill' && Number(sourceId) === Number(idNum)) return match;
             return `[[SKILL:${id}:${name}]]`;
         }
         name = resolvers.getStateName(id);
         if (name) {
             // Skip if this is a self-reference
-            if (sourceType === 'state' && sourceId === idNum) return match;
+            // Ensure both are compared as numbers to handle type mismatches
+            if (sourceType === 'state' && Number(sourceId) === Number(idNum)) return match;
             return `[[STATE:${id}:${name}]]`;
         }
         name = resolvers.getWeaponName(id);
         if (name) {
             // Skip if this is a self-reference
-            if (sourceType === 'weapon' && sourceId === idNum) return match;
+            // Ensure both are compared as numbers to handle type mismatches
+            if (sourceType === 'weapon' && Number(sourceId) === Number(idNum)) return match;
             return `[[WEAPON:${id}:${name}]]`;
         }
         name = resolvers.getArmorName(id);
         if (name) {
             // Skip if this is a self-reference
-            if (sourceType === 'armor' && sourceId === idNum) return match;
+            // Ensure both are compared as numbers to handle type mismatches
+            if (sourceType === 'armor' && Number(sourceId) === Number(idNum)) return match;
             return `[[ARMOR:${id}:${name}]]`;
         }
         name = resolvers.getItemName(id);
         if (name) {
             // Skip if this is a self-reference
-            if (sourceType === 'item' && sourceId === idNum) return match;
+            // Ensure both are compared as numbers to handle type mismatches
+            if (sourceType === 'item' && Number(sourceId) === Number(idNum)) return match;
             return `[[ITEM:${id}:${name}]]`;
         }
         name = resolvers.getEnemyName(id);
         if (name) {
             // Skip if this is a self-reference
-            if (sourceType === 'enemy' && sourceId === idNum) return match;
+            // Ensure both are compared as numbers to handle type mismatches
+            if (sourceType === 'enemy' && Number(sourceId) === Number(idNum)) return match;
             return `[[ENEMY:${id}:${name}]]`;
         }
         return match;

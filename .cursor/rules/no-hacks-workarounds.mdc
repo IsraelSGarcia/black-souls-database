@@ -1,0 +1,198 @@
+---
+alwaysApply: true
+---
+# ZERO TOLERANCE FOR HACKS, WORKAROUNDS, AND TECHNICAL DEBT
+
+**THIS IS THE MOST IMPORTANT RULE IN THIS CODEBASE. VIOLATIONS WILL NOT BE TOLERATED.**
+
+## Definition of Forbidden Practices
+
+**A HACK is ANY solution that:**
+- Works around a problem instead of solving it properly
+- Uses unconventional, non-standard, or undocumented approaches when proper solutions exist
+- Introduces dependencies on side effects, timing, implementation details, or undefined behavior
+- Bypasses intended APIs, frameworks, or architectural patterns
+- Relies on knowledge of internal implementation rather than public interfaces
+- Masks symptoms instead of addressing root causes
+- Uses global state, magic numbers, hardcoded values, or environment-dependent code without proper abstraction
+- Modifies third-party code, vendor files, or generated code directly
+- Uses `any`, `@ts-ignore`, `// eslint-disable`, or similar suppression tools to silence legitimate errors
+- Implements "temporary" solutions with the intention of fixing them later (they NEVER get fixed)
+- Duplicates code instead of creating reusable abstractions
+- Uses try-catch blocks to handle expected control flow instead of proper validation
+- Makes assumptions about data structure without validation
+- Uses string concatenation for building complex structures when proper APIs exist
+- Relies on file system ordering, undefined array iteration order, or other non-guaranteed behaviors
+- Uses `setTimeout`/`setInterval` for synchronization instead of proper async patterns
+- Polls for conditions instead of using events, promises, or callbacks
+- Uses `eval()`, `Function()`, or dynamic code execution when static code can solve the problem
+- Accesses private/protected members through reflection, coercion, or undocumented mechanisms
+- Uses type coercion (`==` instead of `===`) to avoid proper type handling
+- Implements business logic in the UI layer or data access in the presentation layer
+- Uses comments like "TODO", "HACK", "FIXME", "XXX" instead of filing proper issues or fixing immediately
+- Creates "special cases" that violate the Single Responsibility Principle
+- Uses feature flags or conditionals that accumulate over time without cleanup
+- Implements "quick fixes" that become permanent technical debt
+
+**A WORKAROUND is ANY solution that:**
+- Circumvents a limitation without understanding why the limitation exists
+- Uses alternative APIs or methods because the proper one seems "too hard"
+- Implements a complex solution to avoid learning the correct approach
+- Uses multiple simpler functions chained together to avoid implementing one proper function
+- Creates intermediate data structures or transformations when direct solutions exist
+- Uses external tools, scripts, or manual processes to compensate for code deficiencies
+- Implements client-side fixes for server-side problems or vice versa
+- Uses caching, memoization, or performance "optimizations" to hide algorithmic inefficiencies
+- Duplicates functionality across multiple locations instead of creating shared utilities
+- Implements the same logic multiple times with slight variations (copy-paste programming)
+
+## The Unforgiving Standards
+
+**YOU MUST:**
+1. **Understand the root cause** before writing any code. If you don't understand why something doesn't work, INVESTIGATE until you do. Do not mask ignorance with a workaround.
+2. **Use proper design patterns** appropriate to the language, framework, and problem domain. If you don't know the pattern, LEARN IT.
+3. **Follow established conventions** and architectural decisions in the codebase. If you disagree, discuss it first - don't silently introduce alternatives.
+4. **Write testable code** from the start. If you can't test it easily, the design is wrong - not the testing approach.
+5. **Handle errors explicitly** with proper error types, messages, and recovery paths. Silent failures are hacks.
+6. **Validate all inputs** at system boundaries. Trust nothing from external sources.
+7. **Use type safety** to its full extent. Generic types, discriminated unions, and proper interfaces are required, not optional.
+8. **Abstract properly**. Create reusable utilities, services, and components. Duplication is forbidden.
+9. **Document complex logic** with clear explanations of WHY, not just WHAT. If it's too complex to explain, simplify it.
+10. **Refactor immediately** when you discover technical debt. Do not leave it for "later" - later never comes.
+
+## Red Flags That Indicate You're About to Write a Hack
+
+If you find yourself thinking:
+- "This will work for now..."
+- "We can fix this later..."
+- "This is a special case..."
+- "I'll just add one more if statement..."
+- "Nobody will notice..."
+- "It works on my machine..."
+- "This is just temporary..."
+- "The proper way is too complicated..."
+- "I'll document it with a comment..."
+- "We'll handle the edge cases later..."
+- "This is good enough..."
+- "Let me just disable the linter here..."
+
+**STOP. YOU ARE ABOUT TO CREATE TECHNICAL DEBT. DO NOT PROCEED.**
+
+## What to Do Instead
+
+When faced with a problem that seems to require a hack:
+
+1. **STOP and THINK**: What is the actual problem? What are you trying to achieve?
+2. **RESEARCH**: Is there a standard solution? What do documentation and examples say?
+3. **ASK**: Consult with the team, Stack Overflow, documentation, or experts. Pride has no place here.
+4. **DESIGN**: Plan the proper solution. Draw diagrams. Write pseudo-code. Think about edge cases.
+5. **IMPLEMENT**: Write clean, maintainable code following best practices.
+6. **TEST**: Write comprehensive tests covering normal cases, edge cases, and error conditions.
+7. **REVIEW**: Have others review your code. Accept criticism graciously.
+8. **ITERATE**: If the solution isn't good enough, improve it. Do not ship technical debt.
+
+## Enforcement
+
+**All code will be reviewed with these standards in mind. Any violation is grounds for:**
+- Immediate rejection of the pull request
+- Requirement to rewrite the code properly
+- Escalation to senior engineers or architects
+- In extreme cases, removal of commit privileges until standards are met
+
+**There are NO exceptions. There are NO "special cases". There is NO "but it works".**
+
+## Legacy Code Exception
+
+If you encounter existing hacks in the codebase:
+1. **Document them** immediately with clear TODO comments referencing issue numbers
+2. **Create issues** for each hack that needs to be fixed
+3. **Refactor when touching** the code - if you modify code with hacks, fix the hacks too
+4. **Plan systematic cleanup** - allocate time in sprints to eliminate technical debt
+5. **Never extend hacks** - if you need to modify hacked code, fix it properly first
+
+## Examples of Forbidden Patterns (DO NOT DO THIS)
+
+❌ **BAD**: Using `any` type to avoid type errors
+```typescript
+function processData(data: any) { // HACK: Should properly type this
+  return data.value;
+}
+```
+
+✅ **GOOD**: Proper typing with validation
+```typescript
+interface DataStructure {
+  value: number;
+}
+
+function processData(data: unknown): number {
+  if (!data || typeof data !== 'object' || !('value' in data)) {
+    throw new TypeError('Invalid data structure');
+  }
+  const typed = data as DataStructure;
+  return typed.value;
+}
+```
+
+❌ **BAD**: Using setTimeout to wait for DOM
+```javascript
+setTimeout(() => {
+  document.getElementById('myElement').innerHTML = 'content';
+}, 100); // HACK: What if it's not ready?
+```
+
+✅ **GOOD**: Using proper event listeners
+```javascript
+document.addEventListener('DOMContentLoaded', () => {
+  const element = document.getElementById('myElement');
+  if (element) {
+    element.innerHTML = 'content';
+  }
+});
+```
+
+❌ **BAD**: Silent error swallowing
+```javascript
+try {
+  riskyOperation();
+} catch (e) {
+  // HACK: Ignore errors, hope it works
+}
+```
+
+✅ **GOOD**: Proper error handling
+```javascript
+try {
+  riskyOperation();
+} catch (error) {
+  logger.error('Operation failed', { error, context });
+  throw new OperationError('Failed to perform risky operation', { cause: error });
+}
+```
+
+❌ **BAD**: Magic numbers and hardcoded values
+```javascript
+if (items.length > 50) { // HACK: What is 50? Why 50?
+  showMore();
+}
+```
+
+✅ **GOOD**: Named constants with meaning
+```javascript
+const MAX_VISIBLE_ITEMS = 50;
+if (items.length > MAX_VISIBLE_ITEMS) {
+  showMore();
+}
+```
+
+## Final Warning
+
+**Every line of code you write will be read, maintained, and debugged by someone else (possibly future you).**
+**Every hack you write is a time bomb.**
+**Every workaround you create is a trap for the next developer.**
+**Technical debt compounds. Hacks accumulate. Workarounds multiply.**
+
+**Write code as if the person maintaining it is a violent psychopath who knows where you live.**
+**That person might be you in six months.**
+
+**NO HACKS. NO WORKAROUNDS. NO EXCEPTIONS.**

@@ -1,4 +1,278 @@
 ---
 alwaysApply: false
 ---
-When this rule is called, first test the problem in the browser, try to fix and test again. You should not stop testing until you have confirmed with browser testing that the problem did indeed get solved.
+# ZERO TOLERANCE FOR UNVERIFIED CHANGES
+
+**BROWSER TESTING IS MANDATORY. NO EXCEPTIONS. NO ASSUMPTIONS. NO SHORTCUTS.**
+
+## The Absolute Requirement
+
+**EVERY change that affects user-visible behavior MUST be verified in a real browser before being considered complete. PERIOD.**
+
+## Definition of Forbidden Practices
+
+**UNVERIFIED CODE is ANY code that:**
+- Has not been tested in an actual browser after implementation
+- Was "tested" only by reading the code and assuming it works
+- Relies on "it should work" or "it looks correct" without visual verification
+- Was modified but not re-tested because "it's just a small change"
+- Was tested in one browser but not others (if cross-browser matters)
+- Was tested with cached assets without clearing cache or using hard refresh
+- Was tested with dev tools disabled (missing console errors)
+- Was tested without checking both desktop and mobile viewports (if responsive)
+- Was tested without verifying in both light and dark modes (if applicable)
+- Was tested without checking accessibility (keyboard navigation, screen readers)
+- Was tested without verifying edge cases and error states
+- Was "tested" by looking at a screenshot or description instead of the actual browser
+- Was tested only in development mode without checking production build
+- Was tested without verifying performance impact on real devices
+- Was tested without checking network tab for failed requests or errors
+- Assumes functionality works because "the code is correct"
+- Skips testing because "it's just CSS" or "it's just a minor fix"
+- Skips testing because "it worked before, so it should still work"
+- Skips testing because "the linter passed" or "TypeScript compiled"
+- Skips testing because "I'm confident in my changes"
+- Tests only the happy path without verifying error handling
+- Tests only desktop without verifying mobile (or vice versa)
+- Tests only one state without verifying all possible states
+- Relies on automated tests alone without manual browser verification
+- Uses unit tests as a substitute for browser testing
+- Assumes browser behavior based on documentation without verification
+- Tests in a browser but doesn't verify the specific fix actually works
+- Tests the wrong page or wrong feature
+- Tests with incorrect data or test accounts
+- Tests without proper setup or prerequisites
+- Marks a task complete without actually opening a browser
+
+**INSUFFICIENT TESTING is ANY testing that:**
+- Doesn't verify the specific issue was fixed
+- Doesn't verify no regressions were introduced
+- Doesn't check related functionality that could be affected
+- Doesn't verify the fix works in the actual environment (not just localhost)
+- Doesn't test user workflows, only individual components
+- Doesn't verify performance hasn't degraded
+- Doesn't check console for errors or warnings
+- Doesn't verify accessibility hasn't regressed
+- Doesn't test with actual data (uses only mock/test data)
+- Doesn't verify responsive design still works
+- Doesn't check cross-browser compatibility (if required)
+- Doesn't verify the fix handles edge cases
+- Tests once and assumes it always works
+- Tests only the reported bug without checking related areas
+- Skips testing error states and edge cases
+- Tests without proper user permissions or account types
+- Tests without verifying the fix matches the requirements
+- Tests without verifying the fix doesn't break existing features
+
+## The Unforgiving Standards
+
+**YOU MUST:**
+1. **Open a real browser** for EVERY user-visible change. No exceptions. No "it's just a typo". No "it's a small change".
+2. **Navigate to the exact page** where the change should be visible. Don't test the wrong page.
+3. **Verify the fix actually works** - don't just load the page and assume it's correct.
+4. **Check for regressions** - verify existing functionality still works after your change.
+5. **Clear browser cache** or use hard refresh (Ctrl+Shift+R / Cmd+Shift+R) to ensure you're seeing the latest code.
+6. **Check the browser console** for errors, warnings, or unexpected logs.
+7. **Test related functionality** - if you fix a button, test that button AND anything that depends on it.
+8. **Test edge cases** - empty states, error states, loading states, maximum values, minimum values.
+9. **Test user workflows** - don't just test individual components, test how users actually use the feature.
+10. **Verify in production build** if the change affects build output (not just dev mode).
+11. **Check network requests** - verify API calls succeed, images load, assets are fetched correctly.
+12. **Test responsive design** - verify the fix works on different screen sizes if applicable.
+13. **Test accessibility** - keyboard navigation, screen reader compatibility, focus management.
+14. **Verify performance** - ensure your change doesn't introduce lag or slowdowns.
+15. **Test with real data** when possible - don't rely solely on mock data if real data behaves differently.
+16. **Document what you tested** - be able to explain exactly what you verified and how.
+17. **Fix and re-test** - if you find an issue, fix it AND test again. Don't assume the fix works.
+18. **Verify the specific issue** - make sure you actually fixed what you were supposed to fix.
+19. **Test the complete feature** - don't just test the part you changed, test the whole feature.
+20. **Never mark complete** without browser verification. EVER.
+
+## Red Flags That Indicate You're About to Skip Testing
+
+If you find yourself thinking:
+- "It's just a small change, it should be fine..."
+- "The code looks correct, it should work..."
+- "I'll test it later..."
+- "It worked before, so it should still work..."
+- "TypeScript compiled, so it's probably fine..."
+- "The linter passed, so it should work..."
+- "It's just CSS, how wrong can it be..."
+- "I'm confident in my changes..."
+- "I'll test it in production..."
+- "Someone else can test it..."
+- "It's just a typo fix..."
+- "The logic is correct, so it must work..."
+- "I don't have time to test everything..."
+- "It's similar to code that works, so it should work..."
+- "I tested it in my head..."
+- "The tests pass, so it must work..."
+- "I'll test it if there's an issue..."
+- "It's just a comment or documentation change..."
+- "I tested a similar feature, so this should be fine..."
+- "The change is too small to break anything..."
+
+**STOP. YOU ARE ABOUT TO SHIP UNVERIFIED CODE. DO NOT PROCEED.**
+
+## The Testing Protocol
+
+**BEFORE marking any task as complete, you MUST:**
+
+1. **OPEN A BROWSER** - Actually open a real browser window. Not a screenshot. Not a description. A browser.
+2. **NAVIGATE TO THE PAGE** - Go to the exact URL where your change should be visible.
+3. **CLEAR CACHE** - Use hard refresh (Ctrl+Shift+R / Cmd+Shift+R) to ensure fresh assets.
+4. **VERIFY THE FIX** - Actually confirm the reported issue is fixed. Don't assume.
+5. **CHECK FOR ERRORS** - Open developer tools and check the console for errors or warnings.
+6. **TEST REGRESSIONS** - Verify existing functionality still works. Click around. Use the feature.
+7. **TEST EDGE CASES** - Try empty inputs, invalid inputs, maximum values, error states.
+8. **TEST USER WORKFLOWS** - Actually use the feature as a user would. Complete a full workflow.
+9. **CHECK NETWORK** - Verify API calls succeed, assets load, no 404s or failed requests.
+10. **TEST RESPONSIVE** - Resize the browser, check mobile viewport if applicable.
+11. **TEST ACCESSIBILITY** - Keyboard navigation, focus management, screen reader compatibility.
+12. **VERIFY PERFORMANCE** - Ensure no lag, no slowdowns, smooth interactions.
+13. **FIX AND RE-TEST** - If you find ANY issue, fix it AND test again. Don't skip re-testing.
+14. **DOCUMENT** - Be able to explain exactly what you tested and what you verified.
+
+**ONLY after completing ALL of the above can you consider the task complete.**
+
+## Enforcement
+
+**All changes will be reviewed with these standards in mind. Any violation is grounds for:**
+- Immediate rejection of the pull request
+- Requirement to test properly and resubmit
+- Mandatory browser testing session with verification
+- Escalation to senior engineers or architects
+- In extreme cases, removal of commit privileges until standards are met
+
+**There are NO exceptions. There are NO "small changes". There is NO "it should work".**
+
+## Examples of Forbidden Patterns (DO NOT DO THIS)
+
+❌ **BAD**: Assuming code works without testing
+```typescript
+// Fixed the button styling
+export const Button = () => {
+  return <button className="new-style">Click me</button>;
+};
+// HACK: Didn't test in browser, assumed it works
+```
+
+✅ **GOOD**: Testing in browser and verifying
+```typescript
+// Fixed the button styling
+export const Button = () => {
+  return <button className="new-style">Click me</button>;
+};
+// TESTED: Opened browser, navigated to page, verified button has correct styling,
+// checked console for errors, tested hover states, verified click functionality
+```
+
+❌ **BAD**: Testing only the happy path
+```javascript
+// Fixed the form validation
+function validateForm(data) {
+  if (data.email) {
+    return true;
+  }
+  return false;
+}
+// HACK: Only tested with valid email, didn't test empty, invalid, or edge cases
+```
+
+✅ **GOOD**: Testing all scenarios
+```javascript
+// Fixed the form validation
+function validateForm(data) {
+  if (data.email) {
+    return true;
+  }
+  return false;
+}
+// TESTED: Valid email, empty email, invalid email format, extremely long email,
+// email with special characters, null/undefined values, whitespace-only email
+```
+
+❌ **BAD**: Not clearing cache
+```html
+<!-- Updated stylesheet -->
+<link rel="stylesheet" href="style.css?v=20240101">
+<!-- HACK: Tested without clearing cache, might be seeing old cached version -->
+```
+
+✅ **GOOD**: Clearing cache and verifying
+```html
+<!-- Updated stylesheet -->
+<link rel="stylesheet" href="style.css?v=20240102">
+<!-- TESTED: Cleared cache with hard refresh, verified new styles load,
+checked network tab to confirm new version is fetched -->
+```
+
+❌ **BAD**: Not checking console
+```javascript
+// Fixed API call
+fetch('/api/data')
+  .then(response => response.json())
+  .then(data => console.log(data));
+// HACK: Didn't check browser console, might have errors
+```
+
+✅ **GOOD**: Checking console for errors
+```javascript
+// Fixed API call
+fetch('/api/data')
+  .then(response => response.json())
+  .then(data => console.log(data));
+// TESTED: Opened browser console, verified no errors, confirmed API call succeeds,
+// checked network tab for successful request, verified data displays correctly
+```
+
+❌ **BAD**: Testing only desktop
+```css
+/* Fixed responsive layout */
+@media (max-width: 768px) {
+  .container {
+    display: block;
+  }
+}
+/* HACK: Only tested on desktop, didn't verify mobile viewport */
+```
+
+✅ **GOOD**: Testing all viewports
+```css
+/* Fixed responsive layout */
+@media (max-width: 768px) {
+  .container {
+    display: block;
+  }
+}
+/* TESTED: Desktop (1920x1080), Tablet (768x1024), Mobile (375x667),
+verified layout changes at breakpoint, tested portrait and landscape orientations */
+```
+
+## Legacy Code Exception
+
+If you encounter existing unverified code:
+1. **Test it immediately** - verify it actually works as intended
+2. **Document issues** - note any problems you discover during testing
+3. **Fix and test** - if you find issues, fix them AND test the fixes
+4. **Never assume** - don't assume old code works just because it exists
+5. **Verify before modifying** - test existing functionality before changing it
+
+## Final Warning
+
+**Every change you make will be used by real users in real browsers.**
+**Every assumption you make is a potential bug.**
+**Every skipped test is a potential production issue.**
+**Every "it should work" is a time bomb waiting to explode.**
+
+**Users don't care that your code looks correct.**
+**Users don't care that TypeScript compiled.**
+**Users don't care that the linter passed.**
+**Users only care that it works in their browser.**
+
+**Write code as if every user is testing your changes with a magnifying glass.**
+**Test as if your job depends on it (because it does).**
+
+**NO ASSUMPTIONS. NO SHORTCUTS. NO EXCEPTIONS.**
+
+**BROWSER TESTING IS MANDATORY. ALWAYS.**
