@@ -308,45 +308,80 @@ function restoreStateFromHistory(state, forceRestore = false) {
                         
                         // Restore scroll positions after selection is restored and content is loaded
                         // Use multiple attempts to ensure content is rendered
+                        // Start with a longer delay to ensure all render functions have completed
                         let scrollAttempts = 0;
-                        const maxScrollAttempts = 5;
+                        const maxScrollAttempts = 10;
                         const restoreScrolls = () => {
                             scrollAttempts++;
+                            
+                            // Restore scroll positions
                             if (resultsList) {
                                 resultsList.scrollTop = savedResultsListScrollTop;
                             }
                             if (detailPanel) {
                                 detailPanel.scrollTop = savedDetailPanelScrollTop;
                             }
+                            
+                            // Check if content is ready - detail panel should have content and scrollHeight > 0
+                            const detailContentReady = detailPanel && detailPanel.scrollHeight > 0;
+                            const resultsListReady = resultsList && resultsList.scrollHeight > 0;
+                            
                             // Retry if content might not be loaded yet
-                            if (scrollAttempts < maxScrollAttempts && (!detailPanel || detailPanel.scrollHeight === 0)) {
+                            if (scrollAttempts < maxScrollAttempts && (!detailContentReady || !resultsListReady)) {
                                 setTimeout(restoreScrolls, 100);
                             } else {
+                                // Final restoration attempt to ensure scroll is set correctly
+                                if (resultsList) {
+                                    resultsList.scrollTop = savedResultsListScrollTop;
+                                }
+                                if (detailPanel) {
+                                    detailPanel.scrollTop = savedDetailPanelScrollTop;
+                                }
                                 // All scroll restoration attempts complete
                                 markOperationComplete();
                             }
                         };
-                        setTimeout(restoreScrolls, 100);
+                        // Use a longer initial delay to ensure all setTimeout(0) calls in render functions complete
+                        // Also wait for detail content to be rendered
+                        setTimeout(restoreScrolls, 200);
                     };
                     restoreSelection();
                 }, 300); // Increased delay to ensure section is fully loaded
             } else {
                 // Even if no selection, restore scroll positions
+                // Use retry logic to ensure content is ready
                 pendingOperations++;
-                setTimeout(() => {
+                let scrollAttempts = 0;
+                const maxScrollAttempts = 10;
+                const restoreScrolls = () => {
+                    scrollAttempts++;
+                    
                     if (resultsList) {
                         resultsList.scrollTop = savedResultsListScrollTop;
                     }
-                    // Restore detail panel scroll with a longer delay to ensure content is rendered
-                    pendingOperations++;
-                    setTimeout(() => {
+                    if (detailPanel) {
+                        detailPanel.scrollTop = savedDetailPanelScrollTop;
+                    }
+                    
+                    // Check if content is ready
+                    const detailContentReady = detailPanel && detailPanel.scrollHeight > 0;
+                    const resultsListReady = resultsList && resultsList.scrollHeight > 0;
+                    
+                    // Retry if content might not be loaded yet
+                    if (scrollAttempts < maxScrollAttempts && (!detailContentReady || !resultsListReady)) {
+                        setTimeout(restoreScrolls, 100);
+                    } else {
+                        // Final restoration
+                        if (resultsList) {
+                            resultsList.scrollTop = savedResultsListScrollTop;
+                        }
                         if (detailPanel) {
                             detailPanel.scrollTop = savedDetailPanelScrollTop;
                         }
                         markOperationComplete();
-                    }, 100);
-                    markOperationComplete();
-                }, 200);
+                    }
+                };
+                setTimeout(restoreScrolls, 200);
             }
             
             // If no async operations were scheduled, reset flag immediately
@@ -515,14 +550,15 @@ function navigateToCrossReference(type, id) {
     
     // Always save current state to browser history before navigating via cross-reference
     // This ensures the navigation path is preserved for back/forward navigation
-    // IMPORTANT: Build state BEFORE calling showSection, which changes currentSection
-    if (!isRestoringState && targetSection && currentSection !== targetSection) {
+    // IMPORTANT: Build state BEFORE any navigation changes (showSection, selectX, etc.)
+    // This captures the current scroll positions before they're changed
+    if (!isRestoringState && targetSection) {
         const currentState = buildNavigationState();
         // Only push if the state is different from the current history state
         // This prevents creating duplicate entries when navigating
         const historyState = history.state;
         if (!historyState || hasStateChanged(currentState)) {
-            // Push before navigating to preserve navigation path
+            // Push before navigating to preserve navigation path and scroll positions
             // Don't use force=true here - let hasStateChanged prevent duplicates
             pushHistoryState(currentState, false, false);
         }
@@ -579,17 +615,9 @@ function navigateToCrossReference(type, id) {
             }
         }, 200);
     } else {
-        // Navigating within the same section - clear search bar when navigating via cross-reference
-        // First, push current state to preserve navigation path
+        // Navigating within the same section
+        // Note: Current state was already saved above before any changes
         const wasRestoring = isRestoringState;
-        if (!isRestoringState) {
-            const currentState = buildNavigationState();
-            // Only push if state is different from current history state
-            const historyState = history.state;
-            if (!historyState || hasStateChanged(currentState)) {
-                pushHistoryState(currentState, false, false);
-            }
-        }
         
         // Clear search input and reset filtered arrays
         if (searchInput) {
@@ -2394,12 +2422,14 @@ function selectSkill(skillId) {
     document.querySelector('.detail-placeholder').style.display = 'none';
     detailContent.style.display = 'block';
     
-    // Reset scroll position
-    if (detailPanel) {
-        detailPanel.scrollTop = 0;
-    }
-    if (detailContent) {
-        detailContent.scrollTop = 0;
+    // Reset scroll position (unless restoring state - scroll will be restored later)
+    if (!isRestoringState) {
+        if (detailPanel) {
+            detailPanel.scrollTop = 0;
+        }
+        if (detailContent) {
+            detailContent.scrollTop = 0;
+        }
     }
     
     renderSkillDetail(skill);
@@ -2410,15 +2440,17 @@ function selectSkill(skillId) {
         document.querySelector('.detail-panel').style.display = 'flex';
         document.querySelector('.detail-panel').classList.add('mobile-active');
         
-        // Reset scroll position after panel is shown on mobile
-        setTimeout(() => {
-            if (detailPanel) {
-                detailPanel.scrollTop = 0;
-            }
-            if (detailContent) {
-                detailContent.scrollTop = 0;
-            }
-        }, 0);
+        // Reset scroll position after panel is shown on mobile (unless restoring state)
+        if (!isRestoringState) {
+            setTimeout(() => {
+                if (detailPanel) {
+                    detailPanel.scrollTop = 0;
+                }
+                if (detailContent) {
+                    detailContent.scrollTop = 0;
+                }
+            }, 0);
+        }
     }
     
     // Update browser history
@@ -2605,26 +2637,31 @@ function renderSkillDetail(skill) {
     
     detailContent.innerHTML = html;
     
-    // Scroll to top immediately
-    if (detailPanel) {
-        detailPanel.scrollTop = 0;
-    }
-    if (detailContent) {
-        detailContent.scrollTop = 0;
-    }
-    
-    // Add event listeners for cross-reference links
-    attachCrossReferenceListeners();
-    
-    // Ensure scroll after a brief delay (in case content shifts)
-    setTimeout(() => {
+    // Scroll to top immediately (unless restoring state - scroll will be restored later)
+    if (!isRestoringState) {
         if (detailPanel) {
             detailPanel.scrollTop = 0;
         }
         if (detailContent) {
             detailContent.scrollTop = 0;
         }
-    }, 0);
+    }
+    
+    // Add event listeners for cross-reference links
+    attachCrossReferenceListeners();
+    
+    // Ensure scroll after a brief delay (in case content shifts)
+    // Skip if restoring state - scroll will be restored later
+    if (!isRestoringState) {
+        setTimeout(() => {
+            if (detailPanel) {
+                detailPanel.scrollTop = 0;
+            }
+            if (detailContent) {
+                detailContent.scrollTop = 0;
+            }
+        }, 0);
+    }
     
     // Add toggle handler for Japanese text
     const toggleBtn = detailContent.querySelector('.note-toggle');
@@ -3495,12 +3532,14 @@ function selectState(stateId) {
     document.querySelector('.detail-placeholder').style.display = 'none';
     detailContent.style.display = 'block';
     
-    // Reset scroll position
-    if (detailPanel) {
-        detailPanel.scrollTop = 0;
-    }
-    if (detailContent) {
-        detailContent.scrollTop = 0;
+    // Reset scroll position (unless restoring state - scroll will be restored later)
+    if (!isRestoringState) {
+        if (detailPanel) {
+            detailPanel.scrollTop = 0;
+        }
+        if (detailContent) {
+            detailContent.scrollTop = 0;
+        }
     }
     
     renderStateDetail(state);
@@ -3511,15 +3550,17 @@ function selectState(stateId) {
         document.querySelector('.detail-panel').style.display = 'flex';
         document.querySelector('.detail-panel').classList.add('mobile-active');
         
-        // Reset scroll position after panel is shown on mobile
-        setTimeout(() => {
-            if (detailPanel) {
-                detailPanel.scrollTop = 0;
-            }
-            if (detailContent) {
-                detailContent.scrollTop = 0;
-            }
-        }, 0);
+        // Reset scroll position after panel is shown on mobile (unless restoring state)
+        if (!isRestoringState) {
+            setTimeout(() => {
+                if (detailPanel) {
+                    detailPanel.scrollTop = 0;
+                }
+                if (detailContent) {
+                    detailContent.scrollTop = 0;
+                }
+            }, 0);
+        }
     }
     
     // Update browser history
@@ -3648,26 +3689,31 @@ function renderStateDetail(state) {
     
     detailContent.innerHTML = html;
     
-    // Scroll to top immediately
-    if (detailPanel) {
-        detailPanel.scrollTop = 0;
-    }
-    if (detailContent) {
-        detailContent.scrollTop = 0;
-    }
-    
-    // Add event listeners for cross-reference links
-    attachCrossReferenceListeners();
-    
-    // Ensure scroll after a brief delay (in case content shifts)
-    setTimeout(() => {
+    // Scroll to top immediately (unless restoring state - scroll will be restored later)
+    if (!isRestoringState) {
         if (detailPanel) {
             detailPanel.scrollTop = 0;
         }
         if (detailContent) {
             detailContent.scrollTop = 0;
         }
-    }, 0);
+    }
+    
+    // Add event listeners for cross-reference links
+    attachCrossReferenceListeners();
+    
+    // Ensure scroll after a brief delay (in case content shifts)
+    // Skip if restoring state - scroll will be restored later
+    if (!isRestoringState) {
+        setTimeout(() => {
+            if (detailPanel) {
+                detailPanel.scrollTop = 0;
+            }
+            if (detailContent) {
+                detailContent.scrollTop = 0;
+            }
+        }, 0);
+    }
     
     // Add toggle handlers for trait original data
     const traitToggles = detailContent.querySelectorAll('.show-original-toggle[data-toggle="trait"]');
@@ -4283,12 +4329,14 @@ function selectWeapon(weaponId) {
     document.querySelector('.detail-placeholder').style.display = 'none';
     detailContent.style.display = 'block';
     
-    // Reset scroll position
-    if (detailPanel) {
-        detailPanel.scrollTop = 0;
-    }
-    if (detailContent) {
-        detailContent.scrollTop = 0;
+    // Reset scroll position (unless restoring state - scroll will be restored later)
+    if (!isRestoringState) {
+        if (detailPanel) {
+            detailPanel.scrollTop = 0;
+        }
+        if (detailContent) {
+            detailContent.scrollTop = 0;
+        }
     }
     
     renderWeaponDetail(weapon);
@@ -4299,15 +4347,17 @@ function selectWeapon(weaponId) {
         document.querySelector('.detail-panel').style.display = 'flex';
         document.querySelector('.detail-panel').classList.add('mobile-active');
         
-        // Reset scroll position after panel is shown on mobile
-        setTimeout(() => {
-            if (detailPanel) {
-                detailPanel.scrollTop = 0;
-            }
-            if (detailContent) {
-                detailContent.scrollTop = 0;
-            }
-        }, 0);
+        // Reset scroll position after panel is shown on mobile (unless restoring state)
+        if (!isRestoringState) {
+            setTimeout(() => {
+                if (detailPanel) {
+                    detailPanel.scrollTop = 0;
+                }
+                if (detailContent) {
+                    detailContent.scrollTop = 0;
+                }
+            }, 0);
+        }
     }
     
     // Update browser history
@@ -4378,26 +4428,31 @@ function renderWeaponDetail(weapon) {
     
     detailContent.innerHTML = html;
     
-    // Scroll to top immediately
-    if (detailPanel) {
-        detailPanel.scrollTop = 0;
-    }
-    if (detailContent) {
-        detailContent.scrollTop = 0;
-    }
-    
-    // Add event listeners for cross-reference links
-    attachCrossReferenceListeners();
-    
-    // Ensure scroll after a brief delay (in case content shifts)
-    setTimeout(() => {
+    // Scroll to top immediately (unless restoring state - scroll will be restored later)
+    if (!isRestoringState) {
         if (detailPanel) {
             detailPanel.scrollTop = 0;
         }
         if (detailContent) {
             detailContent.scrollTop = 0;
         }
-    }, 0);
+    }
+    
+    // Add event listeners for cross-reference links
+    attachCrossReferenceListeners();
+    
+    // Ensure scroll after a brief delay (in case content shifts)
+    // Skip if restoring state - scroll will be restored later
+    if (!isRestoringState) {
+        setTimeout(() => {
+            if (detailPanel) {
+                detailPanel.scrollTop = 0;
+            }
+            if (detailContent) {
+                detailContent.scrollTop = 0;
+            }
+        }, 0);
+    }
     
     // Add toggle handlers for trait original data
     const traitToggles = detailContent.querySelectorAll('.show-original-toggle[data-toggle="trait"]');
@@ -4575,12 +4630,14 @@ function selectArmor(armorId) {
     document.querySelector('.detail-placeholder').style.display = 'none';
     detailContent.style.display = 'block';
     
-    // Reset scroll position
-    if (detailPanel) {
-        detailPanel.scrollTop = 0;
-    }
-    if (detailContent) {
-        detailContent.scrollTop = 0;
+    // Reset scroll position (unless restoring state - scroll will be restored later)
+    if (!isRestoringState) {
+        if (detailPanel) {
+            detailPanel.scrollTop = 0;
+        }
+        if (detailContent) {
+            detailContent.scrollTop = 0;
+        }
     }
     
     renderArmorDetail(armor);
@@ -4591,15 +4648,17 @@ function selectArmor(armorId) {
         document.querySelector('.detail-panel').style.display = 'flex';
         document.querySelector('.detail-panel').classList.add('mobile-active');
         
-        // Reset scroll position after panel is shown on mobile
-        setTimeout(() => {
-            if (detailPanel) {
-                detailPanel.scrollTop = 0;
-            }
-            if (detailContent) {
-                detailContent.scrollTop = 0;
-            }
-        }, 0);
+        // Reset scroll position after panel is shown on mobile (unless restoring state)
+        if (!isRestoringState) {
+            setTimeout(() => {
+                if (detailPanel) {
+                    detailPanel.scrollTop = 0;
+                }
+                if (detailContent) {
+                    detailContent.scrollTop = 0;
+                }
+            }, 0);
+        }
     }
     
     // Update browser history
@@ -4632,12 +4691,14 @@ function selectEnemy(enemyId) {
     document.querySelector('.detail-placeholder').style.display = 'none';
     detailContent.style.display = 'block';
     
-    // Reset scroll position
-    if (detailPanel) {
-        detailPanel.scrollTop = 0;
-    }
-    if (detailContent) {
-        detailContent.scrollTop = 0;
+    // Reset scroll position (unless restoring state - scroll will be restored later)
+    if (!isRestoringState) {
+        if (detailPanel) {
+            detailPanel.scrollTop = 0;
+        }
+        if (detailContent) {
+            detailContent.scrollTop = 0;
+        }
     }
     
     renderEnemyDetail(enemy);
@@ -4648,15 +4709,17 @@ function selectEnemy(enemyId) {
         document.querySelector('.detail-panel').style.display = 'flex';
         document.querySelector('.detail-panel').classList.add('mobile-active');
         
-        // Reset scroll position after panel is shown on mobile
-        setTimeout(() => {
-            if (detailPanel) {
-                detailPanel.scrollTop = 0;
-            }
-            if (detailContent) {
-                detailContent.scrollTop = 0;
-            }
-        }, 0);
+        // Reset scroll position after panel is shown on mobile (unless restoring state)
+        if (!isRestoringState) {
+            setTimeout(() => {
+                if (detailPanel) {
+                    detailPanel.scrollTop = 0;
+                }
+                if (detailContent) {
+                    detailContent.scrollTop = 0;
+                }
+            }, 0);
+        }
     }
     
     // Update browser history
@@ -4690,12 +4753,14 @@ function selectItem(itemId) {
     document.querySelector('.detail-placeholder').style.display = 'none';
     detailContent.style.display = 'block';
     
-    // Reset scroll position
-    if (detailPanel) {
-        detailPanel.scrollTop = 0;
-    }
-    if (detailContent) {
-        detailContent.scrollTop = 0;
+    // Reset scroll position (unless restoring state - scroll will be restored later)
+    if (!isRestoringState) {
+        if (detailPanel) {
+            detailPanel.scrollTop = 0;
+        }
+        if (detailContent) {
+            detailContent.scrollTop = 0;
+        }
     }
     
     renderItemDetail(item);
@@ -4706,15 +4771,17 @@ function selectItem(itemId) {
         document.querySelector('.detail-panel').style.display = 'flex';
         document.querySelector('.detail-panel').classList.add('mobile-active');
         
-        // Reset scroll position after panel is shown on mobile
-        setTimeout(() => {
-            if (detailPanel) {
-                detailPanel.scrollTop = 0;
-            }
-            if (detailContent) {
-                detailContent.scrollTop = 0;
-            }
-        }, 0);
+        // Reset scroll position after panel is shown on mobile (unless restoring state)
+        if (!isRestoringState) {
+            setTimeout(() => {
+                if (detailPanel) {
+                    detailPanel.scrollTop = 0;
+                }
+                if (detailContent) {
+                    detailContent.scrollTop = 0;
+                }
+            }, 0);
+        }
     }
     
     // Update browser history
@@ -4748,12 +4815,14 @@ function selectElement(elementId) {
     document.querySelector('.detail-placeholder').style.display = 'none';
     detailContent.style.display = 'block';
     
-    // Reset scroll position
-    if (detailPanel) {
-        detailPanel.scrollTop = 0;
-    }
-    if (detailContent) {
-        detailContent.scrollTop = 0;
+    // Reset scroll position (unless restoring state - scroll will be restored later)
+    if (!isRestoringState) {
+        if (detailPanel) {
+            detailPanel.scrollTop = 0;
+        }
+        if (detailContent) {
+            detailContent.scrollTop = 0;
+        }
     }
     
     renderElementDetail(element);
@@ -4764,15 +4833,17 @@ function selectElement(elementId) {
         document.querySelector('.detail-panel').style.display = 'flex';
         document.querySelector('.detail-panel').classList.add('mobile-active');
         
-        // Reset scroll position after panel is shown on mobile
-        setTimeout(() => {
-            if (detailPanel) {
-                detailPanel.scrollTop = 0;
-            }
-            if (detailContent) {
-                detailContent.scrollTop = 0;
-            }
-        }, 0);
+        // Reset scroll position after panel is shown on mobile (unless restoring state)
+        if (!isRestoringState) {
+            setTimeout(() => {
+                if (detailPanel) {
+                    detailPanel.scrollTop = 0;
+                }
+                if (detailContent) {
+                    detailContent.scrollTop = 0;
+                }
+            }, 0);
+        }
     }
     
     // Update browser history
@@ -4843,26 +4914,31 @@ function renderArmorDetail(armor) {
     
     detailContent.innerHTML = html;
     
-    // Scroll to top immediately
-    if (detailPanel) {
-        detailPanel.scrollTop = 0;
-    }
-    if (detailContent) {
-        detailContent.scrollTop = 0;
-    }
-    
-    // Add event listeners for cross-reference links
-    attachCrossReferenceListeners();
-    
-    // Ensure scroll after a brief delay (in case content shifts)
-    setTimeout(() => {
+    // Scroll to top immediately (unless restoring state - scroll will be restored later)
+    if (!isRestoringState) {
         if (detailPanel) {
             detailPanel.scrollTop = 0;
         }
         if (detailContent) {
             detailContent.scrollTop = 0;
         }
-    }, 0);
+    }
+    
+    // Add event listeners for cross-reference links
+    attachCrossReferenceListeners();
+    
+    // Ensure scroll after a brief delay (in case content shifts)
+    // Skip if restoring state - scroll will be restored later
+    if (!isRestoringState) {
+        setTimeout(() => {
+            if (detailPanel) {
+                detailPanel.scrollTop = 0;
+            }
+            if (detailContent) {
+                detailContent.scrollTop = 0;
+            }
+        }, 0);
+    }
     
     // Add toggle handlers (similar to weapon)
     const traitToggles = detailContent.querySelectorAll('.show-original-toggle[data-toggle="trait"]');
@@ -5061,26 +5137,31 @@ function renderEnemyDetail(enemy) {
     
     detailContent.innerHTML = html;
     
-    // Scroll to top immediately
-    if (detailPanel) {
-        detailPanel.scrollTop = 0;
-    }
-    if (detailContent) {
-        detailContent.scrollTop = 0;
-    }
-    
-    // Add event listeners for cross-reference links
-    attachCrossReferenceListeners();
-    
-    // Ensure scroll after a brief delay (in case content shifts)
-    setTimeout(() => {
+    // Scroll to top immediately (unless restoring state - scroll will be restored later)
+    if (!isRestoringState) {
         if (detailPanel) {
             detailPanel.scrollTop = 0;
         }
         if (detailContent) {
             detailContent.scrollTop = 0;
         }
-    }, 0);
+    }
+    
+    // Add event listeners for cross-reference links
+    attachCrossReferenceListeners();
+    
+    // Ensure scroll after a brief delay (in case content shifts)
+    // Skip if restoring state - scroll will be restored later
+    if (!isRestoringState) {
+        setTimeout(() => {
+            if (detailPanel) {
+                detailPanel.scrollTop = 0;
+            }
+            if (detailContent) {
+                detailContent.scrollTop = 0;
+            }
+        }, 0);
+    }
     
     // Add toggle handlers
     const traitToggles = detailContent.querySelectorAll('.show-original-toggle[data-toggle="trait"]');
@@ -5303,26 +5384,31 @@ function renderItemDetail(item) {
     
     detailContent.innerHTML = html;
     
-    // Scroll to top immediately
-    if (detailPanel) {
-        detailPanel.scrollTop = 0;
-    }
-    if (detailContent) {
-        detailContent.scrollTop = 0;
-    }
-    
-    // Add event listeners for cross-reference links
-    attachCrossReferenceListeners();
-    
-    // Ensure scroll after a brief delay (in case content shifts)
-    setTimeout(() => {
+    // Scroll to top immediately (unless restoring state - scroll will be restored later)
+    if (!isRestoringState) {
         if (detailPanel) {
             detailPanel.scrollTop = 0;
         }
         if (detailContent) {
             detailContent.scrollTop = 0;
         }
-    }, 0);
+    }
+    
+    // Add event listeners for cross-reference links
+    attachCrossReferenceListeners();
+    
+    // Ensure scroll after a brief delay (in case content shifts)
+    // Skip if restoring state - scroll will be restored later
+    if (!isRestoringState) {
+        setTimeout(() => {
+            if (detailPanel) {
+                detailPanel.scrollTop = 0;
+            }
+            if (detailContent) {
+                detailContent.scrollTop = 0;
+            }
+        }, 0);
+    }
     
     const toggleBtn = detailContent.querySelector('.note-toggle');
     if (toggleBtn) {
@@ -5506,26 +5592,31 @@ function renderElementDetail(element) {
     
     detailContent.innerHTML = html;
     
-    // Scroll to top immediately
-    if (detailPanel) {
-        detailPanel.scrollTop = 0;
-    }
-    if (detailContent) {
-        detailContent.scrollTop = 0;
-    }
-    
-    // Add event listeners for cross-reference links
-    attachCrossReferenceListeners();
-    
-    // Ensure scroll after a brief delay (in case content shifts)
-    setTimeout(() => {
+    // Scroll to top immediately (unless restoring state - scroll will be restored later)
+    if (!isRestoringState) {
         if (detailPanel) {
             detailPanel.scrollTop = 0;
         }
         if (detailContent) {
             detailContent.scrollTop = 0;
         }
-    }, 0);
+    }
+    
+    // Add event listeners for cross-reference links
+    attachCrossReferenceListeners();
+    
+    // Ensure scroll after a brief delay (in case content shifts)
+    // Skip if restoring state - scroll will be restored later
+    if (!isRestoringState) {
+        setTimeout(() => {
+            if (detailPanel) {
+                detailPanel.scrollTop = 0;
+            }
+            if (detailContent) {
+                detailContent.scrollTop = 0;
+            }
+        }, 0);
+    }
 }
 
 function renderItemBasicStats(item) {
@@ -5793,8 +5884,45 @@ window.addEventListener('popstate', (e) => {
     }
 });
 
+// Update history state when user scrolls (debounced to avoid too many updates)
+let scrollUpdateTimer = null;
+const SCROLL_UPDATE_DEBOUNCE_MS = 300; // Update history after 300ms of no scrolling
+
+function updateHistoryOnScroll() {
+    // Don't update if we're restoring state
+    if (isRestoringState) return;
+    
+    // Clear previous timer
+    if (scrollUpdateTimer) {
+        clearTimeout(scrollUpdateTimer);
+    }
+    
+    // Set new timer to update history after user stops scrolling
+    scrollUpdateTimer = setTimeout(() => {
+        if (!isRestoringState && currentSection) {
+            const currentState = buildNavigationState();
+            // Use replaceState to update the current history entry with new scroll positions
+            // This doesn't create a new history entry, just updates the current one
+            pushHistoryState(currentState, true); // replace = true
+        }
+    }, SCROLL_UPDATE_DEBOUNCE_MS);
+}
+
 // Initialize: Check URL on page load
 window.addEventListener('DOMContentLoaded', () => {
+    // Attach scroll listeners to results list and detail panel
+    // These elements should exist by now, but we'll get them fresh to be safe
+    const resultsListEl = document.getElementById('results-list');
+    const detailPanelEl = document.getElementById('detail-panel');
+    
+    if (resultsListEl) {
+        resultsListEl.addEventListener('scroll', updateHistoryOnScroll, { passive: true });
+    }
+    
+    if (detailPanelEl) {
+        detailPanelEl.addEventListener('scroll', updateHistoryOnScroll, { passive: true });
+    }
+    
     // If there's already a state in history, use it
     if (history.state) {
         restoreStateFromHistory(history.state);
