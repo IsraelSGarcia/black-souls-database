@@ -1591,16 +1591,29 @@ function handleBackNavigation() {
     const urlState = parseURL();
     
     // Check if we're on a detail page (has selectedId)
-    const hasSelection = 
-        (currentSection === 'skills' && selectedSkillId !== null) ||
-        (currentSection === 'states' && selectedStateId !== null) ||
-        (currentSection === 'weapons' && selectedWeaponId !== null) ||
-        (currentSection === 'armors' && selectedArmorId !== null) ||
-        (currentSection === 'enemies' && selectedEnemyId !== null) ||
-        (currentSection === 'items' && selectedItemId !== null) ||
-        (currentSection === 'elements' && selectedElementId !== null) ||
-        (currentState && currentState.selectedId !== null && currentState.selectedId !== undefined) ||
-        (urlState && urlState.selectedId !== null && urlState.selectedId !== undefined);
+    // Check URL state first as it's most reliable when navigating via URL
+    const urlHasSelection = urlState && urlState.selectedId != null;
+    const stateHasSelection = currentState && currentState.selectedId != null;
+    const varHasSelection = 
+        (currentSection === 'skills' && selectedSkillId != null) ||
+        (currentSection === 'states' && selectedStateId != null) ||
+        (currentSection === 'weapons' && selectedWeaponId != null) ||
+        (currentSection === 'armors' && selectedArmorId != null) ||
+        (currentSection === 'enemies' && selectedEnemyId != null) ||
+        (currentSection === 'items' && selectedItemId != null) ||
+        (currentSection === 'elements' && selectedElementId != null);
+    
+    const hasSelection = urlHasSelection || stateHasSelection || varHasSelection;
+    
+    // Special case: On Desktop, when on any object's detail page, go to Sections page instead of that object's section list
+    const isDesktop = window.innerWidth > 1024;
+    if (isDesktop && hasSelection) {
+        // Navigate to Sections page
+        // Get game from currentGame, urlState, or currentState, defaulting to 'bs2'
+        const game = currentGame || (urlState && urlState.game) || (currentState && currentState.game) || 'bs2';
+        showSectionsView(game);
+        return;
+    }
     
     if (hasSelection) {
         // Layer 1: Detail page -> Section List
