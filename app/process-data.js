@@ -1890,12 +1890,12 @@ function processTraits(traits, statesData, skillsData = null, elements = null) {
                 traitInfo.description = `Sp-Parameter ${trait.dataId} ${percent >= 0 ? '+' : ''}${percent}%`;
             }
         } else if (trait.code === 31) { // Attack Element
-            // dataId: element ID, value: typically 1 (adds element to attack)
+            // dataId: element ID, value: not used by engine
             if (elements && trait.dataId >= 0 && trait.dataId < elements.length) {
                 const elementName = elements[trait.dataId] || `Element ${trait.dataId}`;
-                traitInfo.description = `Attack Element: ${elementName} (value: ${trait.value})`;
+                traitInfo.description = `Attack Element: ${elementName}`;
             } else {
-                traitInfo.description = `Attack Element (element ${trait.dataId || '?'}, value ${trait.value || '?'})`;
+                traitInfo.description = `Attack Element (element ${trait.dataId || '?'})`;
             }
         } else if (trait.code === 32) { // Attack State
             // dataId: state ID, value: probability rate (0.0-1.0, where 1.0 = 100%)

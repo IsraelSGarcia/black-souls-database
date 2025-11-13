@@ -72000,7 +72000,7 @@ const statesData = {
           "codeName": "Attack Element",
           "dataId": 3,
           "value": 1,
-          "description": "Attack Element: Fire (value: 1)"
+          "description": "Attack Element: Fire"
         },
         {
           "code": 21,
@@ -72048,7 +72048,7 @@ const statesData = {
           "codeName": "Attack Element",
           "dataId": 4,
           "value": 1,
-          "description": "Attack Element: Ice (value: 1)"
+          "description": "Attack Element: Ice"
         },
         {
           "code": 21,
@@ -72096,7 +72096,7 @@ const statesData = {
           "codeName": "Attack Element",
           "dataId": 5,
           "value": 1,
-          "description": "Attack Element: Lightning (value: 1)"
+          "description": "Attack Element: Lightning"
         },
         {
           "code": 21,
@@ -72144,7 +72144,7 @@ const statesData = {
           "codeName": "Attack Element",
           "dataId": 10,
           "value": 1,
-          "description": "Attack Element: Dark (value: 1)"
+          "description": "Attack Element: Dark"
         },
         {
           "code": 21,
@@ -85954,7 +85954,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 15,
           "value": 1,
-          "description": "Attack Element: Stun x2 (value: 1)"
+          "description": "Attack Element: Stun x2"
         }
       ],
       "note": {
@@ -86024,7 +86024,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 14,
           "value": 1,
-          "description": "Attack Element: Jabberwock Bonus (value: 1)"
+          "description": "Attack Element: Jabberwock Bonus"
         },
         {
           "code": 32,
@@ -93617,7 +93617,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 13,
           "value": 1,
-          "description": "Attack Element: Beast Bonus (value: 1)"
+          "description": "Attack Element: Beast Bonus"
         },
         {
           "code": 43,
@@ -93696,7 +93696,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 13,
           "value": 1,
-          "description": "Attack Element: Beast Bonus (value: 1)"
+          "description": "Attack Element: Beast Bonus"
         },
         {
           "code": 32,
@@ -93761,7 +93761,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 13,
           "value": 1,
-          "description": "Attack Element: Beast Bonus (value: 1)"
+          "description": "Attack Element: Beast Bonus"
         },
         {
           "code": 32,
@@ -93826,7 +93826,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 13,
           "value": 1,
-          "description": "Attack Element: Beast Bonus (value: 1)"
+          "description": "Attack Element: Beast Bonus"
         },
         {
           "code": 32,
@@ -93891,7 +93891,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 13,
           "value": 1,
-          "description": "Attack Element: Beast Bonus (value: 1)"
+          "description": "Attack Element: Beast Bonus"
         },
         {
           "code": 32,
@@ -93956,7 +93956,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 13,
           "value": 1,
-          "description": "Attack Element: Beast Bonus (value: 1)"
+          "description": "Attack Element: Beast Bonus"
         },
         {
           "code": 32,
@@ -94021,7 +94021,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 13,
           "value": 1,
-          "description": "Attack Element: Beast Bonus (value: 1)"
+          "description": "Attack Element: Beast Bonus"
         },
         {
           "code": 32,
@@ -94086,7 +94086,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 13,
           "value": 1,
-          "description": "Attack Element: Beast Bonus (value: 1)"
+          "description": "Attack Element: Beast Bonus"
         },
         {
           "code": 32,
@@ -94151,7 +94151,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 13,
           "value": 1,
-          "description": "Attack Element: Beast Bonus (value: 1)"
+          "description": "Attack Element: Beast Bonus"
         },
         {
           "code": 32,
@@ -94216,7 +94216,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 13,
           "value": 1,
-          "description": "Attack Element: Beast Bonus (value: 1)"
+          "description": "Attack Element: Beast Bonus"
         },
         {
           "code": 32,
@@ -94288,7 +94288,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 13,
           "value": 1,
-          "description": "Attack Element: Beast Bonus (value: 1)"
+          "description": "Attack Element: Beast Bonus"
         },
         {
           "code": 32,
@@ -94950,7 +94950,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 10,
           "value": 1,
-          "description": "Attack Element: Dark (value: 1)"
+          "description": "Attack Element: Dark"
         },
         {
           "code": 32,
@@ -95011,7 +95011,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 10,
           "value": 1,
-          "description": "Attack Element: Dark (value: 1)"
+          "description": "Attack Element: Dark"
         },
         {
           "code": 32,
@@ -95072,7 +95072,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 10,
           "value": 1,
-          "description": "Attack Element: Dark (value: 1)"
+          "description": "Attack Element: Dark"
         },
         {
           "code": 32,
@@ -95133,7 +95133,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 10,
           "value": 1,
-          "description": "Attack Element: Dark (value: 1)"
+          "description": "Attack Element: Dark"
         },
         {
           "code": 32,
@@ -95194,7 +95194,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 10,
           "value": 1,
-          "description": "Attack Element: Dark (value: 1)"
+          "description": "Attack Element: Dark"
         },
         {
           "code": 32,
@@ -95255,7 +95255,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 10,
           "value": 1,
-          "description": "Attack Element: Dark (value: 1)"
+          "description": "Attack Element: Dark"
         },
         {
           "code": 32,
@@ -95316,7 +95316,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 10,
           "value": 1,
-          "description": "Attack Element: Dark (value: 1)"
+          "description": "Attack Element: Dark"
         },
         {
           "code": 32,
@@ -95377,7 +95377,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 10,
           "value": 1,
-          "description": "Attack Element: Dark (value: 1)"
+          "description": "Attack Element: Dark"
         },
         {
           "code": 32,
@@ -95438,7 +95438,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 10,
           "value": 1,
-          "description": "Attack Element: Dark (value: 1)"
+          "description": "Attack Element: Dark"
         },
         {
           "code": 32,
@@ -95499,7 +95499,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 10,
           "value": 1,
-          "description": "Attack Element: Dark (value: 1)"
+          "description": "Attack Element: Dark"
         },
         {
           "code": 32,
@@ -95560,7 +95560,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 10,
           "value": 1,
-          "description": "Attack Element: Dark (value: 1)"
+          "description": "Attack Element: Dark"
         },
         {
           "code": 43,
@@ -97938,7 +97938,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 14,
           "value": 1,
-          "description": "Attack Element: Jabberwock Bonus (value: 1)"
+          "description": "Attack Element: Jabberwock Bonus"
         },
         {
           "code": 32,
@@ -98754,7 +98754,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 14,
           "value": 1,
-          "description": "Attack Element: Jabberwock Bonus (value: 1)"
+          "description": "Attack Element: Jabberwock Bonus"
         },
         {
           "code": 32,
@@ -98808,7 +98808,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 15,
           "value": 1,
-          "description": "Attack Element: Stun x2 (value: 1)"
+          "description": "Attack Element: Stun x2"
         },
         {
           "code": 43,
@@ -98869,7 +98869,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 15,
           "value": 1,
-          "description": "Attack Element: Stun x2 (value: 1)"
+          "description": "Attack Element: Stun x2"
         },
         {
           "code": 43,
@@ -98930,7 +98930,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 15,
           "value": 1,
-          "description": "Attack Element: Stun x2 (value: 1)"
+          "description": "Attack Element: Stun x2"
         },
         {
           "code": 43,
@@ -98991,7 +98991,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 15,
           "value": 1,
-          "description": "Attack Element: Stun x2 (value: 1)"
+          "description": "Attack Element: Stun x2"
         },
         {
           "code": 43,
@@ -99052,7 +99052,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 15,
           "value": 1,
-          "description": "Attack Element: Stun x2 (value: 1)"
+          "description": "Attack Element: Stun x2"
         },
         {
           "code": 43,
@@ -99113,7 +99113,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 15,
           "value": 1,
-          "description": "Attack Element: Stun x2 (value: 1)"
+          "description": "Attack Element: Stun x2"
         },
         {
           "code": 43,
@@ -99174,7 +99174,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 15,
           "value": 1,
-          "description": "Attack Element: Stun x2 (value: 1)"
+          "description": "Attack Element: Stun x2"
         },
         {
           "code": 43,
@@ -99235,7 +99235,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 15,
           "value": 1,
-          "description": "Attack Element: Stun x2 (value: 1)"
+          "description": "Attack Element: Stun x2"
         },
         {
           "code": 43,
@@ -99296,7 +99296,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 15,
           "value": 1,
-          "description": "Attack Element: Stun x2 (value: 1)"
+          "description": "Attack Element: Stun x2"
         },
         {
           "code": 43,
@@ -99357,7 +99357,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 15,
           "value": 1,
-          "description": "Attack Element: Stun x2 (value: 1)"
+          "description": "Attack Element: Stun x2"
         },
         {
           "code": 43,
@@ -99418,7 +99418,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 15,
           "value": 1,
-          "description": "Attack Element: Stun x2 (value: 1)"
+          "description": "Attack Element: Stun x2"
         },
         {
           "code": 43,
@@ -101462,7 +101462,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 3,
           "value": 1,
-          "description": "Attack Element: Fire (value: 1)"
+          "description": "Attack Element: Fire"
         },
         {
           "code": 32,
@@ -101523,7 +101523,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 3,
           "value": 1,
-          "description": "Attack Element: Fire (value: 1)"
+          "description": "Attack Element: Fire"
         },
         {
           "code": 32,
@@ -101584,7 +101584,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 3,
           "value": 1,
-          "description": "Attack Element: Fire (value: 1)"
+          "description": "Attack Element: Fire"
         },
         {
           "code": 32,
@@ -101645,7 +101645,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 3,
           "value": 1,
-          "description": "Attack Element: Fire (value: 1)"
+          "description": "Attack Element: Fire"
         },
         {
           "code": 32,
@@ -101706,7 +101706,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 3,
           "value": 1,
-          "description": "Attack Element: Fire (value: 1)"
+          "description": "Attack Element: Fire"
         },
         {
           "code": 32,
@@ -101767,7 +101767,7 @@ const weaponsData = {
           "codeName": "Attack Element",
           "dataId": 3,
           "value": 1,
-          "description": "Attack Element: Fire (value: 1)"
+          "description": "Attack Element: Fire"
         },
         {
           "code": 43,
@@ -117913,7 +117913,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -118020,7 +118020,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -118150,7 +118150,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -118282,7 +118282,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -118396,7 +118396,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -118503,7 +118503,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -118610,7 +118610,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -118725,7 +118725,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -118856,7 +118856,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -118994,7 +118994,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -119108,7 +119108,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -119224,7 +119224,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -119332,7 +119332,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -119447,7 +119447,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -119554,7 +119554,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -119654,7 +119654,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -119769,7 +119769,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -119891,7 +119891,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -120013,7 +120013,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -120120,7 +120120,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -120227,7 +120227,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -120321,7 +120321,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -120428,7 +120428,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -120529,7 +120529,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -120702,7 +120702,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -120824,7 +120824,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -120994,7 +120994,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -121109,7 +121109,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -121216,7 +121216,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -121324,7 +121324,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -121432,7 +121432,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -121547,7 +121547,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -121670,7 +121670,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -121794,7 +121794,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -121918,7 +121918,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -122033,7 +122033,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -122148,7 +122148,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -122272,7 +122272,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -122387,7 +122387,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -122488,7 +122488,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -122603,7 +122603,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -122724,7 +122724,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -122840,7 +122840,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -122941,7 +122941,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -123041,7 +123041,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -123141,7 +123141,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -123241,7 +123241,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -123355,7 +123355,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 11,
@@ -123485,7 +123485,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -123613,7 +123613,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -123721,7 +123721,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -123829,7 +123829,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -123931,7 +123931,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -124039,7 +124039,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -124162,7 +124162,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -124317,7 +124317,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -124464,7 +124464,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -124564,7 +124564,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -124694,7 +124694,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -124780,7 +124780,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -124894,7 +124894,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -125008,7 +125008,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -125108,7 +125108,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -125224,7 +125224,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -125346,7 +125346,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -125454,7 +125454,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -125591,7 +125591,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -125692,7 +125692,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -125807,7 +125807,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -125915,7 +125915,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -126029,7 +126029,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -126145,7 +126145,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -126266,7 +126266,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -126394,7 +126394,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -126537,14 +126537,14 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 31,
           "codeName": "Attack Element",
           "dataId": 3,
           "value": 100,
-          "description": "Attack Element: Fire (value: 100)"
+          "description": "Attack Element: Fire"
         },
         {
           "code": 13,
@@ -126702,7 +126702,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -126832,7 +126832,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -126954,7 +126954,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -127076,7 +127076,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -127198,7 +127198,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -127327,7 +127327,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -127469,7 +127469,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -127569,7 +127569,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -127669,7 +127669,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -127776,7 +127776,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -127892,7 +127892,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         }
       ],
       "actions": [
@@ -127964,7 +127964,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -128087,7 +128087,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -128180,7 +128180,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -128324,7 +128324,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -128424,7 +128424,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -128539,7 +128539,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -128661,7 +128661,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -128761,7 +128761,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -128930,7 +128930,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -129053,7 +129053,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -129168,7 +129168,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -129306,7 +129306,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -129437,7 +129437,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -129583,7 +129583,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -129691,7 +129691,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -129799,7 +129799,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -129920,7 +129920,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -130056,7 +130056,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -130199,7 +130199,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -130322,7 +130322,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -130475,7 +130475,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -130605,7 +130605,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -130735,7 +130735,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -130865,7 +130865,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -131017,7 +131017,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -131133,7 +131133,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -131226,7 +131226,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -131392,7 +131392,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -131556,7 +131556,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -131684,7 +131684,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -131814,7 +131814,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -131960,7 +131960,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -132075,7 +132075,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -132182,7 +132182,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -132289,7 +132289,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -132405,7 +132405,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -132528,7 +132528,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -132621,7 +132621,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -132751,7 +132751,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -132844,7 +132844,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -132945,7 +132945,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -133080,7 +133080,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -133203,7 +133203,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -133310,7 +133310,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -133418,7 +133418,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -133518,7 +133518,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -133632,7 +133632,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -133732,7 +133732,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -133847,7 +133847,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -133991,7 +133991,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -134106,7 +134106,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -134251,7 +134251,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -134390,7 +134390,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -134536,7 +134536,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -134644,7 +134644,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -134783,7 +134783,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -134942,7 +134942,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -135084,7 +135084,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         }
       ],
       "actions": [
@@ -135163,7 +135163,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         }
       ],
       "actions": [
@@ -135235,7 +135235,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -135429,7 +135429,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -135672,7 +135672,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -135817,7 +135817,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -135960,7 +135960,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -136142,7 +136142,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -136325,7 +136325,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -136418,7 +136418,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -136572,7 +136572,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -136726,7 +136726,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -136854,7 +136854,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -137082,7 +137082,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -137197,7 +137197,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -137361,7 +137361,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -137514,7 +137514,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -137642,7 +137642,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -137832,7 +137832,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -137981,7 +137981,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -138160,7 +138160,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -138330,7 +138330,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         }
       ],
       "actions": [
@@ -138402,7 +138402,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -138539,7 +138539,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -138739,7 +138739,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -138884,7 +138884,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -138977,7 +138977,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -139137,7 +139137,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -139252,7 +139252,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -139361,7 +139361,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -139537,7 +139537,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -139630,7 +139630,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -139723,7 +139723,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -139816,7 +139816,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -140014,7 +140014,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -140190,7 +140190,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -140402,7 +140402,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -140631,7 +140631,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -140797,7 +140797,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -140986,7 +140986,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -141130,7 +141130,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -141290,7 +141290,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -141450,7 +141450,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -141603,7 +141603,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -141763,7 +141763,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -141954,7 +141954,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -142136,7 +142136,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -142340,7 +142340,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -142578,7 +142578,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -142724,7 +142724,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -142870,7 +142870,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -143046,7 +143046,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -143255,7 +143255,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -143532,7 +143532,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -143686,7 +143686,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -143840,7 +143840,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -143987,7 +143987,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -144147,7 +144147,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -144294,7 +144294,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -144459,7 +144459,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -144684,7 +144684,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -144806,7 +144806,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -144944,7 +144944,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -145072,7 +145072,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 32,
@@ -145222,7 +145222,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 32,
@@ -145386,7 +145386,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -145514,7 +145514,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -145642,7 +145642,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -145793,7 +145793,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -145952,7 +145952,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -146075,7 +146075,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -146205,7 +146205,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -146335,7 +146335,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -146487,7 +146487,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -146624,7 +146624,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -146814,7 +146814,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -146988,7 +146988,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -147178,7 +147178,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -147344,7 +147344,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -147593,7 +147593,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -147833,7 +147833,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -148060,7 +148060,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -148287,7 +148287,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -148498,7 +148498,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -148715,7 +148715,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -148875,7 +148875,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -149057,7 +149057,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -149234,7 +149234,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -149363,7 +149363,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -149492,7 +149492,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -149621,7 +149621,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -149750,7 +149750,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -149911,7 +149911,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -150048,7 +150048,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -150201,7 +150201,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -150345,7 +150345,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 11,
@@ -150511,7 +150511,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -150678,7 +150678,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -150868,7 +150868,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -151086,7 +151086,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -151207,7 +151207,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -151358,7 +151358,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -151535,7 +151535,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -151738,7 +151738,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -151965,7 +151965,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -152223,7 +152223,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -152512,7 +152512,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -152864,7 +152864,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -153043,7 +153043,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -153274,7 +153274,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -153526,7 +153526,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -153725,7 +153725,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -153957,14 +153957,14 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 31,
           "codeName": "Attack Element",
           "dataId": 9,
           "value": 0,
-          "description": "Attack Element: Light (value: 0)"
+          "description": "Attack Element: Light"
         },
         {
           "code": 13,
@@ -154200,14 +154200,14 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 31,
           "codeName": "Attack Element",
           "dataId": 10,
           "value": 0,
-          "description": "Attack Element: Dark (value: 0)"
+          "description": "Attack Element: Dark"
         },
         {
           "code": 13,
@@ -154443,7 +154443,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -154602,7 +154602,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -154802,7 +154802,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -154930,7 +154930,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -155051,7 +155051,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -155376,7 +155376,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -155603,7 +155603,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -155830,7 +155830,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -156057,7 +156057,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -156277,7 +156277,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -156513,7 +156513,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -156749,7 +156749,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -157023,7 +157023,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -157168,7 +157168,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -157327,7 +157327,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -157523,7 +157523,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -157667,7 +157667,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -157818,7 +157818,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -157995,7 +157995,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -158161,7 +158161,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -158318,7 +158318,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -158447,7 +158447,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -158554,7 +158554,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -158661,7 +158661,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -158768,7 +158768,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -158882,7 +158882,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -159010,7 +159010,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -159189,7 +159189,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -159367,7 +159367,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -159608,7 +159608,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -159885,7 +159885,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -160000,7 +160000,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -160271,7 +160271,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -160558,7 +160558,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -160715,7 +160715,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -160910,7 +160910,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -161210,7 +161210,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         }
       ],
       "actions": [
@@ -161282,7 +161282,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -161455,7 +161455,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -161578,7 +161578,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -161701,7 +161701,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -161994,7 +161994,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -162214,7 +162214,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -162384,7 +162384,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -162588,7 +162588,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -162856,7 +162856,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         }
       ],
       "actions": [
@@ -162928,7 +162928,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -163057,7 +163057,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -163164,7 +163164,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -163278,7 +163278,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -163392,7 +163392,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -163506,7 +163506,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -163627,7 +163627,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -163743,7 +163743,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -163859,7 +163859,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -163966,7 +163966,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -164067,7 +164067,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -164205,7 +164205,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -164358,7 +164358,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -164549,7 +164549,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -164664,7 +164664,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -164779,7 +164779,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -164887,7 +164887,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -164995,7 +164995,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -165110,7 +165110,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -165233,7 +165233,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -165355,7 +165355,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -165470,7 +165470,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -165592,7 +165592,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -165723,7 +165723,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -165859,7 +165859,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -165973,7 +165973,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -166109,7 +166109,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -166218,7 +166218,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -166355,7 +166355,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -166478,7 +166478,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -166593,7 +166593,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -166694,7 +166694,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -166824,7 +166824,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -166938,7 +166938,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -167096,7 +167096,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -167226,7 +167226,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -167342,7 +167342,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -167450,7 +167450,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -167558,7 +167558,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -167679,7 +167679,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -167795,7 +167795,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -167925,7 +167925,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -168055,7 +168055,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -168185,7 +168185,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -168308,7 +168308,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -168479,7 +168479,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -168608,7 +168608,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -168709,7 +168709,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -168831,7 +168831,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -168931,7 +168931,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -169081,7 +169081,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -169225,7 +169225,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -169340,7 +169340,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -169469,7 +169469,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -169606,7 +169606,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -169736,7 +169736,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -169866,7 +169866,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -170018,7 +170018,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -170140,7 +170140,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -170301,7 +170301,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -170394,7 +170394,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -170581,7 +170581,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 22,
@@ -170697,7 +170697,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -170852,7 +170852,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -170887,7 +170887,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 11,
           "value": 100,
-          "description": "Attack Element: Bleed x2 (value: 100)"
+          "description": "Attack Element: Bleed x2"
         }
       ],
       "actions": [
@@ -170967,7 +170967,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -171009,7 +171009,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 11,
           "value": 100,
-          "description": "Attack Element: Bleed x2 (value: 100)"
+          "description": "Attack Element: Bleed x2"
         }
       ],
       "actions": [
@@ -171089,7 +171089,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -171124,7 +171124,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 11,
           "value": 100,
-          "description": "Attack Element: Bleed x2 (value: 100)"
+          "description": "Attack Element: Bleed x2"
         },
         {
           "code": 61,
@@ -171211,7 +171211,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -171246,7 +171246,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 11,
           "value": 100,
-          "description": "Attack Element: Bleed x2 (value: 100)"
+          "description": "Attack Element: Bleed x2"
         }
       ],
       "actions": [
@@ -171326,7 +171326,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -171427,7 +171427,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -171543,7 +171543,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -171571,7 +171571,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 11,
           "value": 100,
-          "description": "Attack Element: Bleed x2 (value: 100)"
+          "description": "Attack Element: Bleed x2"
         },
         {
           "code": 14,
@@ -171665,7 +171665,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -171794,7 +171794,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -171929,7 +171929,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -172075,7 +172075,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -172190,7 +172190,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -172319,7 +172319,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -172455,7 +172455,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -172594,7 +172594,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -172709,7 +172709,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -172839,7 +172839,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -172955,7 +172955,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -173077,7 +173077,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -173126,7 +173126,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 11,
           "value": 100,
-          "description": "Attack Element: Bleed x2 (value: 100)"
+          "description": "Attack Element: Bleed x2"
         },
         {
           "code": 32,
@@ -173245,7 +173245,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -173376,7 +173376,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -173520,7 +173520,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -173657,7 +173657,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -173772,7 +173772,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -173932,7 +173932,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -174086,7 +174086,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -174216,7 +174216,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -174382,7 +174382,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -174535,7 +174535,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -174674,7 +174674,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -174812,7 +174812,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -174912,7 +174912,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -175091,7 +175091,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -175214,7 +175214,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -175345,7 +175345,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -175500,7 +175500,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -175660,7 +175660,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -175783,7 +175783,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -175922,7 +175922,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -176068,7 +176068,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -176198,7 +176198,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -176359,7 +176359,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -176528,7 +176528,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -176696,7 +176696,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -176829,7 +176829,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -176927,7 +176927,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -177027,7 +177027,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -177214,7 +177214,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -177408,7 +177408,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -177577,7 +177577,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -177782,7 +177782,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -177955,7 +177955,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -178151,7 +178151,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -178296,7 +178296,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -178456,7 +178456,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -178623,7 +178623,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -178862,7 +178862,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -179056,7 +179056,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -179256,7 +179256,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -179447,7 +179447,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -179642,7 +179642,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 32,
@@ -179851,7 +179851,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -180015,7 +180015,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         }
       ],
       "actions": [
@@ -180094,7 +180094,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         }
       ],
       "actions": [
@@ -180166,7 +180166,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -180410,7 +180410,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -180669,7 +180669,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -180929,7 +180929,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -181181,7 +181181,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -181402,7 +181402,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -181605,7 +181605,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -181782,7 +181782,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -181880,7 +181880,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -182090,7 +182090,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -182391,7 +182391,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -182716,7 +182716,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 63,
@@ -182896,7 +182896,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 63,
@@ -183150,7 +183150,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -183335,7 +183335,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -183651,7 +183651,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         }
       ],
       "actions": [
@@ -183730,7 +183730,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         }
       ],
       "actions": [
@@ -183802,7 +183802,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -184090,7 +184090,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 22,
@@ -184234,7 +184234,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -184507,7 +184507,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -184684,7 +184684,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -184834,7 +184834,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -184955,7 +184955,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -185063,7 +185063,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -185307,7 +185307,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -185621,7 +185621,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -185792,7 +185792,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -185963,7 +185963,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -186229,7 +186229,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -186516,7 +186516,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -186738,7 +186738,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         }
       ],
       "actions": [
@@ -186810,7 +186810,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -187015,7 +187015,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -187255,7 +187255,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -187542,7 +187542,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -187758,7 +187758,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -187894,7 +187894,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -188079,7 +188079,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -188249,7 +188249,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -188456,7 +188456,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -188640,7 +188640,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -188783,7 +188783,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -188926,7 +188926,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -189103,7 +189103,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -189294,7 +189294,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -189480,7 +189480,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -189664,7 +189664,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -189841,7 +189841,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -190047,7 +190047,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -190337,7 +190337,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -190574,7 +190574,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -190847,7 +190847,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -191080,7 +191080,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -191223,7 +191223,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -191480,7 +191480,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -191703,7 +191703,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -191916,7 +191916,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -192108,7 +192108,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -192248,7 +192248,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 19,
           "value": 1,
-          "description": "Attack Element: Rapier Bonus (value: 1)"
+          "description": "Attack Element: Rapier Bonus"
         },
         {
           "code": 61,
@@ -192426,7 +192426,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -192566,7 +192566,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 19,
           "value": 1,
-          "description": "Attack Element: Rapier Bonus (value: 1)"
+          "description": "Attack Element: Rapier Bonus"
         },
         {
           "code": 13,
@@ -192709,7 +192709,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -192968,7 +192968,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -193196,7 +193196,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -193459,7 +193459,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -193645,7 +193645,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -193848,7 +193848,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -194107,7 +194107,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -194247,7 +194247,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 19,
           "value": 1,
-          "description": "Attack Element: Rapier Bonus (value: 1)"
+          "description": "Attack Element: Rapier Bonus"
         },
         {
           "code": 13,
@@ -194425,7 +194425,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -194788,7 +194788,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -195099,7 +195099,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -195529,7 +195529,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -195841,7 +195841,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -196030,7 +196030,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -196219,7 +196219,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -196408,7 +196408,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -196597,7 +196597,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -196786,7 +196786,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -196975,7 +196975,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -197164,7 +197164,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -197377,7 +197377,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -197604,7 +197604,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -197833,7 +197833,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -198069,7 +198069,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -198305,7 +198305,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -198534,7 +198534,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -198770,7 +198770,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -199006,7 +199006,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -199242,7 +199242,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         }
       ],
       "actions": [
@@ -199314,7 +199314,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -199544,7 +199544,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -199774,7 +199774,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 0,
-          "description": "Attack Element: Physical (value: 0)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -199962,7 +199962,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
@@ -200159,7 +200159,7 @@ const enemiesData = {
           "codeName": "Attack Element",
           "dataId": 1,
           "value": 100,
-          "description": "Attack Element: Physical (value: 100)"
+          "description": "Attack Element: Physical"
         },
         {
           "code": 13,
