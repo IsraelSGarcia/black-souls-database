@@ -596,8 +596,8 @@ header h1.clickable-title:hover {
 }
 
 .enemy-battler-detail {
-    width: 120px;
-    height: 120px;
+    width: 280px;
+    height: 280px;
     border-radius: 8px;
     border: 2px solid var(--border);
 }
@@ -1382,8 +1382,8 @@ header h1.clickable-title:hover {
     }
     
     .enemy-battler-detail {
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
     }
     
     /* Make scrollbars thinner on mobile */
@@ -1515,8 +1515,8 @@ header h1.clickable-title:hover {
     }
     
     .enemy-battler-detail {
-        width: 80px;
-        height: 80px;
+        width: 160px;
+        height: 160px;
     }
     
     .detail-section {
