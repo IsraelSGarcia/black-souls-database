@@ -218,27 +218,8 @@ function restoreStateFromHistory(state, forceRestore = false) {
             showGamesView();
             isRestoringState = false; // No async operations for games view
         } else if (savedView === 'sections') {
-            // If there's a search query, show search page; otherwise show sections view
-            if (savedSearchQuery && savedSearchQuery.trim()) {
-                pendingOperations++;
-                setTimeout(() => {
-                    showSearchPage(savedSearchQuery);
-                    markOperationComplete();
-                }, 100);
-            } else {
             showSectionsView(savedGame || 'bs2');
-                isRestoringState = false; // No async operations for sections view
-            }
-            if (pendingOperations === 0) {
-                isRestoringState = false;
-            }
-        } else if (savedView === 'search') {
-            // Restore search page with saved query
-            pendingOperations++;
-            setTimeout(() => {
-                showSearchPage(savedSearchQuery || '');
-                markOperationComplete();
-            }, 100);
+            isRestoringState = false; // No async operations for sections view
         } else if (savedView) {
             // Restore section
             showSection(savedView, true); // preserveSearch = true
@@ -1388,16 +1369,11 @@ function showGamesView() {
 }
 
 // Show Sections View for a selected game
-// Global variable to store filtered results for sections view search
-let filteredSectionsResults = [];
-// Track if we came from sections search (for back button navigation)
-let cameFromSectionsSearch = false;
-
 function showSectionsView(gameName) {
     gamesView.classList.add('hidden');
     sectionsView.classList.remove('hidden');
-    searchSection.classList.remove('hidden'); // Show search bar
-    mainContent.classList.remove('hidden'); // Show main content for search results
+    searchSection.classList.add('hidden');
+    mainContent.classList.add('hidden');
     upButton.classList.remove('hidden');
     
     currentGame = gameName;
@@ -1410,10 +1386,7 @@ function showSectionsView(gameName) {
     headerTitle.classList.add('hidden');
     headerSubtitle.classList.add('hidden');
     
-    // Reset search and selection
-    searchInput.value = '';
-    filteredSectionsResults = [];
-    cameFromSectionsSearch = false; // Reset flag when showing sections view
+    // Reset selection
     selectedSkillId = null;
     selectedStateId = null;
     selectedWeaponId = null;
@@ -1428,11 +1401,7 @@ function showSectionsView(gameName) {
     }
     detailContent.style.display = 'none';
     
-    // Clear results list initially and show sections grid
-    resultsList.innerHTML = '';
-    resultsCount.textContent = '0 results found';
-    
-    // Show sections grid, hide results initially
+    // Show sections grid
     const sectionsGrid = document.querySelector('.sections-grid');
     if (sectionsGrid) {
         sectionsGrid.style.display = 'flex';
@@ -1926,18 +1895,6 @@ function handleUpButton() {
     
     if (hasSelection) {
         // Check if we came from sections search - if so, go back to sections search
-        // When navigating from sections search to a detail, the history stack should be:
-        // [sections with search] -> [section detail]
-        // So when pressing back from detail, we should check if previous entry was sections with search
-        // We can't directly access previous history entry, but we can use cameFromSectionsSearch flag
-        // or check if the URL/state suggests we came from sections search
-        if (cameFromSectionsSearch) {
-            cameFromSectionsSearch = false;
-            // Use browser history to go back - the popstate handler will restore the sections search state
-            history.back();
-            return;
-        }
-        
         // Layer 1: Detail page -> Section List
         // Determine which section we're in
         const section = currentSection || 
@@ -2470,22 +2427,15 @@ function selectSkill(skillId) {
     
     // Update browser history
     // Use replaceState if state hasn't meaningfully changed to avoid duplicates
-    // If coming from sections search, always push (sections search state was already pushed)
+    // Update browser history
     if (!isRestoringState) {
         const newState = buildNavigationState();
-        if (cameFromSectionsSearch) {
-            // Coming from sections search - push the detail state
-            pushHistoryState(newState);
-            // Reset flag after pushing
-            cameFromSectionsSearch = false;
+        const currentState = history.state;
+        // If state hasn't changed (same view, game, selectedId, searchQuery), use replaceState
+        if (currentState && !hasStateChanged(newState)) {
+            pushHistoryState(newState, true); // Use replaceState to avoid duplicates
         } else {
-            const currentState = history.state;
-            // If state hasn't changed (same view, game, selectedId, searchQuery), use replaceState
-            if (currentState && !hasStateChanged(newState)) {
-                pushHistoryState(newState, true); // Use replaceState to avoid duplicates
-            } else {
-                pushHistoryState(newState); // Use pushState for actual navigation changes
-            }
+            pushHistoryState(newState); // Use pushState for actual navigation changes
         }
     }
 }
@@ -3578,22 +3528,15 @@ function selectState(stateId) {
     
     // Update browser history
     // Use replaceState if state hasn't meaningfully changed to avoid duplicates
-    // If coming from sections search, always push (sections search state was already pushed)
+    // Update browser history
     if (!isRestoringState) {
         const newState = buildNavigationState();
-        if (cameFromSectionsSearch) {
-            // Coming from sections search - push the detail state
-            pushHistoryState(newState);
-            // Reset flag after pushing
-            cameFromSectionsSearch = false;
+        const currentState = history.state;
+        // If state hasn't changed (same view, game, selectedId, searchQuery), use replaceState
+        if (currentState && !hasStateChanged(newState)) {
+            pushHistoryState(newState, true); // Use replaceState to avoid duplicates
         } else {
-            const currentState = history.state;
-            // If state hasn't changed (same view, game, selectedId, searchQuery), use replaceState
-            if (currentState && !hasStateChanged(newState)) {
-                pushHistoryState(newState, true); // Use replaceState to avoid duplicates
-            } else {
-                pushHistoryState(newState); // Use pushState for actual navigation changes
-            }
+            pushHistoryState(newState); // Use pushState for actual navigation changes
         }
     }
 }
@@ -4373,22 +4316,15 @@ function selectWeapon(weaponId) {
     
     // Update browser history
     // Use replaceState if state hasn't meaningfully changed to avoid duplicates
-    // If coming from sections search, always push (sections search state was already pushed)
+    // Update browser history
     if (!isRestoringState) {
         const newState = buildNavigationState();
-        if (cameFromSectionsSearch) {
-            // Coming from sections search - push the detail state
-            pushHistoryState(newState);
-            // Reset flag after pushing
-            cameFromSectionsSearch = false;
+        const currentState = history.state;
+        // If state hasn't changed (same view, game, selectedId, searchQuery), use replaceState
+        if (currentState && !hasStateChanged(newState)) {
+            pushHistoryState(newState, true); // Use replaceState to avoid duplicates
         } else {
-            const currentState = history.state;
-            // If state hasn't changed (same view, game, selectedId, searchQuery), use replaceState
-            if (currentState && !hasStateChanged(newState)) {
-                pushHistoryState(newState, true); // Use replaceState to avoid duplicates
-            } else {
-                pushHistoryState(newState); // Use pushState for actual navigation changes
-            }
+            pushHistoryState(newState); // Use pushState for actual navigation changes
         }
     }
 }
@@ -4729,22 +4665,15 @@ function selectEnemy(enemyId) {
     
     // Update browser history
     // Use replaceState if state hasn't meaningfully changed to avoid duplicates
-    // If coming from sections search, always push (sections search state was already pushed)
+    // Update browser history
     if (!isRestoringState) {
         const newState = buildNavigationState();
-        if (cameFromSectionsSearch) {
-            // Coming from sections search - push the detail state
-            pushHistoryState(newState);
-            // Reset flag after pushing
-            cameFromSectionsSearch = false;
+        const currentState = history.state;
+        // If state hasn't changed (same view, game, selectedId, searchQuery), use replaceState
+        if (currentState && !hasStateChanged(newState)) {
+            pushHistoryState(newState, true); // Use replaceState to avoid duplicates
         } else {
-            const currentState = history.state;
-            // If state hasn't changed (same view, game, selectedId, searchQuery), use replaceState
-            if (currentState && !hasStateChanged(newState)) {
-                pushHistoryState(newState, true); // Use replaceState to avoid duplicates
-            } else {
-                pushHistoryState(newState); // Use pushState for actual navigation changes
-            }
+            pushHistoryState(newState); // Use pushState for actual navigation changes
         }
     }
 }
@@ -4794,22 +4723,15 @@ function selectItem(itemId) {
     
     // Update browser history
     // Use replaceState if state hasn't meaningfully changed to avoid duplicates
-    // If coming from sections search, always push (sections search state was already pushed)
+    // Update browser history
     if (!isRestoringState) {
         const newState = buildNavigationState();
-        if (cameFromSectionsSearch) {
-            // Coming from sections search - push the detail state
-            pushHistoryState(newState);
-            // Reset flag after pushing
-            cameFromSectionsSearch = false;
+        const currentState = history.state;
+        // If state hasn't changed (same view, game, selectedId, searchQuery), use replaceState
+        if (currentState && !hasStateChanged(newState)) {
+            pushHistoryState(newState, true); // Use replaceState to avoid duplicates
         } else {
-            const currentState = history.state;
-            // If state hasn't changed (same view, game, selectedId, searchQuery), use replaceState
-            if (currentState && !hasStateChanged(newState)) {
-                pushHistoryState(newState, true); // Use replaceState to avoid duplicates
-            } else {
-                pushHistoryState(newState); // Use pushState for actual navigation changes
-            }
+            pushHistoryState(newState); // Use pushState for actual navigation changes
         }
     }
 }
@@ -4859,22 +4781,15 @@ function selectElement(elementId) {
     
     // Update browser history
     // Use replaceState if state hasn't meaningfully changed to avoid duplicates
-    // If coming from sections search, always push (sections search state was already pushed)
+    // Update browser history
     if (!isRestoringState) {
         const newState = buildNavigationState();
-        if (cameFromSectionsSearch) {
-            // Coming from sections search - push the detail state
-            pushHistoryState(newState);
-            // Reset flag after pushing
-            cameFromSectionsSearch = false;
+        const currentState = history.state;
+        // If state hasn't changed (same view, game, selectedId, searchQuery), use replaceState
+        if (currentState && !hasStateChanged(newState)) {
+            pushHistoryState(newState, true); // Use replaceState to avoid duplicates
         } else {
-            const currentState = history.state;
-            // If state hasn't changed (same view, game, selectedId, searchQuery), use replaceState
-            if (currentState && !hasStateChanged(newState)) {
-                pushHistoryState(newState, true); // Use replaceState to avoid duplicates
-            } else {
-                pushHistoryState(newState); // Use pushState for actual navigation changes
-            }
+            pushHistoryState(newState); // Use pushState for actual navigation changes
         }
     }
 }
@@ -5719,474 +5634,9 @@ function renderItemNotes(item) {
     `;
 }
 
-// Search across all object types for sections view with improved scoring
-function searchAllSections(query) {
-    filteredSectionsResults = [];
-    
-    if (!query || query.trim() === '') {
-        return;
-    }
-    
-    const results = [];
-    
-    // Search skills
-    const skills = allSkills.length > 0 ? allSkills : (skillsData?.skills || []);
-    skills.forEach(skill => {
-        if (skill) {
-            const detailText = getDetailTextContent(skill, 'skill');
-            if (fuzzyMatch(query, detailText)) {
-                const relevance = calculateRelevance(skill, query, 'skill');
-                results.push({ 
-                    type: 'Skill', 
-                    name: skill.name, 
-                    id: skill.id, 
-                    section: 'skills',
-                    obj: skill,
-                    relevance: relevance
-                });
-            }
-        }
-    });
-    
-    // Search states
-    const states = allStates.length > 0 ? allStates : (statesData?.states || []);
-    states.forEach(state => {
-        if (state) {
-            const detailText = getDetailTextContent(state, 'state');
-            if (fuzzyMatch(query, detailText)) {
-                const relevance = calculateRelevance(state, query, 'state');
-                results.push({ 
-                    type: 'State', 
-                    name: state.name, 
-                    id: state.id, 
-                    section: 'states',
-                    obj: state,
-                    relevance: relevance
-                });
-            }
-        }
-    });
-    
-    // Search weapons
-    const weapons = allWeapons.length > 0 ? allWeapons : (weaponsData?.weapons || []);
-    weapons.forEach(weapon => {
-        if (weapon) {
-            const detailText = getDetailTextContent(weapon, 'weapon');
-            if (fuzzyMatch(query, detailText)) {
-                const relevance = calculateRelevance(weapon, query, 'weapon');
-                results.push({ 
-                    type: 'Weapon', 
-                    name: weapon.name, 
-                    id: weapon.id, 
-                    section: 'weapons',
-                    obj: weapon,
-                    relevance: relevance
-                });
-            }
-        }
-    });
-    
-    // Search armors
-    const armors = allArmors.length > 0 ? allArmors : (armorsData?.armors || []);
-    armors.forEach(armor => {
-        if (armor) {
-            const detailText = getDetailTextContent(armor, 'armor');
-            if (fuzzyMatch(query, detailText)) {
-                const relevance = calculateRelevance(armor, query, 'armor');
-                results.push({ 
-                    type: 'Armor', 
-                    name: armor.name, 
-                    id: armor.id, 
-                    section: 'armors',
-                    obj: armor,
-                    relevance: relevance
-                });
-            }
-        }
-    });
-    
-    // Search enemies
-    const enemies = allEnemies.length > 0 ? allEnemies : (enemiesData?.enemies || []);
-    enemies.forEach(enemy => {
-        if (enemy) {
-            const detailText = getDetailTextContent(enemy, 'enemy');
-            if (fuzzyMatch(query, detailText)) {
-                const relevance = calculateRelevance(enemy, query, 'enemy');
-                results.push({ 
-                    type: 'Enemy', 
-                    name: enemy.name, 
-                    id: enemy.id, 
-                    section: 'enemies',
-                    obj: enemy,
-                    relevance: relevance
-                });
-            }
-        }
-    });
-    
-    // Search items
-    const items = allItems.length > 0 ? allItems : (itemsData?.items || []);
-    items.forEach(item => {
-        if (item) {
-            const detailText = getDetailTextContent(item, 'item');
-            if (fuzzyMatch(query, detailText)) {
-                const relevance = calculateRelevance(item, query, 'item');
-                results.push({ 
-                    type: 'Item', 
-                    name: item.name, 
-                    id: item.id, 
-                    section: 'items',
-                    obj: item,
-                    relevance: relevance
-                });
-            }
-        }
-    });
-    
-    // Search elements
-    const elements = allElements.length > 0 ? allElements : (elementsData?.elements || []);
-    elements.forEach(element => {
-        if (element) {
-            const detailText = getDetailTextContent(element, 'element');
-            if (fuzzyMatch(query, detailText)) {
-                const relevance = calculateRelevance(element, query, 'element');
-                results.push({ 
-                    type: 'Element', 
-                    name: element.name || element.englishName || element.japaneseName, 
-                    id: element.id, 
-                    section: 'elements',
-                    obj: element,
-                    relevance: relevance
-                });
-            }
-        }
-    });
-    
-    // Sort by relevance (highest first)
-    filteredSectionsResults = results.sort((a, b) => b.relevance - a.relevance);
-}
-
-// Show dedicated search page when searching in sections view
-function showSearchPage(query) {
-    // Hide sections view, show main content
-    gamesView.classList.add('hidden');
-    sectionsView.classList.add('hidden');
-    searchSection.classList.remove('hidden');
-    mainContent.classList.remove('hidden');
-    mainContent.style.display = 'grid';
-    upButton.classList.remove('hidden');
-    
-    // Set currentSection to null to indicate we're in search mode
-    currentSection = null;
-    
-    // Set search input value
-    if (searchInput) {
-        searchInput.value = query || '';
-    }
-    
-    // Ensure panels are visible and properly configured
-    const resultsPanel = document.querySelector('.results-panel');
-    const detailPanel = document.querySelector('.detail-panel');
-    if (resultsPanel) {
-        resultsPanel.style.display = 'block';
-    }
-    if (detailPanel) {
-        detailPanel.style.display = window.innerWidth > 1024 ? 'flex' : 'none';
-        detailPanel.classList.remove('mobile-active');
-    }
-    
-    // Clear detail panel
-    const placeholder = document.querySelector('.detail-placeholder');
-    if (placeholder) {
-        placeholder.style.display = 'flex';
-    }
-    if (detailContent) {
-        detailContent.style.display = 'none';
-    }
-    
-    // Perform search and render results
-    searchAllSections(query);
-    renderSearchResults();
-    updateResultsCount();
-    
-    // Update browser history (pushHistoryState will handle the URL via buildURL)
-    // Use replaceState if we're already on a search page to avoid duplicates
-    // Also use replaceState if current state is 'sections' to avoid "Sections, Search" pairs
-    if (!isRestoringState) {
-        const newState = buildNavigationState();
-        const currentState = history.state;
-        // If current state is 'search' OR 'sections', replace instead of push
-        // This prevents multiple "Sections, Search" pairs right next to each other
-        const shouldReplace = currentState && (currentState.view === 'search' || currentState.view === 'sections');
-        pushHistoryState(newState, shouldReplace);
-    }
-}
-
-// Render search results (reuses renderSectionsResults logic)
-function renderSearchResults() {
-    renderSectionsResults();
-}
-
-// Render search results for sections view using same card format as their sections
-function renderSectionsResults() {
-    const sectionsGrid = document.querySelector('.sections-grid');
-    const hasQuery = searchInput.value.trim() !== '';
-    
-    // Show/hide sections grid based on search query
-    if (sectionsGrid) {
-        sectionsGrid.style.display = hasQuery ? 'none' : 'flex';
-    }
-    if (mainContent) {
-        if (hasQuery) {
-            // Show main content and ensure it's properly set up like in section views
-            mainContent.classList.remove('hidden');
-            mainContent.style.display = 'grid';
-            
-            // Ensure panels are visible and properly configured
-            const resultsPanel = document.querySelector('.results-panel');
-            const detailPanel = document.querySelector('.detail-panel');
-            if (resultsPanel) {
-                resultsPanel.style.display = 'block';
-            }
-            if (detailPanel) {
-                detailPanel.style.display = window.innerWidth > 1024 ? 'flex' : 'none';
-                detailPanel.classList.remove('mobile-active');
-            }
-        } else {
-            mainContent.style.display = 'none';
-        }
-    }
-    
-    if (filteredSectionsResults.length === 0) {
-        if (hasQuery) {
-            resultsList.innerHTML = `
-                <div class="empty-state">
-                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M21 38C30.3888 38 38 30.3888 38 21C38 11.6112 30.3888 4 21 4C11.6112 4 4 11.6112 4 21C4 30.3888 11.6112 38 21 38Z" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M44 44L33.65 33.65" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    <p>No results found</p>
-                </div>
-            `;
-        }
-        return;
-    }
-    
-    // Render each result using the same card format as its section
-    resultsList.innerHTML = filteredSectionsResults.map(result => {
-        const obj = result.obj;
-        const iconPos = getIconPosition(obj.iconIndex);
-        const iconStyle = iconPos !== 'none' ? `style="background-position: ${iconPos};" data-icon="${obj.iconIndex}"` : '';
-        
-        // Render based on type
-        if (result.section === 'skills') {
-            const mpCost = obj.mpCost > 0 ? `<span class="cost-badge cost-mp">MP ${obj.mpCost}</span>` : '';
-            return `
-                <div class="skill-card sections-result-item" data-type="${result.section}" data-id="${result.id}">
-                    <div class="skill-card-header">
-                        <div class="skill-icon" ${iconStyle}></div>
-                        <div class="skill-card-title">
-                            <span class="result-type-label">${result.type}:</span> ${escapeHtml(obj.name)} <span class="detail-id">#${obj.id}</span>
-                        </div>
-                        <div class="skill-card-costs">${mpCost}</div>
-                    </div>
-                    <div class="skill-card-description">${escapeHtml(obj.description || '')}</div>
-                </div>
-            `;
-        } else if (result.section === 'states') {
-            return `
-                <div class="skill-card sections-result-item" data-type="${result.section}" data-id="${result.id}">
-                    <div class="skill-card-header">
-                        <div class="skill-icon" ${iconStyle}></div>
-                        <div class="skill-card-title">
-                            <span class="result-type-label">${result.type}:</span> ${escapeHtml(obj.name)} <span class="detail-id">#${obj.id}</span>
-                        </div>
-                    </div>
-                    <div class="skill-card-description">${escapeHtml(obj.duration || '')} duration</div>
-                </div>
-            `;
-        } else if (result.section === 'weapons') {
-            return `
-                <div class="skill-card sections-result-item" data-type="${result.section}" data-id="${result.id}">
-                    <div class="skill-card-header">
-                        <div class="skill-icon" ${iconStyle}></div>
-                        <div class="skill-card-title">
-                            <span class="result-type-label">${result.type}:</span> ${escapeHtml(obj.name)} <span class="detail-id">#${obj.id}</span>
-                        </div>
-                    </div>
-                    <div class="skill-card-description">${obj.price > 0 ? `${obj.price}G` : ''}</div>
-                </div>
-            `;
-        } else if (result.section === 'armors') {
-            return `
-                <div class="skill-card sections-result-item" data-type="${result.section}" data-id="${result.id}">
-                    <div class="skill-card-header">
-                        <div class="skill-icon" ${iconStyle}></div>
-                        <div class="skill-card-title">
-                            <span class="result-type-label">${result.type}:</span> ${escapeHtml(obj.name)} <span class="detail-id">#${obj.id}</span>
-                        </div>
-                    </div>
-                    <div class="skill-card-description">${obj.price > 0 ? `${obj.price}G` : ''}</div>
-                </div>
-            `;
-        } else if (result.section === 'enemies') {
-            // Use battler sprite if available, otherwise fall back to icon (exact match from renderEnemiesResults)
-            let imageHtml = '';
-            if (obj.battlerName && obj.battlerName.trim() !== '') {
-                const battlerPath = `Battlers/${obj.battlerName}.png`;
-                imageHtml = `<img src="${battlerPath}" alt="${obj.name}" class="enemy-battler enemy-battler-list" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />`;
-                const iconPos = getIconPosition(obj.iconIndex);
-                const iconStyle = iconPos !== 'none' ? `style="background-position: ${iconPos}; display: none;" data-icon="${obj.iconIndex}"` : 'style="display: none;"';
-                imageHtml += `<div class="skill-icon" ${iconStyle}></div>`;
-            } else {
-                const iconPos = getIconPosition(obj.iconIndex);
-                const iconStyle = iconPos !== 'none' ? `style="background-position: ${iconPos};" data-icon="${obj.iconIndex}"` : '';
-                imageHtml = `<div class="skill-icon" ${iconStyle}></div>`;
-            }
-            return `
-                <div class="skill-card sections-result-item" data-type="${result.section}" data-id="${result.id}">
-                    <div class="skill-card-header">
-                        ${imageHtml}
-                        <div class="skill-card-title">
-                            <span class="result-type-label">${result.type}:</span> ${escapeHtml(obj.name)} <span class="detail-id">#${obj.id}</span>
-                        </div>
-                    </div>
-                    <div class="skill-card-description">${obj.exp > 0 ? `${obj.exp} EXP` : ''} ${obj.gold > 0 ? ` • ${obj.gold}G` : ''}</div>
-                </div>
-            `;
-        } else if (result.section === 'items') {
-            const iconPos = getIconPosition(obj.iconIndex);
-            const iconStyle = iconPos !== 'none' ? `style="background-position: ${iconPos};" data-icon="${obj.iconIndex}"` : '';
-            return `
-                <div class="skill-card sections-result-item" data-type="${result.section}" data-id="${result.id}">
-                    <div class="skill-card-header">
-                        <div class="skill-icon" ${iconStyle}></div>
-                        <div class="skill-card-title">
-                            <span class="result-type-label">${result.type}:</span> ${escapeHtml(obj.name)} <span class="detail-id">#${obj.id}</span>
-                        </div>
-                    </div>
-                    <div class="skill-card-description">${obj.price > 0 ? `${obj.price}G` : ''} ${obj.consumable ? '• Consumable' : ''}</div>
-                </div>
-            `;
-        } else if (result.section === 'elements') {
-            const totalRefs = (obj.skillsUsingElement?.length || 0) + 
-                             (obj.itemsUsingElement?.length || 0) + 
-                             (obj.elementRateModifiers?.length || 0) + 
-                             (obj.attackElementAdditions?.length || 0);
-            const iconPos = getIconPosition(obj.iconIndex || 0);
-            const iconStyle = iconPos !== 'none' ? `style="background-position: ${iconPos};" data-icon="${obj.iconIndex || 0}"` : '';
-            const elementName = obj.englishName || obj.japaneseName || `Element #${obj.id}`;
-            return `
-                <div class="skill-card sections-result-item" data-type="${result.section}" data-id="${result.id}">
-                    <div class="skill-card-header">
-                        <div class="skill-icon" ${iconStyle}></div>
-                        <div class="skill-card-title">
-                            <span class="result-type-label">${result.type}:</span> ${escapeHtml(elementName)} <span class="detail-id">#${obj.id}</span>
-                        </div>
-                    </div>
-                    <div class="skill-card-description">${totalRefs} references${obj.isEmpty ? ' • Empty' : ''}</div>
-                </div>
-            `;
-        }
-        return '';
-    }).join('');
-    
-    // Add click handlers
-    document.querySelectorAll('.sections-result-item').forEach(item => {
-        item.addEventListener('click', () => {
-            const type = item.dataset.type;
-            const id = parseInt(item.dataset.id);
-            
-            // Save current sections search state to history before navigating
-            // IMPORTANT: Build state BEFORE calling showSection, which changes currentSection
-            if (!isRestoringState) {
-                const searchQuery = searchInput ? searchInput.value : '';
-                // Check if the search state is already in history
-                const currentState = history.state;
-                const isSearchStateInHistory = currentState && currentState.view === 'search' && 
-                                              currentState.searchQuery === searchQuery;
-                
-                // Only push if search state is not already in history
-                if (searchQuery.trim() && !isSearchStateInHistory) {
-                    const sectionsSearchState = {
-                        view: 'search',
-                        game: currentGame || 'bs2',
-                        selectedId: null,
-                        searchQuery: searchQuery,
-                        resultsListScrollTop: resultsList ? resultsList.scrollTop : 0,
-                        detailPanelScrollTop: 0
-                    };
-                    pushHistoryState(sectionsSearchState, false, true); // Use force=true to ensure push
-                }
-            }
-            
-            // Mark that we came from sections search
-            cameFromSectionsSearch = true;
-            
-            // Navigate to the appropriate section and select the item
-            // Skip history push for showSection since we already pushed sections search state
-            showSection(type, false, true);
-            setTimeout(() => {
-                if (type === 'skills') {
-                    selectSkill(id);
-                } else if (type === 'states') {
-                    selectState(id);
-                } else if (type === 'weapons') {
-                    selectWeapon(id);
-                } else if (type === 'armors') {
-                    selectArmor(id);
-                } else if (type === 'enemies') {
-                    selectEnemy(id);
-                } else if (type === 'items') {
-                    selectItem(id);
-                } else if (type === 'elements') {
-                    selectElement(id);
-                }
-                
-                // Scroll the selected item into view (same as cross-reference navigation)
-                let selector = null;
-                if (type === 'skills') selector = `.skill-card[data-skill-id="${id}"]`;
-                else if (type === 'states') selector = `.skill-card[data-state-id="${id}"]`;
-                else if (type === 'weapons') selector = `.skill-card[data-weapon-id="${id}"]`;
-                else if (type === 'armors') selector = `.skill-card[data-armor-id="${id}"]`;
-                else if (type === 'enemies') selector = `.skill-card[data-enemy-id="${id}"]`;
-                else if (type === 'items') selector = `.skill-card[data-item-id="${id}"]`;
-                else if (type === 'elements') selector = `.skill-card[data-element-id="${id}"]`;
-                
-                if (selector) {
-                    // Try multiple times in case the DOM hasn't fully rendered yet
-                    let attempts = 0;
-                    const maxAttempts = 10;
-                    const tryScroll = () => {
-                        const card = document.querySelector(selector);
-                        if (card) {
-                            // Use scrollIntoView with smooth behavior and block: 'center' to ensure item is visible
-                            card.scrollIntoView({
-                                behavior: 'smooth',
-                                block: 'center',
-                                inline: 'nearest'
-                            });
-                            return true;
-                        } else if (attempts < maxAttempts) {
-                            attempts++;
-                            setTimeout(tryScroll, 50);
-                        }
-                        return false;
-                    };
-                    tryScroll();
-                }
-            }, 200);
-        });
-    });
-}
-
 // Update results count
 function updateResultsCount() {
-    if (!currentSection) {
-        // Sections view - show count of all results
-        const count = filteredSectionsResults.length;
-        resultsCount.textContent = `${count} result${count !== 1 ? 's' : ''} found`;
-    } else if (currentSection === 'skills') {
+    if (currentSection === 'skills') {
         const count = filteredSkills.length;
         resultsCount.textContent = `${count} skill${count !== 1 ? 's' : ''} found`;
     } else if (currentSection === 'states') {
@@ -6225,32 +5675,7 @@ searchInput.addEventListener('input', (e) => {
     }
     
     // Perform search immediately for responsive UI
-    if (!currentSection) {
-        // Sections view - search across all types
-        // If there's a search query, navigate to search page
-        if (searchValue.trim()) {
-            showSearchPage(searchValue);
-        } else {
-            // Clear search - if we're on a search page, replace it with sections view
-            // This removes the search page from history and ensures no duplicates
-            const currentState = history.state;
-            if (currentState && currentState.view === 'search') {
-                // Replace the search page with sections view in history
-                const sectionsState = {
-                    view: 'sections',
-                    game: currentGame || 'bs2',
-                    selectedId: null,
-                    searchQuery: null,
-                    resultsListScrollTop: 0,
-                    detailPanelScrollTop: 0
-                };
-                const url = buildURL(sectionsState);
-                history.replaceState(sectionsState, '', url);
-            }
-            // Show sections view
-            showSectionsView(currentGame || 'bs2');
-        }
-    } else if (currentSection === 'skills') {
+    if (currentSection === 'skills') {
         searchSkills(searchValue);
         renderResults();
     } else if (currentSection === 'states') {
