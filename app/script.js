@@ -2144,7 +2144,10 @@ function renderSkillDetail(skill) {
     const iconPos = getIconPosition(skill.iconIndex, 1.5); // 48px = 32px * 1.5
     const iconStyle = iconPos !== 'none' ? `style="background-position: ${iconPos};" data-icon="${skill.iconIndex}"` : '';
     
-    const html = `
+    // Find references
+    const refs = findSkillReferences(skill.id);
+    
+    let html = `
         <div class="detail-header">
             <div class="detail-title-row">
                 <div class="detail-icon" ${iconStyle}></div>
@@ -2159,6 +2162,46 @@ function renderSkillDetail(skill) {
         ${renderMessages(skill)}
         ${renderNotes(skill)}
     `;
+    
+    // Add references section at the bottom
+    if (refs.itemsTeaching.length > 0 || refs.enemiesUsing.length > 0) {
+        html += `
+            <div class="detail-section">
+                <div class="section-title">References</div>
+        `;
+        
+        if (refs.itemsTeaching.length > 0) {
+            html += `
+                <div class="subsection">
+                    <div class="subsection-title">Items Teaching This Skill (${refs.itemsTeaching.length})</div>
+                    <div class="effect-list">
+                        ${refs.itemsTeaching.map(item => `
+                            <div class="effect-item">
+                                <div class="effect-name">${convertCrossReferencesAndEscape(item.reference)}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+        }
+        
+        if (refs.enemiesUsing.length > 0) {
+            html += `
+                <div class="subsection">
+                    <div class="subsection-title">Enemies Using This Skill (${refs.enemiesUsing.length})</div>
+                    <div class="effect-list">
+                        ${refs.enemiesUsing.map(enemy => `
+                            <div class="effect-item">
+                                <div class="effect-name">${convertCrossReferencesAndEscape(enemy.reference)}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+        }
+        
+        html += `</div>`;
+    }
     
     detailContent.innerHTML = html;
     
@@ -2475,6 +2518,280 @@ function renderNotes(skill) {
     `;
 }
 
+// Helper functions to find reverse references
+// These functions use the data directly from data.js to ensure data is always available
+function findSkillReferences(skillId) {
+    const references = {
+        itemsTeaching: [],
+        enemiesUsing: []
+    };
+    
+    // Use data directly from data.js if arrays aren't loaded yet
+    const items = allItems.length > 0 ? allItems : (itemsData?.items || []);
+    const enemies = allEnemies.length > 0 ? allEnemies : (enemiesData?.enemies || []);
+    
+    // Find items that teach this skill (effect code 43: Learn Skill)
+    items.forEach(item => {
+        if (item && item.effects) {
+            const teachesSkill = item.effects.some(effect => 
+                effect.code === 43 && effect.dataId === skillId
+            );
+            if (teachesSkill) {
+                references.itemsTeaching.push({
+                    id: item.id,
+                    name: item.name,
+                    reference: `[[ITEM:${item.id}:${item.name}]]`
+                });
+            }
+        }
+    });
+    
+    // Find enemies that use this skill
+    enemies.forEach(enemy => {
+        if (enemy && enemy.actions) {
+            const usesSkill = enemy.actions.some(action => action.skillId === skillId);
+            if (usesSkill) {
+                references.enemiesUsing.push({
+                    id: enemy.id,
+                    name: enemy.name,
+                    reference: `[[ENEMY:${enemy.id}:${enemy.name}]]`
+                });
+            }
+        }
+    });
+    
+    return references;
+}
+
+function findStateReferences(stateId) {
+    const references = {
+        skillsApplying: [],
+        skillsRemoving: [],
+        itemsApplying: [],
+        itemsRemoving: [],
+        enemiesWith: []
+    };
+    
+    // Use data directly from data.js if arrays aren't loaded yet
+    const skills = allSkills.length > 0 ? allSkills : (skillsData?.skills || []);
+    const items = allItems.length > 0 ? allItems : (itemsData?.items || []);
+    const enemies = allEnemies.length > 0 ? allEnemies : (enemiesData?.enemies || []);
+    
+    // Find skills that apply this state (effect code 21: Add State)
+    skills.forEach(skill => {
+        if (skill && skill.effects) {
+            const appliesState = skill.effects.some(effect => 
+                effect.code === 21 && effect.dataId === stateId
+            );
+            if (appliesState) {
+                references.skillsApplying.push({
+                    id: skill.id,
+                    name: skill.name,
+                    reference: `[[SKILL:${skill.id}:${skill.name}]]`
+                });
+            }
+            const removesState = skill.effects.some(effect => 
+                effect.code === 22 && effect.dataId === stateId
+            );
+            if (removesState) {
+                references.skillsRemoving.push({
+                    id: skill.id,
+                    name: skill.name,
+                    reference: `[[SKILL:${skill.id}:${skill.name}]]`
+                });
+            }
+        }
+    });
+    
+    // Find items that apply/remove this state
+    items.forEach(item => {
+        if (item && item.effects) {
+            const appliesState = item.effects.some(effect => 
+                effect.code === 21 && effect.dataId === stateId
+            );
+            if (appliesState) {
+                references.itemsApplying.push({
+                    id: item.id,
+                    name: item.name,
+                    reference: `[[ITEM:${item.id}:${item.name}]]`
+                });
+            }
+            const removesState = item.effects.some(effect => 
+                effect.code === 22 && effect.dataId === stateId
+            );
+            if (removesState) {
+                references.itemsRemoving.push({
+                    id: item.id,
+                    name: item.name,
+                    reference: `[[ITEM:${item.id}:${item.name}]]`
+                });
+            }
+        }
+    });
+    
+    // Find enemies that have this state (via traits)
+    enemies.forEach(enemy => {
+        if (enemy && enemy.traits) {
+            const hasState = enemy.traits.some(trait => 
+                trait.code === 10 && trait.dataId === stateId
+            );
+            if (hasState) {
+                references.enemiesWith.push({
+                    id: enemy.id,
+                    name: enemy.name,
+                    reference: `[[ENEMY:${enemy.id}:${enemy.name}]]`
+                });
+            }
+        }
+    });
+    
+    return references;
+}
+
+function findWeaponReferences(weaponId) {
+    const references = {
+        enemiesDropping: []
+    };
+    
+    // Use data directly from data.js if arrays aren't loaded yet
+    const enemies = allEnemies.length > 0 ? allEnemies : (enemiesData?.enemies || []);
+    
+    // Find enemies that drop this weapon (drop.kind === 2)
+    enemies.forEach(enemy => {
+        if (enemy && enemy.dropItems) {
+            const dropsWeapon = enemy.dropItems.some(drop => 
+                drop.kind === 2 && drop.dataId === weaponId
+            );
+            if (dropsWeapon) {
+                references.enemiesDropping.push({
+                    id: enemy.id,
+                    name: enemy.name,
+                    reference: `[[ENEMY:${enemy.id}:${enemy.name}]]`
+                });
+            }
+        }
+    });
+    
+    return references;
+}
+
+function findArmorReferences(armorId) {
+    const references = {
+        enemiesDropping: []
+    };
+    
+    // Use data directly from data.js if arrays aren't loaded yet
+    const enemies = allEnemies.length > 0 ? allEnemies : (enemiesData?.enemies || []);
+    
+    // Find enemies that drop this armor (drop.kind === 3)
+    enemies.forEach(enemy => {
+        if (enemy && enemy.dropItems) {
+            const dropsArmor = enemy.dropItems.some(drop => 
+                drop.kind === 3 && drop.dataId === armorId
+            );
+            if (dropsArmor) {
+                references.enemiesDropping.push({
+                    id: enemy.id,
+                    name: enemy.name,
+                    reference: `[[ENEMY:${enemy.id}:${enemy.name}]]`
+                });
+            }
+        }
+    });
+    
+    return references;
+}
+
+function findItemReferences(itemId) {
+    const references = {
+        enemiesDropping: []
+    };
+    
+    // Use data directly from data.js if arrays aren't loaded yet
+    const enemies = allEnemies.length > 0 ? allEnemies : (enemiesData?.enemies || []);
+    
+    // Find enemies that drop this item (drop.kind === 1 for items)
+    enemies.forEach(enemy => {
+        if (enemy && enemy.dropItems) {
+            const dropsItem = enemy.dropItems.some(drop => 
+                drop.kind === 1 && drop.dataId === itemId
+            );
+            if (dropsItem) {
+                references.enemiesDropping.push({
+                    id: enemy.id,
+                    name: enemy.name,
+                    reference: `[[ENEMY:${enemy.id}:${enemy.name}]]`
+                });
+            }
+        }
+    });
+    
+    return references;
+}
+
+function findEnemyReferences(enemyId) {
+    const references = {
+        skillsUsed: [],
+        itemsDropped: [],
+        statesApplied: []
+    };
+    
+    // Use data directly from data.js if arrays aren't loaded yet
+    const enemies = allEnemies.length > 0 ? allEnemies : (enemiesData?.enemies || []);
+    const skills = allSkills.length > 0 ? allSkills : (skillsData?.skills || []);
+    const items = allItems.length > 0 ? allItems : (itemsData?.items || []);
+    const states = allStates.length > 0 ? allStates : (statesData?.states || []);
+    
+    const enemy = enemies.find(e => e && e.id === enemyId);
+    if (!enemy) return references;
+    
+    // Skills used by this enemy
+    if (enemy.actions) {
+        enemy.actions.forEach(action => {
+            const skill = skills.find(s => s && s.id === action.skillId);
+            if (skill) {
+                references.skillsUsed.push({
+                    id: skill.id,
+                    name: skill.name,
+                    reference: `[[SKILL:${skill.id}:${skill.name}]]`
+                });
+            }
+        });
+    }
+    
+    // Items dropped by this enemy
+    if (enemy.dropItems) {
+        enemy.dropItems.forEach(drop => {
+            const item = items.find(i => i && i.id === drop.itemId);
+            if (item) {
+                references.itemsDropped.push({
+                    id: item.id,
+                    name: item.name,
+                    reference: `[[ITEM:${item.id}:${item.name}]]`
+                });
+            }
+        });
+    }
+    
+    // States applied by this enemy (via traits)
+    if (enemy.traits) {
+        enemy.traits.forEach(trait => {
+            if (trait.code === 10 && trait.dataId) {
+                const state = states.find(s => s && s.id === trait.dataId);
+                if (state) {
+                    references.statesApplied.push({
+                        id: state.id,
+                        name: state.name,
+                        reference: `[[STATE:${state.id}:${state.name}]]`
+                    });
+                }
+            }
+        });
+    }
+    
+    return references;
+}
+
 // Load states data (synchronous - data is already loaded from data.js)
 function loadStates() {
     try {
@@ -2607,7 +2924,10 @@ function renderStateDetail(state) {
     const iconPos = getIconPosition(state.iconIndex, 1.5); // 48px = 32px * 1.5
     const iconStyle = iconPos !== 'none' ? `style="background-position: ${iconPos};" data-icon="${state.iconIndex}"` : '';
     
-    const html = `
+    // Find references
+    const refs = findStateReferences(state.id);
+    
+    let html = `
         <div class="detail-header">
             <div class="detail-title-row">
                 <div class="detail-icon" ${iconStyle}></div>
@@ -2620,6 +2940,93 @@ function renderStateDetail(state) {
         ${renderStateTraits(state)}
         ${renderStateNotes(state)}
     `;
+    
+    // Add references section at the bottom
+    if (refs.skillsApplying.length > 0 || refs.skillsRemoving.length > 0 || 
+        refs.itemsApplying.length > 0 || refs.itemsRemoving.length > 0 || 
+        refs.enemiesWith.length > 0) {
+        html += `
+            <div class="detail-section">
+                <div class="section-title">References</div>
+        `;
+        
+        if (refs.skillsApplying.length > 0) {
+            html += `
+                <div class="subsection">
+                    <div class="subsection-title">Skills Applying This State (${refs.skillsApplying.length})</div>
+                    <div class="effect-list">
+                        ${refs.skillsApplying.map(skill => `
+                            <div class="effect-item">
+                                <div class="effect-name">${convertCrossReferencesAndEscape(skill.reference)}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+        }
+        
+        if (refs.skillsRemoving.length > 0) {
+            html += `
+                <div class="subsection">
+                    <div class="subsection-title">Skills Removing This State (${refs.skillsRemoving.length})</div>
+                    <div class="effect-list">
+                        ${refs.skillsRemoving.map(skill => `
+                            <div class="effect-item">
+                                <div class="effect-name">${convertCrossReferencesAndEscape(skill.reference)}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+        }
+        
+        if (refs.itemsApplying.length > 0) {
+            html += `
+                <div class="subsection">
+                    <div class="subsection-title">Items Applying This State (${refs.itemsApplying.length})</div>
+                    <div class="effect-list">
+                        ${refs.itemsApplying.map(item => `
+                            <div class="effect-item">
+                                <div class="effect-name">${convertCrossReferencesAndEscape(item.reference)}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+        }
+        
+        if (refs.itemsRemoving.length > 0) {
+            html += `
+                <div class="subsection">
+                    <div class="subsection-title">Items Removing This State (${refs.itemsRemoving.length})</div>
+                    <div class="effect-list">
+                        ${refs.itemsRemoving.map(item => `
+                            <div class="effect-item">
+                                <div class="effect-name">${convertCrossReferencesAndEscape(item.reference)}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+        }
+        
+        if (refs.enemiesWith.length > 0) {
+            html += `
+                <div class="subsection">
+                    <div class="subsection-title">Enemies With This State (${refs.enemiesWith.length})</div>
+                    <div class="effect-list">
+                        ${refs.enemiesWith.map(enemy => `
+                            <div class="effect-item">
+                                <div class="effect-name">${convertCrossReferencesAndEscape(enemy.reference)}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+        }
+        
+        html += `</div>`;
+    }
     
     detailContent.innerHTML = html;
     
@@ -3291,7 +3698,10 @@ function renderWeaponDetail(weapon) {
     const iconPos = getIconPosition(weapon.iconIndex, 1.5); // 48px = 32px * 1.5
     const iconStyle = iconPos !== 'none' ? `style="background-position: ${iconPos};" data-icon="${weapon.iconIndex}"` : '';
     
-    const html = `
+    // Find references
+    const refs = findWeaponReferences(weapon.id);
+    
+    let html = `
         <div class="detail-header">
             <div class="detail-title-row">
                 <div class="detail-icon" ${iconStyle}></div>
@@ -3314,6 +3724,25 @@ function renderWeaponDetail(weapon) {
         
         ${weapon.note.english || weapon.note.japanese ? renderWeaponNotes(weapon) : ''}
     `;
+    
+    // Add references section at the bottom
+    if (refs.enemiesDropping.length > 0) {
+        html += `
+            <div class="detail-section">
+                <div class="section-title">References</div>
+                <div class="subsection">
+                    <div class="subsection-title">Enemies Dropping This Weapon (${refs.enemiesDropping.length})</div>
+                    <div class="effect-list">
+                        ${refs.enemiesDropping.map(enemy => `
+                            <div class="effect-item">
+                                <div class="effect-name">${convertCrossReferencesAndEscape(enemy.reference)}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            </div>
+        `;
+    }
     
     detailContent.innerHTML = html;
     
@@ -3694,7 +4123,10 @@ function renderArmorDetail(armor) {
     const iconPos = getIconPosition(armor.iconIndex, 1.5);
     const iconStyle = iconPos !== 'none' ? `style="background-position: ${iconPos};" data-icon="${armor.iconIndex}"` : '';
     
-    const html = `
+    // Find references
+    const refs = findArmorReferences(armor.id);
+    
+    let html = `
         <div class="detail-header">
             <div class="detail-title-row">
                 <div class="detail-icon" ${iconStyle}></div>
@@ -3717,6 +4149,25 @@ function renderArmorDetail(armor) {
         
         ${armor.note.english || armor.note.japanese ? renderArmorNotes(armor) : ''}
     `;
+    
+    // Add references section at the bottom
+    if (refs.enemiesDropping.length > 0) {
+        html += `
+            <div class="detail-section">
+                <div class="section-title">References</div>
+                <div class="subsection">
+                    <div class="subsection-title">Enemies Dropping This Armor (${refs.enemiesDropping.length})</div>
+                    <div class="effect-list">
+                        ${refs.enemiesDropping.map(enemy => `
+                            <div class="effect-item">
+                                <div class="effect-name">${convertCrossReferencesAndEscape(enemy.reference)}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            </div>
+        `;
+    }
     
     detailContent.innerHTML = html;
     
@@ -3901,7 +4352,12 @@ function renderEnemyDetail(enemy) {
         imageHtml = `<div class="detail-icon" ${iconStyle}></div>`;
     }
     
-    const html = `
+    // Find references (skills used, items dropped, states applied are already shown in the detail view)
+    // This section would show reverse references if needed, but for enemies, the main sections already show this info
+    // We'll add a references section for completeness, showing what this enemy references
+    const refs = findEnemyReferences(enemy.id);
+    
+    let html = `
         <div class="detail-header">
             <div class="detail-title-row">
                 ${imageHtml}
@@ -3921,6 +4377,10 @@ function renderEnemyDetail(enemy) {
         
         ${enemy.note.english || enemy.note.japanese ? renderEnemyNotes(enemy) : ''}
     `;
+    
+    // Add references section at the bottom (for completeness, though most info is already shown above)
+    // This could be useful for showing unique references not already displayed
+    // For now, we'll skip it since enemies already show their skills, items, and states in detail sections
     
     detailContent.innerHTML = html;
     
@@ -4113,7 +4573,10 @@ function renderItemDetail(item) {
     const iconPos = getIconPosition(item.iconIndex, 1.5);
     const iconStyle = iconPos !== 'none' ? `style="background-position: ${iconPos};" data-icon="${item.iconIndex}"` : '';
     
-    const html = `
+    // Find references
+    const refs = findItemReferences(item.id);
+    
+    let html = `
         <div class="detail-header">
             <div class="detail-title-row">
                 <div class="detail-icon" ${iconStyle}></div>
@@ -4136,6 +4599,25 @@ function renderItemDetail(item) {
         
         ${item.note.english || item.note.japanese ? renderItemNotes(item) : ''}
     `;
+    
+    // Add references section at the bottom
+    if (refs.enemiesDropping.length > 0) {
+        html += `
+            <div class="detail-section">
+                <div class="section-title">References</div>
+                <div class="subsection">
+                    <div class="subsection-title">Enemies Dropping This Item (${refs.enemiesDropping.length})</div>
+                    <div class="effect-list">
+                        ${refs.enemiesDropping.map(enemy => `
+                            <div class="effect-item">
+                                <div class="effect-name">${convertCrossReferencesAndEscape(enemy.reference)}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            </div>
+        `;
+    }
     
     detailContent.innerHTML = html;
     

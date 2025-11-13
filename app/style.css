@@ -696,6 +696,26 @@ header h1.clickable-title:hover {
     border-radius: 2px;
 }
 
+.subsection {
+    margin-bottom: 16px;
+}
+
+.subsection:last-child {
+    margin-bottom: 0;
+}
+
+.subsection-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    margin-bottom: 8px;
+    margin-top: 12px;
+}
+
+.subsection:first-child .subsection-title {
+    margin-top: 0;
+}
+
 .stats-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
