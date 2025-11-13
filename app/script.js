@@ -73,10 +73,6 @@ function buildURL(state) {
     } else if (state.view === 'sections') {
         const game = state.game === 'bs2' ? 'bs2' : (state.game || 'bs2');
         return `#/${game}`;
-    } else if (state.view === 'search') {
-        // Dedicated search page URL
-        const game = state.game === 'bs2' ? 'bs2' : (state.game || 'bs2');
-        return `#/${game}/search`;
     } else if (state.view && state.selectedId) {
         const section = state.view;
         const game = state.game === 'bs2' ? 'bs2' : (state.game || 'bs2');
@@ -220,6 +216,10 @@ function restoreStateFromHistory(state, forceRestore = false) {
         } else if (savedView === 'sections') {
             showSectionsView(savedGame || 'bs2');
             isRestoringState = false; // No async operations for sections view
+        } else if (savedView === 'search') {
+            // Search page no longer exists, redirect to sections view
+            showSectionsView(savedGame || 'bs2');
+            isRestoringState = false;
         } else if (savedView) {
             // Restore section
             showSection(savedView, true); // preserveSearch = true
@@ -383,9 +383,7 @@ function parseURL() {
             // Handle /bs2/section format
             if (parts[0] === 'bs2') {
                 const section = parts[1];
-                if (section === 'search') {
-                    return { view: 'search', game: 'bs2' };
-                } else if (['skills', 'states', 'weapons', 'armors', 'items', 'enemies', 'elements'].includes(section)) {
+                if (['skills', 'states', 'weapons', 'armors', 'items', 'enemies', 'elements'].includes(section)) {
                     return { view: section, game: 'bs2' };
                 }
             }
@@ -424,9 +422,7 @@ function parseURL() {
         // Handle /bs2/section format
         if (parts[0] === 'bs2') {
             const section = parts[1];
-            if (section === 'search') {
-                return { view: 'search', game: 'bs2' };
-            } else if (['skills', 'states', 'weapons', 'armors', 'items', 'enemies', 'elements'].includes(section)) {
+            if (['skills', 'states', 'weapons', 'armors', 'items', 'enemies', 'elements'].includes(section)) {
                 return { view: section, game: 'bs2' };
             }
         }
