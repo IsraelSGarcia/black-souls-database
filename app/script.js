@@ -1489,6 +1489,337 @@ function loadSkills() {
     }
 }
 
+// Helper function to extract all visible text from an object's detail section
+function getDetailTextContent(obj, type) {
+    const parts = [];
+    
+    // Always include name and ID
+    parts.push(obj.name || '');
+    parts.push(`#${obj.id}`);
+    
+    if (type === 'skill') {
+        if (obj.description) parts.push(obj.description);
+        if (obj.message1) parts.push(obj.message1);
+        if (obj.message2) parts.push(obj.message2);
+        if (obj.mpCost > 0) parts.push(`${obj.mpCost} MP`);
+        if (obj.scope && obj.scope.name) parts.push(obj.scope.name);
+        if (obj.successRate !== undefined) parts.push(`${obj.successRate}%`);
+        if (obj.hitType && obj.hitType.name) parts.push(obj.hitType.name);
+        if (obj.repeats > 1) parts.push(`${obj.repeats}x`);
+        if (obj.speed !== 0) parts.push(`${obj.speed > 0 ? '+' : ''}${obj.speed}`);
+        if (obj.occasion && obj.occasion.name) parts.push(obj.occasion.name);
+        if (obj.damage) {
+            if (obj.damage.type && obj.damage.type.name) parts.push(obj.damage.type.name);
+            if (obj.damage.element && obj.damage.element.name) parts.push(obj.damage.element.name);
+            if (obj.damage.variance !== undefined) parts.push(`±${obj.damage.variance}%`);
+            if (obj.damage.critical !== undefined) parts.push(obj.damage.critical ? 'Yes' : 'No');
+            if (obj.damage.readableFormula) parts.push(obj.damage.readableFormula);
+        }
+        if (obj.effects) {
+            obj.effects.forEach(effect => {
+                if (effect.description) parts.push(effect.description);
+                if (effect.codeName) parts.push(effect.codeName);
+            });
+        }
+        if (obj.note && obj.note.english) parts.push(obj.note.english);
+        if (obj.note && obj.note.japanese) parts.push(obj.note.japanese);
+    } else if (type === 'state') {
+        if (obj.message1) parts.push(obj.message1);
+        if (obj.message2) parts.push(obj.message2);
+        if (obj.message3) parts.push(obj.message3);
+        if (obj.message4) parts.push(obj.message4);
+        if (obj.duration) parts.push(obj.duration);
+        if (obj.priority !== undefined) parts.push(obj.priority.toString());
+        if (obj.autoRemovalTiming && obj.autoRemovalTiming.name) parts.push(obj.autoRemovalTiming.name);
+        if (obj.chanceByDamage !== undefined && obj.chanceByDamage !== 100) parts.push(`${obj.chanceByDamage}%`);
+        if (obj.restriction && obj.restriction.id > 0 && obj.restriction.name) parts.push(obj.restriction.name);
+        if (obj.removalConditions) {
+            obj.removalConditions.forEach(cond => parts.push(cond));
+        }
+        if (obj.traits) {
+            obj.traits.forEach(trait => {
+                if (trait.description) parts.push(trait.description);
+                if (trait.codeName) parts.push(trait.codeName);
+            });
+        }
+        if (obj.note && obj.note.english) parts.push(obj.note.english);
+        if (obj.note && obj.note.japanese) parts.push(obj.note.japanese);
+    } else if (type === 'weapon') {
+        if (obj.description) parts.push(obj.description);
+        if (obj.price > 0) parts.push(`${obj.price}G`);
+        if (obj.params) {
+            obj.params.forEach(param => {
+                if (param.name) parts.push(param.name);
+                if (param.value !== undefined) parts.push(`${param.value > 0 ? '+' : ''}${param.value}`);
+            });
+        }
+        if (obj.traits) {
+            obj.traits.forEach(trait => {
+                if (trait.description) parts.push(trait.description);
+                if (trait.codeName) parts.push(trait.codeName);
+            });
+        }
+        if (obj.note && obj.note.english) parts.push(obj.note.english);
+        if (obj.note && obj.note.japanese) parts.push(obj.note.japanese);
+    } else if (type === 'armor') {
+        if (obj.description) parts.push(obj.description);
+        if (obj.price > 0) parts.push(`${obj.price}G`);
+        if (obj.armorType && obj.armorType.name) parts.push(obj.armorType.name);
+        if (obj.equipSlot && obj.equipSlot.name) parts.push(obj.equipSlot.name);
+        if (obj.params) {
+            obj.params.forEach(param => {
+                if (param.name) parts.push(param.name);
+                if (param.value !== undefined) parts.push(`${param.value > 0 ? '+' : ''}${param.value}`);
+            });
+        }
+        if (obj.traits) {
+            obj.traits.forEach(trait => {
+                if (trait.description) parts.push(trait.description);
+                if (trait.codeName) parts.push(trait.codeName);
+            });
+        }
+        if (obj.note && obj.note.english) parts.push(obj.note.english);
+        if (obj.note && obj.note.japanese) parts.push(obj.note.japanese);
+    } else if (type === 'enemy') {
+        if (obj.baseStats) {
+            Object.entries(obj.baseStats).forEach(([name, value]) => {
+                parts.push(name);
+                parts.push(value.toString());
+            });
+        }
+        if (obj.traits) {
+            obj.traits.forEach(trait => {
+                if (trait.description) parts.push(trait.description);
+                if (trait.codeName) parts.push(trait.codeName);
+            });
+        }
+        if (obj.actions) {
+            obj.actions.forEach(action => {
+                if (action.skillName) parts.push(action.skillName);
+                if (action.rating !== undefined) parts.push(`Rating: ${action.rating}`);
+            });
+        }
+        if (obj.dropItems) {
+            obj.dropItems.forEach(drop => {
+                if (drop.name) parts.push(drop.name);
+                if (drop.kindName) parts.push(drop.kindName);
+                if (drop.denominator) parts.push(`1/${drop.denominator}`);
+            });
+        }
+        if (obj.exp > 0) parts.push(`Experience: ${obj.exp}`);
+        if (obj.gold > 0) parts.push(`Gold: ${obj.gold}G`);
+        if (obj.note && obj.note.english) parts.push(obj.note.english);
+        if (obj.note && obj.note.japanese) parts.push(obj.note.japanese);
+    } else if (type === 'item') {
+        if (obj.description) parts.push(obj.description);
+        if (obj.price > 0) parts.push(`${obj.price}G`);
+        if (obj.consumable !== undefined) parts.push(obj.consumable ? 'Yes' : 'No');
+        if (obj.occasionName) parts.push(obj.occasionName);
+        if (obj.scopeName) parts.push(obj.scopeName);
+        if (obj.successRate !== undefined && obj.successRate !== 100) parts.push(`${obj.successRate}%`);
+        if (obj.effects) {
+            obj.effects.forEach(effect => {
+                if (effect.description) parts.push(effect.description);
+            });
+        }
+        if (obj.damage) {
+            if (obj.damage.type && obj.damage.type.name) parts.push(obj.damage.type.name);
+            if (obj.damage.element && obj.damage.element.name) parts.push(obj.damage.element.name);
+        }
+        if (obj.note && obj.note.english) parts.push(obj.note.english);
+        if (obj.note && obj.note.japanese) parts.push(obj.note.japanese);
+    }
+    
+    // Join all parts and remove HTML tags and cross-reference markers
+    let text = parts.filter(p => p).join(' ');
+    // Remove HTML tags
+    text = text.replace(/<[^>]*>/g, '');
+    // Remove cross-reference markers but keep the name
+    text = text.replace(/\[\[[^\]]+:(\d+):([^\]]+)\]\]/g, '$2');
+    // Normalize whitespace
+    text = text.replace(/\s+/g, ' ').trim();
+    
+    return text.toLowerCase();
+}
+
+// Fuzzy matching function - typo-tolerant search
+function fuzzyMatch(query, text) {
+    if (!query || !text) return false;
+    
+    const lowerQuery = query.toLowerCase().trim();
+    const lowerText = text.toLowerCase();
+    
+    // First try exact substring match (fast path)
+    if (lowerText.includes(lowerQuery)) return true;
+    
+    // For very short queries, use exact match only
+    if (lowerQuery.length <= 2) return false;
+    
+    // Fuzzy matching: check if query characters appear in order in text
+    // This handles typos like missing letters, extra letters, or swapped letters
+    let queryIndex = 0;
+    let textIndex = 0;
+    let consecutiveMatches = 0;
+    let maxConsecutiveMatches = 0;
+    
+    while (textIndex < lowerText.length && queryIndex < lowerQuery.length) {
+        if (lowerText[textIndex] === lowerQuery[queryIndex]) {
+            consecutiveMatches++;
+            maxConsecutiveMatches = Math.max(maxConsecutiveMatches, consecutiveMatches);
+            queryIndex++;
+            textIndex++;
+        } else {
+            consecutiveMatches = 0;
+            textIndex++;
+        }
+    }
+    
+    // If we matched all characters in order, it's a match
+    if (queryIndex === lowerQuery.length) return true;
+    
+    // Also check for substring matches with 1-2 character tolerance
+    // Split query into words and check if most words match
+    const queryWords = lowerQuery.split(/\s+/).filter(w => w.length > 0);
+    if (queryWords.length > 1) {
+        let matchedWords = 0;
+        for (const word of queryWords) {
+            if (fuzzyMatch(word, lowerText)) {
+                matchedWords++;
+            }
+        }
+        // If most words match, consider it a match
+        if (matchedWords >= Math.ceil(queryWords.length * 0.7)) return true;
+    }
+    
+    // Check for Levenshtein-like distance (simplified)
+    // If query is a significant portion of text and has high character overlap
+    if (lowerQuery.length >= 3 && lowerText.length >= lowerQuery.length) {
+        const minLength = Math.min(lowerQuery.length, lowerText.length);
+        let matchingChars = 0;
+        for (let i = 0; i < minLength; i++) {
+            if (lowerQuery[i] === lowerText[i]) matchingChars++;
+        }
+        // If first few characters match well, it's likely a match
+        if (matchingChars >= Math.ceil(minLength * 0.6)) {
+            // Check if remaining characters can be found
+            let foundChars = matchingChars;
+            for (let i = matchingChars; i < lowerQuery.length; i++) {
+                if (lowerText.includes(lowerQuery[i])) foundChars++;
+            }
+            if (foundChars >= Math.ceil(lowerQuery.length * 0.7)) return true;
+        }
+    }
+    
+    return false;
+}
+
+// Calculate relevance score for a search result
+function calculateRelevance(obj, query, type) {
+    if (!query || !query.trim()) return 0;
+    
+    const lowerQuery = query.toLowerCase().trim();
+    const detailText = getDetailTextContent(obj, type);
+    const lowerText = detailText.toLowerCase();
+    const objName = (obj.name || '').toLowerCase();
+    
+    let score = 0;
+    
+    // Exact match in name (highest priority)
+    if (objName === lowerQuery) {
+        score += 10000;
+    } else if (objName.startsWith(lowerQuery)) {
+        score += 5000;
+    } else if (objName.includes(lowerQuery)) {
+        score += 3000;
+    }
+    
+    // Word boundary matches in name (high priority)
+    const nameWords = objName.split(/\s+/);
+    for (const word of nameWords) {
+        if (word === lowerQuery) {
+            score += 2000;
+        } else if (word.startsWith(lowerQuery)) {
+            score += 1000;
+        } else if (word.includes(lowerQuery)) {
+            score += 500;
+        }
+    }
+    
+    // Exact match in full detail text
+    if (lowerText === lowerQuery) {
+        score += 2000;
+    } else if (lowerText.startsWith(lowerQuery)) {
+        score += 1000;
+    } else if (lowerText.includes(lowerQuery)) {
+        score += 500;
+    }
+    
+    // Word boundary matches in detail text
+    const queryWords = lowerQuery.split(/\s+/).filter(w => w.length > 0);
+    const textWords = lowerText.split(/\s+/);
+    let exactWordMatches = 0;
+    let wordMatches = new Set();
+    
+    for (const queryWord of queryWords) {
+        let foundExact = false;
+        let foundStart = false;
+        let foundPartial = false;
+        
+        for (const textWord of textWords) {
+            if (textWord === queryWord && !wordMatches.has(textWord)) {
+                exactWordMatches++;
+                wordMatches.add(textWord);
+                score += 200;
+                foundExact = true;
+                break;
+            } else if (textWord.startsWith(queryWord) && !foundStart) {
+                score += 100;
+                foundStart = true;
+            } else if (textWord.includes(queryWord) && !foundPartial && !foundStart) {
+                score += 50;
+                foundPartial = true;
+            }
+        }
+    }
+    
+    // Bonus for matching multiple words
+    if (queryWords.length > 1) {
+        const matchRatio = exactWordMatches / queryWords.length;
+        score += matchRatio * 300;
+    }
+    
+    // Position bonus (earlier matches are better)
+    const firstMatchIndex = lowerText.indexOf(lowerQuery);
+    if (firstMatchIndex >= 0) {
+        // Closer to the start = higher score
+        const positionBonus = Math.max(0, 500 - firstMatchIndex);
+        score += positionBonus;
+    }
+    
+    // Character overlap bonus (for fuzzy matches)
+    if (lowerQuery.length >= 3) {
+        let matchingChars = 0;
+        const minLength = Math.min(lowerQuery.length, lowerText.length);
+        for (let i = 0; i < minLength; i++) {
+            if (lowerQuery[i] === lowerText[i]) {
+                matchingChars++;
+            }
+        }
+        const overlapRatio = matchingChars / lowerQuery.length;
+        if (overlapRatio >= 0.7) {
+            score += overlapRatio * 200;
+        }
+    }
+    
+    // Count occurrences (more matches = more relevant)
+    const occurrences = (lowerText.match(new RegExp(lowerQuery.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g')) || []).length;
+    if (occurrences > 1) {
+        score += (occurrences - 1) * 100;
+    }
+    
+    return score;
+}
+
 // Search and filter skills
 function searchSkills(query) {
     if (!query.trim()) {
@@ -1496,25 +1827,22 @@ function searchSkills(query) {
         return;
     }
     
-    const lowerQuery = query.toLowerCase();
+    // Filter and calculate relevance
+    const resultsWithScores = allSkills
+        .map(skill => {
+            const detailText = getDetailTextContent(skill, 'skill');
+            if (fuzzyMatch(query, detailText)) {
+                return {
+                    skill: skill,
+                    relevance: calculateRelevance(skill, query, 'skill')
+                };
+            }
+            return null;
+        })
+        .filter(result => result !== null)
+        .sort((a, b) => b.relevance - a.relevance); // Sort by relevance (highest first)
     
-    filteredSkills = allSkills.filter(skill => {
-        // Search in name
-        if (skill.name.toLowerCase().includes(lowerQuery)) return true;
-        
-        // Search in description
-        if (skill.description.toLowerCase().includes(lowerQuery)) return true;
-        
-        // Search in messages
-        if (skill.message1.toLowerCase().includes(lowerQuery)) return true;
-        if (skill.message2.toLowerCase().includes(lowerQuery)) return true;
-        
-        // Search in note
-        if (skill.note.english.toLowerCase().includes(lowerQuery)) return true;
-        if (skill.note.japanese.toLowerCase().includes(lowerQuery)) return true;
-        
-        return false;
-    });
+    filteredSkills = resultsWithScores.map(result => result.skill);
 }
 
 // Render results list
@@ -1950,30 +2278,22 @@ function searchStates(query) {
         return;
     }
     
-    const lowerQuery = query.toLowerCase();
+    // Filter and calculate relevance
+    const resultsWithScores = allStates
+        .map(state => {
+            const detailText = getDetailTextContent(state, 'state');
+            if (fuzzyMatch(query, detailText)) {
+                return {
+                    state: state,
+                    relevance: calculateRelevance(state, query, 'state')
+                };
+            }
+            return null;
+        })
+        .filter(result => result !== null)
+        .sort((a, b) => b.relevance - a.relevance); // Sort by relevance (highest first)
     
-    filteredStates = allStates.filter(state => {
-        // Search in name
-        if (state.name.toLowerCase().includes(lowerQuery)) return true;
-        
-        // Search in messages
-        if (state.message1 && state.message1.toLowerCase().includes(lowerQuery)) return true;
-        if (state.message2 && state.message2.toLowerCase().includes(lowerQuery)) return true;
-        if (state.message3 && state.message3.toLowerCase().includes(lowerQuery)) return true;
-        if (state.message4 && state.message4.toLowerCase().includes(lowerQuery)) return true;
-        
-        // Search in traits descriptions
-        if (state.traits.some(trait => trait.description && trait.description.toLowerCase().includes(lowerQuery))) return true;
-        
-        // Search in removal conditions
-        if (state.removalConditions.some(cond => cond.toLowerCase().includes(lowerQuery))) return true;
-        
-        // Search in note
-        if (state.note.english && state.note.english.toLowerCase().includes(lowerQuery)) return true;
-        if (state.note.japanese && state.note.japanese.toLowerCase().includes(lowerQuery)) return true;
-        
-        return false;
-    });
+    filteredStates = resultsWithScores.map(result => result.state);
 }
 
 // Render states results list
@@ -2336,24 +2656,22 @@ function searchWeapons(query) {
         return;
     }
     
-    const lowerQuery = query.toLowerCase();
+    // Filter and calculate relevance
+    const resultsWithScores = allWeapons
+        .map(weapon => {
+            const detailText = getDetailTextContent(weapon, 'weapon');
+            if (fuzzyMatch(query, detailText)) {
+                return {
+                    weapon: weapon,
+                    relevance: calculateRelevance(weapon, query, 'weapon')
+                };
+            }
+            return null;
+        })
+        .filter(result => result !== null)
+        .sort((a, b) => b.relevance - a.relevance); // Sort by relevance (highest first)
     
-    filteredWeapons = allWeapons.filter(weapon => {
-        // Search in name
-        if (weapon.name.toLowerCase().includes(lowerQuery)) return true;
-        
-        // Search in description
-        if (weapon.description && weapon.description.toLowerCase().includes(lowerQuery)) return true;
-        
-        // Search in traits descriptions
-        if (weapon.traits.some(trait => trait.description && trait.description.toLowerCase().includes(lowerQuery))) return true;
-        
-        // Search in note
-        if (weapon.note.english && weapon.note.english.toLowerCase().includes(lowerQuery)) return true;
-        if (weapon.note.japanese && weapon.note.japanese.toLowerCase().includes(lowerQuery)) return true;
-        
-        return false;
-    });
+    filteredWeapons = resultsWithScores.map(result => result.weapon);
 }
 
 // Search and filter armors
@@ -2363,24 +2681,22 @@ function searchArmors(query) {
         return;
     }
     
-    const lowerQuery = query.toLowerCase();
+    // Filter and calculate relevance
+    const resultsWithScores = allArmors
+        .map(armor => {
+            const detailText = getDetailTextContent(armor, 'armor');
+            if (fuzzyMatch(query, detailText)) {
+                return {
+                    armor: armor,
+                    relevance: calculateRelevance(armor, query, 'armor')
+                };
+            }
+            return null;
+        })
+        .filter(result => result !== null)
+        .sort((a, b) => b.relevance - a.relevance); // Sort by relevance (highest first)
     
-    filteredArmors = allArmors.filter(armor => {
-        // Search in name
-        if (armor.name.toLowerCase().includes(lowerQuery)) return true;
-        
-        // Search in description
-        if (armor.description && armor.description.toLowerCase().includes(lowerQuery)) return true;
-        
-        // Search in traits descriptions
-        if (armor.traits.some(trait => trait.description && trait.description.toLowerCase().includes(lowerQuery))) return true;
-        
-        // Search in note
-        if (armor.note.english && armor.note.english.toLowerCase().includes(lowerQuery)) return true;
-        if (armor.note.japanese && armor.note.japanese.toLowerCase().includes(lowerQuery)) return true;
-        
-        return false;
-    });
+    filteredArmors = resultsWithScores.map(result => result.armor);
 }
 
 // Search and filter enemies
@@ -2390,24 +2706,22 @@ function searchEnemies(query) {
         return;
     }
     
-    const lowerQuery = query.toLowerCase();
+    // Filter and calculate relevance
+    const resultsWithScores = allEnemies
+        .map(enemy => {
+            const detailText = getDetailTextContent(enemy, 'enemy');
+            if (fuzzyMatch(query, detailText)) {
+                return {
+                    enemy: enemy,
+                    relevance: calculateRelevance(enemy, query, 'enemy')
+                };
+            }
+            return null;
+        })
+        .filter(result => result !== null)
+        .sort((a, b) => b.relevance - a.relevance); // Sort by relevance (highest first)
     
-    filteredEnemies = allEnemies.filter(enemy => {
-        // Search in name
-        if (enemy.name.toLowerCase().includes(lowerQuery)) return true;
-        
-        // Search in traits descriptions
-        if (enemy.traits.some(trait => trait.description && trait.description.toLowerCase().includes(lowerQuery))) return true;
-        
-        // Search in skill names from actions
-        if (enemy.actions.some(action => action.skillName && action.skillName.toLowerCase().includes(lowerQuery))) return true;
-        
-        // Search in note
-        if (enemy.note.english && enemy.note.english.toLowerCase().includes(lowerQuery)) return true;
-        if (enemy.note.japanese && enemy.note.japanese.toLowerCase().includes(lowerQuery)) return true;
-        
-        return false;
-    });
+    filteredEnemies = resultsWithScores.map(result => result.enemy);
 }
 
 // Search and filter items
@@ -2417,24 +2731,22 @@ function searchItems(query) {
         return;
     }
     
-    const lowerQuery = query.toLowerCase();
+    // Filter and calculate relevance
+    const resultsWithScores = allItems
+        .map(item => {
+            const detailText = getDetailTextContent(item, 'item');
+            if (fuzzyMatch(query, detailText)) {
+                return {
+                    item: item,
+                    relevance: calculateRelevance(item, query, 'item')
+                };
+            }
+            return null;
+        })
+        .filter(result => result !== null)
+        .sort((a, b) => b.relevance - a.relevance); // Sort by relevance (highest first)
     
-    filteredItems = allItems.filter(item => {
-        // Search in name
-        if (item.name.toLowerCase().includes(lowerQuery)) return true;
-        
-        // Search in description
-        if (item.description && item.description.toLowerCase().includes(lowerQuery)) return true;
-        
-        // Search in effects descriptions
-        if (item.effects.some(effect => effect.description && effect.description.toLowerCase().includes(lowerQuery))) return true;
-        
-        // Search in note
-        if (item.note.english && item.note.english.toLowerCase().includes(lowerQuery)) return true;
-        if (item.note.japanese && item.note.japanese.toLowerCase().includes(lowerQuery)) return true;
-        
-        return false;
-    });
+    filteredItems = resultsWithScores.map(result => result.item);
 }
 
 // Render weapons results list

@@ -194,8 +194,6 @@ header h1.clickable-title:hover {
 .sections-view {
     padding-top: 20px;
     padding-bottom: 0;
-    max-height: calc(100vh - 180px);
-    overflow-y: auto;
 }
 
 @media (min-width: 1024px) {
