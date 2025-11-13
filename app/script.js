@@ -2257,12 +2257,114 @@ function renderSkillDetail(skill) {
     `;
     
     // Add references section at the bottom
-    if (refs.itemsTeaching.length > 0 || refs.enemiesUsing.length > 0) {
+    const hasAnyReferences = refs.itemsTeaching.length > 0 || 
+                              refs.enemiesUsing.length > 0 || 
+                              refs.referencedBy.skills.length > 0 ||
+                              refs.referencedBy.items.length > 0 ||
+                              refs.referencedBy.states.length > 0 ||
+                              refs.referencedBy.weapons.length > 0 ||
+                              refs.referencedBy.armors.length > 0 ||
+                              refs.referencedBy.enemies.length > 0;
+    
+    if (hasAnyReferences) {
         html += `
             <div class="detail-section">
                 <div class="section-title">References</div>
         `;
         
+        // Show entities that reference this skill in their notes/descriptions
+        // Use context-aware naming for better clarity
+        if (refs.referencedBy.skills.length > 0) {
+            html += `
+                <div class="subsection">
+                    <div class="subsection-title">Skills That Cast This Skill (${refs.referencedBy.skills.length})</div>
+                    <div class="effect-list">
+                        ${refs.referencedBy.skills.map(skill => `
+                            <div class="effect-item">
+                                <div class="effect-name">${convertCrossReferencesAndEscape(skill.reference)}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+        }
+        
+        if (refs.referencedBy.items.length > 0) {
+            html += `
+                <div class="subsection">
+                    <div class="subsection-title">Items That Reference This Skill (${refs.referencedBy.items.length})</div>
+                    <div class="effect-list">
+                        ${refs.referencedBy.items.map(item => `
+                            <div class="effect-item">
+                                <div class="effect-name">${convertCrossReferencesAndEscape(item.reference)}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+        }
+        
+        if (refs.referencedBy.states.length > 0) {
+            html += `
+                <div class="subsection">
+                    <div class="subsection-title">States That Reference This Skill (${refs.referencedBy.states.length})</div>
+                    <div class="effect-list">
+                        ${refs.referencedBy.states.map(state => `
+                            <div class="effect-item">
+                                <div class="effect-name">${convertCrossReferencesAndEscape(state.reference)}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+        }
+        
+        if (refs.referencedBy.weapons.length > 0) {
+            html += `
+                <div class="subsection">
+                    <div class="subsection-title">Weapons That Reference This Skill (${refs.referencedBy.weapons.length})</div>
+                    <div class="effect-list">
+                        ${refs.referencedBy.weapons.map(weapon => `
+                            <div class="effect-item">
+                                <div class="effect-name">${convertCrossReferencesAndEscape(weapon.reference)}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+        }
+        
+        if (refs.referencedBy.armors.length > 0) {
+            html += `
+                <div class="subsection">
+                    <div class="subsection-title">Armors That Reference This Skill (${refs.referencedBy.armors.length})</div>
+                    <div class="effect-list">
+                        ${refs.referencedBy.armors.map(armor => `
+                            <div class="effect-item">
+                                <div class="effect-name">${convertCrossReferencesAndEscape(armor.reference)}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+        }
+        
+        if (refs.referencedBy.enemies.length > 0) {
+            html += `
+                <div class="subsection">
+                    <div class="subsection-title">Enemies That Reference This Skill (${refs.referencedBy.enemies.length})</div>
+                    <div class="effect-list">
+                        ${refs.referencedBy.enemies.map(enemy => `
+                            <div class="effect-item">
+                                <div class="effect-name">${convertCrossReferencesAndEscape(enemy.reference)}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+        }
+        
+        // Show items that teach this skill (effect code 43: Learn Skill)
         if (refs.itemsTeaching.length > 0) {
             html += `
                 <div class="subsection">
@@ -2278,6 +2380,7 @@ function renderSkillDetail(skill) {
             `;
         }
         
+        // Show enemies that use this skill
         if (refs.enemiesUsing.length > 0) {
             html += `
                 <div class="subsection">
@@ -2676,12 +2779,156 @@ function renderNotes(skill) {
     `;
 }
 
+// Helper function to find all entities that reference a given entity in their text fields
+// Searches through notes, descriptions, and other text fields across all entity types
+function findAllTextReferences(targetType, targetId) {
+    const references = {
+        skills: [],
+        items: [],
+        states: [],
+        weapons: [],
+        armors: [],
+        enemies: []
+    };
+    
+    // Use data directly from data.js if arrays aren't loaded yet
+    const skills = allSkills.length > 0 ? allSkills : (skillsData?.skills || []);
+    const items = allItems.length > 0 ? allItems : (itemsData?.items || []);
+    const states = allStates.length > 0 ? allStates : (statesData?.states || []);
+    const weapons = allWeapons.length > 0 ? allWeapons : (weaponsData?.weapons || []);
+    const armors = allArmors.length > 0 ? allArmors : (armorsData?.armors || []);
+    const enemies = allEnemies.length > 0 ? allEnemies : (enemiesData?.enemies || []);
+    
+    // Build pattern to match references: [[TYPE:ID:NAME]] or "Type #ID"
+    const typeNames = {
+        'SKILL': 'Skill',
+        'ITEM': 'Item',
+        'STATE': 'State',
+        'WEAPON': 'Weapon',
+        'ARMOR': 'Armor',
+        'ENEMY': 'Enemy'
+    };
+    const typeName = typeNames[targetType] || targetType;
+    const refPattern = new RegExp(`\\[\\[${targetType}:${targetId}:([^\\]]+)\\]\\]|${typeName}\\s*#\\s*${targetId}\\b`, 'i');
+    
+    // Helper function to check if text contains a reference
+    const hasReference = (text) => {
+        if (!text || typeof text !== 'string') return false;
+        return refPattern.test(text);
+    };
+    
+    // Search skills (only skip self-reference if target is also a skill)
+    skills.forEach(skill => {
+        if (!skill) return;
+        if (targetType === 'SKILL' && skill.id === targetId) return; // Skip self-reference
+        
+        const noteText = skill.note?.english || skill.note?.japanese || '';
+        const descText = skill.description || '';
+        
+        if (hasReference(noteText) || hasReference(descText)) {
+            references.skills.push({
+                id: skill.id,
+                name: skill.name,
+                reference: `[[SKILL:${skill.id}:${skill.name}]]`
+            });
+        }
+    });
+    
+    // Search items (only skip self-reference if target is also an item)
+    items.forEach(item => {
+        if (!item) return;
+        if (targetType === 'ITEM' && item.id === targetId) return; // Skip self-reference
+        
+        const noteText = item.note?.english || item.note?.japanese || '';
+        const descText = item.description || '';
+        
+        if (hasReference(noteText) || hasReference(descText)) {
+            references.items.push({
+                id: item.id,
+                name: item.name,
+                reference: `[[ITEM:${item.id}:${item.name}]]`
+            });
+        }
+    });
+    
+    // Search states (only skip self-reference if target is also a state)
+    states.forEach(state => {
+        if (!state) return;
+        if (targetType === 'STATE' && state.id === targetId) return; // Skip self-reference
+        
+        const noteText = state.note?.english || state.note?.japanese || '';
+        const descText = state.description || '';
+        
+        if (hasReference(noteText) || hasReference(descText)) {
+            references.states.push({
+                id: state.id,
+                name: state.name,
+                reference: `[[STATE:${state.id}:${state.name}]]`
+            });
+        }
+    });
+    
+    // Search weapons (only skip self-reference if target is also a weapon)
+    weapons.forEach(weapon => {
+        if (!weapon) return;
+        if (targetType === 'WEAPON' && weapon.id === targetId) return; // Skip self-reference
+        
+        const noteText = weapon.note?.english || weapon.note?.japanese || '';
+        const descText = weapon.description || '';
+        
+        if (hasReference(noteText) || hasReference(descText)) {
+            references.weapons.push({
+                id: weapon.id,
+                name: weapon.name,
+                reference: `[[WEAPON:${weapon.id}:${weapon.name}]]`
+            });
+        }
+    });
+    
+    // Search armors (only skip self-reference if target is also an armor)
+    armors.forEach(armor => {
+        if (!armor) return;
+        if (targetType === 'ARMOR' && armor.id === targetId) return; // Skip self-reference
+        
+        const noteText = armor.note?.english || armor.note?.japanese || '';
+        const descText = armor.description || '';
+        
+        if (hasReference(noteText) || hasReference(descText)) {
+            references.armors.push({
+                id: armor.id,
+                name: armor.name,
+                reference: `[[ARMOR:${armor.id}:${armor.name}]]`
+            });
+        }
+    });
+    
+    // Search enemies (only skip self-reference if target is also an enemy)
+    enemies.forEach(enemy => {
+        if (!enemy) return;
+        if (targetType === 'ENEMY' && enemy.id === targetId) return; // Skip self-reference
+        
+        const noteText = enemy.note?.english || enemy.note?.japanese || '';
+        const descText = enemy.description || '';
+        
+        if (hasReference(noteText) || hasReference(descText)) {
+            references.enemies.push({
+                id: enemy.id,
+                name: enemy.name,
+                reference: `[[ENEMY:${enemy.id}:${enemy.name}]]`
+            });
+        }
+    });
+    
+    return references;
+}
+
 // Helper functions to find reverse references
 // These functions use the data directly from data.js to ensure data is always available
 function findSkillReferences(skillId) {
     const references = {
         itemsTeaching: [],
-        enemiesUsing: []
+        enemiesUsing: [],
+        referencedBy: findAllTextReferences('SKILL', skillId)
     };
     
     // Use data directly from data.js if arrays aren't loaded yet

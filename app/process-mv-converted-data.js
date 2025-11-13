@@ -806,6 +806,9 @@ function createIDResolvers(skillsData, statesData, weaponsData, armorsData, item
 // AND mark them as cross-references for linking
 // This scans for patterns like "Skill #123", "State #456", "Weapon #789", etc.
 // Uses special markers: [[TYPE:ID:NAME]] to mark cross-references
+// 
+// IMPORTANT: Same-type references are allowed (e.g., Skill A can reference Skill B).
+// Only self-references (an entity referencing itself) are skipped.
 function resolveIDReferences(text, resolvers, sourceType = null, sourceId = null) {
     if (!text || typeof text !== 'string') return text;
     
@@ -824,7 +827,8 @@ function resolveIDReferences(text, resolvers, sourceType = null, sourceId = null
     
     // Pattern 1: "Skill #123" or "Skill # 123" (with optional space)
     result = result.replace(/Skill\s*#\s*(\d+)/gi, (match, id) => {
-        // Skip if this is a self-reference
+        // Skip if this is a self-reference (same skill referencing itself)
+        // NOTE: Same-type references are allowed (e.g., Skill A can reference Skill B)
         if (sourceType === 'skill' && sourceId === parseInt(id)) return match;
         const name = resolvers.getSkillName(id);
         return name ? `[[SKILL:${id}:${name}]]` : match;
@@ -832,7 +836,8 @@ function resolveIDReferences(text, resolvers, sourceType = null, sourceId = null
     
     // Pattern 2: "State #123" or "State # 123"
     result = result.replace(/State\s*#\s*(\d+)/gi, (match, id) => {
-        // Skip if this is a self-reference
+        // Skip if this is a self-reference (same state referencing itself)
+        // NOTE: Same-type references are allowed (e.g., State A can reference State B)
         if (sourceType === 'state' && sourceId === parseInt(id)) return match;
         const name = resolvers.getStateName(id);
         return name ? `[[STATE:${id}:${name}]]` : match;
@@ -876,7 +881,8 @@ function resolveIDReferences(text, resolvers, sourceType = null, sourceId = null
         // Try all resolvers to find which type this is
         let name = resolvers.getSkillName(id);
         if (name) {
-            // Skip if this is a self-reference
+            // Skip if this is a self-reference (same skill referencing itself)
+            // NOTE: Same-type references are allowed (e.g., Skill A can reference Skill B)
             if (sourceType === 'skill' && sourceId === idNum) return match;
             const before = string[offset - 1];
             const after = match[match.length - 1];
@@ -953,7 +959,8 @@ function resolveIDReferences(text, resolvers, sourceType = null, sourceId = null
         // Try all resolvers
         let name = resolvers.getSkillName(id);
         if (name) {
-            // Skip if this is a self-reference
+            // Skip if this is a self-reference (same skill referencing itself)
+            // NOTE: Same-type references are allowed (e.g., Skill A can reference Skill B)
             if (sourceType === 'skill' && sourceId === idNum) return match;
             return `[[SKILL:${id}:${name}]]`;
         }
