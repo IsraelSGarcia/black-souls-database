@@ -160,6 +160,7 @@ header h1.clickable-title:hover {
     gap: 32px;
     margin: 0 auto;
     width: min(100%, 1040px);
+    padding-top: 12px;
 }
 
 .game-card {
@@ -257,6 +258,7 @@ header h1.clickable-title:hover {
     margin: 0 auto;
     width: 100%;
     max-width: 1100px;
+    padding-top: 12px;
 }
 
 .section-card:last-child {
