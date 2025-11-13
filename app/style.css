@@ -341,7 +341,7 @@ header h1.clickable-title:hover {
 .back-button:hover {
     background: var(--surface-light);
     border-color: var(--primary-color);
-    transform: translateX(-2px);
+    transform: translateY(-2px);
 }
 
 /* Search Section */
@@ -511,10 +511,13 @@ header h1.clickable-title:hover {
     border: 1px solid var(--border);
     border-radius: 12px;
     padding: 20px;
+    height: calc(100vh - 280px);
     max-height: calc(100vh - 280px);
     overflow-y: auto;
     position: sticky;
     top: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .detail-panel::-webkit-scrollbar {
@@ -539,7 +542,8 @@ header h1.clickable-title:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 300px;
+    flex: 1;
+    min-height: 0;
     color: var(--text-muted);
 }
 
@@ -1102,7 +1106,7 @@ header h1.clickable-title:hover {
     }
     
     .detail-panel.mobile-active {
-        display: block;
+        display: flex;
     }
     
     .games-grid {
@@ -1493,6 +1497,7 @@ header h1.clickable-title:hover {
     
     .detail-panel {
         padding: 12px;
+        height: calc(100vh - 300px);
         max-height: calc(100vh - 300px);
     }
     

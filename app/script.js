@@ -688,7 +688,7 @@ function updateHelpContent(view) {
             
             <section class="help-section">
                 <h3>Navigation</h3>
-                <p>Click on a section card to view its contents. Use the back button (←) in the header to return to the game selection.</p>
+                <p>Click on a section card to view its contents. Use the top button (↑) in the header to return to the game selection.</p>
             </section>
         `;
     } else if (view === 'skills') {
@@ -1124,7 +1124,7 @@ function updateHelpContent(view) {
                 <p>All references to skills, items, weapons, armors, states, and enemies are clickable cross-references.</p>
                 <ul>
                     <li>Click any reference to navigate to that item's detail page</li>
-                    <li>Use the back button or browser history to return to the element page</li>
+                    <li>Use the top button or browser history to return to the element page</li>
                 </ul>
                 <p>This makes it easy to explore how elements interact with other game mechanics.</p>
             </section>
@@ -1189,6 +1189,29 @@ function showSectionsView(gameName) {
     }
 }
 
+// Update placeholder icon based on section
+function updatePlaceholderIcon(sectionName) {
+    const placeholder = document.querySelector('.detail-placeholder');
+    if (!placeholder) return;
+    
+    const iconSvg = placeholder.querySelector('svg');
+    if (!iconSvg) return;
+    
+    const icons = {
+        skills: '<path d="M32 4L36.5 24.5L56 20L44 32L56 44L36.5 39.5L32 60L27.5 39.5L8 44L20 32L8 20L27.5 24.5L32 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>',
+        states: '<rect x="8" y="8" width="48" height="48" rx="8" stroke="currentColor" stroke-width="2"/><path d="M32 20L28 28L20 28L26 34L24 42L32 38L40 42L38 34L44 28L36 28L32 20Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>',
+        weapons: '<path d="M32 8L28 24L12 20L24 32L12 44L28 40L32 56L36 40L52 44L40 32L52 20L36 24L32 8Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M24 32L40 32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
+        armors: '<rect x="16" y="8" width="32" height="48" rx="4" stroke="currentColor" stroke-width="2"/><path d="M24 16L40 16M24 24L40 24M24 32L40 32M24 40L40 40" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="32" cy="48" r="4" stroke="currentColor" stroke-width="2"/>',
+        enemies: '<circle cx="32" cy="20" r="8" stroke="currentColor" stroke-width="2"/><path d="M16 48C16 40 20 32 32 32C44 32 48 40 48 48" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M24 40L20 44M40 40L44 44" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
+        items: '<path d="M32 8L20 16L20 32L32 40L44 32L44 16L32 8Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M20 32L32 40L44 32" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M32 40L32 56" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
+        elements: '<circle cx="32" cy="32" r="20" stroke="currentColor" stroke-width="2"/><path d="M32 12L36 28L52 24L40 32L52 40L36 36L32 52L28 36L12 40L24 32L12 24L28 28L32 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>'
+    };
+    
+    if (icons[sectionName]) {
+        iconSvg.innerHTML = icons[sectionName];
+    }
+}
+
 // Show Section Details (e.g., Skills, States)
 // preserveSearch: if true, don't clear the search input
 function showSection(sectionName, preserveSearch = false) {
@@ -1208,7 +1231,7 @@ function showSection(sectionName, preserveSearch = false) {
         
         // Ensure panels are visible
         document.querySelector('.results-panel').style.display = 'block';
-        document.querySelector('.detail-panel').style.display = window.innerWidth > 1024 ? 'block' : 'none';
+        document.querySelector('.detail-panel').style.display = window.innerWidth > 1024 ? 'flex' : 'none';
         document.querySelector('.detail-panel').classList.remove('mobile-active');
         
         // Reset scroll positions
@@ -1230,6 +1253,7 @@ function showSection(sectionName, preserveSearch = false) {
         const placeholder = document.querySelector('.detail-placeholder');
         if (placeholder) {
             placeholder.style.display = 'flex';
+            updatePlaceholderIcon('skills');
         }
         // Remove active state from all cards
         document.querySelectorAll('.skill-card').forEach(card => {
@@ -1258,7 +1282,7 @@ function showSection(sectionName, preserveSearch = false) {
         
         // Ensure panels are visible
         document.querySelector('.results-panel').style.display = 'block';
-        document.querySelector('.detail-panel').style.display = window.innerWidth > 1024 ? 'block' : 'none';
+        document.querySelector('.detail-panel').style.display = window.innerWidth > 1024 ? 'flex' : 'none';
         document.querySelector('.detail-panel').classList.remove('mobile-active');
         
         // Reset scroll positions
@@ -1280,6 +1304,7 @@ function showSection(sectionName, preserveSearch = false) {
         const placeholder = document.querySelector('.detail-placeholder');
         if (placeholder) {
             placeholder.style.display = 'flex';
+            updatePlaceholderIcon('states');
         }
         // Remove active state from all cards
         document.querySelectorAll('.skill-card').forEach(card => {
@@ -1308,7 +1333,7 @@ function showSection(sectionName, preserveSearch = false) {
         
         // Ensure panels are visible
         document.querySelector('.results-panel').style.display = 'block';
-        document.querySelector('.detail-panel').style.display = window.innerWidth > 1024 ? 'block' : 'none';
+        document.querySelector('.detail-panel').style.display = window.innerWidth > 1024 ? 'flex' : 'none';
         document.querySelector('.detail-panel').classList.remove('mobile-active');
         
         // Reset scroll positions
@@ -1330,6 +1355,7 @@ function showSection(sectionName, preserveSearch = false) {
         const placeholder = document.querySelector('.detail-placeholder');
         if (placeholder) {
             placeholder.style.display = 'flex';
+            updatePlaceholderIcon('weapons');
         }
         // Remove active state from all cards
         document.querySelectorAll('.skill-card').forEach(card => {
@@ -1358,7 +1384,7 @@ function showSection(sectionName, preserveSearch = false) {
         
         // Ensure panels are visible
         document.querySelector('.results-panel').style.display = 'block';
-        document.querySelector('.detail-panel').style.display = window.innerWidth > 1024 ? 'block' : 'none';
+        document.querySelector('.detail-panel').style.display = window.innerWidth > 1024 ? 'flex' : 'none';
         document.querySelector('.detail-panel').classList.remove('mobile-active');
         
         // Reset scroll positions
@@ -1380,6 +1406,7 @@ function showSection(sectionName, preserveSearch = false) {
         const placeholder = document.querySelector('.detail-placeholder');
         if (placeholder) {
             placeholder.style.display = 'flex';
+            updatePlaceholderIcon('armors');
         }
         // Remove active state from all cards
         document.querySelectorAll('.skill-card').forEach(card => {
@@ -1408,7 +1435,7 @@ function showSection(sectionName, preserveSearch = false) {
         
         // Ensure panels are visible
         document.querySelector('.results-panel').style.display = 'block';
-        document.querySelector('.detail-panel').style.display = window.innerWidth > 1024 ? 'block' : 'none';
+        document.querySelector('.detail-panel').style.display = window.innerWidth > 1024 ? 'flex' : 'none';
         document.querySelector('.detail-panel').classList.remove('mobile-active');
         
         // Reset scroll positions
@@ -1430,6 +1457,7 @@ function showSection(sectionName, preserveSearch = false) {
         const placeholder = document.querySelector('.detail-placeholder');
         if (placeholder) {
             placeholder.style.display = 'flex';
+            updatePlaceholderIcon('enemies');
         }
         // Remove active state from all cards
         document.querySelectorAll('.skill-card').forEach(card => {
@@ -1458,7 +1486,7 @@ function showSection(sectionName, preserveSearch = false) {
         
         // Ensure panels are visible
         document.querySelector('.results-panel').style.display = 'block';
-        document.querySelector('.detail-panel').style.display = window.innerWidth > 1024 ? 'block' : 'none';
+        document.querySelector('.detail-panel').style.display = window.innerWidth > 1024 ? 'flex' : 'none';
         document.querySelector('.detail-panel').classList.remove('mobile-active');
         
         // Reset scroll positions
@@ -1480,6 +1508,7 @@ function showSection(sectionName, preserveSearch = false) {
         const placeholder = document.querySelector('.detail-placeholder');
         if (placeholder) {
             placeholder.style.display = 'flex';
+            updatePlaceholderIcon('items');
         }
         // Remove active state from all cards
         document.querySelectorAll('.skill-card').forEach(card => {
@@ -1508,7 +1537,7 @@ function showSection(sectionName, preserveSearch = false) {
         
         // Ensure panels are visible
         document.querySelector('.results-panel').style.display = 'block';
-        document.querySelector('.detail-panel').style.display = window.innerWidth > 1024 ? 'block' : 'none';
+        document.querySelector('.detail-panel').style.display = window.innerWidth > 1024 ? 'flex' : 'none';
         document.querySelector('.detail-panel').classList.remove('mobile-active');
         
         // Reset scroll positions
@@ -1530,6 +1559,7 @@ function showSection(sectionName, preserveSearch = false) {
         const placeholder = document.querySelector('.detail-placeholder');
         if (placeholder) {
             placeholder.style.display = 'flex';
+            updatePlaceholderIcon('elements');
         }
         // Remove active state from all cards
         document.querySelectorAll('.skill-card').forEach(card => {
@@ -2086,7 +2116,7 @@ function selectSkill(skillId) {
     // On mobile, hide list and show only detail
     if (window.innerWidth <= 1024) {
         document.querySelector('.results-panel').style.display = 'none';
-        document.querySelector('.detail-panel').style.display = 'block';
+        document.querySelector('.detail-panel').style.display = 'flex';
         document.querySelector('.detail-panel').classList.add('mobile-active');
         
     }
@@ -2531,7 +2561,7 @@ function selectState(stateId) {
     // On mobile, hide list and show only detail
     if (window.innerWidth <= 1024) {
         document.querySelector('.results-panel').style.display = 'none';
-        document.querySelector('.detail-panel').style.display = 'block';
+        document.querySelector('.detail-panel').style.display = 'flex';
         document.querySelector('.detail-panel').classList.add('mobile-active');
     }
     
@@ -3196,7 +3226,7 @@ function selectWeapon(weaponId) {
     // On mobile, hide list and show only detail
     if (window.innerWidth <= 1024) {
         document.querySelector('.results-panel').style.display = 'none';
-        document.querySelector('.detail-panel').style.display = 'block';
+        document.querySelector('.detail-panel').style.display = 'flex';
         document.querySelector('.detail-panel').classList.add('mobile-active');
     }
     
@@ -3433,7 +3463,7 @@ function selectArmor(armorId) {
     // On mobile, hide list and show only detail
     if (window.innerWidth <= 1024) {
         document.querySelector('.results-panel').style.display = 'none';
-        document.querySelector('.detail-panel').style.display = 'block';
+        document.querySelector('.detail-panel').style.display = 'flex';
         document.querySelector('.detail-panel').classList.add('mobile-active');
     }
     
@@ -3469,7 +3499,7 @@ function selectEnemy(enemyId) {
     // On mobile, hide list and show only detail
     if (window.innerWidth <= 1024) {
         document.querySelector('.results-panel').style.display = 'none';
-        document.querySelector('.detail-panel').style.display = 'block';
+        document.querySelector('.detail-panel').style.display = 'flex';
         document.querySelector('.detail-panel').classList.add('mobile-active');
     }
     
@@ -3505,7 +3535,7 @@ function selectItem(itemId) {
     // On mobile, hide list and show only detail
     if (window.innerWidth <= 1024) {
         document.querySelector('.results-panel').style.display = 'none';
-        document.querySelector('.detail-panel').style.display = 'block';
+        document.querySelector('.detail-panel').style.display = 'flex';
         document.querySelector('.detail-panel').classList.add('mobile-active');
     }
     
@@ -3541,7 +3571,7 @@ function selectElement(elementId) {
     // On mobile, hide list and show only detail
     if (window.innerWidth <= 1024) {
         document.querySelector('.results-panel').style.display = 'none';
-        document.querySelector('.detail-panel').style.display = 'block';
+        document.querySelector('.detail-panel').style.display = 'flex';
         document.querySelector('.detail-panel').classList.add('mobile-active');
     }
     
