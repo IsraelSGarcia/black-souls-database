@@ -131,10 +131,16 @@ function pushHistoryState(state, replace = false, force = false) {
 function getPageTitle(state) {
     if (!state) return 'Black Souls Database';
     
+    // Format game name for display (bs2 -> BS2)
+    const formatGameName = (game) => {
+        if (game === 'bs2') return 'BS2';
+        return game || 'Black Souls II';
+    };
+    
     if (state.view === 'games') {
         return 'Black Souls Database';
     } else if (state.view === 'sections') {
-        return `${state.game || 'Black Souls II'} - Sections`;
+        return `${formatGameName(state.game)} - Sections`;
     } else if (state.view && state.selectedId) {
         // Properly handle plural section names
         let sectionName = state.view;
@@ -142,10 +148,10 @@ function getPageTitle(state) {
             sectionName = sectionName.slice(0, -1); // Remove 's' from plural
         }
         sectionName = sectionName.charAt(0).toUpperCase() + sectionName.slice(1);
-        return `${state.game || 'Black Souls II'} - ${sectionName} ${state.selectedId}`;
+        return `${formatGameName(state.game)} - ${sectionName} ${state.selectedId}`;
     } else if (state.view) {
         const sectionName = state.view.charAt(0).toUpperCase() + state.view.slice(1);
-        return `${state.game || 'Black Souls II'} - ${sectionName}`;
+        return `${formatGameName(state.game)} - ${sectionName}`;
     }
     return 'Black Souls Database';
 }
