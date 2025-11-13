@@ -2110,6 +2110,9 @@ function selectSkill(skillId) {
     if (detailPanel) {
         detailPanel.scrollTop = 0;
     }
+    if (detailContent) {
+        detailContent.scrollTop = 0;
+    }
     
     renderSkillDetail(skill);
     
@@ -2119,6 +2122,15 @@ function selectSkill(skillId) {
         document.querySelector('.detail-panel').style.display = 'flex';
         document.querySelector('.detail-panel').classList.add('mobile-active');
         
+        // Reset scroll position after panel is shown on mobile
+        setTimeout(() => {
+            if (detailPanel) {
+                detailPanel.scrollTop = 0;
+            }
+            if (detailContent) {
+                detailContent.scrollTop = 0;
+            }
+        }, 0);
     }
     
     // Update browser history
@@ -2151,6 +2163,9 @@ function renderSkillDetail(skill) {
     detailContent.innerHTML = html;
     
     // Scroll to top immediately
+    if (detailPanel) {
+        detailPanel.scrollTop = 0;
+    }
     if (detailContent) {
         detailContent.scrollTop = 0;
     }
@@ -2160,6 +2175,9 @@ function renderSkillDetail(skill) {
     
     // Ensure scroll after a brief delay (in case content shifts)
     setTimeout(() => {
+        if (detailPanel) {
+            detailPanel.scrollTop = 0;
+        }
         if (detailContent) {
             detailContent.scrollTop = 0;
         }
@@ -2555,6 +2573,9 @@ function selectState(stateId) {
     if (detailPanel) {
         detailPanel.scrollTop = 0;
     }
+    if (detailContent) {
+        detailContent.scrollTop = 0;
+    }
     
     renderStateDetail(state);
     
@@ -2563,6 +2584,16 @@ function selectState(stateId) {
         document.querySelector('.results-panel').style.display = 'none';
         document.querySelector('.detail-panel').style.display = 'flex';
         document.querySelector('.detail-panel').classList.add('mobile-active');
+        
+        // Reset scroll position after panel is shown on mobile
+        setTimeout(() => {
+            if (detailPanel) {
+                detailPanel.scrollTop = 0;
+            }
+            if (detailContent) {
+                detailContent.scrollTop = 0;
+            }
+        }, 0);
     }
     
     // Update browser history
@@ -2593,6 +2624,9 @@ function renderStateDetail(state) {
     detailContent.innerHTML = html;
     
     // Scroll to top immediately
+    if (detailPanel) {
+        detailPanel.scrollTop = 0;
+    }
     if (detailContent) {
         detailContent.scrollTop = 0;
     }
@@ -2602,6 +2636,9 @@ function renderStateDetail(state) {
     
     // Ensure scroll after a brief delay (in case content shifts)
     setTimeout(() => {
+        if (detailPanel) {
+            detailPanel.scrollTop = 0;
+        }
         if (detailContent) {
             detailContent.scrollTop = 0;
         }
@@ -3220,6 +3257,9 @@ function selectWeapon(weaponId) {
     if (detailPanel) {
         detailPanel.scrollTop = 0;
     }
+    if (detailContent) {
+        detailContent.scrollTop = 0;
+    }
     
     renderWeaponDetail(weapon);
     
@@ -3228,6 +3268,16 @@ function selectWeapon(weaponId) {
         document.querySelector('.results-panel').style.display = 'none';
         document.querySelector('.detail-panel').style.display = 'flex';
         document.querySelector('.detail-panel').classList.add('mobile-active');
+        
+        // Reset scroll position after panel is shown on mobile
+        setTimeout(() => {
+            if (detailPanel) {
+                detailPanel.scrollTop = 0;
+            }
+            if (detailContent) {
+                detailContent.scrollTop = 0;
+            }
+        }, 0);
     }
     
     // Update browser history
@@ -3268,6 +3318,9 @@ function renderWeaponDetail(weapon) {
     detailContent.innerHTML = html;
     
     // Scroll to top immediately
+    if (detailPanel) {
+        detailPanel.scrollTop = 0;
+    }
     if (detailContent) {
         detailContent.scrollTop = 0;
     }
@@ -3277,6 +3330,9 @@ function renderWeaponDetail(weapon) {
     
     // Ensure scroll after a brief delay (in case content shifts)
     setTimeout(() => {
+        if (detailPanel) {
+            detailPanel.scrollTop = 0;
+        }
         if (detailContent) {
             detailContent.scrollTop = 0;
         }
@@ -3457,6 +3513,9 @@ function selectArmor(armorId) {
     if (detailPanel) {
         detailPanel.scrollTop = 0;
     }
+    if (detailContent) {
+        detailContent.scrollTop = 0;
+    }
     
     renderArmorDetail(armor);
     
@@ -3465,6 +3524,16 @@ function selectArmor(armorId) {
         document.querySelector('.results-panel').style.display = 'none';
         document.querySelector('.detail-panel').style.display = 'flex';
         document.querySelector('.detail-panel').classList.add('mobile-active');
+        
+        // Reset scroll position after panel is shown on mobile
+        setTimeout(() => {
+            if (detailPanel) {
+                detailPanel.scrollTop = 0;
+            }
+            if (detailContent) {
+                detailContent.scrollTop = 0;
+            }
+        }, 0);
     }
     
     // Update browser history
@@ -3493,6 +3562,9 @@ function selectEnemy(enemyId) {
     if (detailPanel) {
         detailPanel.scrollTop = 0;
     }
+    if (detailContent) {
+        detailContent.scrollTop = 0;
+    }
     
     renderEnemyDetail(enemy);
     
@@ -3501,6 +3573,16 @@ function selectEnemy(enemyId) {
         document.querySelector('.results-panel').style.display = 'none';
         document.querySelector('.detail-panel').style.display = 'flex';
         document.querySelector('.detail-panel').classList.add('mobile-active');
+        
+        // Reset scroll position after panel is shown on mobile
+        setTimeout(() => {
+            if (detailPanel) {
+                detailPanel.scrollTop = 0;
+            }
+            if (detailContent) {
+                detailContent.scrollTop = 0;
+            }
+        }, 0);
     }
     
     // Update browser history
@@ -3529,6 +3611,9 @@ function selectItem(itemId) {
     if (detailPanel) {
         detailPanel.scrollTop = 0;
     }
+    if (detailContent) {
+        detailContent.scrollTop = 0;
+    }
     
     renderItemDetail(item);
     
@@ -3537,6 +3622,16 @@ function selectItem(itemId) {
         document.querySelector('.results-panel').style.display = 'none';
         document.querySelector('.detail-panel').style.display = 'flex';
         document.querySelector('.detail-panel').classList.add('mobile-active');
+        
+        // Reset scroll position after panel is shown on mobile
+        setTimeout(() => {
+            if (detailPanel) {
+                detailPanel.scrollTop = 0;
+            }
+            if (detailContent) {
+                detailContent.scrollTop = 0;
+            }
+        }, 0);
     }
     
     // Update browser history
@@ -3565,6 +3660,9 @@ function selectElement(elementId) {
     if (detailPanel) {
         detailPanel.scrollTop = 0;
     }
+    if (detailContent) {
+        detailContent.scrollTop = 0;
+    }
     
     renderElementDetail(element);
     
@@ -3573,6 +3671,16 @@ function selectElement(elementId) {
         document.querySelector('.results-panel').style.display = 'none';
         document.querySelector('.detail-panel').style.display = 'flex';
         document.querySelector('.detail-panel').classList.add('mobile-active');
+        
+        // Reset scroll position after panel is shown on mobile
+        setTimeout(() => {
+            if (detailPanel) {
+                detailPanel.scrollTop = 0;
+            }
+            if (detailContent) {
+                detailContent.scrollTop = 0;
+            }
+        }, 0);
     }
     
     // Update browser history
@@ -3613,6 +3721,9 @@ function renderArmorDetail(armor) {
     detailContent.innerHTML = html;
     
     // Scroll to top immediately
+    if (detailPanel) {
+        detailPanel.scrollTop = 0;
+    }
     if (detailContent) {
         detailContent.scrollTop = 0;
     }
@@ -3622,6 +3733,9 @@ function renderArmorDetail(armor) {
     
     // Ensure scroll after a brief delay (in case content shifts)
     setTimeout(() => {
+        if (detailPanel) {
+            detailPanel.scrollTop = 0;
+        }
         if (detailContent) {
             detailContent.scrollTop = 0;
         }
@@ -3811,6 +3925,9 @@ function renderEnemyDetail(enemy) {
     detailContent.innerHTML = html;
     
     // Scroll to top immediately
+    if (detailPanel) {
+        detailPanel.scrollTop = 0;
+    }
     if (detailContent) {
         detailContent.scrollTop = 0;
     }
@@ -3820,6 +3937,9 @@ function renderEnemyDetail(enemy) {
     
     // Ensure scroll after a brief delay (in case content shifts)
     setTimeout(() => {
+        if (detailPanel) {
+            detailPanel.scrollTop = 0;
+        }
         if (detailContent) {
             detailContent.scrollTop = 0;
         }
@@ -4020,6 +4140,9 @@ function renderItemDetail(item) {
     detailContent.innerHTML = html;
     
     // Scroll to top immediately
+    if (detailPanel) {
+        detailPanel.scrollTop = 0;
+    }
     if (detailContent) {
         detailContent.scrollTop = 0;
     }
@@ -4029,6 +4152,9 @@ function renderItemDetail(item) {
     
     // Ensure scroll after a brief delay (in case content shifts)
     setTimeout(() => {
+        if (detailPanel) {
+            detailPanel.scrollTop = 0;
+        }
         if (detailContent) {
             detailContent.scrollTop = 0;
         }
@@ -4217,6 +4343,9 @@ function renderElementDetail(element) {
     detailContent.innerHTML = html;
     
     // Scroll to top immediately
+    if (detailPanel) {
+        detailPanel.scrollTop = 0;
+    }
     if (detailContent) {
         detailContent.scrollTop = 0;
     }
@@ -4226,6 +4355,9 @@ function renderElementDetail(element) {
     
     // Ensure scroll after a brief delay (in case content shifts)
     setTimeout(() => {
+        if (detailPanel) {
+            detailPanel.scrollTop = 0;
+        }
         if (detailContent) {
             detailContent.scrollTop = 0;
         }
