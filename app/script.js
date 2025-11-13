@@ -2297,7 +2297,9 @@ function renderSkillDetail(skill) {
                 }
             } else if (toggleType === 'effect') {
                 const effectIndex = parseInt(toggle.dataset.effectIndex);
-                const effect = skill.effects[effectIndex];
+                // Use sorted effects array if available, otherwise use original
+                const effectsArray = skill._sortedEffects || skill.effects;
+                const effect = effectsArray[effectIndex];
                 const effectItem = toggle.closest('.effect-item');
                 
                 let originalDataBox = effectItem.querySelector('.original-data-box');
@@ -2447,14 +2449,77 @@ function renderDamageInfo(skill) {
     `;
 }
 
+// Helper function to sort effects
+function sortEffects(effects) {
+    if (!effects || !Array.isArray(effects) || effects.length === 0) {
+        return effects || [];
+    }
+    // Create a copy to avoid mutating the original
+    const sorted = [...effects];
+    return sorted.sort((a, b) => {
+        // First sort by code (effect type) - lower codes first
+        const codeA = a.code ?? 999;
+        const codeB = b.code ?? 999;
+        if (codeA !== codeB) {
+            return codeA - codeB;
+        }
+        // If same code, sort by dataId - lower dataIds first
+        const dataIdA = a.dataId ?? 999;
+        const dataIdB = b.dataId ?? 999;
+        if (dataIdA !== dataIdB) {
+            return dataIdA - dataIdB;
+        }
+        // If same code and dataId, sort by value1 - higher values first
+        const value1A = a.value1 ?? 0;
+        const value1B = b.value1 ?? 0;
+        if (value1A !== value1B) {
+            return value1B - value1A;
+        }
+        // Finally sort by value2 - higher values first
+        const value2A = a.value2 ?? 0;
+        const value2B = b.value2 ?? 0;
+        return value2B - value2A;
+    });
+}
+
+// Helper function to sort traits
+function sortTraits(traits) {
+    if (!traits || !Array.isArray(traits) || traits.length === 0) {
+        return traits || [];
+    }
+    // Create a copy to avoid mutating the original
+    const sorted = [...traits];
+    return sorted.sort((a, b) => {
+        // First sort by code (trait type) - lower codes first
+        const codeA = a.code ?? 999;
+        const codeB = b.code ?? 999;
+        if (codeA !== codeB) {
+            return codeA - codeB;
+        }
+        // If same code, sort by dataId - lower dataIds first
+        const dataIdA = a.dataId ?? 999;
+        const dataIdB = b.dataId ?? 999;
+        if (dataIdA !== dataIdB) {
+            return dataIdA - dataIdB;
+        }
+        // If same code and dataId, sort by value - higher values first
+        const valueA = a.value ?? 0;
+        const valueB = b.value ?? 0;
+        return valueB - valueA;
+    });
+}
+
 // Render effects
 function renderEffects(skill) {
     if (skill.effects.length === 0) return '';
     
+    // Sort effects before rendering and store sorted array
+    skill._sortedEffects = sortEffects(skill.effects);
+    
     return `
         <div class="detail-section">
             <div class="section-title">Effects</div>
-            ${skill.effects.map((effect, index) => {
+            ${skill._sortedEffects.map((effect, index) => {
                 const hasOriginalData = effect.code !== undefined;
                 const effectDesc = effect.description ? convertCrossReferencesAndEscape(effect.description) : '';
                 const effectType = effect.codeName ? escapeHtml(effect.codeName) : '';
@@ -3069,7 +3134,9 @@ function renderStateDetail(state) {
     traitToggles.forEach(toggle => {
         toggle.addEventListener('click', () => {
             const traitIndex = parseInt(toggle.dataset.traitIndex);
-            const trait = state.traits[traitIndex];
+            // Use sorted traits array if available, otherwise use original
+            const traitsArray = state._sortedTraits || state.traits;
+            const trait = traitsArray[traitIndex];
             const traitItem = toggle.closest('.effect-item');
             
             let originalDataBox = traitItem.querySelector('.original-data-box');
@@ -3201,10 +3268,13 @@ function renderStateBasicInfo(state) {
 function renderStateTraits(state) {
     if (state.traits.length === 0) return '';
     
+    // Sort traits before rendering and store sorted array
+    state._sortedTraits = sortTraits(state.traits);
+    
     return `
         <div class="detail-section">
             <div class="section-title">Traits</div>
-            ${state.traits.map((trait, index) => {
+            ${state._sortedTraits.map((trait, index) => {
                 const hasOriginalData = trait.code !== undefined;
                 const traitDesc = trait.description ? convertCrossReferencesAndEscape(trait.description) : '';
                 const traitType = trait.codeName ? escapeHtml(trait.codeName) : '';
@@ -3785,7 +3855,9 @@ function renderWeaponDetail(weapon) {
     traitToggles.forEach(toggle => {
         toggle.addEventListener('click', () => {
             const traitIndex = parseInt(toggle.dataset.traitIndex);
-            const trait = weapon.traits[traitIndex];
+            // Use sorted traits array if available, otherwise use original
+            const traitsArray = weapon._sortedTraits || weapon.traits;
+            const trait = traitsArray[traitIndex];
             const traitItem = toggle.closest('.effect-item');
             
             let originalDataBox = traitItem.querySelector('.original-data-box');
@@ -3887,10 +3959,13 @@ function renderWeaponParams(weapon) {
 function renderWeaponTraits(weapon) {
     if (weapon.traits.length === 0) return '';
     
+    // Sort traits before rendering and store sorted array
+    weapon._sortedTraits = sortTraits(weapon.traits);
+    
     return `
         <div class="detail-section">
             <div class="section-title">Traits</div>
-            ${weapon.traits.map((trait, index) => {
+            ${weapon._sortedTraits.map((trait, index) => {
                 const hasOriginalData = trait.code !== undefined;
                 return `
                     <div class="effect-item">
@@ -4210,7 +4285,9 @@ function renderArmorDetail(armor) {
     traitToggles.forEach(toggle => {
         toggle.addEventListener('click', () => {
             const traitIndex = parseInt(toggle.dataset.traitIndex);
-            const trait = armor.traits[traitIndex];
+            // Use sorted traits array if available, otherwise use original
+            const traitsArray = armor._sortedTraits || armor.traits;
+            const trait = traitsArray[traitIndex];
             const traitItem = toggle.closest('.effect-item');
             
             let originalDataBox = traitItem.querySelector('.original-data-box');
@@ -4304,10 +4381,13 @@ function renderArmorParams(armor) {
 function renderArmorTraits(armor) {
     if (armor.traits.length === 0) return '';
     
+    // Sort traits before rendering and store sorted array
+    armor._sortedTraits = sortTraits(armor.traits);
+    
     return `
         <div class="detail-section">
             <div class="section-title">Traits</div>
-            ${armor.traits.map((trait, index) => {
+            ${armor._sortedTraits.map((trait, index) => {
                 const hasOriginalData = trait.code !== undefined;
                 return `
                     <div class="effect-item">
@@ -4423,7 +4503,9 @@ function renderEnemyDetail(enemy) {
     traitToggles.forEach(toggle => {
         toggle.addEventListener('click', () => {
             const traitIndex = parseInt(toggle.dataset.traitIndex);
-            const trait = enemy.traits[traitIndex];
+            // Use sorted traits array if available, otherwise use original
+            const traitsArray = enemy._sortedTraits || enemy.traits;
+            const trait = traitsArray[traitIndex];
             const traitItem = toggle.closest('.effect-item');
             
             let originalDataBox = traitItem.querySelector('.original-data-box');
@@ -4489,10 +4571,13 @@ function renderEnemyBaseStats(enemy) {
 function renderEnemyTraits(enemy) {
     if (enemy.traits.length === 0) return '';
     
+    // Sort traits before rendering and store sorted array
+    enemy._sortedTraits = sortTraits(enemy.traits);
+    
     return `
         <div class="detail-section">
             <div class="section-title">Traits</div>
-            ${enemy.traits.map((trait, index) => {
+            ${enemy._sortedTraits.map((trait, index) => {
                 const hasOriginalData = trait.code !== undefined;
                 return `
                     <div class="effect-item">
@@ -4898,10 +4983,15 @@ function renderItemBasicStats(item) {
 }
 
 function renderItemEffects(item) {
+    if (item.effects.length === 0) return '';
+    
+    // Sort effects before rendering and store sorted array
+    item._sortedEffects = sortEffects(item.effects);
+    
     return `
         <div class="detail-section">
             <div class="section-title">Effects</div>
-            ${item.effects.map(effect => `
+            ${item._sortedEffects.map(effect => `
                 <div class="effect-item">
                     <div class="effect-description">${convertCrossReferencesAndEscape(effect.description || 'No description')}</div>
                 </div>
