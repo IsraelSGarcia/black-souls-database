@@ -326,6 +326,15 @@ function parseURL() {
             if (!isNaN(id)) {
                 return { view: section, selectedId: id, game: 'bs2' };
             }
+        } else if (parts.length === 3) {
+            // Handle /bs2/section/id format
+            if (parts[0] === 'bs2') {
+                const section = parts[1];
+                const id = parseInt(parts[2]);
+                if (!isNaN(id) && ['skills', 'states', 'weapons', 'armors', 'items', 'enemies', 'elements'].includes(section)) {
+                    return { view: section, selectedId: id, game: 'bs2' };
+                }
+            }
         }
     }
     
@@ -611,7 +620,7 @@ headerTitle.classList.add('clickable-title');
 headerTitle.addEventListener('click', navigateToTopLevel);
 
 // Make back button navigate to top level
-backButton.addEventListener('click', navigateToTopLevel);
+backButton.addEventListener('click', handleBackNavigation);
 const searchInput = document.getElementById('search-input');
 const resultsList = document.getElementById('results-list');
 const resultsCount = document.getElementById('results-count');
@@ -1213,6 +1222,20 @@ function showSection(sectionName, preserveSearch = false) {
         }
         selectedSkillId = null;
         
+        // Clear detail panel
+        if (detailContent) {
+            detailContent.innerHTML = '';
+            detailContent.style.display = 'none';
+        }
+        const placeholder = document.querySelector('.detail-placeholder');
+        if (placeholder) {
+            placeholder.style.display = 'flex';
+        }
+        // Remove active state from all cards
+        document.querySelectorAll('.skill-card').forEach(card => {
+            card.classList.remove('active');
+        });
+        
         // Load skills if not already loaded
         if (allSkills.length === 0) {
             loadSkills();
@@ -1248,6 +1271,20 @@ function showSection(sectionName, preserveSearch = false) {
             searchStates(''); // Reset filtered array to show all states
         }
         selectedStateId = null;
+        
+        // Clear detail panel
+        if (detailContent) {
+            detailContent.innerHTML = '';
+            detailContent.style.display = 'none';
+        }
+        const placeholder = document.querySelector('.detail-placeholder');
+        if (placeholder) {
+            placeholder.style.display = 'flex';
+        }
+        // Remove active state from all cards
+        document.querySelectorAll('.skill-card').forEach(card => {
+            card.classList.remove('active');
+        });
         
         // Load states if not already loaded
         if (allStates.length === 0) {
@@ -1285,6 +1322,20 @@ function showSection(sectionName, preserveSearch = false) {
         }
         selectedWeaponId = null;
         
+        // Clear detail panel
+        if (detailContent) {
+            detailContent.innerHTML = '';
+            detailContent.style.display = 'none';
+        }
+        const placeholder = document.querySelector('.detail-placeholder');
+        if (placeholder) {
+            placeholder.style.display = 'flex';
+        }
+        // Remove active state from all cards
+        document.querySelectorAll('.skill-card').forEach(card => {
+            card.classList.remove('active');
+        });
+        
         // Load weapons if not already loaded
         if (allWeapons.length === 0) {
             loadWeapons();
@@ -1320,6 +1371,20 @@ function showSection(sectionName, preserveSearch = false) {
             searchArmors(''); // Reset filtered array to show all armors
         }
         selectedArmorId = null;
+        
+        // Clear detail panel
+        if (detailContent) {
+            detailContent.innerHTML = '';
+            detailContent.style.display = 'none';
+        }
+        const placeholder = document.querySelector('.detail-placeholder');
+        if (placeholder) {
+            placeholder.style.display = 'flex';
+        }
+        // Remove active state from all cards
+        document.querySelectorAll('.skill-card').forEach(card => {
+            card.classList.remove('active');
+        });
         
         // Load armors if not already loaded
         if (allArmors.length === 0) {
@@ -1357,6 +1422,20 @@ function showSection(sectionName, preserveSearch = false) {
         }
         selectedEnemyId = null;
         
+        // Clear detail panel
+        if (detailContent) {
+            detailContent.innerHTML = '';
+            detailContent.style.display = 'none';
+        }
+        const placeholder = document.querySelector('.detail-placeholder');
+        if (placeholder) {
+            placeholder.style.display = 'flex';
+        }
+        // Remove active state from all cards
+        document.querySelectorAll('.skill-card').forEach(card => {
+            card.classList.remove('active');
+        });
+        
         // Load enemies if not already loaded
         if (allEnemies.length === 0) {
             loadEnemies();
@@ -1392,6 +1471,20 @@ function showSection(sectionName, preserveSearch = false) {
             searchItems(''); // Reset filtered array to show all items
         }
         selectedItemId = null;
+        
+        // Clear detail panel
+        if (detailContent) {
+            detailContent.innerHTML = '';
+            detailContent.style.display = 'none';
+        }
+        const placeholder = document.querySelector('.detail-placeholder');
+        if (placeholder) {
+            placeholder.style.display = 'flex';
+        }
+        // Remove active state from all cards
+        document.querySelectorAll('.skill-card').forEach(card => {
+            card.classList.remove('active');
+        });
         
         // Load items if not already loaded
         if (allItems.length === 0) {
@@ -1429,6 +1522,20 @@ function showSection(sectionName, preserveSearch = false) {
         }
         selectedElementId = null;
         
+        // Clear detail panel
+        if (detailContent) {
+            detailContent.innerHTML = '';
+            detailContent.style.display = 'none';
+        }
+        const placeholder = document.querySelector('.detail-placeholder');
+        if (placeholder) {
+            placeholder.style.display = 'flex';
+        }
+        // Remove active state from all cards
+        document.querySelectorAll('.skill-card').forEach(card => {
+            card.classList.remove('active');
+        });
+        
         // Load elements if not already loaded
         if (allElements.length === 0) {
             loadElements();
@@ -1447,168 +1554,62 @@ function showSection(sectionName, preserveSearch = false) {
 }
 
 // Handle back button navigation
+// Navigates up one layer at a time: Detail -> Section List -> Sections Menu -> Games View -> (nothing)
 function handleBackNavigation() {
-    // Always try browser history first - it's the source of truth
-    // Check if we can go back by seeing if we're not at the initial state
+    // Get current state to determine what layer we're on
     const currentState = history.state;
+    const urlState = parseURL();
     
-    // We can go back if:
-    // 1. We have a state and it's not the initial games view (no selectedId, no searchQuery)
-    // 2. OR history.length suggests we can go back
-    const canGoBack = currentState && (
-        (currentState.view !== 'games' || currentState.selectedId || currentState.searchQuery) ||
-        history.length > 1
-    );
+    // Check if we're on a detail page (has selectedId)
+    const hasSelection = 
+        (currentSection === 'skills' && selectedSkillId !== null) ||
+        (currentSection === 'states' && selectedStateId !== null) ||
+        (currentSection === 'weapons' && selectedWeaponId !== null) ||
+        (currentSection === 'armors' && selectedArmorId !== null) ||
+        (currentSection === 'enemies' && selectedEnemyId !== null) ||
+        (currentSection === 'items' && selectedItemId !== null) ||
+        (currentSection === 'elements' && selectedElementId !== null) ||
+        (currentState && currentState.selectedId !== null && currentState.selectedId !== undefined) ||
+        (urlState && urlState.selectedId !== null && urlState.selectedId !== undefined);
     
-    if (canGoBack) {
-        // Use browser history - the popstate event will handle restoration
-        history.back();
-        return;
+    if (hasSelection) {
+        // Layer 1: Detail page -> Section List
+        // Determine which section we're in
+        const section = currentSection || 
+                       (currentState ? currentState.view : null) || 
+                       (urlState ? urlState.view : null);
+        if (section && ['skills', 'states', 'weapons', 'armors', 'enemies', 'items', 'elements'].includes(section)) {
+            // Navigate back to the section view, preserving search
+            showSection(section, true);
+            return;
+        }
     }
     
-    // If we can't go back in browser history, check if we're on a detail view
-    // and can go back to the list view (mobile behavior)
-    
-    // If on mobile and viewing a detail, go back to list
-    if (window.innerWidth <= 1024 && currentSection === 'skills' && selectedSkillId !== null) {
-        // Back to list
-        document.querySelector('.results-panel').style.display = 'block';
-        document.querySelector('.detail-panel').style.display = 'none';
-        document.querySelector('.detail-panel').classList.remove('mobile-active');
-        
-        // Clear selection
-        selectedSkillId = null;
-        document.querySelectorAll('.skill-card').forEach(card => {
-            card.classList.remove('active');
-        });
-        
-        // Hide detail content, show placeholder
-        document.querySelector('.detail-placeholder').style.display = 'flex';
-        detailContent.style.display = 'none';
-        
-        return;
-    }
-    
-    if (window.innerWidth <= 1024 && currentSection === 'states' && selectedStateId !== null) {
-        // Back to list
-        document.querySelector('.results-panel').style.display = 'block';
-        document.querySelector('.detail-panel').style.display = 'none';
-        document.querySelector('.detail-panel').classList.remove('mobile-active');
-        
-        // Clear selection
-        selectedStateId = null;
-        document.querySelectorAll('.skill-card').forEach(card => {
-            card.classList.remove('active');
-        });
-        
-        // Hide detail content, show placeholder
-        document.querySelector('.detail-placeholder').style.display = 'flex';
-        detailContent.style.display = 'none';
-        
-        return;
-    }
-    
-    if (window.innerWidth <= 1024 && currentSection === 'weapons' && selectedWeaponId !== null) {
-        // Back to list
-        document.querySelector('.results-panel').style.display = 'block';
-        document.querySelector('.detail-panel').style.display = 'none';
-        document.querySelector('.detail-panel').classList.remove('mobile-active');
-        
-        // Clear selection
-        selectedWeaponId = null;
-        document.querySelectorAll('.skill-card').forEach(card => {
-            card.classList.remove('active');
-        });
-        
-        // Hide detail content, show placeholder
-        document.querySelector('.detail-placeholder').style.display = 'flex';
-        detailContent.style.display = 'none';
-        
-        return;
-    }
-    
-    if (window.innerWidth <= 1024 && currentSection === 'armors' && selectedArmorId !== null) {
-        // Back to list
-        document.querySelector('.results-panel').style.display = 'block';
-        document.querySelector('.detail-panel').style.display = 'none';
-        document.querySelector('.detail-panel').classList.remove('mobile-active');
-        
-        // Clear selection
-        selectedArmorId = null;
-        document.querySelectorAll('.skill-card').forEach(card => {
-            card.classList.remove('active');
-        });
-        
-        // Hide detail content, show placeholder
-        document.querySelector('.detail-placeholder').style.display = 'flex';
-        detailContent.style.display = 'none';
-        
-        return;
-    }
-    
-    if (window.innerWidth <= 1024 && currentSection === 'enemies' && selectedEnemyId !== null) {
-        // Back to list
-        document.querySelector('.results-panel').style.display = 'block';
-        document.querySelector('.detail-panel').style.display = 'none';
-        document.querySelector('.detail-panel').classList.remove('mobile-active');
-        
-        // Clear selection
-        selectedEnemyId = null;
-        document.querySelectorAll('.skill-card').forEach(card => {
-            card.classList.remove('active');
-        });
-        
-        // Hide detail content, show placeholder
-        document.querySelector('.detail-placeholder').style.display = 'flex';
-        detailContent.style.display = 'none';
-        
-        return;
-    }
-    
-    if (window.innerWidth <= 1024 && currentSection === 'items' && selectedItemId !== null) {
-        // Back to list
-        document.querySelector('.results-panel').style.display = 'block';
-        document.querySelector('.detail-panel').style.display = 'none';
-        document.querySelector('.detail-panel').classList.remove('mobile-active');
-        
-        // Clear selection
-        selectedItemId = null;
-        document.querySelectorAll('.skill-card').forEach(card => {
-            card.classList.remove('active');
-        });
-        
-        // Hide detail content, show placeholder
-        document.querySelector('.detail-placeholder').style.display = 'flex';
-        detailContent.style.display = 'none';
-        
-        return;
-    }
-    
-    if (window.innerWidth <= 1024 && currentSection === 'elements' && selectedElementId !== null) {
-        // Back to list
-        document.querySelector('.results-panel').style.display = 'block';
-        document.querySelector('.detail-panel').style.display = 'none';
-        document.querySelector('.detail-panel').classList.remove('mobile-active');
-        
-        // Clear selection
-        selectedElementId = null;
-        document.querySelectorAll('.skill-card').forEach(card => {
-            card.classList.remove('active');
-        });
-        
-        // Hide detail content, show placeholder
-        document.querySelector('.detail-placeholder').style.display = 'flex';
-        detailContent.style.display = 'none';
-        
-        return;
-    }
-    
-    if (currentSection) {
-        // From section details -> back to sections
+    // Check if we're on a section list (has currentSection but no selectedId)
+    if (currentSection && !hasSelection) {
+        // Layer 2: Section List -> Sections Menu
         showSectionsView(currentGame);
-    } else if (currentGame) {
-        // From sections -> back to games
+        return;
+    }
+    
+    // Check if we're on sections menu
+    const sectionsViewEl = document.getElementById('sections-view');
+    if (sectionsViewEl && !sectionsViewEl.classList.contains('hidden')) {
+        // Layer 3: Sections Menu -> Games View
         showGamesView();
+        return;
+    }
+    
+    // Check if we're on games view
+    const gamesViewEl = document.getElementById('games-view');
+    if (gamesViewEl && !gamesViewEl.classList.contains('hidden')) {
+        // Layer 4: Games View -> do nothing (already at top)
+        return;
+    }
+    
+    // Fallback: use browser history if we can't determine the layer
+    if (history.length > 1) {
+        history.back();
     }
 }
 
