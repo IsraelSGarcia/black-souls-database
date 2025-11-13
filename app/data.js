@@ -74443,7 +74443,7 @@ const statesData = {
           "codeName": "Sp-Parameter",
           "dataId": 1,
           "value": 2,
-          "description": "Guard Effect Rate +100%"
+          "description": "Guard Effectiveness +100%"
         }
       ],
       "motion": 0,
@@ -78383,7 +78383,7 @@ const statesData = {
           "codeName": "Sp-Parameter",
           "dataId": 1,
           "value": 9,
-          "description": "Guard Effect Rate +800%"
+          "description": "Guard Effectiveness +800%"
         }
       ],
       "motion": 0,
@@ -78876,7 +78876,7 @@ const statesData = {
           "codeName": "Sp-Parameter",
           "dataId": 2,
           "value": 0,
-          "description": "Recovery Effect Rate -100%"
+          "description": "Recovery Effectiveness -100%"
         }
       ],
       "motion": 0,
@@ -86409,7 +86409,7 @@ const weaponsData = {
           "codeName": "Sp-Parameter",
           "dataId": 2,
           "value": 2,
-          "description": "Recovery Effect Rate +100%"
+          "description": "Recovery Effectiveness +100%"
         },
         {
           "code": 32,
@@ -108833,7 +108833,7 @@ const armorsData = {
           "codeName": "Sp-Parameter",
           "dataId": 1,
           "value": 1.5,
-          "description": "Guard Effect Rate +50%"
+          "description": "Guard Effectiveness +50%"
         },
         {
           "code": 22,
@@ -108893,7 +108893,7 @@ const armorsData = {
           "codeName": "Sp-Parameter",
           "dataId": 1,
           "value": 2,
-          "description": "Guard Effect Rate +100%"
+          "description": "Guard Effectiveness +100%"
         }
       ],
       "note": {
@@ -108971,7 +108971,7 @@ const armorsData = {
           "codeName": "Sp-Parameter",
           "dataId": 1,
           "value": 1.5,
-          "description": "Guard Effect Rate +50%"
+          "description": "Guard Effectiveness +50%"
         }
       ],
       "note": {
@@ -109003,7 +109003,7 @@ const armorsData = {
           "codeName": "Sp-Parameter",
           "dataId": 1,
           "value": 1.5,
-          "description": "Guard Effect Rate +50%"
+          "description": "Guard Effectiveness +50%"
         }
       ],
       "note": {
@@ -109095,7 +109095,7 @@ const armorsData = {
           "codeName": "Sp-Parameter",
           "dataId": 1,
           "value": 1.5,
-          "description": "Guard Effect Rate +50%"
+          "description": "Guard Effectiveness +50%"
         },
         {
           "code": 32,
@@ -109148,7 +109148,7 @@ const armorsData = {
           "codeName": "Sp-Parameter",
           "dataId": 1,
           "value": 1.5,
-          "description": "Guard Effect Rate +50%"
+          "description": "Guard Effectiveness +50%"
         },
         {
           "code": 22,
@@ -109194,7 +109194,7 @@ const armorsData = {
           "codeName": "Sp-Parameter",
           "dataId": 1,
           "value": 2,
-          "description": "Guard Effect Rate +100%"
+          "description": "Guard Effectiveness +100%"
         }
       ],
       "note": {
@@ -109233,7 +109233,7 @@ const armorsData = {
           "codeName": "Sp-Parameter",
           "dataId": 1,
           "value": 1.5,
-          "description": "Guard Effect Rate +50%"
+          "description": "Guard Effectiveness +50%"
         },
         {
           "code": 21,
@@ -109339,7 +109339,7 @@ const armorsData = {
           "codeName": "Sp-Parameter",
           "dataId": 1,
           "value": 2,
-          "description": "Guard Effect Rate +100%"
+          "description": "Guard Effectiveness +100%"
         }
       ],
       "note": {
@@ -109385,7 +109385,7 @@ const armorsData = {
           "codeName": "Sp-Parameter",
           "dataId": 1,
           "value": 1.5,
-          "description": "Guard Effect Rate +50%"
+          "description": "Guard Effectiveness +50%"
         },
         {
           "code": 22,
@@ -109424,7 +109424,7 @@ const armorsData = {
           "codeName": "Sp-Parameter",
           "dataId": 1,
           "value": 2.5,
-          "description": "Guard Effect Rate +150%"
+          "description": "Guard Effectiveness +150%"
         },
         {
           "code": 21,
@@ -109491,7 +109491,7 @@ const armorsData = {
           "codeName": "Sp-Parameter",
           "dataId": 1,
           "value": 2,
-          "description": "Guard Effect Rate +100%"
+          "description": "Guard Effectiveness +100%"
         }
       ],
       "note": {
@@ -109544,7 +109544,7 @@ const armorsData = {
           "codeName": "Sp-Parameter",
           "dataId": 1,
           "value": 2,
-          "description": "Guard Effect Rate +100%"
+          "description": "Guard Effectiveness +100%"
         }
       ],
       "note": {
@@ -109590,7 +109590,7 @@ const armorsData = {
           "codeName": "Sp-Parameter",
           "dataId": 1,
           "value": 2,
-          "description": "Guard Effect Rate +100%"
+          "description": "Guard Effectiveness +100%"
         }
       ],
       "note": {
@@ -109636,7 +109636,7 @@ const armorsData = {
           "codeName": "Sp-Parameter",
           "dataId": 1,
           "value": 2,
-          "description": "Guard Effect Rate +100%"
+          "description": "Guard Effectiveness +100%"
         }
       ],
       "note": {
@@ -109682,7 +109682,7 @@ const armorsData = {
           "codeName": "Sp-Parameter",
           "dataId": 1,
           "value": 2,
-          "description": "Guard Effect Rate +100%"
+          "description": "Guard Effectiveness +100%"
         }
       ],
       "note": {
@@ -109728,7 +109728,7 @@ const armorsData = {
           "codeName": "Sp-Parameter",
           "dataId": 1,
           "value": 2,
-          "description": "Guard Effect Rate +100%"
+          "description": "Guard Effectiveness +100%"
         }
       ],
       "note": {
@@ -109774,7 +109774,7 @@ const armorsData = {
           "codeName": "Sp-Parameter",
           "dataId": 1,
           "value": 2,
-          "description": "Guard Effect Rate +100%"
+          "description": "Guard Effectiveness +100%"
         }
       ],
       "note": {
@@ -109806,7 +109806,7 @@ const armorsData = {
           "codeName": "Sp-Parameter",
           "dataId": 1,
           "value": 3,
-          "description": "Guard Effect Rate +200%"
+          "description": "Guard Effectiveness +200%"
         },
         {
           "code": 21,
@@ -109887,7 +109887,7 @@ const armorsData = {
           "codeName": "Sp-Parameter",
           "dataId": 1,
           "value": 3,
-          "description": "Guard Effect Rate +200%"
+          "description": "Guard Effectiveness +200%"
         }
       ],
       "note": {
@@ -110010,7 +110010,7 @@ const armorsData = {
           "codeName": "Sp-Parameter",
           "dataId": 1,
           "value": 3,
-          "description": "Guard Effect Rate +200%"
+          "description": "Guard Effectiveness +200%"
         },
         {
           "code": 13,
@@ -110140,7 +110140,7 @@ const armorsData = {
           "codeName": "Sp-Parameter",
           "dataId": 1,
           "value": 3,
-          "description": "Guard Effect Rate +200%"
+          "description": "Guard Effectiveness +200%"
         }
       ],
       "note": {
@@ -110929,7 +110929,7 @@ const armorsData = {
           "codeName": "Sp-Parameter",
           "dataId": 1,
           "value": 1.5,
-          "description": "Guard Effect Rate +50%"
+          "description": "Guard Effectiveness +50%"
         }
       ],
       "note": {
@@ -112033,7 +112033,7 @@ const armorsData = {
           "codeName": "Sp-Parameter",
           "dataId": 2,
           "value": 2,
-          "description": "Recovery Effect Rate +100%"
+          "description": "Recovery Effectiveness +100%"
         }
       ],
       "note": {
@@ -114157,7 +114157,7 @@ const armorsData = {
           "codeName": "Sp-Parameter",
           "dataId": 1,
           "value": 2,
-          "description": "Guard Effect Rate +100%"
+          "description": "Guard Effectiveness +100%"
         }
       ],
       "note": {
@@ -114189,7 +114189,7 @@ const armorsData = {
           "codeName": "Sp-Parameter",
           "dataId": 1,
           "value": 2.5,
-          "description": "Guard Effect Rate +150%"
+          "description": "Guard Effectiveness +150%"
         }
       ],
       "note": {
@@ -114221,7 +114221,7 @@ const armorsData = {
           "codeName": "Sp-Parameter",
           "dataId": 1,
           "value": 3,
-          "description": "Guard Effect Rate +200%"
+          "description": "Guard Effectiveness +200%"
         }
       ],
       "note": {
@@ -114457,7 +114457,7 @@ const armorsData = {
           "codeName": "Sp-Parameter",
           "dataId": 1,
           "value": 2.5,
-          "description": "Guard Effect Rate +150%"
+          "description": "Guard Effectiveness +150%"
         },
         {
           "code": 21,
@@ -114510,7 +114510,7 @@ const armorsData = {
           "codeName": "Sp-Parameter",
           "dataId": 1,
           "value": 2,
-          "description": "Guard Effect Rate +100%"
+          "description": "Guard Effectiveness +100%"
         },
         {
           "code": 21,
@@ -116232,7 +116232,7 @@ const armorsData = {
           "codeName": "Sp-Parameter",
           "dataId": 2,
           "value": 0.8,
-          "description": "Recovery Effect Rate -20%"
+          "description": "Recovery Effectiveness -20%"
         }
       ],
       "note": {
@@ -116342,7 +116342,7 @@ const armorsData = {
           "codeName": "Sp-Parameter",
           "dataId": 1,
           "value": 1.5,
-          "description": "Guard Effect Rate +50%"
+          "description": "Guard Effectiveness +50%"
         },
         {
           "code": 61,
@@ -117365,7 +117365,7 @@ const armorsData = {
           "codeName": "Sp-Parameter",
           "dataId": 1,
           "value": 1.5,
-          "description": "Guard Effect Rate +50%"
+          "description": "Guard Effectiveness +50%"
         },
         {
           "code": 34,
@@ -117450,7 +117450,7 @@ const armorsData = {
           "codeName": "Sp-Parameter",
           "dataId": 1,
           "value": 2.5,
-          "description": "Guard Effect Rate +150%"
+          "description": "Guard Effectiveness +150%"
         },
         {
           "code": 21,
@@ -118034,7 +118034,7 @@ const enemiesData = {
           "codeName": "Sp-Parameter",
           "dataId": 1,
           "value": 5,
-          "description": "Guard Effect Rate +400%"
+          "description": "Guard Effectiveness +400%"
         },
         {
           "code": 13,
@@ -121582,7 +121582,7 @@ const enemiesData = {
           "codeName": "Sp-Parameter",
           "dataId": 1,
           "value": 2,
-          "description": "Guard Effect Rate +100%"
+          "description": "Guard Effectiveness +100%"
         }
       ],
       "actions": [
@@ -165145,7 +165145,7 @@ const enemiesData = {
           "codeName": "Sp-Parameter",
           "dataId": 1,
           "value": 2,
-          "description": "Guard Effect Rate +100%"
+          "description": "Guard Effectiveness +100%"
         }
       ],
       "actions": [
@@ -186936,7 +186936,7 @@ const enemiesData = {
           "codeName": "Sp-Parameter",
           "dataId": 2,
           "value": 0.5,
-          "description": "Recovery Effect Rate -50%"
+          "description": "Recovery Effectiveness -50%"
         },
         {
           "code": 11,
@@ -187176,7 +187176,7 @@ const enemiesData = {
           "codeName": "Sp-Parameter",
           "dataId": 2,
           "value": 0.5,
-          "description": "Recovery Effect Rate -50%"
+          "description": "Recovery Effectiveness -50%"
         },
         {
           "code": 11,
@@ -187423,7 +187423,7 @@ const enemiesData = {
           "codeName": "Sp-Parameter",
           "dataId": 2,
           "value": 0.5,
-          "description": "Recovery Effect Rate -50%"
+          "description": "Recovery Effectiveness -50%"
         },
         {
           "code": 11,
@@ -189713,7 +189713,7 @@ const enemiesData = {
           "codeName": "Sp-Parameter",
           "dataId": 2,
           "value": 0,
-          "description": "Recovery Effect Rate -100%"
+          "description": "Recovery Effectiveness -100%"
         }
       ],
       "actions": [
@@ -194677,7 +194677,7 @@ const enemiesData = {
           "codeName": "Sp-Parameter",
           "dataId": 2,
           "value": 0.5,
-          "description": "Recovery Effect Rate -50%"
+          "description": "Recovery Effectiveness -50%"
         },
         {
           "code": 23,

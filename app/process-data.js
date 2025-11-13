@@ -2,6 +2,16 @@ const fs = require('fs');
 const path = require('path');
 
 // ============================================================================
+// ⚠️ PROJECT PRINCIPLE: HIDING INFORMATION IS UNACCEPTABLE ⚠️
+// ============================================================================
+// This entire project operates on the principle that hiding information is forbidden.
+// Suppressing warnings, adding exceptions, using heuristics to hide problems, or making
+// assumptions about what should or shouldn't be reported is unacceptable. Every piece of
+// data must be visible and properly mapped with documented sources. Nothing should be
+// hidden from view, regardless of context, "known ranges", or convenience.
+// ============================================================================
+
+// ============================================================================
 // IMPORTANT: TP (Technical Points) REMOVAL NOTICE
 // ============================================================================
 // TP (Technical Points) has been completely removed from this database.
@@ -1827,25 +1837,58 @@ function processTraits(traits, statesData, skillsData = null, elements = null) {
                 ? `${paramName} +${percent}%`
                 : `${paramName} ${percent}%`;
         } else if (trait.code === 22) { // Ex-Parameter
-            // Ex-Parameter IDs: 0-9 (HIT, EVA, CRI, CEV, MEV, MRF, CNT, HRG, MRG, TRG)
-            const exParamNames = ["Hit Rate", "Evasion Rate", "Critical Hit Rate", "Critical Evasion Rate", 
-                                 "Magic Evasion Rate", "Magic Reflection Rate", "Counterattack Rate", 
-                                 "HP Regeneration Rate", "MP Regeneration Rate", "TP Regeneration Rate"];
-            const exParamName = exParamNames[trait.dataId] || `Ex-Parameter ${trait.dataId}`;
-            const percent = Math.round(trait.value * 100);
-            traitInfo.description = percent >= 0 
-                ? `${exParamName} +${percent}%`
-                : `${exParamName} ${percent}%`;
+            // Ex-Parameter: dataId is array index (0-9), maps to parameter IDs 8-16
+            // SOURCE: editor-screenshot (200544.png) - parameter IDs are 8-16
+            // The game data uses 0-based indices, so we map: index 0 → param 8, index 1 → param 9, etc.
+            const exParamIndexToName = {
+                0: "Hit Rate",              // Parameter ID 8
+                1: "Evasion Rate",           // Parameter ID 9
+                2: "Critical Hit Rate",      // Parameter ID 10
+                3: "Critical Evasion Rate",  // Parameter ID 11
+                4: "Magic Evasion Rate",     // Parameter ID 12
+                5: "Magic Reflection Rate",  // Parameter ID 13
+                6: "Counterattack Rate",      // Parameter ID 14
+                7: "HP Regeneration Rate",   // Parameter ID 15
+                8: "MP Regeneration Rate"    // Parameter ID 16
+            };
+            const exParamName = exParamIndexToName[trait.dataId];
+            if (exParamName) {
+                const percent = Math.round(trait.value * 100);
+                traitInfo.description = percent >= 0 
+                    ? `${exParamName} +${percent}%`
+                    : `${exParamName} ${percent}%`;
+            } else {
+                // Unknown index - show both index and value
+                const percent = Math.round(trait.value * 100);
+                traitInfo.description = `Ex-Parameter ${trait.dataId} ${percent >= 0 ? '+' : ''}${percent}%`;
+            }
         } else if (trait.code === 23) { // Sp-Parameter
-            // Sp-Parameter IDs: 0-9 (TGR, GRD, REC, PHA, MCR, TCR, PDR, MDR, FDR, EXR)
-            const spParamNames = ["Target Rate", "Guard Effect Rate", "Recovery Effect Rate", "Pharmacology",
-                                 "MP Cost Rate", "TP Charge Rate", "Physical Damage Rate", "Magical Damage Rate",
-                                 "Floor Damage Rate", "Experience Rate"];
-            const spParamName = spParamNames[trait.dataId] || `Sp-Parameter ${trait.dataId}`;
-            const percent = Math.round((trait.value - 1) * 100);
-            traitInfo.description = percent >= 0 
-                ? `${spParamName} +${percent}%`
-                : `${spParamName} ${percent}%`;
+            // Sp-Parameter: dataId is array index (0-9), maps to parameter IDs 18-27
+            // SOURCE: editor-screenshot (200552.png) - parameter IDs are 18-27
+            // The game data uses 0-based indices, so we map: index 0 → param 18, index 1 → param 19, etc.
+            const spParamIndexToName = {
+                0: "Target Rate",            // Parameter ID 18
+                1: "Guard Effectiveness",     // Parameter ID 19
+                2: "Recovery Effectiveness", // Parameter ID 20
+                3: "Pharmacology",           // Parameter ID 21
+                4: "MP Cost Rate",          // Parameter ID 22
+                // 5: TP Charge Rate - removed (TP not in database, would be Parameter ID 23)
+                6: "Physical Damage Rate",   // Parameter ID 24
+                7: "Magical Damage Rate",    // Parameter ID 25
+                8: "Floor Damage Rate",      // Parameter ID 26
+                9: "Experience Rate"         // Parameter ID 27
+            };
+            const spParamName = spParamIndexToName[trait.dataId];
+            if (spParamName) {
+                const percent = Math.round((trait.value - 1) * 100);
+                traitInfo.description = percent >= 0 
+                    ? `${spParamName} +${percent}%`
+                    : `${spParamName} ${percent}%`;
+            } else {
+                // Unknown index - show both index and value
+                const percent = Math.round((trait.value - 1) * 100);
+                traitInfo.description = `Sp-Parameter ${trait.dataId} ${percent >= 0 ? '+' : ''}${percent}%`;
+            }
         } else if (trait.code === 31) { // Attack Element
             // dataId: element ID, value: typically 1 (adds element to attack)
             if (elements && trait.dataId >= 0 && trait.dataId < elements.length) {
@@ -2084,14 +2127,53 @@ const processedWeapons = weaponsData
         }
         
         // Process params array into readable format
+        // Standard parameters (0-7), Extended parameters (8-16), Special parameters (18-27)
         const params = weapon.params || [];
         const paramBonuses = [];
-        const paramNames = ["Max HP", "Max MP", "Attack", "Defense", "Magic Attack", "Magic Defense", "Agility", "Luck"];
+        
+        // Standard parameters (0-7)
+        const standardParamNames = ["Max HP", "Max MP", "Attack", "Defense", "Magic Attack", "Magic Defense", "Agility", "Luck"];
+        
+        // Extended parameters (8-16) - SOURCE: editor-screenshot (200544.png)
+        const extendedParamNames = {
+            8: "Hit Rate",
+            9: "Evasion Rate",
+            10: "Critical Hit Rate",
+            11: "Critical Evasion Rate",
+            12: "Magic Evasion Rate",
+            13: "Magic Reflection Rate",
+            14: "Counterattack Rate",
+            15: "HP Regeneration Rate",
+            16: "MP Regeneration Rate"
+        };
+        
+        // Special parameters (18-27) - SOURCE: editor-screenshot (200552.png)
+        const specialParamNames = {
+            18: "Target Rate",
+            19: "Guard Effectiveness",
+            20: "Recovery Effectiveness",
+            21: "Pharmacology",
+            22: "MP Cost Rate",
+            24: "Physical Damage Rate",
+            25: "Magical Damage Rate",
+            26: "Floor Damage Rate",
+            27: "Experience Rate"
+        };
         
         params.forEach((value, index) => {
             if (value !== 0) {
+                let paramName;
+                if (index >= 0 && index <= 7) {
+                    paramName = standardParamNames[index];
+                } else if (extendedParamNames[index]) {
+                    paramName = extendedParamNames[index];
+                } else if (specialParamNames[index]) {
+                    paramName = specialParamNames[index];
+                } else {
+                    paramName = `Unknown Parameter ${index}`;
+                }
                 paramBonuses.push({
-                    name: paramNames[index] || `Unknown Parameter ${index}`,
+                    name: paramName,
                     value: value
                 });
             }
@@ -2157,14 +2239,53 @@ const processedArmors = armorsData
         }
         
         // Process params array into readable format
+        // Standard parameters (0-7), Extended parameters (8-16), Special parameters (18-27)
         const params = armor.params || [];
         const paramBonuses = [];
-        const paramNames = ["Max HP", "Max MP", "Attack", "Defense", "Magic Attack", "Magic Defense", "Agility", "Luck"];
+        
+        // Standard parameters (0-7)
+        const standardParamNames = ["Max HP", "Max MP", "Attack", "Defense", "Magic Attack", "Magic Defense", "Agility", "Luck"];
+        
+        // Extended parameters (8-16) - SOURCE: editor-screenshot (200544.png)
+        const extendedParamNames = {
+            8: "Hit Rate",
+            9: "Evasion Rate",
+            10: "Critical Hit Rate",
+            11: "Critical Evasion Rate",
+            12: "Magic Evasion Rate",
+            13: "Magic Reflection Rate",
+            14: "Counterattack Rate",
+            15: "HP Regeneration Rate",
+            16: "MP Regeneration Rate"
+        };
+        
+        // Special parameters (18-27) - SOURCE: editor-screenshot (200552.png)
+        const specialParamNames = {
+            18: "Target Rate",
+            19: "Guard Effectiveness",
+            20: "Recovery Effectiveness",
+            21: "Pharmacology",
+            22: "MP Cost Rate",
+            24: "Physical Damage Rate",
+            25: "Magical Damage Rate",
+            26: "Floor Damage Rate",
+            27: "Experience Rate"
+        };
         
         params.forEach((value, index) => {
             if (value !== 0) {
+                let paramName;
+                if (index >= 0 && index <= 7) {
+                    paramName = standardParamNames[index];
+                } else if (extendedParamNames[index]) {
+                    paramName = extendedParamNames[index];
+                } else if (specialParamNames[index]) {
+                    paramName = specialParamNames[index];
+                } else {
+                    paramName = `Unknown Parameter ${index}`;
+                }
                 paramBonuses.push({
-                    name: paramNames[index] || `Unknown Parameter ${index}`,
+                    name: paramName,
                     value: value
                 });
             }
@@ -2987,12 +3108,31 @@ function detectInferredDataWithoutBasis(processedData, allData) {
         ...specialParamSources    // 18-27 from editor screenshots
     };
     
-    // Currently mapped parameters in code (from processTraits function)
-    // Note: Parameter 16 is mapped as "EXP Gain" in code, but according to editor screenshots
-    // it should be "MP Regeneration Rate" (MRG). This is a discrepancy that should be fixed.
+    // Currently mapped parameters in code (from processTraits function and parameter bonus processing)
+    // Extended Parameters (8-16) - mapped in processTraits (code 22) and parameter bonus processing
+    // Special Parameters (18-27) - mapped in processTraits (code 23) and parameter bonus processing
     const currentlyMappedParams = {
-        16: "EXP Gain",      // NOTE: Discrepancy - should be "MP Regeneration Rate" per editor screenshots
-        27: "EXP Gain Rate", // This matches "Experience Rate" (EXR) from editor screenshots
+        // Extended Parameters (8-16) - SOURCE: editor-screenshot (200544.png)
+        8: "Hit Rate",
+        9: "Evasion Rate",
+        10: "Critical Hit Rate",
+        11: "Critical Evasion Rate",
+        12: "Magic Evasion Rate",
+        13: "Magic Reflection Rate",
+        14: "Counterattack Rate",
+        15: "HP Regeneration Rate",
+        16: "MP Regeneration Rate",
+        // Special Parameters (18-27) - SOURCE: editor-screenshot (200552.png)
+        18: "Target Rate",
+        19: "Guard Effectiveness",
+        20: "Recovery Effectiveness",
+        21: "Pharmacology",
+        22: "MP Cost Rate",
+        24: "Physical Damage Rate",
+        25: "Magical Damage Rate",
+        26: "Floor Damage Rate",
+        27: "Experience Rate",
+        // Custom parameters (not in standard VX Ace)
         35: "HP Drain Rate", // Custom parameter, not in standard VX Ace
         39: "MP Drain Rate"  // Custom parameter, not in standard VX Ace
     };
@@ -3227,7 +3367,21 @@ function detectInferredDataWithoutBasis(processedData, allData) {
             }
             
             // Check for completely unknown parameters
-            if (trait.dataId !== undefined && isUnknownParameter(trait.dataId)) {
+            // EXCLUDE trait codes that use IDs other than parameter IDs:
+            // - Code 11 (Element Rate): dataId is an element ID
+            // - Code 13 (State Rate): dataId is a state ID
+            // - Code 14 (State Resist): dataId is a state ID
+            // - Code 31 (Attack Element): dataId is an element ID
+            // - Code 32 (Attack State): dataId is a state ID
+            // - Code 41 (Add Skill Type): dataId is a skill type ID
+            // - Code 42 (Seal Skill Type): dataId is a skill type ID
+            // - Code 43 (Add Skill): dataId is a skill ID
+            // - Code 44 (Seal Skill): dataId is a skill ID
+            const usesNonParameterId = trait.code === 11 || trait.code === 13 || trait.code === 14 || 
+                                       trait.code === 31 || trait.code === 32 || 
+                                       trait.code === 41 || trait.code === 42 || 
+                                       trait.code === 43 || trait.code === 44;
+            if (trait.dataId !== undefined && isUnknownParameter(trait.dataId) && !usesNonParameterId) {
                 issues.push({
                     type: 'unknown_parameter',
                     sourceType: sourceType,
@@ -3629,8 +3783,8 @@ if (detectedInferredData.length > 0) {
     // Count unknown trait codes
     const unknownTraitCodes = detectedInferredData.filter(i => i.type === 'unknown_trait_code');
     
-    // Count completely unknown parameters
-    const unknownParams = detectedInferredData.filter(i => i.type === 'unknown_parameter');
+    // Count completely unknown parameters (will be reported separately below)
+    const unknownParamsCount = detectedInferredData.filter(i => i.type === 'unknown_parameter').length;
     
     // Main summary line
     console.log(`   ⚠️  ${detectedInferredData.length} instances of inferred data without basis`);
@@ -3648,11 +3802,105 @@ if (detectedInferredData.length > 0) {
     if (unknownTraitCodes.length > 0) {
         console.log(`   🔍 Unknown trait codes: ⚠️  ${unknownTraitCodes.length} instances`);
     }
-    if (unknownParams.length > 0) {
-        console.log(`   🔍 Completely unknown parameters: ⚠️  ${unknownParams.length} instances`);
+    if (unknownParamsCount > 0) {
+        console.log(`   🔍 Completely unknown parameters: ⚠️  ${unknownParamsCount} instances`);
     }
 } else {
     console.log(`   ✅ 0 instances of inferred data without basis`);
+}
+
+// Unknown Parameters Detection (independent section)
+// This detects parameters that are completely unknown (not in any known parameter list)
+const unknownParams = detectedInferredData.filter(i => i.type === 'unknown_parameter');
+console.log(`\n🔍 Unknown Parameters:`);
+if (unknownParams.length > 0) {
+    console.log(`   ⚠️  ${unknownParams.length} instances`);
+    
+    // Detailed report (only shown with --report-unknown flag)
+    if (process.argv.includes('--report-unknown') || process.argv.includes('--detailed-unknown')) {
+        const showFullDetails = process.argv.includes('--report-unknown-full') || process.argv.includes('--full');
+        
+        console.log(`\n${'='.repeat(80)}`);
+        console.log(`UNKNOWN PARAMETERS - ${showFullDetails ? 'FULL DETAILED' : 'SUMMARY'} REPORT`);
+        console.log('='.repeat(80));
+        
+        // Group by trait code
+        const byTraitCode = {};
+        unknownParams.forEach(issue => {
+            const key = `${issue.code} (${issue.codeName || 'Unknown Trait'})`;
+            if (!byTraitCode[key]) {
+                byTraitCode[key] = [];
+            }
+            byTraitCode[key].push(issue);
+        });
+        
+        // Group by dataId
+        const byDataId = {};
+        unknownParams.forEach(issue => {
+            const key = issue.dataId;
+            if (!byDataId[key]) {
+                byDataId[key] = [];
+            }
+            byDataId[key].push(issue);
+        });
+        
+        // Group by source type
+        const bySourceType = {};
+        unknownParams.forEach(issue => {
+            if (!bySourceType[issue.sourceType]) {
+                bySourceType[issue.sourceType] = [];
+            }
+            bySourceType[issue.sourceType].push(issue);
+        });
+        
+        console.log('\n📊 Summary by Trait Code:');
+        Object.entries(byTraitCode)
+            .sort((a, b) => b[1].length - a[1].length)
+            .forEach(([codeName, issues]) => {
+                console.log(`   ${codeName}: ${issues.length} instances`);
+            });
+        
+        console.log('\n📊 Summary by Parameter ID (dataId):');
+        Object.entries(byDataId)
+            .sort((a, b) => parseInt(a[0]) - parseInt(b[0]))
+            .forEach(([dataId, issues]) => {
+                console.log(`   Parameter ${dataId}: ${issues.length} instances`);
+            });
+        
+        console.log('\n📊 Summary by Source Type:');
+        Object.entries(bySourceType)
+            .sort((a, b) => b[1].length - a[1].length)
+            .forEach(([sourceType, issues]) => {
+                console.log(`   ${sourceType}: ${issues.length} instances`);
+            });
+        
+        // Show sample items
+        console.log('\n📋 Sample Items (Top 5 by frequency, 3 items each):');
+        const topDataIds = Object.entries(byDataId)
+            .sort((a, b) => b[1].length - a[1].length)
+            .slice(0, 5);
+        
+        topDataIds.forEach(([dataId, issues]) => {
+            console.log(`\n   Parameter ${dataId} (${issues.length} total instances):`);
+            issues.slice(0, 3).forEach(issue => {
+                console.log(`      ${issue.sourceType} #${issue.sourceId} (${issue.sourceName})`);
+                console.log(`         Trait Code: ${issue.code} (${issue.codeName || 'Unknown'})`);
+                console.log(`         Value: ${issue.value}`);
+                console.log(`         Description: ${issue.description || 'N/A'}`);
+            });
+            if (issues.length > 3) {
+                console.log(`      ... and ${issues.length - 3} more instances`);
+            }
+        });
+        
+        if (!showFullDetails) {
+            console.log(`\n💡 Tip: Use --report-unknown-full for complete detailed output`);
+        }
+        
+        console.log('\n' + '='.repeat(80));
+    }
+} else {
+    console.log(`   ✅ 0 unknown parameters`);
 }
 
 // Ignored Data ID/Value Detection (independent section)
