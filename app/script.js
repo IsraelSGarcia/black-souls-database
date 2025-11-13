@@ -757,6 +757,16 @@ function updateHelpContent(view) {
                 </ul>
                 <p>All Japanese text has been automatically translated and converted from technical tags to readable descriptions.</p>
             </section>
+            
+            <section class="help-section">
+                <h3>Cross-References</h3>
+                <p>All references to skills, states, weapons, armors, items, and enemies in skill descriptions and notes are clickable cross-references.</p>
+                <ul>
+                    <li>Click any reference to navigate to that item's detail page</li>
+                    <li>Use the back button or browser history to return to the previous view</li>
+                </ul>
+                <p>This makes it easy to explore how skills interact with other game mechanics.</p>
+            </section>
         `;
     } else if (view === 'states') {
         helpContent.innerHTML = `
@@ -822,6 +832,16 @@ function updateHelpContent(view) {
                 </ul>
                 <p>All Japanese text has been automatically translated and converted from technical tags to readable descriptions.</p>
             </section>
+            
+            <section class="help-section">
+                <h3>Cross-References</h3>
+                <p>All references to skills, states, weapons, armors, items, and enemies in state descriptions and notes are clickable cross-references.</p>
+                <ul>
+                    <li>Click any reference to navigate to that item's detail page</li>
+                    <li>Use the back button or browser history to return to the previous view</li>
+                </ul>
+                <p>This makes it easy to explore how states interact with other game mechanics.</p>
+            </section>
         `;
     } else if (view === 'weapons') {
         helpContent.innerHTML = `
@@ -883,6 +903,15 @@ function updateHelpContent(view) {
                     <li>Click "Show Original (Japanese)" on notes to view the untranslated text</li>
                 </ul>
                 <p>All Japanese text has been automatically translated and converted from technical tags to readable descriptions.</p>
+            </section>
+            
+            <section class="help-section">
+                <h3>Cross-References</h3>
+                <p>All references to skills, states, weapons, armors, items, and enemies in weapon descriptions and notes are clickable cross-references.</p>
+                <ul>
+                    <li>Click any reference to navigate to that item's detail page</li>
+                    <li>Use the back button or browser history to return to the previous view</li>
+                </ul>
             </section>
         `;
     } else if (view === 'armors') {
@@ -947,6 +976,15 @@ function updateHelpContent(view) {
                     <li>Click "Show Original (Japanese)" on notes to view the untranslated text</li>
                 </ul>
                 <p>All Japanese text has been automatically translated and converted from technical tags to readable descriptions.</p>
+            </section>
+            
+            <section class="help-section">
+                <h3>Cross-References</h3>
+                <p>All references to skills, states, weapons, armors, items, and enemies in armor descriptions and notes are clickable cross-references.</p>
+                <ul>
+                    <li>Click any reference to navigate to that item's detail page</li>
+                    <li>Use the back button or browser history to return to the previous view</li>
+                </ul>
             </section>
         `;
     } else if (view === 'enemies') {
@@ -1014,6 +1052,15 @@ function updateHelpContent(view) {
                 </ul>
                 <p>All Japanese text has been automatically translated and converted from technical tags to readable descriptions.</p>
             </section>
+            
+            <section class="help-section">
+                <h3>Cross-References</h3>
+                <p>All references to skills, states, weapons, armors, items, and enemies in enemy descriptions, actions, and drops are clickable cross-references.</p>
+                <ul>
+                    <li>Click any reference to navigate to that item's detail page</li>
+                    <li>Use the back button or browser history to return to the previous view</li>
+                </ul>
+            </section>
         `;
     } else if (view === 'items') {
         helpContent.innerHTML = `
@@ -1076,6 +1123,15 @@ function updateHelpContent(view) {
                     <li>Click "Show Original (Japanese)" on notes to view the untranslated text</li>
                 </ul>
                 <p>All Japanese text has been automatically translated and converted from technical tags to readable descriptions.</p>
+            </section>
+            
+            <section class="help-section">
+                <h3>Cross-References</h3>
+                <p>All references to skills, states, weapons, armors, items, and enemies in item descriptions and notes are clickable cross-references.</p>
+                <ul>
+                    <li>Click any reference to navigate to that item's detail page</li>
+                    <li>Use the back button or browser history to return to the previous view</li>
+                </ul>
             </section>
         `;
     } else if (view === 'elements') {

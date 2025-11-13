@@ -1,21 +1,23 @@
 # Black Souls Database
 
-A comprehensive browser-based database for exploring game data from the Black Souls series. Currently features complete data for Black Souls II including skills, states, weapons, armors, enemies, and items with live search, detailed breakdowns, and visual icons.
+A comprehensive browser-based database for exploring game data from the Black Souls series. Currently features complete data for Black Souls II including skills, states, weapons, armors, enemies, items, and elements with live search, detailed breakdowns, and visual icons.
+
+🌐 **Live Website**: [https://israelsgarcia.github.io/black-souls-database/](https://israelsgarcia.github.io/black-souls-database/) - No installation required!
 
 ## Features
 
 ### Navigation
 - **Multi-level Structure**: Navigate from games → sections → detailed content
 - **Breadcrumb Navigation**: Smart back button that returns you to the previous level
-- **Section Organization**: Data organized into logical categories (Skills, States, Weapons, Armors, Enemies, Items)
+- **Section Organization**: Data organized into logical categories (Skills, States, Weapons, Armors, Enemies, Items, Elements)
 
 ### Comprehensive Database
-- **990+ Skills**: Complete skill data with damage formulas, effects, and conditions
-- **230+ States**: Status effects, buffs, and debuffs with detailed properties
-- **371+ Weapons**: Weapon data with stats and special properties
-- **Armors**: Armor and defensive equipment information
-- **Enemies**: Enemy data and statistics
-- **Items**: Consumable items and equipment
+- **990 Skills**: Complete skill data with damage formulas, effects, and conditions
+- **252 States**: Status effects, buffs, and debuffs with detailed properties
+- **371 Weapons**: Weapon data with stats and special properties
+- **241 Armors**: Armor and defensive equipment information
+- **524 Enemies**: Enemy data and statistics
+- **246 Items**: Consumable items and equipment
 
 ### Search & Discovery
 - **Live Search**: Instant results as you type across names, descriptions, messages, and notes
@@ -27,14 +29,20 @@ A comprehensive browser-based database for exploring game data from the Black So
 - **Show Original**: Toggle to view original Japanese text, raw formulas, or technical data
 - **Readable Formulas**: Damage formulas converted from code to human-readable format
 - **ID Resolution**: All ID references automatically resolved to readable names
+- **Clickable Cross-References**: All references to skills, states, weapons, armors, items, enemies, and elements are clickable links that navigate to the referenced item
 - **Smart Filtering**: Placeholder and meaningless data automatically hidden
 - **Visual Icons**: Authentic pixel art icons from the game for each item
 - **Clean UI**: Modern, dark-themed interface optimized for readability
 - **Fully Responsive**: Optimized for all devices - phones, tablets, and desktops
 - **Touch-Friendly**: Large tap targets and optimized interactions for mobile devices
+- **Context-Aware Help**: Dynamic help system that adapts to your current location in the database
 
 ## How to Use
 
+### Option 1: Use the Live Website (Recommended)
+Visit **[https://israelsgarcia.github.io/black-souls-database/](https://israelsgarcia.github.io/black-souls-database/)** - No installation or setup required!
+
+### Option 2: Run Locally
 Simply open `app/index.html` in your web browser - no installation or server required!
 
 ### Navigation Flow
@@ -43,11 +51,21 @@ Simply open `app/index.html` in your web browser - no installation or server req
 3. **Browse & Search**: View all items or use the search bar to filter
 4. **View Details**: Click any item to see complete information
 5. **Toggle Originals**: Use "Show Original" buttons to view raw game data
+6. **Get Help**: Click the help button (?) in the header for context-aware assistance
 
 ### Search Tips
 - Search works across all text: names, descriptions, messages, and notes
 - Results update instantly as you type
 - Case-insensitive matching
+
+### Help System
+The application includes a comprehensive, context-aware help system:
+- Click the help button (?) in the header to access help information
+- Help content automatically adapts based on your current location:
+  - **Games View**: Overview of the database and available games
+  - **Sections View**: Information about each database section
+  - **Section-Specific Help**: Detailed guidance for Skills, States, Weapons, Armors, Enemies, Items, and Elements
+- Each help section explains how to search, what information is displayed, and how to interpret the data
 
 ## Project Structure
 
