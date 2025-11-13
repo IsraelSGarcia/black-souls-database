@@ -1087,17 +1087,15 @@ function translateNote(note, skillsData = null, statesData = null, sourceType = 
     const originalNote = note;
     
     // Helper function to get skill name by ID
+    // Returns Skill #ID format so ID reference resolver can process it
     const getSkillName = (id) => {
-        if (!skillsData) return `Skill #${id}`;
-        const skill = skillsData.find(s => s && s.id === parseInt(id));
-        return skill && skill.name ? skill.name : `Skill #${id}`;
+        return `Skill #${id}`;
     };
     
     // Helper function to get state name by ID
+    // Returns State #ID format so ID reference resolver can process it
     const getStateName = (id) => {
-        if (!statesData) return `State #${id}`;
-        const state = statesData.find(s => s && s.id === parseInt(id));
-        return state && state.name ? state.name : `State #${id}`;
+        return `State #${id}`;
     };
     
     // Pattern-based translations with parameters (APPLY THESE FIRST before simple text translations)

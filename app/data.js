@@ -5664,7 +5664,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "After use: 50% chance to cast \"Zex Sturm Return\"\nCooldown: 8 turns",
+        "english": "After use: 50% chance to cast \"[[SKILL:92:Zex Sturm Return]]\"\nCooldown: 8 turns",
         "japanese": "<使用後追加行動:92,-2,50>\n<クールタイム:8>",
         "untranslated": false
       }
@@ -13946,7 +13946,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "After use: Casts \"Test\"",
+        "english": "After use: Casts \"Skill #226\"",
         "japanese": "<使用後追加行動:226,-2>",
         "untranslated": false
       }
@@ -17488,7 +17488,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "Applies to user: \"Guard\" effects",
+        "english": "Applies to user: \"[[SKILL:2:Guard]]\" effects",
         "japanese": "<使用者効果 2>",
         "untranslated": false
       }
@@ -18013,7 +18013,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "After use: 100% chance to cast \"Cold Light\"\nCooldown: 3 turns",
+        "english": "After use: 100% chance to cast \"[[SKILL:295:Cold Light]]\"\nCooldown: 3 turns",
         "japanese": "<使用後追加行動:295,-2,100>\n<クールタイム:3>",
         "untranslated": false
       }
@@ -18673,7 +18673,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "After use: 100% chance to cast \"Cold Light\"\nCooldown: 3 turns",
+        "english": "After use: 100% chance to cast \"[[SKILL:295:Cold Light]]\"\nCooldown: 3 turns",
         "japanese": "<使用後追加行動:295,-2,100>\n<クールタイム:3>",
         "untranslated": false
       }
@@ -19492,7 +19492,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "After use: Casts \"Unconscious Build-up\"\nIgnores luck for state application\nCooldown: 5 turns",
+        "english": "After use: Casts \"[[SKILL:156:Unconscious Build-up]]\"\nIgnores luck for state application\nCooldown: 5 turns",
         "japanese": "<使用後追加行動:156,-2>\n<運無視ステート付与>\n<クールタイム:5>",
         "untranslated": false
       }
@@ -19642,7 +19642,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "After use: Casts \"For Testing\"",
+        "english": "After use: Casts \"Skill #318\"",
         "japanese": "<使用後追加行動:318,-2>",
         "untranslated": false
       }
@@ -22164,7 +22164,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "Applies to user: \"First Stage\" effects\nWhen user has \"First Stage\": Transforms into \"Three Slashes - Second\"\nWhen user has \"Second Stage\": Transforms into \"Three Slashes - Third\"\nWhen user has \"Third Stage\": Transforms into \"Three Slashes\"",
+        "english": "Applies to user: \"[[SKILL:353:First Stage]]\" effects\nWhen user has \"[[STATE:66:First Stage]]\": Transforms into \"[[SKILL:351:Three Slashes - Second]]\"\nWhen user has \"[[STATE:67:Second Stage]]\": Transforms into \"[[SKILL:352:Three Slashes - Third]]\"\nWhen user has \"[[STATE:68:Third Stage]]\": Transforms into \"Skill #350\"",
         "japanese": "<使用者効果 353>\n<ステート変化:351,66>\n<ステート変化:352,67>\n<ステート変化:350,68>",
         "untranslated": false
       }
@@ -22214,7 +22214,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "Applies to user: \"Second Stage\" effects",
+        "english": "Applies to user: \"[[SKILL:354:Second Stage]]\" effects",
         "japanese": "<使用者効果 354>\n",
         "untranslated": false
       }
@@ -22264,7 +22264,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "Applies to user: \"Third Stage\" effects",
+        "english": "Applies to user: \"[[SKILL:355:Third Stage]]\" effects",
         "japanese": "<使用者効果 355>\n",
         "untranslated": false
       }
@@ -22624,7 +22624,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "Applies to user: \"First Stage\" effects\nWhen user has \"First Stage\": Transforms into \"Three Ultimate Slashes - Second\"\nWhen user has \"Second Stage\": Transforms into \"Three Ultimate Slashes - Third\"\nWhen user has \"Third Stage\": Transforms into \"Ultimate Three Slashes\"",
+        "english": "Applies to user: \"[[SKILL:360:First Stage]]\" effects\nWhen user has \"[[STATE:123:First Stage]]\": Transforms into \"[[SKILL:358:Three Ultimate Slashes - Second]]\"\nWhen user has \"[[STATE:124:Second Stage]]\": Transforms into \"[[SKILL:359:Three Ultimate Slashes - Third]]\"\nWhen user has \"[[STATE:125:Third Stage]]\": Transforms into \"Skill #357\"",
         "japanese": "<使用者効果 360>\n<ステート変化:358,123>\n<ステート変化:359,124>\n<ステート変化:357,125>",
         "untranslated": false
       }
@@ -22674,7 +22674,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "Applies to user: \"Second Stage\" effects\nIgnores 100% defense\nDamage penetration: 100%",
+        "english": "Applies to user: \"[[SKILL:361:Second Stage]]\" effects\nIgnores 100% defense\nDamage penetration: 100%",
         "japanese": "<使用者効果 361>\n<防御状態無視率:100>\n<ダメージ率貫通:1,100>",
         "untranslated": false
       }
@@ -22724,7 +22724,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "Applies to user: \"Third Stage\" effects",
+        "english": "Applies to user: \"[[SKILL:362:Third Stage]]\" effects",
         "japanese": "<使用者効果 362>",
         "untranslated": false
       }
@@ -30017,7 +30017,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Applies to user: \"First Step\" effects\nWhen user has \"Gather 1\": Transforms into \"Frumious Wrath 2\"\nWhen user has \"Gather 2\": Transforms into \"Frumious Wrath 3\"\nWhen user has \"Gather 3\": Transforms into \"Frumious Wrath 4\"\nWhen user has \"Gather 4\": Transforms into \"Frumious Wrath 5\"\nWhen user has \"Gather 5\": Transforms into \"Frumious Wrath 6\"\nWhen user has \"Gather 6\": Transforms into \"Frumious Wrath 7\"\nWhen user has \"Gather 7\": Transforms into \"Frumious Wrath 8\"\nWhen user has \"Gather 8\": Transforms into \"Frumious Wrath 9\"\nWhen user has \"Gather 9\": Transforms into \"Frumious Wrath 10\"\nWhen user has \"Gather 10\": Transforms into \"Frumious Wrath\"",
+        "english": "Applies to user: \"[[SKILL:479:First Step]]\" effects\nWhen user has \"[[STATE:87:Gather 1]]\": Transforms into \"[[SKILL:470:Frumious Wrath 2]]\"\nWhen user has \"[[STATE:88:Gather 2]]\": Transforms into \"[[SKILL:471:Frumious Wrath 3]]\"\nWhen user has \"[[STATE:89:Gather 3]]\": Transforms into \"[[SKILL:472:Frumious Wrath 4]]\"\nWhen user has \"[[STATE:90:Gather 4]]\": Transforms into \"[[SKILL:473:Frumious Wrath 5]]\"\nWhen user has \"[[STATE:91:Gather 5]]\": Transforms into \"[[SKILL:474:Frumious Wrath 6]]\"\nWhen user has \"[[STATE:92:Gather 6]]\": Transforms into \"[[SKILL:475:Frumious Wrath 7]]\"\nWhen user has \"[[STATE:93:Gather 7]]\": Transforms into \"[[SKILL:476:Frumious Wrath 8]]\"\nWhen user has \"[[STATE:94:Gather 8]]\": Transforms into \"[[SKILL:477:Frumious Wrath 9]]\"\nWhen user has \"[[STATE:95:Gather 9]]\": Transforms into \"[[SKILL:478:Frumious Wrath 10]]\"\nWhen user has \"[[STATE:96:Gather 10]]\": Transforms into \"Skill #469\"",
         "japanese": "<使用者効果 479>\n<ステート変化:470,87>\n<ステート変化:471,88>\n<ステート変化:472,89>\n<ステート変化:473,90>\n<ステート変化:474,91>\n<ステート変化:475,92>\n<ステート変化:476,93>\n<ステート変化:477,94>\n<ステート変化:478,95>\n<ステート変化:469,96>",
         "untranslated": false
       }
@@ -30078,7 +30078,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Applies to user: \"Second Step\" effects",
+        "english": "Applies to user: \"[[SKILL:480:Second Step]]\" effects",
         "japanese": "<使用者効果 480>\n",
         "untranslated": false
       }
@@ -30139,7 +30139,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Applies to user: \"Third Step\" effects",
+        "english": "Applies to user: \"[[SKILL:481:Third Step]]\" effects",
         "japanese": "<使用者効果 481>\n",
         "untranslated": false
       }
@@ -30200,7 +30200,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Applies to user: \"Fourth Step\" effects",
+        "english": "Applies to user: \"[[SKILL:482:Fourth Step]]\" effects",
         "japanese": "<使用者効果 482>\n",
         "untranslated": false
       }
@@ -30261,7 +30261,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Applies to user: \"Fifth Step\" effects",
+        "english": "Applies to user: \"[[SKILL:483:Fifth Step]]\" effects",
         "japanese": "<使用者効果 483>\n",
         "untranslated": false
       }
@@ -30322,7 +30322,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Applies to user: \"Sixth Step\" effects",
+        "english": "Applies to user: \"[[SKILL:484:Sixth Step]]\" effects",
         "japanese": "<使用者効果 484>\n",
         "untranslated": false
       }
@@ -30383,7 +30383,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Applies to user: \"Seventh Step\" effects",
+        "english": "Applies to user: \"[[SKILL:485:Seventh Step]]\" effects",
         "japanese": "<使用者効果 485>\n",
         "untranslated": false
       }
@@ -30444,7 +30444,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Applies to user: \"Eighth Step\" effects",
+        "english": "Applies to user: \"[[SKILL:486:Eighth Step]]\" effects",
         "japanese": "<使用者効果 486>\n",
         "untranslated": false
       }
@@ -30505,7 +30505,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Applies to user: \"Nineth Step\" effects",
+        "english": "Applies to user: \"[[SKILL:487:Nineth Step]]\" effects",
         "japanese": "<使用者効果 487>\n",
         "untranslated": false
       }
@@ -30555,7 +30555,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "Applies to user: \"Tenth Step\" effects",
+        "english": "Applies to user: \"[[SKILL:488:Tenth Step]]\" effects",
         "japanese": "<使用者効果 488>\n",
         "untranslated": false
       }
@@ -39352,7 +39352,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "Ignores 100% defense\nDamage penetration: 100%\nAfter use: Casts \"Thorn Apocalypse 2\"\nCooldown: 4 turns",
+        "english": "Ignores 100% defense\nDamage penetration: 100%\nAfter use: Casts \"[[SKILL:594:Thorn Apocalypse 2]]\"\nCooldown: 4 turns",
         "japanese": "<防御状態無視率:100>\n<ダメージ率貫通:1,100>\n<使用後追加行動:594,-2>\n<クールタイム:4>",
         "untranslated": false
       }
@@ -39402,7 +39402,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "Ignores 100% defense\nDamage penetration: 100%\nAfter 1 turns: 100% chance to trigger \"Green Decay 2\"\nCooldown: 3 turns",
+        "english": "Ignores 100% defense\nDamage penetration: 100%\nAfter 1 turns: 100% chance to trigger \"[[SKILL:595:Green Decay 2]]\"\nCooldown: 3 turns",
         "japanese": "<防御状態無視率:100>\n<ダメージ率貫通:1,100>\n<行動後遅延発動:1,595,1,0,100>\n<クールタイム:3>",
         "untranslated": false
       }
@@ -39563,7 +39563,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "When user has \"Slaughter\": Transforms into \"Blood Test 2\"\nCooldown: 3 turns",
+        "english": "When user has \"[[STATE:127:Slaughter]]\": Transforms into \"[[SKILL:598:Blood Test 2]]\"\nCooldown: 3 turns",
         "japanese": "<ステート変化:598,127>\n<クールタイム:3>",
         "untranslated": false
       }
@@ -39613,7 +39613,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "When user has \"Slaughter\": Transforms into \"Blessing of Pain 2\"\nCooldown: 3 turns",
+        "english": "When user has \"[[STATE:127:Slaughter]]\": Transforms into \"[[SKILL:599:Blessing of Pain 2]]\"\nCooldown: 3 turns",
         "japanese": "<ステート変化:599,127>\n<クールタイム:3>",
         "untranslated": false
       }
@@ -39835,7 +39835,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "When user has \"Slaughter\": Transforms into \"Chainsaw\"",
+        "english": "When user has \"[[STATE:127:Slaughter]]\": Transforms into \"[[SKILL:602:Chainsaw]]\"",
         "japanese": "<ステート変化:602,127>",
         "untranslated": false
       }
@@ -40310,7 +40310,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "After 1 turns: 100% chance to trigger \"Holy Curse 2\"",
+        "english": "After 1 turns: 100% chance to trigger \"[[SKILL:610:Holy Curse 2]]\"",
         "japanese": "<行動後遅延発動:1,610,1,0,100>\n",
         "untranslated": false
       }
@@ -41214,7 +41214,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "After use: Casts \"Grip&Pull\"\nApplies to user: \"100% Crit\" effects",
+        "english": "After use: Casts \"[[SKILL:619:Grip&Pull]]\"\nApplies to user: \"[[SKILL:620:100% Crit]]\" effects",
         "japanese": "<使用後追加行動:619,-2>\n<使用者効果 620>",
         "untranslated": false
       }
@@ -41386,7 +41386,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "After use: Casts \"Critical Hit\"",
+        "english": "After use: Casts \"[[SKILL:622:Critical Hit]]\"",
         "japanese": "<使用後追加行動:622,-2>",
         "untranslated": false
       }
@@ -41436,7 +41436,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "Applies to user: \"Crit Cancel\" effects",
+        "english": "Applies to user: \"[[SKILL:623:Crit Cancel]]\" effects",
         "japanese": "<使用者効果 623>",
         "untranslated": false
       }
@@ -41546,7 +41546,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "Cooldown: 3 turns\nAfter use: Casts \"Dodge\"",
+        "english": "Cooldown: 3 turns\nAfter use: Casts \"[[SKILL:12:Dodge]]\"",
         "japanese": "<クールタイム:3>\n<使用後追加行動:12,-2>",
         "untranslated": false
       }
@@ -41819,7 +41819,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "After use: Casts \"Pocket Watch\"\nCooldown: 5 turns",
+        "english": "After use: Casts \"[[SKILL:616:Pocket Watch]]\"\nCooldown: 5 turns",
         "japanese": "<使用後追加行動:616,-2>\n<クールタイム:5>",
         "untranslated": false
       }
@@ -42614,7 +42614,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "Ignores 100% defense\nDamage penetration: 100%\nApplies to user: \"Process Self-Destruct\" effects",
+        "english": "Ignores 100% defense\nDamage penetration: 100%\nApplies to user: \"[[SKILL:642:Process Self-Destruct]]\" effects",
         "japanese": "<防御状態無視率:100>\n<ダメージ率貫通:1,100>\n<使用者効果 642>",
         "untranslated": false
       }
@@ -42786,7 +42786,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "After 1 turns: 100% chance to trigger \"Death Sign 2\"\nIgnores 100% defense\nDamage penetration: 100%\nCooldown: 4 turns",
+        "english": "After 1 turns: 100% chance to trigger \"[[SKILL:644:Death Sign 2]]\"\nIgnores 100% defense\nDamage penetration: 100%\nCooldown: 4 turns",
         "japanese": "<行動後遅延発動:1,644,1,0,100>\n<防御状態無視率:100>\n<ダメージ率貫通:1,100>\n<クールタイム:4>",
         "untranslated": false
       }
@@ -43090,7 +43090,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "After use: Casts \"Swing Club\"",
+        "english": "After use: Casts \"[[SKILL:647:Swing Club]]\"",
         "japanese": "<使用後追加行動:647,-2>",
         "untranslated": false
       }
@@ -43755,7 +43755,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "After use: Casts \"Leap\"",
+        "english": "After use: Casts \"[[SKILL:231:Leap]]\"",
         "japanese": "<使用後追加行動:231,-2>",
         "untranslated": false
       }
@@ -44564,7 +44564,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Applies to user: \"Roar 2\" effects",
+        "english": "Applies to user: \"[[SKILL:675:Roar 2]]\" effects",
         "japanese": "<使用者効果 675>",
         "untranslated": false
       }
@@ -46276,7 +46276,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "After use: Casts \"Flameblast\"",
+        "english": "After use: Casts \"[[SKILL:699:Flameblast]]\"",
         "japanese": "<使用後追加行動:699,-2>",
         "untranslated": false
       }
@@ -46467,7 +46467,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "After use: Casts \"Intestines Attack 2\"",
+        "english": "After use: Casts \"[[SKILL:702:Intestines Attack 2]]\"",
         "japanese": "<使用後追加行動:702,-2>",
         "untranslated": false
       }
@@ -48220,7 +48220,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Ignores 100% defense\nDamage penetration: 100%\nAfter use: Casts \"Sinb Flame 2\"",
+        "english": "Ignores 100% defense\nDamage penetration: 100%\nAfter use: Casts \"[[SKILL:727:Sinb Flame 2]]\"",
         "japanese": "<防御状態無視率:100>\n<ダメージ率貫通:1,100>\n<使用後追加行動:727,-2>",
         "untranslated": false
       }
@@ -48392,7 +48392,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "After 3 turns: 100% chance to trigger \"Explosion of Darkness\"",
+        "english": "After 3 turns: 100% chance to trigger \"[[SKILL:730:Explosion of Darkness]]\"",
         "japanese": "<行動後遅延発動:1,730,3,2,100>",
         "untranslated": false
       }
@@ -48534,7 +48534,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "After 2 turns: 100% chance to trigger \"Poison Whirlpool\"",
+        "english": "After 2 turns: 100% chance to trigger \"[[SKILL:732:Poison Whirlpool]]\"",
         "japanese": "<行動後遅延発動:1,732,2,1,100>",
         "untranslated": false
       }
@@ -48676,7 +48676,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "After 3 turns: 100% chance to trigger \"Heat Burst\"",
+        "english": "After 3 turns: 100% chance to trigger \"[[SKILL:734:Heat Burst]]\"",
         "japanese": "<行動後遅延発動:1,734,3,2,100>",
         "untranslated": false
       }
@@ -48807,7 +48807,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "After 4 turns: 100% chance to trigger \"Meteorite 2\"\nCooldown: 5 turns",
+        "english": "After 4 turns: 100% chance to trigger \"[[SKILL:736:Meteorite 2]]\"\nCooldown: 5 turns",
         "japanese": "<行動後遅延発動:1,736,4,2,100>\n<クールタイム:5>",
         "untranslated": false
       }
@@ -49460,7 +49460,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Consumes 1% max HP\nAfter use: Casts \"Sweeping Blade\"",
+        "english": "Consumes 1% max HP\nAfter use: Casts \"[[SKILL:740:Sweeping Blade]]\"",
         "japanese": "<消費最大ＨＰ 1%>\n<使用後追加行動:740,-2>",
         "untranslated": false
       }
@@ -49530,7 +49530,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Consumes 2% max HP\nAfter use: Casts \"Sweeping Blade\"",
+        "english": "Consumes 2% max HP\nAfter use: Casts \"[[SKILL:740:Sweeping Blade]]\"",
         "japanese": "<消費最大ＨＰ 2%>\n<使用後追加行動:740,-2>",
         "untranslated": false
       }
@@ -49591,7 +49591,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Consumes 2% max HP\nAfter use: Casts \"Sweeping Blade\"",
+        "english": "Consumes 2% max HP\nAfter use: Casts \"[[SKILL:740:Sweeping Blade]]\"",
         "japanese": "<消費最大ＨＰ 2%>\n<使用後追加行動:740,-2>",
         "untranslated": false
       }
@@ -49723,7 +49723,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "After use: Casts \"Scattering Demon Destruction\"",
+        "english": "After use: Casts \"[[SKILL:749:Scattering Demon Destruction]]\"",
         "japanese": "<使用後追加行動:749,-2>",
         "untranslated": false
       }
@@ -49784,7 +49784,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "After use: Casts \"Matchless Honorable Blade\"",
+        "english": "After use: Casts \"[[SKILL:750:Matchless Honorable Blade]]\"",
         "japanese": "<使用後追加行動:750,-2>",
         "untranslated": false
       }
@@ -49834,7 +49834,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "Ignores 100% defense\nDamage penetration: 100%\nAfter use: Casts \"Conceit of Heavens and Earth\"",
+        "english": "Ignores 100% defense\nDamage penetration: 100%\nAfter use: Casts \"[[SKILL:751:Conceit of Heavens and Earth]]\"",
         "japanese": "<防御状態無視率:100>\n<ダメージ率貫通:1,100>\n<使用後追加行動:751,-2>",
         "untranslated": false
       }
@@ -49884,7 +49884,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "After use: Casts \"Mystery - Oni Flare\"",
+        "english": "After use: Casts \"[[SKILL:752:Mystery - Oni Flare]]\"",
         "japanese": "<使用後追加行動:752,-2>",
         "untranslated": false
       }
@@ -51426,7 +51426,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "After 4 turns: 100% chance to trigger \"Explosion of Decay\"\nCooldown: 8 turns",
+        "english": "After 4 turns: 100% chance to trigger \"[[SKILL:769:Explosion of Decay]]\"\nCooldown: 8 turns",
         "japanese": "<行動後遅延発動:1,769,4,2,100>\n<クールタイム:8>",
         "untranslated": false
       }
@@ -51487,7 +51487,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "After 3 turns: 100% chance to trigger \"Seed of Death\"\nIgnores 100% defense\nDamage penetration: 100%",
+        "english": "After 3 turns: 100% chance to trigger \"[[SKILL:640:Seed of Death]]\"\nIgnores 100% defense\nDamage penetration: 100%",
         "japanese": "<行動後遅延発動:1,640,3,2,100>\n<防御状態無視率:100>\n<ダメージ率貫通:1,100>",
         "untranslated": false
       }
@@ -52209,7 +52209,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "After use: Casts \"Gun Break Enemy\"\nCooldown: 3 turns",
+        "english": "After use: Casts \"[[SKILL:782:Gun Break Enemy]]\"\nCooldown: 3 turns",
         "japanese": "<使用後追加行動:782,-2>\n<クールタイム:3>",
         "untranslated": false
       }
@@ -52765,7 +52765,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "After 2 turns: 100% chance to trigger \"Brain Star Lump\"",
+        "english": "After 2 turns: 100% chance to trigger \"[[SKILL:792:Brain Star Lump]]\"",
         "japanese": "<行動後遅延発動:1,792,2,2,100>",
         "untranslated": false
       }
@@ -53293,7 +53293,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Ignores 50% defense\nDamage penetration: 50%\nAfter use: Casts \"Gun Break Enemy\"\nIgnores luck for state application",
+        "english": "Ignores 50% defense\nDamage penetration: 50%\nAfter use: Casts \"[[SKILL:782:Gun Break Enemy]]\"\nIgnores luck for state application",
         "japanese": "<防御状態無視率:50>\n<ダメージ率貫通:1,50>\n<使用後追加行動:782,-2>\n<運無視ステート付与>",
         "untranslated": false
       }
@@ -53536,7 +53536,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Ignores 50% defense\nDamage penetration: 50%\nAfter use: Casts \"Gun Break Enemy 2\"\nIgnores luck for state application",
+        "english": "Ignores 50% defense\nDamage penetration: 50%\nAfter use: Casts \"[[SKILL:800:Gun Break Enemy 2]]\"\nIgnores luck for state application",
         "japanese": "<防御状態無視率:50>\n<ダメージ率貫通:1,50>\n<使用後追加行動:800,-2>\n<運無視ステート付与>",
         "untranslated": false
       }
@@ -53596,7 +53596,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Ignores 50% defense\nDamage penetration: 50%\nAfter use: Casts \"Full Burst Florence\"\nIgnores luck for state application",
+        "english": "Ignores 50% defense\nDamage penetration: 50%\nAfter use: Casts \"[[SKILL:798:Full Burst Florence]]\"\nIgnores luck for state application",
         "japanese": "<防御状態無視率:50>\n<ダメージ率貫通:1,50>\n<使用後追加行動:798,-2>\n<運無視ステート付与>",
         "untranslated": false
       }
@@ -55277,7 +55277,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Ignores luck for state application\nAfter use: Casts \"Bear Fang\"",
+        "english": "Ignores luck for state application\nAfter use: Casts \"[[SKILL:822:Bear Fang]]\"",
         "japanese": "<運無視ステート付与>\n<使用後追加行動:822,-2>",
         "untranslated": false
       }
@@ -55358,7 +55358,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Ignores luck for state application\nIgnores luck for debuff application\nAfter use: 50% chance to cast \"Follow Up\"",
+        "english": "Ignores luck for state application\nIgnores luck for debuff application\nAfter use: 50% chance to cast \"[[SKILL:825:Follow Up]]\"",
         "japanese": "<運無視ステート付与>\n<運無視弱体付与>\n<使用後追加行動:825,-2,50>",
         "untranslated": false
       }
@@ -55439,7 +55439,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Ignores luck for state application\nIgnores luck for debuff application\nAfter use: 50% chance to cast \"Fierce Attack\"",
+        "english": "Ignores luck for state application\nIgnores luck for debuff application\nAfter use: 50% chance to cast \"[[SKILL:826:Fierce Attack]]\"",
         "japanese": "<運無視ステート付与>\n<運無視弱体付与>\n<使用後追加行動:826,-2,50>",
         "untranslated": false
       }
@@ -55670,7 +55670,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "After use: 100% chance to cast \"Vanish\"",
+        "english": "After use: 100% chance to cast \"[[SKILL:830:Vanish]]\"",
         "japanese": "<使用後追加行動:830,-2,100>",
         "untranslated": false
       }
@@ -57338,7 +57338,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "Applies to user: \"1 BF\" effects\nWhen user has \"7 Stacks\": Transforms into \"Twin Blades8\"\nWhen user has \"6 Stacks\": Transforms into \"Twin Blades7\"\nWhen user has \"5 Stacks\": Transforms into \"Twin Blades6\"\nWhen user has \"4 Stacks\": Transforms into \"Twin Blades5\"\nWhen user has \"3 Stacks\": Transforms into \"Twin Blades4\"\nWhen user has \"2 Stacks\": Transforms into \"Twin Blades3\"\nWhen user has \"1 Stack\": Transforms into \"Twin Blades2\"",
+        "english": "Applies to user: \"[[SKILL:865:1 BF]]\" effects\nWhen user has \"[[STATE:188:7 Stacks]]\": Transforms into \"[[SKILL:859:Twin Blades8]]\"\nWhen user has \"[[STATE:187:6 Stacks]]\": Transforms into \"[[SKILL:858:Twin Blades7]]\"\nWhen user has \"[[STATE:186:5 Stacks]]\": Transforms into \"[[SKILL:857:Twin Blades6]]\"\nWhen user has \"[[STATE:185:4 Stacks]]\": Transforms into \"[[SKILL:856:Twin Blades5]]\"\nWhen user has \"[[STATE:184:3 Stacks]]\": Transforms into \"[[SKILL:855:Twin Blades4]]\"\nWhen user has \"[[STATE:183:2 Stacks]]\": Transforms into \"[[SKILL:854:Twin Blades3]]\"\nWhen user has \"[[STATE:182:1 Stack]]\": Transforms into \"[[SKILL:853:Twin Blades2]]\"",
         "japanese": "<使用者効果 865>\n<ステート変化:859,188>\n<ステート変化:858,187>\n<ステート変化:857,186>\n<ステート変化:856,185>\n<ステート変化:855,184>\n<ステート変化:854,183>\n<ステート変化:853,182>\n",
         "untranslated": false
       }
@@ -57388,7 +57388,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "Applies to user: \"2 BF\" effects",
+        "english": "Applies to user: \"[[SKILL:866:2 BF]]\" effects",
         "japanese": "<使用者効果 866>",
         "untranslated": false
       }
@@ -57438,7 +57438,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "Applies to user: \"3 BF\" effects",
+        "english": "Applies to user: \"[[SKILL:867:3 BF]]\" effects",
         "japanese": "<使用者効果 867>",
         "untranslated": false
       }
@@ -57488,7 +57488,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "Applies to user: \"4 BF\" effects",
+        "english": "Applies to user: \"[[SKILL:868:4 BF]]\" effects",
         "japanese": "<使用者効果 868>",
         "untranslated": false
       }
@@ -57538,7 +57538,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "Applies to user: \"5 BF\" effects",
+        "english": "Applies to user: \"[[SKILL:869:5 BF]]\" effects",
         "japanese": "<使用者効果 869>",
         "untranslated": false
       }
@@ -57588,7 +57588,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "Applies to user: \"6 BF\" effects",
+        "english": "Applies to user: \"[[SKILL:870:6 BF]]\" effects",
         "japanese": "<使用者効果 870>",
         "untranslated": false
       }
@@ -57638,7 +57638,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "Applies to user: \"7 BF\" effects",
+        "english": "Applies to user: \"[[SKILL:871:7 BF]]\" effects",
         "japanese": "<使用者効果 871>",
         "untranslated": false
       }
@@ -57688,7 +57688,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "Applies to user: \"8 Focus\" effects",
+        "english": "Applies to user: \"[[SKILL:872:8 Focus]]\" effects",
         "japanese": "<使用者効果 872>",
         "untranslated": false
       }
@@ -58901,7 +58901,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "After use: 100% chance to cast \"Raise II\"",
+        "english": "After use: 100% chance to cast \"[[SKILL:34:Raise II]]\"",
         "japanese": "<使用後追加行動:34,-2,100>",
         "untranslated": false
       }
@@ -58961,7 +58961,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Ignores 50% defense\nDamage penetration: 50%\nAfter use: Casts \"Gunblade Gun Break\"\nWhen user has \"Bullet Switch 3\": Transforms into \"Cross-Section 3\"\nWhen user has \"Bullet Switch 2\": Transforms into \"Cross-Section 2\"\nCooldown: 3 turns",
+        "english": "Ignores 50% defense\nDamage penetration: 50%\nAfter use: Casts \"[[SKILL:875:Gunblade Gun Break]]\"\nWhen user has \"[[STATE:192:Bullet Switch 3]]\": Transforms into \"[[SKILL:886:Cross-Section 3]]\"\nWhen user has \"[[STATE:191:Bullet Switch 2]]\": Transforms into \"[[SKILL:885:Cross-Section 2]]\"\nCooldown: 3 turns",
         "japanese": "<防御状態無視率:50>\n<ダメージ率貫通:1,50>\n<使用後追加行動:875,-2>\n<ステート変化:886,192>\n<ステート変化:885,191>\n<クールタイム:3>",
         "untranslated": false
       }
@@ -59205,7 +59205,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Applies to user: \"Bullet Switch 1\" effects\nWhen user has \"Bullet Switch 1\": Transforms into \"Charge Bullets 2\"\nWhen user has \"Bullet Switch 2\": Transforms into \"Charge Bullets 3\"\nWhen user has \"Bullet Switch 3\": Transforms into \"Charge Bullets\"\nDoes not consume a turn (999 turns)\nConsumes 1% max HP",
+        "english": "Applies to user: \"[[SKILL:880:Bullet Switch 1]]\" effects\nWhen user has \"[[STATE:190:Bullet Switch 1]]\": Transforms into \"[[SKILL:888:Charge Bullets 2]]\"\nWhen user has \"[[STATE:191:Bullet Switch 2]]\": Transforms into \"[[SKILL:889:Charge Bullets 3]]\"\nWhen user has \"[[STATE:192:Bullet Switch 3]]\": Transforms into \"Skill #878\"\nDoes not consume a turn (999 turns)\nConsumes 1% max HP",
         "japanese": "<使用者効果 880>\n<ステート変化:888,190>\n<ステート変化:889,191>\n<ステート変化:878,192>\n[hzm]ターン消費無し:999\n<消費最大ＨＰ 1%>",
         "untranslated": false
       }
@@ -59890,7 +59890,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Applies to user: \"Guard\" effects\nCooldown: 9 turns",
+        "english": "Applies to user: \"[[SKILL:2:Guard]]\" effects\nCooldown: 9 turns",
         "japanese": "<使用者効果 2>\n<クールタイム:9>",
         "untranslated": false
       }
@@ -59950,7 +59950,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Ignores 50% defense\nDamage penetration: 50%\nAfter use: Casts \"Hard Gun Break\"\nCooldown: 3 turns",
+        "english": "Ignores 50% defense\nDamage penetration: 50%\nAfter use: Casts \"[[SKILL:877:Hard Gun Break]]\"\nCooldown: 3 turns",
         "japanese": "<防御状態無視率:50>\n<ダメージ率貫通:1,50>\n<使用後追加行動:877,-2>\n<クールタイム:3>",
         "untranslated": false
       }
@@ -60010,7 +60010,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Ignores 50% defense\nDamage penetration: 50%\nAfter use: Casts \"Full Burst\"\nCooldown: 3 turns",
+        "english": "Ignores 50% defense\nDamage penetration: 50%\nAfter use: Casts \"[[SKILL:876:Full Burst]]\"\nCooldown: 3 turns",
         "japanese": "<防御状態無視率:50>\n<ダメージ率貫通:1,50>\n<使用後追加行動:876,-2>\n<クールタイム:3>",
         "untranslated": false
       }
@@ -60142,7 +60142,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Applies to user: \"Bullet Switch 2\" effects\nDoes not consume a turn (999 turns)\nConsumes 5% max HP",
+        "english": "Applies to user: \"[[SKILL:881:Bullet Switch 2]]\" effects\nDoes not consume a turn (999 turns)\nConsumes 5% max HP",
         "japanese": "<使用者効果 881>\n[hzm]ターン消費無し:999\n<消費最大ＨＰ 5%>",
         "untranslated": false
       }
@@ -60203,7 +60203,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Applies to user: \"Bullet Switch 3\" effects\nDoes not consume a turn (999 turns)\nConsumes 5% max HP",
+        "english": "Applies to user: \"[[SKILL:882:Bullet Switch 3]]\" effects\nDoes not consume a turn (999 turns)\nConsumes 5% max HP",
         "japanese": "<使用者効果 882>\n[hzm]ターン消費無し:999\n<消費最大ＨＰ 5%>",
         "untranslated": false
       }
@@ -60376,7 +60376,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "After use: Casts \"Gunblade Gun Break\"\nWhen user has \"Bullet Switch 3\": Transforms into \"Gunblade 3\"\nWhen user has \"Bullet Switch 2\": Transforms into \"Gunblade 2\"",
+        "english": "After use: Casts \"[[SKILL:875:Gunblade Gun Break]]\"\nWhen user has \"[[STATE:192:Bullet Switch 3]]\": Transforms into \"[[SKILL:893:Gunblade 3]]\"\nWhen user has \"[[STATE:191:Bullet Switch 2]]\": Transforms into \"[[SKILL:892:Gunblade 2]]\"",
         "japanese": "<使用後追加行動:875,-2>\n<ステート変化:893,192>\n<ステート変化:892,191>",
         "untranslated": false
       }
@@ -60426,7 +60426,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "After use: Casts \"Hard Gun Break\"",
+        "english": "After use: Casts \"[[SKILL:877:Hard Gun Break]]\"",
         "japanese": "<使用後追加行動:877,-2>\n",
         "untranslated": false
       }
@@ -60476,7 +60476,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "After use: Casts \"Full Burst\"",
+        "english": "After use: Casts \"[[SKILL:876:Full Burst]]\"",
         "japanese": "<使用後追加行動:876,-2>",
         "untranslated": false
       }
@@ -62243,7 +62243,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "After 2 turns: Triggers \"Drop\"\nIgnores luck for state application\nCooldown: 9 turns",
+        "english": "After 2 turns: Triggers \"[[SKILL:910:Drop]]\"\nIgnores luck for state application\nCooldown: 9 turns",
         "japanese": "<遅延発動:1,910,2>\n<運無視ステート付与>\n<クールタイム:9>",
         "untranslated": false
       }
@@ -62553,7 +62553,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Ignores 100% defense\nDamage penetration: 100%\nIgnores luck for state application\nAfter use: Casts \"Gunblade Gun Break\"\nApplies to user: \"Guard\" effects",
+        "english": "Ignores 100% defense\nDamage penetration: 100%\nIgnores luck for state application\nAfter use: Casts \"[[SKILL:875:Gunblade Gun Break]]\"\nApplies to user: \"[[SKILL:2:Guard]]\" effects",
         "japanese": "<防御状態無視率:100>\n<ダメージ率貫通:1,100>\n<運無視ステート付与>\n<使用後追加行動:875,-2>\n<使用者効果 2>",
         "untranslated": false
       }
@@ -62614,7 +62614,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Applies to user: \"Guard\" effects\nIgnores luck for state application",
+        "english": "Applies to user: \"[[SKILL:2:Guard]]\" effects\nIgnores luck for state application",
         "japanese": "<使用者効果 2>\n<運無視ステート付与>\n",
         "untranslated": false
       }
@@ -62989,7 +62989,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Applies to user: \"Guard\" effects\nCooldown: 9 turns",
+        "english": "Applies to user: \"[[SKILL:2:Guard]]\" effects\nCooldown: 9 turns",
         "japanese": "<使用者効果 2>\n<クールタイム:9>",
         "untranslated": false
       }
@@ -63262,7 +63262,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "After use: 50% chance to cast \"Black Fluid\"\nIgnores luck for state application",
+        "english": "After use: 50% chance to cast \"[[SKILL:922:Black Fluid]]\"\nIgnores luck for state application",
         "japanese": "<使用後追加行動:922,-2,50>\n<運無視ステート付与>",
         "untranslated": false
       }
@@ -63647,7 +63647,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "After use: 50% chance to cast \"Black Fluid\"\nIgnores luck for state application\nCooldown: 9 turns",
+        "english": "After use: 50% chance to cast \"[[SKILL:922:Black Fluid]]\"\nIgnores luck for state application\nCooldown: 9 turns",
         "japanese": "<使用後追加行動:922,-2,50>\n<運無視ステート付与>\n<クールタイム:9>",
         "untranslated": false
       }
@@ -63779,7 +63779,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "After 4 turns: 100% chance to trigger \"Explosion of Decay\"\nCooldown: 8 turns",
+        "english": "After 4 turns: 100% chance to trigger \"[[SKILL:924:Explosion of Decay]]\"\nCooldown: 8 turns",
         "japanese": "<行動後遅延発動:1,924,4,2,100>\n<クールタイム:8>",
         "untranslated": false
       }
@@ -63879,7 +63879,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "After use: 50% chance to cast \"Black Fluid\"",
+        "english": "After use: 50% chance to cast \"[[SKILL:922:Black Fluid]]\"",
         "japanese": "<使用後追加行動:922,-2,50>",
         "untranslated": false
       }
@@ -64300,7 +64300,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "After use: 100% chance to cast \"Ice Break\"",
+        "english": "After use: 100% chance to cast \"[[SKILL:932:Ice Break]]\"",
         "japanese": "<使用後追加行動:932,-2,100>",
         "untranslated": false
       }
@@ -64371,7 +64371,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Does not consume a turn (999 turns)\nIgnores luck for state application\nAfter use: 100% chance to cast \"Piercing Ice Pillars Gerda\"",
+        "english": "Does not consume a turn (999 turns)\nIgnores luck for state application\nAfter use: 100% chance to cast \"[[SKILL:936:Piercing Ice Pillars Gerda]]\"",
         "japanese": "[hzm]ターン消費無し:999\n<運無視ステート付与>\n<使用後追加行動:936,-2,100>\n",
         "untranslated": false
       }
@@ -64452,7 +64452,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Ignores luck for state application\nIgnores luck for debuff application\nAfter use: 100% chance to cast \"Horse Trample\"",
+        "english": "Ignores luck for state application\nIgnores luck for debuff application\nAfter use: 100% chance to cast \"[[SKILL:934:Horse Trample]]\"",
         "japanese": "<運無視ステート付与>\n<運無視弱体付与>\n<使用後追加行動:934,-2,100>",
         "untranslated": false
       }
@@ -64652,7 +64652,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "Ignores 100% defense\nDamage penetration: 100%\nAfter use: 100% chance to cast \"Shadowy Bog  Gerda\"",
+        "english": "Ignores 100% defense\nDamage penetration: 100%\nAfter use: 100% chance to cast \"[[SKILL:937:Shadowy Bog  Gerda]]\"",
         "japanese": "<防御状態無視率:100>\n<ダメージ率貫通:1,100>\n<使用後追加行動:937,-2,100>",
         "untranslated": false
       }
@@ -64791,7 +64791,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Ignores luck for state application\nIgnores luck for debuff application\nAfter use: 100% chance to cast \"Keep silent\"",
+        "english": "Ignores luck for state application\nIgnores luck for debuff application\nAfter use: 100% chance to cast \"[[SKILL:933:Keep silent]]\"",
         "japanese": "<運無視ステート付与>\n<運無視弱体付与>\n<使用後追加行動:933,-2,100>",
         "untranslated": false
       }
@@ -64922,7 +64922,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Ignores 100% defense\nDamage penetration: 100%\nIgnores luck for debuff application\nIgnores luck for state application\nAfter use: 30% chance to cast \"Piercing Iron Spear\"",
+        "english": "Ignores 100% defense\nDamage penetration: 100%\nIgnores luck for debuff application\nIgnores luck for state application\nAfter use: 30% chance to cast \"Skill #939\"",
         "japanese": "<防御状態無視率:100>\n<ダメージ率貫通:1,100>\n<運無視弱体付与>\n<運無視ステート付与>\n<使用後追加行動:939,-2,30>",
         "untranslated": false
       }
@@ -65449,7 +65449,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "After use: 100% chance to cast \"Flush Out Prey 2\"\nIgnores luck for state application",
+        "english": "After use: 100% chance to cast \"[[SKILL:952:Flush Out Prey 2]]\"\nIgnores luck for state application",
         "japanese": "<使用後追加行動:952,-2,100>\n<運無視ステート付与>",
         "untranslated": false
       }
@@ -66029,7 +66029,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "After use: 100% chance to cast \"Regen\"",
+        "english": "After use: 100% chance to cast \"[[SKILL:950:Regen]]\"",
         "japanese": "<使用後追加行動:950,-2,100>",
         "untranslated": false
       }
@@ -66358,7 +66358,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "After use: 100% chance to cast \"Acrobatics\"\nIgnores 100% defense\nDamage penetration: 100%",
+        "english": "After use: 100% chance to cast \"[[SKILL:87:Acrobatics]]\"\nIgnores 100% defense\nDamage penetration: 100%",
         "japanese": "<使用後追加行動:87,-2,100>\n<防御状態無視率:100>\n<ダメージ率貫通:1,100>",
         "untranslated": false
       }
@@ -66419,7 +66419,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "After use: 100% chance to cast \"Hell Flames\"\nIgnores luck for state application",
+        "english": "After use: 100% chance to cast \"[[SKILL:956:Hell Flames]]\"\nIgnores luck for state application",
         "japanese": "<使用後追加行動:956,-2,100>\n<運無視ステート付与>",
         "untranslated": false
       }
@@ -66551,7 +66551,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "After use: 100% chance to cast \"Serpent's Embrace Enemy\"\nIgnores luck for state application",
+        "english": "After use: 100% chance to cast \"[[SKILL:958:Serpent's Embrace Enemy]]\"\nIgnores luck for state application",
         "japanese": "<使用後追加行動:958,-2,100>\n<運無視ステート付与>",
         "untranslated": false
       }
@@ -66809,7 +66809,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "After use: 100% chance to cast \"Acrobatics\"\nCooldown: 4 turns",
+        "english": "After use: 100% chance to cast \"[[SKILL:87:Acrobatics]]\"\nCooldown: 4 turns",
         "japanese": "<使用後追加行動:87,-2,100>\n<クールタイム:4>",
         "untranslated": false
       }
@@ -66870,7 +66870,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Ignores 100% defense\nDamage penetration: 100%\nIgnores luck for state application\nAfter use: 100% chance to cast \"Acid Lorde\"",
+        "english": "Ignores 100% defense\nDamage penetration: 100%\nIgnores luck for state application\nAfter use: 100% chance to cast \"[[SKILL:961:Acid Lorde]]\"",
         "japanese": "<防御状態無視率:100>\n<ダメージ率貫通:1,100>\n<運無視ステート付与>\n<使用後追加行動:961,-2,100>",
         "untranslated": false
       }
@@ -66951,7 +66951,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Ignores luck for debuff application\nAfter use: 100% chance to cast \"Ankle Chopping Lorde\"",
+        "english": "Ignores luck for debuff application\nAfter use: 100% chance to cast \"[[SKILL:962:Ankle Chopping Lorde]]\"",
         "japanese": "<運無視弱体付与>\n<使用後追加行動:962,-2,100>",
         "untranslated": false
       }
@@ -67012,7 +67012,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Ignores luck for state application\nAfter use: 100% chance to cast \"Gun Break [Pistol] Lorde\"",
+        "english": "Ignores luck for state application\nAfter use: 100% chance to cast \"[[SKILL:963:Gun Break [Pistol] Lorde]]\"",
         "japanese": "<運無視ステート付与>\n<使用後追加行動:963,-2,100>",
         "untranslated": false
       }
@@ -67073,7 +67073,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Ignores luck for state application\nAfter use: 100% chance to cast \"Gun Break [Rifle] Lorde\"",
+        "english": "Ignores luck for state application\nAfter use: 100% chance to cast \"[[SKILL:964:Gun Break [Rifle] Lorde]]\"",
         "japanese": "<運無視ステート付与>\n<使用後追加行動:964,-2,100>",
         "untranslated": false
       }
@@ -67134,7 +67134,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "After use: 100% chance to cast \"Gun Break [Shotgun] Lorde\"\nIgnores luck for state application",
+        "english": "After use: 100% chance to cast \"[[SKILL:965:Gun Break [Shotgun] Lorde]]\"\nIgnores luck for state application",
         "japanese": "<使用後追加行動:965,-2,100>\n<運無視ステート付与>",
         "untranslated": false
       }
@@ -67195,7 +67195,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "After use: 100% chance to cast \"Gun Break [Cannon] Lorde\"\nIgnores luck for state application",
+        "english": "After use: 100% chance to cast \"[[SKILL:966:Gun Break [Cannon] Lorde]]\"\nIgnores luck for state application",
         "japanese": "<使用後追加行動:966,-2,100>\n<運無視ステート付与>",
         "untranslated": false
       }
@@ -67256,7 +67256,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "After use: 100% chance to cast \"Helix Blade\"\nIgnores luck for state application",
+        "english": "After use: 100% chance to cast \"[[SKILL:973:Helix Blade]]\"\nIgnores luck for state application",
         "japanese": "<使用後追加行動:973,-2,100>\n<運無視ステート付与>",
         "untranslated": false
       }
@@ -67977,7 +67977,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Applies to user: \"Natural Regen\" effects\nIgnores luck for state application\nCooldown: 10 turns",
+        "english": "Applies to user: \"[[SKILL:974:Natural Regen]]\" effects\nIgnores luck for state application\nCooldown: 10 turns",
         "japanese": "<使用者効果 974>\n<運無視ステート付与>\n<クールタイム:10>",
         "untranslated": false
       }
@@ -68418,7 +68418,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Applies to user: \"Natural Regen Enemy\" effects\nIgnores luck for state application\nAfter use: 100% chance to cast \"Lunge Enemy\"\nCooldown: 2 turns",
+        "english": "Applies to user: \"[[SKILL:978:Natural Regen Enemy]]\" effects\nIgnores luck for state application\nAfter use: 100% chance to cast \"[[SKILL:976:Lunge Enemy]]\"\nCooldown: 2 turns",
         "japanese": "<使用者効果 978>\n<運無視ステート付与>\n<使用後追加行動:976,-2,100>\n<クールタイム:2>",
         "untranslated": false
       }
@@ -68850,7 +68850,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Ignores 100% defense\nDamage penetration: 100%\nIgnores luck for state application\nAfter use: 100% chance to cast \"Acrobatics\"",
+        "english": "Ignores 100% defense\nDamage penetration: 100%\nIgnores luck for state application\nAfter use: 100% chance to cast \"[[SKILL:87:Acrobatics]]\"",
         "japanese": "<防御状態無視率:100>\n<ダメージ率貫通:1,100>\n<運無視ステート付与>\n<使用後追加行動:87,-2,100>",
         "untranslated": false
       }
@@ -68921,7 +68921,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Ignores luck for state application\nIgnores luck for debuff application\nAfter use: 100% chance to cast \"Dodge\"",
+        "english": "Ignores luck for state application\nIgnores luck for debuff application\nAfter use: 100% chance to cast \"[[SKILL:12:Dodge]]\"",
         "japanese": "<運無視ステート付与>\n<運無視弱体付与>\n<使用後追加行動:12,-2,100>\n",
         "untranslated": false
       }
@@ -69092,7 +69092,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "After use: 50% chance to cast \"Lion Whirlwind\"\nHP conversion rate: 100%\nHP drain: 100%\nCooldown: 9 turns",
+        "english": "After use: 50% chance to cast \"[[SKILL:987:Lion Whirlwind]]\"\nHP conversion rate: 100%\nHP drain: 100%\nCooldown: 9 turns",
         "japanese": "<使用後追加行動:987,-2,50>\n<変換攻撃判定:100>\n<HP変換攻撃:100,100>\n<クールタイム:9>",
         "untranslated": false
       }
@@ -69142,7 +69142,7 @@ const skillsData = {
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "After use: 50% chance to cast \"Lion Whirlwind\"\nHP conversion rate: 100%\nHP drain: 100%",
+        "english": "After use: 50% chance to cast \"Skill #987\"\nHP conversion rate: 100%\nHP drain: 100%",
         "japanese": "<使用後追加行動:987,-2,50>\n<変換攻撃判定:100>\n<HP変換攻撃:100,100>",
         "untranslated": false
       }
@@ -69434,7 +69434,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "Ignores luck for state application\nHP conversion rate: 100%\nHP drain: 100%\nAfter use: 50% chance to cast \"Lion Whirlwind Enemy\"",
+        "english": "Ignores luck for state application\nHP conversion rate: 100%\nHP drain: 100%\nAfter use: 50% chance to cast \"Skill #991\"",
         "japanese": "<運無視ステート付与>\n<変換攻撃判定:100>\n<HP変換攻撃:100,100>\n<使用後追加行動:991,-2,50>",
         "untranslated": false
       }
@@ -70112,7 +70112,7 @@ const skillsData = {
         }
       ],
       "note": {
-        "english": "After use: 50% chance to cast \"Black Fluid\"\nIgnores luck for state application",
+        "english": "After use: 50% chance to cast \"[[SKILL:922:Black Fluid]]\"\nIgnores luck for state application",
         "japanese": "<使用後追加行動:922,-2,50>\n<運無視ステート付与>",
         "untranslated": false
       }
@@ -71874,7 +71874,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "Counter skill: \"Attack\"",
+        "english": "Counter skill: \"[[SKILL:1:Attack]]\"",
         "japanese": "<反撃スキル 1>",
         "untranslated": false
       }
@@ -71965,7 +71965,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "Counter skill: \"Attack\"",
+        "english": "Counter skill: \"[[SKILL:1:Attack]]\"",
         "japanese": "<反撃スキル 1>",
         "untranslated": false
       }
@@ -79276,7 +79276,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "Counter skill: \"Dancing Light\"",
+        "english": "Counter skill: \"[[SKILL:762:Dancing Light]]\"",
         "japanese": "<反撃スキル 762>",
         "untranslated": false
       }
@@ -80112,7 +80112,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "Counter skill: \"Acid Slime\"",
+        "english": "Counter skill: \"[[SKILL:820:Acid Slime]]\"",
         "japanese": "<反撃スキル 820>",
         "untranslated": false
       }
@@ -80145,7 +80145,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "When naturally removed: Applies \"Incapacitated\"",
+        "english": "When naturally removed: Applies \"[[STATE:1:Incapacitated]]\"",
         "japanese": "<強制自然解除時ステート:1>",
         "untranslated": false
       }
@@ -80368,7 +80368,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "Counter skill: \"Joker\"",
+        "english": "Counter skill: \"[[SKILL:512:Joker]]\"",
         "japanese": "<反撃スキル 512>",
         "untranslated": false
       }
@@ -81173,7 +81173,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "When naturally removed: Applies \"Incapacitated\"",
+        "english": "When naturally removed: Applies \"[[STATE:1:Incapacitated]]\"",
         "japanese": "<強制自然解除時ステート:1>",
         "untranslated": false
       }
@@ -81681,7 +81681,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "Counter skill: \"Piercing Iron Spear\"",
+        "english": "Counter skill: \"[[SKILL:939:Piercing Iron Spear]]\"",
         "japanese": "<反撃スキル 939>",
         "untranslated": false
       }
@@ -81980,7 +81980,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "On full evasion: Casts \"Evasion Lunge\"",
+        "english": "On full evasion: Casts \"[[SKILL:972:Evasion Lunge]]\"",
         "japanese": "<全回避時スキル:972>",
         "untranslated": false
       }
@@ -82029,7 +82029,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "On full evasion: Casts \"Evasion Lunge Enemy\"",
+        "english": "On full evasion: Casts \"[[SKILL:980:Evasion Lunge Enemy]]\"",
         "japanese": "<全回避時スキル:980>",
         "untranslated": false
       }
@@ -82280,7 +82280,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "Skill disabled: \"Omnibless\"\nSkill disabled: \"Blessing of Magic\"\nSkill disabled: \"King's Order\"\nSkill disabled: \"Royal Tea\"\nSkill disabled: \"Eight Aspects\"\nSkill disabled: \"Counter\"\nSkill disabled: \"Quickdraw\"\nSkill disabled: \"Ambition\"\nSkill disabled: \"Track Blood\"\nSkill disabled: \"Reload\"\n[Full Recovery Disabled State]",
+        "english": "Skill disabled: \"[[SKILL:51:Omnibless]]\"\nSkill disabled: \"[[SKILL:127:Blessing of Magic]]\"\nSkill disabled: \"[[SKILL:140:King's Order]]\"\nSkill disabled: \"[[SKILL:844:Royal Tea]]\"\nSkill disabled: \"[[SKILL:102:Eight Aspects]]\"\nSkill disabled: \"[[SKILL:21:Counter]]\"\nSkill disabled: \"[[SKILL:159:Quickdraw]]\"\nSkill disabled: \"[[SKILL:124:Ambition]]\"\nSkill disabled: \"[[SKILL:118:Track Blood]]\"\nSkill disabled: \"[[SKILL:155:Reload]]\"\n[Full Recovery Disabled State]",
         "japanese": "<スキル無効:51>\n<スキル無効:127>\n<スキル無効:140>\n<スキル無効:844>\n<スキル無効:102>\n<スキル無効:21>\n<スキル無効:159>\n<スキル無効:124>\n<スキル無効:118>\n<スキル無効:155>\n[全回復無効ステート]",
         "untranslated": false
       }
@@ -82519,7 +82519,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "When naturally removed: Applies \"Gradual Drop 2\"\n[Full Recovery Disabled State]",
+        "english": "When naturally removed: Applies \"[[STATE:216:Gradual Drop 2]]\"\n[Full Recovery Disabled State]",
         "japanese": "<強制自然解除時ステート:216>\n[全回復無効ステート]",
         "untranslated": false
       }
@@ -82567,7 +82567,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "When naturally removed: Applies \"Gradual Drop 3\"\n[Full Recovery Disabled State]",
+        "english": "When naturally removed: Applies \"[[STATE:217:Gradual Drop 3]]\"\n[Full Recovery Disabled State]",
         "japanese": "<強制自然解除時ステート:217>\n[全回復無効ステート]",
         "untranslated": false
       }
@@ -82615,7 +82615,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "When naturally removed: Applies \"Gradual Drop 4\"\n[Full Recovery Disabled State]",
+        "english": "When naturally removed: Applies \"[[STATE:218:Gradual Drop 4]]\"\n[Full Recovery Disabled State]",
         "japanese": "<強制自然解除時ステート:218>\n[全回復無効ステート]",
         "untranslated": false
       }
@@ -82663,7 +82663,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "When naturally removed: Applies \"Gradual Drop 5\"\n[Full Recovery Disabled State]",
+        "english": "When naturally removed: Applies \"[[STATE:219:Gradual Drop 5]]\"\n[Full Recovery Disabled State]",
         "japanese": "<強制自然解除時ステート:219>\n[全回復無効ステート]",
         "untranslated": false
       }
@@ -82711,7 +82711,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "When naturally removed: Applies \"Gradual Drop 6\"\n[Full Recovery Disabled State]",
+        "english": "When naturally removed: Applies \"[[STATE:220:Gradual Drop 6]]\"\n[Full Recovery Disabled State]",
         "japanese": "<強制自然解除時ステート:220>\n[全回復無効ステート]",
         "untranslated": false
       }
@@ -82950,7 +82950,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "When naturally removed: Applies \"Vicious Domain -100% DEF\"\n[Full Recovery Disabled State]",
+        "english": "When naturally removed: Applies \"[[STATE:226:Vicious Domain -100% DEF]]\"\n[Full Recovery Disabled State]",
         "japanese": "<強制自然解除時ステート:226>\n[全回復無効ステート]",
         "untranslated": false
       }
@@ -82991,7 +82991,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "When naturally removed: Applies \"Vicious Domain -100% MAG\"\n[Full Recovery Disabled State]",
+        "english": "When naturally removed: Applies \"[[STATE:227:Vicious Domain -100% MAG]]\"\n[Full Recovery Disabled State]",
         "japanese": "<強制自然解除時ステート:227>\n[全回復無効ステート]",
         "untranslated": false
       }
@@ -83032,7 +83032,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "When naturally removed: Applies \"Vicious Domain -100% MDF\"\n[Full Recovery Disabled State]",
+        "english": "When naturally removed: Applies \"[[STATE:228:Vicious Domain -100% MDF]]\"\n[Full Recovery Disabled State]",
         "japanese": "<強制自然解除時ステート:228>\n[全回復無効ステート]",
         "untranslated": false
       }
@@ -83073,7 +83073,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "When naturally removed: Applies \"Vicious Domain -100% ATK\"\n[Full Recovery Disabled State]",
+        "english": "When naturally removed: Applies \"[[STATE:225:Vicious Domain -100% ATK]]\"\n[Full Recovery Disabled State]",
         "japanese": "<強制自然解除時ステート:225>\n[全回復無効ステート]",
         "untranslated": false
       }
@@ -83338,7 +83338,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "Skill disabled: \"Omnibless\"\nSkill disabled: \"Blessing of Magic\"\nSkill disabled: \"King's Order\"\nSkill disabled: \"Royal Tea\"\nSkill disabled: \"Eight Aspects\"\nSkill disabled: \"Counter\"\nSkill disabled: \"Quickdraw\"\nSkill disabled: \"Ambition\"\nSkill disabled: \"Track Blood\"\nSkill disabled: \"Reload\"\nWhen naturally removed: Applies \"Lion and Unicorn 2\"\n[Full Recovery Disabled State]",
+        "english": "Skill disabled: \"[[SKILL:51:Omnibless]]\"\nSkill disabled: \"[[SKILL:127:Blessing of Magic]]\"\nSkill disabled: \"[[SKILL:140:King's Order]]\"\nSkill disabled: \"[[SKILL:844:Royal Tea]]\"\nSkill disabled: \"[[SKILL:102:Eight Aspects]]\"\nSkill disabled: \"[[SKILL:21:Counter]]\"\nSkill disabled: \"[[SKILL:159:Quickdraw]]\"\nSkill disabled: \"[[SKILL:124:Ambition]]\"\nSkill disabled: \"[[SKILL:118:Track Blood]]\"\nSkill disabled: \"[[SKILL:155:Reload]]\"\nWhen naturally removed: Applies \"[[STATE:230:Lion and Unicorn 2]]\"\n[Full Recovery Disabled State]",
         "japanese": "<スキル無効:51>\n<スキル無効:127>\n<スキル無効:140>\n<スキル無効:844>\n<スキル無効:102>\n<スキル無効:21>\n<スキル無効:159>\n<スキル無効:124>\n<スキル無効:118>\n<スキル無効:155>\n<強制自然解除時ステート:230>\n[全回復無効ステート]",
         "untranslated": false
       }
@@ -83603,7 +83603,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "Skill disabled: \"Omnibless\"\nSkill disabled: \"Blessing of Magic\"\nSkill disabled: \"King's Order\"\nSkill disabled: \"Royal Tea\"\nSkill disabled: \"Eight Aspects\"\nSkill disabled: \"Counter\"\nSkill disabled: \"Quickdraw\"\nSkill disabled: \"Ambition\"\nSkill disabled: \"Track Blood\"\nSkill disabled: \"Reload\"\nWhen naturally removed: Applies \"Lion and Unicorn 3\"\n[Full Recovery Disabled State]",
+        "english": "Skill disabled: \"[[SKILL:51:Omnibless]]\"\nSkill disabled: \"[[SKILL:127:Blessing of Magic]]\"\nSkill disabled: \"[[SKILL:140:King's Order]]\"\nSkill disabled: \"[[SKILL:844:Royal Tea]]\"\nSkill disabled: \"[[SKILL:102:Eight Aspects]]\"\nSkill disabled: \"[[SKILL:21:Counter]]\"\nSkill disabled: \"[[SKILL:159:Quickdraw]]\"\nSkill disabled: \"[[SKILL:124:Ambition]]\"\nSkill disabled: \"[[SKILL:118:Track Blood]]\"\nSkill disabled: \"[[SKILL:155:Reload]]\"\nWhen naturally removed: Applies \"[[STATE:231:Lion and Unicorn 3]]\"\n[Full Recovery Disabled State]",
         "japanese": "<スキル無効:51>\n<スキル無効:127>\n<スキル無効:140>\n<スキル無効:844>\n<スキル無効:102>\n<スキル無効:21>\n<スキル無効:159>\n<スキル無効:124>\n<スキル無効:118>\n<スキル無効:155>\n<強制自然解除時ステート:231>\n[全回復無効ステート]",
         "untranslated": false
       }
@@ -83868,7 +83868,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "Skill disabled: \"Omnibless\"\nSkill disabled: \"Blessing of Magic\"\nSkill disabled: \"King's Order\"\nSkill disabled: \"Royal Tea\"\nSkill disabled: \"Eight Aspects\"\nSkill disabled: \"Counter\"\nSkill disabled: \"Quickdraw\"\nSkill disabled: \"Ambition\"\nSkill disabled: \"Track Blood\"\nSkill disabled: \"Reload\"\nWhen naturally removed: Applies \"Lion and Unicorn 4\"\n[Full Recovery Disabled State]",
+        "english": "Skill disabled: \"[[SKILL:51:Omnibless]]\"\nSkill disabled: \"[[SKILL:127:Blessing of Magic]]\"\nSkill disabled: \"[[SKILL:140:King's Order]]\"\nSkill disabled: \"[[SKILL:844:Royal Tea]]\"\nSkill disabled: \"[[SKILL:102:Eight Aspects]]\"\nSkill disabled: \"[[SKILL:21:Counter]]\"\nSkill disabled: \"[[SKILL:159:Quickdraw]]\"\nSkill disabled: \"[[SKILL:124:Ambition]]\"\nSkill disabled: \"[[SKILL:118:Track Blood]]\"\nSkill disabled: \"[[SKILL:155:Reload]]\"\nWhen naturally removed: Applies \"[[STATE:232:Lion and Unicorn 4]]\"\n[Full Recovery Disabled State]",
         "japanese": "<スキル無効:51>\n<スキル無効:127>\n<スキル無効:140>\n<スキル無効:844>\n<スキル無効:102>\n<スキル無効:21>\n<スキル無効:159>\n<スキル無効:124>\n<スキル無効:118>\n<スキル無効:155>\n<強制自然解除時ステート:232>\n[全回復無効ステート]",
         "untranslated": false
       }
@@ -84133,7 +84133,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "Skill disabled: \"Omnibless\"\nSkill disabled: \"Blessing of Magic\"\nSkill disabled: \"King's Order\"\nSkill disabled: \"Royal Tea\"\nSkill disabled: \"Eight Aspects\"\nSkill disabled: \"Counter\"\nSkill disabled: \"Quickdraw\"\nSkill disabled: \"Ambition\"\nSkill disabled: \"Track Blood\"\nSkill disabled: \"Reload\"\nWhen naturally removed: Applies \"Lion and Unicorn 5\"\n[Full Recovery Disabled State]",
+        "english": "Skill disabled: \"[[SKILL:51:Omnibless]]\"\nSkill disabled: \"[[SKILL:127:Blessing of Magic]]\"\nSkill disabled: \"[[SKILL:140:King's Order]]\"\nSkill disabled: \"[[SKILL:844:Royal Tea]]\"\nSkill disabled: \"[[SKILL:102:Eight Aspects]]\"\nSkill disabled: \"[[SKILL:21:Counter]]\"\nSkill disabled: \"[[SKILL:159:Quickdraw]]\"\nSkill disabled: \"[[SKILL:124:Ambition]]\"\nSkill disabled: \"[[SKILL:118:Track Blood]]\"\nSkill disabled: \"[[SKILL:155:Reload]]\"\nWhen naturally removed: Applies \"[[STATE:233:Lion and Unicorn 5]]\"\n[Full Recovery Disabled State]",
         "japanese": "<スキル無効:51>\n<スキル無効:127>\n<スキル無効:140>\n<スキル無効:844>\n<スキル無効:102>\n<スキル無効:21>\n<スキル無効:159>\n<スキル無効:124>\n<スキル無効:118>\n<スキル無効:155>\n<強制自然解除時ステート:233>\n[全回復無効ステート]",
         "untranslated": false
       }
@@ -84398,7 +84398,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "Skill disabled: \"Omnibless\"\nSkill disabled: \"Blessing of Magic\"\nSkill disabled: \"King's Order\"\nSkill disabled: \"Royal Tea\"\nSkill disabled: \"Eight Aspects\"\nSkill disabled: \"Counter\"\nSkill disabled: \"Quickdraw\"\nSkill disabled: \"Ambition\"\nSkill disabled: \"Track Blood\"\nSkill disabled: \"Reload\"\nWhen naturally removed: Applies \"Lion and Unicorn 6\"\n[Full Recovery Disabled State]",
+        "english": "Skill disabled: \"[[SKILL:51:Omnibless]]\"\nSkill disabled: \"[[SKILL:127:Blessing of Magic]]\"\nSkill disabled: \"[[SKILL:140:King's Order]]\"\nSkill disabled: \"[[SKILL:844:Royal Tea]]\"\nSkill disabled: \"[[SKILL:102:Eight Aspects]]\"\nSkill disabled: \"[[SKILL:21:Counter]]\"\nSkill disabled: \"[[SKILL:159:Quickdraw]]\"\nSkill disabled: \"[[SKILL:124:Ambition]]\"\nSkill disabled: \"[[SKILL:118:Track Blood]]\"\nSkill disabled: \"[[SKILL:155:Reload]]\"\nWhen naturally removed: Applies \"[[STATE:234:Lion and Unicorn 6]]\"\n[Full Recovery Disabled State]",
         "japanese": "<スキル無効:51>\n<スキル無効:127>\n<スキル無効:140>\n<スキル無効:844>\n<スキル無効:102>\n<スキル無効:21>\n<スキル無効:159>\n<スキル無効:124>\n<スキル無効:118>\n<スキル無効:155>\n<強制自然解除時ステート:234>\n[全回復無効ステート]",
         "untranslated": false
       }
@@ -84663,7 +84663,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "Skill disabled: \"Omnibless\"\nSkill disabled: \"Blessing of Magic\"\nSkill disabled: \"King's Order\"\nSkill disabled: \"Royal Tea\"\nSkill disabled: \"Eight Aspects\"\nSkill disabled: \"Counter\"\nSkill disabled: \"Quickdraw\"\nSkill disabled: \"Ambition\"\nSkill disabled: \"Track Blood\"\nSkill disabled: \"Reload\"\n[Full Recovery Disabled State]",
+        "english": "Skill disabled: \"[[SKILL:51:Omnibless]]\"\nSkill disabled: \"[[SKILL:127:Blessing of Magic]]\"\nSkill disabled: \"[[SKILL:140:King's Order]]\"\nSkill disabled: \"[[SKILL:844:Royal Tea]]\"\nSkill disabled: \"[[SKILL:102:Eight Aspects]]\"\nSkill disabled: \"[[SKILL:21:Counter]]\"\nSkill disabled: \"[[SKILL:159:Quickdraw]]\"\nSkill disabled: \"[[SKILL:124:Ambition]]\"\nSkill disabled: \"[[SKILL:118:Track Blood]]\"\nSkill disabled: \"[[SKILL:155:Reload]]\"\n[Full Recovery Disabled State]",
         "japanese": "<スキル無効:51>\n<スキル無効:127>\n<スキル無効:140>\n<スキル無効:844>\n<スキル無効:102>\n<スキル無効:21>\n<スキル無効:159>\n<スキル無効:124>\n<スキル無効:118>\n<スキル無効:155>\n[全回復無効ステート]",
         "untranslated": false
       }
@@ -84711,7 +84711,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "When naturally removed: Applies \"White Prison Domain 2\"\nItems sealed\n[Full Recovery Disabled State]",
+        "english": "When naturally removed: Applies \"[[STATE:236:White Prison Domain 2]]\"\nItems sealed\n[Full Recovery Disabled State]",
         "japanese": "<強制自然解除時ステート:236>\n<アイテム封印>\n[全回復無効ステート]",
         "untranslated": false
       }
@@ -84759,7 +84759,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "When naturally removed: Applies \"White Prison Domain 3\"\nItems sealed\n[Full Recovery Disabled State]",
+        "english": "When naturally removed: Applies \"[[STATE:237:White Prison Domain 3]]\"\nItems sealed\n[Full Recovery Disabled State]",
         "japanese": "<強制自然解除時ステート:237>\n<アイテム封印>\n[全回復無効ステート]",
         "untranslated": false
       }
@@ -84807,7 +84807,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "When naturally removed: Applies \"White Prison Domain 4\"\nItems sealed\n[Full Recovery Disabled State]",
+        "english": "When naturally removed: Applies \"[[STATE:238:White Prison Domain 4]]\"\nItems sealed\n[Full Recovery Disabled State]",
         "japanese": "<強制自然解除時ステート:238>\n<アイテム封印>\n[全回復無効ステート]",
         "untranslated": false
       }
@@ -84855,7 +84855,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "When naturally removed: Applies \"White Prison Domain 5\"\nItems sealed\n[Full Recovery Disabled State]",
+        "english": "When naturally removed: Applies \"[[STATE:239:White Prison Domain 5]]\"\nItems sealed\n[Full Recovery Disabled State]",
         "japanese": "<強制自然解除時ステート:239>\n<アイテム封印>\n[全回復無効ステート]",
         "untranslated": false
       }
@@ -84903,7 +84903,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "When naturally removed: Applies \"White Prison Domain 6\"\nItems sealed\n[Full Recovery Disabled State]",
+        "english": "When naturally removed: Applies \"[[STATE:240:White Prison Domain 6]]\"\nItems sealed\n[Full Recovery Disabled State]",
         "japanese": "<強制自然解除時ステート:240>\n<アイテム封印>\n[全回復無効ステート]",
         "untranslated": false
       }
@@ -85158,7 +85158,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "When naturally removed: Applies \"No Face BA2\"\n[Full Recovery Disabled State]",
+        "english": "When naturally removed: Applies \"[[STATE:243:No Face BA2]]\"\n[Full Recovery Disabled State]",
         "japanese": "<強制自然解除時ステート:243>\n[全回復無効ステート]",
         "untranslated": false
       }
@@ -85199,7 +85199,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "When naturally removed: Applies \"No Face BA3\"\n[Full Recovery Disabled State]",
+        "english": "When naturally removed: Applies \"[[STATE:244:No Face BA3]]\"\n[Full Recovery Disabled State]",
         "japanese": "<強制自然解除時ステート:244>\n[全回復無効ステート]",
         "untranslated": false
       }
@@ -85247,7 +85247,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "When naturally removed: Applies \"No Face BA4\"\n[Full Recovery Disabled State]",
+        "english": "When naturally removed: Applies \"[[STATE:245:No Face BA4]]\"\n[Full Recovery Disabled State]",
         "japanese": "<強制自然解除時ステート:245>\n[全回復無効ステート]",
         "untranslated": false
       }
@@ -85302,7 +85302,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "When naturally removed: Applies \"No Face BA5\"\n[Full Recovery Disabled State]",
+        "english": "When naturally removed: Applies \"[[STATE:246:No Face BA5]]\"\n[Full Recovery Disabled State]",
         "japanese": "<強制自然解除時ステート:246>\n[全回復無効ステート]",
         "untranslated": false
       }
@@ -85364,7 +85364,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "When naturally removed: Applies \"No Face BA6\"\n[Full Recovery Disabled State]",
+        "english": "When naturally removed: Applies \"[[STATE:247:No Face BA6]]\"\n[Full Recovery Disabled State]",
         "japanese": "<強制自然解除時ステート:247>\n[全回復無効ステート]",
         "untranslated": false
       }
@@ -85765,7 +85765,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "Counter skill: \"I'll kill you 2\"",
+        "english": "Counter skill: \"[[SKILL:305:I'll kill you 2]]\"",
         "japanese": "<反撃スキル 305>",
         "untranslated": false
       }
@@ -85849,7 +85849,7 @@ const statesData = {
       "motion": 0,
       "overlay": 0,
       "note": {
-        "english": "Counter skill: \"Drain Counter\"",
+        "english": "Counter skill: \"[[SKILL:174:Drain Counter]]\"",
         "japanese": "<反撃スキル 174>",
         "untranslated": false
       }
@@ -85888,7 +85888,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Gunblade 1\"",
+        "english": "Changes attack to: \"[[SKILL:891:Gunblade 1]]\"",
         "japanese": "<攻撃ID変更:891>\n",
         "untranslated": false
       }
@@ -86303,7 +86303,7 @@ const weaponsData = {
       "params": [],
       "traits": [],
       "note": {
-        "english": "Changes attack to: \"Claws Tear up\"",
+        "english": "Changes attack to: \"[[SKILL:242:Claws Tear up]]\"",
         "japanese": "<攻撃ID変更:242>",
         "untranslated": false
       }
@@ -86323,7 +86323,7 @@ const weaponsData = {
       "params": [],
       "traits": [],
       "note": {
-        "english": "Changes attack to: \"Donkey Attack\"",
+        "english": "Changes attack to: \"[[SKILL:272:Donkey Attack]]\"",
         "japanese": "<攻撃ID変更:272>",
         "untranslated": false
       }
@@ -86378,7 +86378,7 @@ const weaponsData = {
       "params": [],
       "traits": [],
       "note": {
-        "english": "Changes attack to: \"Claws Tear up\"",
+        "english": "Changes attack to: \"[[SKILL:242:Claws Tear up]]\"",
         "japanese": "<攻撃ID変更:242>",
         "untranslated": false
       }
@@ -87181,7 +87181,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Dagger\"\nInitial weapon: Thief\nLiddell Cemetery",
+        "english": "Changes attack to: \"[[SKILL:347:Dagger]]\"\nInitial weapon: Thief\nLiddell Cemetery",
         "japanese": "<攻撃ID変更:347>\n初期武器：盗賊\nリデル墓地",
         "untranslated": false
       }
@@ -87239,7 +87239,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Dagger\"",
+        "english": "Changes attack to: \"[[SKILL:347:Dagger]]\"",
         "japanese": "<攻撃ID変更:347>",
         "untranslated": false
       }
@@ -87297,7 +87297,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Dagger\"",
+        "english": "Changes attack to: \"[[SKILL:347:Dagger]]\"",
         "japanese": "<攻撃ID変更:347>",
         "untranslated": false
       }
@@ -87355,7 +87355,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Dagger\"",
+        "english": "Changes attack to: \"[[SKILL:347:Dagger]]\"",
         "japanese": "<攻撃ID変更:347>",
         "untranslated": false
       }
@@ -87413,7 +87413,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Dagger\"",
+        "english": "Changes attack to: \"[[SKILL:347:Dagger]]\"",
         "japanese": "<攻撃ID変更:347>",
         "untranslated": false
       }
@@ -87471,7 +87471,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Dagger\"",
+        "english": "Changes attack to: \"[[SKILL:347:Dagger]]\"",
         "japanese": "<攻撃ID変更:347>",
         "untranslated": false
       }
@@ -87529,7 +87529,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Dagger\"",
+        "english": "Changes attack to: \"[[SKILL:347:Dagger]]\"",
         "japanese": "<攻撃ID変更:347>",
         "untranslated": false
       }
@@ -87587,7 +87587,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Dagger\"",
+        "english": "Changes attack to: \"[[SKILL:347:Dagger]]\"",
         "japanese": "<攻撃ID変更:347>",
         "untranslated": false
       }
@@ -87645,7 +87645,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Dagger\"",
+        "english": "Changes attack to: \"[[SKILL:347:Dagger]]\"",
         "japanese": "<攻撃ID変更:347>",
         "untranslated": false
       }
@@ -87703,7 +87703,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Dagger\"",
+        "english": "Changes attack to: \"[[SKILL:347:Dagger]]\"",
         "japanese": "<攻撃ID変更:347>",
         "untranslated": false
       }
@@ -87768,7 +87768,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Dagger 2\"",
+        "english": "Changes attack to: \"[[SKILL:349:Dagger 2]]\"",
         "japanese": "<攻撃ID変更:349>",
         "untranslated": false
       }
@@ -88514,7 +88514,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Drain Attack\"\nLick Lick\nSynthesis setting: 0, 49, 10",
+        "english": "Changes attack to: \"[[SKILL:154:Drain Attack]]\"\nLick Lick\nSynthesis setting: 0, 49, 10",
         "japanese": "<攻撃ID変更:154>\nぺろぺろ\n<合成設定:0,49,10>",
         "untranslated": false
       }
@@ -88575,7 +88575,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Drain Attack\"",
+        "english": "Changes attack to: \"[[SKILL:154:Drain Attack]]\"",
         "japanese": "<攻撃ID変更:154>",
         "untranslated": false
       }
@@ -88636,7 +88636,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Drain Attack\"",
+        "english": "Changes attack to: \"[[SKILL:154:Drain Attack]]\"",
         "japanese": "<攻撃ID変更:154>",
         "untranslated": false
       }
@@ -88697,7 +88697,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Drain Attack\"",
+        "english": "Changes attack to: \"[[SKILL:154:Drain Attack]]\"",
         "japanese": "<攻撃ID変更:154>",
         "untranslated": false
       }
@@ -88758,7 +88758,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Drain Attack\"",
+        "english": "Changes attack to: \"[[SKILL:154:Drain Attack]]\"",
         "japanese": "<攻撃ID変更:154>",
         "untranslated": false
       }
@@ -88819,7 +88819,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Drain Attack\"",
+        "english": "Changes attack to: \"[[SKILL:154:Drain Attack]]\"",
         "japanese": "<攻撃ID変更:154>",
         "untranslated": false
       }
@@ -88880,7 +88880,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Drain Attack\"",
+        "english": "Changes attack to: \"[[SKILL:154:Drain Attack]]\"",
         "japanese": "<攻撃ID変更:154>",
         "untranslated": false
       }
@@ -88941,7 +88941,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Drain Attack\"",
+        "english": "Changes attack to: \"[[SKILL:154:Drain Attack]]\"",
         "japanese": "<攻撃ID変更:154>",
         "untranslated": false
       }
@@ -89002,7 +89002,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Drain Attack\"",
+        "english": "Changes attack to: \"[[SKILL:154:Drain Attack]]\"",
         "japanese": "<攻撃ID変更:154>",
         "untranslated": false
       }
@@ -89063,7 +89063,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Drain Attack\"",
+        "english": "Changes attack to: \"[[SKILL:154:Drain Attack]]\"",
         "japanese": "<攻撃ID変更:154>",
         "untranslated": false
       }
@@ -89131,7 +89131,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Drain Attack\"",
+        "english": "Changes attack to: \"[[SKILL:154:Drain Attack]]\"",
         "japanese": "<攻撃ID変更:154>",
         "untranslated": false
       }
@@ -89192,7 +89192,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Counter skill: \"Attack\"\nDropped by skeleton",
+        "english": "Counter skill: \"[[SKILL:1:Attack]]\"\nDropped by skeleton",
         "japanese": "<反撃スキル 1>\nスケルトン　ドロップ",
         "untranslated": false
       }
@@ -94353,7 +94353,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Bunker Shield\"\nFog Park",
+        "english": "Changes attack to: \"[[SKILL:286:Bunker Shield]]\"\nFog Park",
         "japanese": "<攻撃ID変更:286>\n霧の公園\n",
         "untranslated": false
       }
@@ -94407,7 +94407,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Bunker Shield\"",
+        "english": "Changes attack to: \"[[SKILL:286:Bunker Shield]]\"",
         "japanese": "<攻撃ID変更:286>",
         "untranslated": false
       }
@@ -94461,7 +94461,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Bunker Shield\"",
+        "english": "Changes attack to: \"[[SKILL:286:Bunker Shield]]\"",
         "japanese": "<攻撃ID変更:286>",
         "untranslated": false
       }
@@ -94515,7 +94515,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Bunker Shield\"",
+        "english": "Changes attack to: \"[[SKILL:286:Bunker Shield]]\"",
         "japanese": "<攻撃ID変更:286>",
         "untranslated": false
       }
@@ -94569,7 +94569,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Bunker Shield\"",
+        "english": "Changes attack to: \"[[SKILL:286:Bunker Shield]]\"",
         "japanese": "<攻撃ID変更:286>",
         "untranslated": false
       }
@@ -94623,7 +94623,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Bunker Shield\"",
+        "english": "Changes attack to: \"[[SKILL:286:Bunker Shield]]\"",
         "japanese": "<攻撃ID変更:286>",
         "untranslated": false
       }
@@ -94677,7 +94677,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Bunker Shield\"",
+        "english": "Changes attack to: \"[[SKILL:286:Bunker Shield]]\"",
         "japanese": "<攻撃ID変更:286>",
         "untranslated": false
       }
@@ -94731,7 +94731,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Bunker Shield\"",
+        "english": "Changes attack to: \"[[SKILL:286:Bunker Shield]]\"",
         "japanese": "<攻撃ID変更:286>",
         "untranslated": false
       }
@@ -94785,7 +94785,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Bunker Shield\"",
+        "english": "Changes attack to: \"[[SKILL:286:Bunker Shield]]\"",
         "japanese": "<攻撃ID変更:286>",
         "untranslated": false
       }
@@ -94839,7 +94839,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Bunker Shield\"",
+        "english": "Changes attack to: \"[[SKILL:286:Bunker Shield]]\"",
         "japanese": "<攻撃ID変更:286>",
         "untranslated": false
       }
@@ -94900,7 +94900,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Bunker Shield\"",
+        "english": "Changes attack to: \"[[SKILL:286:Bunker Shield]]\"",
         "japanese": "<攻撃ID変更:286>\n",
         "untranslated": false
       }
@@ -96801,7 +96801,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Fist\"\nElevator",
+        "english": "Changes attack to: \"[[SKILL:348:Fist]]\"\nElevator",
         "japanese": "<攻撃ID変更:348>\n昇降機",
         "untranslated": false
       }
@@ -96855,7 +96855,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Fist\"",
+        "english": "Changes attack to: \"[[SKILL:348:Fist]]\"",
         "japanese": "<攻撃ID変更:348>",
         "untranslated": false
       }
@@ -96909,7 +96909,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Fist\"",
+        "english": "Changes attack to: \"[[SKILL:348:Fist]]\"",
         "japanese": "<攻撃ID変更:348>",
         "untranslated": false
       }
@@ -96963,7 +96963,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Fist\"",
+        "english": "Changes attack to: \"[[SKILL:348:Fist]]\"",
         "japanese": "<攻撃ID変更:348>",
         "untranslated": false
       }
@@ -97017,7 +97017,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Fist\"",
+        "english": "Changes attack to: \"[[SKILL:348:Fist]]\"",
         "japanese": "<攻撃ID変更:348>",
         "untranslated": false
       }
@@ -97071,7 +97071,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Fist\"",
+        "english": "Changes attack to: \"[[SKILL:348:Fist]]\"",
         "japanese": "<攻撃ID変更:348>",
         "untranslated": false
       }
@@ -97125,7 +97125,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Fist\"",
+        "english": "Changes attack to: \"[[SKILL:348:Fist]]\"",
         "japanese": "<攻撃ID変更:348>",
         "untranslated": false
       }
@@ -97179,7 +97179,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Fist\"",
+        "english": "Changes attack to: \"[[SKILL:348:Fist]]\"",
         "japanese": "<攻撃ID変更:348>",
         "untranslated": false
       }
@@ -97233,7 +97233,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Fist\"",
+        "english": "Changes attack to: \"[[SKILL:348:Fist]]\"",
         "japanese": "<攻撃ID変更:348>",
         "untranslated": false
       }
@@ -97287,7 +97287,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Fist\"",
+        "english": "Changes attack to: \"[[SKILL:348:Fist]]\"",
         "japanese": "<攻撃ID変更:348>",
         "untranslated": false
       }
@@ -97348,7 +97348,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Fist\"",
+        "english": "Changes attack to: \"[[SKILL:348:Fist]]\"",
         "japanese": "<攻撃ID変更:348>",
         "untranslated": false
       }
@@ -99497,7 +99497,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Area Attack\"\nExecutioner's Beast",
+        "english": "Changes attack to: \"[[SKILL:131:Area Attack]]\"\nExecutioner's Beast",
         "japanese": "<攻撃ID変更:131>\n刑史のビースト",
         "untranslated": false
       }
@@ -99551,7 +99551,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Area Attack\"",
+        "english": "Changes attack to: \"[[SKILL:131:Area Attack]]\"",
         "japanese": "<攻撃ID変更:131>",
         "untranslated": false
       }
@@ -99605,7 +99605,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Area Attack\"",
+        "english": "Changes attack to: \"[[SKILL:131:Area Attack]]\"",
         "japanese": "<攻撃ID変更:131>",
         "untranslated": false
       }
@@ -99659,7 +99659,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Area Attack\"",
+        "english": "Changes attack to: \"[[SKILL:131:Area Attack]]\"",
         "japanese": "<攻撃ID変更:131>",
         "untranslated": false
       }
@@ -99713,7 +99713,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Area Attack\"",
+        "english": "Changes attack to: \"[[SKILL:131:Area Attack]]\"",
         "japanese": "<攻撃ID変更:131>",
         "untranslated": false
       }
@@ -99774,7 +99774,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Area Attack\"",
+        "english": "Changes attack to: \"[[SKILL:131:Area Attack]]\"",
         "japanese": "<攻撃ID変更:131>",
         "untranslated": false
       }
@@ -99832,7 +99832,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Psychiatric Ward\nChanges attack to: \"Hans Attack\"",
+        "english": "Psychiatric Ward\nChanges attack to: \"[[SKILL:549:Hans Attack]]\"",
         "japanese": "精神病棟\n<攻撃ID変更:549>",
         "untranslated": false
       }
@@ -99890,7 +99890,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Hans Attack\"",
+        "english": "Changes attack to: \"[[SKILL:549:Hans Attack]]\"",
         "japanese": "<攻撃ID変更:549>",
         "untranslated": false
       }
@@ -99948,7 +99948,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Hans Attack\"",
+        "english": "Changes attack to: \"[[SKILL:549:Hans Attack]]\"",
         "japanese": "<攻撃ID変更:549>",
         "untranslated": false
       }
@@ -100006,7 +100006,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Hans Attack\"",
+        "english": "Changes attack to: \"[[SKILL:549:Hans Attack]]\"",
         "japanese": "<攻撃ID変更:549>",
         "untranslated": false
       }
@@ -100064,7 +100064,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Hans Attack\"",
+        "english": "Changes attack to: \"[[SKILL:549:Hans Attack]]\"",
         "japanese": "<攻撃ID変更:549>",
         "untranslated": false
       }
@@ -100136,7 +100136,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Hans Attack\"",
+        "english": "Changes attack to: \"[[SKILL:549:Hans Attack]]\"",
         "japanese": "<攻撃ID変更:549>",
         "untranslated": false
       }
@@ -100731,7 +100731,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Storm Ruler\"\nPsychiatric Ward",
+        "english": "Changes attack to: \"[[SKILL:283:Storm Ruler]]\"\nPsychiatric Ward",
         "japanese": "<攻撃ID変更:283>\n精神病棟",
         "untranslated": false
       }
@@ -100785,7 +100785,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Storm Ruler\"",
+        "english": "Changes attack to: \"[[SKILL:283:Storm Ruler]]\"",
         "japanese": "<攻撃ID変更:283>",
         "untranslated": false
       }
@@ -100839,7 +100839,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Storm Ruler\"",
+        "english": "Changes attack to: \"[[SKILL:283:Storm Ruler]]\"",
         "japanese": "<攻撃ID変更:283>",
         "untranslated": false
       }
@@ -100893,7 +100893,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Storm Ruler\"",
+        "english": "Changes attack to: \"[[SKILL:283:Storm Ruler]]\"",
         "japanese": "<攻撃ID変更:283>",
         "untranslated": false
       }
@@ -100947,7 +100947,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Storm Ruler\"",
+        "english": "Changes attack to: \"[[SKILL:283:Storm Ruler]]\"",
         "japanese": "<攻撃ID変更:283>",
         "untranslated": false
       }
@@ -101009,7 +101009,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Storm Ruler\"",
+        "english": "Changes attack to: \"[[SKILL:283:Storm Ruler]]\"",
         "japanese": "<攻撃ID変更:283>",
         "untranslated": false
       }
@@ -102846,7 +102846,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Jabberwock's Scythe\"\nJabberwock Soul",
+        "english": "Changes attack to: \"[[SKILL:490:Jabberwock's Scythe]]\"\nJabberwock Soul",
         "japanese": "<攻撃ID変更:490>\nジャバソウル",
         "untranslated": false
       }
@@ -102897,7 +102897,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Jabberwock's Scythe\"",
+        "english": "Changes attack to: \"[[SKILL:490:Jabberwock's Scythe]]\"",
         "japanese": "<攻撃ID変更:490>",
         "untranslated": false
       }
@@ -102948,7 +102948,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Jabberwock's Scythe\"",
+        "english": "Changes attack to: \"[[SKILL:490:Jabberwock's Scythe]]\"",
         "japanese": "<攻撃ID変更:490>",
         "untranslated": false
       }
@@ -102999,7 +102999,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Jabberwock's Scythe\"",
+        "english": "Changes attack to: \"[[SKILL:490:Jabberwock's Scythe]]\"",
         "japanese": "<攻撃ID変更:490>",
         "untranslated": false
       }
@@ -103050,7 +103050,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Jabberwock's Scythe\"",
+        "english": "Changes attack to: \"[[SKILL:490:Jabberwock's Scythe]]\"",
         "japanese": "<攻撃ID変更:490>",
         "untranslated": false
       }
@@ -103108,7 +103108,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Jabberwock's Scythe\"",
+        "english": "Changes attack to: \"[[SKILL:490:Jabberwock's Scythe]]\"",
         "japanese": "<攻撃ID変更:490>",
         "untranslated": false
       }
@@ -103148,7 +103148,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Jub Bow 2 Random\"\nJab Soul",
+        "english": "Changes attack to: \"[[SKILL:494:Jub Bow 2 Random]]\"\nJab Soul",
         "japanese": "<攻撃ID変更:494>\nジャブソウル",
         "untranslated": false
       }
@@ -103188,7 +103188,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Jub Bow 2 Random\"",
+        "english": "Changes attack to: \"[[SKILL:494:Jub Bow 2 Random]]\"",
         "japanese": "<攻撃ID変更:494>",
         "untranslated": false
       }
@@ -103228,7 +103228,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Jub Bow 2 Random\"",
+        "english": "Changes attack to: \"[[SKILL:494:Jub Bow 2 Random]]\"",
         "japanese": "<攻撃ID変更:494>",
         "untranslated": false
       }
@@ -103268,7 +103268,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Jub Bow 3 Random\"",
+        "english": "Changes attack to: \"[[SKILL:495:Jub Bow 3 Random]]\"",
         "japanese": "<攻撃ID変更:495>",
         "untranslated": false
       }
@@ -103308,7 +103308,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Jub Bow 3 Random\"",
+        "english": "Changes attack to: \"[[SKILL:495:Jub Bow 3 Random]]\"",
         "japanese": "<攻撃ID変更:495>",
         "untranslated": false
       }
@@ -103348,7 +103348,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Jub Bow 4 Random\"",
+        "english": "Changes attack to: \"[[SKILL:496:Jub Bow 4 Random]]\"",
         "japanese": "<攻撃ID変更:496>",
         "untranslated": false
       }
@@ -103392,7 +103392,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Miranda's Axe\"\nBeach of Sorrow",
+        "english": "Changes attack to: \"[[SKILL:498:Miranda's Axe]]\"\nBeach of Sorrow",
         "japanese": "<攻撃ID変更:498>\n嘆きの浜辺",
         "untranslated": false
       }
@@ -103436,7 +103436,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Miranda's Axe\"\nBeach of Sorrow",
+        "english": "Changes attack to: \"[[SKILL:498:Miranda's Axe]]\"\nBeach of Sorrow",
         "japanese": "<攻撃ID変更:498>\n嘆きの浜辺",
         "untranslated": false
       }
@@ -103480,7 +103480,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Miranda's Axe\"\nBeach of Sorrow",
+        "english": "Changes attack to: \"[[SKILL:498:Miranda's Axe]]\"\nBeach of Sorrow",
         "japanese": "<攻撃ID変更:498>\n嘆きの浜辺",
         "untranslated": false
       }
@@ -103524,7 +103524,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Miranda's Axe\"\nBeach of Sorrow",
+        "english": "Changes attack to: \"[[SKILL:498:Miranda's Axe]]\"\nBeach of Sorrow",
         "japanese": "<攻撃ID変更:498>\n嘆きの浜辺",
         "untranslated": false
       }
@@ -103568,7 +103568,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Miranda's Axe\"\nBeach of Sorrow",
+        "english": "Changes attack to: \"[[SKILL:498:Miranda's Axe]]\"\nBeach of Sorrow",
         "japanese": "<攻撃ID変更:498>\n嘆きの浜辺",
         "untranslated": false
       }
@@ -103612,7 +103612,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Miranda's Axe\"\nBeach of Sorrow",
+        "english": "Changes attack to: \"[[SKILL:498:Miranda's Axe]]\"\nBeach of Sorrow",
         "japanese": "<攻撃ID変更:498>\n嘆きの浜辺",
         "untranslated": false
       }
@@ -104356,7 +104356,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Lost Sword\"\nChaos Dungeon",
+        "english": "Changes attack to: \"[[SKILL:587:Lost Sword]]\"\nChaos Dungeon",
         "japanese": "<攻撃ID変更:587>\n混沌ダンジョン",
         "untranslated": false
       }
@@ -104414,7 +104414,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Lost Sword\"\nChaos Dungeon",
+        "english": "Changes attack to: \"[[SKILL:587:Lost Sword]]\"\nChaos Dungeon",
         "japanese": "<攻撃ID変更:587>\n混沌ダンジョン",
         "untranslated": false
       }
@@ -104472,7 +104472,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Lost Sword\"\nChaos Dungeon",
+        "english": "Changes attack to: \"[[SKILL:587:Lost Sword]]\"\nChaos Dungeon",
         "japanese": "<攻撃ID変更:587>\n混沌ダンジョン",
         "untranslated": false
       }
@@ -104530,7 +104530,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Lost Sword\"\nChaos Dungeon",
+        "english": "Changes attack to: \"[[SKILL:587:Lost Sword]]\"\nChaos Dungeon",
         "japanese": "<攻撃ID変更:587>\n混沌ダンジョン",
         "untranslated": false
       }
@@ -104588,7 +104588,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Lost Sword\"\nChaos Dungeon",
+        "english": "Changes attack to: \"[[SKILL:587:Lost Sword]]\"\nChaos Dungeon",
         "japanese": "<攻撃ID変更:587>\n混沌ダンジョン",
         "untranslated": false
       }
@@ -104653,7 +104653,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Lost Sword\"\nChaos Dungeon",
+        "english": "Changes attack to: \"[[SKILL:587:Lost Sword]]\"\nChaos Dungeon",
         "japanese": "<攻撃ID変更:587>\n混沌ダンジョン",
         "untranslated": false
       }
@@ -104700,7 +104700,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Gla'akid\"\nChaos Dungeon",
+        "english": "Changes attack to: \"[[SKILL:591:Gla'akid]]\"\nChaos Dungeon",
         "japanese": "<攻撃ID変更:591>\n混沌ダンジョン",
         "untranslated": false
       }
@@ -104747,7 +104747,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Gla'akid\"\nChaos Dungeon",
+        "english": "Changes attack to: \"[[SKILL:591:Gla'akid]]\"\nChaos Dungeon",
         "japanese": "<攻撃ID変更:591>\n混沌ダンジョン",
         "untranslated": false
       }
@@ -104794,7 +104794,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Gla'akid\"\nChaos Dungeon",
+        "english": "Changes attack to: \"[[SKILL:591:Gla'akid]]\"\nChaos Dungeon",
         "japanese": "<攻撃ID変更:591>\n混沌ダンジョン",
         "untranslated": false
       }
@@ -104841,7 +104841,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Gla'akid\"\nChaos Dungeon",
+        "english": "Changes attack to: \"[[SKILL:591:Gla'akid]]\"\nChaos Dungeon",
         "japanese": "<攻撃ID変更:591>\n混沌ダンジョン",
         "untranslated": false
       }
@@ -104888,7 +104888,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Gla'akid\"\nChaos Dungeon",
+        "english": "Changes attack to: \"[[SKILL:591:Gla'akid]]\"\nChaos Dungeon",
         "japanese": "<攻撃ID変更:591>\n混沌ダンジョン",
         "untranslated": false
       }
@@ -104942,7 +104942,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Gla'akid\"\nChaos Dungeon",
+        "english": "Changes attack to: \"[[SKILL:591:Gla'akid]]\"\nChaos Dungeon",
         "japanese": "<攻撃ID変更:591>\n混沌ダンジョン",
         "untranslated": false
       }
@@ -104996,7 +104996,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Chainsaw\"\nChaos Dungeon",
+        "english": "Changes attack to: \"[[SKILL:601:Chainsaw]]\"\nChaos Dungeon",
         "japanese": "<攻撃ID変更:601>\n混沌ダンジョン",
         "untranslated": false
       }
@@ -105050,7 +105050,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Chainsaw\"\nChaos Dungeon",
+        "english": "Changes attack to: \"[[SKILL:601:Chainsaw]]\"\nChaos Dungeon",
         "japanese": "<攻撃ID変更:601>\n混沌ダンジョン",
         "untranslated": false
       }
@@ -105104,7 +105104,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Chainsaw\"\nChaos Dungeon",
+        "english": "Changes attack to: \"[[SKILL:601:Chainsaw]]\"\nChaos Dungeon",
         "japanese": "<攻撃ID変更:601>\n混沌ダンジョン",
         "untranslated": false
       }
@@ -105158,7 +105158,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Chainsaw\"\nChaos Dungeon",
+        "english": "Changes attack to: \"[[SKILL:601:Chainsaw]]\"\nChaos Dungeon",
         "japanese": "<攻撃ID変更:601>\n混沌ダンジョン",
         "untranslated": false
       }
@@ -105212,7 +105212,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Chainsaw\"\nChaos Dungeon",
+        "english": "Changes attack to: \"[[SKILL:601:Chainsaw]]\"\nChaos Dungeon",
         "japanese": "<攻撃ID変更:601>\n混沌ダンジョン",
         "untranslated": false
       }
@@ -105273,7 +105273,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Chainsaw\"\nChaos Dungeon",
+        "english": "Changes attack to: \"[[SKILL:601:Chainsaw]]\"\nChaos Dungeon",
         "japanese": "<攻撃ID変更:601>\n混沌ダンジョン",
         "untranslated": false
       }
@@ -105626,7 +105626,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Twin Blades1\"\nCrimia",
+        "english": "Changes attack to: \"[[SKILL:852:Twin Blades1]]\"\nCrimia",
         "japanese": "<攻撃ID変更:852>\nクリミア",
         "untranslated": false
       }
@@ -105666,7 +105666,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Twin Blades1\"",
+        "english": "Changes attack to: \"[[SKILL:852:Twin Blades1]]\"",
         "japanese": "<攻撃ID変更:852>\n",
         "untranslated": false
       }
@@ -105706,7 +105706,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Twin Blades1\"",
+        "english": "Changes attack to: \"[[SKILL:852:Twin Blades1]]\"",
         "japanese": "<攻撃ID変更:852>\n",
         "untranslated": false
       }
@@ -105746,7 +105746,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Twin Blades1\"",
+        "english": "Changes attack to: \"[[SKILL:852:Twin Blades1]]\"",
         "japanese": "<攻撃ID変更:852>\n",
         "untranslated": false
       }
@@ -105786,7 +105786,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Twin Blades1\"",
+        "english": "Changes attack to: \"[[SKILL:852:Twin Blades1]]\"",
         "japanese": "<攻撃ID変更:852>\n",
         "untranslated": false
       }
@@ -105826,7 +105826,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Twin Blades1\"",
+        "english": "Changes attack to: \"[[SKILL:852:Twin Blades1]]\"",
         "japanese": "<攻撃ID変更:852>\n",
         "untranslated": false
       }
@@ -105880,7 +105880,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Gunblade 1\"\nBefore battle: 100% chance to apply \"Bullet Switch 1\"",
+        "english": "Changes attack to: \"[[SKILL:891:Gunblade 1]]\"\nBefore battle: 100% chance to apply \"[[STATE:190:Bullet Switch 1]]\"",
         "japanese": "<攻撃ID変更:891>\n<戦闘前ステート付与:190,100>\n",
         "untranslated": false
       }
@@ -105934,7 +105934,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Gunblade 1\"\nBefore battle: 100% chance to apply \"Bullet Switch 1\"",
+        "english": "Changes attack to: \"[[SKILL:891:Gunblade 1]]\"\nBefore battle: 100% chance to apply \"[[STATE:190:Bullet Switch 1]]\"",
         "japanese": "<攻撃ID変更:891>\n<戦闘前ステート付与:190,100>\n",
         "untranslated": false
       }
@@ -105988,7 +105988,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Gunblade 1\"\nBefore battle: 100% chance to apply \"Bullet Switch 1\"",
+        "english": "Changes attack to: \"[[SKILL:891:Gunblade 1]]\"\nBefore battle: 100% chance to apply \"[[STATE:190:Bullet Switch 1]]\"",
         "japanese": "<攻撃ID変更:891>\n<戦闘前ステート付与:190,100>\n",
         "untranslated": false
       }
@@ -106042,7 +106042,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Gunblade 1\"\nBefore battle: 100% chance to apply \"Bullet Switch 1\"",
+        "english": "Changes attack to: \"[[SKILL:891:Gunblade 1]]\"\nBefore battle: 100% chance to apply \"[[STATE:190:Bullet Switch 1]]\"",
         "japanese": "<攻撃ID変更:891>\n<戦闘前ステート付与:190,100>\n",
         "untranslated": false
       }
@@ -106096,7 +106096,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Gunblade 1\"\nBefore battle: 100% chance to apply \"Bullet Switch 1\"",
+        "english": "Changes attack to: \"[[SKILL:891:Gunblade 1]]\"\nBefore battle: 100% chance to apply \"[[STATE:190:Bullet Switch 1]]\"",
         "japanese": "<攻撃ID変更:891>\n<戦闘前ステート付与:190,100>\n",
         "untranslated": false
       }
@@ -106164,7 +106164,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Gunblade 1\"\nBefore battle: 100% chance to apply \"Bullet Switch 1\"",
+        "english": "Changes attack to: \"[[SKILL:891:Gunblade 1]]\"\nBefore battle: 100% chance to apply \"[[STATE:190:Bullet Switch 1]]\"",
         "japanese": "<攻撃ID変更:891>\n<戦闘前ステート付与:190,100>\n",
         "untranslated": false
       }
@@ -106334,7 +106334,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Mary's Wand\"\nChaos",
+        "english": "Changes attack to: \"[[SKILL:967:Mary's Wand]]\"\nChaos",
         "japanese": "<攻撃ID変更:967>\n混沌",
         "untranslated": false
       }
@@ -106388,7 +106388,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Rapier Attack\"",
+        "english": "Changes attack to: \"[[SKILL:968:Rapier Attack]]\"",
         "japanese": "<攻撃ID変更:968>",
         "untranslated": false
       }
@@ -106442,7 +106442,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Rapier Attack\"",
+        "english": "Changes attack to: \"[[SKILL:968:Rapier Attack]]\"",
         "japanese": "<攻撃ID変更:968>",
         "untranslated": false
       }
@@ -106496,7 +106496,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Rapier Attack\"",
+        "english": "Changes attack to: \"[[SKILL:968:Rapier Attack]]\"",
         "japanese": "<攻撃ID変更:968>",
         "untranslated": false
       }
@@ -106550,7 +106550,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Rapier Attack\"",
+        "english": "Changes attack to: \"[[SKILL:968:Rapier Attack]]\"",
         "japanese": "<攻撃ID変更:968>",
         "untranslated": false
       }
@@ -106604,7 +106604,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Rapier Attack\"",
+        "english": "Changes attack to: \"[[SKILL:968:Rapier Attack]]\"",
         "japanese": "<攻撃ID変更:968>",
         "untranslated": false
       }
@@ -106665,7 +106665,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Rapier Attack\"",
+        "english": "Changes attack to: \"[[SKILL:968:Rapier Attack]]\"",
         "japanese": "<攻撃ID変更:968>",
         "untranslated": false
       }
@@ -106719,7 +106719,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Leiden's Twin Axes\"",
+        "english": "Changes attack to: \"[[SKILL:984:Leiden's Twin Axes]]\"",
         "japanese": "<攻撃ID変更:984>\n",
         "untranslated": false
       }
@@ -106773,7 +106773,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Leiden's Twin Axes\"",
+        "english": "Changes attack to: \"[[SKILL:984:Leiden's Twin Axes]]\"",
         "japanese": "<攻撃ID変更:984>\n",
         "untranslated": false
       }
@@ -106827,7 +106827,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Leiden's Twin Axes\"",
+        "english": "Changes attack to: \"[[SKILL:984:Leiden's Twin Axes]]\"",
         "japanese": "<攻撃ID変更:984>\n",
         "untranslated": false
       }
@@ -106881,7 +106881,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Leiden's Twin Axes\"",
+        "english": "Changes attack to: \"[[SKILL:984:Leiden's Twin Axes]]\"",
         "japanese": "<攻撃ID変更:984>\n",
         "untranslated": false
       }
@@ -106935,7 +106935,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Leiden's Twin Axes\"",
+        "english": "Changes attack to: \"[[SKILL:984:Leiden's Twin Axes]]\"",
         "japanese": "<攻撃ID変更:984>\n",
         "untranslated": false
       }
@@ -106996,7 +106996,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"Leiden's Twin Axes\"",
+        "english": "Changes attack to: \"[[SKILL:984:Leiden's Twin Axes]]\"",
         "japanese": "<攻撃ID変更:984>\n",
         "untranslated": false
       }
@@ -110788,7 +110788,7 @@ const armorsData = {
         }
       ],
       "note": {
-        "english": "Before battle: 100% chance to apply \"Deadly Poison\"\nLiddell Cemetery",
+        "english": "Before battle: 100% chance to apply \"[[STATE:3:Deadly Poison]]\"\nLiddell Cemetery",
         "japanese": "<戦闘前ステート付与:3,100>\nリデル墓地",
         "untranslated": false
       }
@@ -111959,7 +111959,7 @@ const armorsData = {
       "params": [],
       "traits": [],
       "note": {
-        "english": "Auto-revive: 500 HP, applies \"Rage\" (100% chance)\nAuto-revive break chance: 75%\nPumpkin Base",
+        "english": "Auto-revive: 500 HP, applies \"[[STATE:42:Rage]]\" (100% chance)\nAuto-revive break chance: 75%\nPumpkin Base",
         "japanese": "<自動蘇生:500,42,100>\n<自動蘇生破損:75>\nカボチャの拠点",
         "untranslated": false
       }
@@ -113921,7 +113921,7 @@ const armorsData = {
       "params": [],
       "traits": [],
       "note": {
-        "english": "Before battle: 100% chance to apply \"Dodge\"\nLick Lick Please\nSynthesis setting: 0, 49, 5",
+        "english": "Before battle: 100% chance to apply \"[[STATE:16:Dodge]]\"\nLick Lick Please\nSynthesis setting: 0, 49, 5",
         "japanese": "<戦闘前ステート付与:16,100>\nぺろぺろちょうだい\n<合成設定:0,49,5>",
         "untranslated": false
       }
@@ -113945,7 +113945,7 @@ const armorsData = {
       "params": [],
       "traits": [],
       "note": {
-        "english": "Before battle: 100% chance to apply \"Rampage\"\nLick Lick Please\nSynthesis setting: 0, 49, 10",
+        "english": "Before battle: 100% chance to apply \"[[STATE:38:Rampage]]\"\nLick Lick Please\nSynthesis setting: 0, 49, 10",
         "japanese": "<戦闘前ステート付与:38,100>\nぺろぺろちょうだい\n<合成設定:0,49,10>",
         "untranslated": false
       }
@@ -114001,7 +114001,7 @@ const armorsData = {
       "params": [],
       "traits": [],
       "note": {
-        "english": "Before battle: 100% chance to apply \"Poison\" (10 turns)\nBefore battle: 100% chance to apply \"Deadly Poison\" (10 turns)\nBefore battle: 100% chance to apply \"Virulent Poison\" (10 turns)\nBefore battle: 100% chance to apply \"Oiled\" (10 turns)\nBefore battle: 100% chance to apply \"Sleep\" (10 turns)\nBefore battle: 100% chance to apply \"Hard Break Vulnerable\" (10 turns)\nHorrible Hindley",
+        "english": "Before battle: 100% chance to apply \"[[STATE:2:Poison]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:3:Deadly Poison]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:4:Virulent Poison]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:5:Oiled]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:6:Sleep]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:7:Hard Break Vulnerable]]\" (10 turns)\nHorrible Hindley",
         "japanese": "<戦闘前強化付与:2,10,100>\n<戦闘前強化付与:3,10,100>\n<戦闘前強化付与:4,10,100>\n<戦闘前強化付与:5,10,100>\n<戦闘前強化付与:6,10,100>\n<戦闘前強化付与:7,10,100>\nおぞましいヒンドリー",
         "untranslated": false
       }
@@ -116314,7 +116314,7 @@ const armorsData = {
         }
       ],
       "note": {
-        "english": "Auto-revive: 500 HP, applies \"Rage\" (80% chance)\nNurses' Souls",
+        "english": "Auto-revive: 500 HP, applies \"[[STATE:42:Rage]]\" (80% chance)\nNurses' Souls",
         "japanese": "<自動蘇生:500,42,80>\n乳母たちのソウル",
         "untranslated": false
       }
@@ -116389,7 +116389,7 @@ const armorsData = {
       ],
       "traits": [],
       "note": {
-        "english": "Before battle: 100% chance to apply \"Lorde's Buff\"\nLord",
+        "english": "Before battle: 100% chance to apply \"[[STATE:164:Lorde's Buff]]\"\nLord",
         "japanese": "<戦闘前ステート付与:164,100>\nロルド",
         "untranslated": false
       }
@@ -117139,7 +117139,7 @@ const armorsData = {
       "params": [],
       "traits": [],
       "note": {
-        "english": "Before battle: 100% chance to apply \"Indomitable Buff\"\nWhite Castle Town Street",
+        "english": "Before battle: 100% chance to apply \"[[STATE:170:Indomitable Buff]]\"\nWhite Castle Town Street",
         "japanese": "<戦闘前ステート付与:170,100>\n白の城下街\n",
         "untranslated": false
       }
@@ -161545,7 +161545,7 @@ const enemiesData = {
       "exp": 0,
       "gold": 9200,
       "note": {
-        "english": "Before battle: 100% chance to apply \"Poison\" (10 turns)\nBefore battle: 100% chance to apply \"Deadly Poison\" (10 turns)\nBefore battle: 100% chance to apply \"Virulent Poison\" (10 turns)\nBefore battle: 100% chance to apply \"Oiled\" (10 turns)\nBefore battle: 100% chance to apply \"Sleep\" (10 turns)\nBefore battle: 100% chance to apply \"Hard Break Vulnerable\" (10 turns)",
+        "english": "Before battle: 100% chance to apply \"[[STATE:2:Poison]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:3:Deadly Poison]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:4:Virulent Poison]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:5:Oiled]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:6:Sleep]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:7:Hard Break Vulnerable]]\" (10 turns)",
         "japanese": "<戦闘前強化付与:2,10,100>\n<戦闘前強化付与:3,10,100>\n<戦闘前強化付与:4,10,100>\n<戦闘前強化付与:5,10,100>\n<戦闘前強化付与:6,10,100>\n<戦闘前強化付与:7,10,100>",
         "untranslated": false
       }
@@ -161668,7 +161668,7 @@ const enemiesData = {
       "exp": 0,
       "gold": 9200,
       "note": {
-        "english": "Before battle: 100% chance to apply \"Poison\" (10 turns)\nBefore battle: 100% chance to apply \"Deadly Poison\" (10 turns)\nBefore battle: 100% chance to apply \"Virulent Poison\" (10 turns)\nBefore battle: 100% chance to apply \"Oiled\" (10 turns)\nBefore battle: 100% chance to apply \"Sleep\" (10 turns)\nBefore battle: 100% chance to apply \"Hard Break Vulnerable\" (10 turns)",
+        "english": "Before battle: 100% chance to apply \"[[STATE:2:Poison]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:3:Deadly Poison]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:4:Virulent Poison]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:5:Oiled]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:6:Sleep]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:7:Hard Break Vulnerable]]\" (10 turns)",
         "japanese": "<戦闘前強化付与:2,10,100>\n<戦闘前強化付与:3,10,100>\n<戦闘前強化付与:4,10,100>\n<戦闘前強化付与:5,10,100>\n<戦闘前強化付与:6,10,100>\n<戦闘前強化付与:7,10,100>",
         "untranslated": false
       }
@@ -172806,7 +172806,7 @@ const enemiesData = {
       "exp": 0,
       "gold": 9000,
       "note": {
-        "english": "Before battle: 100% chance to apply \"Poison\" (10 turns)\nBefore battle: 100% chance to apply \"Deadly Poison\" (10 turns)\nBefore battle: 100% chance to apply \"Virulent Poison\" (10 turns)\nBefore battle: 100% chance to apply \"Oiled\" (10 turns)\nBefore battle: 100% chance to apply \"Sleep\" (10 turns)\nBefore battle: 100% chance to apply \"Hard Break Vulnerable\" (10 turns)",
+        "english": "Before battle: 100% chance to apply \"[[STATE:2:Poison]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:3:Deadly Poison]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:4:Virulent Poison]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:5:Oiled]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:6:Sleep]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:7:Hard Break Vulnerable]]\" (10 turns)",
         "japanese": "<戦闘前強化付与:2,10,100>\n<戦闘前強化付与:3,10,100>\n<戦闘前強化付与:4,10,100>\n<戦闘前強化付与:5,10,100>\n<戦闘前強化付与:6,10,100>\n<戦闘前強化付与:7,10,100>",
         "untranslated": false
       }
@@ -178822,7 +178822,7 @@ const enemiesData = {
       "exp": 0,
       "gold": 60000,
       "note": {
-        "english": "Depth 4\nBefore battle: 100% chance to apply \"Poison\" (10 turns)\nBefore battle: 100% chance to apply \"Deadly Poison\" (10 turns)\nBefore battle: 100% chance to apply \"Virulent Poison\" (10 turns)\nBefore battle: 100% chance to apply \"Oiled\" (10 turns)\nBefore battle: 100% chance to apply \"Sleep\" (10 turns)\nBefore battle: 100% chance to apply \"Hard Break Vulnerable\" (10 turns)",
+        "english": "Depth 4\nBefore battle: 100% chance to apply \"[[STATE:2:Poison]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:3:Deadly Poison]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:4:Virulent Poison]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:5:Oiled]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:6:Sleep]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:7:Hard Break Vulnerable]]\" (10 turns)",
         "japanese": "深度４\n<戦闘前強化付与:2,10,100>\n<戦闘前強化付与:3,10,100>\n<戦闘前強化付与:4,10,100>\n<戦闘前強化付与:5,10,100>\n<戦闘前強化付与:6,10,100>\n<戦闘前強化付与:7,10,100>\n",
         "untranslated": false
       }
@@ -186196,7 +186196,7 @@ const enemiesData = {
       "exp": 0,
       "gold": 400000,
       "note": {
-        "english": "Auto-revive: 500 HP, applies \"Rage\" (80% chance)",
+        "english": "Auto-revive: 500 HP, applies \"[[STATE:42:Rage]]\" (80% chance)",
         "japanese": "<自動蘇生:500,42,80>",
         "untranslated": false
       }
@@ -187725,7 +187725,7 @@ const enemiesData = {
       "exp": 0,
       "gold": 150000,
       "note": {
-        "english": "Before battle: 100% chance to apply \"Poison\" (10 turns)\nBefore battle: 100% chance to apply \"Deadly Poison\" (10 turns)\nBefore battle: 100% chance to apply \"Virulent Poison\" (10 turns)\nBefore battle: 100% chance to apply \"Oiled\" (10 turns)\nBefore battle: 100% chance to apply \"Sleep\" (10 turns)\nBefore battle: 100% chance to apply \"Hard Break Vulnerable\" (10 turns)\nBefore battle: 100% chance to apply \"Poison\" (10 turns)\nBefore battle: 100% chance to apply \"Deadly Poison\" (10 turns)\nBefore battle: 100% chance to apply \"Virulent Poison\" (10 turns)\nBefore battle: 100% chance to apply \"Oiled\" (10 turns)\nBefore battle: 100% chance to apply \"Sleep\" (10 turns)\nBefore battle: 100% chance to apply \"Hard Break Vulnerable\" (10 turns)\n<Stat limit change:5,100000>",
+        "english": "Before battle: 100% chance to apply \"[[STATE:2:Poison]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:3:Deadly Poison]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:4:Virulent Poison]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:5:Oiled]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:6:Sleep]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:7:Hard Break Vulnerable]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:2:Poison]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:3:Deadly Poison]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:4:Virulent Poison]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:5:Oiled]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:6:Sleep]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:7:Hard Break Vulnerable]]\" (10 turns)\n<Stat limit change:5,100000>",
         "japanese": "<戦闘前強化付与:2,10,100>\n<戦闘前強化付与:3,10,100>\n<戦闘前強化付与:4,10,100>\n<戦闘前強化付与:5,10,100>\n<戦闘前強化付与:6,10,100>\n<戦闘前強化付与:7,10,100>\n<戦闘前強化付与:2,10,100>\n<戦闘前強化付与:3,10,100>\n<戦闘前強化付与:4,10,100>\n<戦闘前強化付与:5,10,100>\n<戦闘前強化付与:6,10,100>\n<戦闘前強化付与:7,10,100>\n<限界変動:5,100000>",
         "untranslated": false
       }
@@ -188046,7 +188046,7 @@ const enemiesData = {
       "exp": 0,
       "gold": 100000,
       "note": {
-        "english": "Before battle: 100% chance to apply \"Poison\" (10 turns)\nBefore battle: 100% chance to apply \"Deadly Poison\" (10 turns)\nBefore battle: 100% chance to apply \"Poison\" (10 turns)\nBefore battle: 100% chance to apply \"Deadly Poison\" (10 turns)",
+        "english": "Before battle: 100% chance to apply \"[[STATE:2:Poison]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:3:Deadly Poison]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:2:Poison]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:3:Deadly Poison]]\" (10 turns)",
         "japanese": "<戦闘前強化付与:2,10,100>\n<戦闘前強化付与:3,10,100>\n<戦闘前強化付与:2,10,100>\n<戦闘前強化付与:3,10,100>",
         "untranslated": false
       }
@@ -193163,7 +193163,7 @@ const enemiesData = {
       "exp": 0,
       "gold": 0,
       "note": {
-        "english": "Before battle: 100% chance to apply \"Poison\" (10 turns)\nBefore battle: 100% chance to apply \"Deadly Poison\" (10 turns)\nBefore battle: 100% chance to apply \"Virulent Poison\" (10 turns)\nBefore battle: 100% chance to apply \"Oiled\" (10 turns)\nBefore battle: 100% chance to apply \"Sleep\" (10 turns)\nBefore battle: 100% chance to apply \"Hard Break Vulnerable\" (10 turns)\nBefore battle: 100% chance to apply \"Poison\" (10 turns)\nBefore battle: 100% chance to apply \"Deadly Poison\" (10 turns)\nBefore battle: 100% chance to apply \"Virulent Poison\" (10 turns)\nBefore battle: 100% chance to apply \"Oiled\" (10 turns)\nBefore battle: 100% chance to apply \"Sleep\" (10 turns)\nBefore battle: 100% chance to apply \"Hard Break Vulnerable\" (10 turns)",
+        "english": "Before battle: 100% chance to apply \"[[STATE:2:Poison]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:3:Deadly Poison]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:4:Virulent Poison]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:5:Oiled]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:6:Sleep]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:7:Hard Break Vulnerable]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:2:Poison]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:3:Deadly Poison]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:4:Virulent Poison]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:5:Oiled]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:6:Sleep]]\" (10 turns)\nBefore battle: 100% chance to apply \"[[STATE:7:Hard Break Vulnerable]]\" (10 turns)",
         "japanese": "<戦闘前強化付与:2,10,100>\n<戦闘前強化付与:3,10,100>\n<戦闘前強化付与:4,10,100>\n<戦闘前強化付与:5,10,100>\n<戦闘前強化付与:6,10,100>\n<戦闘前強化付与:7,10,100>\n<戦闘前強化付与:2,10,100>\n<戦闘前強化付与:3,10,100>\n<戦闘前強化付与:4,10,100>\n<戦闘前強化付与:5,10,100>\n<戦闘前強化付与:6,10,100>\n<戦闘前強化付与:7,10,100>",
         "untranslated": false
       }
