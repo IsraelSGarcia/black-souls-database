@@ -191,12 +191,6 @@ function restoreStateFromHistory(state, forceRestore = false) {
     
     isRestoringState = true;
     
-    // Clear any pending scroll update timers to prevent updating history during restoration
-    if (scrollUpdateTimer) {
-        clearTimeout(scrollUpdateTimer);
-        scrollUpdateTimer = null;
-    }
-    
     try {
         const savedView = state.view;
         const savedGame = state.game;
@@ -334,41 +328,24 @@ function restoreStateFromHistory(state, forceRestore = false) {
                         // Restore scroll positions after selection is restored and content is loaded
                         // Use multiple attempts to ensure content is rendered
                         let scrollAttempts = 0;
-                        const maxScrollAttempts = 10; // Increased attempts for better reliability
+                        const maxScrollAttempts = 5;
                         const restoreScrolls = () => {
                             scrollAttempts++;
-                            const resultsListEl = document.getElementById('results-list');
-                            const detailPanelEl = document.getElementById('detail-panel');
-                            
-                            // Restore scroll positions
-                            if (resultsListEl) {
-                                resultsListEl.scrollTop = savedResultsListScrollTop;
+                            if (resultsList) {
+                                resultsList.scrollTop = savedResultsListScrollTop;
                             }
-                            if (detailPanelEl) {
-                                detailPanelEl.scrollTop = savedDetailPanelScrollTop;
+                            if (detailPanel) {
+                                detailPanel.scrollTop = savedDetailPanelScrollTop;
                             }
-                            
-                            // Check if content is loaded (detail panel has content)
-                            const detailContentEl = document.getElementById('detail-content');
-                            const hasContent = detailPanelEl && detailPanelEl.scrollHeight > 0;
-                            const hasDetailContent = detailContentEl && detailContentEl.scrollHeight > 0;
-                            
                             // Retry if content might not be loaded yet
-                            if (scrollAttempts < maxScrollAttempts && (!hasContent || (savedSelectedId && !hasDetailContent))) {
+                            if (scrollAttempts < maxScrollAttempts && (!detailPanel || detailPanel.scrollHeight === 0)) {
                                 setTimeout(restoreScrolls, 100);
                             } else {
-                                // Final scroll restoration attempt
-                                if (resultsListEl) {
-                                    resultsListEl.scrollTop = savedResultsListScrollTop;
-                                }
-                                if (detailPanelEl) {
-                                    detailPanelEl.scrollTop = savedDetailPanelScrollTop;
-                                }
                                 // All scroll restoration attempts complete
                                 markOperationComplete();
                             }
                         };
-                        setTimeout(restoreScrolls, 200); // Increased initial delay
+                        setTimeout(restoreScrolls, 100);
                     };
                     restoreSelection();
                 }, 300); // Increased delay to ensure section is fully loaded
@@ -376,21 +353,17 @@ function restoreStateFromHistory(state, forceRestore = false) {
                 // Even if no selection, restore scroll positions
                 pendingOperations++;
                 setTimeout(() => {
-                    const resultsListEl = document.getElementById('results-list');
-                    const detailPanelEl = document.getElementById('detail-panel');
-                    
-                    if (resultsListEl) {
-                        resultsListEl.scrollTop = savedResultsListScrollTop;
+                    if (resultsList) {
+                        resultsList.scrollTop = savedResultsListScrollTop;
                     }
                     // Restore detail panel scroll with a longer delay to ensure content is rendered
                     pendingOperations++;
                     setTimeout(() => {
-                        const detailPanelEl2 = document.getElementById('detail-panel');
-                        if (detailPanelEl2) {
-                            detailPanelEl2.scrollTop = savedDetailPanelScrollTop;
+                        if (detailPanel) {
+                            detailPanel.scrollTop = savedDetailPanelScrollTop;
                         }
                         markOperationComplete();
-                    }, 200);
+                    }, 100);
                     markOperationComplete();
                 }, 200);
             }
@@ -6399,74 +6372,8 @@ window.addEventListener('popstate', (e) => {
     }
 });
 
-// Scroll position update debounce timer
-let scrollUpdateTimer = null;
-const SCROLL_UPDATE_DEBOUNCE_MS = 150; // Update history after 150ms of no scrolling
-
-// Update history with current scroll positions
-function updateScrollPositionsInHistory() {
-    if (isRestoringState) {
-        return; // Don't update history while restoring state
-    }
-    
-    // Only update if we have a current state in history
-    if (!history.state) {
-        return;
-    }
-    
-    // Build new state with current scroll positions
-    const currentState = buildNavigationState();
-    
-    // Only update if scroll positions actually changed (with small threshold to avoid micro-updates)
-    const scrollThreshold = 1; // Only update if scroll changed by more than 1px
-    const resultsListChanged = Math.abs((history.state.resultsListScrollTop || 0) - (currentState.resultsListScrollTop || 0)) > scrollThreshold;
-    const detailPanelChanged = Math.abs((history.state.detailPanelScrollTop || 0) - (currentState.detailPanelScrollTop || 0)) > scrollThreshold;
-    
-    if (resultsListChanged || detailPanelChanged) {
-        // Use replaceState to update the current history entry without creating a new one
-        pushHistoryState(currentState, true);
-    }
-}
-
-// Add scroll event listeners to save scroll positions
-function setupScrollListeners() {
-    const resultsList = document.getElementById('results-list');
-    const detailPanel = document.getElementById('detail-panel');
-    
-    if (resultsList) {
-        resultsList.addEventListener('scroll', () => {
-            // Clear previous timer
-            if (scrollUpdateTimer) {
-                clearTimeout(scrollUpdateTimer);
-            }
-            
-            // Update history after user stops scrolling
-            scrollUpdateTimer = setTimeout(() => {
-                updateScrollPositionsInHistory();
-            }, SCROLL_UPDATE_DEBOUNCE_MS);
-        });
-    }
-    
-    if (detailPanel) {
-        detailPanel.addEventListener('scroll', () => {
-            // Clear previous timer
-            if (scrollUpdateTimer) {
-                clearTimeout(scrollUpdateTimer);
-            }
-            
-            // Update history after user stops scrolling
-            scrollUpdateTimer = setTimeout(() => {
-                updateScrollPositionsInHistory();
-            }, SCROLL_UPDATE_DEBOUNCE_MS);
-        });
-    }
-}
-
 // Initialize: Check URL on page load
 window.addEventListener('DOMContentLoaded', () => {
-    // Setup scroll listeners to save scroll positions
-    setupScrollListeners();
-    
     // If there's already a state in history, use it
     if (history.state) {
         restoreStateFromHistory(history.state);
