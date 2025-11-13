@@ -40,6 +40,7 @@ const elementTranslations = {
     "炎": "Fire",
     "氷": "Ice",
     "雷": "Lightning",
+    "": "Water", // Element #6 (empty in Japanese, but named Water)
     "睡眠特攻": "Sleep Bonus",
     "光": "Light",
     "闇": "Dark",
@@ -51,6 +52,30 @@ const elementTranslations = {
     "落下": "Fall",
     "毒特攻": "Poison Bonus",
     "レイピア特攻": "Rapier Bonus"
+};
+
+// Map element IDs to icon indices
+// Icon indices based on actual icons used in the game data
+// Derived from analyzing skills, states, and items that use each element
+const elementIconMap = {
+    1: 116, // Physical - Common physical skill icon
+    2: 120, // Absorption - Used by absorption skills
+    3: 96,  // Fire - Used by fire skills (Flame Breath, Firebomb)
+    4: 97,  // Ice - Used by ice skills (Blizzard Breath)
+    5: 98,  // Lightning - Used by lightning skills (Blitz)
+    6: 99, // Water - Same as Wave skill
+    8: 22,  // Sleep Bonus - Used by sleep states
+    9: 102, // Light - Used by light skills (Soul Light)
+    10: 103, // Dark - Used by dark skills
+    11: 573, // Bleed x2 - Used by bleed states
+    12: 96,  // Helbreath - Same as Fire
+    13: 285, // Beast Bonus - Same as Beasthunter Saw
+    14: 641, // Jabberwock Bonus - Same as Vorpal Sword
+    15: 21,  // Stun x2 - Used by stun states
+    16: 24,  // Vulnerable Bonus - Used by vulnerable states (Break Vulnerable)
+    17: 8,   // Fall - Used by fall-related states (Hard Break Vulnerable)
+    18: 18,  // Poison Bonus - Used by poison states
+    19: 814  // Rapier Bonus - Same as Lunge skill
 };
 
 // NOTE: Element translations don't need source verification
@@ -1584,7 +1609,13 @@ const processedSkills = skillsData
                     id: skill.damage.elementId,
                     name: skill.damage.elementId === -1 ? "Normal Attack" : 
                           skill.damage.elementId === 0 ? "None" :
-                          elements[skill.damage.elementId] || `Unknown`
+                          (() => {
+                              const elementName = elements[skill.damage.elementId] || `Unknown`;
+                              // Create cross-reference for actual elements (> 0): [[ELEMENT:ID:NAME]]
+                              return skill.damage.elementId > 0 
+                                  ? `[[ELEMENT:${skill.damage.elementId}:${elementName}]]`
+                                  : elementName;
+                          })()
                 },
                 formula: skill.damage.formula,
                 readableFormula: skill.damage.formula ? skill.damage.formula
@@ -1798,7 +1829,9 @@ function processTraits(traits, statesData, skillsData = null, elements = null) {
                 const elementName = elements[trait.dataId] || `Element ${trait.dataId}`;
                 const rate = trait.value;
                 const ratePercent = Math.round(rate * 100);
-                traitInfo.description = `${elementName} damage rate: ${ratePercent}%`;
+                // Create cross-reference to element: [[ELEMENT:ID:NAME]]
+                const elementRef = `[[ELEMENT:${trait.dataId}:${elementName}]]`;
+                traitInfo.description = `${elementRef} damage rate: ${ratePercent}%`;
             } else {
                 traitInfo.description = `Element Rate (element ${trait.dataId || '?'}, rate ${trait.value || '?'})`;
             }
@@ -1893,7 +1926,9 @@ function processTraits(traits, statesData, skillsData = null, elements = null) {
             // dataId: element ID, value: not used by engine
             if (elements && trait.dataId >= 0 && trait.dataId < elements.length) {
                 const elementName = elements[trait.dataId] || `Element ${trait.dataId}`;
-                traitInfo.description = `Attack Element: ${elementName}`;
+                // Create cross-reference to element: [[ELEMENT:ID:NAME]]
+                const elementRef = `[[ELEMENT:${trait.dataId}:${elementName}]]`;
+                traitInfo.description = `Attack Element: ${elementRef}`;
             } else {
                 traitInfo.description = `Attack Element (element ${trait.dataId || '?'})`;
             }
@@ -2518,9 +2553,14 @@ const processedItems = itemsData
         // Process damage object if present
         let damageInfo = null;
         if (item.damage && item.damage.type !== 0) {
-            const element = item.damage.elementId >= 0 && item.damage.elementId < elements.length 
+            const elementName = item.damage.elementId >= 0 && item.damage.elementId < elements.length 
                 ? elements[item.damage.elementId] 
                 : "Unknown";
+            // Create cross-reference for actual elements: [[ELEMENT:ID:NAME]]
+            // Only create cross-reference if elementId is valid (> 0)
+            const element = item.damage.elementId > 0 
+                ? `[[ELEMENT:${item.damage.elementId}:${elementName}]]`
+                : elementName;
             damageInfo = {
                 type: damageTypes[item.damage.type] || "Unknown",
                 elementId: item.damage.elementId,
@@ -2574,6 +2614,236 @@ const processedItems = itemsData
         };
     });
 
+// Process elements with cross-references
+function processElements(systemData, processedSkills, processedItems, processedWeapons, processedArmors, processedStates, processedEnemies, elementTranslations, elementIconMap) {
+    const rawElements = systemData.elements || [];
+    const processedElements = [];
+    
+    rawElements.forEach((rawElement, index) => {
+        const japaneseName = rawElement || "";
+        // Special handling for Element #6 (Water) - empty in Japanese but named Water
+        const isEmpty = index === 6 ? false : (!japaneseName || japaneseName.trim() === "");
+        // Special handling for Element #6 (Water) - empty in Japanese but has English name
+        const englishName = index === 6 ? "Water" : (elementTranslations[japaneseName] || japaneseName || "");
+        
+        // Find skills using this element
+        // Skills have damage.element.id which equals skill.damage.elementId
+        const skillsUsingElement = processedSkills
+            .filter(skill => {
+                if (!skill.damage || !skill.damage.element) return false;
+                const elementId = skill.damage.element.id;
+                // Exclude -1 (Normal Attack) and 0 (None), only include actual element IDs
+                return elementId === index && elementId > 0;
+            })
+            .map(skill => ({
+                id: skill.id,
+                name: skill.name,
+                reference: `[[SKILL:${skill.id}:${skill.name}]]`
+            }));
+        
+        // Find items using this element
+        // Items have damage.elementId directly
+        const itemsUsingElement = processedItems
+            .filter(item => {
+                if (!item.damage) return false;
+                const elementId = item.damage.elementId;
+                // Exclude -1 and 0, only include actual element IDs
+                return elementId === index && elementId > 0;
+            })
+            .map(item => ({
+                id: item.id,
+                name: item.name,
+                reference: `[[ITEM:${item.id}:${item.name}]]`
+            }));
+        
+        // Find element rate modifiers (Code 11: Element Rate)
+        const elementRateModifiers = [];
+        
+        // From weapons
+        processedWeapons.forEach(weapon => {
+            const elementRateTraits = (weapon.traits || []).filter(trait => 
+                trait.code === 11 && trait.dataId === index
+            );
+            elementRateTraits.forEach(trait => {
+                const ratePercent = Math.round(trait.value * 100);
+                // Use plain element name instead of cross-reference (avoid self-reference)
+                elementRateModifiers.push({
+                    sourceType: 'weapon',
+                    sourceId: weapon.id,
+                    sourceName: weapon.name,
+                    reference: `[[WEAPON:${weapon.id}:${weapon.name}]]`,
+                    rate: trait.value,
+                    ratePercent: ratePercent,
+                    description: `${englishName} damage rate: ${ratePercent}%`
+                });
+            });
+        });
+        
+        // From armors
+        processedArmors.forEach(armor => {
+            const elementRateTraits = (armor.traits || []).filter(trait => 
+                trait.code === 11 && trait.dataId === index
+            );
+            elementRateTraits.forEach(trait => {
+                const ratePercent = Math.round(trait.value * 100);
+                // Use plain element name instead of cross-reference (avoid self-reference)
+                elementRateModifiers.push({
+                    sourceType: 'armor',
+                    sourceId: armor.id,
+                    sourceName: armor.name,
+                    reference: `[[ARMOR:${armor.id}:${armor.name}]]`,
+                    rate: trait.value,
+                    ratePercent: ratePercent,
+                    description: `${englishName} damage rate: ${ratePercent}%`
+                });
+            });
+        });
+        
+        // From states
+        processedStates.forEach(state => {
+            const elementRateTraits = (state.traits || []).filter(trait => 
+                trait.code === 11 && trait.dataId === index
+            );
+            elementRateTraits.forEach(trait => {
+                const ratePercent = Math.round(trait.value * 100);
+                // Use plain element name instead of cross-reference (avoid self-reference)
+                elementRateModifiers.push({
+                    sourceType: 'state',
+                    sourceId: state.id,
+                    sourceName: state.name,
+                    reference: `[[STATE:${state.id}:${state.name}]]`,
+                    rate: trait.value,
+                    ratePercent: ratePercent,
+                    description: `${englishName} damage rate: ${ratePercent}%`
+                });
+            });
+        });
+        
+        // From enemies
+        processedEnemies.forEach(enemy => {
+            const elementRateTraits = (enemy.traits || []).filter(trait => 
+                trait.code === 11 && trait.dataId === index
+            );
+            elementRateTraits.forEach(trait => {
+                const ratePercent = Math.round(trait.value * 100);
+                // Use plain element name instead of cross-reference (avoid self-reference)
+                elementRateModifiers.push({
+                    sourceType: 'enemy',
+                    sourceId: enemy.id,
+                    sourceName: enemy.name,
+                    reference: `[[ENEMY:${enemy.id}:${enemy.name}]]`,
+                    rate: trait.value,
+                    ratePercent: ratePercent,
+                    description: `${englishName} damage rate: ${ratePercent}%`
+                });
+            });
+        });
+        
+        // Find attack element additions (Code 31: Attack Element)
+        const attackElementAdditions = [];
+        
+        // From weapons
+        processedWeapons.forEach(weapon => {
+            const attackElementTraits = (weapon.traits || []).filter(trait => 
+                trait.code === 31 && trait.dataId === index
+            );
+            attackElementTraits.forEach(trait => {
+                // Use plain element name instead of cross-reference (avoid self-reference)
+                attackElementAdditions.push({
+                    sourceType: 'weapon',
+                    sourceId: weapon.id,
+                    sourceName: weapon.name,
+                    reference: `[[WEAPON:${weapon.id}:${weapon.name}]]`,
+                    description: `Attack Element: ${englishName}`
+                });
+            });
+        });
+        
+        // From armors
+        processedArmors.forEach(armor => {
+            const attackElementTraits = (armor.traits || []).filter(trait => 
+                trait.code === 31 && trait.dataId === index
+            );
+            attackElementTraits.forEach(trait => {
+                // Use plain element name instead of cross-reference (avoid self-reference)
+                attackElementAdditions.push({
+                    sourceType: 'armor',
+                    sourceId: armor.id,
+                    sourceName: armor.name,
+                    reference: `[[ARMOR:${armor.id}:${armor.name}]]`,
+                    description: `Attack Element: ${englishName}`
+                });
+            });
+        });
+        
+        // From states
+        processedStates.forEach(state => {
+            const attackElementTraits = (state.traits || []).filter(trait => 
+                trait.code === 31 && trait.dataId === index
+            );
+            attackElementTraits.forEach(trait => {
+                // Use plain element name instead of cross-reference (avoid self-reference)
+                attackElementAdditions.push({
+                    sourceType: 'state',
+                    sourceId: state.id,
+                    sourceName: state.name,
+                    reference: `[[STATE:${state.id}:${state.name}]]`,
+                    description: `Attack Element: ${englishName}`
+                });
+            });
+        });
+        
+        // From enemies (rare, but possible)
+        processedEnemies.forEach(enemy => {
+            const attackElementTraits = (enemy.traits || []).filter(trait => 
+                trait.code === 31 && trait.dataId === index
+            );
+            attackElementTraits.forEach(trait => {
+                // Use plain element name instead of cross-reference (avoid self-reference)
+                attackElementAdditions.push({
+                    sourceType: 'enemy',
+                    sourceId: enemy.id,
+                    sourceName: enemy.name,
+                    reference: `[[ENEMY:${enemy.id}:${enemy.name}]]`,
+                    description: `Attack Element: ${englishName}`
+                });
+            });
+        });
+        
+        // Only include elements that have names or are referenced
+        if (!isEmpty || skillsUsingElement.length > 0 || itemsUsingElement.length > 0 || 
+            elementRateModifiers.length > 0 || attackElementAdditions.length > 0) {
+            processedElements.push({
+                id: index,
+                japaneseName: japaneseName,
+                englishName: englishName,
+                isEmpty: isEmpty,
+                iconIndex: elementIconMap[index] || 0, // Use mapped icon or default to 0
+                skillsUsingElement: skillsUsingElement,
+                itemsUsingElement: itemsUsingElement,
+                elementRateModifiers: elementRateModifiers,
+                attackElementAdditions: attackElementAdditions,
+                totalReferences: skillsUsingElement.length + itemsUsingElement.length + 
+                                elementRateModifiers.length + attackElementAdditions.length
+            });
+        }
+    });
+    
+    return processedElements;
+}
+
+const processedElements = processElements(
+    systemData,
+    processedSkills,
+    processedItems,
+    processedWeapons,
+    processedArmors,
+    processedStates,
+    processedEnemies,
+    elementTranslations,
+    elementIconMap
+);
+
 // Create output object
 const output = {
     skills: processedSkills,
@@ -2582,6 +2852,7 @@ const output = {
     armors: processedArmors,
     enemies: processedEnemies,
     items: processedItems,
+    elements: processedElements,
     metadata: {
         totalSkills: processedSkills.length,
         totalStates: processedStates.length,
@@ -2589,6 +2860,7 @@ const output = {
         totalArmors: processedArmors.length,
         totalEnemies: processedEnemies.length,
         totalItems: processedItems.length,
+        totalElements: processedElements.length,
         elements: elements,
         weaponTypes: weaponTypes,
         armorTypes: armorTypes,
@@ -4132,6 +4404,7 @@ const statesData = ${JSON.stringify({ states: processedStates }, null, 2)};
 const weaponsData = ${JSON.stringify({ weapons: processedWeapons }, null, 2)};
 const armorsData = ${JSON.stringify({ armors: processedArmors }, null, 2)};
 const enemiesData = ${JSON.stringify({ enemies: processedEnemies }, null, 2)};
-const itemsData = ${JSON.stringify({ items: processedItems }, null, 2)};`;
+const itemsData = ${JSON.stringify({ items: processedItems }, null, 2)};
+const elementsData = ${JSON.stringify({ elements: processedElements }, null, 2)};`;
 fs.writeFileSync(path.join(__dirname, 'data.js'), dataJsContent);
 

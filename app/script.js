@@ -23,6 +23,9 @@ let selectedEnemyId = null;
 let allItems = [];
 let filteredItems = [];
 let selectedItemId = null;
+let allElements = [];
+let filteredElements = [];
+let selectedElementId = null;
 let currentGame = null;
 let currentSection = null;
 
@@ -197,6 +200,9 @@ function restoreStateFromHistory(state) {
                     } else if (savedView === 'enemies') {
                         searchEnemies(savedSearchQuery);
                         renderEnemiesResults();
+                    } else if (savedView === 'elements') {
+                        searchElements(savedSearchQuery);
+                        renderElementsResults();
                     }
                     updateResultsCount(); // Update results count after search
                 }, 100);
@@ -236,6 +242,9 @@ function restoreStateFromHistory(state) {
                             restored = (getCurrentSelectedId() === savedSelectedId);
                         } else if (savedView === 'enemies') {
                             selectEnemy(savedSelectedId);
+                            restored = (getCurrentSelectedId() === savedSelectedId);
+                        } else if (savedView === 'elements') {
+                            selectElement(savedSelectedId);
                             restored = (getCurrentSelectedId() === savedSelectedId);
                         }
                         
@@ -308,7 +317,7 @@ function parseURL() {
             // Handle /bs2/section format
             if (parts[0] === 'bs2') {
                 const section = parts[1];
-                if (['skills', 'states', 'weapons', 'armors', 'items', 'enemies'].includes(section)) {
+                if (['skills', 'states', 'weapons', 'armors', 'items', 'enemies', 'elements'].includes(section)) {
                     return { view: section, game: 'bs2' };
                 }
             }
@@ -331,20 +340,20 @@ function parseURL() {
         return { view: 'sections', game: 'bs2' };
     } else if (parts.length === 1) {
         const section = parts[0];
-        if (['skills', 'states', 'weapons', 'armors', 'items', 'enemies'].includes(section)) {
+        if (['skills', 'states', 'weapons', 'armors', 'items', 'enemies', 'elements'].includes(section)) {
             return { view: section, game: 'bs2' };
         }
     } else if (parts.length === 2) {
         // Handle /bs2/section format
         if (parts[0] === 'bs2') {
             const section = parts[1];
-            if (['skills', 'states', 'weapons', 'armors', 'items', 'enemies'].includes(section)) {
+            if (['skills', 'states', 'weapons', 'armors', 'items', 'enemies', 'elements'].includes(section)) {
                 return { view: section, game: 'bs2' };
             }
         }
         const section = parts[0];
         const id = parseInt(parts[1]);
-        if (!isNaN(id) && ['skills', 'states', 'weapons', 'armors', 'items', 'enemies'].includes(section)) {
+        if (!isNaN(id) && ['skills', 'states', 'weapons', 'armors', 'items', 'enemies', 'elements'].includes(section)) {
             return { view: section, selectedId: id, game: 'bs2' };
         }
     } else if (parts.length === 3 && parts[0] === 'sections') {
@@ -353,7 +362,7 @@ function parseURL() {
         const game = parts[0];
         const section = parts[1];
         const id = parseInt(parts[2]);
-        if (!isNaN(id) && ['skills', 'states', 'weapons', 'armors', 'items', 'enemies'].includes(section)) {
+        if (!isNaN(id) && ['skills', 'states', 'weapons', 'armors', 'items', 'enemies', 'elements'].includes(section)) {
             return { view: section, selectedId: id, game: game === 'bs2' ? 'bs2' : game };
         }
     } else if (parts.length === 2 && parts[1] === 'sections') {
@@ -386,7 +395,7 @@ function convertCrossReferences(text) {
     if (!text || typeof text !== 'string') return text;
     
     // Pattern: [[TYPE:ID:NAME]]
-    const markerRegex = /\[\[(SKILL|STATE|WEAPON|ARMOR|ITEM|ENEMY):(\d+):([^\]]+)\]\]/g;
+    const markerRegex = /\[\[(SKILL|STATE|WEAPON|ARMOR|ITEM|ENEMY|ELEMENT):(\d+):([^\]]+)\]\]/g;
     
     return text.replace(markerRegex, (match, type, id, name) => {
         const typeLower = type.toLowerCase();
@@ -427,6 +436,7 @@ function navigateToCrossReference(type, id) {
     else if (type === 'armor') targetSection = 'armors';
     else if (type === 'item') targetSection = 'items';
     else if (type === 'enemy') targetSection = 'enemies';
+    else if (type === 'element') targetSection = 'elements';
     
     // Always save current state to browser history before navigating via cross-reference
     // This ensures the navigation path is preserved for back/forward navigation
@@ -468,6 +478,9 @@ function navigateToCrossReference(type, id) {
             } else if (targetSection === 'enemies') {
                 selectEnemy(parseInt(id));
                 scrollToSelectedItem(targetSection, parseInt(id));
+            } else if (targetSection === 'elements') {
+                selectElement(parseInt(id));
+                scrollToSelectedItem(targetSection, parseInt(id));
             }
         }, 200);
     } else {
@@ -490,6 +503,9 @@ function navigateToCrossReference(type, id) {
         } else if (targetSection === 'enemies') {
             selectEnemy(parseInt(id));
             scrollToSelectedItem(targetSection, parseInt(id));
+        } else if (targetSection === 'elements') {
+            selectElement(parseInt(id));
+            scrollToSelectedItem(targetSection, parseInt(id));
         }
     }
 }
@@ -502,6 +518,7 @@ function getCurrentSelectedId() {
     if (currentSection === 'armors') return selectedArmorId;
     if (currentSection === 'items') return selectedItemId;
     if (currentSection === 'enemies') return selectedEnemyId;
+    if (currentSection === 'elements') return selectedElementId;
     return null;
 }
 
@@ -516,6 +533,7 @@ function scrollToSelectedItem(section, itemId) {
     else if (section === 'armors') selector = `.skill-card[data-armor-id="${itemId}"]`;
     else if (section === 'items') selector = `.skill-card[data-item-id="${itemId}"]`;
     else if (section === 'enemies') selector = `.skill-card[data-enemy-id="${itemId}"]`;
+    else if (section === 'elements') selector = `.skill-card[data-element-id="${itemId}"]`;
     
     if (selector) {
         // Try multiple times in case the DOM hasn't fully rendered yet
@@ -655,6 +673,7 @@ function updateHelpContent(view) {
                             <li><strong>Armors:</strong> Browse all armor and defensive equipment. Includes stat bonuses, traits, armor types, and purchase prices.</li>
                             <li><strong>Enemies:</strong> Browse all enemies and monsters. Includes base stats, traits, actions (skills), drops, and rewards.</li>
                             <li><strong>Items:</strong> Browse all consumable items and equipment. Includes effects, usage conditions, damage information, and purchase prices.</li>
+                            <li><strong>Elements:</strong> Browse all damage elements and their interactions. Includes skills and items using each element, element rate modifiers, and attack element additions from equipment and states.</li>
                         </ul>
                     </section>
             
@@ -1050,6 +1069,57 @@ function updateHelpContent(view) {
                 <p>All Japanese text has been automatically translated and converted from technical tags to readable descriptions.</p>
             </section>
         `;
+    } else if (view === 'elements') {
+        helpContent.innerHTML = `
+            <section class="help-section">
+                <p class="help-note"><em>Note: This help content adapts to show information relevant to your current location in the database.</em></p>
+            </section>
+            
+            <section class="help-section">
+                <h3>Searching Elements</h3>
+                <p>Use the search bar to filter elements in real-time. Search works across:</p>
+                <ul>
+                    <li>Element names (English and Japanese)</li>
+                    <li>Skills using this element</li>
+                    <li>Items using this element</li>
+                    <li>Equipment that modifies element rates</li>
+                    <li>Equipment that adds elements to attacks</li>
+                </ul>
+                <p>Search is case-insensitive and updates instantly as you type.</p>
+            </section>
+            
+            <section class="help-section">
+                <h3>Viewing Element Details</h3>
+                <p>Click any element card to view its complete information. Each element displays:</p>
+                <ul>
+                    <li><strong>Element Information:</strong> Japanese name (if available), English name, and status</li>
+                    <li><strong>Skills Using This Element:</strong> All skills that deal damage with this element</li>
+                    <li><strong>Items Using This Element:</strong> All items that deal damage with this element</li>
+                    <li><strong>Element Rate Modifiers:</strong> Equipment, states, and enemies that modify damage rates for this element</li>
+                    <li><strong>Attack Element Additions:</strong> Equipment and states that add this element to attacks</li>
+                </ul>
+            </section>
+            
+            <section class="help-section">
+                <h3>Understanding Element Interactions</h3>
+                <ul>
+                    <li><strong>Element Rate:</strong> Modifies damage taken from this element (100% = normal, 200% = double damage, 50% = half damage)</li>
+                    <li><strong>Attack Element:</strong> Adds this element to all attacks (useful for dealing elemental damage)</li>
+                    <li><strong>Skills/Items:</strong> Skills and items can deal damage with specific elements</li>
+                </ul>
+                <p>Elements are used to determine damage type and can be modified by equipment, states, and enemy traits.</p>
+            </section>
+            
+            <section class="help-section">
+                <h3>Cross-References</h3>
+                <p>All references to skills, items, weapons, armors, states, and enemies are clickable cross-references.</p>
+                <ul>
+                    <li>Click any reference to navigate to that item's detail page</li>
+                    <li>Use the back button or browser history to return to the element page</li>
+                </ul>
+                <p>This makes it easy to explore how elements interact with other game mechanics.</p>
+            </section>
+        `;
     }
 }
 
@@ -1139,6 +1209,7 @@ function showSection(sectionName, preserveSearch = false) {
         // Clear search and selection (unless preserving search)
         if (!preserveSearch) {
             searchInput.value = '';
+            searchSkills(''); // Reset filtered array to show all skills
         }
         selectedSkillId = null;
         
@@ -1147,6 +1218,7 @@ function showSection(sectionName, preserveSearch = false) {
             loadSkills();
         } else {
             renderResults();
+            updateResultsCount();
         }
         
         updateHelpContent('skills');
@@ -1173,6 +1245,7 @@ function showSection(sectionName, preserveSearch = false) {
         // Clear search and selection (unless preserving search)
         if (!preserveSearch) {
             searchInput.value = '';
+            searchStates(''); // Reset filtered array to show all states
         }
         selectedStateId = null;
         
@@ -1181,6 +1254,7 @@ function showSection(sectionName, preserveSearch = false) {
             loadStates();
         } else {
             renderStatesResults();
+            updateResultsCount();
         }
         
         updateHelpContent('states');
@@ -1207,6 +1281,7 @@ function showSection(sectionName, preserveSearch = false) {
         // Clear search and selection (unless preserving search)
         if (!preserveSearch) {
             searchInput.value = '';
+            searchWeapons(''); // Reset filtered array to show all weapons
         }
         selectedWeaponId = null;
         
@@ -1215,6 +1290,7 @@ function showSection(sectionName, preserveSearch = false) {
             loadWeapons();
         } else {
             renderWeaponsResults();
+            updateResultsCount();
         }
         
         updateHelpContent('weapons');
@@ -1241,6 +1317,7 @@ function showSection(sectionName, preserveSearch = false) {
         // Clear search and selection (unless preserving search)
         if (!preserveSearch) {
             searchInput.value = '';
+            searchArmors(''); // Reset filtered array to show all armors
         }
         selectedArmorId = null;
         
@@ -1249,6 +1326,7 @@ function showSection(sectionName, preserveSearch = false) {
             loadArmors();
         } else {
             renderArmorsResults();
+            updateResultsCount();
         }
         
         updateHelpContent('armors');
@@ -1275,6 +1353,7 @@ function showSection(sectionName, preserveSearch = false) {
         // Clear search and selection (unless preserving search)
         if (!preserveSearch) {
             searchInput.value = '';
+            searchEnemies(''); // Reset filtered array to show all enemies
         }
         selectedEnemyId = null;
         
@@ -1283,6 +1362,7 @@ function showSection(sectionName, preserveSearch = false) {
             loadEnemies();
         } else {
             renderEnemiesResults();
+            updateResultsCount();
         }
         
         updateHelpContent('enemies');
@@ -1309,6 +1389,7 @@ function showSection(sectionName, preserveSearch = false) {
         // Clear search and selection (unless preserving search)
         if (!preserveSearch) {
             searchInput.value = '';
+            searchItems(''); // Reset filtered array to show all items
         }
         selectedItemId = null;
         
@@ -1317,9 +1398,46 @@ function showSection(sectionName, preserveSearch = false) {
             loadItems();
         } else {
             renderItemsResults();
+            updateResultsCount();
         }
         
         updateHelpContent('items');
+    } else if (sectionName === 'elements') {
+        gamesView.classList.add('hidden');
+        sectionsView.classList.add('hidden');
+        searchSection.classList.remove('hidden');
+        mainContent.classList.remove('hidden');
+        
+        currentSection = sectionName;
+        
+        headerTitle.textContent = 'Black Souls II Database - Elements';
+        headerSubtitle.textContent = 'Search and explore all damage elements and their interactions from Black Souls II';
+        
+        // Ensure panels are visible
+        document.querySelector('.results-panel').style.display = 'block';
+        document.querySelector('.detail-panel').style.display = window.innerWidth > 1024 ? 'block' : 'none';
+        document.querySelector('.detail-panel').classList.remove('mobile-active');
+        
+        // Reset scroll positions
+        if (resultsList) resultsList.scrollTop = 0;
+        if (detailContent) detailContent.scrollTop = 0;
+        
+        // Clear search and selection (unless preserving search)
+        if (!preserveSearch) {
+            searchInput.value = '';
+            searchElements(''); // Reset filtered array to show all elements
+        }
+        selectedElementId = null;
+        
+        // Load elements if not already loaded
+        if (allElements.length === 0) {
+            loadElements();
+        } else {
+            renderElementsResults();
+            updateResultsCount();
+        }
+        
+        updateHelpContent('elements');
     }
     
     // Update browser history
@@ -1466,6 +1584,25 @@ function handleBackNavigation() {
         return;
     }
     
+    if (window.innerWidth <= 1024 && currentSection === 'elements' && selectedElementId !== null) {
+        // Back to list
+        document.querySelector('.results-panel').style.display = 'block';
+        document.querySelector('.detail-panel').style.display = 'none';
+        document.querySelector('.detail-panel').classList.remove('mobile-active');
+        
+        // Clear selection
+        selectedElementId = null;
+        document.querySelectorAll('.skill-card').forEach(card => {
+            card.classList.remove('active');
+        });
+        
+        // Hide detail content, show placeholder
+        document.querySelector('.detail-placeholder').style.display = 'flex';
+        detailContent.style.display = 'none';
+        
+        return;
+    }
+    
     if (currentSection) {
         // From section details -> back to sections
         showSectionsView(currentGame);
@@ -1494,8 +1631,14 @@ function getDetailTextContent(obj, type) {
     const parts = [];
     
     // Always include name and ID
-    parts.push(obj.name || '');
-    parts.push(`#${obj.id}`);
+    if (type === 'element') {
+        parts.push(obj.englishName || obj.japaneseName || '');
+        parts.push(obj.japaneseName || '');
+        parts.push(`#${obj.id}`);
+    } else {
+        parts.push(obj.name || '');
+        parts.push(`#${obj.id}`);
+    }
     
     if (type === 'skill') {
         if (obj.description) parts.push(obj.description);
@@ -1628,6 +1771,32 @@ function getDetailTextContent(obj, type) {
         }
         if (obj.note && obj.note.english) parts.push(obj.note.english);
         if (obj.note && obj.note.japanese) parts.push(obj.note.japanese);
+    } else if (type === 'element') {
+        // Elements have different structure
+        if (obj.englishName) parts.push(obj.englishName);
+        if (obj.japaneseName) parts.push(obj.japaneseName);
+        if (obj.skillsUsingElement) {
+            obj.skillsUsingElement.forEach(skill => {
+                if (skill.name) parts.push(skill.name);
+            });
+        }
+        if (obj.itemsUsingElement) {
+            obj.itemsUsingElement.forEach(item => {
+                if (item.name) parts.push(item.name);
+            });
+        }
+        if (obj.elementRateModifiers) {
+            obj.elementRateModifiers.forEach(mod => {
+                if (mod.sourceName) parts.push(mod.sourceName);
+                if (mod.description) parts.push(mod.description);
+            });
+        }
+        if (obj.attackElementAdditions) {
+            obj.attackElementAdditions.forEach(add => {
+                if (add.sourceName) parts.push(add.sourceName);
+                if (add.description) parts.push(add.description);
+            });
+        }
     }
     
     // Join all parts and remove HTML tags and cross-reference markers
@@ -1720,7 +1889,9 @@ function calculateRelevance(obj, query, type) {
     const lowerQuery = query.toLowerCase().trim();
     const detailText = getDetailTextContent(obj, type);
     const lowerText = detailText.toLowerCase();
-    const objName = (obj.name || '').toLowerCase();
+    const objName = type === 'element' 
+        ? (obj.englishName || obj.japaneseName || '').toLowerCase()
+        : (obj.name || '').toLowerCase();
     
     let score = 0;
     
@@ -1886,12 +2057,6 @@ function renderResults() {
             selectSkill(skillId);
         });
     });
-}
-
-// Update results count
-function updateResultsCount() {
-    const count = filteredSkills.length;
-    resultsCount.textContent = `${count} skill${count !== 1 ? 's' : ''} found`;
 }
 
 // Select and display skill details
@@ -2146,7 +2311,7 @@ function renderDamageInfo(skill) {
                 </div>
                 <div class="stat-item">
                     <div class="stat-label">Element</div>
-                    <div class="stat-value">${skill.damage.element.name}</div>
+                    <div class="stat-value">${convertCrossReferencesAndEscape(skill.damage.element.name)}</div>
                 </div>
                 <div class="stat-item">
                     <div class="stat-label">Variance</div>
@@ -2653,6 +2818,20 @@ function loadItems() {
     }
 }
 
+// Load elements data (synchronous - data is already loaded from data.js)
+function loadElements() {
+    try {
+        allElements = elementsData.elements || [];
+        filteredElements = allElements;
+        
+        renderElementsResults();
+        updateResultsCount();
+    } catch (error) {
+        console.error('Error loading elements:', error);
+        resultsList.innerHTML = '<div class="empty-state"><p>Error loading elements data</p></div>';
+    }
+}
+
 // Search and filter weapons
 function searchWeapons(query) {
     if (!query.trim()) {
@@ -2751,6 +2930,31 @@ function searchItems(query) {
         .sort((a, b) => b.relevance - a.relevance); // Sort by relevance (highest first)
     
     filteredItems = resultsWithScores.map(result => result.item);
+}
+
+// Search and filter elements
+function searchElements(query) {
+    if (!query.trim()) {
+        filteredElements = allElements;
+        return;
+    }
+    
+    // Filter and calculate relevance
+    const resultsWithScores = allElements
+        .map(element => {
+            const detailText = getDetailTextContent(element, 'element');
+            if (fuzzyMatch(query, detailText)) {
+                return {
+                    element: element,
+                    relevance: calculateRelevance(element, query, 'element')
+                };
+            }
+            return null;
+        })
+        .filter(result => result !== null)
+        .sort((a, b) => b.relevance - a.relevance); // Sort by relevance (highest first)
+    
+    filteredElements = resultsWithScores.map(result => result.element);
 }
 
 // Render weapons results list
@@ -2917,6 +3121,50 @@ function renderItemsResults() {
         card.addEventListener('click', () => {
             const itemId = parseInt(card.dataset.itemId);
             selectItem(itemId);
+        });
+    });
+}
+
+// Render elements results list
+function renderElementsResults() {
+    if (filteredElements.length === 0) {
+        resultsList.innerHTML = `
+            <div class="empty-state">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 38C30.3888 38 38 30.3888 38 21C38 11.6112 30.3888 4 21 4C11.6112 4 4 11.6112 4 21C4 30.3888 11.6112 38 21 38Z" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M44 44L33.65 33.65" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <p>No elements found</p>
+            </div>
+        `;
+        return;
+    }
+    
+    resultsList.innerHTML = filteredElements.map(element => {
+        const totalRefs = (element.skillsUsingElement?.length || 0) + 
+                         (element.itemsUsingElement?.length || 0) + 
+                         (element.elementRateModifiers?.length || 0) + 
+                         (element.attackElementAdditions?.length || 0);
+        
+        const iconPos = getIconPosition(element.iconIndex || 0);
+        const iconStyle = iconPos !== 'none' ? `style="background-position: ${iconPos};" data-icon="${element.iconIndex || 0}"` : '';
+        
+        return `
+            <div class="skill-card ${selectedElementId === element.id ? 'active' : ''}" data-element-id="${element.id}">
+                <div class="skill-card-header">
+                    <div class="skill-icon" ${iconStyle}></div>
+                    <div class="skill-card-title">${element.englishName || element.japaneseName || `Element #${element.id}`} <span class="detail-id">#${element.id}</span></div>
+                </div>
+                <div class="skill-card-description">${totalRefs} references${element.isEmpty ? ' • Empty' : ''}</div>
+            </div>
+        `;
+    }).join('');
+    
+    // Add click handlers
+    document.querySelectorAll('.skill-card[data-element-id]').forEach(card => {
+        card.addEventListener('click', () => {
+            const elementId = parseInt(card.dataset.elementId);
+            selectElement(elementId);
         });
     });
 }
@@ -3252,6 +3500,42 @@ function selectItem(itemId) {
     }
     
     renderItemDetail(item);
+    
+    // On mobile, hide list and show only detail
+    if (window.innerWidth <= 1024) {
+        document.querySelector('.results-panel').style.display = 'none';
+        document.querySelector('.detail-panel').style.display = 'block';
+        document.querySelector('.detail-panel').classList.add('mobile-active');
+    }
+    
+    // Update browser history
+    if (!isRestoringState) {
+        pushHistoryState(buildNavigationState());
+    }
+}
+
+// Select and display element details
+function selectElement(elementId) {
+    selectedElementId = elementId;
+    const element = allElements.find(e => e.id === elementId);
+    
+    if (!element) return;
+    
+    // Update active state on cards
+    document.querySelectorAll('.skill-card[data-element-id]').forEach(card => {
+        card.classList.toggle('active', parseInt(card.dataset.elementId) === elementId);
+    });
+    
+    // Show detail content, hide placeholder
+    document.querySelector('.detail-placeholder').style.display = 'none';
+    detailContent.style.display = 'block';
+    
+    // Reset scroll position
+    if (detailPanel) {
+        detailPanel.scrollTop = 0;
+    }
+    
+    renderElementDetail(element);
     
     // On mobile, hide list and show only detail
     if (window.innerWidth <= 1024) {
@@ -3744,6 +4028,179 @@ function renderItemDetail(item) {
     }
 }
 
+// Render element detail view
+function renderElementDetail(element) {
+    const elementName = element.englishName || element.japaneseName || `Element #${element.id}`;
+    const japaneseName = element.japaneseName && element.japaneseName !== elementName ? element.japaneseName : '';
+    
+    const iconPos = getIconPosition(element.iconIndex || 0, 1.5); // 48px = 32px * 1.5
+    const iconStyle = iconPos !== 'none' ? `style="background-position: ${iconPos};" data-icon="${element.iconIndex || 0}"` : '';
+    
+    let html = `
+        <div class="detail-header">
+            <div class="detail-title-row">
+                <div class="detail-icon" ${iconStyle}></div>
+                <div class="detail-title">${escapeHtml(elementName)} <span class="detail-id">#${element.id}</span></div>
+            </div>
+        </div>
+        
+        <div class="detail-section">
+            <div class="section-title">Element Information</div>
+            <div class="stats-grid">
+                ${japaneseName ? `
+                    <div class="stat-item">
+                        <div class="stat-label">Japanese Name</div>
+                        <div class="stat-value">${escapeHtml(japaneseName)}</div>
+                    </div>
+                ` : ''}
+                ${element.isEmpty ? `
+                    <div class="stat-item">
+                        <div class="stat-label">Status</div>
+                        <div class="stat-value">Empty/Unused</div>
+                    </div>
+                ` : ''}
+                <div class="stat-item">
+                    <div class="stat-label">Total References</div>
+                    <div class="stat-value">${element.totalReferences || 0}</div>
+                </div>
+            </div>
+        </div>
+    `;
+    
+    // Skills using this element
+    if (element.skillsUsingElement && element.skillsUsingElement.length > 0) {
+        html += `
+            <div class="detail-section">
+                <div class="section-title">Skills Using This Element (${element.skillsUsingElement.length})</div>
+                <div class="effect-list">
+                    ${element.skillsUsingElement.map(skill => `
+                        <div class="effect-item">
+                            <div class="effect-name">${convertCrossReferencesAndEscape(skill.reference)}</div>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>
+        `;
+    }
+    
+    // Items using this element
+    if (element.itemsUsingElement && element.itemsUsingElement.length > 0) {
+        html += `
+            <div class="detail-section">
+                <div class="section-title">Items Using This Element (${element.itemsUsingElement.length})</div>
+                <div class="effect-list">
+                    ${element.itemsUsingElement.map(item => `
+                        <div class="effect-item">
+                            <div class="effect-name">${convertCrossReferencesAndEscape(item.reference)}</div>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>
+        `;
+    }
+    
+    // Element rate modifiers
+    if (element.elementRateModifiers && element.elementRateModifiers.length > 0) {
+        // Group by source type
+        const bySourceType = {
+            weapon: [],
+            armor: [],
+            state: [],
+            enemy: []
+        };
+        
+        element.elementRateModifiers.forEach(mod => {
+            if (bySourceType[mod.sourceType]) {
+                bySourceType[mod.sourceType].push(mod);
+            }
+        });
+        
+        // Sort each group by rate value (ascending - lower rates first)
+        Object.keys(bySourceType).forEach(type => {
+            bySourceType[type].sort((a, b) => a.rate - b.rate);
+        });
+        
+        html += `
+            <div class="detail-section">
+                <div class="section-title">Element Rate Modifiers (${element.elementRateModifiers.length})</div>
+                ${Object.keys(bySourceType).filter(type => bySourceType[type].length > 0).map(type => {
+                    const typeName = type.charAt(0).toUpperCase() + type.slice(1);
+                    return `
+                        <div class="subsection">
+                            <div class="subsection-title">${typeName}s (${bySourceType[type].length})</div>
+                            <div class="effect-list">
+                                ${bySourceType[type].map(mod => `
+                                    <div class="effect-item">
+                                        <div class="effect-name">${convertCrossReferencesAndEscape(mod.reference)}</div>
+                                        <div class="effect-description">${escapeHtml(mod.description)}</div>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    `;
+                }).join('')}
+            </div>
+        `;
+    }
+    
+    // Attack element additions
+    if (element.attackElementAdditions && element.attackElementAdditions.length > 0) {
+        // Group by source type
+        const bySourceType = {
+            weapon: [],
+            armor: [],
+            state: [],
+            enemy: []
+        };
+        
+        element.attackElementAdditions.forEach(add => {
+            if (bySourceType[add.sourceType]) {
+                bySourceType[add.sourceType].push(add);
+            }
+        });
+        
+        html += `
+            <div class="detail-section">
+                <div class="section-title">Attack Element Additions (${element.attackElementAdditions.length})</div>
+                <div class="detail-text">These sources add this element to attacks:</div>
+                ${Object.keys(bySourceType).filter(type => bySourceType[type].length > 0).map(type => {
+                    const typeName = type.charAt(0).toUpperCase() + type.slice(1);
+                    return `
+                        <div class="subsection">
+                            <div class="subsection-title">${typeName}s (${bySourceType[type].length})</div>
+                            <div class="effect-list">
+                                ${bySourceType[type].map(add => `
+                                    <div class="effect-item">
+                                        <div class="effect-name">${convertCrossReferencesAndEscape(add.reference)}</div>
+                                        <div class="effect-description">${escapeHtml(add.description)}</div>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    `;
+                }).join('')}
+            </div>
+        `;
+    }
+    
+    detailContent.innerHTML = html;
+    
+    // Scroll to top immediately
+    if (detailContent) {
+        detailContent.scrollTop = 0;
+    }
+    
+    // Add event listeners for cross-reference links
+    attachCrossReferenceListeners();
+    
+    // Ensure scroll after a brief delay (in case content shifts)
+    setTimeout(() => {
+        if (detailContent) {
+            detailContent.scrollTop = 0;
+        }
+    }, 0);
+}
+
 function renderItemBasicStats(item) {
     return `
         <div class="detail-section">
@@ -3807,7 +4264,7 @@ function renderItemDamage(item) {
                 ${item.damage.element ? `
                     <div class="stat-item">
                         <div class="stat-label">Element</div>
-                        <div class="stat-value">${item.damage.element}</div>
+                        <div class="stat-value">${convertCrossReferencesAndEscape(item.damage.element)}</div>
                     </div>
                 ` : ''}
                 ${item.damage.formula ? `
@@ -3861,6 +4318,9 @@ function updateResultsCount() {
     } else if (currentSection === 'items') {
         const count = filteredItems.length;
         resultsCount.textContent = `${count} item${count !== 1 ? 's' : ''} found`;
+    } else if (currentSection === 'elements') {
+        const count = filteredElements.length;
+        resultsCount.textContent = `${count} element${count !== 1 ? 's' : ''} found`;
     }
 }
 
@@ -3897,6 +4357,9 @@ searchInput.addEventListener('input', (e) => {
     } else if (currentSection === 'items') {
         searchItems(searchValue);
         renderItemsResults();
+    } else if (currentSection === 'elements') {
+        searchElements(searchValue);
+        renderElementsResults();
     }
     updateResultsCount();
     
