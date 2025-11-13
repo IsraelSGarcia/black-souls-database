@@ -257,7 +257,7 @@ After fixing the above, consider adding handlers for:
 
 After adding each handler:
 
-1. Run `node app/process-data.js --report-ignored` to see if instances decreased
+1. Run `node app/process-mv-converted-data.js --report-ignored` to see if instances decreased
 2. Check that descriptions are meaningful (not just codeName)
 3. Verify cross-references are properly marked (e.g., `[[SKILL:123:Skill Name]]`)
 4. Ensure no new errors are introduced

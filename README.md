@@ -77,8 +77,8 @@ black-souls-database/
 │   ├── script.js                # Application logic
 │   ├── data.js                  # Processed game data (generated)
 │   ├── processed-data.json      # Processed data in JSON format
-│   ├── process-data.js          # MV data processing script
-│   ├── process-vx-ace-data.js   # VX Ace data processing script
+│   ├── process-mv-converted-data.js   # MV Converted data processing script
+│   ├── process-ruby-marshal-data.js   # Ruby Marshal Converted data processing script
 │   ├── extract-scripts.js       # Script extraction utility
 │   ├── IconSet.png              # Game icons sprite sheet
 │   ├── package.json             # Node.js dependencies
@@ -89,9 +89,7 @@ black-souls-database/
 │   ├── Source_Verification_System.md     # Source verification system
 │   └── Verified_Mappings_With_Sources.md # Verified data mappings
 ├── original-data/                # Original game data files
-│   ├── vx-ace/                  # RPG Maker VX Ace data (.rvdata2 files)
-│   │   ├── json-converted/      # Converted JSON files
-│   │   └── Maps/                # Map data files
+│   ├── ruby-marshal-converted/  # Ruby Marshal converted JSON files
 │   ├── mv-converted/            # RPG Maker MV converted data
 │   │   ├── Skills.json
 │   │   ├── System.json
@@ -106,8 +104,8 @@ black-souls-database/
 The application processes data from RPG Maker VX Ace and MV game files. The data processing pipeline includes:
 
 ### Data Sources
-- **VX Ace Files** (`.rvdata2`): Original game data in Ruby Marshal format
-- **MV Files** (JSON): Converted/processed game data
+- **Ruby Marshal Converted Files** (JSON): Converted from `.rvdata2` Ruby Marshal format
+- **MV Converted Files** (JSON): Converted/processed game data
 - **System.json**: Elements, weapon types, and other system data
 - **Skills.json**: All skill data
 - **States.json**: Status effects and their properties
@@ -116,11 +114,11 @@ The application processes data from RPG Maker VX Ace and MV game files. The data
 
 ### Processing Scripts
 
-#### Processing MV Data
+#### Processing MV Converted Data
 ```bash
-npm run process-data --prefix app
+npm run process-mv-converted-data --prefix app
 # or
-node app/process-data.js
+node app/process-mv-converted-data.js
 ```
 
 This will:
@@ -130,18 +128,18 @@ This will:
 4. Convert formulas to readable format
 5. Generate `processed-data.json` and `data.js` for the web application
 
-#### Processing VX Ace Data
+#### Processing Ruby Marshal Converted Data
 ```bash
-npm run process-vx-ace-data --prefix app
+npm run process-ruby-marshal-data --prefix app
 # or
-node app/process-vx-ace-data.js
+node app/process-ruby-marshal-data.js
 ```
 
 This will:
 1. Convert `.rvdata2` binary files to JSON using Ruby Marshal parser
 2. Process and normalize data structures
 3. Extract and decompress scripts from `Scripts.rvdata2`
-4. Save converted files to `original-data/vx-ace/json-converted/`
+4. Save converted files to `original-data/ruby-marshal-converted/`
 
 ### Translation System
 
@@ -188,7 +186,7 @@ The data processing script includes a comprehensive automatic translation system
 
 To add translations for new Japanese text:
 
-1. **For Pattern-Based Tags**: Add to the `patterns` array in `process-data.js`
+1. **For Pattern-Based Tags**: Add to the `patterns` array in `process-mv-converted-data.js`
    ```javascript
    { regex: /<新パターン:(\d+)>/g, replacement: (m, p1) => `New pattern: ${p1}` }
    ```
@@ -200,7 +198,7 @@ To add translations for new Japanese text:
 
 3. **Run the script** to see warnings for any remaining untranslated content:
    ```bash
-   node app/process-data.js
+   node app/process-mv-converted-data.js
    ```
 
 The system will automatically detect and report any remaining Japanese text, making it easy to identify what needs translation.
@@ -243,7 +241,7 @@ After processing, a summary is shown:
 
 **Extending:**
 - The resolver supports all core object types (skills, states, weapons, armors, items, enemies).
-- If you introduce new types or custom patterns, add resolvers and detection patterns in `process-data.js`.
+- If you introduce new types or custom patterns, add resolvers and detection patterns in `process-mv-converted-data.js`.
 
 ## Data Verification & Methodology
 
@@ -324,8 +322,8 @@ npm install --prefix app
    npm install --prefix app
    ```
 3. Place game data files in `original-data/` directory:
-   - VX Ace files (`.rvdata2`) in `original-data/vx-ace/`
-   - MV files (JSON) in `original-data/mv-converted/`
+   - Ruby Marshal converted files (JSON) in `original-data/ruby-marshal-converted/`
+   - MV Converted files (JSON) in `original-data/mv-converted/`
 
 ### Deployment
 
@@ -375,18 +373,18 @@ If GitHub Actions isn't working, you can configure GitHub Pages to serve from th
 - **Still not working**: Make sure `.nojekyll` file exists in the deployment directory
 
 ### Processing Data
-1. **Convert VX Ace files** (if needed):
+1. **Convert Ruby Marshal files** (if needed):
    ```bash
-   npm run process-vx-ace-data --prefix app
+   npm run process-ruby-marshal-data --prefix app
    # or
-   node app/process-vx-ace-data.js
+   node app/process-ruby-marshal-data.js
    ```
 
-2. **Process MV data**:
+2. **Process MV Converted data**:
    ```bash
-   npm run process-data --prefix app
+   npm run process-mv-converted-data --prefix app
    # or
-   node app/process-data.js
+   node app/process-mv-converted-data.js
    ```
 
 3. **Open the application**:

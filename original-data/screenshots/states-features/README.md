@@ -322,7 +322,7 @@ Each dropdown item in the screenshots corresponds to a `data_id` value in the da
 2. **Structure Confirmation**: Confirm parameter numbering structure (0-7, 8-17, 18+)
 3. **Mapping Validation**: Validate `data_id` to parameter name mappings
 4. **Trait Code Documentation**: Use screenshots to document trait code sources and verify mappings
-5. **Source Verification**: Reference specific screenshots when documenting trait code sources in `process-data.js`
+5. **Source Verification**: Reference specific screenshots when documenting trait code sources in `process-mv-converted-data.js`
 
 ## Limitations
 

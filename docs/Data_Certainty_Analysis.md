@@ -7,9 +7,9 @@ This document analyzes what parts of the data displayed in the details section c
 ## Data Sources
 
 The application uses data from:
-1. **VX Ace JSON-converted files** (`original-data/vx-ace/json-converted/`) - Primary source (authoritative)
-2. **MV-converted files** (`original-data/mv-converted/`) - Secondary source (processed/converted)
-3. **Processed data** (`processed-data.json`) - Generated from MV data with translations and interpretations
+1. **Ruby Marshal Converted files** (`original-data/ruby-marshal-converted/`) - Primary source (authoritative)
+2. **MV Converted files** (`original-data/mv-converted/`) - Secondary source (processed/converted)
+3. **Processed data** (`processed-data.json`) - Generated from MV Converted data with translations and interpretations
 
 ---
 
@@ -100,7 +100,7 @@ The application uses data from:
 ### 2. Trait Descriptions
 
 #### Generated Descriptions - ⚠️ INFERRED
-- **Source**: Generated from `code`, `dataId`, and `value` using logic in `process-data.js`
+- **Source**: Generated from `code`, `dataId`, and `value` using logic in `process-mv-converted-data.js`
 - **Certainty**: Descriptions are **interpretations** of what the trait does, not direct data
 - **Examples**:
   - Code 11 + dataId 18 + value 1.5 → "Target Rate +50%" (if parameter 18 was mapped)
@@ -108,7 +108,7 @@ The application uses data from:
   - Code 14 + dataId 0 + value 1.2 → "Max HP +20%"
 
 #### Trait Code Names - ⚠️ PARTIALLY CERTAIN
-- **Source**: Defined in `stateTraitCodes` object in `process-data.js`
+- **Source**: Defined in `stateTraitCodes` object in `process-mv-converted-data.js`
 - **Status**: Most common codes are mapped, but unknown codes show as "Unknown Trait"
 - **Mapped codes**: 11, 12, 14, 21, 22, 23, 31, 32, 33, 34, 41, 42, 43, 44, 45, 46, 48, 49, 54, 55, 62, 63, 64, 65
 - **Unmapped codes**: Would show as "Unknown Trait"
@@ -116,7 +116,7 @@ The application uses data from:
 ### 3. Element Names
 
 #### Element Translations - ⚠️ INFERRED
-- **Source**: Translated from Japanese in `process-data.js`
+- **Source**: Translated from Japanese in `process-mv-converted-data.js`
 - **Certainty**: Translations are accurate but may not match in-game terminology
 - **Mapped elements**: Physical, Absorption, Fire, Ice, Lightning, Sleep Bonus, Light, Dark, Bleed x2, Beast Bonus, Jabberwock Bonus, Stun x2, Vulnerable Bonus, Fall, Poison Bonus, Rapier Bonus
 - **Issue**: If an element ID exists but isn't in the translation map, it would show as empty/unknown
@@ -131,7 +131,7 @@ The application uses data from:
 ### 5. Note Translations
 
 #### English Translations - ⚠️ INFERRED
-- **Source**: Pattern matching and translation dictionary in `process-data.js`
+- **Source**: Pattern matching and translation dictionary in `process-mv-converted-data.js`
 - **Certainty**: Translations are generated from patterns, may be incomplete or inaccurate
 - **Issue**: Complex Japanese text may not translate correctly
 - **Fallback**: If translation fails, shows "(No translation available)"
@@ -265,5 +265,5 @@ Many parameters (8-26) exist in the game and are visible in editor screenshots, 
 ---
 
 *Generated: Analysis of data processing and display logic*
-*Sources: process-data.js, script.js, editor screenshots, VX Ace documentation*
+*Sources: process-mv-converted-data.js, script.js, editor screenshots, VX Ace documentation*
 

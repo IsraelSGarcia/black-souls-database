@@ -5,8 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "process-data": "node process-data.js",
-    "process-vx-ace-data": "node process-vx-ace-data.js"
+    "process-mv-converted-data": "node process-mv-converted-data.js",
+    "process-ruby-marshal-data": "node process-ruby-marshal-data.js"
   },
   "keywords": [
     "black-souls",

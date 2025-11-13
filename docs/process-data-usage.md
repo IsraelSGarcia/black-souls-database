@@ -1,6 +1,6 @@
-# process-data.js Usage Guide
+# process-mv-converted-data.js Usage Guide
 
-This guide explains how to use the `process-data.js` script to process RPG Maker VX Ace data and generate detection reports.
+This guide explains how to use the `process-mv-converted-data.js` script to process MV Converted data and generate detection reports.
 
 ## Basic Usage
 
@@ -9,7 +9,7 @@ This guide explains how to use the `process-data.js` script to process RPG Maker
 Run the script without any flags to get a summary report:
 
 ```bash
-node app/process-data.js
+node app/process-mv-converted-data.js
 ```
 
 This will display:
@@ -51,7 +51,7 @@ Generates a **concise summary report** for ignored data ID/Value detection (defa
 
 **Usage:**
 ```bash
-node app/process-data.js --report-ignored
+node app/process-mv-converted-data.js --report-ignored
 ```
 
 **What it shows:**
@@ -120,7 +120,7 @@ Generates a **complete detailed report** with all instances listed (use when you
 
 **Usage:**
 ```bash
-node app/process-data.js --report-ignored-full
+node app/process-mv-converted-data.js --report-ignored-full
 ```
 
 **What it shows:**
@@ -190,19 +190,19 @@ Detects when trait data (code, dataId, value) exists but is not meaningfully use
 
 1. **Run standard command first**: Get an overview of all issues
    ```bash
-   node app/process-data.js
+   node app/process-mv-converted-data.js
    ```
 
 2. **Check high-priority issues**: Focus on items with `⚠️` warnings
 
 3. **Get summary report**: Use `--report-ignored` to see a concise overview
    ```bash
-   node app/process-data.js --report-ignored
+   node app/process-mv-converted-data.js --report-ignored
    ```
 
 4. **Get full detailed report** (if needed): Use `--report-ignored-full` for complete listing
    ```bash
-   node app/process-data.js --report-ignored-full
+   node app/process-mv-converted-data.js --report-ignored-full
    ```
 
 5. **Fix issues**: Address unmapped parameters, add handlers for trait codes, etc.
@@ -229,35 +229,35 @@ The script generates the following files:
 
 ### Basic Run
 ```bash
-node app/process-data.js
+node app/process-mv-converted-data.js
 ```
 
 ### Summary Report for Ignored Data (Recommended)
 ```bash
-node app/process-data.js --report-ignored
+node app/process-mv-converted-data.js --report-ignored
 ```
 
 ### Full Detailed Report for Ignored Data
 ```bash
-node app/process-data.js --report-ignored-full
+node app/process-mv-converted-data.js --report-ignored-full
 ```
 
 ### Save Output to File
 ```bash
 # Save summary report
-node app/process-data.js --report-ignored > report-summary.txt
+node app/process-mv-converted-data.js --report-ignored > report-summary.txt
 
 # Save full detailed report
-node app/process-data.js --report-ignored-full > report-full.txt
+node app/process-mv-converted-data.js --report-ignored-full > report-full.txt
 ```
 
 ### Combine with grep to filter
 ```bash
 # Filter summary report
-node app/process-data.js --report-ignored | grep "states"
+node app/process-mv-converted-data.js --report-ignored | grep "states"
 
 # Filter full report
-node app/process-data.js --report-ignored-full | grep "states #"
+node app/process-mv-converted-data.js --report-ignored-full | grep "states #"
 ```
 
 ## Troubleshooting

@@ -8,7 +8,7 @@ All legacy inferred data has been identified and cleaned up. Explicit comments h
 
 ### 1. Added Explicit Forbidden Comments
 
-**Location**: `app/process-data.js` lines 212-236
+**Location**: `app/process-mv-converted-data.js` lines 212-236
 
 Added comprehensive comments at the top of the SOURCE REGISTRY section:
 - ⚠️ CRITICAL: INFERRED DATA IS FORBIDDEN ⚠️
@@ -16,7 +16,7 @@ Added comprehensive comments at the top of the SOURCE REGISTRY section:
 - Clearly states what sources are acceptable
 - Explicitly forbids language like "inferred", "assumed", "logical extension", "pattern-based"
 
-**Location**: `app/process-data.js` lines 337-342
+**Location**: `app/process-mv-converted-data.js` lines 337-342
 
 Added warning comment before trait code sources:
 - ⚠️ CRITICAL: NO INFERRED DATA ALLOWED ⚠️
@@ -42,7 +42,7 @@ Added warning comment before trait code sources:
 
 ### 3. Fixed Translation Comment
 
-**Location**: `app/process-data.js` line 1083
+**Location**: `app/process-mv-converted-data.js` line 1083
 
 - **Previous**: "Additional action after use without chance (100% assumed)"
 - **Current**: "Additional action after use without chance (when chance parameter is omitted, defaults to 100%)"

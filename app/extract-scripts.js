@@ -3,7 +3,7 @@ const zlib = require('zlib');
 const path = require('path');
 
 // Read the Scripts.json file
-const scriptsPath = path.join(__dirname, 'original-data', 'vx-ace-data', 'processed-data', 'Scripts.json');
+const scriptsPath = path.join(__dirname, '..', 'original-data', 'ruby-marshal-converted', 'Scripts.json');
 const scriptsData = JSON.parse(fs.readFileSync(scriptsPath, 'utf8'));
 
 console.log('Extracting and searching scripts for parameter definitions...\n');
@@ -83,7 +83,7 @@ console.log(`\n${'='.repeat(60)}`);
 console.log(`Found ${foundScripts.length} scripts with parameter-related content`);
 
 // Save all found scripts to a file for easier searching
-const outputPath = path.join(__dirname, 'original-data', 'vx-ace-data', 'processed-data', 'Scripts_Extracted.txt');
+const outputPath = path.join(__dirname, '..', 'original-data', 'ruby-marshal-converted', 'Scripts_Extracted.txt');
 const output = foundScripts.map(script => {
     return `\n${'='.repeat(60)}\nScript: ${script.name} (ID: ${script.id})\n${'='.repeat(60)}\n${script.text}`;
 }).join('\n');
@@ -138,7 +138,7 @@ if (param18Matches.length > 0) {
     });
     
     // Save parameter 18 matches to a separate file
-    const param18OutputPath = path.join(__dirname, 'original-data', 'vx-ace-data', 'processed-data', 'Parameter18_References.txt');
+    const param18OutputPath = path.join(__dirname, '..', 'original-data', 'ruby-marshal-converted', 'Parameter18_References.txt');
     const param18Output = param18Matches.map((match, index) => {
         return `${index + 1}. Script: ${match.script} (ID: ${match.scriptId})\n   Match: ${match.match}\n   Context: ${match.context}\n${'='.repeat(60)}\n`;
     }).join('\n');
