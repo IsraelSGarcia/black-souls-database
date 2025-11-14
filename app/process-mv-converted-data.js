@@ -2444,19 +2444,77 @@ const processedEnemies = enemiesData
             }
         });
         
-        // Process actions array: resolve skillId to skill names
+        // Process actions array: resolve skillId to skill names and format conditions
         const actions = (enemy.actions || []).map(action => {
             const skill = skillsData.find(s => s && s.id === action.skillId);
             const skillName = skill && skill.name ? skill.name : `Skill #${action.skillId}`;
             // Insert cross-reference marker directly
             const skillRef = `[[SKILL:${action.skillId}:${skillName}]]`;
+            
+            // Format condition based on conditionType
+            let conditionText = '';
+            const conditionType = action.conditionType || 0;
+            const param1 = action.conditionParam1 || 0;
+            const param2 = action.conditionParam2 || 0;
+            
+            if (conditionType === 0) {
+                // Always
+                conditionText = 'Always';
+            } else if (conditionType === 1) {
+                // Turn No.: A + B * X
+                if (param1 === 0 && param2 === 0) {
+                    conditionText = 'Turn 0 (before command entry)';
+                } else if (param2 === 0) {
+                    conditionText = `Turn ${param1}`;
+                } else {
+                    conditionText = `Turn ${param1} + ${param2} * X`;
+                }
+            } else if (conditionType === 2) {
+                // HP: min% ~ max%
+                // param2 might be stored as decimal (0.5 = 50%) or as integer (50 = 50%)
+                const maxPercent = param2 < 1 ? Math.round(param2 * 100) : param2;
+                if (param1 === 0 && maxPercent === 100) {
+                    conditionText = 'HP: 0% ~ 100%';
+                } else if (param1 === maxPercent) {
+                    conditionText = `HP: ${param1}%`;
+                } else {
+                    conditionText = `HP: ${param1}% ~ ${maxPercent}%`;
+                }
+            } else if (conditionType === 3) {
+                // MP: min% ~ max%
+                // param2 might be stored as decimal (0.5 = 50%) or as integer (50 = 50%)
+                const maxPercent = param2 < 1 ? Math.round(param2 * 100) : param2;
+                if (param1 === 0 && maxPercent === 100) {
+                    conditionText = 'MP: 0% ~ 100%';
+                } else if (param1 === maxPercent) {
+                    conditionText = `MP: ${param1}%`;
+                } else {
+                    conditionText = `MP: ${param1}% ~ ${maxPercent}%`;
+                }
+            } else if (conditionType === 4) {
+                // State: resolve state ID to name
+                const state = statesData.find(s => s && s.id === param1);
+                const stateName = state && state.name ? state.name : `State #${param1}`;
+                conditionText = `State: [[STATE:${param1}:${stateName}]]`;
+            } else if (conditionType === 5) {
+                // Party Level: level or above
+                conditionText = `Party Level: ${param1} or Above`;
+            } else if (conditionType === 6) {
+                // Switch: switch ID (we don't have switch names, so show ID)
+                conditionText = `Switch: #${param1} is ON`;
+            } else {
+                // Unknown condition type
+                conditionText = `Unknown Condition (Type: ${conditionType}, Params: ${param1}, ${param2})`;
+            }
+            
             return {
                 skillId: action.skillId,
                 skillName: skillRef,
                 rating: action.rating,
                 conditionType: action.conditionType,
                 conditionParam1: action.conditionParam1,
-                conditionParam2: action.conditionParam2
+                conditionParam2: action.conditionParam2,
+                conditionText: conditionText
             };
         });
         

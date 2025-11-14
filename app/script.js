@@ -1214,7 +1214,7 @@ function updateHelpContent(view) {
                 <ul>
                     <li><strong>Base Stats:</strong> HP, MP, Attack, Defense, Magic Attack, Magic Defense, Agility, Luck</li>
                     <li><strong>Traits:</strong> Special properties, resistances, and modifications</li>
-                    <li><strong>Actions:</strong> Skills the enemy can use in battle</li>
+                    <li><strong>Actions:</strong> Skills the enemy can use in battle, with conditions and priority rating</li>
                     <li><strong>Drops:</strong> Items, weapons, armors, or gold that can be obtained</li>
                     <li><strong>Rewards:</strong> Experience points and gold earned upon defeat</li>
                     <li><strong>Notes:</strong> Special mechanics and conditions</li>
@@ -1226,11 +1226,27 @@ function updateHelpContent(view) {
                 <ul>
                     <li><strong>Base Stats:</strong> The enemy's fundamental statistics in battle</li>
                     <li><strong>Traits:</strong> Special effects, resistances, or modifications that affect combat</li>
-                    <li><strong>Actions:</strong> Skills the enemy can use, shown with their rating (priority)</li>
+                    <li><strong>Actions:</strong> Skills the enemy can use, shown with their rating (priority) and conditions</li>
                     <li><strong>Drops:</strong> Items that can be obtained, with drop chance (1/denominator)</li>
                     <li><strong>Experience:</strong> EXP points awarded when the enemy is defeated</li>
                     <li><strong>Gold:</strong> Gold awarded when the enemy is defeated</li>
                 </ul>
+            </section>
+            
+            <section class="help-section">
+                <h3>Enemy Actions & Conditions</h3>
+                <p>Each action shows the skill name, rating (priority), and condition for when the action can be used:</p>
+                <ul>
+                    <li><strong>Rating:</strong> The action's priority. Of all actions meeting their conditions, the one with the highest rating will be the standard, and actions within 2 rating points of the standard will be used. Actions 1 rating point away will be used 2/3 of the time, and those 2 rating points away will be used 1/3 of the time.</li>
+                    <li><strong>Always:</strong> The action can be used at any time (no specific condition)</li>
+                    <li><strong>Turn No.:</strong> The action can be used on specific turns (e.g., "Turn 5" or "Turn 1 + 3 * X" for turns 1, 4, 7, 10...)</li>
+                    <li><strong>HP:</strong> The action can be used when the enemy's HP is within a percentage range (e.g., "HP: 0% ~ 50%")</li>
+                    <li><strong>MP:</strong> The action can be used when the enemy's MP is within a percentage range (e.g., "MP: 25% ~ 75%")</li>
+                    <li><strong>State:</strong> The action can be used when the enemy has a specific state applied (clickable cross-reference)</li>
+                    <li><strong>Party Level:</strong> The action can be used when the party's average level is at or above a specified number</li>
+                    <li><strong>Switch:</strong> The action can be used when a specific game switch is ON</li>
+                </ul>
+                <p>Conditions are shown in readable English, and state references are clickable cross-references.</p>
             </section>
             
             <section class="help-section">
@@ -5461,7 +5477,10 @@ function renderEnemyActions(enemy) {
             <div class="section-title">Actions (Skills)</div>
             ${enemy.actions.map(action => `
                 <div class="effect-item">
-                    <div class="effect-description">${convertCrossReferencesAndEscape(action.skillName)} (Rating: ${action.rating})</div>
+                    <div class="effect-description">
+                        ${convertCrossReferencesAndEscape(action.skillName)} (Rating: ${action.rating})
+                        ${action.conditionText ? `<br><span class="condition-text">Condition: ${convertCrossReferencesAndEscape(action.conditionText)}</span>` : ''}
+                    </div>
                 </div>
             `).join('')}
         </div>

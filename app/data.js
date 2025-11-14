@@ -117958,7 +117958,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -118072,7 +118073,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 54,
@@ -118080,7 +118082,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 55,
@@ -118088,7 +118091,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 31,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:31:Limit Break]]"
         }
       ],
       "dropItems": [
@@ -118188,7 +118192,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 64,
@@ -118196,7 +118201,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 63,
@@ -118204,7 +118210,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 61,
@@ -118212,7 +118219,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 32,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:32:Store Power 150]]"
         },
         {
           "skillId": 110,
@@ -118220,7 +118228,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         }
       ],
       "dropItems": [
@@ -118327,7 +118336,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -118441,7 +118451,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -118548,7 +118559,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -118655,7 +118667,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 2
+          "conditionParam2": 2,
+          "conditionText": "Turn 1 + 2 * X"
         },
         {
           "skillId": 60,
@@ -118663,7 +118676,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 2
+          "conditionParam2": 2,
+          "conditionText": "Turn 2 + 2 * X"
         }
       ],
       "dropItems": [
@@ -118770,7 +118784,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 59,
@@ -118778,7 +118793,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 12,
@@ -118786,7 +118802,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 372,
@@ -118794,7 +118811,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.6
+          "conditionParam2": 0.6,
+          "conditionText": "HP: 0% ~ 60%"
         }
       ],
       "dropItems": [
@@ -118901,7 +118919,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 151,
@@ -118909,7 +118928,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 77,
@@ -118917,7 +118937,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 223,
@@ -118925,7 +118946,8 @@ const enemiesData = {
           "rating": 2,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -119046,7 +119068,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -119146,7 +119169,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 68,
@@ -119154,7 +119178,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 69,
@@ -119162,7 +119187,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 31,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:31:Limit Break]]"
         }
       ],
       "dropItems": [
@@ -119262,7 +119288,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 372,
@@ -119270,7 +119297,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -119370,7 +119398,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 2,
@@ -119378,7 +119407,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -119492,7 +119522,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -119592,7 +119623,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -119699,7 +119731,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 72,
@@ -119707,7 +119740,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -119821,7 +119855,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 73,
@@ -119829,7 +119864,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -119943,7 +119979,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 2,
@@ -119951,7 +119988,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -120058,7 +120096,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -120165,7 +120204,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -120251,7 +120291,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 59,
@@ -120259,7 +120300,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -120366,7 +120408,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -120459,7 +120502,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 35,
@@ -120467,7 +120511,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -120616,7 +120661,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 2,
           "conditionParam1": 1,
-          "conditionParam2": 1
+          "conditionParam2": 1,
+          "conditionText": "HP: 1%"
         },
         {
           "skillId": 350,
@@ -120624,7 +120670,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.99
+          "conditionParam2": 0.99,
+          "conditionText": "HP: 0% ~ 99%"
         },
         {
           "skillId": 351,
@@ -120632,7 +120679,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 352,
@@ -120640,7 +120688,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.4
+          "conditionParam2": 0.4,
+          "conditionText": "HP: 0% ~ 40%"
         }
       ],
       "dropItems": [
@@ -120754,7 +120803,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 199,
@@ -120762,7 +120812,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -120932,7 +120983,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -121039,7 +121091,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 201,
@@ -121047,7 +121100,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -121154,7 +121208,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -121254,7 +121309,8 @@ const enemiesData = {
           "rating": 10,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 58,
@@ -121262,7 +121318,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -121362,7 +121419,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 111,
@@ -121370,7 +121428,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -121477,7 +121536,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 71,
@@ -121485,7 +121545,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -121592,7 +121653,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 106,
@@ -121600,7 +121662,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 2,
@@ -121608,7 +121671,8 @@ const enemiesData = {
           "rating": 2,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -121708,7 +121772,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 222,
@@ -121716,7 +121781,8 @@ const enemiesData = {
           "rating": 2,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 81,
@@ -121724,7 +121790,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 35,
@@ -121732,7 +121799,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -121832,7 +121900,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 202,
@@ -121840,7 +121909,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 203,
@@ -121848,7 +121918,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 204,
@@ -121856,7 +121927,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 34,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:34:Chanting]]"
         }
       ],
       "dropItems": [
@@ -121963,7 +122035,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 205,
@@ -121971,7 +122044,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -122078,7 +122152,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 206,
@@ -122086,7 +122161,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -122186,7 +122262,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 1 + 4 * X"
         },
         {
           "skillId": 219,
@@ -122194,7 +122271,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 2 + 4 * X"
         },
         {
           "skillId": 219,
@@ -122202,7 +122280,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 3 + 4 * X"
         },
         {
           "skillId": 218,
@@ -122210,7 +122289,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 4 + 4 * X"
         }
       ],
       "dropItems": [
@@ -122317,7 +122397,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 310,
@@ -122325,7 +122406,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 34,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:34:Chanting]]"
         }
       ],
       "dropItems": [
@@ -122418,7 +122500,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 222,
@@ -122426,7 +122509,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -122533,7 +122617,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 222,
@@ -122541,7 +122626,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -122662,7 +122748,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -122762,7 +122849,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 76,
@@ -122770,7 +122858,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 2,
@@ -122778,7 +122867,8 @@ const enemiesData = {
           "rating": 2,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -122871,7 +122961,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 15,
@@ -122879,7 +122970,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -122979,7 +123071,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -123079,7 +123172,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -123179,7 +123273,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -123293,7 +123388,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -123407,7 +123503,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 8,
@@ -123415,7 +123512,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 210,
@@ -123423,7 +123521,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -123551,7 +123650,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -123651,7 +123751,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 136,
@@ -123659,7 +123760,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -123759,7 +123861,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 136,
@@ -123767,7 +123870,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -123853,7 +123957,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 215,
@@ -123861,7 +123966,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 36,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:36:Scream]]"
         },
         {
           "skillId": 213,
@@ -123869,7 +123975,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -123969,7 +124076,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 7,
@@ -123977,7 +124085,8 @@ const enemiesData = {
           "rating": 2,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -124084,7 +124193,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 135,
@@ -124092,7 +124202,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 77,
@@ -124100,7 +124211,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         }
       ],
       "dropItems": [
@@ -124207,7 +124319,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 1 + 6 * X"
         },
         {
           "skillId": 100,
@@ -124215,7 +124328,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 2 + 6 * X"
         },
         {
           "skillId": 106,
@@ -124223,7 +124337,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 3 + 6 * X"
         },
         {
           "skillId": 85,
@@ -124231,7 +124346,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 4 + 6 * X"
         },
         {
           "skillId": 63,
@@ -124239,7 +124355,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 5 + 6 * X"
         },
         {
           "skillId": 216,
@@ -124247,7 +124364,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 32,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:32:Store Power 150]]"
         },
         {
           "skillId": 223,
@@ -124255,7 +124373,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 6,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 6 + 6 * X"
         }
       ],
       "dropItems": [
@@ -124362,7 +124481,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 12,
@@ -124370,7 +124490,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 2,
@@ -124378,7 +124499,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 59,
@@ -124386,7 +124508,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 29,
@@ -124394,7 +124517,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 119,
@@ -124402,7 +124526,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         }
       ],
       "dropItems": [
@@ -124502,7 +124627,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -124616,7 +124742,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 169,
@@ -124624,7 +124751,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 8,
@@ -124632,7 +124760,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -124718,7 +124847,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -124832,7 +124962,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -124946,7 +125077,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -125046,7 +125178,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -125146,7 +125279,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 2 + 3 * X"
         },
         {
           "skillId": 234,
@@ -125154,7 +125288,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 1 + 3 * X"
         },
         {
           "skillId": 231,
@@ -125162,7 +125297,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 3 + 3 * X"
         }
       ],
       "dropItems": [
@@ -125276,7 +125412,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 65,
@@ -125284,7 +125421,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -125384,7 +125522,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 67,
@@ -125392,7 +125531,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -125513,7 +125653,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 234,
@@ -125521,7 +125662,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 58,
@@ -125529,7 +125671,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -125622,7 +125765,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 28,
@@ -125630,7 +125774,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -125737,7 +125882,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 236,
@@ -125745,7 +125891,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -125845,7 +125992,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 67,
@@ -125853,7 +126001,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -125967,7 +126116,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -126067,7 +126217,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 63,
@@ -126075,7 +126226,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 209,
@@ -126083,7 +126235,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 32,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:32:Store Power 150]]"
         }
       ],
       "dropItems": [
@@ -126204,7 +126357,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -126332,7 +126486,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -126467,7 +126622,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 157,
@@ -126475,7 +126631,8 @@ const enemiesData = {
           "rating": 2,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -126624,7 +126781,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 233,
@@ -126632,7 +126790,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 164,
@@ -126640,7 +126799,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -126754,7 +126914,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 161,
@@ -126762,7 +126923,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 162,
@@ -126770,7 +126932,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 33,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:33:Forbidden Break]]"
         }
       ],
       "dropItems": [
@@ -126884,7 +127047,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 7,
@@ -126892,7 +127056,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -127006,7 +127171,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 7,
@@ -127014,7 +127180,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -127128,7 +127295,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 7,
@@ -127136,7 +127304,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -127257,7 +127426,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 7,
@@ -127265,7 +127435,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -127407,7 +127578,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -127507,7 +127679,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -127607,7 +127780,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -127714,7 +127888,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -127814,7 +127989,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 12,
@@ -127822,7 +127998,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 67,
@@ -127830,7 +128007,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -127902,7 +128080,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -128009,7 +128188,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 1 + 3 * X"
         },
         {
           "skillId": 184,
@@ -128017,7 +128197,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 2 + 3 * X"
         },
         {
           "skillId": 185,
@@ -128025,7 +128206,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 3 + 3 * X"
         }
       ],
       "dropItems": [
@@ -128118,7 +128300,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -128246,7 +128429,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 168,
@@ -128254,7 +128438,8 @@ const enemiesData = {
           "rating": 7,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 73,
@@ -128262,7 +128447,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -128362,7 +128548,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -128469,7 +128656,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 132,
@@ -128477,7 +128665,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -128591,7 +128780,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 167,
@@ -128599,7 +128789,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -128699,7 +128890,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -128820,7 +129012,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 132,
@@ -128828,7 +129021,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 201,
@@ -128836,7 +129030,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 2,
@@ -128844,7 +129039,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 167,
@@ -128852,7 +129048,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 228,
@@ -128860,7 +129057,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 76,
@@ -128868,7 +129066,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -128975,7 +129174,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 238,
@@ -128983,7 +129183,8 @@ const enemiesData = {
           "rating": 7,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 237,
@@ -128991,7 +129192,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 32,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:32:Store Power 150]]"
         }
       ],
       "dropItems": [
@@ -129098,7 +129300,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 217,
@@ -129106,7 +129309,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 36,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:36:Scream]]"
         }
       ],
       "dropItems": [
@@ -129220,7 +129424,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 201,
@@ -129228,7 +129433,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 12,
@@ -129236,7 +129442,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 372,
@@ -129244,7 +129451,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.6
+          "conditionParam2": 0.6,
+          "conditionText": "HP: 0% ~ 60%"
         }
       ],
       "dropItems": [
@@ -129351,7 +129559,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 78,
@@ -129359,7 +129568,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 202,
@@ -129367,7 +129577,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 12,
@@ -129375,7 +129586,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         }
       ],
       "dropItems": [
@@ -129489,7 +129701,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 54,
@@ -129497,7 +129710,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 55,
@@ -129505,7 +129719,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 31,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:31:Limit Break]]"
         },
         {
           "skillId": 106,
@@ -129513,7 +129728,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 105,
@@ -129521,7 +129737,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -129621,7 +129838,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 261,
@@ -129629,7 +129847,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -129729,7 +129948,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 258,
@@ -129737,7 +129957,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.99
+          "conditionParam2": 0.99,
+          "conditionText": "HP: 0% ~ 99%"
         }
       ],
       "dropItems": [
@@ -129858,7 +130079,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -129986,7 +130208,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 236,
@@ -129994,7 +130217,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -130129,7 +130353,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 37,
@@ -130137,7 +130362,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -130244,7 +130470,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 263,
@@ -130252,7 +130479,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 9,
@@ -130260,7 +130488,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -130381,7 +130610,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 152,
@@ -130389,7 +130619,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 14,
@@ -130397,7 +130628,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 79,
@@ -130405,7 +130637,8 @@ const enemiesData = {
           "rating": 7,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 2,
@@ -130413,7 +130646,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -130527,7 +130761,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 267,
@@ -130535,7 +130770,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 35,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:35:Gather Power 200]]"
         },
         {
           "skillId": 222,
@@ -130543,7 +130779,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -130657,7 +130894,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 267,
@@ -130665,7 +130903,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 35,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:35:Gather Power 200]]"
         },
         {
           "skillId": 222,
@@ -130673,7 +130912,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -130787,7 +131027,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 267,
@@ -130795,7 +131036,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 35,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:35:Gather Power 200]]"
         },
         {
           "skillId": 222,
@@ -130803,7 +131045,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -130931,7 +131174,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 58,
@@ -130939,7 +131183,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 123,
@@ -130947,7 +131192,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 157,
@@ -130955,7 +131201,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -131055,7 +131302,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 164,
@@ -131063,7 +131311,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 231,
@@ -131071,7 +131320,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -131164,7 +131414,8 @@ const enemiesData = {
           "rating": 8,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -131306,7 +131557,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 262,
@@ -131314,7 +131566,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 29,
@@ -131322,7 +131575,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 372,
@@ -131330,7 +131584,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.6
+          "conditionParam2": 0.6,
+          "conditionText": "HP: 0% ~ 60%"
         }
       ],
       "dropItems": [
@@ -131486,7 +131741,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 363,
@@ -131494,7 +131750,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -131622,7 +131879,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -131736,7 +131994,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 365,
@@ -131744,7 +132003,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 284,
@@ -131752,7 +132012,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -131866,7 +132127,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 235,
@@ -131874,7 +132136,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 364,
@@ -131882,7 +132145,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0.9,
-          "conditionParam2": 1
+          "conditionParam2": 1,
+          "conditionText": "HP: 0.9% ~ 1%"
         },
         {
           "skillId": 136,
@@ -131890,7 +132154,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 367,
@@ -131898,7 +132163,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -132005,7 +132271,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 372,
@@ -132013,7 +132280,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.8
+          "conditionParam2": 0.8,
+          "conditionText": "HP: 0% ~ 80%"
         }
       ],
       "dropItems": [
@@ -132120,7 +132388,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -132227,7 +132496,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -132327,7 +132597,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 374,
@@ -132335,7 +132606,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 814,
@@ -132343,7 +132615,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -132450,7 +132723,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 223,
@@ -132458,7 +132732,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 79,
@@ -132466,7 +132741,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 1,
           "conditionParam1": 10,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Turn 10"
         }
       ],
       "dropItems": [
@@ -132559,7 +132835,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -132673,7 +132950,8 @@ const enemiesData = {
           "rating": 2,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 378,
@@ -132681,7 +132959,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 379,
@@ -132689,7 +132968,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         }
       ],
       "dropItems": [
@@ -132782,7 +133062,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -132875,7 +133156,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 24,
@@ -132883,7 +133165,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -133018,7 +133301,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -133125,7 +133409,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 11,
@@ -133133,7 +133418,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 67,
@@ -133141,7 +133427,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -133248,7 +133535,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -133348,7 +133636,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 136,
@@ -133356,7 +133645,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -133456,7 +133746,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -133570,7 +133861,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -133670,7 +133962,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -133777,7 +134070,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 64,
@@ -133785,7 +134079,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -133913,7 +134208,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 188,
@@ -133921,7 +134217,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 244,
@@ -133929,7 +134226,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -134036,7 +134334,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 391,
@@ -134044,7 +134343,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -134165,7 +134465,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Turn 1"
         },
         {
           "skillId": 7,
@@ -134173,7 +134474,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 30,
@@ -134181,7 +134483,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 164,
@@ -134189,7 +134492,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -134296,7 +134600,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 76,
@@ -134304,7 +134609,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 393,
@@ -134312,7 +134618,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 394,
@@ -134320,7 +134627,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 32,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:32:Store Power 150]]"
         },
         {
           "skillId": 284,
@@ -134328,7 +134636,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.1
+          "conditionParam2": 0.1,
+          "conditionText": "HP: 0% ~ 10%"
         }
       ],
       "dropItems": [
@@ -134442,7 +134751,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 124,
@@ -134450,7 +134760,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 396,
@@ -134458,7 +134769,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 397,
@@ -134466,7 +134778,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 31,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:31:Limit Break]]"
         },
         {
           "skillId": 372,
@@ -134474,7 +134787,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.6
+          "conditionParam2": 0.6,
+          "conditionText": "HP: 0% ~ 60%"
         }
       ],
       "dropItems": [
@@ -134574,7 +134888,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 364,
@@ -134582,7 +134897,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -134689,7 +135005,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 1 + 3 * X"
         },
         {
           "skillId": 399,
@@ -134697,7 +135014,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 2 + 3 * X"
         },
         {
           "skillId": 400,
@@ -134705,7 +135023,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 3 + 3 * X"
         },
         {
           "skillId": 401,
@@ -134713,7 +135032,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 402,
@@ -134721,7 +135041,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 32,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:32:Store Power 150]]"
         }
       ],
       "dropItems": [
@@ -134856,7 +135177,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 211,
@@ -134864,7 +135186,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 12,
@@ -134872,7 +135195,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 199,
@@ -134880,7 +135204,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         }
       ],
       "dropItems": [
@@ -135015,7 +135340,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -135094,7 +135420,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -135173,7 +135500,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -135343,7 +135671,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 262,
@@ -135351,7 +135680,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 199,
@@ -135359,7 +135689,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 372,
@@ -135367,7 +135698,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         }
       ],
       "dropItems": [
@@ -135530,7 +135862,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 199,
@@ -135538,7 +135871,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 81,
@@ -135546,7 +135880,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 263,
@@ -135554,7 +135889,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 15,
@@ -135562,7 +135898,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0.5,
-          "conditionParam2": 1
+          "conditionParam2": 1,
+          "conditionText": "HP: 0.5% ~ 1%"
         },
         {
           "skillId": 13,
@@ -135570,7 +135907,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 24,
@@ -135578,7 +135916,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0.5,
-          "conditionParam2": 1
+          "conditionParam2": 1,
+          "conditionText": "HP: 0.5% ~ 1%"
         },
         {
           "skillId": 14,
@@ -135586,7 +135925,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0.5,
-          "conditionParam2": 1
+          "conditionParam2": 1,
+          "conditionText": "HP: 0.5% ~ 1%"
         },
         {
           "skillId": 2,
@@ -135594,7 +135934,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 231,
@@ -135602,7 +135943,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 211,
@@ -135610,7 +135952,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -135731,7 +136074,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 410,
@@ -135739,7 +136083,8 @@ const enemiesData = {
           "rating": 7,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 411,
@@ -135747,7 +136092,8 @@ const enemiesData = {
           "rating": 7,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 413,
@@ -135755,7 +136101,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -135890,7 +136237,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 21,
@@ -135898,7 +136246,8 @@ const enemiesData = {
           "rating": 2,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -136040,7 +136389,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 21,
@@ -136048,7 +136398,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 111,
@@ -136056,7 +136407,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 101,
@@ -136064,7 +136416,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 139,
@@ -136072,7 +136425,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 28,
@@ -136080,7 +136434,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -136215,7 +136570,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 44,
@@ -136223,7 +136579,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 213,
@@ -136231,7 +136588,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 215,
@@ -136239,7 +136597,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 36,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:36:Scream]]"
         },
         {
           "skillId": 420,
@@ -136247,7 +136606,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 419,
@@ -136255,7 +136615,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 133,
@@ -136263,7 +136624,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         }
       ],
       "dropItems": [
@@ -136356,7 +136718,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -136470,7 +136833,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 173,
@@ -136478,7 +136842,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 85,
@@ -136486,7 +136851,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 21,
@@ -136494,7 +136860,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 372,
@@ -136502,7 +136869,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 73,
@@ -136510,7 +136878,8 @@ const enemiesData = {
           "rating": 2,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -136624,7 +136993,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 24,
@@ -136632,7 +137002,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 15,
@@ -136640,7 +137011,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 21,
@@ -136648,7 +137020,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 240,
@@ -136656,7 +137029,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 96,
@@ -136664,7 +137038,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -136792,7 +137167,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -136948,7 +137324,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 425,
@@ -136956,7 +137333,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 429,
@@ -136964,7 +137342,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 426,
@@ -136972,7 +137351,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 33,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:33:Forbidden Break]]"
         },
         {
           "skillId": 427,
@@ -136980,7 +137360,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 33,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:33:Forbidden Break]]"
         },
         {
           "skillId": 428,
@@ -136988,7 +137369,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 33,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:33:Forbidden Break]]"
         },
         {
           "skillId": 140,
@@ -136996,7 +137378,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 96,
@@ -137004,7 +137387,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 430,
@@ -137012,7 +137396,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 431,
@@ -137020,7 +137405,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 35,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:35:Gather Power 200]]"
         }
       ],
       "dropItems": [
@@ -137127,7 +137513,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 163,
@@ -137135,7 +137522,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -137291,7 +137679,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 223,
@@ -137299,7 +137688,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -137420,7 +137810,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.9
+          "conditionParam2": 0.9,
+          "conditionText": "HP: 0% ~ 90%"
         },
         {
           "skillId": 336,
@@ -137428,7 +137819,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 337,
@@ -137436,7 +137828,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 35,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:35:Gather Power 200]]"
         },
         {
           "skillId": 236,
@@ -137444,7 +137837,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 814,
@@ -137452,7 +137846,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -137580,7 +137975,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -137722,7 +138118,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 2 + 6 * X"
         },
         {
           "skillId": 8,
@@ -137730,7 +138127,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 3 + 6 * X"
         },
         {
           "skillId": 30,
@@ -137738,7 +138136,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 1 + 6 * X"
         },
         {
           "skillId": 118,
@@ -137746,7 +138145,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 4 + 6 * X"
         },
         {
           "skillId": 436,
@@ -137754,7 +138154,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 5 + 6 * X"
         },
         {
           "skillId": 435,
@@ -137762,7 +138163,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 32,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:32:Store Power 150]]"
         },
         {
           "skillId": 12,
@@ -137770,7 +138172,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 6,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 6 + 6 * X"
         }
       ],
       "dropItems": [
@@ -137919,7 +138322,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -138082,7 +138486,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 2
+          "conditionParam2": 2,
+          "conditionText": "Turn 1 + 2 * X"
         },
         {
           "skillId": 453,
@@ -138090,7 +138495,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 2
+          "conditionParam2": 2,
+          "conditionText": "Turn 2 + 2 * X"
         },
         {
           "skillId": 454,
@@ -138098,7 +138504,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 2
+          "conditionParam2": 2,
+          "conditionText": "Turn 2 + 2 * X"
         }
       ],
       "dropItems": [
@@ -138261,7 +138668,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -138340,7 +138748,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -138461,7 +138870,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 29,
@@ -138469,7 +138879,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 26,
@@ -138477,7 +138888,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -138605,7 +139017,8 @@ const enemiesData = {
           "rating": 8,
           "conditionType": 2,
           "conditionParam1": 0.99,
-          "conditionParam2": 1
+          "conditionParam2": 1,
+          "conditionText": "HP: 0.99% ~ 1%"
         },
         {
           "skillId": 76,
@@ -138613,7 +139026,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.99
+          "conditionParam2": 0.99,
+          "conditionText": "HP: 0% ~ 99%"
         },
         {
           "skillId": 132,
@@ -138621,7 +139035,8 @@ const enemiesData = {
           "rating": 2,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.99
+          "conditionParam2": 0.99,
+          "conditionText": "HP: 0% ~ 99%"
         },
         {
           "skillId": 140,
@@ -138629,7 +139044,8 @@ const enemiesData = {
           "rating": 2,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.99
+          "conditionParam2": 0.99,
+          "conditionText": "HP: 0% ~ 99%"
         },
         {
           "skillId": 141,
@@ -138637,7 +139053,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 142,
@@ -138645,7 +139062,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 143,
@@ -138653,7 +139071,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 144,
@@ -138661,7 +139080,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 151,
@@ -138669,7 +139089,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 317,
@@ -138677,7 +139098,8 @@ const enemiesData = {
           "rating": 8,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.1
+          "conditionParam2": 0.1,
+          "conditionText": "HP: 0% ~ 10%"
         }
       ],
       "dropItems": [
@@ -138791,7 +139213,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 6,
           "conditionParam1": 24,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Switch: #24 is ON"
         },
         {
           "skillId": 52,
@@ -138799,7 +139222,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 59,
@@ -138807,7 +139231,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 164,
@@ -138815,7 +139240,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         }
       ],
       "dropItems": [
@@ -138915,7 +139341,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -139043,7 +139470,8 @@ const enemiesData = {
           "rating": 7,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 67,
@@ -139051,7 +139479,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.3
+          "conditionParam2": 0.3,
+          "conditionText": "HP: 0% ~ 30%"
         },
         {
           "skillId": 2,
@@ -139059,7 +139488,8 @@ const enemiesData = {
           "rating": 2,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 81,
@@ -139067,7 +139497,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 164,
@@ -139075,7 +139506,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -139182,7 +139614,8 @@ const enemiesData = {
           "rating": 8,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 23,
@@ -139190,7 +139623,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -139283,7 +139717,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 169,
@@ -139291,7 +139726,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 8,
@@ -139299,7 +139735,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -139427,7 +139864,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 30,
@@ -139435,7 +139873,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 244,
@@ -139443,7 +139882,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 245,
@@ -139451,7 +139891,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 246,
@@ -139459,7 +139900,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 247,
@@ -139467,7 +139909,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 32,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:32:Store Power 150]]"
         },
         {
           "skillId": 248,
@@ -139475,7 +139918,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         }
       ],
       "dropItems": [
@@ -139568,7 +140012,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -139661,7 +140106,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -139754,7 +140200,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -139896,7 +140343,8 @@ const enemiesData = {
           "rating": 2,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 257,
@@ -139904,7 +140352,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 596,
@@ -139912,7 +140361,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 597,
@@ -139920,7 +140370,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 600,
@@ -139928,7 +140379,8 @@ const enemiesData = {
           "rating": 8,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 372,
@@ -139936,7 +140388,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 596,
@@ -139944,7 +140397,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 597,
@@ -139952,7 +140406,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         }
       ],
       "dropItems": [
@@ -140080,7 +140535,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 270,
@@ -140088,7 +140544,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Turn 1"
         },
         {
           "skillId": 278,
@@ -140096,7 +140553,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 279,
@@ -140104,7 +140562,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 280,
@@ -140112,7 +140571,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 284,
@@ -140120,7 +140580,8 @@ const enemiesData = {
           "rating": 8,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.1
+          "conditionParam2": 0.1,
+          "conditionText": "HP: 0% ~ 10%"
         },
         {
           "skillId": 282,
@@ -140128,7 +140589,8 @@ const enemiesData = {
           "rating": 8,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.1
+          "conditionParam2": 0.1,
+          "conditionText": "HP: 0% ~ 10%"
         }
       ],
       "dropItems": [
@@ -140340,7 +140802,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -140489,7 +140952,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 1 + 6 * X"
         },
         {
           "skillId": 231,
@@ -140497,7 +140961,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 1 + 6 * X"
         },
         {
           "skillId": 117,
@@ -140505,7 +140970,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 2 + 6 * X"
         },
         {
           "skillId": 236,
@@ -140513,7 +140979,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 2 + 6 * X"
         },
         {
           "skillId": 164,
@@ -140521,7 +140988,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 3 + 6 * X"
         },
         {
           "skillId": 368,
@@ -140529,7 +140997,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 3 + 6 * X"
         },
         {
           "skillId": 173,
@@ -140537,7 +141006,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 4 + 6 * X"
         },
         {
           "skillId": 188,
@@ -140545,7 +141015,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 4 + 6 * X"
         },
         {
           "skillId": 370,
@@ -140553,7 +141024,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 5 + 6 * X"
         },
         {
           "skillId": 369,
@@ -140561,7 +141033,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 35,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:35:Gather Power 200]]"
         },
         {
           "skillId": 2,
@@ -140569,7 +141042,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 6,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 6 + 6 * X"
         }
       ],
       "dropItems": [
@@ -140711,7 +141185,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 118,
@@ -140719,7 +141194,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 381,
@@ -140727,7 +141203,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 372,
@@ -140735,7 +141212,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.8
+          "conditionParam2": 0.8,
+          "conditionText": "HP: 0% ~ 80%"
         }
       ],
       "dropItems": [
@@ -140884,7 +141362,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 107,
@@ -140892,7 +141371,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 381,
@@ -140900,7 +141380,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 382,
@@ -140908,7 +141389,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 383,
@@ -140916,7 +141398,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 384,
@@ -140924,7 +141407,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 32,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:32:Store Power 150]]"
         }
       ],
       "dropItems": [
@@ -141052,7 +141536,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 386,
@@ -141060,7 +141545,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 387,
@@ -141068,7 +141554,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         }
       ],
       "dropItems": [
@@ -141196,7 +141683,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 2
+          "conditionParam2": 2,
+          "conditionText": "Turn 1 + 2 * X"
         },
         {
           "skillId": 389,
@@ -141204,7 +141692,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 2
+          "conditionParam2": 2,
+          "conditionText": "Turn 2 + 2 * X"
         },
         {
           "skillId": 29,
@@ -141212,7 +141701,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 2
+          "conditionParam2": 2,
+          "conditionText": "Turn 1 + 2 * X"
         },
         {
           "skillId": 203,
@@ -141220,7 +141710,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 390,
@@ -141228,7 +141719,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 34,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:34:Chanting]]"
         }
       ],
       "dropItems": [
@@ -141356,7 +141848,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 1 + 5 * X"
         },
         {
           "skillId": 35,
@@ -141364,7 +141857,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 2 + 5 * X"
         },
         {
           "skillId": 117,
@@ -141372,7 +141866,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 3 + 5 * X"
         },
         {
           "skillId": 2,
@@ -141380,7 +141875,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 4 + 5 * X"
         },
         {
           "skillId": 382,
@@ -141388,7 +141884,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 5 + 5 * X"
         }
       ],
       "dropItems": [
@@ -141509,7 +142006,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 1 + 5 * X"
         },
         {
           "skillId": 77,
@@ -141517,7 +142015,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 2 + 5 * X"
         },
         {
           "skillId": 59,
@@ -141525,7 +142024,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 3 + 5 * X"
         },
         {
           "skillId": 60,
@@ -141533,7 +142033,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 4 + 5 * X"
         },
         {
           "skillId": 21,
@@ -141541,7 +142042,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 5 + 5 * X"
         }
       ],
       "dropItems": [
@@ -141669,7 +142171,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 1 + 5 * X"
         },
         {
           "skillId": 2,
@@ -141677,7 +142180,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 2 + 5 * X"
         },
         {
           "skillId": 85,
@@ -141685,7 +142189,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 3 + 5 * X"
         },
         {
           "skillId": 8,
@@ -141693,7 +142198,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 4 + 5 * X"
         },
         {
           "skillId": 37,
@@ -141701,7 +142207,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 5 + 5 * X"
         }
       ],
       "dropItems": [
@@ -141836,7 +142343,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 79,
@@ -141844,7 +142352,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 14,
@@ -141852,7 +142361,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 203,
@@ -141860,7 +142370,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 403,
@@ -141868,7 +142379,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 34,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:34:Chanting]]"
         },
         {
           "skillId": 404,
@@ -141876,7 +142388,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 405,
@@ -141884,7 +142397,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 33,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:33:Forbidden Break]]"
         },
         {
           "skillId": 15,
@@ -141892,7 +142406,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         }
       ],
       "dropItems": [
@@ -142034,7 +142549,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 13,
@@ -142042,7 +142558,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 54,
@@ -142050,7 +142567,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 414,
@@ -142058,7 +142576,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 31,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:31:Limit Break]]"
         },
         {
           "skillId": 22,
@@ -142066,7 +142585,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 372,
@@ -142074,7 +142594,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         }
       ],
       "dropItems": [
@@ -142230,7 +142751,8 @@ const enemiesData = {
           "rating": 8,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 188,
@@ -142238,7 +142760,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 254,
@@ -142246,7 +142769,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 415,
@@ -142254,7 +142778,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0.5,
-          "conditionParam2": 1
+          "conditionParam2": 1,
+          "conditionText": "HP: 0.5% ~ 1%"
         },
         {
           "skillId": 417,
@@ -142262,7 +142787,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 416,
@@ -142270,7 +142796,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 32,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:32:Store Power 150]]"
         },
         {
           "skillId": 416,
@@ -142278,7 +142805,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 33,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:33:Forbidden Break]]"
         }
       ],
       "dropItems": [
@@ -142476,7 +143004,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 1 + 6 * X"
         },
         {
           "skillId": 422,
@@ -142484,7 +143013,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 2 + 6 * X"
         },
         {
           "skillId": 422,
@@ -142492,7 +143022,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 3 + 6 * X"
         },
         {
           "skillId": 422,
@@ -142500,7 +143031,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 4 + 6 * X"
         },
         {
           "skillId": 421,
@@ -142508,7 +143040,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 5 + 6 * X"
         },
         {
           "skillId": 423,
@@ -142516,7 +143049,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 6,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 6 + 6 * X"
         }
       ],
       "dropItems": [
@@ -142630,7 +143164,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 106,
@@ -142638,7 +143173,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 21,
@@ -142646,7 +143182,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 167,
@@ -142654,7 +143191,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 60,
@@ -142662,7 +143200,8 @@ const enemiesData = {
           "rating": 2,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -142776,7 +143315,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 105,
@@ -142784,7 +143324,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 21,
@@ -142792,7 +143333,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 101,
@@ -142800,7 +143342,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 60,
@@ -142808,7 +143351,8 @@ const enemiesData = {
           "rating": 2,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -142929,7 +143473,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 1 + 6 * X"
         },
         {
           "skillId": 71,
@@ -142937,7 +143482,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 2 + 6 * X"
         },
         {
           "skillId": 100,
@@ -142945,7 +143491,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 3 + 6 * X"
         },
         {
           "skillId": 12,
@@ -142953,7 +143500,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 4 + 6 * X"
         },
         {
           "skillId": 54,
@@ -142961,7 +143509,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 5 + 6 * X"
         },
         {
           "skillId": 12,
@@ -142969,7 +143518,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 6,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 6 + 6 * X"
         },
         {
           "skillId": 94,
@@ -142977,7 +143527,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 31,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:31:Limit Break]]"
         }
       ],
       "dropItems": [
@@ -143154,7 +143705,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 346,
@@ -143162,7 +143714,8 @@ const enemiesData = {
           "rating": 7,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 38,
@@ -143170,7 +143723,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 151,
@@ -143178,7 +143732,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 167,
@@ -143186,7 +143741,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -143391,7 +143947,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 1 + 6 * X"
         },
         {
           "skillId": 29,
@@ -143399,7 +143956,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 2 + 6 * X"
         },
         {
           "skillId": 312,
@@ -143407,7 +143965,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 2 + 6 * X"
         },
         {
           "skillId": 369,
@@ -143415,7 +143974,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 3 + 6 * X"
         },
         {
           "skillId": 310,
@@ -143423,7 +143983,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 4 + 6 * X"
         },
         {
           "skillId": 652,
@@ -143431,7 +143992,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 4 + 6 * X"
         },
         {
           "skillId": 369,
@@ -143439,7 +144001,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 5 + 6 * X"
         },
         {
           "skillId": 300,
@@ -143447,7 +144010,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 6,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 6 + 6 * X"
         },
         {
           "skillId": 440,
@@ -143455,7 +144019,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.6
+          "conditionParam2": 0.6,
+          "conditionText": "HP: 0% ~ 60%"
         },
         {
           "skillId": 439,
@@ -143463,7 +144028,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 35,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:35:Gather Power 200]]"
         }
       ],
       "dropItems": [
@@ -144053,7 +144619,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 2,
@@ -144061,7 +144628,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 372,
@@ -144069,7 +144637,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.2
+          "conditionParam2": 0.2,
+          "conditionText": "HP: 0% ~ 20%"
         },
         {
           "skillId": 350,
@@ -144077,7 +144646,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 128,
@@ -144085,7 +144655,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -144192,7 +144763,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 502,
@@ -144200,7 +144772,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 503,
@@ -144208,7 +144781,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 504,
@@ -144216,7 +144790,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 31,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:31:Limit Break]]"
         },
         {
           "skillId": 504,
@@ -144224,7 +144799,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 32,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:32:Store Power 150]]"
         },
         {
           "skillId": 504,
@@ -144232,7 +144808,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 33,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:33:Forbidden Break]]"
         }
       ],
       "dropItems": [
@@ -144381,7 +144958,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.25
+          "conditionParam2": 0.25,
+          "conditionText": "HP: 0% ~ 25%"
         },
         {
           "skillId": 505,
@@ -144389,7 +144967,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 12,
@@ -144397,7 +144976,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -144574,7 +145154,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 337,
@@ -144582,7 +145163,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 33,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:33:Forbidden Break]]"
         },
         {
           "skillId": 235,
@@ -144590,7 +145172,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 236,
@@ -144598,7 +145181,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 234,
@@ -144606,7 +145190,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 2,
@@ -144614,7 +145199,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 106,
@@ -144622,7 +145208,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -144736,7 +145323,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 164,
@@ -144744,7 +145332,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -144858,7 +145447,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 434,
@@ -144866,7 +145456,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 101,
@@ -144874,7 +145465,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 60,
@@ -144882,7 +145474,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -145010,7 +145603,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -145152,7 +145746,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 285,
@@ -145160,7 +145755,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -145316,7 +145912,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 285,
@@ -145324,7 +145921,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -145452,7 +146050,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -145580,7 +146179,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -145715,7 +146315,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 84,
@@ -145723,7 +146324,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 167,
@@ -145731,7 +146333,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -145866,7 +146469,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 2
+          "conditionParam2": 2,
+          "conditionText": "Turn 1 + 2 * X"
         },
         {
           "skillId": 256,
@@ -145874,7 +146478,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 2
+          "conditionParam2": 2,
+          "conditionText": "Turn 2 + 2 * X"
         },
         {
           "skillId": 82,
@@ -145882,7 +146487,8 @@ const enemiesData = {
           "rating": 7,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 372,
@@ -145890,7 +146496,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         }
       ],
       "dropItems": [
@@ -145997,7 +146604,8 @@ const enemiesData = {
           "rating": 7,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 77,
@@ -146005,7 +146613,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 28,
@@ -146013,7 +146622,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -146127,7 +146737,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 1 + 3 * X"
         },
         {
           "skillId": 442,
@@ -146135,7 +146746,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 2 + 3 * X"
         },
         {
           "skillId": 2,
@@ -146143,7 +146755,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 3 + 3 * X"
         }
       ],
       "dropItems": [
@@ -146257,7 +146870,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 2 + 3 * X"
         },
         {
           "skillId": 444,
@@ -146265,7 +146879,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 3 + 3 * X"
         },
         {
           "skillId": 51,
@@ -146273,7 +146888,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 1 + 3 * X"
         }
       ],
       "dropItems": [
@@ -146401,7 +147017,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Turn 1"
         },
         {
           "skillId": 21,
@@ -146409,7 +147026,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 1 + 3 * X"
         },
         {
           "skillId": 85,
@@ -146417,7 +147035,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 2 + 3 * X"
         },
         {
           "skillId": 385,
@@ -146425,7 +147044,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 3 + 3 * X"
         }
       ],
       "dropItems": [
@@ -146546,7 +147166,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 1 + 3 * X"
         },
         {
           "skillId": 446,
@@ -146554,7 +147175,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 2 + 3 * X"
         },
         {
           "skillId": 15,
@@ -146562,7 +147184,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 3 + 3 * X"
         }
       ],
       "dropItems": [
@@ -146704,7 +147327,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 244,
@@ -146712,7 +147336,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 140,
@@ -146720,7 +147345,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Turn 1"
         },
         {
           "skillId": 288,
@@ -146728,7 +147354,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 310,
@@ -146736,7 +147363,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 448,
@@ -146744,7 +147372,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 449,
@@ -146752,7 +147381,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 32,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:32:Store Power 150]]"
         }
       ],
       "dropItems": [
@@ -146894,7 +147524,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 2 + 3 * X"
         },
         {
           "skillId": 291,
@@ -146902,7 +147533,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 1 + 3 * X"
         },
         {
           "skillId": 289,
@@ -146910,7 +147542,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 449,
@@ -146918,7 +147551,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 3 + 3 * X"
         },
         {
           "skillId": 129,
@@ -146926,7 +147560,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -147068,7 +147703,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Turn 1"
         },
         {
           "skillId": 38,
@@ -147076,7 +147712,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 374,
@@ -147084,7 +147721,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 96,
@@ -147092,7 +147730,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 240,
@@ -147100,7 +147739,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 450,
@@ -147108,7 +147748,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 451,
@@ -147116,7 +147757,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 32,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:32:Store Power 150]]"
         }
       ],
       "dropItems": [
@@ -147258,7 +147900,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 1 + 4 * X"
         },
         {
           "skillId": 300,
@@ -147266,7 +147909,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 2 + 4 * X"
         },
         {
           "skillId": 451,
@@ -147274,7 +147918,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 3 + 4 * X"
         },
         {
           "skillId": 240,
@@ -147282,7 +147927,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 4 + 4 * X"
         }
       ],
       "dropItems": [
@@ -147459,7 +148105,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 1 + 6 * X"
         },
         {
           "skillId": 314,
@@ -147467,7 +148114,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 2 + 6 * X"
         },
         {
           "skillId": 455,
@@ -147475,7 +148123,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 3 + 6 * X"
         },
         {
           "skillId": 123,
@@ -147483,7 +148132,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 4 + 6 * X"
         },
         {
           "skillId": 231,
@@ -147491,7 +148141,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 5 + 6 * X"
         },
         {
           "skillId": 173,
@@ -147499,7 +148150,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 6,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 6 + 6 * X"
         },
         {
           "skillId": 456,
@@ -147507,7 +148159,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 1 + 6 * X"
         },
         {
           "skillId": 21,
@@ -147515,7 +148168,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 3 + 6 * X"
         },
         {
           "skillId": 457,
@@ -147523,7 +148177,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 458,
@@ -147531,7 +148186,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 31,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:31:Limit Break]]"
         }
       ],
       "dropItems": [
@@ -147715,7 +148371,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 1 + 6 * X"
         },
         {
           "skillId": 314,
@@ -147723,7 +148380,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 2 + 6 * X"
         },
         {
           "skillId": 455,
@@ -147731,7 +148389,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 3 + 6 * X"
         },
         {
           "skillId": 123,
@@ -147739,7 +148398,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 4 + 6 * X"
         },
         {
           "skillId": 231,
@@ -147747,7 +148407,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 5 + 6 * X"
         },
         {
           "skillId": 173,
@@ -147755,7 +148416,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 6,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 6 + 6 * X"
         },
         {
           "skillId": 456,
@@ -147763,7 +148425,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 1 + 6 * X"
         },
         {
           "skillId": 21,
@@ -147771,7 +148434,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 3 + 6 * X"
         }
       ],
       "dropItems": [
@@ -147934,7 +148598,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 2,
           "conditionParam1": 0.5,
-          "conditionParam2": 1
+          "conditionParam2": 1,
+          "conditionText": "HP: 0.5% ~ 1%"
         },
         {
           "skillId": 459,
@@ -147942,7 +148607,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 460,
@@ -147950,7 +148616,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 461,
@@ -147958,7 +148625,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 35,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:35:Gather Power 200]]"
         },
         {
           "skillId": 461,
@@ -147966,7 +148634,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 33,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:33:Forbidden Break]]"
         },
         {
           "skillId": 67,
@@ -147974,7 +148643,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0.5,
-          "conditionParam2": 1
+          "conditionParam2": 1,
+          "conditionText": "HP: 0.5% ~ 1%"
         },
         {
           "skillId": 462,
@@ -147982,7 +148652,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 270,
@@ -147990,7 +148661,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 79,
@@ -147998,7 +148670,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         }
       ],
       "dropItems": [
@@ -148161,7 +148834,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 2,
           "conditionParam1": 0.5,
-          "conditionParam2": 1
+          "conditionParam2": 1,
+          "conditionText": "HP: 0.5% ~ 1%"
         },
         {
           "skillId": 459,
@@ -148169,7 +148843,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 460,
@@ -148177,7 +148852,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 461,
@@ -148185,7 +148861,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 35,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:35:Gather Power 200]]"
         },
         {
           "skillId": 461,
@@ -148193,7 +148870,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 33,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:33:Forbidden Break]]"
         },
         {
           "skillId": 67,
@@ -148201,7 +148879,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0.5,
-          "conditionParam2": 1
+          "conditionParam2": 1,
+          "conditionText": "HP: 0.5% ~ 1%"
         },
         {
           "skillId": 462,
@@ -148209,7 +148888,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 270,
@@ -148217,7 +148897,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 79,
@@ -148225,7 +148906,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         }
       ],
       "dropItems": [
@@ -148388,7 +149070,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0.7,
-          "conditionParam2": 1
+          "conditionParam2": 1,
+          "conditionText": "HP: 0.7% ~ 1%"
         },
         {
           "skillId": 463,
@@ -148396,7 +149079,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 297,
@@ -148404,7 +149088,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0.7,
-          "conditionParam2": 1
+          "conditionParam2": 1,
+          "conditionText": "HP: 0.7% ~ 1%"
         },
         {
           "skillId": 464,
@@ -148412,7 +149097,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 465,
@@ -148420,7 +149106,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 467,
@@ -148428,7 +149115,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 466,
@@ -148436,7 +149124,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 33,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:33:Forbidden Break]]"
         }
       ],
       "dropItems": [
@@ -148613,7 +149302,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 1 + 5 * X"
         },
         {
           "skillId": 464,
@@ -148621,7 +149311,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 2 + 5 * X"
         },
         {
           "skillId": 465,
@@ -148629,7 +149320,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 3 + 5 * X"
         },
         {
           "skillId": 467,
@@ -148637,7 +149329,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 4 + 5 * X"
         },
         {
           "skillId": 466,
@@ -148645,7 +149338,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 33,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:33:Forbidden Break]]"
         },
         {
           "skillId": 12,
@@ -148653,7 +149347,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 5 + 5 * X"
         }
       ],
       "dropItems": [
@@ -148781,7 +149476,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 31,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:31:Limit Break]]"
         },
         {
           "skillId": 49,
@@ -148789,7 +149485,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 50,
@@ -148797,7 +149494,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 149,
@@ -148805,7 +149503,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 290,
@@ -148813,7 +149512,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 1 + 3 * X"
         }
       ],
       "dropItems": [
@@ -148955,7 +149655,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 31,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:31:Limit Break]]"
         },
         {
           "skillId": 49,
@@ -148963,7 +149664,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 50,
@@ -148971,7 +149673,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 149,
@@ -148979,7 +149682,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 266,
@@ -148987,7 +149691,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 31,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:31:Limit Break]]"
         },
         {
           "skillId": 290,
@@ -148995,7 +149700,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 1 + 3 * X"
         }
       ],
       "dropItems": [
@@ -149116,7 +149822,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 229,
@@ -149124,7 +149831,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0.5,
-          "conditionParam2": 1
+          "conditionParam2": 1,
+          "conditionText": "HP: 0.5% ~ 1%"
         },
         {
           "skillId": 232,
@@ -149132,7 +149840,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0.5,
-          "conditionParam2": 1
+          "conditionParam2": 1,
+          "conditionText": "HP: 0.5% ~ 1%"
         },
         {
           "skillId": 240,
@@ -149140,7 +149849,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 149,
@@ -149148,7 +149858,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 148,
@@ -149156,7 +149867,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 34,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:34:Chanting]]"
         },
         {
           "skillId": 147,
@@ -149164,7 +149876,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 12,
@@ -149172,7 +149885,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -149293,7 +150007,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 284,
@@ -149301,7 +150016,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -149422,7 +150138,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 284,
@@ -149430,7 +150147,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -149551,7 +150269,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 284,
@@ -149559,7 +150278,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -149680,7 +150400,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 284,
@@ -149688,7 +150409,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -149809,7 +150531,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 60,
@@ -149817,7 +150540,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 124,
@@ -149825,7 +150549,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 203,
@@ -149833,7 +150558,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 499,
@@ -149841,7 +150567,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 34,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:34:Chanting]]"
         },
         {
           "skillId": 151,
@@ -149849,7 +150576,8 @@ const enemiesData = {
           "rating": 2,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -149970,7 +150698,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 164,
@@ -149978,7 +150707,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 118,
@@ -149986,7 +150716,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -150107,7 +150838,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 314,
@@ -150115,7 +150847,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 507,
@@ -150123,7 +150856,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 508,
@@ -150131,7 +150865,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 509,
@@ -150139,7 +150874,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 32,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:32:Store Power 150]]"
         }
       ],
       "dropItems": [
@@ -150260,7 +150996,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 455,
@@ -150268,7 +151005,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 263,
@@ -150276,7 +151014,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -150425,7 +151164,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 1 + 4 * X"
         },
         {
           "skillId": 514,
@@ -150433,7 +151173,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 2 + 4 * X"
         },
         {
           "skillId": 515,
@@ -150441,7 +151182,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 3 + 4 * X"
         },
         {
           "skillId": 516,
@@ -150449,7 +151191,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 4 + 4 * X"
         }
       ],
       "dropItems": [
@@ -150584,7 +151327,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 373,
@@ -150592,7 +151336,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 114,
@@ -150600,7 +151345,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 510,
@@ -150608,7 +151354,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 34,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:34:Chanting]]"
         },
         {
           "skillId": 511,
@@ -150616,7 +151363,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         }
       ],
       "dropItems": [
@@ -150758,7 +151506,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 3 + 6 * X"
         },
         {
           "skillId": 518,
@@ -150766,7 +151515,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 1 + 6 * X"
         },
         {
           "skillId": 519,
@@ -150774,7 +151524,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 2 + 6 * X"
         },
         {
           "skillId": 520,
@@ -150782,7 +151533,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 34,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:34:Chanting]]"
         },
         {
           "skillId": 521,
@@ -150790,7 +151542,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 4 + 6 * X"
         },
         {
           "skillId": 518,
@@ -150798,7 +151551,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 5 + 6 * X"
         },
         {
           "skillId": 522,
@@ -150806,7 +151560,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 6,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 6 + 6 * X"
         }
       ],
       "dropItems": [
@@ -150976,7 +151731,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 3 + 6 * X"
         },
         {
           "skillId": 518,
@@ -150984,7 +151740,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 1 + 6 * X"
         },
         {
           "skillId": 519,
@@ -150992,7 +151749,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 2 + 6 * X"
         },
         {
           "skillId": 520,
@@ -151000,7 +151758,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 34,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:34:Chanting]]"
         },
         {
           "skillId": 521,
@@ -151008,7 +151767,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 4 + 6 * X"
         },
         {
           "skillId": 518,
@@ -151016,7 +151776,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 5 + 6 * X"
         },
         {
           "skillId": 522,
@@ -151024,7 +151785,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 6,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 6 + 6 * X"
         }
       ],
       "dropItems": [
@@ -151145,7 +151907,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -151280,7 +152043,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 2,
@@ -151288,7 +152052,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 12,
@@ -151296,7 +152061,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -151473,7 +152239,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -151636,7 +152403,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 270,
@@ -151644,7 +152412,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 267,
@@ -151652,7 +152421,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 35,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:35:Gather Power 200]]"
         },
         {
           "skillId": 51,
@@ -151660,7 +152430,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 10
+          "conditionParam2": 10,
+          "conditionText": "Turn 1 + 10 * X"
         },
         {
           "skillId": 29,
@@ -151668,7 +152439,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 462,
@@ -151676,7 +152448,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         }
       ],
       "dropItems": [
@@ -151839,7 +152612,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 112,
@@ -151847,7 +152621,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 128,
@@ -151855,7 +152630,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 147,
@@ -151863,7 +152639,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 148,
@@ -151871,7 +152648,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 34,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:34:Chanting]]"
         },
         {
           "skillId": 15,
@@ -151879,7 +152657,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 25,
@@ -151887,7 +152666,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 96,
@@ -151895,7 +152675,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 27,
@@ -151903,7 +152684,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -152129,7 +152911,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 79,
@@ -152137,7 +152920,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 533,
@@ -152145,7 +152929,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 87,
@@ -152153,7 +152938,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 540,
@@ -152161,7 +152947,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Turn 1"
         }
       ],
       "dropItems": [
@@ -152394,7 +153181,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 8
+          "conditionParam2": 8,
+          "conditionText": "Turn 1 + 8 * X"
         },
         {
           "skillId": 586,
@@ -152402,7 +153190,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 8
+          "conditionParam2": 8,
+          "conditionText": "Turn 2 + 8 * X"
         },
         {
           "skillId": 100,
@@ -152410,7 +153199,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 8
+          "conditionParam2": 8,
+          "conditionText": "Turn 3 + 8 * X"
         },
         {
           "skillId": 534,
@@ -152418,7 +153208,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 8
+          "conditionParam2": 8,
+          "conditionText": "Turn 4 + 8 * X"
         },
         {
           "skillId": 167,
@@ -152426,7 +153217,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 8
+          "conditionParam2": 8,
+          "conditionText": "Turn 5 + 8 * X"
         },
         {
           "skillId": 167,
@@ -152434,7 +153226,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 6,
-          "conditionParam2": 8
+          "conditionParam2": 8,
+          "conditionText": "Turn 6 + 8 * X"
         },
         {
           "skillId": 107,
@@ -152442,7 +153235,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 7,
-          "conditionParam2": 8
+          "conditionParam2": 8,
+          "conditionText": "Turn 7 + 8 * X"
         },
         {
           "skillId": 535,
@@ -152450,7 +153244,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 8,
-          "conditionParam2": 8
+          "conditionParam2": 8,
+          "conditionText": "Turn 8 + 8 * X"
         }
       ],
       "dropItems": [
@@ -152690,7 +153485,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 10
+          "conditionParam2": 10,
+          "conditionText": "Turn 3 + 10 * X"
         },
         {
           "skillId": 321,
@@ -152698,7 +153494,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 10
+          "conditionParam2": 10,
+          "conditionText": "Turn 2 + 10 * X"
         },
         {
           "skillId": 322,
@@ -152706,7 +153503,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 10
+          "conditionParam2": 10,
+          "conditionText": "Turn 2 + 10 * X"
         },
         {
           "skillId": 533,
@@ -152714,7 +153512,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 10
+          "conditionParam2": 10,
+          "conditionText": "Turn 4 + 10 * X"
         },
         {
           "skillId": 389,
@@ -152722,7 +153521,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 10
+          "conditionParam2": 10,
+          "conditionText": "Turn 5 + 10 * X"
         },
         {
           "skillId": 115,
@@ -152730,7 +153530,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 10
+          "conditionParam2": 10,
+          "conditionText": "Turn 1 + 10 * X"
         },
         {
           "skillId": 116,
@@ -152738,7 +153539,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 10
+          "conditionParam2": 10,
+          "conditionText": "Turn 1 + 10 * X"
         },
         {
           "skillId": 389,
@@ -152746,7 +153548,8 @@ const enemiesData = {
           "rating": 2,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 536,
@@ -152754,7 +153557,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 6,
-          "conditionParam2": 10
+          "conditionParam2": 10,
+          "conditionText": "Turn 6 + 10 * X"
         },
         {
           "skillId": 240,
@@ -152762,7 +153566,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 7,
-          "conditionParam2": 10
+          "conditionParam2": 10,
+          "conditionText": "Turn 7 + 10 * X"
         },
         {
           "skillId": 292,
@@ -152770,7 +153575,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 8,
-          "conditionParam2": 10
+          "conditionParam2": 10,
+          "conditionText": "Turn 8 + 10 * X"
         },
         {
           "skillId": 538,
@@ -152778,7 +153584,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 9,
-          "conditionParam2": 10
+          "conditionParam2": 10,
+          "conditionText": "Turn 9 + 10 * X"
         },
         {
           "skillId": 540,
@@ -152786,7 +153593,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 10,
-          "conditionParam2": 10
+          "conditionParam2": 10,
+          "conditionText": "Turn 10 + 10 * X"
         },
         {
           "skillId": 537,
@@ -152794,7 +153602,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 539,
@@ -152802,7 +153611,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 34,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:34:Chanting]]"
         }
       ],
       "dropItems": [
@@ -152965,7 +153775,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 322,
@@ -152973,7 +153784,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 13,
@@ -152981,7 +153793,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -153172,7 +153985,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 79,
@@ -153180,7 +153994,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 24,
@@ -153188,7 +154003,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.6
+          "conditionParam2": 0.6,
+          "conditionText": "HP: 0% ~ 60%"
         },
         {
           "skillId": 176,
@@ -153196,7 +154012,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 177,
@@ -153204,7 +154021,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 15,
@@ -153212,7 +154030,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.3
+          "conditionParam2": 0.3,
+          "conditionText": "HP: 0% ~ 30%"
         }
       ],
       "dropItems": [
@@ -153424,7 +154243,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 528,
@@ -153432,7 +154252,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 530,
@@ -153440,7 +154261,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 527,
@@ -153448,7 +154270,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 34,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:34:Chanting]]"
         },
         {
           "skillId": 529,
@@ -153456,7 +154279,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 31,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:31:Limit Break]]"
         },
         {
           "skillId": 531,
@@ -153464,7 +154288,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 33,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:33:Forbidden Break]]"
         }
       ],
       "dropItems": [
@@ -153599,7 +154424,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 132,
@@ -153607,7 +154433,8 @@ const enemiesData = {
           "rating": 2,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.99
+          "conditionParam2": 0.99,
+          "conditionText": "HP: 0% ~ 99%"
         },
         {
           "skillId": 140,
@@ -153615,7 +154442,8 @@ const enemiesData = {
           "rating": 2,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.99
+          "conditionParam2": 0.99,
+          "conditionText": "HP: 0% ~ 99%"
         },
         {
           "skillId": 141,
@@ -153623,7 +154451,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 142,
@@ -153631,7 +154460,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 143,
@@ -153639,7 +154469,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 144,
@@ -153647,7 +154478,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 151,
@@ -153655,7 +154487,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 317,
@@ -153663,7 +154496,8 @@ const enemiesData = {
           "rating": 8,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.1
+          "conditionParam2": 0.1,
+          "conditionText": "HP: 0% ~ 10%"
         }
       ],
       "dropItems": [
@@ -153847,7 +154681,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 222,
@@ -153855,7 +154690,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 426,
@@ -153863,7 +154699,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 427,
@@ -153871,7 +154708,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 428,
@@ -153879,7 +154717,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 363,
@@ -153887,7 +154726,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 149,
@@ -153895,7 +154735,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         }
       ],
       "dropItems": [
@@ -154114,7 +154955,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 50,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:50:Store Power Last Boss]]"
         },
         {
           "skillId": 544,
@@ -154122,7 +154964,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 51,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:51:Store Power Last Boss 2]]"
         },
         {
           "skillId": 542,
@@ -154130,7 +154973,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0.8,
-          "conditionParam2": 1
+          "conditionParam2": 1,
+          "conditionText": "HP: 0.8% ~ 1%"
         },
         {
           "skillId": 546,
@@ -154138,7 +154982,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.8
+          "conditionParam2": 0.8,
+          "conditionText": "HP: 0% ~ 80%"
         }
       ],
       "dropItems": [
@@ -154357,7 +155202,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 33,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:33:Forbidden Break]]"
         },
         {
           "skillId": 547,
@@ -154365,7 +155211,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 629,
@@ -154373,7 +155220,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 630,
@@ -154381,7 +155229,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 35,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:35:Gather Power 200]]"
         }
       ],
       "dropItems": [
@@ -154516,7 +155365,8 @@ const enemiesData = {
           "rating": 7,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 3 + 3 * X"
         },
         {
           "skillId": 67,
@@ -154524,7 +155374,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 3 + 3 * X"
         },
         {
           "skillId": 136,
@@ -154532,7 +155383,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 3 + 3 * X"
         },
         {
           "skillId": 234,
@@ -154540,7 +155392,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 1 + 3 * X"
         }
       ],
       "dropItems": [
@@ -154724,7 +155577,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 363,
@@ -154732,7 +155586,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 235,
@@ -154740,7 +155595,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -154868,7 +155724,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -154989,7 +155846,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -155243,7 +156101,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 1 + 3 * X"
         },
         {
           "skillId": 15,
@@ -155251,7 +156110,8 @@ const enemiesData = {
           "rating": 2,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 2 + 3 * X"
         },
         {
           "skillId": 579,
@@ -155259,7 +156119,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 580,
@@ -155267,7 +156128,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 581,
@@ -155275,7 +156137,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 32,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:32:Store Power 150]]"
         },
         {
           "skillId": 284,
@@ -155283,7 +156146,8 @@ const enemiesData = {
           "rating": 2,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 3 + 3 * X"
         },
         {
           "skillId": 34,
@@ -155291,7 +156155,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 6,
           "conditionParam1": 559,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Switch: #559 is ON"
         },
         {
           "skillId": 88,
@@ -155299,7 +156164,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 3 + 3 * X"
         },
         {
           "skillId": 569,
@@ -155307,7 +156173,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 1 + 3 * X"
         }
       ],
       "dropItems": [
@@ -155526,7 +156393,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 225,
@@ -155534,7 +156402,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -155753,7 +156622,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 225,
@@ -155761,7 +156631,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -155980,7 +156851,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 225,
@@ -155988,7 +156860,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -156207,7 +157080,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 225,
@@ -156215,7 +157089,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -156427,7 +157302,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 552,
@@ -156435,7 +157311,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 574,
@@ -156443,7 +157320,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 578,
@@ -156451,7 +157329,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 4,
           "conditionParam1": 115,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:115:Equip Walrus Ring]]"
         }
       ],
       "dropItems": [
@@ -156663,7 +157542,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 575,
@@ -156671,7 +157551,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 4,
           "conditionParam1": 114,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:114:Non-mobile state]]"
         },
         {
           "skillId": 552,
@@ -156679,7 +157560,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 576,
@@ -156687,7 +157569,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 33,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:33:Forbidden Break]]"
         }
       ],
       "dropItems": [
@@ -156913,7 +157796,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 560,
@@ -156921,7 +157805,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 558,
@@ -156929,7 +157814,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 561,
@@ -156937,7 +157823,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 138,
@@ -156945,7 +157832,8 @@ const enemiesData = {
           "rating": 7,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.05
+          "conditionParam2": 0.05,
+          "conditionText": "HP: 0% ~ 5%"
         },
         {
           "skillId": 537,
@@ -156953,7 +157841,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 557,
@@ -156961,7 +157850,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 34,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:34:Chanting]]"
         }
       ],
       "dropItems": [
@@ -157082,7 +157972,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 367,
@@ -157090,7 +157981,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 567,
@@ -157098,7 +157990,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 568,
@@ -157106,7 +157999,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 33,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:33:Forbidden Break]]"
         }
       ],
       "dropItems": [
@@ -157241,7 +158135,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 87,
@@ -157249,7 +158144,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 555,
@@ -157257,7 +158153,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 554,
@@ -157265,7 +158162,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         }
       ],
       "dropItems": [
@@ -157421,7 +158319,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 565,
@@ -157429,7 +158328,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 566,
@@ -157437,7 +158337,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 119,
@@ -157445,7 +158346,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 289,
@@ -157453,7 +158355,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 288,
@@ -157461,7 +158364,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         }
       ],
       "dropItems": [
@@ -157589,7 +158493,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 28,
@@ -157597,7 +158502,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 60,
@@ -157605,7 +158511,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -157733,7 +158640,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 29,
@@ -157741,7 +158649,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 60,
@@ -157749,7 +158658,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -157933,7 +158843,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -158075,7 +158986,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 32,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:32:Store Power 150]]"
         },
         {
           "skillId": 238,
@@ -158083,7 +158995,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 51,
@@ -158091,7 +159004,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Turn 1"
         },
         {
           "skillId": 173,
@@ -158099,7 +159013,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -158248,7 +159163,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 284,
@@ -158256,7 +159172,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -158377,7 +159294,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 569,
@@ -158385,7 +159303,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 2
+          "conditionParam2": 2,
+          "conditionText": "Turn 2 + 2 * X"
         }
       ],
       "dropItems": [
@@ -158492,7 +159411,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -158599,7 +159519,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -158706,7 +159627,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -158820,7 +159742,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -158948,7 +159871,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -159111,7 +160035,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 234,
@@ -159119,7 +160044,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 2,
@@ -159127,7 +160053,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -159297,7 +160224,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 122,
@@ -159305,7 +160233,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -159482,7 +160411,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 1 + 4 * X"
         },
         {
           "skillId": 240,
@@ -159490,7 +160420,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 2 + 4 * X"
         },
         {
           "skillId": 374,
@@ -159498,7 +160429,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 3 + 4 * X"
         },
         {
           "skillId": 288,
@@ -159506,7 +160438,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 4 + 4 * X"
         },
         {
           "skillId": 289,
@@ -159514,7 +160447,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 4 + 4 * X"
         },
         {
           "skillId": 561,
@@ -159522,7 +160456,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 2 + 4 * X"
         },
         {
           "skillId": 110,
@@ -159530,7 +160465,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 3 + 4 * X"
         },
         {
           "skillId": 21,
@@ -159538,7 +160474,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 3 + 4 * X"
         },
         {
           "skillId": 583,
@@ -159546,7 +160483,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 1 + 4 * X"
         }
       ],
       "dropItems": [
@@ -159751,7 +160689,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 1 + 4 * X"
         },
         {
           "skillId": 240,
@@ -159759,7 +160698,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 2 + 4 * X"
         },
         {
           "skillId": 374,
@@ -159767,7 +160707,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 3 + 4 * X"
         },
         {
           "skillId": 288,
@@ -159775,7 +160716,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 4 + 4 * X"
         },
         {
           "skillId": 289,
@@ -159783,7 +160725,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 4 + 4 * X"
         },
         {
           "skillId": 169,
@@ -159791,7 +160734,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 1 + 4 * X"
         },
         {
           "skillId": 561,
@@ -159799,7 +160743,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 2 + 4 * X"
         },
         {
           "skillId": 110,
@@ -159807,7 +160752,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 3 + 4 * X"
         },
         {
           "skillId": 21,
@@ -159815,7 +160761,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 3 + 4 * X"
         },
         {
           "skillId": 583,
@@ -159823,7 +160770,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 1 + 4 * X"
         }
       ],
       "dropItems": [
@@ -159930,7 +160878,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Turn 1"
         },
         {
           "skillId": 71,
@@ -159938,7 +160887,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -160185,7 +161135,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 320,
@@ -160193,7 +161144,8 @@ const enemiesData = {
           "rating": 8,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 350,
@@ -160201,7 +161153,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 626,
@@ -160209,7 +161162,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -160456,7 +161410,8 @@ const enemiesData = {
           "rating": 2,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 320,
@@ -160464,7 +161419,8 @@ const enemiesData = {
           "rating": 8,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 357,
@@ -160472,7 +161428,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 52,
@@ -160480,7 +161437,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 53,
@@ -160488,7 +161446,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 32,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:32:Store Power 150]]"
         },
         {
           "skillId": 626,
@@ -160496,7 +161455,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -160645,7 +161605,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 608,
@@ -160653,7 +161614,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.75
+          "conditionParam2": 0.75,
+          "conditionText": "HP: 0% ~ 75%"
         }
       ],
       "dropItems": [
@@ -160816,7 +161778,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 2 + 5 * X"
         },
         {
           "skillId": 297,
@@ -160824,7 +161787,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 3 + 5 * X"
         },
         {
           "skillId": 464,
@@ -160832,7 +161796,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 4 + 5 * X"
         },
         {
           "skillId": 465,
@@ -160840,7 +161805,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 5 + 5 * X"
         },
         {
           "skillId": 466,
@@ -160848,7 +161814,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 1 + 5 * X"
         }
       ],
       "dropItems": [
@@ -161053,7 +162020,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 2 + 6 * X"
         },
         {
           "skillId": 263,
@@ -161061,7 +162029,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 5 + 6 * X"
         },
         {
           "skillId": 263,
@@ -161069,7 +162038,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 4 + 6 * X"
         },
         {
           "skillId": 263,
@@ -161077,7 +162047,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 3 + 6 * X"
         },
         {
           "skillId": 231,
@@ -161085,7 +162056,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 5 + 6 * X"
         },
         {
           "skillId": 231,
@@ -161093,7 +162065,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 4 + 6 * X"
         },
         {
           "skillId": 231,
@@ -161101,7 +162074,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 3 + 6 * X"
         },
         {
           "skillId": 164,
@@ -161109,7 +162083,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 5 + 6 * X"
         },
         {
           "skillId": 164,
@@ -161117,7 +162092,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 4 + 6 * X"
         },
         {
           "skillId": 164,
@@ -161125,7 +162101,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 3 + 6 * X"
         },
         {
           "skillId": 609,
@@ -161133,7 +162110,8 @@ const enemiesData = {
           "rating": 7,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 1 + 6 * X"
         },
         {
           "skillId": 611,
@@ -161141,7 +162119,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 6,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 6 + 6 * X"
         }
       ],
       "dropItems": [
@@ -161220,7 +162199,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -161369,7 +162349,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 110,
@@ -161377,7 +162358,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 263,
@@ -161385,7 +162367,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 167,
@@ -161393,7 +162376,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.75
+          "conditionParam2": 0.75,
+          "conditionText": "HP: 0% ~ 75%"
         }
       ],
       "dropItems": [
@@ -161500,7 +162484,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 18,
@@ -161508,7 +162493,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 374,
@@ -161516,7 +162502,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         }
       ],
       "dropItems": [
@@ -161623,7 +162610,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 19,
@@ -161631,7 +162619,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 374,
@@ -161639,7 +162628,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         }
       ],
       "dropItems": [
@@ -161746,7 +162736,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Turn 1"
         },
         {
           "skillId": 71,
@@ -161754,7 +162745,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -161924,7 +162916,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 615,
@@ -161932,7 +162925,8 @@ const enemiesData = {
           "rating": 8,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         }
       ],
       "dropItems": [
@@ -162088,7 +163082,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 2,
           "conditionParam1": 0.5,
-          "conditionParam2": 1
+          "conditionParam2": 1,
+          "conditionText": "HP: 0.5% ~ 1%"
         },
         {
           "skillId": 459,
@@ -162096,7 +163091,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 460,
@@ -162104,7 +163100,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 461,
@@ -162112,7 +163109,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 35,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:35:Gather Power 200]]"
         },
         {
           "skillId": 461,
@@ -162120,7 +163118,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 33,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:33:Forbidden Break]]"
         },
         {
           "skillId": 67,
@@ -162128,7 +163127,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0.5,
-          "conditionParam2": 1
+          "conditionParam2": 1,
+          "conditionText": "HP: 0.5% ~ 1%"
         },
         {
           "skillId": 462,
@@ -162136,7 +163136,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 270,
@@ -162144,7 +163145,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 79,
@@ -162152,7 +163154,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         }
       ],
       "dropItems": [
@@ -162322,7 +163325,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -162478,7 +163482,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0.7,
-          "conditionParam2": 1
+          "conditionParam2": 1,
+          "conditionText": "HP: 0.7% ~ 1%"
         },
         {
           "skillId": 463,
@@ -162486,7 +163491,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 297,
@@ -162494,7 +163500,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0.7,
-          "conditionParam2": 1
+          "conditionParam2": 1,
+          "conditionText": "HP: 0.7% ~ 1%"
         },
         {
           "skillId": 464,
@@ -162502,7 +163509,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 465,
@@ -162510,7 +163518,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 467,
@@ -162518,7 +163527,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 466,
@@ -162526,7 +163536,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 33,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:33:Forbidden Break]]"
         }
       ],
       "dropItems": [
@@ -162731,7 +163742,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 8
+          "conditionParam2": 8,
+          "conditionText": "Turn 1 + 8 * X"
         },
         {
           "skillId": 468,
@@ -162739,7 +163751,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 8
+          "conditionParam2": 8,
+          "conditionText": "Turn 2 + 8 * X"
         },
         {
           "skillId": 469,
@@ -162747,7 +163760,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 8
+          "conditionParam2": 8,
+          "conditionText": "Turn 3 + 8 * X"
         },
         {
           "skillId": 451,
@@ -162755,7 +163769,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 8
+          "conditionParam2": 8,
+          "conditionText": "Turn 4 + 8 * X"
         },
         {
           "skillId": 449,
@@ -162763,7 +163778,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 8
+          "conditionParam2": 8,
+          "conditionText": "Turn 5 + 8 * X"
         },
         {
           "skillId": 617,
@@ -162771,7 +163787,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 6,
-          "conditionParam2": 8
+          "conditionParam2": 8,
+          "conditionText": "Turn 6 + 8 * X"
         },
         {
           "skillId": 150,
@@ -162779,7 +163796,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 7,
-          "conditionParam2": 8
+          "conditionParam2": 8,
+          "conditionText": "Turn 7 + 8 * X"
         },
         {
           "skillId": 618,
@@ -162787,7 +163805,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 8,
-          "conditionParam2": 8
+          "conditionParam2": 8,
+          "conditionText": "Turn 8 + 8 * X"
         }
       ],
       "dropItems": [
@@ -162866,7 +163885,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -162987,7 +164007,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 28,
@@ -162995,7 +164016,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -163102,7 +164124,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -163209,7 +164232,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -163330,7 +164354,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -163437,7 +164462,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -163565,7 +164591,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -163665,7 +164692,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 372,
@@ -163673,7 +164701,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 58,
@@ -163681,7 +164710,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -163781,7 +164811,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 2,
@@ -163789,7 +164820,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 78,
@@ -163797,7 +164829,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -163904,7 +164937,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -163997,7 +165031,8 @@ const enemiesData = {
           "rating": 8,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Turn 2"
         },
         {
           "skillId": 28,
@@ -164005,7 +165040,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -164119,7 +165155,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 32,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:32:Store Power 150]]"
         },
         {
           "skillId": 52,
@@ -164127,7 +165164,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 59,
@@ -164135,7 +165173,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 164,
@@ -164143,7 +165182,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         }
       ],
       "dropItems": [
@@ -164264,7 +165304,8 @@ const enemiesData = {
           "rating": 7,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 67,
@@ -164272,7 +165313,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.3
+          "conditionParam2": 0.3,
+          "conditionText": "HP: 0% ~ 30%"
         },
         {
           "skillId": 2,
@@ -164280,7 +165322,8 @@ const enemiesData = {
           "rating": 2,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 81,
@@ -164288,7 +165331,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 164,
@@ -164296,7 +165340,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -164487,7 +165532,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -164594,7 +165640,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 201,
@@ -164602,7 +165649,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -164709,7 +165757,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 101,
@@ -164717,7 +165766,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -164817,7 +165867,8 @@ const enemiesData = {
           "rating": 10,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 25,
@@ -164825,7 +165876,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -164925,7 +165977,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 111,
@@ -164933,7 +165986,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -165040,7 +166094,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 71,
@@ -165048,7 +166103,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -165155,7 +166211,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 106,
@@ -165163,7 +166220,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 2,
@@ -165171,7 +166229,8 @@ const enemiesData = {
           "rating": 2,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -165285,7 +166344,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 199,
@@ -165293,7 +166353,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -165400,7 +166461,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 205,
@@ -165408,7 +166470,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -165522,7 +166585,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 206,
@@ -165530,7 +166594,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -165637,7 +166702,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 1 + 4 * X"
         },
         {
           "skillId": 219,
@@ -165645,7 +166711,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 2 + 4 * X"
         },
         {
           "skillId": 219,
@@ -165653,7 +166720,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 3 + 4 * X"
         },
         {
           "skillId": 218,
@@ -165661,7 +166729,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 4 + 4 * X"
         }
       ],
       "dropItems": [
@@ -165789,7 +166858,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 50,
@@ -165797,7 +166867,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -165911,7 +166982,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -166039,7 +167111,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 117,
@@ -166047,7 +167120,8 @@ const enemiesData = {
           "rating": 7,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.3
+          "conditionParam2": 0.3,
+          "conditionText": "HP: 0% ~ 30%"
         }
       ],
       "dropItems": [
@@ -166140,7 +167214,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 215,
@@ -166148,7 +167223,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 36,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:36:Scream]]"
         },
         {
           "skillId": 213,
@@ -166156,7 +167232,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -166277,7 +167354,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 169,
@@ -166285,7 +167363,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 8,
@@ -166293,7 +167372,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -166400,7 +167480,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 2 + 3 * X"
         },
         {
           "skillId": 234,
@@ -166408,7 +167489,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 1 + 3 * X"
         },
         {
           "skillId": 231,
@@ -166416,7 +167498,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 3 + 3 * X"
         }
       ],
       "dropItems": [
@@ -166523,7 +167606,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 67,
@@ -166531,7 +167615,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -166624,7 +167709,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 30,
@@ -166632,7 +167718,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -166746,7 +167833,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 236,
@@ -166754,7 +167842,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 380,
@@ -166762,7 +167851,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -166876,7 +167966,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -167018,7 +168109,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 157,
@@ -167026,7 +168118,8 @@ const enemiesData = {
           "rating": 2,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 37,
@@ -167034,7 +168127,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -167148,7 +168242,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 161,
@@ -167156,7 +168251,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 162,
@@ -167164,7 +168260,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 33,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:33:Forbidden Break]]"
         }
       ],
       "dropItems": [
@@ -167264,7 +168361,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 624,
@@ -167272,7 +168370,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 67,
@@ -167280,7 +168379,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -167380,7 +168480,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 258,
@@ -167388,7 +168489,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.99
+          "conditionParam2": 0.99,
+          "conditionText": "HP: 0% ~ 99%"
         }
       ],
       "dropItems": [
@@ -167488,7 +168590,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 261,
@@ -167496,7 +168599,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -167617,7 +168721,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -167717,7 +168822,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 263,
@@ -167725,7 +168831,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 9,
@@ -167733,7 +168840,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -167847,7 +168955,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 267,
@@ -167855,7 +168964,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 35,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:35:Gather Power 200]]"
         },
         {
           "skillId": 222,
@@ -167863,7 +168973,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -167977,7 +169088,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 267,
@@ -167985,7 +169097,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 35,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:35:Gather Power 200]]"
         },
         {
           "skillId": 222,
@@ -167993,7 +169106,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -168107,7 +169221,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 267,
@@ -168115,7 +169230,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 35,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:35:Gather Power 200]]"
         },
         {
           "skillId": 222,
@@ -168123,7 +169239,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -168230,7 +169347,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 164,
@@ -168238,7 +169356,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 231,
@@ -168246,7 +169365,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -168409,7 +169529,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 363,
@@ -168417,7 +169538,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -168538,7 +169660,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 11,
@@ -168546,7 +169669,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -168639,7 +169763,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 24,
@@ -168647,7 +169772,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -168761,7 +169887,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 374,
@@ -168769,7 +169896,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -168869,7 +169997,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -169011,7 +170140,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 308,
@@ -169019,7 +170149,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 1
+          "conditionParam2": 1,
+          "conditionText": "HP: 0% ~ 1%"
         }
       ],
       "dropItems": [
@@ -169147,7 +170278,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 188,
@@ -169155,7 +170287,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 244,
@@ -169163,7 +170296,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -169270,7 +170404,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 391,
@@ -169278,7 +170413,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -169399,7 +170535,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 284,
@@ -169407,7 +170544,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -169528,7 +170666,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 1 + 3 * X"
         },
         {
           "skillId": 446,
@@ -169536,7 +170675,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 2 + 3 * X"
         },
         {
           "skillId": 15,
@@ -169544,7 +170684,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 3 + 3 * X"
         }
       ],
       "dropItems": [
@@ -169658,7 +170799,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 1 + 3 * X"
         },
         {
           "skillId": 442,
@@ -169666,7 +170808,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 2 + 3 * X"
         },
         {
           "skillId": 2,
@@ -169674,7 +170817,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 3 + 3 * X"
         }
       ],
       "dropItems": [
@@ -169788,7 +170932,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 2 + 3 * X"
         },
         {
           "skillId": 444,
@@ -169796,7 +170941,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 3 + 3 * X"
         },
         {
           "skillId": 51,
@@ -169804,7 +170950,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 1 + 3 * X"
         }
       ],
       "dropItems": [
@@ -169932,7 +171079,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Turn 1"
         },
         {
           "skillId": 21,
@@ -169940,7 +171088,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 1 + 3 * X"
         },
         {
           "skillId": 85,
@@ -169948,7 +171097,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 2 + 3 * X"
         },
         {
           "skillId": 385,
@@ -169956,7 +171106,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 3 + 3 * X"
         }
       ],
       "dropItems": [
@@ -170070,7 +171221,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Turn 1"
         },
         {
           "skillId": 71,
@@ -170078,7 +171230,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -170199,7 +171352,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Turn 1"
         },
         {
           "skillId": 42,
@@ -170207,7 +171361,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Turn 1"
         },
         {
           "skillId": 95,
@@ -170215,7 +171370,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 105,
@@ -170223,7 +171379,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 106,
@@ -170231,7 +171388,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 15,
@@ -170239,7 +171397,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -170332,7 +171491,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -170488,7 +171648,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 169,
@@ -170496,7 +171657,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 188,
@@ -170504,7 +171666,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 38,
@@ -170512,7 +171675,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         }
       ],
       "dropItems": [
@@ -170619,7 +171783,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 1 + 3 * X"
         },
         {
           "skillId": 632,
@@ -170627,7 +171792,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 2 + 3 * X"
         },
         {
           "skillId": 207,
@@ -170635,7 +171801,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 3 + 3 * X"
         }
       ],
       "dropItems": [
@@ -170742,7 +171909,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 1 + 6 * X"
         },
         {
           "skillId": 100,
@@ -170750,7 +171918,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 2 + 6 * X"
         },
         {
           "skillId": 106,
@@ -170758,7 +171927,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 3 + 6 * X"
         },
         {
           "skillId": 85,
@@ -170766,7 +171936,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 4 + 6 * X"
         },
         {
           "skillId": 63,
@@ -170774,7 +171945,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 5 + 6 * X"
         },
         {
           "skillId": 216,
@@ -170782,7 +171954,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 32,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:32:Store Power 150]]"
         },
         {
           "skillId": 223,
@@ -170790,7 +171963,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 6,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 6 + 6 * X"
         }
       ],
       "dropItems": [
@@ -170897,7 +172071,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 234,
@@ -170905,7 +172080,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -171019,7 +172195,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 389,
@@ -171027,7 +172204,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -171141,7 +172319,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 234,
@@ -171149,7 +172328,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -171256,7 +172436,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 234,
@@ -171264,7 +172445,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -171357,7 +172539,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 234,
@@ -171365,7 +172548,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -171465,7 +172649,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 164,
@@ -171473,7 +172658,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 234,
@@ -171481,7 +172667,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -171595,7 +172782,8 @@ const enemiesData = {
           "rating": 8,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 635,
@@ -171603,7 +172791,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -171724,7 +172913,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 638,
@@ -171732,7 +172922,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -171867,7 +173058,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -171981,7 +173173,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 1 + 5 * X"
         },
         {
           "skillId": 641,
@@ -171989,7 +173182,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 2 + 5 * X"
         },
         {
           "skillId": 641,
@@ -171997,7 +173191,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 3 + 5 * X"
         },
         {
           "skillId": 641,
@@ -172005,7 +173200,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 4 + 5 * X"
         },
         {
           "skillId": 640,
@@ -172013,7 +173209,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 5 + 5 * X"
         }
       ],
       "dropItems": [
@@ -172120,7 +173317,8 @@ const enemiesData = {
           "rating": 8,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 645,
@@ -172128,7 +173326,8 @@ const enemiesData = {
           "rating": 2,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -172249,7 +173448,8 @@ const enemiesData = {
           "rating": 8,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 646,
@@ -172257,7 +173457,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -172385,7 +173586,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 648,
@@ -172393,7 +173595,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -172500,7 +173703,8 @@ const enemiesData = {
           "rating": 8,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Turn 1"
         },
         {
           "skillId": 109,
@@ -172508,7 +173712,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 108,
@@ -172516,7 +173721,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 24,
@@ -172524,7 +173730,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 29,
@@ -172532,7 +173739,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -172639,7 +173847,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 347,
@@ -172647,7 +173856,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -172761,7 +173971,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 650,
@@ -172769,7 +173980,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 651,
@@ -172777,7 +173989,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -172877,7 +174090,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.3
+          "conditionParam2": 0.3,
+          "conditionText": "HP: 0% ~ 30%"
         },
         {
           "skillId": 653,
@@ -172885,7 +174099,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 507,
@@ -172893,7 +174108,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -173007,7 +174223,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 231,
@@ -173015,7 +174232,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -173143,7 +174361,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 83,
@@ -173151,7 +174370,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 63,
@@ -173159,7 +174379,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 84,
@@ -173167,7 +174388,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 32,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:32:Store Power 150]]"
         },
         {
           "skillId": 110,
@@ -173175,7 +174397,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 64,
@@ -173183,7 +174406,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -173290,7 +174514,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 11,
@@ -173298,7 +174523,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 203,
@@ -173306,7 +174532,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 204,
@@ -173314,7 +174541,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 34,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:34:Chanting]]"
         }
       ],
       "dropItems": [
@@ -173442,7 +174670,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 655,
@@ -173450,7 +174679,8 @@ const enemiesData = {
           "rating": 7,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 73,
@@ -173458,7 +174688,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -173579,7 +174810,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 238,
@@ -173587,7 +174819,8 @@ const enemiesData = {
           "rating": 7,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 237,
@@ -173595,7 +174828,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 32,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:32:Store Power 150]]"
         }
       ],
       "dropItems": [
@@ -173702,7 +174936,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 217,
@@ -173710,7 +174945,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 36,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:36:Scream]]"
         }
       ],
       "dropItems": [
@@ -173838,7 +175074,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 54,
@@ -173846,7 +175083,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 55,
@@ -173854,7 +175092,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 31,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:31:Limit Break]]"
         },
         {
           "skillId": 106,
@@ -173862,7 +175101,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 105,
@@ -173870,7 +175110,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -173984,7 +175225,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 152,
@@ -173992,7 +175234,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 129,
@@ -174000,7 +175243,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 88,
@@ -174008,7 +175252,8 @@ const enemiesData = {
           "rating": 7,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.3
+          "conditionParam2": 0.3,
+          "conditionText": "HP: 0% ~ 30%"
         },
         {
           "skillId": 2,
@@ -174016,7 +175261,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 79,
@@ -174024,7 +175270,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -174138,7 +175385,8 @@ const enemiesData = {
           "rating": 2,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 378,
@@ -174146,7 +175394,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 379,
@@ -174154,7 +175403,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         }
       ],
       "dropItems": [
@@ -174296,7 +175546,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 262,
@@ -174304,7 +175555,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 29,
@@ -174312,7 +175564,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 372,
@@ -174320,7 +175573,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.6
+          "conditionParam2": 0.6,
+          "conditionText": "HP: 0% ~ 60%"
         }
       ],
       "dropItems": [
@@ -174441,7 +175695,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 124,
@@ -174449,7 +175704,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 396,
@@ -174457,7 +175713,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 397,
@@ -174465,7 +175722,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 31,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:31:Limit Break]]"
         },
         {
           "skillId": 372,
@@ -174473,7 +175731,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.6
+          "conditionParam2": 0.6,
+          "conditionText": "HP: 0% ~ 60%"
         }
       ],
       "dropItems": [
@@ -174580,7 +175839,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 1 + 3 * X"
         },
         {
           "skillId": 399,
@@ -174588,7 +175848,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 2 + 3 * X"
         },
         {
           "skillId": 400,
@@ -174596,7 +175857,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 3 + 3 * X"
         },
         {
           "skillId": 401,
@@ -174604,7 +175866,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 402,
@@ -174612,7 +175875,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 32,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:32:Store Power 150]]"
         }
       ],
       "dropItems": [
@@ -174726,7 +175990,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 657,
@@ -174734,7 +175999,8 @@ const enemiesData = {
           "rating": 7,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.3
+          "conditionParam2": 0.3,
+          "conditionText": "HP: 0% ~ 30%"
         },
         {
           "skillId": 658,
@@ -174742,7 +176008,8 @@ const enemiesData = {
           "rating": 7,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 659,
@@ -174750,7 +176017,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         }
       ],
       "dropItems": [
@@ -174850,7 +176118,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -175013,7 +176282,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 661,
@@ -175021,7 +176291,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 662,
@@ -175029,7 +176300,8 @@ const enemiesData = {
           "rating": 8,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 5 + 5 * X"
         }
       ],
       "dropItems": [
@@ -175136,7 +176408,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 664,
@@ -175144,7 +176417,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 663,
@@ -175152,7 +176426,8 @@ const enemiesData = {
           "rating": 8,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 5 + 5 * X"
         }
       ],
       "dropItems": [
@@ -175259,7 +176534,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 669,
@@ -175267,7 +176543,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 667,
@@ -175275,7 +176552,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 668,
@@ -175283,7 +176561,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 32,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:32:Store Power 150]]"
         }
       ],
       "dropItems": [
@@ -175390,7 +176669,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 1,
-          "conditionParam2": 1
+          "conditionParam2": 1,
+          "conditionText": "HP: 1%"
         },
         {
           "skillId": 671,
@@ -175398,7 +176678,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 1,
-          "conditionParam2": 1
+          "conditionParam2": 1,
+          "conditionText": "HP: 1%"
         },
         {
           "skillId": 37,
@@ -175406,7 +176687,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.99
+          "conditionParam2": 0.99,
+          "conditionText": "HP: 0% ~ 99%"
         },
         {
           "skillId": 673,
@@ -175414,7 +176696,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 32,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:32:Store Power 150]]"
         },
         {
           "skillId": 672,
@@ -175422,7 +176705,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 455,
@@ -175430,7 +176714,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.99
+          "conditionParam2": 0.99,
+          "conditionText": "HP: 0% ~ 99%"
         },
         {
           "skillId": 173,
@@ -175438,7 +176723,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 18,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:18:Last Power]]"
         }
       ],
       "dropItems": [
@@ -175559,7 +176845,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0.5,
-          "conditionParam2": 1
+          "conditionParam2": 1,
+          "conditionText": "HP: 0.5% ~ 1%"
         },
         {
           "skillId": 262,
@@ -175567,7 +176854,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 24,
@@ -175575,7 +176863,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 674,
@@ -175583,7 +176872,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 313,
@@ -175591,7 +176881,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 33,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:33:Forbidden Break]]"
         }
       ],
       "dropItems": [
@@ -175698,7 +176989,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 82,
@@ -175706,7 +176998,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 41,
@@ -175714,7 +177007,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -175821,7 +177115,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 681,
@@ -175829,7 +177124,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 584,
@@ -175837,7 +177133,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Turn 1"
         },
         {
           "skillId": 679,
@@ -175845,7 +177142,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 682,
@@ -175853,7 +177151,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 31,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:31:Limit Break]]"
         }
       ],
       "dropItems": [
@@ -175974,7 +177273,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 102,
@@ -175982,7 +177282,8 @@ const enemiesData = {
           "rating": 10,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Turn 1"
         },
         {
           "skillId": 103,
@@ -175990,7 +177291,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 679,
@@ -175998,7 +177300,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 678,
@@ -176006,7 +177309,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 31,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:31:Limit Break]]"
         }
       ],
       "dropItems": [
@@ -176120,7 +177424,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 679,
@@ -176128,7 +177433,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 683,
@@ -176136,7 +177442,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 31,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:31:Limit Break]]"
         }
       ],
       "dropItems": [
@@ -176257,7 +177564,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 2 + 4 * X"
         },
         {
           "skillId": 87,
@@ -176265,7 +177573,8 @@ const enemiesData = {
           "rating": 2,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 3 + 4 * X"
         },
         {
           "skillId": 621,
@@ -176273,7 +177582,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 4 + 4 * X"
         },
         {
           "skillId": 679,
@@ -176281,7 +177591,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 684,
@@ -176289,7 +177600,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 31,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:31:Limit Break]]"
         },
         {
           "skillId": 66,
@@ -176297,7 +177609,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 1 + 4 * X"
         }
       ],
       "dropItems": [
@@ -176418,7 +177731,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 686,
@@ -176426,7 +177740,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 687,
@@ -176434,7 +177749,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 688,
@@ -176442,7 +177758,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 689,
@@ -176450,7 +177767,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 135,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:135:Unbreakable(Lie)]]"
         },
         {
           "skillId": 690,
@@ -176458,7 +177776,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 691,
@@ -176466,7 +177785,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 136,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:136:Accumulate power 150 (Lie)]]"
         }
       ],
       "dropItems": [
@@ -176594,7 +177914,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 128,
@@ -176602,7 +177923,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 30,
@@ -176610,7 +177932,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 79,
@@ -176618,7 +177941,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 692,
@@ -176626,7 +177950,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Turn 1"
         },
         {
           "skillId": 99,
@@ -176634,7 +177959,8 @@ const enemiesData = {
           "rating": 7,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         }
       ],
       "dropItems": [
@@ -176727,7 +178053,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 693,
@@ -176735,7 +178062,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 694,
@@ -176743,7 +178071,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Turn 4"
         },
         {
           "skillId": 694,
@@ -176751,7 +178080,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 1,
           "conditionParam1": 10,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Turn 10"
         },
         {
           "skillId": 694,
@@ -176759,7 +178089,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 1,
           "conditionParam1": 19,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Turn 19"
         },
         {
           "skillId": 59,
@@ -176767,7 +178098,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -176965,7 +178297,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -177128,7 +178461,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 639,
@@ -177136,7 +178470,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 700,
@@ -177144,7 +178479,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 22,
@@ -177152,7 +178488,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -177322,7 +178659,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 639,
@@ -177330,7 +178668,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 700,
@@ -177338,7 +178677,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 22,
@@ -177346,7 +178686,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -177467,7 +178808,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 270,
@@ -177475,7 +178817,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Turn 1"
         },
         {
           "skillId": 278,
@@ -177483,7 +178826,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 279,
@@ -177491,7 +178835,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 280,
@@ -177499,7 +178844,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 284,
@@ -177507,7 +178853,8 @@ const enemiesData = {
           "rating": 8,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.1
+          "conditionParam2": 0.1,
+          "conditionText": "HP: 0% ~ 10%"
         },
         {
           "skillId": 282,
@@ -177515,7 +178862,8 @@ const enemiesData = {
           "rating": 8,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.1
+          "conditionParam2": 0.1,
+          "conditionText": "HP: 0% ~ 10%"
         }
       ],
       "dropItems": [
@@ -177720,7 +179068,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -177869,7 +179218,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 118,
@@ -177877,7 +179227,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 381,
@@ -177885,7 +179236,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 372,
@@ -177893,7 +179245,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.8
+          "conditionParam2": 0.8,
+          "conditionText": "HP: 0% ~ 80%"
         }
       ],
       "dropItems": [
@@ -178049,7 +179402,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 107,
@@ -178057,7 +179411,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 381,
@@ -178065,7 +179420,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 382,
@@ -178073,7 +179429,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 383,
@@ -178081,7 +179438,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 384,
@@ -178089,7 +179447,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 32,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:32:Store Power 150]]"
         }
       ],
       "dropItems": [
@@ -178210,7 +179569,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 704,
@@ -178218,7 +179578,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.75
+          "conditionParam2": 0.75,
+          "conditionText": "HP: 0% ~ 75%"
         },
         {
           "skillId": 705,
@@ -178226,7 +179587,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 705,
@@ -178234,7 +179596,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         }
       ],
       "dropItems": [
@@ -178362,7 +179725,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 1 + 4 * X"
         },
         {
           "skillId": 707,
@@ -178370,7 +179734,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 2 + 4 * X"
         },
         {
           "skillId": 709,
@@ -178378,7 +179743,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 3 + 4 * X"
         },
         {
           "skillId": 710,
@@ -178386,7 +179752,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 4 + 4 * X"
         },
         {
           "skillId": 603,
@@ -178394,7 +179761,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.15
+          "conditionParam2": 0.15,
+          "conditionText": "HP: 0% ~ 15%"
         }
       ],
       "dropItems": [
@@ -178529,7 +179897,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 712,
@@ -178537,7 +179906,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.75
+          "conditionParam2": 0.75,
+          "conditionText": "HP: 0% ~ 75%"
         },
         {
           "skillId": 713,
@@ -178545,7 +179915,8 @@ const enemiesData = {
           "rating": 7,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 119,
@@ -178553,7 +179924,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 507,
@@ -178561,7 +179933,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -178745,7 +180118,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 1 + 6 * X"
         },
         {
           "skillId": 717,
@@ -178753,7 +180127,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 2 + 6 * X"
         },
         {
           "skillId": 89,
@@ -178761,7 +180136,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 6,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 6 + 6 * X"
         },
         {
           "skillId": 716,
@@ -178769,7 +180145,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 4 + 6 * X"
         },
         {
           "skillId": 715,
@@ -178777,7 +180154,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 5 + 6 * X"
         },
         {
           "skillId": 188,
@@ -178785,7 +180163,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 3 + 6 * X"
         },
         {
           "skillId": 173,
@@ -178793,7 +180172,8 @@ const enemiesData = {
           "rating": 8,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         }
       ],
       "dropItems": [
@@ -178963,7 +180343,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 722,
@@ -178971,7 +180352,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 32,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:32:Store Power 150]]"
         },
         {
           "skillId": 188,
@@ -178979,7 +180361,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 297,
@@ -178987,7 +180370,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -179171,7 +180555,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 188,
@@ -179179,7 +180564,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 169,
@@ -179187,7 +180573,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -179378,7 +180765,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -179541,7 +180929,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 724,
@@ -179549,7 +180938,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 728,
@@ -179557,7 +180947,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 725,
@@ -179565,7 +180956,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 726,
@@ -179573,7 +180965,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 33,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:33:Forbidden Break]]"
         }
       ],
       "dropItems": [
@@ -179757,7 +181150,8 @@ const enemiesData = {
           "rating": 8,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.35
+          "conditionParam2": 0.35,
+          "conditionText": "HP: 0% ~ 35%"
         },
         {
           "skillId": 718,
@@ -179765,7 +181159,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 719,
@@ -179773,7 +181168,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 721,
@@ -179781,7 +181177,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 38,
@@ -179789,7 +181186,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -179938,7 +181336,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 308,
@@ -179946,7 +181345,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 1
+          "conditionParam2": 1,
+          "conditionText": "HP: 0% ~ 1%"
         }
       ],
       "dropItems": [
@@ -180025,7 +181425,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -180104,7 +181505,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -180316,7 +181718,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 731,
@@ -180324,7 +181727,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 79,
@@ -180332,7 +181736,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 733,
@@ -180340,7 +181745,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 96,
@@ -180348,7 +181754,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -180567,7 +181974,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 731,
@@ -180575,7 +181983,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 733,
@@ -180583,7 +181992,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 88,
@@ -180591,7 +182001,8 @@ const enemiesData = {
           "rating": 7,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 735,
@@ -180599,7 +182010,8 @@ const enemiesData = {
           "rating": 7,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 96,
@@ -180607,7 +182019,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -180819,7 +182232,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 741,
@@ -180827,7 +182241,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 740,
@@ -180835,7 +182250,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 12,
@@ -180843,7 +182259,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 742,
@@ -180851,7 +182268,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 31,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:31:Limit Break]]"
         },
         {
           "skillId": 743,
@@ -180859,7 +182277,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Turn 1"
         },
         {
           "skillId": 744,
@@ -180867,7 +182286,8 @@ const enemiesData = {
           "rating": 7,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 5 + 5 * X"
         }
       ],
       "dropItems": [
@@ -181079,7 +182499,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 738,
@@ -181087,7 +182508,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 739,
@@ -181095,7 +182517,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 745,
@@ -181103,7 +182526,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 746,
@@ -181111,7 +182535,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 747,
@@ -181119,7 +182544,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         }
       ],
       "dropItems": [
@@ -181324,7 +182750,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 33,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:33:Forbidden Break]]"
         },
         {
           "skillId": 754,
@@ -181332,7 +182759,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 6,
           "conditionParam1": 31,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Switch: #31 is ON"
         },
         {
           "skillId": 753,
@@ -181340,7 +182768,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -181503,7 +182932,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 1 + 5 * X"
         },
         {
           "skillId": 757,
@@ -181511,7 +182941,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 2 + 5 * X"
         },
         {
           "skillId": 758,
@@ -181519,7 +182950,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 3 + 5 * X"
         },
         {
           "skillId": 759,
@@ -181527,7 +182959,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 4 + 5 * X"
         },
         {
           "skillId": 760,
@@ -181535,7 +182968,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 5 + 5 * X"
         },
         {
           "skillId": 761,
@@ -181543,7 +182977,8 @@ const enemiesData = {
           "rating": 8,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.3
+          "conditionParam2": 0.3,
+          "conditionText": "HP: 0% ~ 30%"
         }
       ],
       "dropItems": [
@@ -181720,7 +183155,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -181988,7 +183424,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 765,
@@ -181996,7 +183433,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 767,
@@ -182004,7 +183442,8 @@ const enemiesData = {
           "rating": 2,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 762,
@@ -182012,7 +183451,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 766,
@@ -182020,7 +183460,8 @@ const enemiesData = {
           "rating": 8,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.15
+          "conditionParam2": 0.15,
+          "conditionText": "HP: 0% ~ 15%"
         },
         {
           "skillId": 764,
@@ -182028,7 +183469,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 153,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:153:Inner Power (Cinderella)]]"
         }
       ],
       "dropItems": [
@@ -182289,7 +183731,8 @@ const enemiesData = {
           "rating": 7,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.6
+          "conditionParam2": 0.6,
+          "conditionText": "HP: 0% ~ 60%"
         },
         {
           "skillId": 593,
@@ -182297,7 +183740,8 @@ const enemiesData = {
           "rating": 7,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.6
+          "conditionParam2": 0.6,
+          "conditionText": "HP: 0% ~ 60%"
         },
         {
           "skillId": 265,
@@ -182305,7 +183749,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 66,
@@ -182313,7 +183758,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 266,
@@ -182321,7 +183767,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 2,
@@ -182329,7 +183776,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 3 + 3 * X"
         }
       ],
       "dropItems": [
@@ -182590,7 +184038,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 1 + 3 * X"
         },
         {
           "skillId": 329,
@@ -182598,7 +184047,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 2 + 3 * X"
         },
         {
           "skillId": 330,
@@ -182606,7 +184056,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 335,
@@ -182614,7 +184065,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 332,
@@ -182622,7 +184074,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 33,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:33:Forbidden Break]]"
         },
         {
           "skillId": 333,
@@ -182630,7 +184083,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 33,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:33:Forbidden Break]]"
         },
         {
           "skillId": 327,
@@ -182638,7 +184092,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 4 + 4 * X"
         },
         {
           "skillId": 334,
@@ -182646,7 +184101,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.2
+          "conditionParam2": 0.2,
+          "conditionText": "HP: 0% ~ 20%"
         },
         {
           "skillId": 331,
@@ -182654,7 +184110,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 3 + 4 * X"
         }
       ],
       "dropItems": [
@@ -182810,7 +184267,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 169,
@@ -182818,7 +184276,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 768,
@@ -182826,7 +184285,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 770,
@@ -182834,7 +184294,8 @@ const enemiesData = {
           "rating": 8,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         }
       ],
       "dropItems": [
@@ -183032,7 +184493,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 7
+          "conditionParam2": 7,
+          "conditionText": "Turn 1 + 7 * X"
         },
         {
           "skillId": 773,
@@ -183040,7 +184502,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 7
+          "conditionParam2": 7,
+          "conditionText": "Turn 2 + 7 * X"
         },
         {
           "skillId": 774,
@@ -183048,7 +184511,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 7
+          "conditionParam2": 7,
+          "conditionText": "Turn 3 + 7 * X"
         },
         {
           "skillId": 775,
@@ -183056,7 +184520,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 7
+          "conditionParam2": 7,
+          "conditionText": "Turn 4 + 7 * X"
         },
         {
           "skillId": 776,
@@ -183064,7 +184529,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 7
+          "conditionParam2": 7,
+          "conditionText": "Turn 5 + 7 * X"
         },
         {
           "skillId": 777,
@@ -183072,7 +184538,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 6,
-          "conditionParam2": 7
+          "conditionParam2": 7,
+          "conditionText": "Turn 6 + 7 * X"
         },
         {
           "skillId": 773,
@@ -183080,7 +184547,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 7,
-          "conditionParam2": 7
+          "conditionParam2": 7,
+          "conditionText": "Turn 7 + 7 * X"
         },
         {
           "skillId": 778,
@@ -183088,7 +184556,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 34,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:34:Chanting]]"
         }
       ],
       "dropItems": [
@@ -183265,7 +184734,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 778,
@@ -183273,7 +184743,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 34,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:34:Chanting]]"
         }
       ],
       "dropItems": [
@@ -183534,7 +185005,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0.7,
-          "conditionParam2": 1
+          "conditionParam2": 1,
+          "conditionText": "HP: 0.7% ~ 1%"
         },
         {
           "skillId": 797,
@@ -183542,7 +185014,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0.7,
-          "conditionParam2": 1
+          "conditionParam2": 1,
+          "conditionText": "HP: 0.7% ~ 1%"
         },
         {
           "skillId": 804,
@@ -183550,7 +185023,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 803,
@@ -183558,7 +185032,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.6
+          "conditionParam2": 0.6,
+          "conditionText": "HP: 0% ~ 60%"
         },
         {
           "skillId": 805,
@@ -183566,7 +185041,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 801,
@@ -183574,7 +185050,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 802,
@@ -183582,7 +185059,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         }
       ],
       "dropItems": [
@@ -183661,7 +185139,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -183740,7 +185219,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -183973,7 +185453,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 1 + 4 * X"
         },
         {
           "skillId": 808,
@@ -183981,7 +185462,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 2 + 4 * X"
         },
         {
           "skillId": 809,
@@ -183989,7 +185471,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 3 + 4 * X"
         },
         {
           "skillId": 810,
@@ -183997,7 +185480,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 4 + 4 * X"
         },
         {
           "skillId": 813,
@@ -184005,7 +185489,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 811,
@@ -184013,7 +185498,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 812,
@@ -184021,7 +185507,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 33,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:33:Forbidden Break]]"
         }
       ],
       "dropItems": [
@@ -184156,7 +185643,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 1 + 3 * X"
         },
         {
           "skillId": 632,
@@ -184164,7 +185652,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 2 + 3 * X"
         },
         {
           "skillId": 207,
@@ -184172,7 +185661,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 3 + 3 * X"
         }
       ],
       "dropItems": [
@@ -184405,7 +185895,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 905,
@@ -184413,7 +185904,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 906,
@@ -184421,7 +185913,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 907,
@@ -184429,7 +185922,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 32,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:32:Store Power 150]]"
         },
         {
           "skillId": 909,
@@ -184437,7 +185931,8 @@ const enemiesData = {
           "rating": 8,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.6
+          "conditionParam2": 0.6,
+          "conditionText": "HP: 0% ~ 60%"
         },
         {
           "skillId": 911,
@@ -184445,7 +185940,8 @@ const enemiesData = {
           "rating": 7,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.3
+          "conditionParam2": 0.3,
+          "conditionText": "HP: 0% ~ 30%"
         }
       ],
       "dropItems": [
@@ -184622,7 +186118,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -184757,7 +186254,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 783,
@@ -184765,7 +186263,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -184893,7 +186392,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -184993,7 +186493,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 787,
@@ -185001,7 +186502,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -185213,7 +186715,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 832,
@@ -185221,7 +186724,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 833,
@@ -185229,7 +186733,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 834,
@@ -185237,7 +186742,8 @@ const enemiesData = {
           "rating": 7,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 56,
@@ -185245,7 +186751,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 31,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:31:Limit Break]]"
         }
       ],
       "dropItems": [
@@ -185527,7 +187034,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 927,
@@ -185535,7 +187043,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 929,
@@ -185543,7 +187052,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 928,
@@ -185551,7 +187061,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 96,
@@ -185559,7 +187070,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -185722,7 +187234,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 12,
@@ -185730,7 +187243,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -185893,7 +187407,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 12,
@@ -185901,7 +187416,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -186127,7 +187643,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 1 + 5 * X"
         },
         {
           "skillId": 790,
@@ -186135,7 +187652,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 2 + 5 * X"
         },
         {
           "skillId": 795,
@@ -186143,7 +187661,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 3 + 5 * X"
         },
         {
           "skillId": 793,
@@ -186151,7 +187670,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 4 + 5 * X"
         },
         {
           "skillId": 790,
@@ -186159,7 +187679,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 5 + 5 * X"
         },
         {
           "skillId": 794,
@@ -186167,7 +187688,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 33,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:33:Forbidden Break]]"
         }
       ],
       "dropItems": [
@@ -186358,7 +187880,8 @@ const enemiesData = {
           "rating": 8,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 142,
@@ -186366,7 +187889,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 144,
@@ -186374,7 +187898,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 153,
@@ -186382,7 +187907,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 15,
@@ -186390,7 +187916,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 390,
@@ -186398,7 +187925,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 240,
@@ -186406,7 +187934,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 51,
@@ -186414,7 +187943,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 240,
@@ -186422,7 +187952,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 96,
@@ -186430,7 +187961,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 129,
@@ -186438,7 +187970,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 32,
@@ -186446,7 +187979,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 133,
@@ -186454,7 +187988,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -186645,7 +188180,8 @@ const enemiesData = {
           "rating": 8,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 788,
@@ -186653,7 +188189,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 789,
@@ -186661,7 +188198,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 624,
@@ -186669,7 +188207,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -186748,7 +188287,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -186953,7 +188493,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -187193,7 +188734,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -187440,7 +188982,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 1 + 6 * X"
         },
         {
           "skillId": 920,
@@ -187448,7 +188991,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 2 + 6 * X"
         },
         {
           "skillId": 921,
@@ -187456,7 +189000,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 3 + 6 * X"
         },
         {
           "skillId": 922,
@@ -187464,7 +189009,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 4 + 6 * X"
         },
         {
           "skillId": 820,
@@ -187472,7 +189018,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 5 + 6 * X"
         },
         {
           "skillId": 925,
@@ -187480,7 +189027,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 6,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 6 + 6 * X"
         }
       ],
       "dropItems": [
@@ -187664,7 +189212,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Turn 1"
         },
         {
           "skillId": 915,
@@ -187672,7 +189221,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 916,
@@ -187680,7 +189230,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 914,
@@ -187688,7 +189239,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 913,
@@ -187696,7 +189248,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.3
+          "conditionParam2": 0.3,
+          "conditionText": "HP: 0% ~ 30%"
         }
       ],
       "dropItems": [
@@ -187824,7 +189377,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 827,
@@ -187832,7 +189386,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -188009,7 +189564,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 2
+          "conditionParam2": 2,
+          "conditionText": "Turn 2 + 2 * X"
         },
         {
           "skillId": 823,
@@ -188017,7 +189573,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 2
+          "conditionParam2": 2,
+          "conditionText": "Turn 1 + 2 * X"
         }
       ],
       "dropItems": [
@@ -188187,7 +189744,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -188378,7 +189936,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Turn 1"
         },
         {
           "skillId": 817,
@@ -188386,7 +189945,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 818,
@@ -188394,7 +189954,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -188578,7 +190139,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -188713,7 +190275,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 830,
@@ -188721,7 +190284,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Turn 5"
         }
       ],
       "dropItems": [
@@ -188849,7 +190413,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 2
+          "conditionParam2": 2,
+          "conditionText": "Turn 1 + 2 * X"
         },
         {
           "skillId": 6,
@@ -188857,7 +190422,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 2
+          "conditionParam2": 2,
+          "conditionText": "Turn 2 + 2 * X"
         }
       ],
       "dropItems": [
@@ -189041,7 +190607,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -189232,7 +190799,8 @@ const enemiesData = {
           "rating": 7,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -189402,7 +190970,8 @@ const enemiesData = {
           "rating": 8,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 900,
@@ -189410,7 +190979,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 902,
@@ -189418,7 +190988,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -189602,7 +191173,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -189723,7 +191295,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 8
+          "conditionParam2": 8,
+          "conditionText": "Turn 1 + 8 * X"
         },
         {
           "skillId": 307,
@@ -189731,7 +191304,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 8
+          "conditionParam2": 8,
+          "conditionText": "Turn 2 + 8 * X"
         },
         {
           "skillId": 316,
@@ -189739,7 +191313,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 8
+          "conditionParam2": 8,
+          "conditionText": "Turn 3 + 8 * X"
         },
         {
           "skillId": 325,
@@ -189747,7 +191322,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 8
+          "conditionParam2": 8,
+          "conditionText": "Turn 4 + 8 * X"
         },
         {
           "skillId": 843,
@@ -189755,7 +191331,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 8
+          "conditionParam2": 8,
+          "conditionText": "Turn 5 + 8 * X"
         },
         {
           "skillId": 835,
@@ -189763,7 +191340,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 6,
-          "conditionParam2": 8
+          "conditionParam2": 8,
+          "conditionText": "Turn 6 + 8 * X"
         },
         {
           "skillId": 883,
@@ -189771,7 +191349,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 7,
-          "conditionParam2": 8
+          "conditionParam2": 8,
+          "conditionText": "Turn 7 + 8 * X"
         },
         {
           "skillId": 304,
@@ -189779,7 +191358,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 8,
-          "conditionParam2": 8
+          "conditionParam2": 8,
+          "conditionText": "Turn 8 + 8 * X"
         }
       ],
       "dropItems": [
@@ -189977,7 +191557,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 935,
@@ -189985,7 +191566,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 32,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:32:Store Power 150]]"
         }
       ],
       "dropItems": [
@@ -190211,7 +191793,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 1 + 4 * X"
         },
         {
           "skillId": 939,
@@ -190219,7 +191802,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 2 + 4 * X"
         },
         {
           "skillId": 939,
@@ -190227,7 +191811,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 3 + 4 * X"
         },
         {
           "skillId": 939,
@@ -190235,7 +191820,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 4 + 4 * X"
         },
         {
           "skillId": 940,
@@ -190243,7 +191829,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 2 + 4 * X"
         },
         {
           "skillId": 941,
@@ -190251,7 +191838,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 3 + 4 * X"
         },
         {
           "skillId": 943,
@@ -190259,7 +191847,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 4 + 4 * X"
         },
         {
           "skillId": 953,
@@ -190267,7 +191856,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 31,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:31:Limit Break]]"
         },
         {
           "skillId": 942,
@@ -190275,7 +191865,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         }
       ],
       "dropItems": [
@@ -190480,7 +192071,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 1 + 4 * X"
         },
         {
           "skillId": 944,
@@ -190488,7 +192080,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 2 + 4 * X"
         },
         {
           "skillId": 946,
@@ -190496,7 +192089,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 3 + 4 * X"
         },
         {
           "skillId": 944,
@@ -190504,7 +192098,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 4 + 4 * X"
         },
         {
           "skillId": 947,
@@ -190512,7 +192107,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 31,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:31:Limit Break]]"
         }
       ],
       "dropItems": [
@@ -190745,7 +192341,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 1 + 4 * X"
         },
         {
           "skillId": 940,
@@ -190753,7 +192350,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 2 + 4 * X"
         },
         {
           "skillId": 941,
@@ -190761,7 +192359,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 3 + 4 * X"
         },
         {
           "skillId": 943,
@@ -190769,7 +192368,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 4 + 4 * X"
         },
         {
           "skillId": 948,
@@ -190777,7 +192377,8 @@ const enemiesData = {
           "rating": 7,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.6
+          "conditionParam2": 0.6,
+          "conditionText": "HP: 0% ~ 60%"
         },
         {
           "skillId": 947,
@@ -190785,7 +192386,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 31,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:31:Limit Break]]"
         }
       ],
       "dropItems": [
@@ -191018,7 +192620,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -191153,7 +192756,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 949,
@@ -191161,7 +192765,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.01
+          "conditionParam2": 0.01,
+          "conditionText": "HP: 0% ~ 1%"
         }
       ],
       "dropItems": [
@@ -191394,7 +192999,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 940,
@@ -191402,7 +193008,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 943,
@@ -191410,7 +193017,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 953,
@@ -191418,7 +193026,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -191609,7 +193218,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 955,
@@ -191617,7 +193227,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 957,
@@ -191625,7 +193236,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 959,
@@ -191633,7 +193245,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 973,
@@ -191641,7 +193254,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -191846,7 +193460,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 973,
@@ -191854,7 +193469,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -192038,7 +193654,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 973,
@@ -192046,7 +193663,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -192300,7 +193918,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 1 + 5 * X"
         },
         {
           "skillId": 979,
@@ -192308,7 +193927,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 2 + 5 * X"
         },
         {
           "skillId": 983,
@@ -192316,7 +193936,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 2 + 5 * X"
         },
         {
           "skillId": 976,
@@ -192324,7 +193945,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 3 + 5 * X"
         },
         {
           "skillId": 982,
@@ -192332,7 +193954,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 3 + 5 * X"
         },
         {
           "skillId": 981,
@@ -192340,7 +193963,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 4 + 5 * X"
         },
         {
           "skillId": 976,
@@ -192348,7 +193972,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 5 + 5 * X"
         },
         {
           "skillId": 982,
@@ -192356,7 +193981,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 5 + 5 * X"
         },
         {
           "skillId": 977,
@@ -192364,7 +193990,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 31,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:31:Limit Break]]"
         }
       ],
       "dropItems": [
@@ -192583,7 +194210,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 1 + 5 * X"
         },
         {
           "skillId": 979,
@@ -192591,7 +194219,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 2 + 5 * X"
         },
         {
           "skillId": 983,
@@ -192599,7 +194228,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 2 + 5 * X"
         },
         {
           "skillId": 976,
@@ -192607,7 +194237,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 3 + 5 * X"
         },
         {
           "skillId": 982,
@@ -192615,7 +194246,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 3 + 5 * X"
         },
         {
           "skillId": 981,
@@ -192623,7 +194255,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 4 + 5 * X"
         },
         {
           "skillId": 976,
@@ -192631,7 +194264,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 5 + 5 * X"
         },
         {
           "skillId": 982,
@@ -192639,7 +194273,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 5 + 5 * X"
         },
         {
           "skillId": 977,
@@ -192647,7 +194282,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 31,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:31:Limit Break]]"
         }
       ],
       "dropItems": [
@@ -192866,7 +194502,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 1 + 4 * X"
         },
         {
           "skillId": 990,
@@ -192874,7 +194511,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 2 + 4 * X"
         },
         {
           "skillId": 988,
@@ -192882,7 +194520,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 3 + 4 * X"
         },
         {
           "skillId": 989,
@@ -192890,7 +194529,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 4 + 4 * X"
         },
         {
           "skillId": 991,
@@ -192898,7 +194538,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 213,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:213:State #213]]"
         },
         {
           "skillId": 991,
@@ -192906,7 +194547,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         }
       ],
       "dropItems": [
@@ -193062,7 +194704,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 1 + 4 * X"
         },
         {
           "skillId": 426,
@@ -193070,7 +194713,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 2 + 4 * X"
         },
         {
           "skillId": 427,
@@ -193078,7 +194722,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 2 + 4 * X"
         },
         {
           "skillId": 428,
@@ -193086,7 +194731,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 2 + 4 * X"
         },
         {
           "skillId": 512,
@@ -193094,7 +194740,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 2 + 4 * X"
         },
         {
           "skillId": 426,
@@ -193102,7 +194749,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 3 + 4 * X"
         },
         {
           "skillId": 427,
@@ -193110,7 +194758,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 3 + 4 * X"
         },
         {
           "skillId": 428,
@@ -193118,7 +194767,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 3 + 4 * X"
         },
         {
           "skillId": 512,
@@ -193126,7 +194776,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 3 + 4 * X"
         },
         {
           "skillId": 149,
@@ -193134,7 +194785,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 4 + 4 * X"
         }
       ],
       "dropItems": [
@@ -193325,7 +194977,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 1 + 4 * X"
         },
         {
           "skillId": 426,
@@ -193333,7 +194986,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 2 + 4 * X"
         },
         {
           "skillId": 427,
@@ -193341,7 +194995,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 2 + 4 * X"
         },
         {
           "skillId": 428,
@@ -193349,7 +195004,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 2 + 4 * X"
         },
         {
           "skillId": 512,
@@ -193357,7 +195013,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 2 + 4 * X"
         },
         {
           "skillId": 426,
@@ -193365,7 +195022,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 3 + 4 * X"
         },
         {
           "skillId": 427,
@@ -193373,7 +195031,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 3 + 4 * X"
         },
         {
           "skillId": 428,
@@ -193381,7 +195040,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 3 + 4 * X"
         },
         {
           "skillId": 512,
@@ -193389,7 +195049,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 3 + 4 * X"
         },
         {
           "skillId": 149,
@@ -193397,7 +195058,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 4 + 4 * X"
         }
       ],
       "dropItems": [
@@ -193567,7 +195229,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 1 + 3 * X"
         },
         {
           "skillId": 399,
@@ -193575,7 +195238,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 2 + 3 * X"
         },
         {
           "skillId": 772,
@@ -193583,7 +195247,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 3
+          "conditionParam2": 3,
+          "conditionText": "Turn 3 + 3 * X"
         }
       ],
       "dropItems": [
@@ -193746,7 +195411,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 860,
@@ -193754,7 +195420,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 861,
@@ -193762,7 +195429,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 862,
@@ -193770,7 +195438,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 863,
@@ -193778,7 +195447,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 864,
@@ -193786,7 +195456,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -194005,7 +195676,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 1 + 4 * X"
         },
         {
           "skillId": 990,
@@ -194013,7 +195685,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 2 + 4 * X"
         },
         {
           "skillId": 988,
@@ -194021,7 +195694,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 3 + 4 * X"
         },
         {
           "skillId": 989,
@@ -194029,7 +195703,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 4
+          "conditionParam2": 4,
+          "conditionText": "Turn 4 + 4 * X"
         },
         {
           "skillId": 991,
@@ -194037,7 +195712,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 213,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:213:State #213]]"
         },
         {
           "skillId": 991,
@@ -194045,7 +195721,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         }
       ],
       "dropItems": [
@@ -194299,7 +195976,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 1 + 5 * X"
         },
         {
           "skillId": 979,
@@ -194307,7 +195985,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 2 + 5 * X"
         },
         {
           "skillId": 983,
@@ -194315,7 +195994,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 2 + 5 * X"
         },
         {
           "skillId": 976,
@@ -194323,7 +196003,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 3 + 5 * X"
         },
         {
           "skillId": 982,
@@ -194331,7 +196012,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 3 + 5 * X"
         },
         {
           "skillId": 981,
@@ -194339,7 +196021,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 4 + 5 * X"
         },
         {
           "skillId": 976,
@@ -194347,7 +196030,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 5 + 5 * X"
         },
         {
           "skillId": 982,
@@ -194355,7 +196039,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 5
+          "conditionParam2": 5,
+          "conditionText": "Turn 5 + 5 * X"
         },
         {
           "skillId": 977,
@@ -194363,7 +196048,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 31,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:31:Limit Break]]"
         }
       ],
       "dropItems": [
@@ -194694,7 +196380,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 993,
@@ -194702,7 +196389,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.8
+          "conditionParam2": 0.8,
+          "conditionText": "HP: 0% ~ 80%"
         },
         {
           "skillId": 994,
@@ -194710,7 +196398,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.65
+          "conditionParam2": 0.65,
+          "conditionText": "HP: 0% ~ 65%"
         },
         {
           "skillId": 995,
@@ -194718,7 +196407,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 996,
@@ -194726,7 +196416,8 @@ const enemiesData = {
           "rating": 7,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.4
+          "conditionParam2": 0.4,
+          "conditionText": "HP: 0% ~ 40%"
         }
       ],
       "dropItems": [
@@ -194917,7 +196608,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 466,
@@ -194925,7 +196617,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 589,
@@ -194933,7 +196626,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 643,
@@ -194941,7 +196635,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 653,
@@ -194949,7 +196644,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 80,
@@ -194957,7 +196653,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 776,
@@ -194965,7 +196662,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 831,
@@ -194973,7 +196671,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 731,
@@ -194981,7 +196680,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 729,
@@ -194989,7 +196689,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 733,
@@ -194997,7 +196698,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 735,
@@ -195005,7 +196707,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 773,
@@ -195013,7 +196716,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 2,
@@ -195021,7 +196725,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 627,
@@ -195029,7 +196734,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 898,
@@ -195037,7 +196743,8 @@ const enemiesData = {
           "rating": 8,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.4
+          "conditionParam2": 0.4,
+          "conditionText": "HP: 0% ~ 40%"
         }
       ],
       "dropItems": [
@@ -195291,7 +196998,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 12
+          "conditionParam2": 12,
+          "conditionText": "Turn 1 + 12 * X"
         },
         {
           "skillId": 794,
@@ -195299,7 +197007,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 12
+          "conditionParam2": 12,
+          "conditionText": "Turn 1 + 12 * X"
         },
         {
           "skillId": 431,
@@ -195307,7 +197016,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 12
+          "conditionParam2": 12,
+          "conditionText": "Turn 1 + 12 * X"
         },
         {
           "skillId": 525,
@@ -195315,7 +197025,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 12
+          "conditionParam2": 12,
+          "conditionText": "Turn 2 + 12 * X"
         },
         {
           "skillId": 806,
@@ -195323,7 +197034,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 12
+          "conditionParam2": 12,
+          "conditionText": "Turn 2 + 12 * X"
         },
         {
           "skillId": 321,
@@ -195331,7 +197043,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 12
+          "conditionParam2": 12,
+          "conditionText": "Turn 3 + 12 * X"
         },
         {
           "skillId": 322,
@@ -195339,7 +197052,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 12
+          "conditionParam2": 12,
+          "conditionText": "Turn 3 + 12 * X"
         },
         {
           "skillId": 137,
@@ -195347,7 +197061,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 12
+          "conditionParam2": 12,
+          "conditionText": "Turn 4 + 12 * X"
         },
         {
           "skillId": 130,
@@ -195355,7 +197070,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 12
+          "conditionParam2": 12,
+          "conditionText": "Turn 4 + 12 * X"
         },
         {
           "skillId": 389,
@@ -195363,7 +197079,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 12
+          "conditionParam2": 12,
+          "conditionText": "Turn 4 + 12 * X"
         },
         {
           "skillId": 540,
@@ -195371,7 +197088,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 12
+          "conditionParam2": 12,
+          "conditionText": "Turn 5 + 12 * X"
         },
         {
           "skillId": 426,
@@ -195379,7 +197097,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 12
+          "conditionParam2": 12,
+          "conditionText": "Turn 5 + 12 * X"
         },
         {
           "skillId": 427,
@@ -195387,7 +197106,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 12
+          "conditionParam2": 12,
+          "conditionText": "Turn 5 + 12 * X"
         },
         {
           "skillId": 428,
@@ -195395,7 +197115,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 12
+          "conditionParam2": 12,
+          "conditionText": "Turn 5 + 12 * X"
         },
         {
           "skillId": 539,
@@ -195403,7 +197124,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 6,
-          "conditionParam2": 12
+          "conditionParam2": 12,
+          "conditionText": "Turn 6 + 12 * X"
         },
         {
           "skillId": 532,
@@ -195411,7 +197133,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 7,
-          "conditionParam2": 12
+          "conditionParam2": 12,
+          "conditionText": "Turn 7 + 12 * X"
         },
         {
           "skillId": 538,
@@ -195419,7 +197142,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 8,
-          "conditionParam2": 12
+          "conditionParam2": 12,
+          "conditionText": "Turn 8 + 12 * X"
         },
         {
           "skillId": 772,
@@ -195427,7 +197151,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 8,
-          "conditionParam2": 12
+          "conditionParam2": 12,
+          "conditionText": "Turn 8 + 12 * X"
         },
         {
           "skillId": 517,
@@ -195435,7 +197160,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 9,
-          "conditionParam2": 12
+          "conditionParam2": 12,
+          "conditionText": "Turn 9 + 12 * X"
         },
         {
           "skillId": 799,
@@ -195443,7 +197169,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 10,
-          "conditionParam2": 12
+          "conditionParam2": 12,
+          "conditionText": "Turn 10 + 12 * X"
         },
         {
           "skillId": 628,
@@ -195451,7 +197178,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 11,
-          "conditionParam2": 12
+          "conditionParam2": 12,
+          "conditionText": "Turn 11 + 12 * X"
         },
         {
           "skillId": 997,
@@ -195459,7 +197187,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 35,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:35:Gather Power 200]]"
         },
         {
           "skillId": 912,
@@ -195467,7 +197196,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 6,
           "conditionParam1": 1051,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Switch: #1051 is ON"
         }
       ],
       "dropItems": [
@@ -195763,7 +197493,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 4,
           "conditionParam1": 32,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:32:Store Power 150]]"
         },
         {
           "skillId": 998,
@@ -195771,7 +197502,8 @@ const enemiesData = {
           "rating": 2,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 975,
@@ -195779,7 +197511,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.01
+          "conditionParam2": 0.01,
+          "conditionText": "HP: 0% ~ 1%"
         }
       ],
       "dropItems": [
@@ -197307,7 +199040,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 342,
@@ -197315,7 +199049,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 35,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:35:Gather Power 200]]"
         }
       ],
       "dropItems": [
@@ -197534,7 +199269,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 548,
@@ -197542,7 +199278,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 33,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:33:Forbidden Break]]"
         }
       ],
       "dropItems": [
@@ -197747,7 +199484,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 556,
@@ -197755,7 +199493,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 917,
@@ -197763,7 +199502,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 35,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:35:Gather Power 200]]"
         },
         {
           "skillId": 917,
@@ -197771,7 +199511,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 33,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:33:Forbidden Break]]"
         }
       ],
       "dropItems": [
@@ -197983,7 +199724,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 556,
@@ -197991,7 +199733,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 919,
@@ -197999,7 +199742,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 35,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:35:Gather Power 200]]"
         },
         {
           "skillId": 919,
@@ -198007,7 +199751,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 33,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:33:Forbidden Break]]"
         }
       ],
       "dropItems": [
@@ -198219,7 +199964,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 556,
@@ -198227,7 +199973,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 930,
@@ -198235,7 +199982,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 35,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:35:Gather Power 200]]"
         },
         {
           "skillId": 930,
@@ -198243,7 +199991,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 33,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:33:Forbidden Break]]"
         }
       ],
       "dropItems": [
@@ -198448,7 +200197,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 556,
@@ -198456,7 +200206,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 938,
@@ -198464,7 +200215,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 35,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:35:Gather Power 200]]"
         },
         {
           "skillId": 938,
@@ -198472,7 +200224,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 33,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:33:Forbidden Break]]"
         }
       ],
       "dropItems": [
@@ -198684,7 +200437,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 556,
@@ -198692,7 +200446,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 894,
@@ -198700,7 +200455,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 35,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:35:Gather Power 200]]"
         },
         {
           "skillId": 894,
@@ -198708,7 +200464,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 33,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:33:Forbidden Break]]"
         }
       ],
       "dropItems": [
@@ -198920,7 +200677,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 556,
@@ -198928,7 +200686,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 890,
@@ -198936,7 +200695,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 35,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:35:Gather Power 200]]"
         },
         {
           "skillId": 890,
@@ -198944,7 +200704,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 33,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:33:Forbidden Break]]"
         }
       ],
       "dropItems": [
@@ -199149,7 +200910,8 @@ const enemiesData = {
           "rating": 3,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 556,
@@ -199157,7 +200919,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 887,
@@ -199165,7 +200928,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 35,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:35:Gather Power 200]]"
         },
         {
           "skillId": 887,
@@ -199173,7 +200937,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 33,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:33:Forbidden Break]]"
         }
       ],
       "dropItems": [
@@ -199252,7 +201017,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -199450,7 +201216,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 188,
@@ -199458,7 +201225,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 605,
@@ -199466,7 +201234,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 363,
@@ -199474,7 +201243,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 210,
@@ -199482,7 +201252,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -199680,7 +201451,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 188,
@@ -199688,7 +201460,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 605,
@@ -199696,7 +201469,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.5
+          "conditionParam2": 0.5,
+          "conditionText": "HP: 0% ~ 50%"
         },
         {
           "skillId": 363,
@@ -199704,7 +201478,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 210,
@@ -199712,7 +201487,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
@@ -199868,7 +201644,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 323,
@@ -199876,7 +201653,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 319,
@@ -199884,7 +201662,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 315,
@@ -199892,7 +201671,8 @@ const enemiesData = {
           "rating": 6,
           "conditionType": 2,
           "conditionParam1": 0,
-          "conditionParam2": 0.7
+          "conditionParam2": 0.7,
+          "conditionText": "HP: 0% ~ 70%"
         },
         {
           "skillId": 158,
@@ -199900,7 +201680,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 32,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:32:Store Power 150]]"
         }
       ],
       "dropItems": [
@@ -200049,7 +201830,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 1,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 1 + 6 * X"
         },
         {
           "skillId": 100,
@@ -200057,7 +201839,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 2,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 2 + 6 * X"
         },
         {
           "skillId": 106,
@@ -200065,7 +201848,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 3,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 3 + 6 * X"
         },
         {
           "skillId": 85,
@@ -200073,7 +201857,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 4,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 4 + 6 * X"
         },
         {
           "skillId": 63,
@@ -200081,7 +201866,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 5,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 5 + 6 * X"
         },
         {
           "skillId": 216,
@@ -200089,7 +201875,8 @@ const enemiesData = {
           "rating": 9,
           "conditionType": 4,
           "conditionParam1": 32,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "State: [[STATE:32:Store Power 150]]"
         },
         {
           "skillId": 223,
@@ -200097,7 +201884,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 1,
           "conditionParam1": 6,
-          "conditionParam2": 6
+          "conditionParam2": 6,
+          "conditionText": "Turn 6 + 6 * X"
         }
       ],
       "dropItems": [
@@ -200246,7 +202034,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 263,
@@ -200254,7 +202043,8 @@ const enemiesData = {
           "rating": 5,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         },
         {
           "skillId": 380,
@@ -200262,7 +202052,8 @@ const enemiesData = {
           "rating": 4,
           "conditionType": 0,
           "conditionParam1": 0,
-          "conditionParam2": 0
+          "conditionParam2": 0,
+          "conditionText": "Always"
         }
       ],
       "dropItems": [
