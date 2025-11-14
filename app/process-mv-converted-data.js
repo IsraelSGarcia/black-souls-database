@@ -827,12 +827,19 @@ function resolveIDReferences(text, resolvers, sourceType = null, sourceId = null
     
     // Pattern 1: "Skill #123" or "Skill # 123" (with optional space)
     result = result.replace(/Skill\s*#\s*(\d+)/gi, (match, id) => {
-        // Skip if this is a self-reference (same skill referencing itself)
-        // NOTE: Same-type references are allowed (e.g., Skill A can reference Skill B)
-        // Ensure both are compared as numbers to handle type mismatches
-        if (sourceType === 'skill' && Number(sourceId) === Number(id)) return match;
         const name = resolvers.getSkillName(id);
-        return name ? `[[SKILL:${id}:${name}]]` : match;
+        if (!name) return match;
+        
+        // RULE: Self-references must be plain text only, NOT cross-reference links
+        // If a skill references itself, show just the name (e.g., "Piercing Iron Spear")
+        // If a skill references another skill, create a cross-reference link (e.g., "[[SKILL:123:Other Skill]]")
+        // This prevents circular navigation and keeps self-references as informational text only
+        if (sourceType === 'skill' && Number(sourceId) === Number(id)) {
+            return name; // Self-reference: return plain text name only
+        }
+        
+        // Not a self-reference: create cross-reference marker for linking
+        return `[[SKILL:${id}:${name}]]`;
     });
     
     // Pattern 2: "State #123" or "State # 123"
@@ -887,14 +894,20 @@ function resolveIDReferences(text, resolvers, sourceType = null, sourceId = null
         // Try all resolvers to find which type this is
         let name = resolvers.getSkillName(id);
         if (name) {
-            // Skip if this is a self-reference (same skill referencing itself)
-            // NOTE: Same-type references are allowed (e.g., Skill A can reference Skill B)
-            // Ensure both are compared as numbers to handle type mismatches
-            if (sourceType === 'skill' && Number(sourceId) === Number(idNum)) return match;
             const before = string[offset - 1];
             const after = match[match.length - 1];
             const open = before === '(' ? '(' : '[';
             const close = after === ')' ? ')' : ']';
+            
+            // RULE: Self-references must be plain text only, NOT cross-reference links
+            // If a skill references itself, show just the name (e.g., "Piercing Iron Spear")
+            // If a skill references another skill, create a cross-reference link (e.g., "[[SKILL:123:Other Skill]]")
+            // This prevents circular navigation and keeps self-references as informational text only
+            if (sourceType === 'skill' && Number(sourceId) === Number(idNum)) {
+                return `${open}${name}${close}`; // Self-reference: return plain text name only
+            }
+            
+            // Not a self-reference: create cross-reference marker for linking
             return `${open}[[SKILL:${id}:${name}]]${close}`;
         }
         name = resolvers.getStateName(id);
@@ -971,10 +984,15 @@ function resolveIDReferences(text, resolvers, sourceType = null, sourceId = null
         // Try all resolvers
         let name = resolvers.getSkillName(id);
         if (name) {
-            // Skip if this is a self-reference (same skill referencing itself)
-            // NOTE: Same-type references are allowed (e.g., Skill A can reference Skill B)
-            // Ensure both are compared as numbers to handle type mismatches
-            if (sourceType === 'skill' && Number(sourceId) === Number(idNum)) return match;
+            // RULE: Self-references must be plain text only, NOT cross-reference links
+            // If a skill references itself, show just the name (e.g., "Piercing Iron Spear")
+            // If a skill references another skill, create a cross-reference link (e.g., "[[SKILL:123:Other Skill]]")
+            // This prevents circular navigation and keeps self-references as informational text only
+            if (sourceType === 'skill' && Number(sourceId) === Number(idNum)) {
+                return name; // Self-reference: return plain text name only
+            }
+            
+            // Not a self-reference: create cross-reference marker for linking
             return `[[SKILL:${id}:${name}]]`;
         }
         name = resolvers.getStateName(id);

@@ -45,7 +45,7 @@
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "Skill #1 is used when the [Attack] command is selected.",
+        "english": "Attack is used when the [Attack] command is selected.",
         "japanese": "スキル１番は［攻撃］コマンドを選択したときに使用されます。",
         "untranslated": false
       }
@@ -106,7 +106,7 @@
         }
       ],
       "note": {
-        "english": "Skill #2 is used when the [Guard] command is selected.",
+        "english": "Guard is used when the [Guard] command is selected.",
         "japanese": "スキル２番は［防御］コマンドを選択したときに使用されます。",
         "untranslated": false
       }
@@ -13946,7 +13946,7 @@
         }
       ],
       "note": {
-        "english": "After use: Casts \"Skill #226\"",
+        "english": "After use: Casts \"Test\"",
         "japanese": "<使用後追加行動:226,-2>",
         "untranslated": false
       }
@@ -19642,7 +19642,7 @@
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "After use: Casts \"Skill #318\"",
+        "english": "After use: Casts \"For Testing\"",
         "japanese": "<使用後追加行動:318,-2>",
         "untranslated": false
       }
@@ -22164,7 +22164,7 @@
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "Applies to user: \"[[SKILL:353:First Stage]]\" effects\nWhen user has \"[[STATE:66:First Stage]]\": Transforms into \"[[SKILL:351:Three Slashes - Second]]\"\nWhen user has \"[[STATE:67:Second Stage]]\": Transforms into \"[[SKILL:352:Three Slashes - Third]]\"\nWhen user has \"[[STATE:68:Third Stage]]\": Transforms into \"Skill #350\"",
+        "english": "Applies to user: \"[[SKILL:353:First Stage]]\" effects\nWhen user has \"[[STATE:66:First Stage]]\": Transforms into \"[[SKILL:351:Three Slashes - Second]]\"\nWhen user has \"[[STATE:67:Second Stage]]\": Transforms into \"[[SKILL:352:Three Slashes - Third]]\"\nWhen user has \"[[STATE:68:Third Stage]]\": Transforms into \"Three Slashes\"",
         "japanese": "<使用者効果 353>\n<ステート変化:351,66>\n<ステート変化:352,67>\n<ステート変化:350,68>",
         "untranslated": false
       }
@@ -22624,7 +22624,7 @@
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "Applies to user: \"[[SKILL:360:First Stage]]\" effects\nWhen user has \"[[STATE:123:First Stage]]\": Transforms into \"[[SKILL:358:Three Ultimate Slashes - Second]]\"\nWhen user has \"[[STATE:124:Second Stage]]\": Transforms into \"[[SKILL:359:Three Ultimate Slashes - Third]]\"\nWhen user has \"[[STATE:125:Third Stage]]\": Transforms into \"Skill #357\"",
+        "english": "Applies to user: \"[[SKILL:360:First Stage]]\" effects\nWhen user has \"[[STATE:123:First Stage]]\": Transforms into \"[[SKILL:358:Three Ultimate Slashes - Second]]\"\nWhen user has \"[[STATE:124:Second Stage]]\": Transforms into \"[[SKILL:359:Three Ultimate Slashes - Third]]\"\nWhen user has \"[[STATE:125:Third Stage]]\": Transforms into \"Ultimate Three Slashes\"",
         "japanese": "<使用者効果 360>\n<ステート変化:358,123>\n<ステート変化:359,124>\n<ステート変化:357,125>",
         "untranslated": false
       }
@@ -30017,7 +30017,7 @@
         }
       ],
       "note": {
-        "english": "Applies to user: \"[[SKILL:479:First Step]]\" effects\nWhen user has \"[[STATE:87:Gather 1]]\": Transforms into \"[[SKILL:470:Frumious Wrath 2]]\"\nWhen user has \"[[STATE:88:Gather 2]]\": Transforms into \"[[SKILL:471:Frumious Wrath 3]]\"\nWhen user has \"[[STATE:89:Gather 3]]\": Transforms into \"[[SKILL:472:Frumious Wrath 4]]\"\nWhen user has \"[[STATE:90:Gather 4]]\": Transforms into \"[[SKILL:473:Frumious Wrath 5]]\"\nWhen user has \"[[STATE:91:Gather 5]]\": Transforms into \"[[SKILL:474:Frumious Wrath 6]]\"\nWhen user has \"[[STATE:92:Gather 6]]\": Transforms into \"[[SKILL:475:Frumious Wrath 7]]\"\nWhen user has \"[[STATE:93:Gather 7]]\": Transforms into \"[[SKILL:476:Frumious Wrath 8]]\"\nWhen user has \"[[STATE:94:Gather 8]]\": Transforms into \"[[SKILL:477:Frumious Wrath 9]]\"\nWhen user has \"[[STATE:95:Gather 9]]\": Transforms into \"[[SKILL:478:Frumious Wrath 10]]\"\nWhen user has \"[[STATE:96:Gather 10]]\": Transforms into \"Skill #469\"",
+        "english": "Applies to user: \"[[SKILL:479:First Step]]\" effects\nWhen user has \"[[STATE:87:Gather 1]]\": Transforms into \"[[SKILL:470:Frumious Wrath 2]]\"\nWhen user has \"[[STATE:88:Gather 2]]\": Transforms into \"[[SKILL:471:Frumious Wrath 3]]\"\nWhen user has \"[[STATE:89:Gather 3]]\": Transforms into \"[[SKILL:472:Frumious Wrath 4]]\"\nWhen user has \"[[STATE:90:Gather 4]]\": Transforms into \"[[SKILL:473:Frumious Wrath 5]]\"\nWhen user has \"[[STATE:91:Gather 5]]\": Transforms into \"[[SKILL:474:Frumious Wrath 6]]\"\nWhen user has \"[[STATE:92:Gather 6]]\": Transforms into \"[[SKILL:475:Frumious Wrath 7]]\"\nWhen user has \"[[STATE:93:Gather 7]]\": Transforms into \"[[SKILL:476:Frumious Wrath 8]]\"\nWhen user has \"[[STATE:94:Gather 8]]\": Transforms into \"[[SKILL:477:Frumious Wrath 9]]\"\nWhen user has \"[[STATE:95:Gather 9]]\": Transforms into \"[[SKILL:478:Frumious Wrath 10]]\"\nWhen user has \"[[STATE:96:Gather 10]]\": Transforms into \"Frumious Wrath\"",
         "japanese": "<使用者効果 479>\n<ステート変化:470,87>\n<ステート変化:471,88>\n<ステート変化:472,89>\n<ステート変化:473,90>\n<ステート変化:474,91>\n<ステート変化:475,92>\n<ステート変化:476,93>\n<ステート変化:477,94>\n<ステート変化:478,95>\n<ステート変化:469,96>",
         "untranslated": false
       }
@@ -59205,7 +59205,7 @@
         }
       ],
       "note": {
-        "english": "Applies to user: \"[[SKILL:880:Bullet Switch 1]]\" effects\nWhen user has \"[[STATE:190:Bullet Switch 1]]\": Transforms into \"[[SKILL:888:Charge Bullets 2]]\"\nWhen user has \"[[STATE:191:Bullet Switch 2]]\": Transforms into \"[[SKILL:889:Charge Bullets 3]]\"\nWhen user has \"[[STATE:192:Bullet Switch 3]]\": Transforms into \"Skill #878\"\nDoes not consume a turn (999 turns)\nConsumes 1% max HP",
+        "english": "Applies to user: \"[[SKILL:880:Bullet Switch 1]]\" effects\nWhen user has \"[[STATE:190:Bullet Switch 1]]\": Transforms into \"[[SKILL:888:Charge Bullets 2]]\"\nWhen user has \"[[STATE:191:Bullet Switch 2]]\": Transforms into \"[[SKILL:889:Charge Bullets 3]]\"\nWhen user has \"[[STATE:192:Bullet Switch 3]]\": Transforms into \"Charge Bullets\"\nDoes not consume a turn (999 turns)\nConsumes 1% max HP",
         "japanese": "<使用者効果 880>\n<ステート変化:888,190>\n<ステート変化:889,191>\n<ステート変化:878,192>\n[hzm]ターン消費無し:999\n<消費最大ＨＰ 1%>",
         "untranslated": false
       }
@@ -64922,7 +64922,7 @@
         }
       ],
       "note": {
-        "english": "Ignores 100% defense\nDamage penetration: 100%\nIgnores luck for debuff application\nIgnores luck for state application\nAfter use: 30% chance to cast \"Skill #939\"",
+        "english": "Ignores 100% defense\nDamage penetration: 100%\nIgnores luck for debuff application\nIgnores luck for state application\nAfter use: 30% chance to cast \"Piercing Iron Spear\"",
         "japanese": "<防御状態無視率:100>\n<ダメージ率貫通:1,100>\n<運無視弱体付与>\n<運無視ステート付与>\n<使用後追加行動:939,-2,30>",
         "untranslated": false
       }
@@ -69142,7 +69142,7 @@
       "requiredWeaponTypes": [],
       "effects": [],
       "note": {
-        "english": "After use: 50% chance to cast \"Skill #987\"\nHP conversion rate: 100%\nHP drain: 100%",
+        "english": "After use: 50% chance to cast \"Lion Whirlwind\"\nHP conversion rate: 100%\nHP drain: 100%",
         "japanese": "<使用後追加行動:987,-2,50>\n<変換攻撃判定:100>\n<HP変換攻撃:100,100>",
         "untranslated": false
       }
@@ -69434,7 +69434,7 @@
         }
       ],
       "note": {
-        "english": "Ignores luck for state application\nHP conversion rate: 100%\nHP drain: 100%\nAfter use: 50% chance to cast \"Skill #991\"",
+        "english": "Ignores luck for state application\nHP conversion rate: 100%\nHP drain: 100%\nAfter use: 50% chance to cast \"Lion Whirlwind Enemy\"",
         "japanese": "<運無視ステート付与>\n<変換攻撃判定:100>\n<HP変換攻撃:100,100>\n<使用後追加行動:991,-2,50>",
         "untranslated": false
       }
@@ -222853,6 +222853,6 @@
       "",
       "Techniques"
     ],
-    "generated": "2025-11-13T20:24:27.282Z"
+    "generated": "2025-11-14T01:29:56.466Z"
   }
 }
