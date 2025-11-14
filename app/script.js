@@ -3235,6 +3235,23 @@ function findSkillReferences(skillId) {
     references.referencedBy.armors = references.referencedBy.armors.filter(armor => Number(armor.id) !== Number(skillId));
     references.referencedBy.enemies = references.referencedBy.enemies.filter(enemy => Number(enemy.id) !== Number(skillId));
     
+    // Deduplication: Remove items from referencedBy if they appear in more specific categories
+    // Items: Remove from referencedBy.items if already in itemsTeaching
+    const itemsInSpecificCategories = new Set(
+        references.itemsTeaching.map(i => Number(i.id))
+    );
+    references.referencedBy.items = references.referencedBy.items.filter(
+        item => !itemsInSpecificCategories.has(Number(item.id))
+    );
+    
+    // Enemies: Remove from referencedBy.enemies if already in enemiesUsing
+    const enemiesInSpecificCategories = new Set(
+        references.enemiesUsing.map(e => Number(e.id))
+    );
+    references.referencedBy.enemies = references.referencedBy.enemies.filter(
+        enemy => !enemiesInSpecificCategories.has(Number(enemy.id))
+    );
+    
     return references;
 }
 
@@ -3332,6 +3349,33 @@ function findStateReferences(stateId) {
     references.referencedBy.weapons = references.referencedBy.weapons.filter(weapon => Number(weapon.id) !== Number(stateId));
     references.referencedBy.armors = references.referencedBy.armors.filter(armor => Number(armor.id) !== Number(stateId));
     references.referencedBy.enemies = references.referencedBy.enemies.filter(enemy => Number(enemy.id) !== Number(stateId));
+    
+    // Deduplication: Remove items from referencedBy if they appear in more specific categories
+    // Skills: Remove from referencedBy.skills if already in skillsApplying or skillsRemoving
+    const skillsInSpecificCategories = new Set([
+        ...references.skillsApplying.map(s => Number(s.id)),
+        ...references.skillsRemoving.map(s => Number(s.id))
+    ]);
+    references.referencedBy.skills = references.referencedBy.skills.filter(
+        skill => !skillsInSpecificCategories.has(Number(skill.id))
+    );
+    
+    // Items: Remove from referencedBy.items if already in itemsApplying or itemsRemoving
+    const itemsInSpecificCategories = new Set([
+        ...references.itemsApplying.map(i => Number(i.id)),
+        ...references.itemsRemoving.map(i => Number(i.id))
+    ]);
+    references.referencedBy.items = references.referencedBy.items.filter(
+        item => !itemsInSpecificCategories.has(Number(item.id))
+    );
+    
+    // Enemies: Remove from referencedBy.enemies if already in enemiesWith
+    const enemiesInSpecificCategories = new Set(
+        references.enemiesWith.map(e => Number(e.id))
+    );
+    references.referencedBy.enemies = references.referencedBy.enemies.filter(
+        enemy => !enemiesInSpecificCategories.has(Number(enemy.id))
+    );
     
     return references;
 }

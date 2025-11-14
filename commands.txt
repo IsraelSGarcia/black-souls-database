@@ -1,3 +1,7 @@
+# These are user commands, not AI commands.
+
+# Reprocess data:
 node app/process-mv-converted-data.js
 
+# Go to page (Windows):
 start app/index.html

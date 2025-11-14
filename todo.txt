@@ -1,0 +1,9 @@
+# DO NOT DO ANYTHING WITHOUT PERMISSION
+
+- Bug: Duplicates in reference section (for example, in madness, golden mead appears twice in two categories. there is no need for that. just show it in the least generic category)
+
+- Bug: Not naming skill properly in Piercing Iron Spear notes. Fix without hacking.
+
+- Fix: Enemies' actions don't show conditions (even though they should). Here are some screenshots.
+
+- Fix: Make sure Enemies' help section has everything explained correctly.
