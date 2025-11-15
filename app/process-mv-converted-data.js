@@ -1476,7 +1476,20 @@ function translateNote(note, skillsData = null, statesData = null, sourceType = 
         { regex: /混沌/g, replacement: () => `Chaos` },
         
         // Synthesis patterns
-        { regex: /<合成設定:(\d+),(\d+),(\d+)>/g, replacement: (m, p1, p2, p3) => `Synthesis setting: ${p1}, ${p2}, ${p3}` }
+        // Format: <合成設定:category,itemId,quantity>
+        // Parameter 1: Category (0 = item synthesis)
+        // Parameter 2: Item ID used as currency (49 = Candy)
+        // Parameter 3: Quantity required
+        { regex: /<合成設定:(\d+),(\d+),(\d+)>/g, replacement: (m, p1, p2, p3) => {
+            const quantity = parseInt(p3);
+            const itemId = parseInt(p2);
+            // Item ID 49 is "Candy" - the synthesis currency
+            if (itemId === 49) {
+                return `Cost: ${quantity} ${quantity === 1 ? 'Candy' : 'Candies'}`;
+            }
+            // Fallback for other item IDs (if any exist)
+            return `Cost: ${quantity} × Item #${itemId}`;
+        }}
     ];
     
     // Apply all pattern-based translations FIRST

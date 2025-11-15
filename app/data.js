@@ -88514,7 +88514,7 @@ const weaponsData = {
         }
       ],
       "note": {
-        "english": "Changes attack to: \"[[SKILL:154:Drain Attack]]\"\nLick Lick\nSynthesis setting: 0, 49, 10",
+        "english": "Changes attack to: \"[[SKILL:154:Drain Attack]]\"\nLick Lick\nCost: 10 Candies",
         "japanese": "<攻撃ID変更:154>\nぺろぺろ\n<合成設定:0,49,10>",
         "untranslated": false
       }
@@ -112195,7 +112195,7 @@ const armorsData = {
         }
       ],
       "note": {
-        "english": "Lick Lick Please\nSynthesis setting: 0, 49, 30",
+        "english": "Lick Lick Please\nCost: 30 Candies",
         "japanese": "ぺろぺろちょうだい\n<合成設定:0,49,30>",
         "untranslated": false
       }
@@ -112671,7 +112671,7 @@ const armorsData = {
         }
       ],
       "note": {
-        "english": "Lick Lick\nSynthesis setting: 0, 49, 5",
+        "english": "Lick Lick\nCost: 5 Candies",
         "japanese": "ぺろぺろ\n<合成設定:0,49,5>",
         "untranslated": false
       }
@@ -112732,7 +112732,7 @@ const armorsData = {
       ],
       "traits": [],
       "note": {
-        "english": "Nameless Forest\nLick Lick Please\nSynthesis setting: 0, 49, 5",
+        "english": "Nameless Forest\nLick Lick Please\nCost: 5 Candies",
         "japanese": "名無しの森\nぺろぺろちょうだい\n<合成設定:0,49,5>",
         "untranslated": false
       }
@@ -113424,7 +113424,7 @@ const armorsData = {
         }
       ],
       "note": {
-        "english": "Lick Lick Please\nSynthesis setting: 0, 49, 15",
+        "english": "Lick Lick Please\nCost: 15 Candies",
         "japanese": "ぺろぺろちょうだい\n<合成設定:0,49,15>",
         "untranslated": false
       }
@@ -113921,7 +113921,7 @@ const armorsData = {
       "params": [],
       "traits": [],
       "note": {
-        "english": "Before battle: 100% chance to apply \"[[STATE:16:Dodge]]\"\nLick Lick Please\nSynthesis setting: 0, 49, 5",
+        "english": "Before battle: 100% chance to apply \"[[STATE:16:Dodge]]\"\nLick Lick Please\nCost: 5 Candies",
         "japanese": "<戦闘前ステート付与:16,100>\nぺろぺろちょうだい\n<合成設定:0,49,5>",
         "untranslated": false
       }
@@ -113945,7 +113945,7 @@ const armorsData = {
       "params": [],
       "traits": [],
       "note": {
-        "english": "Before battle: 100% chance to apply \"[[STATE:38:Rampage]]\"\nLick Lick Please\nSynthesis setting: 0, 49, 10",
+        "english": "Before battle: 100% chance to apply \"[[STATE:38:Rampage]]\"\nLick Lick Please\nCost: 10 Candies",
         "japanese": "<戦闘前ステート付与:38,100>\nぺろぺろちょうだい\n<合成設定:0,49,10>",
         "untranslated": false
       }
@@ -113977,7 +113977,7 @@ const armorsData = {
         }
       ],
       "note": {
-        "english": "Lick Lick Please\nSynthesis setting: 0, 49, 15",
+        "english": "Lick Lick Please\nCost: 15 Candies",
         "japanese": "ぺろぺろちょうだい\n<合成設定:0,49,15>",
         "untranslated": false
       }
@@ -117076,7 +117076,7 @@ const armorsData = {
         }
       ],
       "note": {
-        "english": "Lick Lick Bird\nWinterbell\nSynthesis setting: 0, 49, 50",
+        "english": "Lick Lick Bird\nWinterbell\nCost: 50 Candies",
         "japanese": "ぺろぺろバード\nウィンターベル\n<合成設定:0,49,50>",
         "untranslated": false
       }
@@ -117115,7 +117115,7 @@ const armorsData = {
         }
       ],
       "note": {
-        "english": "Lick Lick Bird\nWinterbell\nSynthesis setting: 0, 49, 50",
+        "english": "Lick Lick Bird\nWinterbell\nCost: 50 Candies",
         "japanese": "ぺろぺろバード\nウィンターベル\n<合成設定:0,49,50>",
         "untranslated": false
       }
@@ -117793,7 +117793,7 @@ const armorsData = {
         }
       ],
       "note": {
-        "english": "Candy\nSynthesis setting: 0, 49, 1",
+        "english": "Candy\nCost: 1 Candy",
         "japanese": "キャンディー\n<合成設定:0,49,1>",
         "untranslated": false
       }
@@ -202496,7 +202496,7 @@ const itemsData = {
       "hitTypeName": "Certain hit",
       "successRate": 100,
       "note": {
-        "english": "Does not consume a turn (99 turns)\nSynthesis setting: 0, 49, 1",
+        "english": "Does not consume a turn (99 turns)\nCost: 1 Candy",
         "japanese": "[hzm]ターン消費無し:99\n<合成設定:0,49,1>",
         "untranslated": false
       }
@@ -203028,7 +203028,7 @@ const itemsData = {
       "hitTypeName": "Certain hit",
       "successRate": 100,
       "note": {
-        "english": "Synthesis setting: 0, 49, 5",
+        "english": "Cost: 5 Candies",
         "japanese": "<合成設定:0,49,5>",
         "untranslated": false
       }
@@ -203120,7 +203120,7 @@ const itemsData = {
       "hitTypeName": "Certain hit",
       "successRate": 100,
       "note": {
-        "english": "Synthesis setting: 0, 49, 10",
+        "english": "Cost: 10 Candies",
         "japanese": "<合成設定:0,49,10>",
         "untranslated": false
       }
@@ -204452,7 +204452,7 @@ const itemsData = {
       "hitTypeName": "Certain hit",
       "successRate": 100,
       "note": {
-        "english": "Candy exchange\nSynthesis setting: 0, 49, 5",
+        "english": "Candy exchange\nCost: 5 Candies",
         "japanese": "キャンディー交換\n<合成設定:0,49,5>",
         "untranslated": false
       }
@@ -208051,7 +208051,7 @@ const itemsData = {
       "hitTypeName": "Certain hit",
       "successRate": 100,
       "note": {
-        "english": "Lick Lick\nSynthesis setting: 0, 49, 5",
+        "english": "Lick Lick\nCost: 5 Candies",
         "japanese": "ぺろぺろ\n<合成設定:0,49,5>",
         "untranslated": false
       }
@@ -208467,7 +208467,7 @@ const itemsData = {
       "hitTypeName": "Certain hit",
       "successRate": 100,
       "note": {
-        "english": "Lick Lick\nSynthesis setting: 0, 49, 10",
+        "english": "Lick Lick\nCost: 10 Candies",
         "japanese": "ぺろぺろ\n<合成設定:0,49,10>",
         "untranslated": false
       }
@@ -208499,7 +208499,7 @@ const itemsData = {
       "hitTypeName": "Certain hit",
       "successRate": 100,
       "note": {
-        "english": "Lick Lick\nSynthesis setting: 0, 49, 10",
+        "english": "Lick Lick\nCost: 10 Candies",
         "japanese": "ぺろぺろ\n<合成設定:0,49,10>",
         "untranslated": false
       }
@@ -209043,7 +209043,7 @@ const itemsData = {
       "hitTypeName": "Certain hit",
       "successRate": 100,
       "note": {
-        "english": "Candy exchange\nSynthesis setting: 0, 49, 30",
+        "english": "Candy exchange\nCost: 30 Candies",
         "japanese": "キャンディー交換\n<合成設定:0,49,30>",
         "untranslated": false
       }
@@ -209523,7 +209523,7 @@ const itemsData = {
       "hitTypeName": "Certain hit",
       "successRate": 100,
       "note": {
-        "english": "Chaos Dungeon\nSynthesis setting: 0, 49, 90",
+        "english": "Chaos Dungeon\nCost: 90 Candies",
         "japanese": "混沌ダンジョン\n<合成設定:0,49,90>",
         "untranslated": false
       }
@@ -209619,7 +209619,7 @@ const itemsData = {
       "hitTypeName": "Certain hit",
       "successRate": 100,
       "note": {
-        "english": "Snowfield\nSynthesis setting: 0, 49, 30",
+        "english": "Snowfield\nCost: 30 Candies",
         "japanese": "雪原\n<合成設定:0,49,30>",
         "untranslated": false
       }
@@ -209651,7 +209651,7 @@ const itemsData = {
       "hitTypeName": "Certain hit",
       "successRate": 100,
       "note": {
-        "english": "Winterbell\nSynthesis setting: 0, 49, 40",
+        "english": "Winterbell\nCost: 40 Candies",
         "japanese": "ウィンターベル\n<合成設定:0,49,40>",
         "untranslated": false
       }
