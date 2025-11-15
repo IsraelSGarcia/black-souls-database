@@ -3111,7 +3111,16 @@ function findAllTextReferences(targetType, targetId) {
         const noteText = state.note?.english || state.note?.japanese || '';
         const descText = state.description || '';
         
-        if (hasReference(noteText) || hasReference(descText)) {
+        // Also check trait descriptions
+        let traitTexts = '';
+        if (state.traits && Array.isArray(state.traits)) {
+            traitTexts = state.traits
+                .map(trait => trait?.description || '')
+                .filter(desc => desc && typeof desc === 'string')
+                .join(' ');
+        }
+        
+        if (hasReference(noteText) || hasReference(descText) || hasReference(traitTexts)) {
             references.states.push({
                 id: state.id,
                 name: state.name,
@@ -3129,7 +3138,16 @@ function findAllTextReferences(targetType, targetId) {
         const noteText = weapon.note?.english || weapon.note?.japanese || '';
         const descText = weapon.description || '';
         
-        if (hasReference(noteText) || hasReference(descText)) {
+        // Also check trait descriptions
+        let traitTexts = '';
+        if (weapon.traits && Array.isArray(weapon.traits)) {
+            traitTexts = weapon.traits
+                .map(trait => trait?.description || '')
+                .filter(desc => desc && typeof desc === 'string')
+                .join(' ');
+        }
+        
+        if (hasReference(noteText) || hasReference(descText) || hasReference(traitTexts)) {
             references.weapons.push({
                 id: weapon.id,
                 name: weapon.name,
@@ -3147,7 +3165,16 @@ function findAllTextReferences(targetType, targetId) {
         const noteText = armor.note?.english || armor.note?.japanese || '';
         const descText = armor.description || '';
         
-        if (hasReference(noteText) || hasReference(descText)) {
+        // Also check trait descriptions
+        let traitTexts = '';
+        if (armor.traits && Array.isArray(armor.traits)) {
+            traitTexts = armor.traits
+                .map(trait => trait?.description || '')
+                .filter(desc => desc && typeof desc === 'string')
+                .join(' ');
+        }
+        
+        if (hasReference(noteText) || hasReference(descText) || hasReference(traitTexts)) {
             references.armors.push({
                 id: armor.id,
                 name: armor.name,
@@ -3165,7 +3192,29 @@ function findAllTextReferences(targetType, targetId) {
         const noteText = enemy.note?.english || enemy.note?.japanese || '';
         const descText = enemy.description || '';
         
-        if (hasReference(noteText) || hasReference(descText)) {
+        // Also check trait descriptions
+        let traitTexts = '';
+        if (enemy.traits && Array.isArray(enemy.traits)) {
+            traitTexts = enemy.traits
+                .map(trait => trait?.description || '')
+                .filter(desc => desc && typeof desc === 'string')
+                .join(' ');
+        }
+        
+        // Also check action fields (skillName and conditionText may contain references)
+        let actionTexts = '';
+        if (enemy.actions && Array.isArray(enemy.actions)) {
+            actionTexts = enemy.actions
+                .map(action => {
+                    const skillName = action?.skillName || '';
+                    const conditionText = action?.conditionText || '';
+                    return `${skillName} ${conditionText}`;
+                })
+                .filter(text => text.trim())
+                .join(' ');
+        }
+        
+        if (hasReference(noteText) || hasReference(descText) || hasReference(traitTexts) || hasReference(actionTexts)) {
             references.enemies.push({
                 id: enemy.id,
                 name: enemy.name,
