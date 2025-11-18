@@ -202102,6 +202102,7 @@ const itemsData = {
       "effects": [
         {
           "code": 11,
+          "codeName": "Recover HP",
           "dataId": 1,
           "value1": 0.5,
           "value2": 0,
@@ -202109,6 +202110,7 @@ const itemsData = {
         },
         {
           "code": 22,
+          "codeName": "Remove State",
           "dataId": 61,
           "value1": 1,
           "value2": 0,
@@ -202141,6 +202143,7 @@ const itemsData = {
       "effects": [
         {
           "code": 12,
+          "codeName": "Recover MP",
           "dataId": 0,
           "value1": 0.5,
           "value2": 0,
@@ -202148,6 +202151,7 @@ const itemsData = {
         },
         {
           "code": 22,
+          "codeName": "Remove State",
           "dataId": 61,
           "value1": 1,
           "value2": 0,
@@ -202180,6 +202184,7 @@ const itemsData = {
       "effects": [
         {
           "code": 11,
+          "codeName": "Recover HP",
           "dataId": 1,
           "value1": 0.3,
           "value2": 0,
@@ -202187,6 +202192,7 @@ const itemsData = {
         },
         {
           "code": 22,
+          "codeName": "Remove State",
           "dataId": 61,
           "value1": 1,
           "value2": 0,
@@ -202219,6 +202225,7 @@ const itemsData = {
       "effects": [
         {
           "code": 22,
+          "codeName": "Remove State",
           "dataId": 2,
           "value1": 1,
           "value2": 0,
@@ -202227,6 +202234,7 @@ const itemsData = {
         },
         {
           "code": 22,
+          "codeName": "Remove State",
           "dataId": 3,
           "value1": 1,
           "value2": 0,
@@ -202259,6 +202267,7 @@ const itemsData = {
       "effects": [
         {
           "code": 22,
+          "codeName": "Remove State",
           "dataId": 26,
           "value1": 1,
           "value2": 0,
@@ -202291,6 +202300,7 @@ const itemsData = {
       "effects": [
         {
           "code": 22,
+          "codeName": "Remove State",
           "dataId": 28,
           "value1": 1,
           "value2": 0,
@@ -202323,6 +202333,7 @@ const itemsData = {
       "effects": [
         {
           "code": 12,
+          "codeName": "Recover MP",
           "dataId": 0,
           "value1": 0.3,
           "value2": 0,
@@ -202354,6 +202365,7 @@ const itemsData = {
       "effects": [
         {
           "code": 11,
+          "codeName": "Recover HP",
           "dataId": 0,
           "value1": 1,
           "value2": 0,
@@ -202361,6 +202373,7 @@ const itemsData = {
         },
         {
           "code": 12,
+          "codeName": "Recover MP",
           "dataId": 0,
           "value1": 1,
           "value2": 0,
@@ -202368,6 +202381,7 @@ const itemsData = {
         },
         {
           "code": 22,
+          "codeName": "Remove State",
           "dataId": 2,
           "value1": 1,
           "value2": 0,
@@ -202376,6 +202390,7 @@ const itemsData = {
         },
         {
           "code": 22,
+          "codeName": "Remove State",
           "dataId": 30,
           "value1": 1,
           "value2": 0,
@@ -202384,6 +202399,7 @@ const itemsData = {
         },
         {
           "code": 22,
+          "codeName": "Remove State",
           "dataId": 3,
           "value1": 1,
           "value2": 0,
@@ -202392,6 +202408,7 @@ const itemsData = {
         },
         {
           "code": 22,
+          "codeName": "Remove State",
           "dataId": 5,
           "value1": 1,
           "value2": 0,
@@ -202400,6 +202417,7 @@ const itemsData = {
         },
         {
           "code": 22,
+          "codeName": "Remove State",
           "dataId": 6,
           "value1": 1,
           "value2": 0,
@@ -202408,6 +202426,7 @@ const itemsData = {
         },
         {
           "code": 22,
+          "codeName": "Remove State",
           "dataId": 13,
           "value1": 1,
           "value2": 0,
@@ -202416,6 +202435,7 @@ const itemsData = {
         },
         {
           "code": 22,
+          "codeName": "Remove State",
           "dataId": 26,
           "value1": 1,
           "value2": 0,
@@ -202424,6 +202444,7 @@ const itemsData = {
         },
         {
           "code": 22,
+          "codeName": "Remove State",
           "dataId": 28,
           "value1": 1,
           "value2": 0,
@@ -202432,6 +202453,7 @@ const itemsData = {
         },
         {
           "code": 22,
+          "codeName": "Remove State",
           "dataId": 29,
           "value1": 1,
           "value2": 0,
@@ -202440,6 +202462,7 @@ const itemsData = {
         },
         {
           "code": 22,
+          "codeName": "Remove State",
           "dataId": 55,
           "value1": 1,
           "value2": 0,
@@ -202448,6 +202471,7 @@ const itemsData = {
         },
         {
           "code": 22,
+          "codeName": "Remove State",
           "dataId": 56,
           "value1": 1,
           "value2": 0,
@@ -202456,6 +202480,7 @@ const itemsData = {
         },
         {
           "code": 22,
+          "codeName": "Remove State",
           "dataId": 61,
           "value1": 1,
           "value2": 0,
@@ -202464,6 +202489,7 @@ const itemsData = {
         },
         {
           "code": 22,
+          "codeName": "Remove State",
           "dataId": 17,
           "value1": 1,
           "value2": 0,
@@ -202472,6 +202498,7 @@ const itemsData = {
         },
         {
           "code": 22,
+          "codeName": "Remove State",
           "dataId": 162,
           "value1": 1,
           "value2": 0,
@@ -202480,6 +202507,7 @@ const itemsData = {
         },
         {
           "code": 22,
+          "codeName": "Remove State",
           "dataId": 163,
           "value1": 1,
           "value2": 0,
@@ -202512,6 +202540,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 223,
           "value1": 0,
           "value2": 0,
@@ -202543,6 +202572,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 224,
           "value1": 0,
           "value2": 0,
@@ -202574,6 +202604,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 225,
           "value1": 0,
           "value2": 0,
@@ -202605,6 +202636,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 226,
           "value1": 0,
           "value2": 0,
@@ -202636,6 +202668,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 227,
           "value1": 0,
           "value2": 0,
@@ -202667,6 +202700,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 228,
           "value1": 0,
           "value2": 0,
@@ -202698,6 +202732,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 229,
           "value1": 0,
           "value2": 0,
@@ -202729,6 +202764,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 230,
           "value1": 0,
           "value2": 0,
@@ -202760,6 +202796,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 221,
           "value1": 0,
           "value2": 0,
@@ -202791,6 +202828,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 3,
           "value1": 0,
           "value2": 0,
@@ -202822,6 +202860,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 48,
           "value1": 0,
           "value2": 0,
@@ -202829,6 +202868,7 @@ const itemsData = {
         },
         {
           "code": 21,
+          "codeName": "Add State",
           "dataId": 72,
           "value1": 1,
           "value2": 0,
@@ -202862,6 +202902,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 31,
           "value1": 0,
           "value2": 0,
@@ -202916,6 +202957,7 @@ const itemsData = {
       "effects": [
         {
           "code": 21,
+          "codeName": "Add State",
           "dataId": 15,
           "value1": 1,
           "value2": 0,
@@ -202949,6 +202991,7 @@ const itemsData = {
       "effects": [
         {
           "code": 22,
+          "codeName": "Remove State",
           "dataId": 12,
           "value1": 1,
           "value2": 0,
@@ -202957,6 +203000,7 @@ const itemsData = {
         },
         {
           "code": 11,
+          "codeName": "Recover HP",
           "dataId": 1,
           "value1": 1,
           "value2": 0,
@@ -202988,6 +203032,7 @@ const itemsData = {
       "effects": [
         {
           "code": 21,
+          "codeName": "Add State",
           "dataId": 6,
           "value1": 1,
           "value2": 0,
@@ -203166,6 +203211,7 @@ const itemsData = {
       "effects": [
         {
           "code": 21,
+          "codeName": "Add State",
           "dataId": 2,
           "value1": 1,
           "value2": 0,
@@ -203175,6 +203221,7 @@ const itemsData = {
         },
         {
           "code": 21,
+          "codeName": "Add State",
           "dataId": 58,
           "value1": 0.01,
           "value2": 0,
@@ -203215,6 +203262,7 @@ const itemsData = {
       "effects": [
         {
           "code": 21,
+          "codeName": "Add State",
           "dataId": 21,
           "value1": 1,
           "value2": 0,
@@ -203224,6 +203272,7 @@ const itemsData = {
         },
         {
           "code": 22,
+          "codeName": "Remove State",
           "dataId": 162,
           "value1": 1,
           "value2": 0,
@@ -203256,6 +203305,7 @@ const itemsData = {
       "effects": [
         {
           "code": 21,
+          "codeName": "Add State",
           "dataId": 23,
           "value1": 1,
           "value2": 0,
@@ -203289,6 +203339,7 @@ const itemsData = {
       "effects": [
         {
           "code": 21,
+          "codeName": "Add State",
           "dataId": 24,
           "value1": 1,
           "value2": 0,
@@ -203322,6 +203373,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 19,
           "value1": 0,
           "value2": 0,
@@ -203353,6 +203405,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 20,
           "value1": 0,
           "value2": 0,
@@ -203384,6 +203437,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 21,
           "value1": 0,
           "value2": 0,
@@ -203415,6 +203469,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 22,
           "value1": 0,
           "value2": 0,
@@ -203446,6 +203501,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 23,
           "value1": 0,
           "value2": 0,
@@ -203477,6 +203533,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 24,
           "value1": 0,
           "value2": 0,
@@ -203508,6 +203565,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 25,
           "value1": 0,
           "value2": 0,
@@ -203539,6 +203597,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 26,
           "value1": 0,
           "value2": 0,
@@ -203570,6 +203629,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 27,
           "value1": 0,
           "value2": 0,
@@ -203601,6 +203661,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 28,
           "value1": 0,
           "value2": 0,
@@ -203632,6 +203693,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 29,
           "value1": 0,
           "value2": 0,
@@ -203663,6 +203725,7 @@ const itemsData = {
       "effects": [
         {
           "code": 21,
+          "codeName": "Add State",
           "dataId": 3,
           "value1": 1,
           "value2": 0,
@@ -203726,6 +203789,7 @@ const itemsData = {
       "effects": [
         {
           "code": 11,
+          "codeName": "Recover HP",
           "dataId": 1,
           "value1": 0.7,
           "value2": 0,
@@ -203733,6 +203797,7 @@ const itemsData = {
         },
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 47,
           "value1": 0,
           "value2": 0,
@@ -203787,6 +203852,7 @@ const itemsData = {
       "effects": [
         {
           "code": 21,
+          "codeName": "Add State",
           "dataId": 5,
           "value1": 1,
           "value2": 0,
@@ -203850,6 +203916,7 @@ const itemsData = {
       "effects": [
         {
           "code": 21,
+          "codeName": "Add State",
           "dataId": 55,
           "value1": 1,
           "value2": 0,
@@ -203883,6 +203950,7 @@ const itemsData = {
       "effects": [
         {
           "code": 22,
+          "codeName": "Remove State",
           "dataId": 5,
           "value1": 1,
           "value2": 0,
@@ -203891,6 +203959,7 @@ const itemsData = {
         },
         {
           "code": 22,
+          "codeName": "Remove State",
           "dataId": 29,
           "value1": 1,
           "value2": 0,
@@ -203923,6 +203992,7 @@ const itemsData = {
       "effects": [
         {
           "code": 22,
+          "codeName": "Remove State",
           "dataId": 55,
           "value1": 1,
           "value2": 0,
@@ -203955,6 +204025,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 3,
           "value1": 0,
           "value2": 0,
@@ -203986,10 +204057,13 @@ const itemsData = {
       "effects": [
         {
           "code": 31,
+          "codeName": "Add Buff",
           "dataId": 5,
           "value1": 5,
           "value2": 0,
-          "description": "Effect code 31, data 5, value 5"
+          "description": "Increase Magic Defense for 5 turns",
+          "parameter": "Magic Defense",
+          "turns": 5
         }
       ],
       "damage": null,
@@ -204017,10 +204091,13 @@ const itemsData = {
       "effects": [
         {
           "code": 31,
+          "codeName": "Add Buff",
           "dataId": 4,
           "value1": 5,
           "value2": 0,
-          "description": "Effect code 31, data 4, value 5"
+          "description": "Increase Magic Attack for 5 turns",
+          "parameter": "Magic Attack",
+          "turns": 5
         }
       ],
       "damage": null,
@@ -204048,10 +204125,13 @@ const itemsData = {
       "effects": [
         {
           "code": 31,
+          "codeName": "Add Buff",
           "dataId": 3,
           "value1": 5,
           "value2": 0,
-          "description": "Effect code 31, data 3, value 5"
+          "description": "Increase Defense for 5 turns",
+          "parameter": "Defense",
+          "turns": 5
         }
       ],
       "damage": null,
@@ -204079,10 +204159,13 @@ const itemsData = {
       "effects": [
         {
           "code": 31,
+          "codeName": "Add Buff",
           "dataId": 6,
           "value1": 5,
           "value2": 0,
-          "description": "Effect code 31, data 6, value 5"
+          "description": "Increase Agility for 5 turns",
+          "parameter": "Agility",
+          "turns": 5
         }
       ],
       "damage": null,
@@ -204110,6 +204193,7 @@ const itemsData = {
       "effects": [
         {
           "code": 21,
+          "codeName": "Add State",
           "dataId": 28,
           "value1": 1,
           "value2": 0,
@@ -204143,10 +204227,13 @@ const itemsData = {
       "effects": [
         {
           "code": 31,
+          "codeName": "Add Buff",
           "dataId": 2,
           "value1": 5,
           "value2": 0,
-          "description": "Effect code 31, data 2, value 5"
+          "description": "Increase Attack for 5 turns",
+          "parameter": "Attack",
+          "turns": 5
         }
       ],
       "damage": null,
@@ -204174,6 +204261,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 231,
           "value1": 0,
           "value2": 0,
@@ -204205,6 +204293,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 232,
           "value1": 0,
           "value2": 0,
@@ -204236,6 +204325,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 18,
           "value1": 0,
           "value2": 0,
@@ -204267,10 +204357,13 @@ const itemsData = {
       "effects": [
         {
           "code": 42,
+          "codeName": "Raise Parameter",
           "dataId": 0,
           "value1": 100,
           "value2": 0,
-          "description": "Effect code 42, data 0, value 100"
+          "description": "Increase Max HP permanently by 100",
+          "parameter": "Max HP",
+          "amount": 100
         }
       ],
       "damage": null,
@@ -204298,10 +204391,13 @@ const itemsData = {
       "effects": [
         {
           "code": 42,
+          "codeName": "Raise Parameter",
           "dataId": 0,
           "value1": 100,
           "value2": 0,
-          "description": "Effect code 42, data 0, value 100"
+          "description": "Increase Max HP permanently by 100",
+          "parameter": "Max HP",
+          "amount": 100
         }
       ],
       "damage": null,
@@ -204329,6 +204425,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 36,
           "value1": 0,
           "value2": 0,
@@ -204383,6 +204480,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 58,
           "value1": 0,
           "value2": 0,
@@ -204414,6 +204512,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 59,
           "value1": 0,
           "value2": 0,
@@ -204468,6 +204567,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 215,
           "value1": 0,
           "value2": 0,
@@ -204545,10 +204645,13 @@ const itemsData = {
       "effects": [
         {
           "code": 42,
+          "codeName": "Raise Parameter",
           "dataId": 0,
           "value1": 300,
           "value2": 0,
-          "description": "Effect code 42, data 0, value 300"
+          "description": "Increase Max HP permanently by 300",
+          "parameter": "Max HP",
+          "amount": 300
         }
       ],
       "damage": null,
@@ -204576,6 +204679,7 @@ const itemsData = {
       "effects": [
         {
           "code": 22,
+          "codeName": "Remove State",
           "dataId": 56,
           "value1": 1,
           "value2": 0,
@@ -204608,17 +204712,23 @@ const itemsData = {
       "effects": [
         {
           "code": 42,
+          "codeName": "Raise Parameter",
           "dataId": 0,
           "value1": 10,
           "value2": 0,
-          "description": "Effect code 42, data 0, value 10"
+          "description": "Increase Max HP permanently by 10",
+          "parameter": "Max HP",
+          "amount": 10
         },
         {
           "code": 42,
+          "codeName": "Raise Parameter",
           "dataId": 1,
           "value1": 5,
           "value2": 0,
-          "description": "Effect code 42, data 1, value 5"
+          "description": "Increase Max MP permanently by 5",
+          "parameter": "Max MP",
+          "amount": 5
         }
       ],
       "damage": null,
@@ -204646,6 +204756,7 @@ const itemsData = {
       "effects": [
         {
           "code": 11,
+          "codeName": "Recover HP",
           "dataId": 0,
           "value1": 0.5,
           "value2": 0,
@@ -204653,6 +204764,7 @@ const itemsData = {
         },
         {
           "code": 12,
+          "codeName": "Recover MP",
           "dataId": 0,
           "value1": 0.5,
           "value2": 0,
@@ -204684,6 +204796,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 222,
           "value1": 0,
           "value2": 0,
@@ -204715,6 +204828,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 233,
           "value1": 0,
           "value2": 0,
@@ -204746,6 +204860,7 @@ const itemsData = {
       "effects": [
         {
           "code": 21,
+          "codeName": "Add State",
           "dataId": 27,
           "value1": 1,
           "value2": 0,
@@ -204802,6 +204917,7 @@ const itemsData = {
       "effects": [
         {
           "code": 12,
+          "codeName": "Recover MP",
           "dataId": 0,
           "value1": 1,
           "value2": 0,
@@ -204833,6 +204949,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 220,
           "value1": 0,
           "value2": 0,
@@ -204864,6 +204981,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 216,
           "value1": 0,
           "value2": 0,
@@ -204895,6 +205013,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 217,
           "value1": 0,
           "value2": 0,
@@ -204926,6 +205045,7 @@ const itemsData = {
       "effects": [
         {
           "code": 11,
+          "codeName": "Recover HP",
           "dataId": 1,
           "value1": 0,
           "value2": 3000,
@@ -204933,6 +205053,7 @@ const itemsData = {
         },
         {
           "code": 21,
+          "codeName": "Add State",
           "dataId": 28,
           "value1": 1,
           "value2": 0,
@@ -204942,6 +205063,7 @@ const itemsData = {
         },
         {
           "code": 12,
+          "codeName": "Recover MP",
           "dataId": 0,
           "value1": 0,
           "value2": 3000,
@@ -204973,6 +205095,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 234,
           "value1": 0,
           "value2": 0,
@@ -205004,6 +205127,7 @@ const itemsData = {
       "effects": [
         {
           "code": 21,
+          "codeName": "Add State",
           "dataId": 29,
           "value1": 1,
           "value2": 0,
@@ -205044,10 +205168,13 @@ const itemsData = {
       "effects": [
         {
           "code": 42,
+          "codeName": "Raise Parameter",
           "dataId": 0,
           "value1": 100,
           "value2": 0,
-          "description": "Effect code 42, data 0, value 100"
+          "description": "Increase Max HP permanently by 100",
+          "parameter": "Max HP",
+          "amount": 100
         }
       ],
       "damage": null,
@@ -205075,10 +205202,13 @@ const itemsData = {
       "effects": [
         {
           "code": 42,
+          "codeName": "Raise Parameter",
           "dataId": 0,
           "value1": 1000,
           "value2": 0,
-          "description": "Effect code 42, data 0, value 1000"
+          "description": "Increase Max HP permanently by 1000",
+          "parameter": "Max HP",
+          "amount": 1000
         }
       ],
       "damage": null,
@@ -205106,10 +205236,13 @@ const itemsData = {
       "effects": [
         {
           "code": 42,
+          "codeName": "Raise Parameter",
           "dataId": 0,
           "value1": 50,
           "value2": 0,
-          "description": "Effect code 42, data 0, value 50"
+          "description": "Increase Max HP permanently by 50",
+          "parameter": "Max HP",
+          "amount": 50
         }
       ],
       "damage": null,
@@ -205137,6 +205270,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 17,
           "value1": 0,
           "value2": 0,
@@ -205168,6 +205302,7 @@ const itemsData = {
       "effects": [
         {
           "code": 22,
+          "codeName": "Remove State",
           "dataId": 17,
           "value1": 1,
           "value2": 0,
@@ -205200,6 +205335,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 288,
           "value1": 0,
           "value2": 0,
@@ -205231,6 +205367,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 299,
           "value1": 0,
           "value2": 0,
@@ -205262,6 +205399,7 @@ const itemsData = {
       "effects": [
         {
           "code": 21,
+          "codeName": "Add State",
           "dataId": 22,
           "value1": 1,
           "value2": 0,
@@ -205295,6 +205433,7 @@ const itemsData = {
       "effects": [
         {
           "code": 21,
+          "codeName": "Add State",
           "dataId": 26,
           "value1": 1,
           "value2": 0,
@@ -205335,6 +205474,7 @@ const itemsData = {
       "effects": [
         {
           "code": 21,
+          "codeName": "Add State",
           "dataId": 27,
           "value1": 1,
           "value2": 0,
@@ -205344,6 +205484,7 @@ const itemsData = {
         },
         {
           "code": 11,
+          "codeName": "Recover HP",
           "dataId": 1,
           "value1": -0.9,
           "value2": 0,
@@ -205375,6 +205516,7 @@ const itemsData = {
       "effects": [
         {
           "code": 21,
+          "codeName": "Add State",
           "dataId": 14,
           "value1": 1,
           "value2": 0,
@@ -205408,10 +205550,13 @@ const itemsData = {
       "effects": [
         {
           "code": 31,
+          "codeName": "Add Buff",
           "dataId": 7,
           "value1": 5,
           "value2": 0,
-          "description": "Effect code 31, data 7, value 5"
+          "description": "Increase Luck for 5 turns",
+          "parameter": "Luck",
+          "turns": 5
         }
       ],
       "damage": null,
@@ -205439,6 +205584,7 @@ const itemsData = {
       "effects": [
         {
           "code": 21,
+          "codeName": "Add State",
           "dataId": 39,
           "value1": 1,
           "value2": 0,
@@ -205472,6 +205618,7 @@ const itemsData = {
       "effects": [
         {
           "code": 21,
+          "codeName": "Add State",
           "dataId": 1,
           "value1": 0.9,
           "value2": 0,
@@ -205512,17 +205659,23 @@ const itemsData = {
       "effects": [
         {
           "code": 31,
+          "codeName": "Add Buff",
           "dataId": 0,
           "value1": 5,
           "value2": 0,
-          "description": "Effect code 31, data 0, value 5"
+          "description": "Increase Max HP for 5 turns",
+          "parameter": "Max HP",
+          "turns": 5
         },
         {
           "code": 31,
+          "codeName": "Add Buff",
           "dataId": 1,
           "value1": 5,
           "value2": 0,
-          "description": "Effect code 31, data 1, value 5"
+          "description": "Increase Max MP for 5 turns",
+          "parameter": "Max MP",
+          "turns": 5
         }
       ],
       "damage": null,
@@ -205550,17 +205703,23 @@ const itemsData = {
       "effects": [
         {
           "code": 32,
+          "codeName": "Add Debuff",
           "dataId": 3,
           "value1": 5,
           "value2": 0,
-          "description": "Effect code 32, data 3, value 5"
+          "description": "Decrease Defense for 5 turns",
+          "parameter": "Defense",
+          "turns": 5
         },
         {
           "code": 32,
+          "codeName": "Add Debuff",
           "dataId": 5,
           "value1": 5,
           "value2": 0,
-          "description": "Effect code 32, data 5, value 5"
+          "description": "Decrease Magic Defense for 5 turns",
+          "parameter": "Magic Defense",
+          "turns": 5
         }
       ],
       "damage": null,
@@ -205588,6 +205747,7 @@ const itemsData = {
       "effects": [
         {
           "code": 21,
+          "codeName": "Add State",
           "dataId": 162,
           "value1": 1,
           "value2": 0,
@@ -205628,6 +205788,7 @@ const itemsData = {
       "effects": [
         {
           "code": 21,
+          "codeName": "Add State",
           "dataId": 222,
           "value1": 1,
           "value2": 0,
@@ -205661,6 +205822,7 @@ const itemsData = {
       "effects": [
         {
           "code": 21,
+          "codeName": "Add State",
           "dataId": 223,
           "value1": 1,
           "value2": 0,
@@ -205670,6 +205832,7 @@ const itemsData = {
         },
         {
           "code": 21,
+          "codeName": "Add State",
           "dataId": 28,
           "value1": 1,
           "value2": 0,
@@ -206761,6 +206924,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 23,
           "value1": 0,
           "value2": 0,
@@ -206792,6 +206956,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 24,
           "value1": 0,
           "value2": 0,
@@ -206823,6 +206988,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 25,
           "value1": 0,
           "value2": 0,
@@ -206854,6 +207020,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 26,
           "value1": 0,
           "value2": 0,
@@ -206885,6 +207052,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 26,
           "value1": 0,
           "value2": 0,
@@ -206916,6 +207084,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 26,
           "value1": 0,
           "value2": 0,
@@ -206947,6 +207116,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 28,
           "value1": 0,
           "value2": 0,
@@ -206978,6 +207148,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 27,
           "value1": 0,
           "value2": 0,
@@ -207009,6 +207180,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 27,
           "value1": 0,
           "value2": 0,
@@ -207040,6 +207212,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 28,
           "value1": 0,
           "value2": 0,
@@ -207071,6 +207244,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 25,
           "value1": 0,
           "value2": 0,
@@ -207102,6 +207276,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 29,
           "value1": 0,
           "value2": 0,
@@ -207133,6 +207308,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 24,
           "value1": 0,
           "value2": 0,
@@ -207164,6 +207340,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 24,
           "value1": 0,
           "value2": 0,
@@ -207195,6 +207372,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 24,
           "value1": 0,
           "value2": 0,
@@ -207226,6 +207404,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 29,
           "value1": 0,
           "value2": 0,
@@ -207257,6 +207436,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 29,
           "value1": 0,
           "value2": 0,
@@ -207288,6 +207468,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 28,
           "value1": 0,
           "value2": 0,
@@ -207319,6 +207500,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 29,
           "value1": 0,
           "value2": 0,
@@ -207350,6 +207532,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 29,
           "value1": 0,
           "value2": 0,
@@ -207381,6 +207564,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 29,
           "value1": 0,
           "value2": 0,
@@ -207412,6 +207596,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 217,
           "value1": 0,
           "value2": 0,
@@ -207443,6 +207628,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 216,
           "value1": 0,
           "value2": 0,
@@ -207474,6 +207660,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 216,
           "value1": 0,
           "value2": 0,
@@ -207505,6 +207692,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 216,
           "value1": 0,
           "value2": 0,
@@ -207536,6 +207724,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 216,
           "value1": 0,
           "value2": 0,
@@ -207567,6 +207756,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 216,
           "value1": 0,
           "value2": 0,
@@ -207598,6 +207788,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 216,
           "value1": 0,
           "value2": 0,
@@ -207629,6 +207820,7 @@ const itemsData = {
       "effects": [
         {
           "code": 44,
+          "codeName": "Common Event",
           "dataId": 216,
           "value1": 0,
           "value2": 0,
@@ -207683,6 +207875,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 14,
           "value1": 0,
           "value2": 0,
@@ -207715,6 +207908,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 24,
           "value1": 0,
           "value2": 0,
@@ -207747,6 +207941,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 15,
           "value1": 0,
           "value2": 0,
@@ -207779,6 +207974,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 25,
           "value1": 0,
           "value2": 0,
@@ -207811,6 +208007,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 96,
           "value1": 0,
           "value2": 0,
@@ -207843,6 +208040,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 212,
           "value1": 0,
           "value2": 0,
@@ -207875,6 +208073,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 145,
           "value1": 0,
           "value2": 0,
@@ -207907,6 +208106,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 35,
           "value1": 0,
           "value2": 0,
@@ -207939,6 +208139,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 36,
           "value1": 0,
           "value2": 0,
@@ -207971,6 +208172,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 39,
           "value1": 0,
           "value2": 0,
@@ -208003,6 +208205,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 31,
           "value1": 0,
           "value2": 0,
@@ -208035,6 +208238,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 127,
           "value1": 0,
           "value2": 0,
@@ -208067,6 +208271,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 173,
           "value1": 0,
           "value2": 0,
@@ -208099,6 +208304,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 51,
           "value1": 0,
           "value2": 0,
@@ -208131,6 +208337,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 33,
           "value1": 0,
           "value2": 0,
@@ -208163,6 +208370,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 50,
           "value1": 0,
           "value2": 0,
@@ -208195,6 +208403,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 113,
           "value1": 0,
           "value2": 0,
@@ -208227,6 +208436,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 140,
           "value1": 0,
           "value2": 0,
@@ -208259,6 +208469,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 138,
           "value1": 0,
           "value2": 0,
@@ -208291,6 +208502,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 75,
           "value1": 0,
           "value2": 0,
@@ -208323,6 +208535,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 132,
           "value1": 0,
           "value2": 0,
@@ -208355,6 +208568,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 136,
           "value1": 0,
           "value2": 0,
@@ -208387,6 +208601,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 141,
           "value1": 0,
           "value2": 0,
@@ -208419,6 +208634,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 142,
           "value1": 0,
           "value2": 0,
@@ -208451,6 +208667,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 143,
           "value1": 0,
           "value2": 0,
@@ -208483,6 +208700,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 144,
           "value1": 0,
           "value2": 0,
@@ -208515,6 +208733,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 195,
           "value1": 0,
           "value2": 0,
@@ -208547,6 +208766,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 79,
           "value1": 0,
           "value2": 0,
@@ -208579,6 +208799,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 139,
           "value1": 0,
           "value2": 0,
@@ -208611,6 +208832,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 22,
           "value1": 0,
           "value2": 0,
@@ -208643,6 +208865,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 28,
           "value1": 0,
           "value2": 0,
@@ -208675,6 +208898,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 29,
           "value1": 0,
           "value2": 0,
@@ -208707,6 +208931,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 30,
           "value1": 0,
           "value2": 0,
@@ -208739,6 +208964,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 128,
           "value1": 0,
           "value2": 0,
@@ -208771,6 +208997,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 129,
           "value1": 0,
           "value2": 0,
@@ -208803,6 +209030,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 150,
           "value1": 0,
           "value2": 0,
@@ -208835,6 +209063,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 240,
           "value1": 0,
           "value2": 0,
@@ -208867,6 +209096,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 88,
           "value1": 0,
           "value2": 0,
@@ -208899,6 +209129,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 120,
           "value1": 0,
           "value2": 0,
@@ -208931,6 +209162,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 271,
           "value1": 0,
           "value2": 0,
@@ -208963,6 +209195,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 244,
           "value1": 0,
           "value2": 0,
@@ -208995,6 +209228,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 584,
           "value1": 0,
           "value2": 0,
@@ -209027,6 +209261,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 603,
           "value1": 0,
           "value2": 0,
@@ -209059,6 +209294,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 153,
           "value1": 0,
           "value2": 0,
@@ -209091,6 +209327,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 621,
           "value1": 0,
           "value2": 0,
@@ -209123,6 +209360,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 625,
           "value1": 0,
           "value2": 0,
@@ -209155,6 +209393,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 814,
           "value1": 0,
           "value2": 0,
@@ -209187,6 +209426,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 836,
           "value1": 0,
           "value2": 0,
@@ -209219,6 +209459,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 838,
           "value1": 0,
           "value2": 0,
@@ -209251,6 +209492,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 839,
           "value1": 0,
           "value2": 0,
@@ -209283,6 +209525,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 840,
           "value1": 0,
           "value2": 0,
@@ -209315,6 +209558,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 841,
           "value1": 0,
           "value2": 0,
@@ -209347,6 +209591,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 842,
           "value1": 0,
           "value2": 0,
@@ -209379,6 +209624,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 844,
           "value1": 0,
           "value2": 0,
@@ -209411,6 +209657,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 845,
           "value1": 0,
           "value2": 0,
@@ -209443,6 +209690,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 846,
           "value1": 0,
           "value2": 0,
@@ -209475,6 +209723,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 847,
           "value1": 0,
           "value2": 0,
@@ -209507,6 +209756,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 848,
           "value1": 0,
           "value2": 0,
@@ -209539,6 +209789,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 849,
           "value1": 0,
           "value2": 0,
@@ -209571,6 +209822,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 850,
           "value1": 0,
           "value2": 0,
@@ -209603,6 +209855,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 918,
           "value1": 0,
           "value2": 0,
@@ -209635,6 +209888,7 @@ const itemsData = {
       "effects": [
         {
           "code": 43,
+          "codeName": "Learn Skill",
           "dataId": 80,
           "value1": 0,
           "value2": 0,

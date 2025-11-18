@@ -244,6 +244,10 @@ const effectCodeSources = {
     44: { source: "rpg-maker-docs", evidence: "From RPG Maker VX Ace official documentation (3420_db_effect.html - Other Tab: 'Common Event')" }
 };
 
+const specialEffectDescriptions = {
+    0: "Escape"
+};
+
 // ============================================================================
 // SOURCE REGISTRY - All mappings must have documented sources
 // ============================================================================
@@ -293,6 +297,28 @@ const parameterNameSources = {
     6: { source: "system.json", evidence: "terms.params[6] in System.json" },
     7: { source: "system.json", evidence: "terms.params[7] in System.json" }
 };
+
+// Additional parameter names referenced by buffs/debuffs outside the standard 0-7 range
+// SOURCE: editor-screenshot (200552.png) – Parameter tab shows EXP/Drain related entries
+const buffParameterFallbacks = {
+    16: "EXP Gain",
+    27: "EXP Gain Rate",
+    35: "HP Drain Rate",
+    39: "MP Drain Rate"
+};
+
+function getBuffParameterName(parameterId) {
+    if (parameterId === undefined || parameterId === null) {
+        return `Parameter ${parameterId ?? '?'}`;
+    }
+    return parameterNames[parameterId] || buffParameterFallbacks[parameterId] || `Parameter ${parameterId}`;
+}
+
+function getTurnInfo(value) {
+    const turns = Math.round(value ?? 0);
+    const turnLabel = turns === 1 ? 'turn' : 'turns';
+    return { turns, label: `${turns} ${turnLabel}` };
+}
 
 // Restriction types (for states)
 // NOTE: Only restriction types with documented sources should be included here.
@@ -1768,37 +1794,26 @@ const processedSkills = skillsData
                         const stateRef = `[[STATE:${effect.dataId}:${stateName}]]`;
                         effectInfo.description = `Remove ${stateRef}`;
                     } else if (effect.code === 31 || effect.code === 32) { // Buff/Debuff
-                        // Extended parameter names for values beyond standard 8
-                        // NOTE: TP (Technical Points) has been removed from this game database
-                        // DO NOT add TP Gain Rate (31) or TP Charge Rate (32) back
-                        const extendedParamNames = {
-                            16: "EXP Gain",
-                            27: "EXP Gain Rate",
-                            35: "HP Drain Rate",
-                            39: "MP Drain Rate"
-                        };
-                        const paramName = parameterNames[effect.dataId] || extendedParamNames[effect.dataId] || `Unknown Parameter`;
-                        const turns = Math.round(effect.value1);
+                        const paramName = getBuffParameterName(effect.dataId);
+                        const { turns, label } = getTurnInfo(effect.value1);
                         effectInfo.parameter = paramName;
                         effectInfo.turns = turns;
                         effectInfo.description = effect.code === 31 
-                            ? `Increase ${paramName} for ${turns} ${turns === 1 ? 'turn' : 'turns'}`
-                            : `Decrease ${paramName} for ${turns} ${turns === 1 ? 'turn' : 'turns'}`;
+                            ? `Increase ${paramName} for ${label}`
+                            : `Decrease ${paramName} for ${label}`;
                     } else if (effect.code === 33 || effect.code === 34) { // Remove Buff/Debuff
-                        // Extended parameter names for values beyond standard 8
-                        // NOTE: TP (Technical Points) has been removed from this game database
-                        // DO NOT add TP Gain Rate (31) or TP Charge Rate (32) back
-                        const extendedParamNames = {
-                            16: "EXP Gain",
-                            27: "EXP Gain Rate",
-                            35: "HP Drain Rate",
-                            39: "MP Drain Rate"
-                        };
-                        const paramName = parameterNames[effect.dataId] || extendedParamNames[effect.dataId] || `Unknown Parameter`;
+                        const paramName = getBuffParameterName(effect.dataId);
                         effectInfo.parameter = paramName;
                         effectInfo.description = effect.code === 33 
                             ? `Remove ${paramName} increase`
                             : `Remove ${paramName} decrease`;
+                    } else if (effect.code === 42) { // Raise Parameter (permanent growth)
+                        const paramName = getBuffParameterName(effect.dataId);
+                        const amount = Math.round(effect.value1 ?? 0);
+                        effectInfo.parameter = paramName;
+                        effectInfo.amount = amount;
+                        const action = amount >= 0 ? 'Increase' : 'Decrease';
+                        effectInfo.description = `${action} ${paramName} permanently by ${Math.abs(amount)}`;
                     } else if (effect.code === 11) { // Recover HP (can be negative for drain)
                         const percent = Math.round(effect.value1 * 100);
                         const flat = Math.round(effect.value2);
@@ -1838,8 +1853,7 @@ const processedSkills = skillsData
                             effectInfo.description = `${action} ${absFlat} MP`;
                         }
                     } else if (effect.code === 41) { // Special Effect
-                        const specialTypes = ["Escape"];
-                        effectInfo.description = specialTypes[effect.dataId] || "Special Effect";
+                        effectInfo.description = specialEffectDescriptions[effect.dataId] || "Special Effect";
                     } else if (effect.code === 44) { // Common Event
                         effectInfo.description = `Trigger Common Event`;
                     }
@@ -2620,6 +2634,7 @@ const processedItems = itemsData
         const effects = (item.effects || []).map(effect => {
             const effectInfo = {
                 code: effect.code,
+                codeName: effectCodes[effect.code] || `Unknown Effect`,
                 dataId: effect.dataId,
                 value1: effect.value1,
                 value2: effect.value2,
@@ -2638,14 +2653,6 @@ const processedItems = itemsData
                 effectInfo.description = chance < 100 
                     ? `${chance}% chance to inflict ${stateRef}`
                     : `Inflict ${stateRef}`;
-            } else if (effect.code === 11) {
-                // HP Recover
-                const percent = Math.round(effect.value1 * 100);
-                effectInfo.description = `Recovers ${percent}% HP`;
-            } else if (effect.code === 12) {
-                // MP Recover
-                const percent = Math.round(effect.value1 * 100);
-                effectInfo.description = `Recovers ${percent}% MP`;
             } else if (effect.code === 22) {
                 // Remove State
                 const state = statesData.find(s => s && s.id === effect.dataId);
@@ -2654,6 +2661,37 @@ const processedItems = itemsData
                 // Insert cross-reference marker directly
                 const stateRef = `[[STATE:${effect.dataId}:${stateName}]]`;
                 effectInfo.description = `Remove ${stateRef}`;
+            } else if (effect.code === 31 || effect.code === 32) {
+                const paramName = getBuffParameterName(effect.dataId);
+                const { turns, label } = getTurnInfo(effect.value1);
+                effectInfo.parameter = paramName;
+                effectInfo.turns = turns;
+                effectInfo.description = effect.code === 31
+                    ? `Increase ${paramName} for ${label}`
+                    : `Decrease ${paramName} for ${label}`;
+            } else if (effect.code === 33 || effect.code === 34) {
+                const paramName = getBuffParameterName(effect.dataId);
+                effectInfo.parameter = paramName;
+                effectInfo.description = effect.code === 33
+                    ? `Remove ${paramName} increase`
+                    : `Remove ${paramName} decrease`;
+            } else if (effect.code === 42) {
+                const paramName = getBuffParameterName(effect.dataId);
+                const amount = Math.round(effect.value1 ?? 0);
+                const action = amount >= 0 ? 'Increase' : 'Decrease';
+                effectInfo.parameter = paramName;
+                effectInfo.amount = amount;
+                effectInfo.description = `${action} ${paramName} permanently by ${Math.abs(amount)}`;
+            } else if (effect.code === 11) {
+                // HP Recover
+                const percent = Math.round(effect.value1 * 100);
+                effectInfo.description = `Recovers ${percent}% HP`;
+            } else if (effect.code === 12) {
+                // MP Recover
+                const percent = Math.round(effect.value1 * 100);
+                effectInfo.description = `Recovers ${percent}% MP`;
+            } else if (effect.code === 41) {
+                effectInfo.description = specialEffectDescriptions[effect.dataId] || "Special Effect";
             } else if (effect.code === 43) {
                 // Learn Skill
                 const skill = skillsData.find(s => s && s.id === effect.dataId);

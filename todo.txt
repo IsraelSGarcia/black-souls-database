@@ -1,3 +1,15 @@
 # DO NOT DO ANYTHING WITHOUT PERMISSION
 
 - Update element Physical icon
+
+- Fix scrolling after clicking on reference
+
+- Bug: searching for "93" in skills doesn't prioritize skill #93 in results (as it should)
+
+- Implement status
+
+- Items effects are not being displayed correctly
+
+- Items' effects don't show original
+
+- Differentiate multiplication and summation

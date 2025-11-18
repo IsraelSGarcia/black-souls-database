@@ -2677,92 +2677,38 @@ function renderSkillDetail(skill) {
         });
     }
     
-    // Add toggle handlers for show original data
-    const showOriginalToggles = detailContent.querySelectorAll('.show-original-toggle');
-    showOriginalToggles.forEach(toggle => {
+    // Add toggle handlers for readable/original damage formula
+    const formulaToggles = detailContent.querySelectorAll('.show-original-toggle[data-toggle="formula"]');
+    formulaToggles.forEach(toggle => {
         toggle.addEventListener('click', () => {
-            const toggleType = toggle.dataset.toggle;
+            const formulaDisplay = detailContent.querySelector('#formula-display');
+            const isShowingOriginal = toggle.dataset.showing === 'original';
             
-            if (toggleType === 'formula') {
-                const formulaDisplay = detailContent.querySelector('#formula-display');
-                const isShowingOriginal = toggle.dataset.showing === 'original';
-                
-                if (isShowingOriginal) {
-                    formulaDisplay.textContent = skill.damage.readableFormula;
-                    toggle.innerHTML = `
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke="currentColor" stroke-width="2"/>
-                            <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" stroke="currentColor" stroke-width="2"/>
-                        </svg>
-                        Show Original Formula
-                    `;
-                    toggle.dataset.showing = 'readable';
-                } else {
-                    formulaDisplay.textContent = skill.damage.formula;
-                    toggle.innerHTML = `
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke="currentColor" stroke-width="2"/>
-                            <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" stroke="currentColor" stroke-width="2"/>
-                        </svg>
-                        Show Readable Formula
-                    `;
-                    toggle.dataset.showing = 'original';
-                }
-            } else if (toggleType === 'effect') {
-                const effectIndex = parseInt(toggle.dataset.effectIndex);
-                // Use sorted effects array if available, otherwise use original
-                const effectsArray = skill._sortedEffects || skill.effects;
-                const effect = effectsArray[effectIndex];
-                const effectItem = toggle.closest('.effect-item');
-                
-                let originalDataBox = effectItem.querySelector('.original-data-box');
-                
-                if (originalDataBox) {
-                    // Remove the original data box
-                    originalDataBox.remove();
-                    toggle.innerHTML = `
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke="currentColor" stroke-width="2"/>
-                            <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" stroke="currentColor" stroke-width="2"/>
-                        </svg>
-                        Show Original Data
-                    `;
-                } else {
-                    // CRITICAL: Show ONLY original raw values from JSON file
-                    // DO NOT show processed/transformed values (chance, stateName, percent, flat, turns, parameter)
-                    // These processed values are for display purposes only, not original data
-                    // Original data = exactly what's in the JSON: code, dataId, value1, value2
-                    let originalData = `Code: ${effect.code}`;
-                    
-                    // Add ONLY raw values from original JSON file
-                    if (effect.dataId !== undefined) originalData += `\nData ID: ${effect.dataId}`;
-                    if (effect.value1 !== undefined) originalData += `\nValue 1: ${effect.value1}`;
-                    if (effect.value2 !== undefined) originalData += `\nValue 2: ${effect.value2}`;
-                    
-                    // DO NOT add processed values here:
-                    // - effect.chance (processed from value1)
-                    // - effect.stateName (resolved from dataId)
-                    // - effect.percent (processed from value1)
-                    // - effect.flat (processed from value2)
-                    // - effect.turns (processed from value1)
-                    // - effect.parameter (resolved from dataId)
-                    // These are NOT original data!
-                    
-                    originalDataBox = document.createElement('div');
-                    originalDataBox.className = 'original-data-box';
-                    originalDataBox.textContent = originalData;
-                    
-                    toggle.insertAdjacentElement('beforebegin', originalDataBox);
-                    toggle.innerHTML = `
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                        </svg>
-                        Hide Original Data
-                    `;
-                }
+            if (isShowingOriginal) {
+                formulaDisplay.textContent = skill.damage.readableFormula;
+                toggle.innerHTML = `
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke="currentColor" stroke-width="2"/>
+                        <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                    Show Original Formula
+                `;
+                toggle.dataset.showing = 'readable';
+            } else {
+                formulaDisplay.textContent = skill.damage.formula;
+                toggle.innerHTML = `
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke="currentColor" stroke-width="2"/>
+                        <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                    Show Readable Formula
+                `;
+                toggle.dataset.showing = 'original';
             }
         });
     });
+    
+    attachEffectOriginalDataHandlers(skill._sortedEffects || skill.effects);
 }
 
 // Render basic stats section
@@ -2919,6 +2865,54 @@ function sortTraits(traits) {
         const valueA = a.value ?? 0;
         const valueB = b.value ?? 0;
         return valueB - valueA;
+    });
+}
+
+function attachEffectOriginalDataHandlers(effects) {
+    const effectList = effects || [];
+    const toggles = detailContent.querySelectorAll('.show-original-toggle[data-toggle="effect"]');
+    
+    toggles.forEach(toggle => {
+        toggle.addEventListener('click', () => {
+            const effectIndex = parseInt(toggle.dataset.effectIndex);
+            if (Number.isNaN(effectIndex)) return;
+            const effect = effectList[effectIndex];
+            if (!effect) return;
+            
+            const effectItem = toggle.closest('.effect-item');
+            if (!effectItem) return;
+            
+            let originalDataBox = effectItem.querySelector('.original-data-box');
+            
+            if (originalDataBox) {
+                originalDataBox.remove();
+                toggle.innerHTML = `
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke="currentColor" stroke-width="2"/>
+                        <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                    Show Original Data
+                `;
+                return;
+            }
+            
+            let originalData = `Code: ${effect.code}`;
+            if (effect.dataId !== undefined) originalData += `\nData ID: ${effect.dataId}`;
+            if (effect.value1 !== undefined) originalData += `\nValue 1: ${effect.value1}`;
+            if (effect.value2 !== undefined) originalData += `\nValue 2: ${effect.value2}`;
+            
+            originalDataBox = document.createElement('div');
+            originalDataBox.className = 'original-data-box';
+            originalDataBox.textContent = originalData;
+            
+            toggle.insertAdjacentElement('beforebegin', originalDataBox);
+            toggle.innerHTML = `
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                Hide Original Data
+            `;
+        });
     });
 }
 
@@ -4034,6 +4028,8 @@ function renderStateDetail(state) {
             }
         });
     }
+    
+    attachEffectOriginalDataHandlers(item._sortedEffects || item.effects);
 }
 
 // Render state messages
@@ -4774,6 +4770,8 @@ function renderWeaponDetail(weapon) {
             }
         });
     }
+    
+    attachEffectOriginalDataHandlers(item._sortedEffects || item.effects);
 }
 
 // Render weapon basic stats
@@ -5245,6 +5243,8 @@ function renderArmorDetail(armor) {
             }
         });
     }
+    
+    attachEffectOriginalDataHandlers(item._sortedEffects || item.effects);
 }
 
 function renderArmorBasicStats(armor) {
@@ -5470,6 +5470,8 @@ function renderEnemyDetail(enemy) {
             }
         });
     }
+    
+    attachEffectOriginalDataHandlers(item._sortedEffects || item.effects);
 }
 
 function renderEnemyBaseStats(enemy) {
@@ -5693,6 +5695,8 @@ function renderItemDetail(item) {
             }
         });
     }
+    
+    attachEffectOriginalDataHandlers(item._sortedEffects || item.effects);
 }
 
 // Render element detail view
@@ -5926,11 +5930,25 @@ function renderItemEffects(item) {
     return `
         <div class="detail-section">
             <div class="section-title">Effects</div>
-            ${item._sortedEffects.map(effect => `
-                <div class="effect-item">
-                    <div class="effect-description">${convertCrossReferencesAndEscape(effect.description || 'No description')}</div>
-                </div>
-            `).join('')}
+            ${item._sortedEffects.map((effect, index) => {
+                const hasOriginalData = effect.code !== undefined;
+                const effectDesc = effect.description ? convertCrossReferencesAndEscape(effect.description) : '';
+                const effectType = effect.codeName ? escapeHtml(effect.codeName) : 'Effect';
+                return `
+                    <div class="effect-item">
+                        ${effect.description ? `<div class="effect-description">${effectDesc}</div>` : `<div class="effect-type">${effectType}</div>`}
+                        ${hasOriginalData ? `
+                            <button class="show-original-toggle" data-toggle="effect" data-effect-index="${index}">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                                Show Original Data
+                            </button>
+                        ` : ''}
+                    </div>
+                `;
+            }).join('')}
         </div>
     `;
 }
