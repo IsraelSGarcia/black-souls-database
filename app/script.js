@@ -2365,7 +2365,23 @@ function calculateRelevance(obj, query, type) {
     
     let score = 0;
     
-    // Exact match in name (highest priority)
+    // ID matching (highest priority - when searching for a number, prioritize matching ID)
+    // Check if query is a number and matches the object's ID
+    const queryAsNumber = parseInt(lowerQuery, 10);
+    if (!isNaN(queryAsNumber) && obj.id !== undefined) {
+        const objId = parseInt(obj.id, 10);
+        if (!isNaN(objId)) {
+            if (objId === queryAsNumber) {
+                // Exact ID match - highest priority
+                score += 20000;
+            } else if (objId.toString().includes(lowerQuery)) {
+                // ID contains the query (e.g., searching "93" matches ID 193, 293, etc.)
+                score += 15000;
+            }
+        }
+    }
+    
+    // Exact match in name (high priority, but lower than ID match)
     if (objName === lowerQuery) {
         score += 10000;
     } else if (objName.startsWith(lowerQuery)) {
