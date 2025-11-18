@@ -111,7 +111,7 @@ function hasStateChanged(newState) {
 
 // Push state to browser history
 function pushHistoryState(state, replace = false, force = false) {
-    if (isRestoringState) {
+    if (isRestoringState && !force) {
         console.log('[pushHistoryState] Blocked - isRestoringState=true', { replace, force, state });
         return;
     }
@@ -608,53 +608,52 @@ function navigateToCrossReference(type, id) {
     // Navigate to the appropriate section and select the item
     if (targetSection && currentSection !== targetSection) {
         // Navigating to a different section - showSection will clear search (expected)
-        // Temporarily set isRestoringState to prevent showSection from pushing state
-        // We already pushed the previous state above, and selectState will push the new state
+        // Build and push the target state immediately for instant URL update
+        // Temporarily disable isRestoringState to allow the push, then restore it
         const wasRestoring = isRestoringState;
+        const targetState = {
+            view: targetSection,
+            selectedId: parseInt(id),
+            game: currentGame || 'bs2'
+        };
+        if (!wasRestoring) {
+            // Use force=true to bypass isRestoringState check and push immediately
+            pushHistoryState(targetState, false, true);
+        }
+        
+        // Now set isRestoringState to prevent showSection from pushing state
         isRestoringState = true; // Prevent showSection from pushing state
         showSection(targetSection);
-        // Wait for section to load, then select and scroll
+        // Use requestAnimationFrame to ensure DOM is ready, then select
         // Keep isRestoringState true during selection to prevent duplicate pushes
-        // We'll manually push the new state after selection
-        setTimeout(() => {
+        requestAnimationFrame(() => {
             // Temporarily keep isRestoringState true to prevent selectX from pushing
             isRestoringState = true;
-            let newState = null;
             if (targetSection === 'skills') {
                 selectSkill(parseInt(id));
-                newState = buildNavigationState();
                 scrollToSelectedItem(targetSection, parseInt(id));
             } else if (targetSection === 'states') {
                 selectState(parseInt(id));
-                newState = buildNavigationState();
                 scrollToSelectedItem(targetSection, parseInt(id));
             } else if (targetSection === 'weapons') {
                 selectWeapon(parseInt(id));
-                newState = buildNavigationState();
                 scrollToSelectedItem(targetSection, parseInt(id));
             } else if (targetSection === 'armors') {
                 selectArmor(parseInt(id));
-                newState = buildNavigationState();
                 scrollToSelectedItem(targetSection, parseInt(id));
             } else if (targetSection === 'items') {
                 selectItem(parseInt(id));
-                newState = buildNavigationState();
                 scrollToSelectedItem(targetSection, parseInt(id));
             } else if (targetSection === 'enemies') {
                 selectEnemy(parseInt(id));
-                newState = buildNavigationState();
                 scrollToSelectedItem(targetSection, parseInt(id));
             } else if (targetSection === 'elements') {
                 selectElement(parseInt(id));
-                newState = buildNavigationState();
                 scrollToSelectedItem(targetSection, parseInt(id));
             }
-            // Now restore isRestoringState and push the new state
+            // Restore isRestoringState
             isRestoringState = wasRestoring;
-            if (newState && !wasRestoring) {
-                pushHistoryState(newState);
-            }
-        }, 200);
+        });
     } else {
         // Navigating within the same section
         // Note: Current state was already saved above before any changes
@@ -4087,8 +4086,6 @@ function renderStateDetail(state) {
             }
         });
     }
-    
-    attachEffectOriginalDataHandlers(item._sortedEffects || item.effects);
 }
 
 // Render state messages
