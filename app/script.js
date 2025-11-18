@@ -37,7 +37,39 @@ let currentSection = null;
 // Flag to prevent recursive history updates
 let isRestoringState = false;
 
+// ============================================================================
+// SCROLL POSITION MANAGEMENT STRATEGY
+// ============================================================================
+// Scroll positions are managed through browser history to provide a smooth
+// navigation experience. The strategy is:
+//
+// 1. SAVE SCROLL POSITION: When navigating away from a page (via cross-reference
+//    or any navigation), the current scroll position is saved to history BEFORE
+//    any changes are made. This allows the back button to restore the exact
+//    scroll position the user was at.
+//
+// 2. RESET SCROLL FOR NEW PAGES: When navigating to a new page (different item
+//    or different section), scroll positions are reset to 0. This ensures users
+//    always start at the top of a new page, providing a clean navigation
+//    experience.
+//
+// 3. RESTORE SCROLL FROM HISTORY: When using the back/forward buttons, the
+//    saved scroll positions are restored from history, allowing users to return
+//    to exactly where they were.
+//
+// CRITICAL RULES:
+// - Always call buildNavigationState() BEFORE making any navigation changes
+//   (before showSection, selectX, or any scroll resets)
+// - Always reset scroll to 0 when navigating to a new page/item
+// - Always set scroll positions to 0 in the new state object when pushing
+//   to history for a new page
+// - Never reset scroll positions before saving the current state to history
+// ============================================================================
+
 // Build a navigation state object
+// This function captures the CURRENT state of the page, including scroll positions.
+// IMPORTANT: Call this BEFORE making any navigation changes (showSection, selectX, etc.)
+// to ensure the current scroll position is captured correctly.
 function buildNavigationState() {
     // Safely check if elements exist
     const sectionsViewEl = document.getElementById('sections-view');
@@ -53,6 +85,8 @@ function buildNavigationState() {
         currentView = (sectionsViewEl && sectionsViewEl.classList.contains('hidden')) ? 'games' : 'sections';
     }
     
+    // Capture current scroll positions - these represent where the user is NOW
+    // This will be saved to history so back button can restore this position
     return {
         view: currentView,
         game: currentGame,
@@ -169,6 +203,15 @@ function getPageTitle(state) {
 }
 
 // Restore state from history
+// This function restores a previously saved state, including scroll positions.
+// This is called when:
+// - User clicks back/forward buttons
+// - Browser history navigation occurs
+// - URL is directly accessed (on page load)
+//
+// SCROLL RESTORATION: The saved scroll positions (resultsListScrollTop and
+// detailPanelScrollTop) are restored after the content is loaded. This allows
+// users to return to exactly where they were when they navigated away.
 function restoreStateFromHistory(state, forceRestore = false) {
     if (!state) return;
     
@@ -192,6 +235,7 @@ function restoreStateFromHistory(state, forceRestore = false) {
         const savedGame = state.game;
         const savedSelectedId = state.selectedId;
         const savedSearchQuery = state.searchQuery;
+        // Extract saved scroll positions - these will be restored after content loads
         const savedResultsListScrollTop = state.resultsListScrollTop || 0;
         const savedDetailPanelScrollTop = state.detailPanelScrollTop || 0;
         
@@ -578,6 +622,21 @@ function convertCrossReferencesAndEscapeExcludingSelf(text, sourceType, sourceId
 }
 
 // Navigate to a cross-referenced object
+// This function handles navigation when clicking on cross-reference links.
+//
+// SCROLL BEHAVIOR:
+// 1. SAVE CURRENT SCROLL: Before any navigation changes, save the current state
+//    (including scroll positions) to history. This allows the back button to
+//    restore the user's exact position.
+// 2. RESET SCROLL FOR NEW PAGE: When navigating to a new page (new item or
+//    new section), reset scroll positions to 0. The new state pushed to history
+//    should have scroll positions set to 0.
+// 3. SCROLL TO SELECTED ITEM: After resetting to top, scroll to the selected
+//    item so it's visible. This happens after the content is loaded.
+//
+// CRITICAL: Always save current state BEFORE making any changes (showSection,
+// selectX, scroll resets). This ensures the previous page's scroll position is
+// preserved in history.
 function navigateToCrossReference(type, id) {
     // Determine target section first (before any state changes)
     let targetSection = null;
@@ -589,8 +648,9 @@ function navigateToCrossReference(type, id) {
     else if (type === 'enemy') targetSection = 'enemies';
     else if (type === 'element') targetSection = 'elements';
     
-    // Always save current state to browser history before navigating via cross-reference
-    // This ensures the navigation path is preserved for back/forward navigation
+    // STEP 1: SAVE CURRENT STATE (including scroll positions) to history
+    // This MUST happen BEFORE any navigation changes (showSection, selectX, scroll resets)
+    // This preserves the current page's scroll position for back button navigation
     // IMPORTANT: Build state BEFORE any navigation changes (showSection, selectX, etc.)
     // This captures the current scroll positions before they're changed
     if (!isRestoringState && targetSection) {
@@ -607,14 +667,18 @@ function navigateToCrossReference(type, id) {
     
     // Navigate to the appropriate section and select the item
     if (targetSection && currentSection !== targetSection) {
-        // Navigating to a different section - showSection will clear search (expected)
-        // Build and push the target state immediately for instant URL update
-        // Set scroll positions to 0 for new page navigation
+        // NAVIGATING TO A DIFFERENT SECTION (new page)
+        // 
+        // STEP 2: Create new state with scroll positions set to 0
+        // The new page should start at the top, so we explicitly set scroll to 0
+        // in the state object that will be saved to history.
         const wasRestoring = isRestoringState;
         const targetState = {
             view: targetSection,
             selectedId: parseInt(id),
             game: currentGame || 'bs2',
+            // CRITICAL: Set scroll positions to 0 for new page
+            // This ensures the new page starts at top, and back button will restore to top
             resultsListScrollTop: 0,
             detailPanelScrollTop: 0
         };
@@ -629,7 +693,8 @@ function navigateToCrossReference(type, id) {
         // Use requestAnimationFrame to ensure DOM is ready, then select
         // Keep isRestoringState true during selection to prevent duplicate pushes
         requestAnimationFrame(() => {
-            // Reset scroll positions to top before selecting (new page should start at top)
+            // STEP 3: Reset actual scroll positions to 0 (new page starts at top)
+            // This physically resets the scroll, matching what we saved in the state
             if (resultsList) resultsList.scrollTop = 0;
             if (detailPanel) detailPanel.scrollTop = 0;
             if (detailContent) detailContent.scrollTop = 0;
@@ -662,8 +727,11 @@ function navigateToCrossReference(type, id) {
             isRestoringState = wasRestoring;
         });
     } else {
-        // Navigating within the same section
-        // Note: Current state was already saved above before any changes
+        // NAVIGATING WITHIN THE SAME SECTION (new page, same section)
+        // Example: Clicking on item 20 while viewing item 19
+        //
+        // Note: Current state (with scroll positions) was already saved above
+        // before any changes. This preserves the previous page's scroll for back button.
         const wasRestoring = isRestoringState;
         
         // Clear search input and reset filtered arrays
@@ -681,13 +749,16 @@ function navigateToCrossReference(type, id) {
             searchSkills('');
             renderResults();
             updateResultsCount();
-            // Reset scroll positions to top before selecting (new page should start at top)
+            // STEP 2: Reset scroll positions to 0 (new page starts at top)
+            // This physically resets the scroll before selecting the new item
             if (resultsList) resultsList.scrollTop = 0;
             if (detailPanel) detailPanel.scrollTop = 0;
             if (detailContent) detailContent.scrollTop = 0;
             selectSkill(parseInt(id));
             newState = buildNavigationState();
-            // Set scroll positions to 0 in the new state
+            // STEP 3: Explicitly set scroll positions to 0 in the new state object
+            // CRITICAL: Even though we reset scroll above, we must explicitly set
+            // it in the state object to ensure history has scroll=0 for this page
             newState.resultsListScrollTop = 0;
             newState.detailPanelScrollTop = 0;
             scrollToSelectedItem(targetSection, parseInt(id));
@@ -695,13 +766,13 @@ function navigateToCrossReference(type, id) {
             searchStates('');
             renderStatesResults();
             updateResultsCount();
-            // Reset scroll positions to top before selecting (new page should start at top)
+            // STEP 2: Reset scroll positions to 0 (new page starts at top)
             if (resultsList) resultsList.scrollTop = 0;
             if (detailPanel) detailPanel.scrollTop = 0;
             if (detailContent) detailContent.scrollTop = 0;
             selectState(parseInt(id));
             newState = buildNavigationState();
-            // Set scroll positions to 0 in the new state
+            // STEP 3: Explicitly set scroll positions to 0 in the new state object
             newState.resultsListScrollTop = 0;
             newState.detailPanelScrollTop = 0;
             scrollToSelectedItem(targetSection, parseInt(id));
@@ -709,13 +780,13 @@ function navigateToCrossReference(type, id) {
             searchWeapons('');
             renderWeaponsResults();
             updateResultsCount();
-            // Reset scroll positions to top before selecting (new page should start at top)
+            // STEP 2: Reset scroll positions to 0 (new page starts at top)
             if (resultsList) resultsList.scrollTop = 0;
             if (detailPanel) detailPanel.scrollTop = 0;
             if (detailContent) detailContent.scrollTop = 0;
             selectWeapon(parseInt(id));
             newState = buildNavigationState();
-            // Set scroll positions to 0 in the new state
+            // STEP 3: Explicitly set scroll positions to 0 in the new state object
             newState.resultsListScrollTop = 0;
             newState.detailPanelScrollTop = 0;
             scrollToSelectedItem(targetSection, parseInt(id));
@@ -723,13 +794,13 @@ function navigateToCrossReference(type, id) {
             searchArmors('');
             renderArmorsResults();
             updateResultsCount();
-            // Reset scroll positions to top before selecting (new page should start at top)
+            // STEP 2: Reset scroll positions to 0 (new page starts at top)
             if (resultsList) resultsList.scrollTop = 0;
             if (detailPanel) detailPanel.scrollTop = 0;
             if (detailContent) detailContent.scrollTop = 0;
             selectArmor(parseInt(id));
             newState = buildNavigationState();
-            // Set scroll positions to 0 in the new state
+            // STEP 3: Explicitly set scroll positions to 0 in the new state object
             newState.resultsListScrollTop = 0;
             newState.detailPanelScrollTop = 0;
             scrollToSelectedItem(targetSection, parseInt(id));
@@ -737,13 +808,13 @@ function navigateToCrossReference(type, id) {
             searchItems('');
             renderItemsResults();
             updateResultsCount();
-            // Reset scroll positions to top before selecting (new page should start at top)
+            // STEP 2: Reset scroll positions to 0 (new page starts at top)
             if (resultsList) resultsList.scrollTop = 0;
             if (detailPanel) detailPanel.scrollTop = 0;
             if (detailContent) detailContent.scrollTop = 0;
             selectItem(parseInt(id));
             newState = buildNavigationState();
-            // Set scroll positions to 0 in the new state
+            // STEP 3: Explicitly set scroll positions to 0 in the new state object
             newState.resultsListScrollTop = 0;
             newState.detailPanelScrollTop = 0;
             scrollToSelectedItem(targetSection, parseInt(id));
@@ -751,13 +822,13 @@ function navigateToCrossReference(type, id) {
             searchEnemies('');
             renderEnemiesResults();
             updateResultsCount();
-            // Reset scroll positions to top before selecting (new page should start at top)
+            // STEP 2: Reset scroll positions to 0 (new page starts at top)
             if (resultsList) resultsList.scrollTop = 0;
             if (detailPanel) detailPanel.scrollTop = 0;
             if (detailContent) detailContent.scrollTop = 0;
             selectEnemy(parseInt(id));
             newState = buildNavigationState();
-            // Set scroll positions to 0 in the new state
+            // STEP 3: Explicitly set scroll positions to 0 in the new state object
             newState.resultsListScrollTop = 0;
             newState.detailPanelScrollTop = 0;
             scrollToSelectedItem(targetSection, parseInt(id));
@@ -765,13 +836,13 @@ function navigateToCrossReference(type, id) {
             searchElements('');
             renderElementsResults();
             updateResultsCount();
-            // Reset scroll positions to top before selecting (new page should start at top)
+            // STEP 2: Reset scroll positions to 0 (new page starts at top)
             if (resultsList) resultsList.scrollTop = 0;
             if (detailPanel) detailPanel.scrollTop = 0;
             if (detailContent) detailContent.scrollTop = 0;
             selectElement(parseInt(id));
             newState = buildNavigationState();
-            // Set scroll positions to 0 in the new state
+            // STEP 3: Explicitly set scroll positions to 0 in the new state object
             newState.resultsListScrollTop = 0;
             newState.detailPanelScrollTop = 0;
             scrollToSelectedItem(targetSection, parseInt(id));
@@ -6284,11 +6355,24 @@ window.addEventListener('popstate', (e) => {
 });
 
 // Update history state when user scrolls (debounced to avoid too many updates)
+// This function handles scroll position updates during normal browsing (not navigation).
+//
+// SCROLL UPDATE BEHAVIOR:
+// - When user manually scrolls (not via navigation), we update the current history
+//   entry with the new scroll position using replaceState (not pushState).
+// - This ensures that if the user navigates away and comes back, they return to
+//   their last scroll position, not the position from when they first loaded the page.
+// - We use debouncing (300ms) to avoid updating history on every scroll event,
+//   only updating after the user stops scrolling.
+//
+// IMPORTANT: This is different from navigation scroll behavior:
+// - Navigation: Saves current scroll, resets to 0 for new page, restores on back
+// - Manual scroll: Updates current page's scroll in history without navigation
 let scrollUpdateTimer = null;
 const SCROLL_UPDATE_DEBOUNCE_MS = 300; // Update history after 300ms of no scrolling
 
 function updateHistoryOnScroll() {
-    // Don't update if we're restoring state
+    // Don't update if we're restoring state (would interfere with scroll restoration)
     if (isRestoringState) return;
     
     // Clear previous timer
@@ -6302,6 +6386,7 @@ function updateHistoryOnScroll() {
             const currentState = buildNavigationState();
             // Use replaceState to update the current history entry with new scroll positions
             // This doesn't create a new history entry, just updates the current one
+            // This allows back button to restore the user's last scroll position
             pushHistoryState(currentState, true); // replace = true
         }
     }, SCROLL_UPDATE_DEBOUNCE_MS);
