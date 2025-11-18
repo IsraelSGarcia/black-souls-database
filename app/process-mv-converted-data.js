@@ -55,6 +55,71 @@ const elementTranslations = {
     "レイピア特攻": "Rapier Bonus"
 };
 
+// Translate Japanese common event names to English
+const commonEventTranslations = {
+    "ソウル入手50": "Soul Acquisition 50",
+    "ソウル入手200": "Soul Acquisition 200",
+    "ソウル入手400": "Soul Acquisition 400",
+    "ソウル入手800": "Soul Acquisition 800",
+    "ソウル入手1000": "Soul Acquisition 1000",
+    "ソウル入手2000": "Soul Acquisition 2000",
+    "ソウル入手3000": "Soul Acquisition 3000",
+    "ソウル入手5000": "Soul Acquisition 5000",
+    "ソウル入手8000": "Soul Acquisition 8000",
+    "ソウル入手10000": "Soul Acquisition 10000",
+    "ソウル入手20000": "Soul Acquisition 20000",
+    "ソウル入手25000": "Soul Acquisition 25000",
+    "ソウル入手50000": "Soul Acquisition 50000",
+    "ソウル入手250000": "Soul Acquisition 250000",
+    "帰還の骨粉": "Return Bone Powder",
+    "ステルス": "Stealth",
+    "黒の灰": "Black Ash",
+    "Sendam減らす（少女の写真）": "Reduce Sendam (Girl's Photo)",
+    "兎の懐中時計": "Rabbit's Pocket Watch",
+    "私をお飲み": "Drink Me",
+    "私をお食べ": "Eat Me",
+    "再思トランプ": "Reshuffle Trump",
+    "サティロスちんぽ": "Satyr's Cock",
+    "外なる者のソウル": "Soul of the Outer One",
+    "黒のソウル": "Black Soul",
+    "穢れた黒のソウル": "Defiled Black Soul",
+    "緑のソウル": "Green Soul",
+    "紫のソウル": "Purple Soul",
+    "赤のソウル": "Red Soul",
+    "青のソウル": "Blue Soul",
+    "黄のソウル": "Yellow Soul",
+    "灰のソウル": "Gray Soul",
+    "白のソウル": "White Soul",
+    "四葉のソウル": "Four-Leaf Soul",
+    "処方薬": "Prescription Medicine",
+    "少女の写真": "Girl's Photo",
+    "夢のソウル": "Dream Soul",
+    "Sendam調整": "Sendam Adjustment",
+    "古王の骨粉": "Old King's Bone Powder",
+    "リスの毛": "Squirrel's Fur",
+    "仲間を呼ぶ": "Call Ally",
+    "自爆発火": "Self-Destruct Ignition",
+    "精神統一": "Mental Focus",
+    "武装解除": "Disarm",
+    "最期の太刀": "Final Blade",
+    "sen上げるペンギン": "SEN Increase Penguin",
+    "肉壁召喚": "Summon Meat Wall",
+    "鎧外れる": "Armor Removed",
+    "詠唱チャージ": "Chant Charge",
+    "詠唱": "Chant",
+    "助言求め": "Seek Advice",
+    "ドードー走り": "Dodo Run",
+    "ワーウルフ：頭投げる": "Werewolf: Head Throw",
+    "擬態": "Mimicry",
+    "擬態とく": "Advanced Mimicry",
+    "自爆ボン": "Self-Destruct Bon",
+    "自爆ビリ": "Self-Destruct Biri",
+    "自爆ブ": "Self-Destruct Bu",
+    "ソニビン捕食": "Sonibin Predation",
+    "自爆ラース": "Self-Destruct Rarse",
+    "自爆ハンプティ": "Self-Destruct Humpty"
+};
+
 // Map element IDs to icon indices
 // Icon indices based on actual icons used in the game data
 // Derived from analyzing skills, states, and items that use each element
@@ -1856,7 +1921,16 @@ const processedSkills = skillsData
                     } else if (effect.code === 41) { // Special Effect
                         effectInfo.description = specialEffectDescriptions[effect.dataId] || "Special Effect";
                     } else if (effect.code === 44) { // Common Event
-                        effectInfo.description = `Trigger Common Event`;
+                        const commonEvent = commonEventsData.find(ce => ce && ce.id === effect.dataId);
+                        let commonEventName = commonEvent && commonEvent.name ? commonEvent.name : `Common Event #${effect.dataId}`;
+                        // Translate common event name if translation exists
+                        if (commonEventTranslations[commonEventName]) {
+                            commonEventName = commonEventTranslations[commonEventName];
+                        }
+                        effectInfo.commonEventName = commonEventName;
+                        // Insert cross-reference marker directly
+                        const commonEventRef = `[[COMMONEVENT:${effect.dataId}:${commonEventName}]]`;
+                        effectInfo.description = `Triggers ${commonEventRef}`;
                     }
                     
                     // Resolve ID references in effect description
@@ -2724,7 +2798,11 @@ const processedItems = itemsData
             } else if (effect.code === 44) {
                 // Common Event
                 const commonEvent = commonEventsData.find(ce => ce && ce.id === effect.dataId);
-                const commonEventName = commonEvent && commonEvent.name ? commonEvent.name : `Common Event #${effect.dataId}`;
+                let commonEventName = commonEvent && commonEvent.name ? commonEvent.name : `Common Event #${effect.dataId}`;
+                // Translate common event name if translation exists
+                if (commonEventTranslations[commonEventName]) {
+                    commonEventName = commonEventTranslations[commonEventName];
+                }
                 effectInfo.commonEventName = commonEventName;
                 // Insert cross-reference marker directly
                 const commonEventRef = `[[COMMONEVENT:${effect.dataId}:${commonEventName}]]`;

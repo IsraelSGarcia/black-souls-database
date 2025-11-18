@@ -1905,10 +1905,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:218:Mental Focus]]",
           "dataId": 218,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Mental Focus"
         },
         {
           "code": 21,
@@ -3118,10 +3119,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -3177,10 +3179,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -3246,10 +3249,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -3305,10 +3309,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -3364,10 +3369,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         },
         {
           "code": 11,
@@ -3433,10 +3439,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:44:Werewolf: Head Throw]]",
           "dataId": 44,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Werewolf: Head Throw"
         }
       ],
       "note": {
@@ -3763,10 +3770,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -4043,10 +4051,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -4102,10 +4111,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -4271,10 +4281,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:13:Call Ally]]",
           "dataId": 13,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Call Ally"
         }
       ],
       "note": {
@@ -7634,10 +7645,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:31:Stealth]]",
           "dataId": 31,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Stealth"
         }
       ],
       "note": {
@@ -9518,10 +9530,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -9577,10 +9590,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -10080,10 +10094,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -10330,10 +10345,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -10399,10 +10415,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -10458,10 +10475,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -12592,10 +12610,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -12651,10 +12670,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -12710,10 +12730,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:61:Advanced Mimicry]]",
           "dataId": 61,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Advanced Mimicry"
         },
         {
           "code": 21,
@@ -12779,10 +12800,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:60:Mimicry]]",
           "dataId": 60,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Mimicry"
         },
         {
           "code": 21,
@@ -12858,10 +12880,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -13198,10 +13221,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -13318,10 +13342,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -13377,10 +13402,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -13436,10 +13462,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:65:Sonibin Predation]]",
           "dataId": 65,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Sonibin Predation"
         }
       ],
       "note": {
@@ -14532,10 +14559,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -14601,10 +14629,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -15053,10 +15082,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -15112,10 +15142,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -15181,10 +15212,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:13:Call Ally]]",
           "dataId": 13,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Call Ally"
         }
       ],
       "note": {
@@ -15240,10 +15272,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:62:Self-Destruct Bon]]",
           "dataId": 62,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Self-Destruct Bon"
         }
       ],
       "note": {
@@ -15299,10 +15332,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:63:Self-Destruct Biri]]",
           "dataId": 63,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Self-Destruct Biri"
         }
       ],
       "note": {
@@ -15358,10 +15392,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:64:Self-Destruct Bu]]",
           "dataId": 64,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Self-Destruct Bu"
         }
       ],
       "note": {
@@ -15792,10 +15827,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:66:Self-Destruct Rarse]]",
           "dataId": 66,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Self-Destruct Rarse"
         }
       ],
       "note": {
@@ -16144,10 +16180,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -16213,10 +16250,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -16282,10 +16320,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -16351,10 +16390,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -17151,10 +17191,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:60:Mimicry]]",
           "dataId": 60,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Mimicry"
         },
         {
           "code": 21,
@@ -17220,10 +17261,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:61:Advanced Mimicry]]",
           "dataId": 61,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Advanced Mimicry"
         }
       ],
       "note": {
@@ -17732,10 +17774,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -21003,10 +21046,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -21062,10 +21106,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         },
         {
           "code": 32,
@@ -21302,10 +21347,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -21371,10 +21417,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -21440,10 +21487,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -21509,10 +21557,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -21618,10 +21667,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:43:Dodo Run]]",
           "dataId": 43,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Dodo Run"
         }
       ],
       "note": {
@@ -21677,10 +21727,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:41:Seek Advice]]",
           "dataId": 41,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Seek Advice"
         }
       ],
       "note": {
@@ -23371,10 +23422,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -23440,10 +23492,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -24250,10 +24303,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -24309,10 +24363,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -24773,10 +24828,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -24964,10 +25020,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -25023,10 +25080,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         },
         {
           "code": 21,
@@ -25152,10 +25210,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -25211,10 +25270,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -25472,10 +25532,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -25541,10 +25602,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         },
         {
           "code": 32,
@@ -25620,10 +25682,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -25689,10 +25752,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -25748,10 +25812,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -26301,10 +26366,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -26370,10 +26436,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -26429,10 +26496,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -26498,10 +26566,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -26952,10 +27021,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:72:Self-Destruct Humpty]]",
           "dataId": 72,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Self-Destruct Humpty"
         }
       ],
       "note": {
@@ -27092,10 +27162,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         },
         {
           "code": 32,
@@ -27181,10 +27252,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         },
         {
           "code": 32,
@@ -27270,10 +27342,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         },
         {
           "code": 32,
@@ -27359,10 +27432,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -27428,10 +27502,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -27507,10 +27582,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -27566,10 +27642,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -27757,10 +27834,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -27826,10 +27904,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -28027,10 +28106,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -28096,10 +28176,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -28579,10 +28660,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -28638,10 +28720,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -28707,10 +28790,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -28766,10 +28850,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         },
         {
           "code": 21,
@@ -29189,10 +29274,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -29248,10 +29334,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         },
         {
           "code": 21,
@@ -29327,10 +29414,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -29396,10 +29484,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -29455,10 +29544,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         },
         {
           "code": 21,
@@ -29878,10 +29968,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -31317,10 +31408,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -31931,10 +32023,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -32050,10 +32143,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -32119,10 +32213,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -32188,10 +32283,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -32247,10 +32343,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -32508,10 +32605,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -32567,10 +32665,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:210:Self-Destruct Ignition]]",
           "dataId": 210,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Self-Destruct Ignition"
         }
       ],
       "note": {
@@ -32696,10 +32795,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -32765,10 +32865,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -33381,10 +33482,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -33450,10 +33552,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -33630,10 +33733,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -33821,10 +33925,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -33880,10 +33985,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -33949,10 +34055,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -34020,10 +34127,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -34089,10 +34197,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -34150,10 +34259,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -34704,10 +34814,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -35046,10 +35157,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -35115,10 +35227,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -35245,10 +35358,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -35304,10 +35418,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -35383,10 +35498,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -35462,10 +35578,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -35531,10 +35648,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -35600,10 +35718,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -35679,10 +35798,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         },
         {
           "code": 21,
@@ -35908,10 +36028,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -36289,10 +36410,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -36348,10 +36470,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         },
         {
           "code": 21,
@@ -37072,10 +37195,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:13:Call Ally]]",
           "dataId": 13,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Call Ally"
         }
       ],
       "note": {
@@ -37475,10 +37599,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -38130,10 +38255,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -38641,10 +38767,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -38700,10 +38827,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         },
         {
           "code": 21,
@@ -41881,10 +42009,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -42304,10 +42433,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:13:Call Ally]]",
           "dataId": 13,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Call Ally"
         }
       ],
       "note": {
@@ -43687,10 +43817,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:13:Call Ally]]",
           "dataId": 13,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Call Ally"
         }
       ],
       "note": {
@@ -43929,10 +44060,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:61:Advanced Mimicry]]",
           "dataId": 61,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Advanced Mimicry"
         },
         {
           "code": 21,
@@ -43998,10 +44130,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:60:Mimicry]]",
           "dataId": 60,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Mimicry"
         },
         {
           "code": 21,
@@ -44238,10 +44371,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -44307,10 +44441,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -44547,10 +44682,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         },
         {
           "code": 21,
@@ -44616,10 +44752,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         },
         {
           "code": 21,
@@ -44695,10 +44832,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -44959,10 +45097,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -45028,10 +45167,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -45187,10 +45327,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -45258,10 +45399,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -45337,10 +45479,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:38:Chant]]",
           "dataId": 38,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant"
         }
       ],
       "note": {
@@ -45556,10 +45699,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -45686,10 +45830,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -46068,10 +46213,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:13:Call Ally]]",
           "dataId": 13,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Call Ally"
         }
       ],
       "note": {
@@ -47283,10 +47429,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:292:Disarm]]",
           "dataId": 292,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Disarm"
         }
       ],
       "note": {
@@ -48142,10 +48289,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -49384,10 +49532,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -49936,10 +50085,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:293:Final Blade]]",
           "dataId": 293,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Final Blade"
         }
       ],
       "note": {
@@ -50005,10 +50155,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -51821,10 +51972,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -51960,10 +52112,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:13:Call Ally]]",
           "dataId": 13,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Call Ally"
         }
       ],
       "note": {
@@ -52888,10 +53041,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         },
         {
           "code": 31,
@@ -53820,10 +53974,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         },
         {
           "code": 31,
@@ -54475,10 +54630,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -54733,10 +54889,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:344:SEN Increase Penguin]]",
           "dataId": 344,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "SEN Increase Penguin"
         }
       ],
       "note": {
@@ -56065,10 +56222,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -56174,10 +56332,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:345:Summon Meat Wall]]",
           "dataId": 345,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Summon Meat Wall"
         },
         {
           "code": 21,
@@ -62148,10 +62307,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -62207,10 +62367,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:350:Armor Removed]]",
           "dataId": 350,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Armor Removed"
         },
         {
           "code": 21,
@@ -62295,10 +62456,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:61:Advanced Mimicry]]",
           "dataId": 61,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Advanced Mimicry"
         },
         {
           "code": 21,
@@ -64514,10 +64676,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         },
         {
           "code": 21,
@@ -65764,10 +65927,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         },
         {
           "code": 21,
@@ -65951,10 +66115,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:60:Mimicry]]",
           "dataId": 60,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Mimicry"
         },
         {
           "code": 21,
@@ -66152,10 +66317,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:61:Advanced Mimicry]]",
           "dataId": 61,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Advanced Mimicry"
         },
         {
           "code": 21,
@@ -66231,10 +66397,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         },
         {
           "code": 21,
@@ -68672,10 +68839,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         },
         {
           "code": 31,
@@ -69204,10 +69372,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         },
         {
           "code": 21,
@@ -70285,10 +70454,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:60:Mimicry]]",
           "dataId": 60,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Mimicry"
         },
         {
           "code": 21,
@@ -70364,10 +70534,11 @@ const skillsData = {
         {
           "code": 44,
           "codeName": "Common Event",
-          "description": "Trigger Common Event",
+          "description": "Triggers [[COMMONEVENT:37:Chant Charge]]",
           "dataId": 37,
           "value1": 0,
-          "value2": 0
+          "value2": 0,
+          "commonEventName": "Chant Charge"
         }
       ],
       "note": {
@@ -202544,8 +202715,8 @@ const itemsData = {
           "dataId": 223,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:223:緑のソウル]]",
-          "commonEventName": "緑のソウル"
+          "description": "Triggers [[COMMONEVENT:223:Green Soul]]",
+          "commonEventName": "Green Soul"
         }
       ],
       "damage": null,
@@ -202577,8 +202748,8 @@ const itemsData = {
           "dataId": 224,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:224:紫のソウル]]",
-          "commonEventName": "紫のソウル"
+          "description": "Triggers [[COMMONEVENT:224:Purple Soul]]",
+          "commonEventName": "Purple Soul"
         }
       ],
       "damage": null,
@@ -202610,8 +202781,8 @@ const itemsData = {
           "dataId": 225,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:225:赤のソウル]]",
-          "commonEventName": "赤のソウル"
+          "description": "Triggers [[COMMONEVENT:225:Red Soul]]",
+          "commonEventName": "Red Soul"
         }
       ],
       "damage": null,
@@ -202643,8 +202814,8 @@ const itemsData = {
           "dataId": 226,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:226:青のソウル]]",
-          "commonEventName": "青のソウル"
+          "description": "Triggers [[COMMONEVENT:226:Blue Soul]]",
+          "commonEventName": "Blue Soul"
         }
       ],
       "damage": null,
@@ -202676,8 +202847,8 @@ const itemsData = {
           "dataId": 227,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:227:黄のソウル]]",
-          "commonEventName": "黄のソウル"
+          "description": "Triggers [[COMMONEVENT:227:Yellow Soul]]",
+          "commonEventName": "Yellow Soul"
         }
       ],
       "damage": null,
@@ -202709,8 +202880,8 @@ const itemsData = {
           "dataId": 228,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:228:灰のソウル]]",
-          "commonEventName": "灰のソウル"
+          "description": "Triggers [[COMMONEVENT:228:Gray Soul]]",
+          "commonEventName": "Gray Soul"
         }
       ],
       "damage": null,
@@ -202742,8 +202913,8 @@ const itemsData = {
           "dataId": 229,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:229:白のソウル]]",
-          "commonEventName": "白のソウル"
+          "description": "Triggers [[COMMONEVENT:229:White Soul]]",
+          "commonEventName": "White Soul"
         }
       ],
       "damage": null,
@@ -202775,8 +202946,8 @@ const itemsData = {
           "dataId": 230,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:230:四葉のソウル]]",
-          "commonEventName": "四葉のソウル"
+          "description": "Triggers [[COMMONEVENT:230:Four-Leaf Soul]]",
+          "commonEventName": "Four-Leaf Soul"
         }
       ],
       "damage": null,
@@ -202808,8 +202979,8 @@ const itemsData = {
           "dataId": 221,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:221:黒のソウル]]",
-          "commonEventName": "黒のソウル"
+          "description": "Triggers [[COMMONEVENT:221:Black Soul]]",
+          "commonEventName": "Black Soul"
         }
       ],
       "damage": null,
@@ -202841,8 +203012,8 @@ const itemsData = {
           "dataId": 3,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:3:帰還の骨粉]]",
-          "commonEventName": "帰還の骨粉"
+          "description": "Triggers [[COMMONEVENT:3:Return Bone Powder]]",
+          "commonEventName": "Return Bone Powder"
         }
       ],
       "damage": null,
@@ -202874,8 +203045,8 @@ const itemsData = {
           "dataId": 48,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:48:兎の懐中時計]]",
-          "commonEventName": "兎の懐中時計"
+          "description": "Triggers [[COMMONEVENT:48:Rabbit's Pocket Watch]]",
+          "commonEventName": "Rabbit's Pocket Watch"
         },
         {
           "code": 21,
@@ -202917,8 +203088,8 @@ const itemsData = {
           "dataId": 31,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:31:ステルス]]",
-          "commonEventName": "ステルス"
+          "description": "Triggers [[COMMONEVENT:31:Stealth]]",
+          "commonEventName": "Stealth"
         }
       ],
       "damage": null,
@@ -203389,8 +203560,8 @@ const itemsData = {
           "dataId": 19,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:19:ソウル入手50]]",
-          "commonEventName": "ソウル入手50"
+          "description": "Triggers [[COMMONEVENT:19:Soul Acquisition 50]]",
+          "commonEventName": "Soul Acquisition 50"
         }
       ],
       "damage": null,
@@ -203422,8 +203593,8 @@ const itemsData = {
           "dataId": 20,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:20:ソウル入手200]]",
-          "commonEventName": "ソウル入手200"
+          "description": "Triggers [[COMMONEVENT:20:Soul Acquisition 200]]",
+          "commonEventName": "Soul Acquisition 200"
         }
       ],
       "damage": null,
@@ -203455,8 +203626,8 @@ const itemsData = {
           "dataId": 21,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:21:ソウル入手400]]",
-          "commonEventName": "ソウル入手400"
+          "description": "Triggers [[COMMONEVENT:21:Soul Acquisition 400]]",
+          "commonEventName": "Soul Acquisition 400"
         }
       ],
       "damage": null,
@@ -203488,8 +203659,8 @@ const itemsData = {
           "dataId": 22,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:22:ソウル入手800]]",
-          "commonEventName": "ソウル入手800"
+          "description": "Triggers [[COMMONEVENT:22:Soul Acquisition 800]]",
+          "commonEventName": "Soul Acquisition 800"
         }
       ],
       "damage": null,
@@ -203521,8 +203692,8 @@ const itemsData = {
           "dataId": 23,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:23:ソウル入手1000]]",
-          "commonEventName": "ソウル入手1000"
+          "description": "Triggers [[COMMONEVENT:23:Soul Acquisition 1000]]",
+          "commonEventName": "Soul Acquisition 1000"
         }
       ],
       "damage": null,
@@ -203554,8 +203725,8 @@ const itemsData = {
           "dataId": 24,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:24:ソウル入手2000]]",
-          "commonEventName": "ソウル入手2000"
+          "description": "Triggers [[COMMONEVENT:24:Soul Acquisition 2000]]",
+          "commonEventName": "Soul Acquisition 2000"
         }
       ],
       "damage": null,
@@ -203587,8 +203758,8 @@ const itemsData = {
           "dataId": 25,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:25:ソウル入手3000]]",
-          "commonEventName": "ソウル入手3000"
+          "description": "Triggers [[COMMONEVENT:25:Soul Acquisition 3000]]",
+          "commonEventName": "Soul Acquisition 3000"
         }
       ],
       "damage": null,
@@ -203620,8 +203791,8 @@ const itemsData = {
           "dataId": 26,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:26:ソウル入手5000]]",
-          "commonEventName": "ソウル入手5000"
+          "description": "Triggers [[COMMONEVENT:26:Soul Acquisition 5000]]",
+          "commonEventName": "Soul Acquisition 5000"
         }
       ],
       "damage": null,
@@ -203653,8 +203824,8 @@ const itemsData = {
           "dataId": 27,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:27:ソウル入手8000]]",
-          "commonEventName": "ソウル入手8000"
+          "description": "Triggers [[COMMONEVENT:27:Soul Acquisition 8000]]",
+          "commonEventName": "Soul Acquisition 8000"
         }
       ],
       "damage": null,
@@ -203686,8 +203857,8 @@ const itemsData = {
           "dataId": 28,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:28:ソウル入手10000]]",
-          "commonEventName": "ソウル入手10000"
+          "description": "Triggers [[COMMONEVENT:28:Soul Acquisition 10000]]",
+          "commonEventName": "Soul Acquisition 10000"
         }
       ],
       "damage": null,
@@ -203719,8 +203890,8 @@ const itemsData = {
           "dataId": 29,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:29:ソウル入手20000]]",
-          "commonEventName": "ソウル入手20000"
+          "description": "Triggers [[COMMONEVENT:29:Soul Acquisition 20000]]",
+          "commonEventName": "Soul Acquisition 20000"
         }
       ],
       "damage": null,
@@ -203824,8 +203995,8 @@ const itemsData = {
           "dataId": 47,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:47:Sendam減らす（少女の写真）]]",
-          "commonEventName": "Sendam減らす（少女の写真）"
+          "description": "Triggers [[COMMONEVENT:47:Reduce Sendam (Girl's Photo)]]",
+          "commonEventName": "Reduce Sendam (Girl's Photo)"
         }
       ],
       "damage": null,
@@ -204053,8 +204224,8 @@ const itemsData = {
           "dataId": 3,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:3:帰還の骨粉]]",
-          "commonEventName": "帰還の骨粉"
+          "description": "Triggers [[COMMONEVENT:3:Return Bone Powder]]",
+          "commonEventName": "Return Bone Powder"
         }
       ],
       "damage": null,
@@ -204290,8 +204461,8 @@ const itemsData = {
           "dataId": 231,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:231:処方薬]]",
-          "commonEventName": "処方薬"
+          "description": "Triggers [[COMMONEVENT:231:Prescription Medicine]]",
+          "commonEventName": "Prescription Medicine"
         }
       ],
       "damage": null,
@@ -204323,8 +204494,8 @@ const itemsData = {
           "dataId": 232,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:232:少女の写真]]",
-          "commonEventName": "少女の写真"
+          "description": "Triggers [[COMMONEVENT:232:Girl's Photo]]",
+          "commonEventName": "Girl's Photo"
         }
       ],
       "damage": null,
@@ -204356,8 +204527,8 @@ const itemsData = {
           "dataId": 18,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:18:再思トランプ]]",
-          "commonEventName": "再思トランプ"
+          "description": "Triggers [[COMMONEVENT:18:Reshuffle Trump]]",
+          "commonEventName": "Reshuffle Trump"
         }
       ],
       "damage": null,
@@ -204457,8 +204628,8 @@ const itemsData = {
           "dataId": 36,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:36:黒の灰]]",
-          "commonEventName": "黒の灰"
+          "description": "Triggers [[COMMONEVENT:36:Black Ash]]",
+          "commonEventName": "Black Ash"
         }
       ],
       "damage": null,
@@ -204513,8 +204684,8 @@ const itemsData = {
           "dataId": 58,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:58:私をお飲み]]",
-          "commonEventName": "私をお飲み"
+          "description": "Triggers [[COMMONEVENT:58:Drink Me]]",
+          "commonEventName": "Drink Me"
         }
       ],
       "damage": null,
@@ -204546,8 +204717,8 @@ const itemsData = {
           "dataId": 59,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:59:私をお食べ]]",
-          "commonEventName": "私をお食べ"
+          "description": "Triggers [[COMMONEVENT:59:Eat Me]]",
+          "commonEventName": "Eat Me"
         }
       ],
       "damage": null,
@@ -204602,8 +204773,8 @@ const itemsData = {
           "dataId": 215,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:215:ソウル入手250000]]",
-          "commonEventName": "ソウル入手250000"
+          "description": "Triggers [[COMMONEVENT:215:Soul Acquisition 250000]]",
+          "commonEventName": "Soul Acquisition 250000"
         }
       ],
       "damage": null,
@@ -204832,8 +205003,8 @@ const itemsData = {
           "dataId": 222,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:222:穢れた黒のソウル]]",
-          "commonEventName": "穢れた黒のソウル"
+          "description": "Triggers [[COMMONEVENT:222:Defiled Black Soul]]",
+          "commonEventName": "Defiled Black Soul"
         }
       ],
       "damage": null,
@@ -204865,8 +205036,8 @@ const itemsData = {
           "dataId": 233,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:233:夢のソウル]]",
-          "commonEventName": "夢のソウル"
+          "description": "Triggers [[COMMONEVENT:233:Dream Soul]]",
+          "commonEventName": "Dream Soul"
         }
       ],
       "damage": null,
@@ -204987,8 +205158,8 @@ const itemsData = {
           "dataId": 220,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:220:外なる者のソウル]]",
-          "commonEventName": "外なる者のソウル"
+          "description": "Triggers [[COMMONEVENT:220:Soul of the Outer One]]",
+          "commonEventName": "Soul of the Outer One"
         }
       ],
       "damage": null,
@@ -205020,8 +205191,8 @@ const itemsData = {
           "dataId": 216,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:216:ソウル入手25000]]",
-          "commonEventName": "ソウル入手25000"
+          "description": "Triggers [[COMMONEVENT:216:Soul Acquisition 25000]]",
+          "commonEventName": "Soul Acquisition 25000"
         }
       ],
       "damage": null,
@@ -205053,8 +205224,8 @@ const itemsData = {
           "dataId": 217,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:217:ソウル入手50000]]",
-          "commonEventName": "ソウル入手50000"
+          "description": "Triggers [[COMMONEVENT:217:Soul Acquisition 50000]]",
+          "commonEventName": "Soul Acquisition 50000"
         }
       ],
       "damage": null,
@@ -205136,8 +205307,8 @@ const itemsData = {
           "dataId": 234,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:234:Sendam調整]]",
-          "commonEventName": "Sendam調整"
+          "description": "Triggers [[COMMONEVENT:234:Sendam Adjustment]]",
+          "commonEventName": "Sendam Adjustment"
         }
       ],
       "damage": null,
@@ -205312,8 +205483,8 @@ const itemsData = {
           "dataId": 17,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:17:サティロスちんぽ]]",
-          "commonEventName": "サティロスちんぽ"
+          "description": "Triggers [[COMMONEVENT:17:Satyr's Cock]]",
+          "commonEventName": "Satyr's Cock"
         }
       ],
       "damage": null,
@@ -205378,8 +205549,8 @@ const itemsData = {
           "dataId": 288,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:288:古王の骨粉]]",
-          "commonEventName": "古王の骨粉"
+          "description": "Triggers [[COMMONEVENT:288:Old King's Bone Powder]]",
+          "commonEventName": "Old King's Bone Powder"
         }
       ],
       "damage": null,
@@ -205411,8 +205582,8 @@ const itemsData = {
           "dataId": 299,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:299:リスの毛]]",
-          "commonEventName": "リスの毛"
+          "description": "Triggers [[COMMONEVENT:299:Squirrel's Fur]]",
+          "commonEventName": "Squirrel's Fur"
         }
       ],
       "damage": null,
@@ -206969,8 +207140,8 @@ const itemsData = {
           "dataId": 23,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:23:ソウル入手1000]]",
-          "commonEventName": "ソウル入手1000"
+          "description": "Triggers [[COMMONEVENT:23:Soul Acquisition 1000]]",
+          "commonEventName": "Soul Acquisition 1000"
         }
       ],
       "damage": null,
@@ -207002,8 +207173,8 @@ const itemsData = {
           "dataId": 24,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:24:ソウル入手2000]]",
-          "commonEventName": "ソウル入手2000"
+          "description": "Triggers [[COMMONEVENT:24:Soul Acquisition 2000]]",
+          "commonEventName": "Soul Acquisition 2000"
         }
       ],
       "damage": null,
@@ -207035,8 +207206,8 @@ const itemsData = {
           "dataId": 25,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:25:ソウル入手3000]]",
-          "commonEventName": "ソウル入手3000"
+          "description": "Triggers [[COMMONEVENT:25:Soul Acquisition 3000]]",
+          "commonEventName": "Soul Acquisition 3000"
         }
       ],
       "damage": null,
@@ -207068,8 +207239,8 @@ const itemsData = {
           "dataId": 26,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:26:ソウル入手5000]]",
-          "commonEventName": "ソウル入手5000"
+          "description": "Triggers [[COMMONEVENT:26:Soul Acquisition 5000]]",
+          "commonEventName": "Soul Acquisition 5000"
         }
       ],
       "damage": null,
@@ -207101,8 +207272,8 @@ const itemsData = {
           "dataId": 26,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:26:ソウル入手5000]]",
-          "commonEventName": "ソウル入手5000"
+          "description": "Triggers [[COMMONEVENT:26:Soul Acquisition 5000]]",
+          "commonEventName": "Soul Acquisition 5000"
         }
       ],
       "damage": null,
@@ -207134,8 +207305,8 @@ const itemsData = {
           "dataId": 26,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:26:ソウル入手5000]]",
-          "commonEventName": "ソウル入手5000"
+          "description": "Triggers [[COMMONEVENT:26:Soul Acquisition 5000]]",
+          "commonEventName": "Soul Acquisition 5000"
         }
       ],
       "damage": null,
@@ -207167,8 +207338,8 @@ const itemsData = {
           "dataId": 28,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:28:ソウル入手10000]]",
-          "commonEventName": "ソウル入手10000"
+          "description": "Triggers [[COMMONEVENT:28:Soul Acquisition 10000]]",
+          "commonEventName": "Soul Acquisition 10000"
         }
       ],
       "damage": null,
@@ -207200,8 +207371,8 @@ const itemsData = {
           "dataId": 27,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:27:ソウル入手8000]]",
-          "commonEventName": "ソウル入手8000"
+          "description": "Triggers [[COMMONEVENT:27:Soul Acquisition 8000]]",
+          "commonEventName": "Soul Acquisition 8000"
         }
       ],
       "damage": null,
@@ -207233,8 +207404,8 @@ const itemsData = {
           "dataId": 27,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:27:ソウル入手8000]]",
-          "commonEventName": "ソウル入手8000"
+          "description": "Triggers [[COMMONEVENT:27:Soul Acquisition 8000]]",
+          "commonEventName": "Soul Acquisition 8000"
         }
       ],
       "damage": null,
@@ -207266,8 +207437,8 @@ const itemsData = {
           "dataId": 28,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:28:ソウル入手10000]]",
-          "commonEventName": "ソウル入手10000"
+          "description": "Triggers [[COMMONEVENT:28:Soul Acquisition 10000]]",
+          "commonEventName": "Soul Acquisition 10000"
         }
       ],
       "damage": null,
@@ -207299,8 +207470,8 @@ const itemsData = {
           "dataId": 25,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:25:ソウル入手3000]]",
-          "commonEventName": "ソウル入手3000"
+          "description": "Triggers [[COMMONEVENT:25:Soul Acquisition 3000]]",
+          "commonEventName": "Soul Acquisition 3000"
         }
       ],
       "damage": null,
@@ -207332,8 +207503,8 @@ const itemsData = {
           "dataId": 29,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:29:ソウル入手20000]]",
-          "commonEventName": "ソウル入手20000"
+          "description": "Triggers [[COMMONEVENT:29:Soul Acquisition 20000]]",
+          "commonEventName": "Soul Acquisition 20000"
         }
       ],
       "damage": null,
@@ -207365,8 +207536,8 @@ const itemsData = {
           "dataId": 24,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:24:ソウル入手2000]]",
-          "commonEventName": "ソウル入手2000"
+          "description": "Triggers [[COMMONEVENT:24:Soul Acquisition 2000]]",
+          "commonEventName": "Soul Acquisition 2000"
         }
       ],
       "damage": null,
@@ -207398,8 +207569,8 @@ const itemsData = {
           "dataId": 24,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:24:ソウル入手2000]]",
-          "commonEventName": "ソウル入手2000"
+          "description": "Triggers [[COMMONEVENT:24:Soul Acquisition 2000]]",
+          "commonEventName": "Soul Acquisition 2000"
         }
       ],
       "damage": null,
@@ -207431,8 +207602,8 @@ const itemsData = {
           "dataId": 24,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:24:ソウル入手2000]]",
-          "commonEventName": "ソウル入手2000"
+          "description": "Triggers [[COMMONEVENT:24:Soul Acquisition 2000]]",
+          "commonEventName": "Soul Acquisition 2000"
         }
       ],
       "damage": null,
@@ -207464,8 +207635,8 @@ const itemsData = {
           "dataId": 29,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:29:ソウル入手20000]]",
-          "commonEventName": "ソウル入手20000"
+          "description": "Triggers [[COMMONEVENT:29:Soul Acquisition 20000]]",
+          "commonEventName": "Soul Acquisition 20000"
         }
       ],
       "damage": null,
@@ -207497,8 +207668,8 @@ const itemsData = {
           "dataId": 29,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:29:ソウル入手20000]]",
-          "commonEventName": "ソウル入手20000"
+          "description": "Triggers [[COMMONEVENT:29:Soul Acquisition 20000]]",
+          "commonEventName": "Soul Acquisition 20000"
         }
       ],
       "damage": null,
@@ -207530,8 +207701,8 @@ const itemsData = {
           "dataId": 28,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:28:ソウル入手10000]]",
-          "commonEventName": "ソウル入手10000"
+          "description": "Triggers [[COMMONEVENT:28:Soul Acquisition 10000]]",
+          "commonEventName": "Soul Acquisition 10000"
         }
       ],
       "damage": null,
@@ -207563,8 +207734,8 @@ const itemsData = {
           "dataId": 29,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:29:ソウル入手20000]]",
-          "commonEventName": "ソウル入手20000"
+          "description": "Triggers [[COMMONEVENT:29:Soul Acquisition 20000]]",
+          "commonEventName": "Soul Acquisition 20000"
         }
       ],
       "damage": null,
@@ -207596,8 +207767,8 @@ const itemsData = {
           "dataId": 29,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:29:ソウル入手20000]]",
-          "commonEventName": "ソウル入手20000"
+          "description": "Triggers [[COMMONEVENT:29:Soul Acquisition 20000]]",
+          "commonEventName": "Soul Acquisition 20000"
         }
       ],
       "damage": null,
@@ -207629,8 +207800,8 @@ const itemsData = {
           "dataId": 29,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:29:ソウル入手20000]]",
-          "commonEventName": "ソウル入手20000"
+          "description": "Triggers [[COMMONEVENT:29:Soul Acquisition 20000]]",
+          "commonEventName": "Soul Acquisition 20000"
         }
       ],
       "damage": null,
@@ -207662,8 +207833,8 @@ const itemsData = {
           "dataId": 217,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:217:ソウル入手50000]]",
-          "commonEventName": "ソウル入手50000"
+          "description": "Triggers [[COMMONEVENT:217:Soul Acquisition 50000]]",
+          "commonEventName": "Soul Acquisition 50000"
         }
       ],
       "damage": null,
@@ -207695,8 +207866,8 @@ const itemsData = {
           "dataId": 216,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:216:ソウル入手25000]]",
-          "commonEventName": "ソウル入手25000"
+          "description": "Triggers [[COMMONEVENT:216:Soul Acquisition 25000]]",
+          "commonEventName": "Soul Acquisition 25000"
         }
       ],
       "damage": null,
@@ -207728,8 +207899,8 @@ const itemsData = {
           "dataId": 216,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:216:ソウル入手25000]]",
-          "commonEventName": "ソウル入手25000"
+          "description": "Triggers [[COMMONEVENT:216:Soul Acquisition 25000]]",
+          "commonEventName": "Soul Acquisition 25000"
         }
       ],
       "damage": null,
@@ -207761,8 +207932,8 @@ const itemsData = {
           "dataId": 216,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:216:ソウル入手25000]]",
-          "commonEventName": "ソウル入手25000"
+          "description": "Triggers [[COMMONEVENT:216:Soul Acquisition 25000]]",
+          "commonEventName": "Soul Acquisition 25000"
         }
       ],
       "damage": null,
@@ -207794,8 +207965,8 @@ const itemsData = {
           "dataId": 216,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:216:ソウル入手25000]]",
-          "commonEventName": "ソウル入手25000"
+          "description": "Triggers [[COMMONEVENT:216:Soul Acquisition 25000]]",
+          "commonEventName": "Soul Acquisition 25000"
         }
       ],
       "damage": null,
@@ -207827,8 +207998,8 @@ const itemsData = {
           "dataId": 216,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:216:ソウル入手25000]]",
-          "commonEventName": "ソウル入手25000"
+          "description": "Triggers [[COMMONEVENT:216:Soul Acquisition 25000]]",
+          "commonEventName": "Soul Acquisition 25000"
         }
       ],
       "damage": null,
@@ -207860,8 +208031,8 @@ const itemsData = {
           "dataId": 216,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:216:ソウル入手25000]]",
-          "commonEventName": "ソウル入手25000"
+          "description": "Triggers [[COMMONEVENT:216:Soul Acquisition 25000]]",
+          "commonEventName": "Soul Acquisition 25000"
         }
       ],
       "damage": null,
@@ -207893,8 +208064,8 @@ const itemsData = {
           "dataId": 216,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers [[COMMONEVENT:216:ソウル入手25000]]",
-          "commonEventName": "ソウル入手25000"
+          "description": "Triggers [[COMMONEVENT:216:Soul Acquisition 25000]]",
+          "commonEventName": "Soul Acquisition 25000"
         }
       ],
       "damage": null,
