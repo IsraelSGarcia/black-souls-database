@@ -2,8 +2,6 @@
 
 - Update element Physical icon
 
-- Bug: searching for "93" in skills doesn't prioritize skill #93 in results (as it should)
-
 - Implement status
 
 - Differentiate multiplication and summation

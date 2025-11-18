@@ -144,6 +144,8 @@ function hasStateChanged(newState) {
 }
 
 // Push state to browser history
+// IMPORTANT: This function updates the URL immediately and synchronously
+// The URL in the browser's address bar will update instantly when this is called
 function pushHistoryState(state, replace = false, force = false) {
     if (isRestoringState && !force) {
         console.log('[pushHistoryState] Blocked - isRestoringState=true', { replace, force, state });
@@ -163,10 +165,20 @@ function pushHistoryState(state, replace = false, force = false) {
     // This ensures GitHub Pages serves index.html for all routes
     const url = hash.startsWith('#') ? hash : `#${hash}`;
     
+    // CRITICAL: Always update the URL immediately, even if it appears the same
+    // This ensures the URL in the address bar reflects the current state immediately
+    // We update history state first, then ensure the URL is correct
     if (replace) {
         history.replaceState(state, title, url);
     } else {
         history.pushState(state, title, url);
+    }
+    
+    // CRITICAL: Always ensure window.location.hash matches the URL we just set
+    // This guarantees the address bar shows the correct URL immediately
+    // Even if history API updated it, we explicitly set it to ensure it's visible
+    if (window.location.hash !== url) {
+        window.location.hash = url;
     }
     
     // Update page title
@@ -5175,13 +5187,28 @@ function selectEnemy(enemyId) {
     }
     
     // Update browser history
-    // Use replaceState if state hasn't meaningfully changed to avoid duplicates
-    // Update browser history
+    // CRITICAL: Always push state when selecting an enemy to ensure URL updates immediately
+    // Build state explicitly with the enemyId to ensure it's captured correctly
     if (!isRestoringState) {
-        const newState = buildNavigationState();
+        // Build state manually to ensure selectedId is set correctly
+        const searchInputEl = document.getElementById('search-input');
+        const resultsListEl = document.getElementById('results-list');
+        const detailPanelEl = document.getElementById('detail-panel');
+        const newState = {
+            view: currentSection,
+            game: currentGame,
+            selectedId: enemyId, // CRITICAL: Use enemyId directly, not getCurrentSelectedId()
+            searchQuery: searchInputEl ? searchInputEl.value : null,
+            resultsListScrollTop: resultsListEl ? resultsListEl.scrollTop : 0,
+            detailPanelScrollTop: detailPanelEl ? detailPanelEl.scrollTop : 0
+        };
         const currentState = history.state;
-        // If state hasn't changed (same view, game, selectedId, searchQuery), use replaceState
-        if (currentState && !hasStateChanged(newState)) {
+        // Always use pushState when selecting an enemy (selectedId changed from null/undefined to a value)
+        // This ensures the URL updates immediately to show the selected enemy
+        if (currentState && newState.selectedId && !currentState.selectedId) {
+            // Selecting an enemy (going from no selection to a selection) - always push
+            pushHistoryState(newState, false); // Use pushState to create new history entry
+        } else if (currentState && !hasStateChanged(newState)) {
             pushHistoryState(newState, true); // Use replaceState to avoid duplicates
         } else {
             pushHistoryState(newState); // Use pushState for actual navigation changes
@@ -5672,7 +5699,8 @@ function renderEnemyDetail(enemy) {
         });
     }
     
-    attachEffectOriginalDataHandlers(item._sortedEffects || item.effects);
+    // Note: Enemies don't have effects like items do, so this line was incorrect
+    // Removed: attachEffectOriginalDataHandlers(item._sortedEffects || item.effects);
 }
 
 function renderEnemyBaseStats(enemy) {
