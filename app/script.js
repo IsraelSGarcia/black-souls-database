@@ -869,6 +869,7 @@ function getCurrentSelectedId() {
 }
 
 // Scroll the results list to show the selected item
+// IMPORTANT: All automatic scrolling uses instant behavior (no smooth transitions)
 function scrollToSelectedItem(section, itemId) {
     if (!resultsList || !itemId) return;
     
@@ -888,9 +889,10 @@ function scrollToSelectedItem(section, itemId) {
         const tryScroll = () => {
             const card = document.querySelector(selector);
             if (card) {
-                // Use scrollIntoView with smooth behavior and block: 'center' to ensure item is visible
+                // Use scrollIntoView with 'auto' behavior for instant scrolling (no smooth transition)
+                // 'auto' is the default and provides instant scrolling
                 card.scrollIntoView({
-                    behavior: 'smooth',
+                    behavior: 'auto',
                     block: 'center',
                     inline: 'nearest'
                 });
