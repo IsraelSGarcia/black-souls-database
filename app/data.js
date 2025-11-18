@@ -118668,7 +118668,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 2,
-          "conditionText": "Turn 1 + 2 * X"
+          "conditionText": "Turn 1 + 2 * X (e.g.: Turns 1, 3, 5, 7, 9)"
         },
         {
           "skillId": 60,
@@ -118677,7 +118677,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 2,
-          "conditionText": "Turn 2 + 2 * X"
+          "conditionText": "Turn 2 + 2 * X (e.g.: Turns 2, 4, 6, 8, 10)"
         }
       ],
       "dropItems": [
@@ -122263,7 +122263,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 4,
-          "conditionText": "Turn 1 + 4 * X"
+          "conditionText": "Turn 1 + 4 * X (e.g.: Turns 1, 5, 9, 13, 17)"
         },
         {
           "skillId": 219,
@@ -122272,7 +122272,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 4,
-          "conditionText": "Turn 2 + 4 * X"
+          "conditionText": "Turn 2 + 4 * X (e.g.: Turns 2, 6, 10, 14, 18)"
         },
         {
           "skillId": 219,
@@ -122281,7 +122281,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 4,
-          "conditionText": "Turn 3 + 4 * X"
+          "conditionText": "Turn 3 + 4 * X (e.g.: Turns 3, 7, 11, 15, 19)"
         },
         {
           "skillId": 218,
@@ -122290,7 +122290,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 4,
-          "conditionText": "Turn 4 + 4 * X"
+          "conditionText": "Turn 4 + 4 * X (e.g.: Turns 4, 8, 12, 16, 20)"
         }
       ],
       "dropItems": [
@@ -124320,7 +124320,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 6,
-          "conditionText": "Turn 1 + 6 * X"
+          "conditionText": "Turn 1 + 6 * X (e.g.: Turns 1, 7, 13, 19, 25)"
         },
         {
           "skillId": 100,
@@ -124329,7 +124329,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 6,
-          "conditionText": "Turn 2 + 6 * X"
+          "conditionText": "Turn 2 + 6 * X (e.g.: Turns 2, 8, 14, 20, 26)"
         },
         {
           "skillId": 106,
@@ -124338,7 +124338,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 6,
-          "conditionText": "Turn 3 + 6 * X"
+          "conditionText": "Turn 3 + 6 * X (e.g.: Turns 3, 9, 15, 21, 27)"
         },
         {
           "skillId": 85,
@@ -124347,7 +124347,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 6,
-          "conditionText": "Turn 4 + 6 * X"
+          "conditionText": "Turn 4 + 6 * X (e.g.: Turns 4, 10, 16, 22, 28)"
         },
         {
           "skillId": 63,
@@ -124356,7 +124356,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 6,
-          "conditionText": "Turn 5 + 6 * X"
+          "conditionText": "Turn 5 + 6 * X (e.g.: Turns 5, 11, 17, 23, 29)"
         },
         {
           "skillId": 216,
@@ -124374,7 +124374,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 6,
           "conditionParam2": 6,
-          "conditionText": "Turn 6 + 6 * X"
+          "conditionText": "Turn 6 + 6 * X (e.g.: Turns 6, 12, 18, 24, 30)"
         }
       ],
       "dropItems": [
@@ -125280,7 +125280,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 3,
-          "conditionText": "Turn 2 + 3 * X"
+          "conditionText": "Turn 2 + 3 * X (e.g.: Turns 2, 5, 8, 11, 14)"
         },
         {
           "skillId": 234,
@@ -125289,7 +125289,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 3,
-          "conditionText": "Turn 1 + 3 * X"
+          "conditionText": "Turn 1 + 3 * X (e.g.: Turns 1, 4, 7, 10, 13)"
         },
         {
           "skillId": 231,
@@ -125298,7 +125298,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 3,
-          "conditionText": "Turn 3 + 3 * X"
+          "conditionText": "Turn 3 + 3 * X (e.g.: Turns 3, 6, 9, 12, 15)"
         }
       ],
       "dropItems": [
@@ -128189,7 +128189,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 3,
-          "conditionText": "Turn 1 + 3 * X"
+          "conditionText": "Turn 1 + 3 * X (e.g.: Turns 1, 4, 7, 10, 13)"
         },
         {
           "skillId": 184,
@@ -128198,7 +128198,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 3,
-          "conditionText": "Turn 2 + 3 * X"
+          "conditionText": "Turn 2 + 3 * X (e.g.: Turns 2, 5, 8, 11, 14)"
         },
         {
           "skillId": 185,
@@ -128207,7 +128207,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 3,
-          "conditionText": "Turn 3 + 3 * X"
+          "conditionText": "Turn 3 + 3 * X (e.g.: Turns 3, 6, 9, 12, 15)"
         }
       ],
       "dropItems": [
@@ -132742,7 +132742,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 10,
           "conditionParam2": 0,
-          "conditionText": "Turn 10"
+          "conditionText": "Turn 10 (e.g.: Turns 10, 10, 10, 10, 10)"
         }
       ],
       "dropItems": [
@@ -134466,7 +134466,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 0,
-          "conditionText": "Turn 1"
+          "conditionText": "Turn 1 (e.g.: Turns 1, 1, 1, 1, 1)"
         },
         {
           "skillId": 7,
@@ -135006,7 +135006,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 3,
-          "conditionText": "Turn 1 + 3 * X"
+          "conditionText": "Turn 1 + 3 * X (e.g.: Turns 1, 4, 7, 10, 13)"
         },
         {
           "skillId": 399,
@@ -135015,7 +135015,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 3,
-          "conditionText": "Turn 2 + 3 * X"
+          "conditionText": "Turn 2 + 3 * X (e.g.: Turns 2, 5, 8, 11, 14)"
         },
         {
           "skillId": 400,
@@ -135024,7 +135024,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 3,
-          "conditionText": "Turn 3 + 3 * X"
+          "conditionText": "Turn 3 + 3 * X (e.g.: Turns 3, 6, 9, 12, 15)"
         },
         {
           "skillId": 401,
@@ -138119,7 +138119,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 6,
-          "conditionText": "Turn 2 + 6 * X"
+          "conditionText": "Turn 2 + 6 * X (e.g.: Turns 2, 8, 14, 20, 26)"
         },
         {
           "skillId": 8,
@@ -138128,7 +138128,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 6,
-          "conditionText": "Turn 3 + 6 * X"
+          "conditionText": "Turn 3 + 6 * X (e.g.: Turns 3, 9, 15, 21, 27)"
         },
         {
           "skillId": 30,
@@ -138137,7 +138137,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 6,
-          "conditionText": "Turn 1 + 6 * X"
+          "conditionText": "Turn 1 + 6 * X (e.g.: Turns 1, 7, 13, 19, 25)"
         },
         {
           "skillId": 118,
@@ -138146,7 +138146,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 6,
-          "conditionText": "Turn 4 + 6 * X"
+          "conditionText": "Turn 4 + 6 * X (e.g.: Turns 4, 10, 16, 22, 28)"
         },
         {
           "skillId": 436,
@@ -138155,7 +138155,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 6,
-          "conditionText": "Turn 5 + 6 * X"
+          "conditionText": "Turn 5 + 6 * X (e.g.: Turns 5, 11, 17, 23, 29)"
         },
         {
           "skillId": 435,
@@ -138173,7 +138173,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 6,
           "conditionParam2": 6,
-          "conditionText": "Turn 6 + 6 * X"
+          "conditionText": "Turn 6 + 6 * X (e.g.: Turns 6, 12, 18, 24, 30)"
         }
       ],
       "dropItems": [
@@ -138487,7 +138487,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 2,
-          "conditionText": "Turn 1 + 2 * X"
+          "conditionText": "Turn 1 + 2 * X (e.g.: Turns 1, 3, 5, 7, 9)"
         },
         {
           "skillId": 453,
@@ -138496,7 +138496,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 2,
-          "conditionText": "Turn 2 + 2 * X"
+          "conditionText": "Turn 2 + 2 * X (e.g.: Turns 2, 4, 6, 8, 10)"
         },
         {
           "skillId": 454,
@@ -138505,7 +138505,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 2,
-          "conditionText": "Turn 2 + 2 * X"
+          "conditionText": "Turn 2 + 2 * X (e.g.: Turns 2, 4, 6, 8, 10)"
         }
       ],
       "dropItems": [
@@ -140545,7 +140545,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 0,
-          "conditionText": "Turn 1"
+          "conditionText": "Turn 1 (e.g.: Turns 1, 1, 1, 1, 1)"
         },
         {
           "skillId": 278,
@@ -140953,7 +140953,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 6,
-          "conditionText": "Turn 1 + 6 * X"
+          "conditionText": "Turn 1 + 6 * X (e.g.: Turns 1, 7, 13, 19, 25)"
         },
         {
           "skillId": 231,
@@ -140962,7 +140962,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 6,
-          "conditionText": "Turn 1 + 6 * X"
+          "conditionText": "Turn 1 + 6 * X (e.g.: Turns 1, 7, 13, 19, 25)"
         },
         {
           "skillId": 117,
@@ -140971,7 +140971,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 6,
-          "conditionText": "Turn 2 + 6 * X"
+          "conditionText": "Turn 2 + 6 * X (e.g.: Turns 2, 8, 14, 20, 26)"
         },
         {
           "skillId": 236,
@@ -140980,7 +140980,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 6,
-          "conditionText": "Turn 2 + 6 * X"
+          "conditionText": "Turn 2 + 6 * X (e.g.: Turns 2, 8, 14, 20, 26)"
         },
         {
           "skillId": 164,
@@ -140989,7 +140989,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 6,
-          "conditionText": "Turn 3 + 6 * X"
+          "conditionText": "Turn 3 + 6 * X (e.g.: Turns 3, 9, 15, 21, 27)"
         },
         {
           "skillId": 368,
@@ -140998,7 +140998,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 6,
-          "conditionText": "Turn 3 + 6 * X"
+          "conditionText": "Turn 3 + 6 * X (e.g.: Turns 3, 9, 15, 21, 27)"
         },
         {
           "skillId": 173,
@@ -141007,7 +141007,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 6,
-          "conditionText": "Turn 4 + 6 * X"
+          "conditionText": "Turn 4 + 6 * X (e.g.: Turns 4, 10, 16, 22, 28)"
         },
         {
           "skillId": 188,
@@ -141016,7 +141016,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 6,
-          "conditionText": "Turn 4 + 6 * X"
+          "conditionText": "Turn 4 + 6 * X (e.g.: Turns 4, 10, 16, 22, 28)"
         },
         {
           "skillId": 370,
@@ -141025,7 +141025,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 6,
-          "conditionText": "Turn 5 + 6 * X"
+          "conditionText": "Turn 5 + 6 * X (e.g.: Turns 5, 11, 17, 23, 29)"
         },
         {
           "skillId": 369,
@@ -141043,7 +141043,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 6,
           "conditionParam2": 6,
-          "conditionText": "Turn 6 + 6 * X"
+          "conditionText": "Turn 6 + 6 * X (e.g.: Turns 6, 12, 18, 24, 30)"
         }
       ],
       "dropItems": [
@@ -141684,7 +141684,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 2,
-          "conditionText": "Turn 1 + 2 * X"
+          "conditionText": "Turn 1 + 2 * X (e.g.: Turns 1, 3, 5, 7, 9)"
         },
         {
           "skillId": 389,
@@ -141693,7 +141693,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 2,
-          "conditionText": "Turn 2 + 2 * X"
+          "conditionText": "Turn 2 + 2 * X (e.g.: Turns 2, 4, 6, 8, 10)"
         },
         {
           "skillId": 29,
@@ -141702,7 +141702,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 2,
-          "conditionText": "Turn 1 + 2 * X"
+          "conditionText": "Turn 1 + 2 * X (e.g.: Turns 1, 3, 5, 7, 9)"
         },
         {
           "skillId": 203,
@@ -141849,7 +141849,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 5,
-          "conditionText": "Turn 1 + 5 * X"
+          "conditionText": "Turn 1 + 5 * X (e.g.: Turns 1, 6, 11, 16, 21)"
         },
         {
           "skillId": 35,
@@ -141858,7 +141858,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 5,
-          "conditionText": "Turn 2 + 5 * X"
+          "conditionText": "Turn 2 + 5 * X (e.g.: Turns 2, 7, 12, 17, 22)"
         },
         {
           "skillId": 117,
@@ -141867,7 +141867,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 5,
-          "conditionText": "Turn 3 + 5 * X"
+          "conditionText": "Turn 3 + 5 * X (e.g.: Turns 3, 8, 13, 18, 23)"
         },
         {
           "skillId": 2,
@@ -141876,7 +141876,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 5,
-          "conditionText": "Turn 4 + 5 * X"
+          "conditionText": "Turn 4 + 5 * X (e.g.: Turns 4, 9, 14, 19, 24)"
         },
         {
           "skillId": 382,
@@ -141885,7 +141885,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 5,
-          "conditionText": "Turn 5 + 5 * X"
+          "conditionText": "Turn 5 + 5 * X (e.g.: Turns 5, 10, 15, 20, 25)"
         }
       ],
       "dropItems": [
@@ -142007,7 +142007,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 5,
-          "conditionText": "Turn 1 + 5 * X"
+          "conditionText": "Turn 1 + 5 * X (e.g.: Turns 1, 6, 11, 16, 21)"
         },
         {
           "skillId": 77,
@@ -142016,7 +142016,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 5,
-          "conditionText": "Turn 2 + 5 * X"
+          "conditionText": "Turn 2 + 5 * X (e.g.: Turns 2, 7, 12, 17, 22)"
         },
         {
           "skillId": 59,
@@ -142025,7 +142025,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 5,
-          "conditionText": "Turn 3 + 5 * X"
+          "conditionText": "Turn 3 + 5 * X (e.g.: Turns 3, 8, 13, 18, 23)"
         },
         {
           "skillId": 60,
@@ -142034,7 +142034,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 5,
-          "conditionText": "Turn 4 + 5 * X"
+          "conditionText": "Turn 4 + 5 * X (e.g.: Turns 4, 9, 14, 19, 24)"
         },
         {
           "skillId": 21,
@@ -142043,7 +142043,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 5,
-          "conditionText": "Turn 5 + 5 * X"
+          "conditionText": "Turn 5 + 5 * X (e.g.: Turns 5, 10, 15, 20, 25)"
         }
       ],
       "dropItems": [
@@ -142172,7 +142172,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 5,
-          "conditionText": "Turn 1 + 5 * X"
+          "conditionText": "Turn 1 + 5 * X (e.g.: Turns 1, 6, 11, 16, 21)"
         },
         {
           "skillId": 2,
@@ -142181,7 +142181,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 5,
-          "conditionText": "Turn 2 + 5 * X"
+          "conditionText": "Turn 2 + 5 * X (e.g.: Turns 2, 7, 12, 17, 22)"
         },
         {
           "skillId": 85,
@@ -142190,7 +142190,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 5,
-          "conditionText": "Turn 3 + 5 * X"
+          "conditionText": "Turn 3 + 5 * X (e.g.: Turns 3, 8, 13, 18, 23)"
         },
         {
           "skillId": 8,
@@ -142199,7 +142199,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 5,
-          "conditionText": "Turn 4 + 5 * X"
+          "conditionText": "Turn 4 + 5 * X (e.g.: Turns 4, 9, 14, 19, 24)"
         },
         {
           "skillId": 37,
@@ -142208,7 +142208,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 5,
-          "conditionText": "Turn 5 + 5 * X"
+          "conditionText": "Turn 5 + 5 * X (e.g.: Turns 5, 10, 15, 20, 25)"
         }
       ],
       "dropItems": [
@@ -143005,7 +143005,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 6,
-          "conditionText": "Turn 1 + 6 * X"
+          "conditionText": "Turn 1 + 6 * X (e.g.: Turns 1, 7, 13, 19, 25)"
         },
         {
           "skillId": 422,
@@ -143014,7 +143014,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 6,
-          "conditionText": "Turn 2 + 6 * X"
+          "conditionText": "Turn 2 + 6 * X (e.g.: Turns 2, 8, 14, 20, 26)"
         },
         {
           "skillId": 422,
@@ -143023,7 +143023,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 6,
-          "conditionText": "Turn 3 + 6 * X"
+          "conditionText": "Turn 3 + 6 * X (e.g.: Turns 3, 9, 15, 21, 27)"
         },
         {
           "skillId": 422,
@@ -143032,7 +143032,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 6,
-          "conditionText": "Turn 4 + 6 * X"
+          "conditionText": "Turn 4 + 6 * X (e.g.: Turns 4, 10, 16, 22, 28)"
         },
         {
           "skillId": 421,
@@ -143041,7 +143041,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 6,
-          "conditionText": "Turn 5 + 6 * X"
+          "conditionText": "Turn 5 + 6 * X (e.g.: Turns 5, 11, 17, 23, 29)"
         },
         {
           "skillId": 423,
@@ -143050,7 +143050,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 6,
           "conditionParam2": 6,
-          "conditionText": "Turn 6 + 6 * X"
+          "conditionText": "Turn 6 + 6 * X (e.g.: Turns 6, 12, 18, 24, 30)"
         }
       ],
       "dropItems": [
@@ -143474,7 +143474,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 6,
-          "conditionText": "Turn 1 + 6 * X"
+          "conditionText": "Turn 1 + 6 * X (e.g.: Turns 1, 7, 13, 19, 25)"
         },
         {
           "skillId": 71,
@@ -143483,7 +143483,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 6,
-          "conditionText": "Turn 2 + 6 * X"
+          "conditionText": "Turn 2 + 6 * X (e.g.: Turns 2, 8, 14, 20, 26)"
         },
         {
           "skillId": 100,
@@ -143492,7 +143492,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 6,
-          "conditionText": "Turn 3 + 6 * X"
+          "conditionText": "Turn 3 + 6 * X (e.g.: Turns 3, 9, 15, 21, 27)"
         },
         {
           "skillId": 12,
@@ -143501,7 +143501,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 6,
-          "conditionText": "Turn 4 + 6 * X"
+          "conditionText": "Turn 4 + 6 * X (e.g.: Turns 4, 10, 16, 22, 28)"
         },
         {
           "skillId": 54,
@@ -143510,7 +143510,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 6,
-          "conditionText": "Turn 5 + 6 * X"
+          "conditionText": "Turn 5 + 6 * X (e.g.: Turns 5, 11, 17, 23, 29)"
         },
         {
           "skillId": 12,
@@ -143519,7 +143519,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 6,
           "conditionParam2": 6,
-          "conditionText": "Turn 6 + 6 * X"
+          "conditionText": "Turn 6 + 6 * X (e.g.: Turns 6, 12, 18, 24, 30)"
         },
         {
           "skillId": 94,
@@ -143948,7 +143948,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 6,
-          "conditionText": "Turn 1 + 6 * X"
+          "conditionText": "Turn 1 + 6 * X (e.g.: Turns 1, 7, 13, 19, 25)"
         },
         {
           "skillId": 29,
@@ -143957,7 +143957,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 6,
-          "conditionText": "Turn 2 + 6 * X"
+          "conditionText": "Turn 2 + 6 * X (e.g.: Turns 2, 8, 14, 20, 26)"
         },
         {
           "skillId": 312,
@@ -143966,7 +143966,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 6,
-          "conditionText": "Turn 2 + 6 * X"
+          "conditionText": "Turn 2 + 6 * X (e.g.: Turns 2, 8, 14, 20, 26)"
         },
         {
           "skillId": 369,
@@ -143975,7 +143975,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 6,
-          "conditionText": "Turn 3 + 6 * X"
+          "conditionText": "Turn 3 + 6 * X (e.g.: Turns 3, 9, 15, 21, 27)"
         },
         {
           "skillId": 310,
@@ -143984,7 +143984,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 6,
-          "conditionText": "Turn 4 + 6 * X"
+          "conditionText": "Turn 4 + 6 * X (e.g.: Turns 4, 10, 16, 22, 28)"
         },
         {
           "skillId": 652,
@@ -143993,7 +143993,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 6,
-          "conditionText": "Turn 4 + 6 * X"
+          "conditionText": "Turn 4 + 6 * X (e.g.: Turns 4, 10, 16, 22, 28)"
         },
         {
           "skillId": 369,
@@ -144002,7 +144002,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 6,
-          "conditionText": "Turn 5 + 6 * X"
+          "conditionText": "Turn 5 + 6 * X (e.g.: Turns 5, 11, 17, 23, 29)"
         },
         {
           "skillId": 300,
@@ -144011,7 +144011,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 6,
           "conditionParam2": 6,
-          "conditionText": "Turn 6 + 6 * X"
+          "conditionText": "Turn 6 + 6 * X (e.g.: Turns 6, 12, 18, 24, 30)"
         },
         {
           "skillId": 440,
@@ -146470,7 +146470,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 2,
-          "conditionText": "Turn 1 + 2 * X"
+          "conditionText": "Turn 1 + 2 * X (e.g.: Turns 1, 3, 5, 7, 9)"
         },
         {
           "skillId": 256,
@@ -146479,7 +146479,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 2,
-          "conditionText": "Turn 2 + 2 * X"
+          "conditionText": "Turn 2 + 2 * X (e.g.: Turns 2, 4, 6, 8, 10)"
         },
         {
           "skillId": 82,
@@ -146738,7 +146738,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 3,
-          "conditionText": "Turn 1 + 3 * X"
+          "conditionText": "Turn 1 + 3 * X (e.g.: Turns 1, 4, 7, 10, 13)"
         },
         {
           "skillId": 442,
@@ -146747,7 +146747,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 3,
-          "conditionText": "Turn 2 + 3 * X"
+          "conditionText": "Turn 2 + 3 * X (e.g.: Turns 2, 5, 8, 11, 14)"
         },
         {
           "skillId": 2,
@@ -146756,7 +146756,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 3,
-          "conditionText": "Turn 3 + 3 * X"
+          "conditionText": "Turn 3 + 3 * X (e.g.: Turns 3, 6, 9, 12, 15)"
         }
       ],
       "dropItems": [
@@ -146871,7 +146871,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 3,
-          "conditionText": "Turn 2 + 3 * X"
+          "conditionText": "Turn 2 + 3 * X (e.g.: Turns 2, 5, 8, 11, 14)"
         },
         {
           "skillId": 444,
@@ -146880,7 +146880,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 3,
-          "conditionText": "Turn 3 + 3 * X"
+          "conditionText": "Turn 3 + 3 * X (e.g.: Turns 3, 6, 9, 12, 15)"
         },
         {
           "skillId": 51,
@@ -146889,7 +146889,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 3,
-          "conditionText": "Turn 1 + 3 * X"
+          "conditionText": "Turn 1 + 3 * X (e.g.: Turns 1, 4, 7, 10, 13)"
         }
       ],
       "dropItems": [
@@ -147018,7 +147018,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 0,
-          "conditionText": "Turn 1"
+          "conditionText": "Turn 1 (e.g.: Turns 1, 1, 1, 1, 1)"
         },
         {
           "skillId": 21,
@@ -147027,7 +147027,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 3,
-          "conditionText": "Turn 1 + 3 * X"
+          "conditionText": "Turn 1 + 3 * X (e.g.: Turns 1, 4, 7, 10, 13)"
         },
         {
           "skillId": 85,
@@ -147036,7 +147036,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 3,
-          "conditionText": "Turn 2 + 3 * X"
+          "conditionText": "Turn 2 + 3 * X (e.g.: Turns 2, 5, 8, 11, 14)"
         },
         {
           "skillId": 385,
@@ -147045,7 +147045,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 3,
-          "conditionText": "Turn 3 + 3 * X"
+          "conditionText": "Turn 3 + 3 * X (e.g.: Turns 3, 6, 9, 12, 15)"
         }
       ],
       "dropItems": [
@@ -147167,7 +147167,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 3,
-          "conditionText": "Turn 1 + 3 * X"
+          "conditionText": "Turn 1 + 3 * X (e.g.: Turns 1, 4, 7, 10, 13)"
         },
         {
           "skillId": 446,
@@ -147176,7 +147176,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 3,
-          "conditionText": "Turn 2 + 3 * X"
+          "conditionText": "Turn 2 + 3 * X (e.g.: Turns 2, 5, 8, 11, 14)"
         },
         {
           "skillId": 15,
@@ -147185,7 +147185,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 3,
-          "conditionText": "Turn 3 + 3 * X"
+          "conditionText": "Turn 3 + 3 * X (e.g.: Turns 3, 6, 9, 12, 15)"
         }
       ],
       "dropItems": [
@@ -147346,7 +147346,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 0,
-          "conditionText": "Turn 1"
+          "conditionText": "Turn 1 (e.g.: Turns 1, 1, 1, 1, 1)"
         },
         {
           "skillId": 288,
@@ -147525,7 +147525,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 3,
-          "conditionText": "Turn 2 + 3 * X"
+          "conditionText": "Turn 2 + 3 * X (e.g.: Turns 2, 5, 8, 11, 14)"
         },
         {
           "skillId": 291,
@@ -147534,7 +147534,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 3,
-          "conditionText": "Turn 1 + 3 * X"
+          "conditionText": "Turn 1 + 3 * X (e.g.: Turns 1, 4, 7, 10, 13)"
         },
         {
           "skillId": 289,
@@ -147552,7 +147552,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 3,
-          "conditionText": "Turn 3 + 3 * X"
+          "conditionText": "Turn 3 + 3 * X (e.g.: Turns 3, 6, 9, 12, 15)"
         },
         {
           "skillId": 129,
@@ -147704,7 +147704,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 0,
-          "conditionText": "Turn 1"
+          "conditionText": "Turn 1 (e.g.: Turns 1, 1, 1, 1, 1)"
         },
         {
           "skillId": 38,
@@ -147901,7 +147901,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 4,
-          "conditionText": "Turn 1 + 4 * X"
+          "conditionText": "Turn 1 + 4 * X (e.g.: Turns 1, 5, 9, 13, 17)"
         },
         {
           "skillId": 300,
@@ -147910,7 +147910,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 4,
-          "conditionText": "Turn 2 + 4 * X"
+          "conditionText": "Turn 2 + 4 * X (e.g.: Turns 2, 6, 10, 14, 18)"
         },
         {
           "skillId": 451,
@@ -147919,7 +147919,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 4,
-          "conditionText": "Turn 3 + 4 * X"
+          "conditionText": "Turn 3 + 4 * X (e.g.: Turns 3, 7, 11, 15, 19)"
         },
         {
           "skillId": 240,
@@ -147928,7 +147928,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 4,
-          "conditionText": "Turn 4 + 4 * X"
+          "conditionText": "Turn 4 + 4 * X (e.g.: Turns 4, 8, 12, 16, 20)"
         }
       ],
       "dropItems": [
@@ -148106,7 +148106,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 6,
-          "conditionText": "Turn 1 + 6 * X"
+          "conditionText": "Turn 1 + 6 * X (e.g.: Turns 1, 7, 13, 19, 25)"
         },
         {
           "skillId": 314,
@@ -148115,7 +148115,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 6,
-          "conditionText": "Turn 2 + 6 * X"
+          "conditionText": "Turn 2 + 6 * X (e.g.: Turns 2, 8, 14, 20, 26)"
         },
         {
           "skillId": 455,
@@ -148124,7 +148124,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 6,
-          "conditionText": "Turn 3 + 6 * X"
+          "conditionText": "Turn 3 + 6 * X (e.g.: Turns 3, 9, 15, 21, 27)"
         },
         {
           "skillId": 123,
@@ -148133,7 +148133,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 6,
-          "conditionText": "Turn 4 + 6 * X"
+          "conditionText": "Turn 4 + 6 * X (e.g.: Turns 4, 10, 16, 22, 28)"
         },
         {
           "skillId": 231,
@@ -148142,7 +148142,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 6,
-          "conditionText": "Turn 5 + 6 * X"
+          "conditionText": "Turn 5 + 6 * X (e.g.: Turns 5, 11, 17, 23, 29)"
         },
         {
           "skillId": 173,
@@ -148151,7 +148151,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 6,
           "conditionParam2": 6,
-          "conditionText": "Turn 6 + 6 * X"
+          "conditionText": "Turn 6 + 6 * X (e.g.: Turns 6, 12, 18, 24, 30)"
         },
         {
           "skillId": 456,
@@ -148160,7 +148160,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 6,
-          "conditionText": "Turn 1 + 6 * X"
+          "conditionText": "Turn 1 + 6 * X (e.g.: Turns 1, 7, 13, 19, 25)"
         },
         {
           "skillId": 21,
@@ -148169,7 +148169,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 6,
-          "conditionText": "Turn 3 + 6 * X"
+          "conditionText": "Turn 3 + 6 * X (e.g.: Turns 3, 9, 15, 21, 27)"
         },
         {
           "skillId": 457,
@@ -148372,7 +148372,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 6,
-          "conditionText": "Turn 1 + 6 * X"
+          "conditionText": "Turn 1 + 6 * X (e.g.: Turns 1, 7, 13, 19, 25)"
         },
         {
           "skillId": 314,
@@ -148381,7 +148381,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 6,
-          "conditionText": "Turn 2 + 6 * X"
+          "conditionText": "Turn 2 + 6 * X (e.g.: Turns 2, 8, 14, 20, 26)"
         },
         {
           "skillId": 455,
@@ -148390,7 +148390,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 6,
-          "conditionText": "Turn 3 + 6 * X"
+          "conditionText": "Turn 3 + 6 * X (e.g.: Turns 3, 9, 15, 21, 27)"
         },
         {
           "skillId": 123,
@@ -148399,7 +148399,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 6,
-          "conditionText": "Turn 4 + 6 * X"
+          "conditionText": "Turn 4 + 6 * X (e.g.: Turns 4, 10, 16, 22, 28)"
         },
         {
           "skillId": 231,
@@ -148408,7 +148408,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 6,
-          "conditionText": "Turn 5 + 6 * X"
+          "conditionText": "Turn 5 + 6 * X (e.g.: Turns 5, 11, 17, 23, 29)"
         },
         {
           "skillId": 173,
@@ -148417,7 +148417,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 6,
           "conditionParam2": 6,
-          "conditionText": "Turn 6 + 6 * X"
+          "conditionText": "Turn 6 + 6 * X (e.g.: Turns 6, 12, 18, 24, 30)"
         },
         {
           "skillId": 456,
@@ -148426,7 +148426,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 6,
-          "conditionText": "Turn 1 + 6 * X"
+          "conditionText": "Turn 1 + 6 * X (e.g.: Turns 1, 7, 13, 19, 25)"
         },
         {
           "skillId": 21,
@@ -148435,7 +148435,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 6,
-          "conditionText": "Turn 3 + 6 * X"
+          "conditionText": "Turn 3 + 6 * X (e.g.: Turns 3, 9, 15, 21, 27)"
         }
       ],
       "dropItems": [
@@ -149303,7 +149303,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 5,
-          "conditionText": "Turn 1 + 5 * X"
+          "conditionText": "Turn 1 + 5 * X (e.g.: Turns 1, 6, 11, 16, 21)"
         },
         {
           "skillId": 464,
@@ -149312,7 +149312,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 5,
-          "conditionText": "Turn 2 + 5 * X"
+          "conditionText": "Turn 2 + 5 * X (e.g.: Turns 2, 7, 12, 17, 22)"
         },
         {
           "skillId": 465,
@@ -149321,7 +149321,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 5,
-          "conditionText": "Turn 3 + 5 * X"
+          "conditionText": "Turn 3 + 5 * X (e.g.: Turns 3, 8, 13, 18, 23)"
         },
         {
           "skillId": 467,
@@ -149330,7 +149330,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 5,
-          "conditionText": "Turn 4 + 5 * X"
+          "conditionText": "Turn 4 + 5 * X (e.g.: Turns 4, 9, 14, 19, 24)"
         },
         {
           "skillId": 466,
@@ -149348,7 +149348,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 5,
-          "conditionText": "Turn 5 + 5 * X"
+          "conditionText": "Turn 5 + 5 * X (e.g.: Turns 5, 10, 15, 20, 25)"
         }
       ],
       "dropItems": [
@@ -149513,7 +149513,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 3,
-          "conditionText": "Turn 1 + 3 * X"
+          "conditionText": "Turn 1 + 3 * X (e.g.: Turns 1, 4, 7, 10, 13)"
         }
       ],
       "dropItems": [
@@ -149701,7 +149701,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 3,
-          "conditionText": "Turn 1 + 3 * X"
+          "conditionText": "Turn 1 + 3 * X (e.g.: Turns 1, 4, 7, 10, 13)"
         }
       ],
       "dropItems": [
@@ -151165,7 +151165,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 4,
-          "conditionText": "Turn 1 + 4 * X"
+          "conditionText": "Turn 1 + 4 * X (e.g.: Turns 1, 5, 9, 13, 17)"
         },
         {
           "skillId": 514,
@@ -151174,7 +151174,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 4,
-          "conditionText": "Turn 2 + 4 * X"
+          "conditionText": "Turn 2 + 4 * X (e.g.: Turns 2, 6, 10, 14, 18)"
         },
         {
           "skillId": 515,
@@ -151183,7 +151183,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 4,
-          "conditionText": "Turn 3 + 4 * X"
+          "conditionText": "Turn 3 + 4 * X (e.g.: Turns 3, 7, 11, 15, 19)"
         },
         {
           "skillId": 516,
@@ -151192,7 +151192,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 4,
-          "conditionText": "Turn 4 + 4 * X"
+          "conditionText": "Turn 4 + 4 * X (e.g.: Turns 4, 8, 12, 16, 20)"
         }
       ],
       "dropItems": [
@@ -151507,7 +151507,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 6,
-          "conditionText": "Turn 3 + 6 * X"
+          "conditionText": "Turn 3 + 6 * X (e.g.: Turns 3, 9, 15, 21, 27)"
         },
         {
           "skillId": 518,
@@ -151516,7 +151516,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 6,
-          "conditionText": "Turn 1 + 6 * X"
+          "conditionText": "Turn 1 + 6 * X (e.g.: Turns 1, 7, 13, 19, 25)"
         },
         {
           "skillId": 519,
@@ -151525,7 +151525,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 6,
-          "conditionText": "Turn 2 + 6 * X"
+          "conditionText": "Turn 2 + 6 * X (e.g.: Turns 2, 8, 14, 20, 26)"
         },
         {
           "skillId": 520,
@@ -151543,7 +151543,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 6,
-          "conditionText": "Turn 4 + 6 * X"
+          "conditionText": "Turn 4 + 6 * X (e.g.: Turns 4, 10, 16, 22, 28)"
         },
         {
           "skillId": 518,
@@ -151552,7 +151552,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 6,
-          "conditionText": "Turn 5 + 6 * X"
+          "conditionText": "Turn 5 + 6 * X (e.g.: Turns 5, 11, 17, 23, 29)"
         },
         {
           "skillId": 522,
@@ -151561,7 +151561,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 6,
           "conditionParam2": 6,
-          "conditionText": "Turn 6 + 6 * X"
+          "conditionText": "Turn 6 + 6 * X (e.g.: Turns 6, 12, 18, 24, 30)"
         }
       ],
       "dropItems": [
@@ -151732,7 +151732,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 6,
-          "conditionText": "Turn 3 + 6 * X"
+          "conditionText": "Turn 3 + 6 * X (e.g.: Turns 3, 9, 15, 21, 27)"
         },
         {
           "skillId": 518,
@@ -151741,7 +151741,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 6,
-          "conditionText": "Turn 1 + 6 * X"
+          "conditionText": "Turn 1 + 6 * X (e.g.: Turns 1, 7, 13, 19, 25)"
         },
         {
           "skillId": 519,
@@ -151750,7 +151750,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 6,
-          "conditionText": "Turn 2 + 6 * X"
+          "conditionText": "Turn 2 + 6 * X (e.g.: Turns 2, 8, 14, 20, 26)"
         },
         {
           "skillId": 520,
@@ -151768,7 +151768,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 6,
-          "conditionText": "Turn 4 + 6 * X"
+          "conditionText": "Turn 4 + 6 * X (e.g.: Turns 4, 10, 16, 22, 28)"
         },
         {
           "skillId": 518,
@@ -151777,7 +151777,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 6,
-          "conditionText": "Turn 5 + 6 * X"
+          "conditionText": "Turn 5 + 6 * X (e.g.: Turns 5, 11, 17, 23, 29)"
         },
         {
           "skillId": 522,
@@ -151786,7 +151786,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 6,
           "conditionParam2": 6,
-          "conditionText": "Turn 6 + 6 * X"
+          "conditionText": "Turn 6 + 6 * X (e.g.: Turns 6, 12, 18, 24, 30)"
         }
       ],
       "dropItems": [
@@ -152431,7 +152431,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 10,
-          "conditionText": "Turn 1 + 10 * X"
+          "conditionText": "Turn 1 + 10 * X (e.g.: Turns 1, 11, 21, 31, 41)"
         },
         {
           "skillId": 29,
@@ -152948,7 +152948,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 0,
-          "conditionText": "Turn 1"
+          "conditionText": "Turn 1 (e.g.: Turns 1, 1, 1, 1, 1)"
         }
       ],
       "dropItems": [
@@ -153182,7 +153182,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 8,
-          "conditionText": "Turn 1 + 8 * X"
+          "conditionText": "Turn 1 + 8 * X (e.g.: Turns 1, 9, 17, 25, 33)"
         },
         {
           "skillId": 586,
@@ -153191,7 +153191,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 8,
-          "conditionText": "Turn 2 + 8 * X"
+          "conditionText": "Turn 2 + 8 * X (e.g.: Turns 2, 10, 18, 26, 34)"
         },
         {
           "skillId": 100,
@@ -153200,7 +153200,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 8,
-          "conditionText": "Turn 3 + 8 * X"
+          "conditionText": "Turn 3 + 8 * X (e.g.: Turns 3, 11, 19, 27, 35)"
         },
         {
           "skillId": 534,
@@ -153209,7 +153209,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 8,
-          "conditionText": "Turn 4 + 8 * X"
+          "conditionText": "Turn 4 + 8 * X (e.g.: Turns 4, 12, 20, 28, 36)"
         },
         {
           "skillId": 167,
@@ -153218,7 +153218,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 8,
-          "conditionText": "Turn 5 + 8 * X"
+          "conditionText": "Turn 5 + 8 * X (e.g.: Turns 5, 13, 21, 29, 37)"
         },
         {
           "skillId": 167,
@@ -153227,7 +153227,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 6,
           "conditionParam2": 8,
-          "conditionText": "Turn 6 + 8 * X"
+          "conditionText": "Turn 6 + 8 * X (e.g.: Turns 6, 14, 22, 30, 38)"
         },
         {
           "skillId": 107,
@@ -153236,7 +153236,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 7,
           "conditionParam2": 8,
-          "conditionText": "Turn 7 + 8 * X"
+          "conditionText": "Turn 7 + 8 * X (e.g.: Turns 7, 15, 23, 31, 39)"
         },
         {
           "skillId": 535,
@@ -153245,7 +153245,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 8,
           "conditionParam2": 8,
-          "conditionText": "Turn 8 + 8 * X"
+          "conditionText": "Turn 8 + 8 * X (e.g.: Turns 8, 16, 24, 32, 40)"
         }
       ],
       "dropItems": [
@@ -153486,7 +153486,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 10,
-          "conditionText": "Turn 3 + 10 * X"
+          "conditionText": "Turn 3 + 10 * X (e.g.: Turns 3, 13, 23, 33, 43)"
         },
         {
           "skillId": 321,
@@ -153495,7 +153495,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 10,
-          "conditionText": "Turn 2 + 10 * X"
+          "conditionText": "Turn 2 + 10 * X (e.g.: Turns 2, 12, 22, 32, 42)"
         },
         {
           "skillId": 322,
@@ -153504,7 +153504,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 10,
-          "conditionText": "Turn 2 + 10 * X"
+          "conditionText": "Turn 2 + 10 * X (e.g.: Turns 2, 12, 22, 32, 42)"
         },
         {
           "skillId": 533,
@@ -153513,7 +153513,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 10,
-          "conditionText": "Turn 4 + 10 * X"
+          "conditionText": "Turn 4 + 10 * X (e.g.: Turns 4, 14, 24, 34, 44)"
         },
         {
           "skillId": 389,
@@ -153522,7 +153522,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 10,
-          "conditionText": "Turn 5 + 10 * X"
+          "conditionText": "Turn 5 + 10 * X (e.g.: Turns 5, 15, 25, 35, 45)"
         },
         {
           "skillId": 115,
@@ -153531,7 +153531,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 10,
-          "conditionText": "Turn 1 + 10 * X"
+          "conditionText": "Turn 1 + 10 * X (e.g.: Turns 1, 11, 21, 31, 41)"
         },
         {
           "skillId": 116,
@@ -153540,7 +153540,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 10,
-          "conditionText": "Turn 1 + 10 * X"
+          "conditionText": "Turn 1 + 10 * X (e.g.: Turns 1, 11, 21, 31, 41)"
         },
         {
           "skillId": 389,
@@ -153558,7 +153558,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 6,
           "conditionParam2": 10,
-          "conditionText": "Turn 6 + 10 * X"
+          "conditionText": "Turn 6 + 10 * X (e.g.: Turns 6, 16, 26, 36, 46)"
         },
         {
           "skillId": 240,
@@ -153567,7 +153567,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 7,
           "conditionParam2": 10,
-          "conditionText": "Turn 7 + 10 * X"
+          "conditionText": "Turn 7 + 10 * X (e.g.: Turns 7, 17, 27, 37, 47)"
         },
         {
           "skillId": 292,
@@ -153576,7 +153576,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 8,
           "conditionParam2": 10,
-          "conditionText": "Turn 8 + 10 * X"
+          "conditionText": "Turn 8 + 10 * X (e.g.: Turns 8, 18, 28, 38, 48)"
         },
         {
           "skillId": 538,
@@ -153585,7 +153585,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 9,
           "conditionParam2": 10,
-          "conditionText": "Turn 9 + 10 * X"
+          "conditionText": "Turn 9 + 10 * X (e.g.: Turns 9, 19, 29, 39, 49)"
         },
         {
           "skillId": 540,
@@ -153594,7 +153594,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 10,
           "conditionParam2": 10,
-          "conditionText": "Turn 10 + 10 * X"
+          "conditionText": "Turn 10 + 10 * X (e.g.: Turns 10, 20, 30, 40, 50)"
         },
         {
           "skillId": 537,
@@ -155366,7 +155366,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 3,
-          "conditionText": "Turn 3 + 3 * X"
+          "conditionText": "Turn 3 + 3 * X (e.g.: Turns 3, 6, 9, 12, 15)"
         },
         {
           "skillId": 67,
@@ -155375,7 +155375,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 3,
-          "conditionText": "Turn 3 + 3 * X"
+          "conditionText": "Turn 3 + 3 * X (e.g.: Turns 3, 6, 9, 12, 15)"
         },
         {
           "skillId": 136,
@@ -155384,7 +155384,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 3,
-          "conditionText": "Turn 3 + 3 * X"
+          "conditionText": "Turn 3 + 3 * X (e.g.: Turns 3, 6, 9, 12, 15)"
         },
         {
           "skillId": 234,
@@ -155393,7 +155393,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 3,
-          "conditionText": "Turn 1 + 3 * X"
+          "conditionText": "Turn 1 + 3 * X (e.g.: Turns 1, 4, 7, 10, 13)"
         }
       ],
       "dropItems": [
@@ -156102,7 +156102,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 3,
-          "conditionText": "Turn 1 + 3 * X"
+          "conditionText": "Turn 1 + 3 * X (e.g.: Turns 1, 4, 7, 10, 13)"
         },
         {
           "skillId": 15,
@@ -156111,7 +156111,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 3,
-          "conditionText": "Turn 2 + 3 * X"
+          "conditionText": "Turn 2 + 3 * X (e.g.: Turns 2, 5, 8, 11, 14)"
         },
         {
           "skillId": 579,
@@ -156147,7 +156147,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 3,
-          "conditionText": "Turn 3 + 3 * X"
+          "conditionText": "Turn 3 + 3 * X (e.g.: Turns 3, 6, 9, 12, 15)"
         },
         {
           "skillId": 34,
@@ -156165,7 +156165,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 3,
-          "conditionText": "Turn 3 + 3 * X"
+          "conditionText": "Turn 3 + 3 * X (e.g.: Turns 3, 6, 9, 12, 15)"
         },
         {
           "skillId": 569,
@@ -156174,7 +156174,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 3,
-          "conditionText": "Turn 1 + 3 * X"
+          "conditionText": "Turn 1 + 3 * X (e.g.: Turns 1, 4, 7, 10, 13)"
         }
       ],
       "dropItems": [
@@ -159005,7 +159005,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 0,
-          "conditionText": "Turn 1"
+          "conditionText": "Turn 1 (e.g.: Turns 1, 1, 1, 1, 1)"
         },
         {
           "skillId": 173,
@@ -159304,7 +159304,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 2,
-          "conditionText": "Turn 2 + 2 * X"
+          "conditionText": "Turn 2 + 2 * X (e.g.: Turns 2, 4, 6, 8, 10)"
         }
       ],
       "dropItems": [
@@ -160412,7 +160412,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 4,
-          "conditionText": "Turn 1 + 4 * X"
+          "conditionText": "Turn 1 + 4 * X (e.g.: Turns 1, 5, 9, 13, 17)"
         },
         {
           "skillId": 240,
@@ -160421,7 +160421,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 4,
-          "conditionText": "Turn 2 + 4 * X"
+          "conditionText": "Turn 2 + 4 * X (e.g.: Turns 2, 6, 10, 14, 18)"
         },
         {
           "skillId": 374,
@@ -160430,7 +160430,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 4,
-          "conditionText": "Turn 3 + 4 * X"
+          "conditionText": "Turn 3 + 4 * X (e.g.: Turns 3, 7, 11, 15, 19)"
         },
         {
           "skillId": 288,
@@ -160439,7 +160439,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 4,
-          "conditionText": "Turn 4 + 4 * X"
+          "conditionText": "Turn 4 + 4 * X (e.g.: Turns 4, 8, 12, 16, 20)"
         },
         {
           "skillId": 289,
@@ -160448,7 +160448,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 4,
-          "conditionText": "Turn 4 + 4 * X"
+          "conditionText": "Turn 4 + 4 * X (e.g.: Turns 4, 8, 12, 16, 20)"
         },
         {
           "skillId": 561,
@@ -160457,7 +160457,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 4,
-          "conditionText": "Turn 2 + 4 * X"
+          "conditionText": "Turn 2 + 4 * X (e.g.: Turns 2, 6, 10, 14, 18)"
         },
         {
           "skillId": 110,
@@ -160466,7 +160466,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 4,
-          "conditionText": "Turn 3 + 4 * X"
+          "conditionText": "Turn 3 + 4 * X (e.g.: Turns 3, 7, 11, 15, 19)"
         },
         {
           "skillId": 21,
@@ -160475,7 +160475,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 4,
-          "conditionText": "Turn 3 + 4 * X"
+          "conditionText": "Turn 3 + 4 * X (e.g.: Turns 3, 7, 11, 15, 19)"
         },
         {
           "skillId": 583,
@@ -160484,7 +160484,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 4,
-          "conditionText": "Turn 1 + 4 * X"
+          "conditionText": "Turn 1 + 4 * X (e.g.: Turns 1, 5, 9, 13, 17)"
         }
       ],
       "dropItems": [
@@ -160690,7 +160690,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 4,
-          "conditionText": "Turn 1 + 4 * X"
+          "conditionText": "Turn 1 + 4 * X (e.g.: Turns 1, 5, 9, 13, 17)"
         },
         {
           "skillId": 240,
@@ -160699,7 +160699,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 4,
-          "conditionText": "Turn 2 + 4 * X"
+          "conditionText": "Turn 2 + 4 * X (e.g.: Turns 2, 6, 10, 14, 18)"
         },
         {
           "skillId": 374,
@@ -160708,7 +160708,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 4,
-          "conditionText": "Turn 3 + 4 * X"
+          "conditionText": "Turn 3 + 4 * X (e.g.: Turns 3, 7, 11, 15, 19)"
         },
         {
           "skillId": 288,
@@ -160717,7 +160717,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 4,
-          "conditionText": "Turn 4 + 4 * X"
+          "conditionText": "Turn 4 + 4 * X (e.g.: Turns 4, 8, 12, 16, 20)"
         },
         {
           "skillId": 289,
@@ -160726,7 +160726,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 4,
-          "conditionText": "Turn 4 + 4 * X"
+          "conditionText": "Turn 4 + 4 * X (e.g.: Turns 4, 8, 12, 16, 20)"
         },
         {
           "skillId": 169,
@@ -160735,7 +160735,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 4,
-          "conditionText": "Turn 1 + 4 * X"
+          "conditionText": "Turn 1 + 4 * X (e.g.: Turns 1, 5, 9, 13, 17)"
         },
         {
           "skillId": 561,
@@ -160744,7 +160744,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 4,
-          "conditionText": "Turn 2 + 4 * X"
+          "conditionText": "Turn 2 + 4 * X (e.g.: Turns 2, 6, 10, 14, 18)"
         },
         {
           "skillId": 110,
@@ -160753,7 +160753,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 4,
-          "conditionText": "Turn 3 + 4 * X"
+          "conditionText": "Turn 3 + 4 * X (e.g.: Turns 3, 7, 11, 15, 19)"
         },
         {
           "skillId": 21,
@@ -160762,7 +160762,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 4,
-          "conditionText": "Turn 3 + 4 * X"
+          "conditionText": "Turn 3 + 4 * X (e.g.: Turns 3, 7, 11, 15, 19)"
         },
         {
           "skillId": 583,
@@ -160771,7 +160771,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 4,
-          "conditionText": "Turn 1 + 4 * X"
+          "conditionText": "Turn 1 + 4 * X (e.g.: Turns 1, 5, 9, 13, 17)"
         }
       ],
       "dropItems": [
@@ -160879,7 +160879,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 0,
-          "conditionText": "Turn 1"
+          "conditionText": "Turn 1 (e.g.: Turns 1, 1, 1, 1, 1)"
         },
         {
           "skillId": 71,
@@ -161779,7 +161779,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 5,
-          "conditionText": "Turn 2 + 5 * X"
+          "conditionText": "Turn 2 + 5 * X (e.g.: Turns 2, 7, 12, 17, 22)"
         },
         {
           "skillId": 297,
@@ -161788,7 +161788,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 5,
-          "conditionText": "Turn 3 + 5 * X"
+          "conditionText": "Turn 3 + 5 * X (e.g.: Turns 3, 8, 13, 18, 23)"
         },
         {
           "skillId": 464,
@@ -161797,7 +161797,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 5,
-          "conditionText": "Turn 4 + 5 * X"
+          "conditionText": "Turn 4 + 5 * X (e.g.: Turns 4, 9, 14, 19, 24)"
         },
         {
           "skillId": 465,
@@ -161806,7 +161806,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 5,
-          "conditionText": "Turn 5 + 5 * X"
+          "conditionText": "Turn 5 + 5 * X (e.g.: Turns 5, 10, 15, 20, 25)"
         },
         {
           "skillId": 466,
@@ -161815,7 +161815,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 5,
-          "conditionText": "Turn 1 + 5 * X"
+          "conditionText": "Turn 1 + 5 * X (e.g.: Turns 1, 6, 11, 16, 21)"
         }
       ],
       "dropItems": [
@@ -162021,7 +162021,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 6,
-          "conditionText": "Turn 2 + 6 * X"
+          "conditionText": "Turn 2 + 6 * X (e.g.: Turns 2, 8, 14, 20, 26)"
         },
         {
           "skillId": 263,
@@ -162030,7 +162030,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 6,
-          "conditionText": "Turn 5 + 6 * X"
+          "conditionText": "Turn 5 + 6 * X (e.g.: Turns 5, 11, 17, 23, 29)"
         },
         {
           "skillId": 263,
@@ -162039,7 +162039,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 6,
-          "conditionText": "Turn 4 + 6 * X"
+          "conditionText": "Turn 4 + 6 * X (e.g.: Turns 4, 10, 16, 22, 28)"
         },
         {
           "skillId": 263,
@@ -162048,7 +162048,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 6,
-          "conditionText": "Turn 3 + 6 * X"
+          "conditionText": "Turn 3 + 6 * X (e.g.: Turns 3, 9, 15, 21, 27)"
         },
         {
           "skillId": 231,
@@ -162057,7 +162057,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 6,
-          "conditionText": "Turn 5 + 6 * X"
+          "conditionText": "Turn 5 + 6 * X (e.g.: Turns 5, 11, 17, 23, 29)"
         },
         {
           "skillId": 231,
@@ -162066,7 +162066,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 6,
-          "conditionText": "Turn 4 + 6 * X"
+          "conditionText": "Turn 4 + 6 * X (e.g.: Turns 4, 10, 16, 22, 28)"
         },
         {
           "skillId": 231,
@@ -162075,7 +162075,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 6,
-          "conditionText": "Turn 3 + 6 * X"
+          "conditionText": "Turn 3 + 6 * X (e.g.: Turns 3, 9, 15, 21, 27)"
         },
         {
           "skillId": 164,
@@ -162084,7 +162084,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 6,
-          "conditionText": "Turn 5 + 6 * X"
+          "conditionText": "Turn 5 + 6 * X (e.g.: Turns 5, 11, 17, 23, 29)"
         },
         {
           "skillId": 164,
@@ -162093,7 +162093,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 6,
-          "conditionText": "Turn 4 + 6 * X"
+          "conditionText": "Turn 4 + 6 * X (e.g.: Turns 4, 10, 16, 22, 28)"
         },
         {
           "skillId": 164,
@@ -162102,7 +162102,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 6,
-          "conditionText": "Turn 3 + 6 * X"
+          "conditionText": "Turn 3 + 6 * X (e.g.: Turns 3, 9, 15, 21, 27)"
         },
         {
           "skillId": 609,
@@ -162111,7 +162111,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 6,
-          "conditionText": "Turn 1 + 6 * X"
+          "conditionText": "Turn 1 + 6 * X (e.g.: Turns 1, 7, 13, 19, 25)"
         },
         {
           "skillId": 611,
@@ -162120,7 +162120,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 6,
           "conditionParam2": 6,
-          "conditionText": "Turn 6 + 6 * X"
+          "conditionText": "Turn 6 + 6 * X (e.g.: Turns 6, 12, 18, 24, 30)"
         }
       ],
       "dropItems": [
@@ -162737,7 +162737,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 0,
-          "conditionText": "Turn 1"
+          "conditionText": "Turn 1 (e.g.: Turns 1, 1, 1, 1, 1)"
         },
         {
           "skillId": 71,
@@ -163743,7 +163743,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 8,
-          "conditionText": "Turn 1 + 8 * X"
+          "conditionText": "Turn 1 + 8 * X (e.g.: Turns 1, 9, 17, 25, 33)"
         },
         {
           "skillId": 468,
@@ -163752,7 +163752,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 8,
-          "conditionText": "Turn 2 + 8 * X"
+          "conditionText": "Turn 2 + 8 * X (e.g.: Turns 2, 10, 18, 26, 34)"
         },
         {
           "skillId": 469,
@@ -163761,7 +163761,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 8,
-          "conditionText": "Turn 3 + 8 * X"
+          "conditionText": "Turn 3 + 8 * X (e.g.: Turns 3, 11, 19, 27, 35)"
         },
         {
           "skillId": 451,
@@ -163770,7 +163770,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 8,
-          "conditionText": "Turn 4 + 8 * X"
+          "conditionText": "Turn 4 + 8 * X (e.g.: Turns 4, 12, 20, 28, 36)"
         },
         {
           "skillId": 449,
@@ -163779,7 +163779,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 8,
-          "conditionText": "Turn 5 + 8 * X"
+          "conditionText": "Turn 5 + 8 * X (e.g.: Turns 5, 13, 21, 29, 37)"
         },
         {
           "skillId": 617,
@@ -163788,7 +163788,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 6,
           "conditionParam2": 8,
-          "conditionText": "Turn 6 + 8 * X"
+          "conditionText": "Turn 6 + 8 * X (e.g.: Turns 6, 14, 22, 30, 38)"
         },
         {
           "skillId": 150,
@@ -163797,7 +163797,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 7,
           "conditionParam2": 8,
-          "conditionText": "Turn 7 + 8 * X"
+          "conditionText": "Turn 7 + 8 * X (e.g.: Turns 7, 15, 23, 31, 39)"
         },
         {
           "skillId": 618,
@@ -163806,7 +163806,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 8,
           "conditionParam2": 8,
-          "conditionText": "Turn 8 + 8 * X"
+          "conditionText": "Turn 8 + 8 * X (e.g.: Turns 8, 16, 24, 32, 40)"
         }
       ],
       "dropItems": [
@@ -165032,7 +165032,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 0,
-          "conditionText": "Turn 2"
+          "conditionText": "Turn 2 (e.g.: Turns 2, 2, 2, 2, 2)"
         },
         {
           "skillId": 28,
@@ -166703,7 +166703,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 4,
-          "conditionText": "Turn 1 + 4 * X"
+          "conditionText": "Turn 1 + 4 * X (e.g.: Turns 1, 5, 9, 13, 17)"
         },
         {
           "skillId": 219,
@@ -166712,7 +166712,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 4,
-          "conditionText": "Turn 2 + 4 * X"
+          "conditionText": "Turn 2 + 4 * X (e.g.: Turns 2, 6, 10, 14, 18)"
         },
         {
           "skillId": 219,
@@ -166721,7 +166721,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 4,
-          "conditionText": "Turn 3 + 4 * X"
+          "conditionText": "Turn 3 + 4 * X (e.g.: Turns 3, 7, 11, 15, 19)"
         },
         {
           "skillId": 218,
@@ -166730,7 +166730,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 4,
-          "conditionText": "Turn 4 + 4 * X"
+          "conditionText": "Turn 4 + 4 * X (e.g.: Turns 4, 8, 12, 16, 20)"
         }
       ],
       "dropItems": [
@@ -167481,7 +167481,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 3,
-          "conditionText": "Turn 2 + 3 * X"
+          "conditionText": "Turn 2 + 3 * X (e.g.: Turns 2, 5, 8, 11, 14)"
         },
         {
           "skillId": 234,
@@ -167490,7 +167490,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 3,
-          "conditionText": "Turn 1 + 3 * X"
+          "conditionText": "Turn 1 + 3 * X (e.g.: Turns 1, 4, 7, 10, 13)"
         },
         {
           "skillId": 231,
@@ -167499,7 +167499,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 3,
-          "conditionText": "Turn 3 + 3 * X"
+          "conditionText": "Turn 3 + 3 * X (e.g.: Turns 3, 6, 9, 12, 15)"
         }
       ],
       "dropItems": [
@@ -170667,7 +170667,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 3,
-          "conditionText": "Turn 1 + 3 * X"
+          "conditionText": "Turn 1 + 3 * X (e.g.: Turns 1, 4, 7, 10, 13)"
         },
         {
           "skillId": 446,
@@ -170676,7 +170676,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 3,
-          "conditionText": "Turn 2 + 3 * X"
+          "conditionText": "Turn 2 + 3 * X (e.g.: Turns 2, 5, 8, 11, 14)"
         },
         {
           "skillId": 15,
@@ -170685,7 +170685,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 3,
-          "conditionText": "Turn 3 + 3 * X"
+          "conditionText": "Turn 3 + 3 * X (e.g.: Turns 3, 6, 9, 12, 15)"
         }
       ],
       "dropItems": [
@@ -170800,7 +170800,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 3,
-          "conditionText": "Turn 1 + 3 * X"
+          "conditionText": "Turn 1 + 3 * X (e.g.: Turns 1, 4, 7, 10, 13)"
         },
         {
           "skillId": 442,
@@ -170809,7 +170809,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 3,
-          "conditionText": "Turn 2 + 3 * X"
+          "conditionText": "Turn 2 + 3 * X (e.g.: Turns 2, 5, 8, 11, 14)"
         },
         {
           "skillId": 2,
@@ -170818,7 +170818,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 3,
-          "conditionText": "Turn 3 + 3 * X"
+          "conditionText": "Turn 3 + 3 * X (e.g.: Turns 3, 6, 9, 12, 15)"
         }
       ],
       "dropItems": [
@@ -170933,7 +170933,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 3,
-          "conditionText": "Turn 2 + 3 * X"
+          "conditionText": "Turn 2 + 3 * X (e.g.: Turns 2, 5, 8, 11, 14)"
         },
         {
           "skillId": 444,
@@ -170942,7 +170942,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 3,
-          "conditionText": "Turn 3 + 3 * X"
+          "conditionText": "Turn 3 + 3 * X (e.g.: Turns 3, 6, 9, 12, 15)"
         },
         {
           "skillId": 51,
@@ -170951,7 +170951,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 3,
-          "conditionText": "Turn 1 + 3 * X"
+          "conditionText": "Turn 1 + 3 * X (e.g.: Turns 1, 4, 7, 10, 13)"
         }
       ],
       "dropItems": [
@@ -171080,7 +171080,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 0,
-          "conditionText": "Turn 1"
+          "conditionText": "Turn 1 (e.g.: Turns 1, 1, 1, 1, 1)"
         },
         {
           "skillId": 21,
@@ -171089,7 +171089,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 3,
-          "conditionText": "Turn 1 + 3 * X"
+          "conditionText": "Turn 1 + 3 * X (e.g.: Turns 1, 4, 7, 10, 13)"
         },
         {
           "skillId": 85,
@@ -171098,7 +171098,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 3,
-          "conditionText": "Turn 2 + 3 * X"
+          "conditionText": "Turn 2 + 3 * X (e.g.: Turns 2, 5, 8, 11, 14)"
         },
         {
           "skillId": 385,
@@ -171107,7 +171107,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 3,
-          "conditionText": "Turn 3 + 3 * X"
+          "conditionText": "Turn 3 + 3 * X (e.g.: Turns 3, 6, 9, 12, 15)"
         }
       ],
       "dropItems": [
@@ -171222,7 +171222,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 0,
-          "conditionText": "Turn 1"
+          "conditionText": "Turn 1 (e.g.: Turns 1, 1, 1, 1, 1)"
         },
         {
           "skillId": 71,
@@ -171353,7 +171353,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 0,
-          "conditionText": "Turn 1"
+          "conditionText": "Turn 1 (e.g.: Turns 1, 1, 1, 1, 1)"
         },
         {
           "skillId": 42,
@@ -171362,7 +171362,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 0,
-          "conditionText": "Turn 1"
+          "conditionText": "Turn 1 (e.g.: Turns 1, 1, 1, 1, 1)"
         },
         {
           "skillId": 95,
@@ -171784,7 +171784,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 3,
-          "conditionText": "Turn 1 + 3 * X"
+          "conditionText": "Turn 1 + 3 * X (e.g.: Turns 1, 4, 7, 10, 13)"
         },
         {
           "skillId": 632,
@@ -171793,7 +171793,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 3,
-          "conditionText": "Turn 2 + 3 * X"
+          "conditionText": "Turn 2 + 3 * X (e.g.: Turns 2, 5, 8, 11, 14)"
         },
         {
           "skillId": 207,
@@ -171802,7 +171802,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 3,
-          "conditionText": "Turn 3 + 3 * X"
+          "conditionText": "Turn 3 + 3 * X (e.g.: Turns 3, 6, 9, 12, 15)"
         }
       ],
       "dropItems": [
@@ -171910,7 +171910,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 6,
-          "conditionText": "Turn 1 + 6 * X"
+          "conditionText": "Turn 1 + 6 * X (e.g.: Turns 1, 7, 13, 19, 25)"
         },
         {
           "skillId": 100,
@@ -171919,7 +171919,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 6,
-          "conditionText": "Turn 2 + 6 * X"
+          "conditionText": "Turn 2 + 6 * X (e.g.: Turns 2, 8, 14, 20, 26)"
         },
         {
           "skillId": 106,
@@ -171928,7 +171928,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 6,
-          "conditionText": "Turn 3 + 6 * X"
+          "conditionText": "Turn 3 + 6 * X (e.g.: Turns 3, 9, 15, 21, 27)"
         },
         {
           "skillId": 85,
@@ -171937,7 +171937,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 6,
-          "conditionText": "Turn 4 + 6 * X"
+          "conditionText": "Turn 4 + 6 * X (e.g.: Turns 4, 10, 16, 22, 28)"
         },
         {
           "skillId": 63,
@@ -171946,7 +171946,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 6,
-          "conditionText": "Turn 5 + 6 * X"
+          "conditionText": "Turn 5 + 6 * X (e.g.: Turns 5, 11, 17, 23, 29)"
         },
         {
           "skillId": 216,
@@ -171964,7 +171964,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 6,
           "conditionParam2": 6,
-          "conditionText": "Turn 6 + 6 * X"
+          "conditionText": "Turn 6 + 6 * X (e.g.: Turns 6, 12, 18, 24, 30)"
         }
       ],
       "dropItems": [
@@ -173174,7 +173174,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 5,
-          "conditionText": "Turn 1 + 5 * X"
+          "conditionText": "Turn 1 + 5 * X (e.g.: Turns 1, 6, 11, 16, 21)"
         },
         {
           "skillId": 641,
@@ -173183,7 +173183,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 5,
-          "conditionText": "Turn 2 + 5 * X"
+          "conditionText": "Turn 2 + 5 * X (e.g.: Turns 2, 7, 12, 17, 22)"
         },
         {
           "skillId": 641,
@@ -173192,7 +173192,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 5,
-          "conditionText": "Turn 3 + 5 * X"
+          "conditionText": "Turn 3 + 5 * X (e.g.: Turns 3, 8, 13, 18, 23)"
         },
         {
           "skillId": 641,
@@ -173201,7 +173201,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 5,
-          "conditionText": "Turn 4 + 5 * X"
+          "conditionText": "Turn 4 + 5 * X (e.g.: Turns 4, 9, 14, 19, 24)"
         },
         {
           "skillId": 640,
@@ -173210,7 +173210,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 5,
-          "conditionText": "Turn 5 + 5 * X"
+          "conditionText": "Turn 5 + 5 * X (e.g.: Turns 5, 10, 15, 20, 25)"
         }
       ],
       "dropItems": [
@@ -173704,7 +173704,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 0,
-          "conditionText": "Turn 1"
+          "conditionText": "Turn 1 (e.g.: Turns 1, 1, 1, 1, 1)"
         },
         {
           "skillId": 109,
@@ -175840,7 +175840,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 3,
-          "conditionText": "Turn 1 + 3 * X"
+          "conditionText": "Turn 1 + 3 * X (e.g.: Turns 1, 4, 7, 10, 13)"
         },
         {
           "skillId": 399,
@@ -175849,7 +175849,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 3,
-          "conditionText": "Turn 2 + 3 * X"
+          "conditionText": "Turn 2 + 3 * X (e.g.: Turns 2, 5, 8, 11, 14)"
         },
         {
           "skillId": 400,
@@ -175858,7 +175858,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 3,
-          "conditionText": "Turn 3 + 3 * X"
+          "conditionText": "Turn 3 + 3 * X (e.g.: Turns 3, 6, 9, 12, 15)"
         },
         {
           "skillId": 401,
@@ -176301,7 +176301,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 5,
-          "conditionText": "Turn 5 + 5 * X"
+          "conditionText": "Turn 5 + 5 * X (e.g.: Turns 5, 10, 15, 20, 25)"
         }
       ],
       "dropItems": [
@@ -176427,7 +176427,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 5,
-          "conditionText": "Turn 5 + 5 * X"
+          "conditionText": "Turn 5 + 5 * X (e.g.: Turns 5, 10, 15, 20, 25)"
         }
       ],
       "dropItems": [
@@ -177134,7 +177134,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 0,
-          "conditionText": "Turn 1"
+          "conditionText": "Turn 1 (e.g.: Turns 1, 1, 1, 1, 1)"
         },
         {
           "skillId": 679,
@@ -177283,7 +177283,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 0,
-          "conditionText": "Turn 1"
+          "conditionText": "Turn 1 (e.g.: Turns 1, 1, 1, 1, 1)"
         },
         {
           "skillId": 103,
@@ -177565,7 +177565,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 4,
-          "conditionText": "Turn 2 + 4 * X"
+          "conditionText": "Turn 2 + 4 * X (e.g.: Turns 2, 6, 10, 14, 18)"
         },
         {
           "skillId": 87,
@@ -177574,7 +177574,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 4,
-          "conditionText": "Turn 3 + 4 * X"
+          "conditionText": "Turn 3 + 4 * X (e.g.: Turns 3, 7, 11, 15, 19)"
         },
         {
           "skillId": 621,
@@ -177583,7 +177583,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 4,
-          "conditionText": "Turn 4 + 4 * X"
+          "conditionText": "Turn 4 + 4 * X (e.g.: Turns 4, 8, 12, 16, 20)"
         },
         {
           "skillId": 679,
@@ -177610,7 +177610,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 4,
-          "conditionText": "Turn 1 + 4 * X"
+          "conditionText": "Turn 1 + 4 * X (e.g.: Turns 1, 5, 9, 13, 17)"
         }
       ],
       "dropItems": [
@@ -177951,7 +177951,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 0,
-          "conditionText": "Turn 1"
+          "conditionText": "Turn 1 (e.g.: Turns 1, 1, 1, 1, 1)"
         },
         {
           "skillId": 99,
@@ -178072,7 +178072,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 0,
-          "conditionText": "Turn 4"
+          "conditionText": "Turn 4 (e.g.: Turns 4, 4, 4, 4, 4)"
         },
         {
           "skillId": 694,
@@ -178081,7 +178081,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 10,
           "conditionParam2": 0,
-          "conditionText": "Turn 10"
+          "conditionText": "Turn 10 (e.g.: Turns 10, 10, 10, 10, 10)"
         },
         {
           "skillId": 694,
@@ -178090,7 +178090,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 19,
           "conditionParam2": 0,
-          "conditionText": "Turn 19"
+          "conditionText": "Turn 19 (e.g.: Turns 19, 19, 19, 19, 19)"
         },
         {
           "skillId": 59,
@@ -178818,7 +178818,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 0,
-          "conditionText": "Turn 1"
+          "conditionText": "Turn 1 (e.g.: Turns 1, 1, 1, 1, 1)"
         },
         {
           "skillId": 278,
@@ -179726,7 +179726,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 4,
-          "conditionText": "Turn 1 + 4 * X"
+          "conditionText": "Turn 1 + 4 * X (e.g.: Turns 1, 5, 9, 13, 17)"
         },
         {
           "skillId": 707,
@@ -179735,7 +179735,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 4,
-          "conditionText": "Turn 2 + 4 * X"
+          "conditionText": "Turn 2 + 4 * X (e.g.: Turns 2, 6, 10, 14, 18)"
         },
         {
           "skillId": 709,
@@ -179744,7 +179744,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 4,
-          "conditionText": "Turn 3 + 4 * X"
+          "conditionText": "Turn 3 + 4 * X (e.g.: Turns 3, 7, 11, 15, 19)"
         },
         {
           "skillId": 710,
@@ -179753,7 +179753,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 4,
-          "conditionText": "Turn 4 + 4 * X"
+          "conditionText": "Turn 4 + 4 * X (e.g.: Turns 4, 8, 12, 16, 20)"
         },
         {
           "skillId": 603,
@@ -180119,7 +180119,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 6,
-          "conditionText": "Turn 1 + 6 * X"
+          "conditionText": "Turn 1 + 6 * X (e.g.: Turns 1, 7, 13, 19, 25)"
         },
         {
           "skillId": 717,
@@ -180128,7 +180128,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 6,
-          "conditionText": "Turn 2 + 6 * X"
+          "conditionText": "Turn 2 + 6 * X (e.g.: Turns 2, 8, 14, 20, 26)"
         },
         {
           "skillId": 89,
@@ -180137,7 +180137,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 6,
           "conditionParam2": 6,
-          "conditionText": "Turn 6 + 6 * X"
+          "conditionText": "Turn 6 + 6 * X (e.g.: Turns 6, 12, 18, 24, 30)"
         },
         {
           "skillId": 716,
@@ -180146,7 +180146,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 6,
-          "conditionText": "Turn 4 + 6 * X"
+          "conditionText": "Turn 4 + 6 * X (e.g.: Turns 4, 10, 16, 22, 28)"
         },
         {
           "skillId": 715,
@@ -180155,7 +180155,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 6,
-          "conditionText": "Turn 5 + 6 * X"
+          "conditionText": "Turn 5 + 6 * X (e.g.: Turns 5, 11, 17, 23, 29)"
         },
         {
           "skillId": 188,
@@ -180164,7 +180164,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 6,
-          "conditionText": "Turn 3 + 6 * X"
+          "conditionText": "Turn 3 + 6 * X (e.g.: Turns 3, 9, 15, 21, 27)"
         },
         {
           "skillId": 173,
@@ -182278,7 +182278,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 0,
-          "conditionText": "Turn 1"
+          "conditionText": "Turn 1 (e.g.: Turns 1, 1, 1, 1, 1)"
         },
         {
           "skillId": 744,
@@ -182287,7 +182287,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 5,
-          "conditionText": "Turn 5 + 5 * X"
+          "conditionText": "Turn 5 + 5 * X (e.g.: Turns 5, 10, 15, 20, 25)"
         }
       ],
       "dropItems": [
@@ -182933,7 +182933,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 5,
-          "conditionText": "Turn 1 + 5 * X"
+          "conditionText": "Turn 1 + 5 * X (e.g.: Turns 1, 6, 11, 16, 21)"
         },
         {
           "skillId": 757,
@@ -182942,7 +182942,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 5,
-          "conditionText": "Turn 2 + 5 * X"
+          "conditionText": "Turn 2 + 5 * X (e.g.: Turns 2, 7, 12, 17, 22)"
         },
         {
           "skillId": 758,
@@ -182951,7 +182951,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 5,
-          "conditionText": "Turn 3 + 5 * X"
+          "conditionText": "Turn 3 + 5 * X (e.g.: Turns 3, 8, 13, 18, 23)"
         },
         {
           "skillId": 759,
@@ -182960,7 +182960,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 5,
-          "conditionText": "Turn 4 + 5 * X"
+          "conditionText": "Turn 4 + 5 * X (e.g.: Turns 4, 9, 14, 19, 24)"
         },
         {
           "skillId": 760,
@@ -182969,7 +182969,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 5,
-          "conditionText": "Turn 5 + 5 * X"
+          "conditionText": "Turn 5 + 5 * X (e.g.: Turns 5, 10, 15, 20, 25)"
         },
         {
           "skillId": 761,
@@ -183777,7 +183777,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 3,
-          "conditionText": "Turn 3 + 3 * X"
+          "conditionText": "Turn 3 + 3 * X (e.g.: Turns 3, 6, 9, 12, 15)"
         }
       ],
       "dropItems": [
@@ -184039,7 +184039,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 3,
-          "conditionText": "Turn 1 + 3 * X"
+          "conditionText": "Turn 1 + 3 * X (e.g.: Turns 1, 4, 7, 10, 13)"
         },
         {
           "skillId": 329,
@@ -184048,7 +184048,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 3,
-          "conditionText": "Turn 2 + 3 * X"
+          "conditionText": "Turn 2 + 3 * X (e.g.: Turns 2, 5, 8, 11, 14)"
         },
         {
           "skillId": 330,
@@ -184093,7 +184093,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 4,
-          "conditionText": "Turn 4 + 4 * X"
+          "conditionText": "Turn 4 + 4 * X (e.g.: Turns 4, 8, 12, 16, 20)"
         },
         {
           "skillId": 334,
@@ -184111,7 +184111,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 4,
-          "conditionText": "Turn 3 + 4 * X"
+          "conditionText": "Turn 3 + 4 * X (e.g.: Turns 3, 7, 11, 15, 19)"
         }
       ],
       "dropItems": [
@@ -184494,7 +184494,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 7,
-          "conditionText": "Turn 1 + 7 * X"
+          "conditionText": "Turn 1 + 7 * X (e.g.: Turns 1, 8, 15, 22, 29)"
         },
         {
           "skillId": 773,
@@ -184503,7 +184503,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 7,
-          "conditionText": "Turn 2 + 7 * X"
+          "conditionText": "Turn 2 + 7 * X (e.g.: Turns 2, 9, 16, 23, 30)"
         },
         {
           "skillId": 774,
@@ -184512,7 +184512,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 7,
-          "conditionText": "Turn 3 + 7 * X"
+          "conditionText": "Turn 3 + 7 * X (e.g.: Turns 3, 10, 17, 24, 31)"
         },
         {
           "skillId": 775,
@@ -184521,7 +184521,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 7,
-          "conditionText": "Turn 4 + 7 * X"
+          "conditionText": "Turn 4 + 7 * X (e.g.: Turns 4, 11, 18, 25, 32)"
         },
         {
           "skillId": 776,
@@ -184530,7 +184530,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 7,
-          "conditionText": "Turn 5 + 7 * X"
+          "conditionText": "Turn 5 + 7 * X (e.g.: Turns 5, 12, 19, 26, 33)"
         },
         {
           "skillId": 777,
@@ -184539,7 +184539,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 6,
           "conditionParam2": 7,
-          "conditionText": "Turn 6 + 7 * X"
+          "conditionText": "Turn 6 + 7 * X (e.g.: Turns 6, 13, 20, 27, 34)"
         },
         {
           "skillId": 773,
@@ -184548,7 +184548,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 7,
           "conditionParam2": 7,
-          "conditionText": "Turn 7 + 7 * X"
+          "conditionText": "Turn 7 + 7 * X (e.g.: Turns 7, 14, 21, 28, 35)"
         },
         {
           "skillId": 778,
@@ -185454,7 +185454,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 4,
-          "conditionText": "Turn 1 + 4 * X"
+          "conditionText": "Turn 1 + 4 * X (e.g.: Turns 1, 5, 9, 13, 17)"
         },
         {
           "skillId": 808,
@@ -185463,7 +185463,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 4,
-          "conditionText": "Turn 2 + 4 * X"
+          "conditionText": "Turn 2 + 4 * X (e.g.: Turns 2, 6, 10, 14, 18)"
         },
         {
           "skillId": 809,
@@ -185472,7 +185472,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 4,
-          "conditionText": "Turn 3 + 4 * X"
+          "conditionText": "Turn 3 + 4 * X (e.g.: Turns 3, 7, 11, 15, 19)"
         },
         {
           "skillId": 810,
@@ -185481,7 +185481,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 4,
-          "conditionText": "Turn 4 + 4 * X"
+          "conditionText": "Turn 4 + 4 * X (e.g.: Turns 4, 8, 12, 16, 20)"
         },
         {
           "skillId": 813,
@@ -185644,7 +185644,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 3,
-          "conditionText": "Turn 1 + 3 * X"
+          "conditionText": "Turn 1 + 3 * X (e.g.: Turns 1, 4, 7, 10, 13)"
         },
         {
           "skillId": 632,
@@ -185653,7 +185653,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 3,
-          "conditionText": "Turn 2 + 3 * X"
+          "conditionText": "Turn 2 + 3 * X (e.g.: Turns 2, 5, 8, 11, 14)"
         },
         {
           "skillId": 207,
@@ -185662,7 +185662,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 3,
-          "conditionText": "Turn 3 + 3 * X"
+          "conditionText": "Turn 3 + 3 * X (e.g.: Turns 3, 6, 9, 12, 15)"
         }
       ],
       "dropItems": [
@@ -187644,7 +187644,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 5,
-          "conditionText": "Turn 1 + 5 * X"
+          "conditionText": "Turn 1 + 5 * X (e.g.: Turns 1, 6, 11, 16, 21)"
         },
         {
           "skillId": 790,
@@ -187653,7 +187653,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 5,
-          "conditionText": "Turn 2 + 5 * X"
+          "conditionText": "Turn 2 + 5 * X (e.g.: Turns 2, 7, 12, 17, 22)"
         },
         {
           "skillId": 795,
@@ -187662,7 +187662,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 5,
-          "conditionText": "Turn 3 + 5 * X"
+          "conditionText": "Turn 3 + 5 * X (e.g.: Turns 3, 8, 13, 18, 23)"
         },
         {
           "skillId": 793,
@@ -187671,7 +187671,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 5,
-          "conditionText": "Turn 4 + 5 * X"
+          "conditionText": "Turn 4 + 5 * X (e.g.: Turns 4, 9, 14, 19, 24)"
         },
         {
           "skillId": 790,
@@ -187680,7 +187680,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 5,
-          "conditionText": "Turn 5 + 5 * X"
+          "conditionText": "Turn 5 + 5 * X (e.g.: Turns 5, 10, 15, 20, 25)"
         },
         {
           "skillId": 794,
@@ -188983,7 +188983,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 6,
-          "conditionText": "Turn 1 + 6 * X"
+          "conditionText": "Turn 1 + 6 * X (e.g.: Turns 1, 7, 13, 19, 25)"
         },
         {
           "skillId": 920,
@@ -188992,7 +188992,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 6,
-          "conditionText": "Turn 2 + 6 * X"
+          "conditionText": "Turn 2 + 6 * X (e.g.: Turns 2, 8, 14, 20, 26)"
         },
         {
           "skillId": 921,
@@ -189001,7 +189001,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 6,
-          "conditionText": "Turn 3 + 6 * X"
+          "conditionText": "Turn 3 + 6 * X (e.g.: Turns 3, 9, 15, 21, 27)"
         },
         {
           "skillId": 922,
@@ -189010,7 +189010,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 6,
-          "conditionText": "Turn 4 + 6 * X"
+          "conditionText": "Turn 4 + 6 * X (e.g.: Turns 4, 10, 16, 22, 28)"
         },
         {
           "skillId": 820,
@@ -189019,7 +189019,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 6,
-          "conditionText": "Turn 5 + 6 * X"
+          "conditionText": "Turn 5 + 6 * X (e.g.: Turns 5, 11, 17, 23, 29)"
         },
         {
           "skillId": 925,
@@ -189028,7 +189028,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 6,
           "conditionParam2": 6,
-          "conditionText": "Turn 6 + 6 * X"
+          "conditionText": "Turn 6 + 6 * X (e.g.: Turns 6, 12, 18, 24, 30)"
         }
       ],
       "dropItems": [
@@ -189213,7 +189213,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 0,
-          "conditionText": "Turn 1"
+          "conditionText": "Turn 1 (e.g.: Turns 1, 1, 1, 1, 1)"
         },
         {
           "skillId": 915,
@@ -189565,7 +189565,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 2,
-          "conditionText": "Turn 2 + 2 * X"
+          "conditionText": "Turn 2 + 2 * X (e.g.: Turns 2, 4, 6, 8, 10)"
         },
         {
           "skillId": 823,
@@ -189574,7 +189574,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 2,
-          "conditionText": "Turn 1 + 2 * X"
+          "conditionText": "Turn 1 + 2 * X (e.g.: Turns 1, 3, 5, 7, 9)"
         }
       ],
       "dropItems": [
@@ -189937,7 +189937,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 0,
-          "conditionText": "Turn 1"
+          "conditionText": "Turn 1 (e.g.: Turns 1, 1, 1, 1, 1)"
         },
         {
           "skillId": 817,
@@ -190285,7 +190285,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 0,
-          "conditionText": "Turn 5"
+          "conditionText": "Turn 5 (e.g.: Turns 5, 5, 5, 5, 5)"
         }
       ],
       "dropItems": [
@@ -190414,7 +190414,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 2,
-          "conditionText": "Turn 1 + 2 * X"
+          "conditionText": "Turn 1 + 2 * X (e.g.: Turns 1, 3, 5, 7, 9)"
         },
         {
           "skillId": 6,
@@ -190423,7 +190423,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 2,
-          "conditionText": "Turn 2 + 2 * X"
+          "conditionText": "Turn 2 + 2 * X (e.g.: Turns 2, 4, 6, 8, 10)"
         }
       ],
       "dropItems": [
@@ -191296,7 +191296,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 8,
-          "conditionText": "Turn 1 + 8 * X"
+          "conditionText": "Turn 1 + 8 * X (e.g.: Turns 1, 9, 17, 25, 33)"
         },
         {
           "skillId": 307,
@@ -191305,7 +191305,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 8,
-          "conditionText": "Turn 2 + 8 * X"
+          "conditionText": "Turn 2 + 8 * X (e.g.: Turns 2, 10, 18, 26, 34)"
         },
         {
           "skillId": 316,
@@ -191314,7 +191314,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 8,
-          "conditionText": "Turn 3 + 8 * X"
+          "conditionText": "Turn 3 + 8 * X (e.g.: Turns 3, 11, 19, 27, 35)"
         },
         {
           "skillId": 325,
@@ -191323,7 +191323,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 8,
-          "conditionText": "Turn 4 + 8 * X"
+          "conditionText": "Turn 4 + 8 * X (e.g.: Turns 4, 12, 20, 28, 36)"
         },
         {
           "skillId": 843,
@@ -191332,7 +191332,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 8,
-          "conditionText": "Turn 5 + 8 * X"
+          "conditionText": "Turn 5 + 8 * X (e.g.: Turns 5, 13, 21, 29, 37)"
         },
         {
           "skillId": 835,
@@ -191341,7 +191341,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 6,
           "conditionParam2": 8,
-          "conditionText": "Turn 6 + 8 * X"
+          "conditionText": "Turn 6 + 8 * X (e.g.: Turns 6, 14, 22, 30, 38)"
         },
         {
           "skillId": 883,
@@ -191350,7 +191350,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 7,
           "conditionParam2": 8,
-          "conditionText": "Turn 7 + 8 * X"
+          "conditionText": "Turn 7 + 8 * X (e.g.: Turns 7, 15, 23, 31, 39)"
         },
         {
           "skillId": 304,
@@ -191359,7 +191359,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 8,
           "conditionParam2": 8,
-          "conditionText": "Turn 8 + 8 * X"
+          "conditionText": "Turn 8 + 8 * X (e.g.: Turns 8, 16, 24, 32, 40)"
         }
       ],
       "dropItems": [
@@ -191794,7 +191794,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 4,
-          "conditionText": "Turn 1 + 4 * X"
+          "conditionText": "Turn 1 + 4 * X (e.g.: Turns 1, 5, 9, 13, 17)"
         },
         {
           "skillId": 939,
@@ -191803,7 +191803,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 4,
-          "conditionText": "Turn 2 + 4 * X"
+          "conditionText": "Turn 2 + 4 * X (e.g.: Turns 2, 6, 10, 14, 18)"
         },
         {
           "skillId": 939,
@@ -191812,7 +191812,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 4,
-          "conditionText": "Turn 3 + 4 * X"
+          "conditionText": "Turn 3 + 4 * X (e.g.: Turns 3, 7, 11, 15, 19)"
         },
         {
           "skillId": 939,
@@ -191821,7 +191821,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 4,
-          "conditionText": "Turn 4 + 4 * X"
+          "conditionText": "Turn 4 + 4 * X (e.g.: Turns 4, 8, 12, 16, 20)"
         },
         {
           "skillId": 940,
@@ -191830,7 +191830,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 4,
-          "conditionText": "Turn 2 + 4 * X"
+          "conditionText": "Turn 2 + 4 * X (e.g.: Turns 2, 6, 10, 14, 18)"
         },
         {
           "skillId": 941,
@@ -191839,7 +191839,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 4,
-          "conditionText": "Turn 3 + 4 * X"
+          "conditionText": "Turn 3 + 4 * X (e.g.: Turns 3, 7, 11, 15, 19)"
         },
         {
           "skillId": 943,
@@ -191848,7 +191848,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 4,
-          "conditionText": "Turn 4 + 4 * X"
+          "conditionText": "Turn 4 + 4 * X (e.g.: Turns 4, 8, 12, 16, 20)"
         },
         {
           "skillId": 953,
@@ -192072,7 +192072,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 4,
-          "conditionText": "Turn 1 + 4 * X"
+          "conditionText": "Turn 1 + 4 * X (e.g.: Turns 1, 5, 9, 13, 17)"
         },
         {
           "skillId": 944,
@@ -192081,7 +192081,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 4,
-          "conditionText": "Turn 2 + 4 * X"
+          "conditionText": "Turn 2 + 4 * X (e.g.: Turns 2, 6, 10, 14, 18)"
         },
         {
           "skillId": 946,
@@ -192090,7 +192090,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 4,
-          "conditionText": "Turn 3 + 4 * X"
+          "conditionText": "Turn 3 + 4 * X (e.g.: Turns 3, 7, 11, 15, 19)"
         },
         {
           "skillId": 944,
@@ -192099,7 +192099,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 4,
-          "conditionText": "Turn 4 + 4 * X"
+          "conditionText": "Turn 4 + 4 * X (e.g.: Turns 4, 8, 12, 16, 20)"
         },
         {
           "skillId": 947,
@@ -192342,7 +192342,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 4,
-          "conditionText": "Turn 1 + 4 * X"
+          "conditionText": "Turn 1 + 4 * X (e.g.: Turns 1, 5, 9, 13, 17)"
         },
         {
           "skillId": 940,
@@ -192351,7 +192351,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 4,
-          "conditionText": "Turn 2 + 4 * X"
+          "conditionText": "Turn 2 + 4 * X (e.g.: Turns 2, 6, 10, 14, 18)"
         },
         {
           "skillId": 941,
@@ -192360,7 +192360,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 4,
-          "conditionText": "Turn 3 + 4 * X"
+          "conditionText": "Turn 3 + 4 * X (e.g.: Turns 3, 7, 11, 15, 19)"
         },
         {
           "skillId": 943,
@@ -192369,7 +192369,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 4,
-          "conditionText": "Turn 4 + 4 * X"
+          "conditionText": "Turn 4 + 4 * X (e.g.: Turns 4, 8, 12, 16, 20)"
         },
         {
           "skillId": 948,
@@ -193919,7 +193919,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 5,
-          "conditionText": "Turn 1 + 5 * X"
+          "conditionText": "Turn 1 + 5 * X (e.g.: Turns 1, 6, 11, 16, 21)"
         },
         {
           "skillId": 979,
@@ -193928,7 +193928,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 5,
-          "conditionText": "Turn 2 + 5 * X"
+          "conditionText": "Turn 2 + 5 * X (e.g.: Turns 2, 7, 12, 17, 22)"
         },
         {
           "skillId": 983,
@@ -193937,7 +193937,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 5,
-          "conditionText": "Turn 2 + 5 * X"
+          "conditionText": "Turn 2 + 5 * X (e.g.: Turns 2, 7, 12, 17, 22)"
         },
         {
           "skillId": 976,
@@ -193946,7 +193946,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 5,
-          "conditionText": "Turn 3 + 5 * X"
+          "conditionText": "Turn 3 + 5 * X (e.g.: Turns 3, 8, 13, 18, 23)"
         },
         {
           "skillId": 982,
@@ -193955,7 +193955,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 5,
-          "conditionText": "Turn 3 + 5 * X"
+          "conditionText": "Turn 3 + 5 * X (e.g.: Turns 3, 8, 13, 18, 23)"
         },
         {
           "skillId": 981,
@@ -193964,7 +193964,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 5,
-          "conditionText": "Turn 4 + 5 * X"
+          "conditionText": "Turn 4 + 5 * X (e.g.: Turns 4, 9, 14, 19, 24)"
         },
         {
           "skillId": 976,
@@ -193973,7 +193973,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 5,
-          "conditionText": "Turn 5 + 5 * X"
+          "conditionText": "Turn 5 + 5 * X (e.g.: Turns 5, 10, 15, 20, 25)"
         },
         {
           "skillId": 982,
@@ -193982,7 +193982,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 5,
-          "conditionText": "Turn 5 + 5 * X"
+          "conditionText": "Turn 5 + 5 * X (e.g.: Turns 5, 10, 15, 20, 25)"
         },
         {
           "skillId": 977,
@@ -194211,7 +194211,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 5,
-          "conditionText": "Turn 1 + 5 * X"
+          "conditionText": "Turn 1 + 5 * X (e.g.: Turns 1, 6, 11, 16, 21)"
         },
         {
           "skillId": 979,
@@ -194220,7 +194220,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 5,
-          "conditionText": "Turn 2 + 5 * X"
+          "conditionText": "Turn 2 + 5 * X (e.g.: Turns 2, 7, 12, 17, 22)"
         },
         {
           "skillId": 983,
@@ -194229,7 +194229,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 5,
-          "conditionText": "Turn 2 + 5 * X"
+          "conditionText": "Turn 2 + 5 * X (e.g.: Turns 2, 7, 12, 17, 22)"
         },
         {
           "skillId": 976,
@@ -194238,7 +194238,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 5,
-          "conditionText": "Turn 3 + 5 * X"
+          "conditionText": "Turn 3 + 5 * X (e.g.: Turns 3, 8, 13, 18, 23)"
         },
         {
           "skillId": 982,
@@ -194247,7 +194247,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 5,
-          "conditionText": "Turn 3 + 5 * X"
+          "conditionText": "Turn 3 + 5 * X (e.g.: Turns 3, 8, 13, 18, 23)"
         },
         {
           "skillId": 981,
@@ -194256,7 +194256,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 5,
-          "conditionText": "Turn 4 + 5 * X"
+          "conditionText": "Turn 4 + 5 * X (e.g.: Turns 4, 9, 14, 19, 24)"
         },
         {
           "skillId": 976,
@@ -194265,7 +194265,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 5,
-          "conditionText": "Turn 5 + 5 * X"
+          "conditionText": "Turn 5 + 5 * X (e.g.: Turns 5, 10, 15, 20, 25)"
         },
         {
           "skillId": 982,
@@ -194274,7 +194274,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 5,
-          "conditionText": "Turn 5 + 5 * X"
+          "conditionText": "Turn 5 + 5 * X (e.g.: Turns 5, 10, 15, 20, 25)"
         },
         {
           "skillId": 977,
@@ -194503,7 +194503,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 4,
-          "conditionText": "Turn 1 + 4 * X"
+          "conditionText": "Turn 1 + 4 * X (e.g.: Turns 1, 5, 9, 13, 17)"
         },
         {
           "skillId": 990,
@@ -194512,7 +194512,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 4,
-          "conditionText": "Turn 2 + 4 * X"
+          "conditionText": "Turn 2 + 4 * X (e.g.: Turns 2, 6, 10, 14, 18)"
         },
         {
           "skillId": 988,
@@ -194521,7 +194521,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 4,
-          "conditionText": "Turn 3 + 4 * X"
+          "conditionText": "Turn 3 + 4 * X (e.g.: Turns 3, 7, 11, 15, 19)"
         },
         {
           "skillId": 989,
@@ -194530,7 +194530,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 4,
-          "conditionText": "Turn 4 + 4 * X"
+          "conditionText": "Turn 4 + 4 * X (e.g.: Turns 4, 8, 12, 16, 20)"
         },
         {
           "skillId": 991,
@@ -194705,7 +194705,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 4,
-          "conditionText": "Turn 1 + 4 * X"
+          "conditionText": "Turn 1 + 4 * X (e.g.: Turns 1, 5, 9, 13, 17)"
         },
         {
           "skillId": 426,
@@ -194714,7 +194714,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 4,
-          "conditionText": "Turn 2 + 4 * X"
+          "conditionText": "Turn 2 + 4 * X (e.g.: Turns 2, 6, 10, 14, 18)"
         },
         {
           "skillId": 427,
@@ -194723,7 +194723,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 4,
-          "conditionText": "Turn 2 + 4 * X"
+          "conditionText": "Turn 2 + 4 * X (e.g.: Turns 2, 6, 10, 14, 18)"
         },
         {
           "skillId": 428,
@@ -194732,7 +194732,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 4,
-          "conditionText": "Turn 2 + 4 * X"
+          "conditionText": "Turn 2 + 4 * X (e.g.: Turns 2, 6, 10, 14, 18)"
         },
         {
           "skillId": 512,
@@ -194741,7 +194741,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 4,
-          "conditionText": "Turn 2 + 4 * X"
+          "conditionText": "Turn 2 + 4 * X (e.g.: Turns 2, 6, 10, 14, 18)"
         },
         {
           "skillId": 426,
@@ -194750,7 +194750,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 4,
-          "conditionText": "Turn 3 + 4 * X"
+          "conditionText": "Turn 3 + 4 * X (e.g.: Turns 3, 7, 11, 15, 19)"
         },
         {
           "skillId": 427,
@@ -194759,7 +194759,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 4,
-          "conditionText": "Turn 3 + 4 * X"
+          "conditionText": "Turn 3 + 4 * X (e.g.: Turns 3, 7, 11, 15, 19)"
         },
         {
           "skillId": 428,
@@ -194768,7 +194768,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 4,
-          "conditionText": "Turn 3 + 4 * X"
+          "conditionText": "Turn 3 + 4 * X (e.g.: Turns 3, 7, 11, 15, 19)"
         },
         {
           "skillId": 512,
@@ -194777,7 +194777,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 4,
-          "conditionText": "Turn 3 + 4 * X"
+          "conditionText": "Turn 3 + 4 * X (e.g.: Turns 3, 7, 11, 15, 19)"
         },
         {
           "skillId": 149,
@@ -194786,7 +194786,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 4,
-          "conditionText": "Turn 4 + 4 * X"
+          "conditionText": "Turn 4 + 4 * X (e.g.: Turns 4, 8, 12, 16, 20)"
         }
       ],
       "dropItems": [
@@ -194978,7 +194978,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 4,
-          "conditionText": "Turn 1 + 4 * X"
+          "conditionText": "Turn 1 + 4 * X (e.g.: Turns 1, 5, 9, 13, 17)"
         },
         {
           "skillId": 426,
@@ -194987,7 +194987,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 4,
-          "conditionText": "Turn 2 + 4 * X"
+          "conditionText": "Turn 2 + 4 * X (e.g.: Turns 2, 6, 10, 14, 18)"
         },
         {
           "skillId": 427,
@@ -194996,7 +194996,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 4,
-          "conditionText": "Turn 2 + 4 * X"
+          "conditionText": "Turn 2 + 4 * X (e.g.: Turns 2, 6, 10, 14, 18)"
         },
         {
           "skillId": 428,
@@ -195005,7 +195005,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 4,
-          "conditionText": "Turn 2 + 4 * X"
+          "conditionText": "Turn 2 + 4 * X (e.g.: Turns 2, 6, 10, 14, 18)"
         },
         {
           "skillId": 512,
@@ -195014,7 +195014,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 4,
-          "conditionText": "Turn 2 + 4 * X"
+          "conditionText": "Turn 2 + 4 * X (e.g.: Turns 2, 6, 10, 14, 18)"
         },
         {
           "skillId": 426,
@@ -195023,7 +195023,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 4,
-          "conditionText": "Turn 3 + 4 * X"
+          "conditionText": "Turn 3 + 4 * X (e.g.: Turns 3, 7, 11, 15, 19)"
         },
         {
           "skillId": 427,
@@ -195032,7 +195032,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 4,
-          "conditionText": "Turn 3 + 4 * X"
+          "conditionText": "Turn 3 + 4 * X (e.g.: Turns 3, 7, 11, 15, 19)"
         },
         {
           "skillId": 428,
@@ -195041,7 +195041,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 4,
-          "conditionText": "Turn 3 + 4 * X"
+          "conditionText": "Turn 3 + 4 * X (e.g.: Turns 3, 7, 11, 15, 19)"
         },
         {
           "skillId": 512,
@@ -195050,7 +195050,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 4,
-          "conditionText": "Turn 3 + 4 * X"
+          "conditionText": "Turn 3 + 4 * X (e.g.: Turns 3, 7, 11, 15, 19)"
         },
         {
           "skillId": 149,
@@ -195059,7 +195059,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 4,
-          "conditionText": "Turn 4 + 4 * X"
+          "conditionText": "Turn 4 + 4 * X (e.g.: Turns 4, 8, 12, 16, 20)"
         }
       ],
       "dropItems": [
@@ -195230,7 +195230,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 3,
-          "conditionText": "Turn 1 + 3 * X"
+          "conditionText": "Turn 1 + 3 * X (e.g.: Turns 1, 4, 7, 10, 13)"
         },
         {
           "skillId": 399,
@@ -195239,7 +195239,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 3,
-          "conditionText": "Turn 2 + 3 * X"
+          "conditionText": "Turn 2 + 3 * X (e.g.: Turns 2, 5, 8, 11, 14)"
         },
         {
           "skillId": 772,
@@ -195248,7 +195248,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 3,
-          "conditionText": "Turn 3 + 3 * X"
+          "conditionText": "Turn 3 + 3 * X (e.g.: Turns 3, 6, 9, 12, 15)"
         }
       ],
       "dropItems": [
@@ -195677,7 +195677,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 4,
-          "conditionText": "Turn 1 + 4 * X"
+          "conditionText": "Turn 1 + 4 * X (e.g.: Turns 1, 5, 9, 13, 17)"
         },
         {
           "skillId": 990,
@@ -195686,7 +195686,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 4,
-          "conditionText": "Turn 2 + 4 * X"
+          "conditionText": "Turn 2 + 4 * X (e.g.: Turns 2, 6, 10, 14, 18)"
         },
         {
           "skillId": 988,
@@ -195695,7 +195695,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 4,
-          "conditionText": "Turn 3 + 4 * X"
+          "conditionText": "Turn 3 + 4 * X (e.g.: Turns 3, 7, 11, 15, 19)"
         },
         {
           "skillId": 989,
@@ -195704,7 +195704,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 4,
-          "conditionText": "Turn 4 + 4 * X"
+          "conditionText": "Turn 4 + 4 * X (e.g.: Turns 4, 8, 12, 16, 20)"
         },
         {
           "skillId": 991,
@@ -195977,7 +195977,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 5,
-          "conditionText": "Turn 1 + 5 * X"
+          "conditionText": "Turn 1 + 5 * X (e.g.: Turns 1, 6, 11, 16, 21)"
         },
         {
           "skillId": 979,
@@ -195986,7 +195986,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 5,
-          "conditionText": "Turn 2 + 5 * X"
+          "conditionText": "Turn 2 + 5 * X (e.g.: Turns 2, 7, 12, 17, 22)"
         },
         {
           "skillId": 983,
@@ -195995,7 +195995,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 5,
-          "conditionText": "Turn 2 + 5 * X"
+          "conditionText": "Turn 2 + 5 * X (e.g.: Turns 2, 7, 12, 17, 22)"
         },
         {
           "skillId": 976,
@@ -196004,7 +196004,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 5,
-          "conditionText": "Turn 3 + 5 * X"
+          "conditionText": "Turn 3 + 5 * X (e.g.: Turns 3, 8, 13, 18, 23)"
         },
         {
           "skillId": 982,
@@ -196013,7 +196013,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 5,
-          "conditionText": "Turn 3 + 5 * X"
+          "conditionText": "Turn 3 + 5 * X (e.g.: Turns 3, 8, 13, 18, 23)"
         },
         {
           "skillId": 981,
@@ -196022,7 +196022,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 5,
-          "conditionText": "Turn 4 + 5 * X"
+          "conditionText": "Turn 4 + 5 * X (e.g.: Turns 4, 9, 14, 19, 24)"
         },
         {
           "skillId": 976,
@@ -196031,7 +196031,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 5,
-          "conditionText": "Turn 5 + 5 * X"
+          "conditionText": "Turn 5 + 5 * X (e.g.: Turns 5, 10, 15, 20, 25)"
         },
         {
           "skillId": 982,
@@ -196040,7 +196040,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 5,
-          "conditionText": "Turn 5 + 5 * X"
+          "conditionText": "Turn 5 + 5 * X (e.g.: Turns 5, 10, 15, 20, 25)"
         },
         {
           "skillId": 977,
@@ -196999,7 +196999,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 12,
-          "conditionText": "Turn 1 + 12 * X"
+          "conditionText": "Turn 1 + 12 * X (e.g.: Turns 1, 13, 25, 37, 49)"
         },
         {
           "skillId": 794,
@@ -197008,7 +197008,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 12,
-          "conditionText": "Turn 1 + 12 * X"
+          "conditionText": "Turn 1 + 12 * X (e.g.: Turns 1, 13, 25, 37, 49)"
         },
         {
           "skillId": 431,
@@ -197017,7 +197017,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 12,
-          "conditionText": "Turn 1 + 12 * X"
+          "conditionText": "Turn 1 + 12 * X (e.g.: Turns 1, 13, 25, 37, 49)"
         },
         {
           "skillId": 525,
@@ -197026,7 +197026,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 12,
-          "conditionText": "Turn 2 + 12 * X"
+          "conditionText": "Turn 2 + 12 * X (e.g.: Turns 2, 14, 26, 38, 50)"
         },
         {
           "skillId": 806,
@@ -197035,7 +197035,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 12,
-          "conditionText": "Turn 2 + 12 * X"
+          "conditionText": "Turn 2 + 12 * X (e.g.: Turns 2, 14, 26, 38, 50)"
         },
         {
           "skillId": 321,
@@ -197044,7 +197044,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 12,
-          "conditionText": "Turn 3 + 12 * X"
+          "conditionText": "Turn 3 + 12 * X (e.g.: Turns 3, 15, 27, 39, 51)"
         },
         {
           "skillId": 322,
@@ -197053,7 +197053,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 12,
-          "conditionText": "Turn 3 + 12 * X"
+          "conditionText": "Turn 3 + 12 * X (e.g.: Turns 3, 15, 27, 39, 51)"
         },
         {
           "skillId": 137,
@@ -197062,7 +197062,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 12,
-          "conditionText": "Turn 4 + 12 * X"
+          "conditionText": "Turn 4 + 12 * X (e.g.: Turns 4, 16, 28, 40, 52)"
         },
         {
           "skillId": 130,
@@ -197071,7 +197071,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 12,
-          "conditionText": "Turn 4 + 12 * X"
+          "conditionText": "Turn 4 + 12 * X (e.g.: Turns 4, 16, 28, 40, 52)"
         },
         {
           "skillId": 389,
@@ -197080,7 +197080,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 12,
-          "conditionText": "Turn 4 + 12 * X"
+          "conditionText": "Turn 4 + 12 * X (e.g.: Turns 4, 16, 28, 40, 52)"
         },
         {
           "skillId": 540,
@@ -197089,7 +197089,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 12,
-          "conditionText": "Turn 5 + 12 * X"
+          "conditionText": "Turn 5 + 12 * X (e.g.: Turns 5, 17, 29, 41, 53)"
         },
         {
           "skillId": 426,
@@ -197098,7 +197098,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 12,
-          "conditionText": "Turn 5 + 12 * X"
+          "conditionText": "Turn 5 + 12 * X (e.g.: Turns 5, 17, 29, 41, 53)"
         },
         {
           "skillId": 427,
@@ -197107,7 +197107,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 12,
-          "conditionText": "Turn 5 + 12 * X"
+          "conditionText": "Turn 5 + 12 * X (e.g.: Turns 5, 17, 29, 41, 53)"
         },
         {
           "skillId": 428,
@@ -197116,7 +197116,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 12,
-          "conditionText": "Turn 5 + 12 * X"
+          "conditionText": "Turn 5 + 12 * X (e.g.: Turns 5, 17, 29, 41, 53)"
         },
         {
           "skillId": 539,
@@ -197125,7 +197125,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 6,
           "conditionParam2": 12,
-          "conditionText": "Turn 6 + 12 * X"
+          "conditionText": "Turn 6 + 12 * X (e.g.: Turns 6, 18, 30, 42, 54)"
         },
         {
           "skillId": 532,
@@ -197134,7 +197134,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 7,
           "conditionParam2": 12,
-          "conditionText": "Turn 7 + 12 * X"
+          "conditionText": "Turn 7 + 12 * X (e.g.: Turns 7, 19, 31, 43, 55)"
         },
         {
           "skillId": 538,
@@ -197143,7 +197143,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 8,
           "conditionParam2": 12,
-          "conditionText": "Turn 8 + 12 * X"
+          "conditionText": "Turn 8 + 12 * X (e.g.: Turns 8, 20, 32, 44, 56)"
         },
         {
           "skillId": 772,
@@ -197152,7 +197152,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 8,
           "conditionParam2": 12,
-          "conditionText": "Turn 8 + 12 * X"
+          "conditionText": "Turn 8 + 12 * X (e.g.: Turns 8, 20, 32, 44, 56)"
         },
         {
           "skillId": 517,
@@ -197161,7 +197161,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 9,
           "conditionParam2": 12,
-          "conditionText": "Turn 9 + 12 * X"
+          "conditionText": "Turn 9 + 12 * X (e.g.: Turns 9, 21, 33, 45, 57)"
         },
         {
           "skillId": 799,
@@ -197170,7 +197170,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 10,
           "conditionParam2": 12,
-          "conditionText": "Turn 10 + 12 * X"
+          "conditionText": "Turn 10 + 12 * X (e.g.: Turns 10, 22, 34, 46, 58)"
         },
         {
           "skillId": 628,
@@ -197179,7 +197179,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 11,
           "conditionParam2": 12,
-          "conditionText": "Turn 11 + 12 * X"
+          "conditionText": "Turn 11 + 12 * X (e.g.: Turns 11, 23, 35, 47, 59)"
         },
         {
           "skillId": 997,
@@ -201831,7 +201831,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 1,
           "conditionParam2": 6,
-          "conditionText": "Turn 1 + 6 * X"
+          "conditionText": "Turn 1 + 6 * X (e.g.: Turns 1, 7, 13, 19, 25)"
         },
         {
           "skillId": 100,
@@ -201840,7 +201840,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 2,
           "conditionParam2": 6,
-          "conditionText": "Turn 2 + 6 * X"
+          "conditionText": "Turn 2 + 6 * X (e.g.: Turns 2, 8, 14, 20, 26)"
         },
         {
           "skillId": 106,
@@ -201849,7 +201849,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 3,
           "conditionParam2": 6,
-          "conditionText": "Turn 3 + 6 * X"
+          "conditionText": "Turn 3 + 6 * X (e.g.: Turns 3, 9, 15, 21, 27)"
         },
         {
           "skillId": 85,
@@ -201858,7 +201858,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 4,
           "conditionParam2": 6,
-          "conditionText": "Turn 4 + 6 * X"
+          "conditionText": "Turn 4 + 6 * X (e.g.: Turns 4, 10, 16, 22, 28)"
         },
         {
           "skillId": 63,
@@ -201867,7 +201867,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 5,
           "conditionParam2": 6,
-          "conditionText": "Turn 5 + 6 * X"
+          "conditionText": "Turn 5 + 6 * X (e.g.: Turns 5, 11, 17, 23, 29)"
         },
         {
           "skillId": 216,
@@ -201885,7 +201885,7 @@ const enemiesData = {
           "conditionType": 1,
           "conditionParam1": 6,
           "conditionParam2": 6,
-          "conditionText": "Turn 6 + 6 * X"
+          "conditionText": "Turn 6 + 6 * X (e.g.: Turns 6, 12, 18, 24, 30)"
         }
       ],
       "dropItems": [

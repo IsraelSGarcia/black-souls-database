@@ -1,7 +1,3 @@
 # DO NOT DO ANYTHING WITHOUT PERMISSION
 
-- Bug: skill Dodge doesn't mention armor Dark Wood Grain in references. Why is that happening? Just answer me.
-
-- Question: What is this?
-
-Synthesis setting: 0, 49, 5
+- Update element Physical icon

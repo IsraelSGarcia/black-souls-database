@@ -2476,11 +2476,21 @@ const processedEnemies = enemiesData
             } else if (conditionType === 1) {
                 // Turn No.: A + B * X
                 if (param1 === 0 && param2 === 0) {
-                    conditionText = 'Turn 0 (before command entry)';
+                    // Turn 0 is special (before command entry) - show 5 examples
+                    const exampleTurns = Array(5).fill(0);
+                    conditionText = `Turn 0 (before command entry) (e.g.: Turns ${exampleTurns.join(', ')})`;
                 } else if (param2 === 0) {
-                    conditionText = `Turn ${param1}`;
+                    // Single turn - show 5 examples (all the same turn since condition only applies on this turn)
+                    const exampleTurns = Array(5).fill(param1);
+                    conditionText = `Turn ${param1} (e.g.: Turns ${exampleTurns.join(', ')})`;
                 } else {
-                    conditionText = `Turn ${param1} + ${param2} * X`;
+                    // Pattern: A + B * X - calculate first 5 turns
+                    const exampleTurns = [];
+                    for (let x = 0; x < 5; x++) {
+                        const turn = param1 + param2 * x;
+                        exampleTurns.push(turn);
+                    }
+                    conditionText = `Turn ${param1} + ${param2} * X (e.g.: Turns ${exampleTurns.join(', ')})`;
                 }
             } else if (conditionType === 2) {
                 // HP: min% ~ max%
