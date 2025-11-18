@@ -43,6 +43,9 @@ alwaysApply: false
 - Tests with incorrect data or test accounts
 - Tests without proper setup or prerequisites
 - Marks a task complete without actually opening a browser
+- Navigates directly to URLs instead of clicking buttons and following user workflows
+- Types URLs in the address bar instead of using the application's navigation
+- Uses bookmarks or direct links to skip the normal user journey
 
 **INSUFFICIENT TESTING is ANY testing that:**
 - Doesn't verify the specific issue was fixed
@@ -68,7 +71,7 @@ alwaysApply: false
 
 **YOU MUST:**
 1. **Open a real browser** for EVERY user-visible change. No exceptions. No "it's just a typo". No "it's a small change".
-2. **Navigate to the exact page** where the change should be visible. Don't test the wrong page.
+2. **Navigate like a real user** - Click buttons, use menus, follow links. NEVER type URLs directly in the address bar. NEVER use bookmarks or direct links. Navigate through the application exactly as a user would.
 3. **Verify the fix actually works** - don't just load the page and assume it's correct.
 4. **Check for regressions** - verify existing functionality still works after your change.
 5. **Clear browser cache** or use hard refresh (Ctrl+Shift+R / Cmd+Shift+R) to ensure you're seeing the latest code.
@@ -111,6 +114,8 @@ If you find yourself thinking:
 - "It's just a comment or documentation change..."
 - "I tested a similar feature, so this should be fine..."
 - "The change is too small to break anything..."
+- "I'll just type the URL directly to save time..."
+- "I know the URL, so I'll skip the navigation..."
 
 **STOP. YOU ARE ABOUT TO SHIP UNVERIFIED CODE. DO NOT PROCEED.**
 
@@ -119,7 +124,7 @@ If you find yourself thinking:
 **BEFORE marking any task as complete, you MUST:**
 
 1. **OPEN A BROWSER** - Actually open a real browser window. Not a screenshot. Not a description. A browser.
-2. **NAVIGATE TO THE PAGE** - Go to the exact URL where your change should be visible.
+2. **NAVIGATE LIKE A USER** - Start from the home page or entry point. Click buttons, use navigation menus, follow links. NEVER type URLs directly. NEVER use bookmarks. Navigate through the application exactly as a real user would to reach the page where your change should be visible.
 3. **CLEAR CACHE** - Use hard refresh (Ctrl+Shift+R / Cmd+Shift+R) to ensure fresh assets.
 4. **VERIFY THE FIX** - Actually confirm the reported issue is fixed. Don't assume.
 5. **CHECK FOR ERRORS** - Open developer tools and check the console for errors or warnings.
@@ -224,6 +229,21 @@ fetch('/api/data')
   .then(data => console.log(data));
 // TESTED: Opened browser console, verified no errors, confirmed API call succeeds,
 // checked network tab for successful request, verified data displays correctly
+```
+
+❌ **BAD**: Navigating directly to URLs
+```javascript
+// Fixed the settings page
+// HACK: Typed /settings directly in address bar, didn't test navigation flow
+// Users might not be able to reach this page if navigation is broken
+```
+
+✅ **GOOD**: Navigating like a user
+```javascript
+// Fixed the settings page
+// TESTED: Started from home page, clicked "Account" menu, clicked "Settings" link,
+// verified navigation works, confirmed settings page loads correctly,
+// tested back button and browser history
 ```
 
 ❌ **BAD**: Testing only desktop

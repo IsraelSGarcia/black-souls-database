@@ -2660,8 +2660,8 @@ function renderSkillDetail(skill) {
         }, 0);
     }
     
-    // Add toggle handler for Japanese text
-    const toggleBtn = detailContent.querySelector('.note-toggle');
+    // Add toggle handler for Japanese text (exclude effect toggles)
+    const toggleBtn = detailContent.querySelector('.note-toggle:not([data-toggle="effect"])');
     if (toggleBtn) {
         toggleBtn.addEventListener('click', () => {
             const noteText = detailContent.querySelector('.note-text');
@@ -2878,9 +2878,11 @@ function sortTraits(traits) {
 
 function attachEffectOriginalDataHandlers(effects) {
     const effectList = effects || [];
-    const toggles = detailContent.querySelectorAll('.show-original-toggle[data-toggle="effect"]');
+    const dataToggles = detailContent.querySelectorAll('.show-original-toggle[data-toggle="effect"]');
+    const noteToggles = detailContent.querySelectorAll('.note-toggle[data-toggle="effect"]');
+    const allToggles = [...dataToggles, ...noteToggles];
     
-    toggles.forEach(toggle => {
+    allToggles.forEach(toggle => {
         toggle.addEventListener('click', () => {
             const effectIndex = parseInt(toggle.dataset.effectIndex);
             if (Number.isNaN(effectIndex)) return;
@@ -2890,36 +2892,76 @@ function attachEffectOriginalDataHandlers(effects) {
             const effectItem = toggle.closest('.effect-item');
             if (!effectItem) return;
             
-            let originalDataBox = effectItem.querySelector('.original-data-box');
-            
-            if (originalDataBox) {
-                originalDataBox.remove();
+            // Check if this is a note-toggle (Japanese toggle) or data toggle
+            if (toggle.classList.contains('note-toggle')) {
+                // Handle Japanese toggle - toggle description text directly like notes
+                const effectDescription = effectItem.querySelector('.effect-description');
+                const currentLang = toggle.dataset.lang || 'en';
+                
+                if (currentLang === 'en') {
+                    // Switching to Japanese - show Japanese description
+                    if (effect.descriptionJapanese && effectDescription) {
+                        effectDescription.innerHTML = convertCrossReferencesAndEscape(effect.descriptionJapanese);
+                        toggle.innerHTML = `
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            Show Translated (English)
+                        `;
+                        toggle.dataset.lang = 'jp';
+                        // Re-attach cross-reference listeners
+                        attachCrossReferenceListeners();
+                    }
+                } else {
+                    // Switching to English - show English description
+                    if (effect.description && effectDescription) {
+                        effectDescription.innerHTML = convertCrossReferencesAndEscape(effect.description);
+                        toggle.innerHTML = `
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke="currentColor" stroke-width="2"/>
+                                <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                            Show Original (Japanese)
+                        `;
+                        toggle.dataset.lang = 'en';
+                        // Re-attach cross-reference listeners
+                        attachCrossReferenceListeners();
+                    }
+                }
+            } else {
+                // Handle data toggle
+                const originalDataBox = effectItem.querySelector('.original-data-box:not(.original-japanese-box)');
+                
+                if (originalDataBox) {
+                    originalDataBox.remove();
+                    toggle.innerHTML = `
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke="currentColor" stroke-width="2"/>
+                            <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                        Show Original Data
+                    `;
+                    return;
+                }
+                
+                // Create original data box
+                let originalData = `Code: ${effect.code}`;
+                if (effect.dataId !== undefined) originalData += `\nData ID: ${effect.dataId}`;
+                if (effect.value1 !== undefined) originalData += `\nValue 1: ${effect.value1}`;
+                if (effect.value2 !== undefined) originalData += `\nValue 2: ${effect.value2}`;
+                
+                const dataBox = document.createElement('div');
+                dataBox.className = 'original-data-box';
+                dataBox.textContent = originalData;
+                
+                toggle.insertAdjacentElement('beforebegin', dataBox);
                 toggle.innerHTML = `
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke="currentColor" stroke-width="2"/>
-                        <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" stroke="currentColor" stroke-width="2"/>
+                        <path d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
                     </svg>
-                    Show Original Data
+                    Hide Original Data
                 `;
-                return;
             }
-            
-            let originalData = `Code: ${effect.code}`;
-            if (effect.dataId !== undefined) originalData += `\nData ID: ${effect.dataId}`;
-            if (effect.value1 !== undefined) originalData += `\nValue 1: ${effect.value1}`;
-            if (effect.value2 !== undefined) originalData += `\nValue 2: ${effect.value2}`;
-            
-            originalDataBox = document.createElement('div');
-            originalDataBox.className = 'original-data-box';
-            originalDataBox.textContent = originalData;
-            
-            toggle.insertAdjacentElement('beforebegin', originalDataBox);
-            toggle.innerHTML = `
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                </svg>
-                Hide Original Data
-            `;
         });
     });
 }
@@ -2942,12 +2984,21 @@ function renderEffects(skill) {
                     <div class="effect-item">
                         ${effect.description ? `<div class="effect-description">${effectDesc}</div>` : `<div class="effect-type">${effectType}</div>`}
                         ${hasOriginalData ? `
-                            <button class="show-original-toggle" data-toggle="effect" data-effect-index="${index}">
+                            <button class="show-original-toggle" data-toggle="effect" data-effect-index="${index}" data-data-type="data">
                                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke="currentColor" stroke-width="2"/>
                                     <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" stroke="currentColor" stroke-width="2"/>
                                 </svg>
                                 Show Original Data
+                            </button>
+                        ` : ''}
+                        ${effect.originalJapaneseName ? `
+                            <button class="note-toggle" data-toggle="effect" data-effect-index="${index}" data-lang="en">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                                Show Original (Japanese)
                             </button>
                         ` : ''}
                     </div>
@@ -4012,8 +4063,8 @@ function renderStateDetail(state) {
         });
     });
     
-    // Add toggle handler for Japanese text
-    const toggleBtn = detailContent.querySelector('.note-toggle');
+    // Add toggle handler for Japanese text (exclude effect toggles)
+    const toggleBtn = detailContent.querySelector('.note-toggle:not([data-toggle="effect"])');
     if (toggleBtn) {
         toggleBtn.addEventListener('click', () => {
             const noteText = detailContent.querySelector('.note-text');
@@ -4755,7 +4806,7 @@ function renderWeaponDetail(weapon) {
     });
     
     // Add toggle handler for Japanese text
-    const toggleBtn = detailContent.querySelector('.note-toggle');
+    const toggleBtn = detailContent.querySelector('.note-toggle:not([data-toggle="effect"])');
     if (toggleBtn) {
         toggleBtn.addEventListener('click', () => {
             const noteText = detailContent.querySelector('.note-text');
@@ -5228,7 +5279,7 @@ function renderArmorDetail(armor) {
         });
     });
     
-    const toggleBtn = detailContent.querySelector('.note-toggle');
+    const toggleBtn = detailContent.querySelector('.note-toggle:not([data-toggle="effect"])');
     if (toggleBtn) {
         toggleBtn.addEventListener('click', () => {
             const noteText = detailContent.querySelector('.note-text');
@@ -5455,7 +5506,7 @@ function renderEnemyDetail(enemy) {
         });
     });
     
-    const toggleBtn = detailContent.querySelector('.note-toggle');
+    const toggleBtn = detailContent.querySelector('.note-toggle:not([data-toggle="effect"])');
     if (toggleBtn) {
         toggleBtn.addEventListener('click', () => {
             const noteText = detailContent.querySelector('.note-text');
@@ -5680,7 +5731,7 @@ function renderItemDetail(item) {
         }, 0);
     }
     
-    const toggleBtn = detailContent.querySelector('.note-toggle');
+    const toggleBtn = detailContent.querySelector('.note-toggle:not([data-toggle="effect"])');
     if (toggleBtn) {
         toggleBtn.addEventListener('click', () => {
             const noteText = detailContent.querySelector('.note-text');
@@ -5946,12 +5997,21 @@ function renderItemEffects(item) {
                 <div class="effect-item">
                         ${effect.description ? `<div class="effect-description">${effectDesc}</div>` : `<div class="effect-type">${effectType}</div>`}
                         ${hasOriginalData ? `
-                            <button class="show-original-toggle" data-toggle="effect" data-effect-index="${index}">
+                            <button class="show-original-toggle" data-toggle="effect" data-effect-index="${index}" data-data-type="data">
                                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke="currentColor" stroke-width="2"/>
                                     <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" stroke="currentColor" stroke-width="2"/>
                                 </svg>
                                 Show Original Data
+                            </button>
+                        ` : ''}
+                        ${effect.originalJapaneseName ? `
+                            <button class="note-toggle" data-toggle="effect" data-effect-index="${index}" data-lang="en">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                                Show Original (Japanese)
                             </button>
                         ` : ''}
                 </div>

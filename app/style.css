@@ -917,6 +917,9 @@ header h1.clickable-title:hover {
     font-family: inherit;
     cursor: pointer;
     transition: all 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
 }
 
 .note-toggle:hover {

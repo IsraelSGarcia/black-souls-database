@@ -13,3 +13,5 @@
 - Items' effects don't show original
 
 - Differentiate multiplication and summation
+
+- Bug: page URL isn't updating immediately. For example, if in page item 19 and click on Clock, the URL doesn't become state 72 (as it should)

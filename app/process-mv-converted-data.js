@@ -1923,11 +1923,19 @@ const processedSkills = skillsData
                     } else if (effect.code === 44) { // Common Event
                         const commonEvent = commonEventsData.find(ce => ce && ce.id === effect.dataId);
                         let commonEventName = commonEvent && commonEvent.name ? commonEvent.name : `Common Event #${effect.dataId}`;
+                        // Store original Japanese name before translation
+                        const originalJapaneseName = commonEvent && commonEvent.name && commonEventTranslations[commonEventName] ? commonEvent.name : null;
                         // Translate common event name if translation exists
                         if (commonEventTranslations[commonEventName]) {
                             commonEventName = commonEventTranslations[commonEventName];
                         }
                         effectInfo.commonEventName = commonEventName;
+                        if (originalJapaneseName) {
+                            effectInfo.originalJapaneseName = originalJapaneseName;
+                            // Store Japanese version of description
+                            const japaneseCommonEventRef = `[[COMMONEVENT:${effect.dataId}:${originalJapaneseName}]]`;
+                            effectInfo.descriptionJapanese = `Triggers ${japaneseCommonEventRef}`;
+                        }
                         // Insert cross-reference marker directly
                         const commonEventRef = `[[COMMONEVENT:${effect.dataId}:${commonEventName}]]`;
                         effectInfo.description = `Triggers ${commonEventRef}`;
@@ -1940,6 +1948,9 @@ const processedSkills = skillsData
                         if (containsJapanese(effectInfo.description)) {
                             console.warn(`⚠️  Untranslated Japanese in skill effect description (ID: ${skill.id}, effect code ${effect.code}): "${effectInfo.description.substring(0, 100)}..."`);
                         }
+                    }
+                    if (effectInfo.descriptionJapanese) {
+                        effectInfo.descriptionJapanese = resolveAndLog(effectInfo.descriptionJapanese, idResolvers, 'skill', skill.id, 'effect');
                     }
                     
                     // CRITICAL: Ensure raw values are always present before returning
@@ -2799,11 +2810,19 @@ const processedItems = itemsData
                 // Common Event
                 const commonEvent = commonEventsData.find(ce => ce && ce.id === effect.dataId);
                 let commonEventName = commonEvent && commonEvent.name ? commonEvent.name : `Common Event #${effect.dataId}`;
+                // Store original Japanese name before translation
+                const originalJapaneseName = commonEvent && commonEvent.name && commonEventTranslations[commonEventName] ? commonEvent.name : null;
                 // Translate common event name if translation exists
                 if (commonEventTranslations[commonEventName]) {
                     commonEventName = commonEventTranslations[commonEventName];
                 }
                 effectInfo.commonEventName = commonEventName;
+                if (originalJapaneseName) {
+                    effectInfo.originalJapaneseName = originalJapaneseName;
+                    // Store Japanese version of description
+                    const japaneseCommonEventRef = `[[COMMONEVENT:${effect.dataId}:${originalJapaneseName}]]`;
+                    effectInfo.descriptionJapanese = `Triggers ${japaneseCommonEventRef}`;
+                }
                 // Insert cross-reference marker directly
                 const commonEventRef = `[[COMMONEVENT:${effect.dataId}:${commonEventName}]]`;
                 effectInfo.description = `Triggers ${commonEventRef}`;
@@ -2851,6 +2870,9 @@ const processedItems = itemsData
                 if (containsJapanese(effect.description)) {
                     console.warn(`⚠️  Untranslated Japanese in item effect description (ID: ${item.id}, effect code ${effect.code}): "${effect.description.substring(0, 100)}..."`);
                 }
+            }
+            if (effect.descriptionJapanese) {
+                effect.descriptionJapanese = resolveAndLog(effect.descriptionJapanese, idResolvers, 'item', item.id, 'effect');
             }
         });
         

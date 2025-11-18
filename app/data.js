@@ -1909,7 +1909,9 @@ const skillsData = {
           "dataId": 218,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Mental Focus"
+          "commonEventName": "Mental Focus",
+          "originalJapaneseName": "精神統一",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:218:精神統一]]"
         },
         {
           "code": 21,
@@ -3123,7 +3125,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -3183,7 +3187,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -3253,7 +3259,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -3313,7 +3321,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -3373,7 +3383,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         },
         {
           "code": 11,
@@ -3443,7 +3455,9 @@ const skillsData = {
           "dataId": 44,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Werewolf: Head Throw"
+          "commonEventName": "Werewolf: Head Throw",
+          "originalJapaneseName": "ワーウルフ：頭投げる",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:44:ワーウルフ：頭投げる]]"
         }
       ],
       "note": {
@@ -3774,7 +3788,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -4055,7 +4071,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -4115,7 +4133,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -4285,7 +4305,9 @@ const skillsData = {
           "dataId": 13,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Call Ally"
+          "commonEventName": "Call Ally",
+          "originalJapaneseName": "仲間を呼ぶ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:13:仲間を呼ぶ]]"
         }
       ],
       "note": {
@@ -7649,7 +7671,9 @@ const skillsData = {
           "dataId": 31,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Stealth"
+          "commonEventName": "Stealth",
+          "originalJapaneseName": "ステルス",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:31:ステルス]]"
         }
       ],
       "note": {
@@ -9534,7 +9558,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -9594,7 +9620,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -10098,7 +10126,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -10349,7 +10379,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -10419,7 +10451,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -10479,7 +10513,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -12614,7 +12650,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -12674,7 +12712,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -12734,7 +12774,9 @@ const skillsData = {
           "dataId": 61,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Advanced Mimicry"
+          "commonEventName": "Advanced Mimicry",
+          "originalJapaneseName": "擬態とく",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:61:擬態とく]]"
         },
         {
           "code": 21,
@@ -12804,7 +12846,9 @@ const skillsData = {
           "dataId": 60,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Mimicry"
+          "commonEventName": "Mimicry",
+          "originalJapaneseName": "擬態",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:60:擬態]]"
         },
         {
           "code": 21,
@@ -12884,7 +12928,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -13225,7 +13271,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -13346,7 +13394,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -13406,7 +13456,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -13466,7 +13518,9 @@ const skillsData = {
           "dataId": 65,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Sonibin Predation"
+          "commonEventName": "Sonibin Predation",
+          "originalJapaneseName": "ソニビン捕食",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:65:ソニビン捕食]]"
         }
       ],
       "note": {
@@ -14563,7 +14617,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -14633,7 +14689,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -15086,7 +15144,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -15146,7 +15206,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -15216,7 +15278,9 @@ const skillsData = {
           "dataId": 13,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Call Ally"
+          "commonEventName": "Call Ally",
+          "originalJapaneseName": "仲間を呼ぶ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:13:仲間を呼ぶ]]"
         }
       ],
       "note": {
@@ -15276,7 +15340,9 @@ const skillsData = {
           "dataId": 62,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Self-Destruct Bon"
+          "commonEventName": "Self-Destruct Bon",
+          "originalJapaneseName": "自爆ボン",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:62:自爆ボン]]"
         }
       ],
       "note": {
@@ -15336,7 +15402,9 @@ const skillsData = {
           "dataId": 63,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Self-Destruct Biri"
+          "commonEventName": "Self-Destruct Biri",
+          "originalJapaneseName": "自爆ビリ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:63:自爆ビリ]]"
         }
       ],
       "note": {
@@ -15396,7 +15464,9 @@ const skillsData = {
           "dataId": 64,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Self-Destruct Bu"
+          "commonEventName": "Self-Destruct Bu",
+          "originalJapaneseName": "自爆ブ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:64:自爆ブ]]"
         }
       ],
       "note": {
@@ -15831,7 +15901,9 @@ const skillsData = {
           "dataId": 66,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Self-Destruct Rarse"
+          "commonEventName": "Self-Destruct Rarse",
+          "originalJapaneseName": "自爆ラース",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:66:自爆ラース]]"
         }
       ],
       "note": {
@@ -16184,7 +16256,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -16254,7 +16328,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -16324,7 +16400,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -16394,7 +16472,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -17195,7 +17275,9 @@ const skillsData = {
           "dataId": 60,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Mimicry"
+          "commonEventName": "Mimicry",
+          "originalJapaneseName": "擬態",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:60:擬態]]"
         },
         {
           "code": 21,
@@ -17265,7 +17347,9 @@ const skillsData = {
           "dataId": 61,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Advanced Mimicry"
+          "commonEventName": "Advanced Mimicry",
+          "originalJapaneseName": "擬態とく",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:61:擬態とく]]"
         }
       ],
       "note": {
@@ -17778,7 +17862,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -21050,7 +21136,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -21110,7 +21198,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         },
         {
           "code": 32,
@@ -21351,7 +21441,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -21421,7 +21513,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -21491,7 +21585,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -21561,7 +21657,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -21671,7 +21769,9 @@ const skillsData = {
           "dataId": 43,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Dodo Run"
+          "commonEventName": "Dodo Run",
+          "originalJapaneseName": "ドードー走り",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:43:ドードー走り]]"
         }
       ],
       "note": {
@@ -21731,7 +21831,9 @@ const skillsData = {
           "dataId": 41,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Seek Advice"
+          "commonEventName": "Seek Advice",
+          "originalJapaneseName": "助言求め",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:41:助言求め]]"
         }
       ],
       "note": {
@@ -23426,7 +23528,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -23496,7 +23600,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -24307,7 +24413,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -24367,7 +24475,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -24832,7 +24942,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -25024,7 +25136,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -25084,7 +25198,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         },
         {
           "code": 21,
@@ -25214,7 +25330,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -25274,7 +25392,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -25536,7 +25656,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -25606,7 +25728,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         },
         {
           "code": 32,
@@ -25686,7 +25810,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -25756,7 +25882,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -25816,7 +25944,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -26370,7 +26500,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -26440,7 +26572,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -26500,7 +26634,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -26570,7 +26706,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -27025,7 +27163,9 @@ const skillsData = {
           "dataId": 72,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Self-Destruct Humpty"
+          "commonEventName": "Self-Destruct Humpty",
+          "originalJapaneseName": "自爆ハンプティ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:72:自爆ハンプティ]]"
         }
       ],
       "note": {
@@ -27166,7 +27306,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         },
         {
           "code": 32,
@@ -27256,7 +27398,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         },
         {
           "code": 32,
@@ -27346,7 +27490,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         },
         {
           "code": 32,
@@ -27436,7 +27582,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -27506,7 +27654,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -27586,7 +27736,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -27646,7 +27798,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -27838,7 +27992,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -27908,7 +28064,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -28110,7 +28268,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -28180,7 +28340,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -28664,7 +28826,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -28724,7 +28888,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -28794,7 +28960,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -28854,7 +29022,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         },
         {
           "code": 21,
@@ -29278,7 +29448,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -29338,7 +29510,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         },
         {
           "code": 21,
@@ -29418,7 +29592,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -29488,7 +29664,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -29548,7 +29726,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         },
         {
           "code": 21,
@@ -29972,7 +30152,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -31412,7 +31594,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -32027,7 +32211,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -32147,7 +32333,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -32217,7 +32405,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -32287,7 +32477,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -32347,7 +32539,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -32609,7 +32803,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -32669,7 +32865,9 @@ const skillsData = {
           "dataId": 210,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Self-Destruct Ignition"
+          "commonEventName": "Self-Destruct Ignition",
+          "originalJapaneseName": "自爆発火",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:210:自爆発火]]"
         }
       ],
       "note": {
@@ -32799,7 +32997,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -32869,7 +33069,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -33486,7 +33688,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -33556,7 +33760,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -33737,7 +33943,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -33929,7 +34137,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -33989,7 +34199,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -34059,7 +34271,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -34131,7 +34345,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -34201,7 +34417,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -34263,7 +34481,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -34818,7 +35038,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -35161,7 +35383,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -35231,7 +35455,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -35362,7 +35588,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -35422,7 +35650,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -35502,7 +35732,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -35582,7 +35814,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -35652,7 +35886,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -35722,7 +35958,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -35802,7 +36040,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         },
         {
           "code": 21,
@@ -36032,7 +36272,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -36414,7 +36656,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -36474,7 +36718,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         },
         {
           "code": 21,
@@ -37199,7 +37445,9 @@ const skillsData = {
           "dataId": 13,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Call Ally"
+          "commonEventName": "Call Ally",
+          "originalJapaneseName": "仲間を呼ぶ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:13:仲間を呼ぶ]]"
         }
       ],
       "note": {
@@ -37603,7 +37851,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -38259,7 +38509,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -38771,7 +39023,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -38831,7 +39085,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         },
         {
           "code": 21,
@@ -42013,7 +42269,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -42437,7 +42695,9 @@ const skillsData = {
           "dataId": 13,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Call Ally"
+          "commonEventName": "Call Ally",
+          "originalJapaneseName": "仲間を呼ぶ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:13:仲間を呼ぶ]]"
         }
       ],
       "note": {
@@ -43821,7 +44081,9 @@ const skillsData = {
           "dataId": 13,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Call Ally"
+          "commonEventName": "Call Ally",
+          "originalJapaneseName": "仲間を呼ぶ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:13:仲間を呼ぶ]]"
         }
       ],
       "note": {
@@ -44064,7 +44326,9 @@ const skillsData = {
           "dataId": 61,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Advanced Mimicry"
+          "commonEventName": "Advanced Mimicry",
+          "originalJapaneseName": "擬態とく",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:61:擬態とく]]"
         },
         {
           "code": 21,
@@ -44134,7 +44398,9 @@ const skillsData = {
           "dataId": 60,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Mimicry"
+          "commonEventName": "Mimicry",
+          "originalJapaneseName": "擬態",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:60:擬態]]"
         },
         {
           "code": 21,
@@ -44375,7 +44641,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -44445,7 +44713,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -44686,7 +44956,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         },
         {
           "code": 21,
@@ -44756,7 +45028,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         },
         {
           "code": 21,
@@ -44836,7 +45110,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -45101,7 +45377,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -45171,7 +45449,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -45331,7 +45611,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -45403,7 +45685,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -45483,7 +45767,9 @@ const skillsData = {
           "dataId": 38,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant"
+          "commonEventName": "Chant",
+          "originalJapaneseName": "詠唱",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:38:詠唱]]"
         }
       ],
       "note": {
@@ -45703,7 +45989,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -45834,7 +46122,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -46217,7 +46507,9 @@ const skillsData = {
           "dataId": 13,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Call Ally"
+          "commonEventName": "Call Ally",
+          "originalJapaneseName": "仲間を呼ぶ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:13:仲間を呼ぶ]]"
         }
       ],
       "note": {
@@ -47433,7 +47725,9 @@ const skillsData = {
           "dataId": 292,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Disarm"
+          "commonEventName": "Disarm",
+          "originalJapaneseName": "武装解除",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:292:武装解除]]"
         }
       ],
       "note": {
@@ -48293,7 +48587,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -49536,7 +49832,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -50089,7 +50387,9 @@ const skillsData = {
           "dataId": 293,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Final Blade"
+          "commonEventName": "Final Blade",
+          "originalJapaneseName": "最期の太刀",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:293:最期の太刀]]"
         }
       ],
       "note": {
@@ -50159,7 +50459,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -51976,7 +52278,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -52116,7 +52420,9 @@ const skillsData = {
           "dataId": 13,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Call Ally"
+          "commonEventName": "Call Ally",
+          "originalJapaneseName": "仲間を呼ぶ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:13:仲間を呼ぶ]]"
         }
       ],
       "note": {
@@ -53045,7 +53351,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         },
         {
           "code": 31,
@@ -53978,7 +54286,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         },
         {
           "code": 31,
@@ -54634,7 +54944,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -54893,7 +55205,9 @@ const skillsData = {
           "dataId": 344,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "SEN Increase Penguin"
+          "commonEventName": "SEN Increase Penguin",
+          "originalJapaneseName": "sen上げるペンギン",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:344:sen上げるペンギン]]"
         }
       ],
       "note": {
@@ -56226,7 +56540,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -56336,7 +56652,9 @@ const skillsData = {
           "dataId": 345,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Summon Meat Wall"
+          "commonEventName": "Summon Meat Wall",
+          "originalJapaneseName": "肉壁召喚",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:345:肉壁召喚]]"
         },
         {
           "code": 21,
@@ -62311,7 +62629,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -62371,7 +62691,9 @@ const skillsData = {
           "dataId": 350,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Armor Removed"
+          "commonEventName": "Armor Removed",
+          "originalJapaneseName": "鎧外れる",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:350:鎧外れる]]"
         },
         {
           "code": 21,
@@ -62460,7 +62782,9 @@ const skillsData = {
           "dataId": 61,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Advanced Mimicry"
+          "commonEventName": "Advanced Mimicry",
+          "originalJapaneseName": "擬態とく",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:61:擬態とく]]"
         },
         {
           "code": 21,
@@ -64680,7 +65004,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         },
         {
           "code": 21,
@@ -65931,7 +66257,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         },
         {
           "code": 21,
@@ -66119,7 +66447,9 @@ const skillsData = {
           "dataId": 60,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Mimicry"
+          "commonEventName": "Mimicry",
+          "originalJapaneseName": "擬態",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:60:擬態]]"
         },
         {
           "code": 21,
@@ -66321,7 +66651,9 @@ const skillsData = {
           "dataId": 61,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Advanced Mimicry"
+          "commonEventName": "Advanced Mimicry",
+          "originalJapaneseName": "擬態とく",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:61:擬態とく]]"
         },
         {
           "code": 21,
@@ -66401,7 +66733,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         },
         {
           "code": 21,
@@ -68843,7 +69177,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         },
         {
           "code": 31,
@@ -69376,7 +69712,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         },
         {
           "code": 21,
@@ -70458,7 +70796,9 @@ const skillsData = {
           "dataId": 60,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Mimicry"
+          "commonEventName": "Mimicry",
+          "originalJapaneseName": "擬態",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:60:擬態]]"
         },
         {
           "code": 21,
@@ -70538,7 +70878,9 @@ const skillsData = {
           "dataId": 37,
           "value1": 0,
           "value2": 0,
-          "commonEventName": "Chant Charge"
+          "commonEventName": "Chant Charge",
+          "originalJapaneseName": "詠唱チャージ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:37:詠唱チャージ]]"
         }
       ],
       "note": {
@@ -202716,7 +203058,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:223:Green Soul]]",
-          "commonEventName": "Green Soul"
+          "commonEventName": "Green Soul",
+          "originalJapaneseName": "緑のソウル",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:223:緑のソウル]]"
         }
       ],
       "damage": null,
@@ -202749,7 +203093,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:224:Purple Soul]]",
-          "commonEventName": "Purple Soul"
+          "commonEventName": "Purple Soul",
+          "originalJapaneseName": "紫のソウル",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:224:紫のソウル]]"
         }
       ],
       "damage": null,
@@ -202782,7 +203128,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:225:Red Soul]]",
-          "commonEventName": "Red Soul"
+          "commonEventName": "Red Soul",
+          "originalJapaneseName": "赤のソウル",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:225:赤のソウル]]"
         }
       ],
       "damage": null,
@@ -202815,7 +203163,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:226:Blue Soul]]",
-          "commonEventName": "Blue Soul"
+          "commonEventName": "Blue Soul",
+          "originalJapaneseName": "青のソウル",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:226:青のソウル]]"
         }
       ],
       "damage": null,
@@ -202848,7 +203198,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:227:Yellow Soul]]",
-          "commonEventName": "Yellow Soul"
+          "commonEventName": "Yellow Soul",
+          "originalJapaneseName": "黄のソウル",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:227:黄のソウル]]"
         }
       ],
       "damage": null,
@@ -202881,7 +203233,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:228:Gray Soul]]",
-          "commonEventName": "Gray Soul"
+          "commonEventName": "Gray Soul",
+          "originalJapaneseName": "灰のソウル",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:228:灰のソウル]]"
         }
       ],
       "damage": null,
@@ -202914,7 +203268,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:229:White Soul]]",
-          "commonEventName": "White Soul"
+          "commonEventName": "White Soul",
+          "originalJapaneseName": "白のソウル",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:229:白のソウル]]"
         }
       ],
       "damage": null,
@@ -202947,7 +203303,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:230:Four-Leaf Soul]]",
-          "commonEventName": "Four-Leaf Soul"
+          "commonEventName": "Four-Leaf Soul",
+          "originalJapaneseName": "四葉のソウル",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:230:四葉のソウル]]"
         }
       ],
       "damage": null,
@@ -202980,7 +203338,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:221:Black Soul]]",
-          "commonEventName": "Black Soul"
+          "commonEventName": "Black Soul",
+          "originalJapaneseName": "黒のソウル",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:221:黒のソウル]]"
         }
       ],
       "damage": null,
@@ -203013,7 +203373,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:3:Return Bone Powder]]",
-          "commonEventName": "Return Bone Powder"
+          "commonEventName": "Return Bone Powder",
+          "originalJapaneseName": "帰還の骨粉",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:3:帰還の骨粉]]"
         }
       ],
       "damage": null,
@@ -203046,7 +203408,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:48:Rabbit's Pocket Watch]]",
-          "commonEventName": "Rabbit's Pocket Watch"
+          "commonEventName": "Rabbit's Pocket Watch",
+          "originalJapaneseName": "兎の懐中時計",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:48:兎の懐中時計]]"
         },
         {
           "code": 21,
@@ -203089,7 +203453,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:31:Stealth]]",
-          "commonEventName": "Stealth"
+          "commonEventName": "Stealth",
+          "originalJapaneseName": "ステルス",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:31:ステルス]]"
         }
       ],
       "damage": null,
@@ -203561,7 +203927,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:19:Soul Acquisition 50]]",
-          "commonEventName": "Soul Acquisition 50"
+          "commonEventName": "Soul Acquisition 50",
+          "originalJapaneseName": "ソウル入手50",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:19:ソウル入手50]]"
         }
       ],
       "damage": null,
@@ -203594,7 +203962,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:20:Soul Acquisition 200]]",
-          "commonEventName": "Soul Acquisition 200"
+          "commonEventName": "Soul Acquisition 200",
+          "originalJapaneseName": "ソウル入手200",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:20:ソウル入手200]]"
         }
       ],
       "damage": null,
@@ -203627,7 +203997,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:21:Soul Acquisition 400]]",
-          "commonEventName": "Soul Acquisition 400"
+          "commonEventName": "Soul Acquisition 400",
+          "originalJapaneseName": "ソウル入手400",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:21:ソウル入手400]]"
         }
       ],
       "damage": null,
@@ -203660,7 +204032,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:22:Soul Acquisition 800]]",
-          "commonEventName": "Soul Acquisition 800"
+          "commonEventName": "Soul Acquisition 800",
+          "originalJapaneseName": "ソウル入手800",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:22:ソウル入手800]]"
         }
       ],
       "damage": null,
@@ -203693,7 +204067,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:23:Soul Acquisition 1000]]",
-          "commonEventName": "Soul Acquisition 1000"
+          "commonEventName": "Soul Acquisition 1000",
+          "originalJapaneseName": "ソウル入手1000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:23:ソウル入手1000]]"
         }
       ],
       "damage": null,
@@ -203726,7 +204102,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:24:Soul Acquisition 2000]]",
-          "commonEventName": "Soul Acquisition 2000"
+          "commonEventName": "Soul Acquisition 2000",
+          "originalJapaneseName": "ソウル入手2000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:24:ソウル入手2000]]"
         }
       ],
       "damage": null,
@@ -203759,7 +204137,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:25:Soul Acquisition 3000]]",
-          "commonEventName": "Soul Acquisition 3000"
+          "commonEventName": "Soul Acquisition 3000",
+          "originalJapaneseName": "ソウル入手3000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:25:ソウル入手3000]]"
         }
       ],
       "damage": null,
@@ -203792,7 +204172,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:26:Soul Acquisition 5000]]",
-          "commonEventName": "Soul Acquisition 5000"
+          "commonEventName": "Soul Acquisition 5000",
+          "originalJapaneseName": "ソウル入手5000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:26:ソウル入手5000]]"
         }
       ],
       "damage": null,
@@ -203825,7 +204207,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:27:Soul Acquisition 8000]]",
-          "commonEventName": "Soul Acquisition 8000"
+          "commonEventName": "Soul Acquisition 8000",
+          "originalJapaneseName": "ソウル入手8000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:27:ソウル入手8000]]"
         }
       ],
       "damage": null,
@@ -203858,7 +204242,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:28:Soul Acquisition 10000]]",
-          "commonEventName": "Soul Acquisition 10000"
+          "commonEventName": "Soul Acquisition 10000",
+          "originalJapaneseName": "ソウル入手10000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:28:ソウル入手10000]]"
         }
       ],
       "damage": null,
@@ -203891,7 +204277,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:29:Soul Acquisition 20000]]",
-          "commonEventName": "Soul Acquisition 20000"
+          "commonEventName": "Soul Acquisition 20000",
+          "originalJapaneseName": "ソウル入手20000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:29:ソウル入手20000]]"
         }
       ],
       "damage": null,
@@ -203996,7 +204384,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:47:Reduce Sendam (Girl's Photo)]]",
-          "commonEventName": "Reduce Sendam (Girl's Photo)"
+          "commonEventName": "Reduce Sendam (Girl's Photo)",
+          "originalJapaneseName": "Sendam減らす（少女の写真）",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:47:Sendam減らす（少女の写真）]]"
         }
       ],
       "damage": null,
@@ -204225,7 +204615,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:3:Return Bone Powder]]",
-          "commonEventName": "Return Bone Powder"
+          "commonEventName": "Return Bone Powder",
+          "originalJapaneseName": "帰還の骨粉",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:3:帰還の骨粉]]"
         }
       ],
       "damage": null,
@@ -204462,7 +204854,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:231:Prescription Medicine]]",
-          "commonEventName": "Prescription Medicine"
+          "commonEventName": "Prescription Medicine",
+          "originalJapaneseName": "処方薬",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:231:処方薬]]"
         }
       ],
       "damage": null,
@@ -204495,7 +204889,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:232:Girl's Photo]]",
-          "commonEventName": "Girl's Photo"
+          "commonEventName": "Girl's Photo",
+          "originalJapaneseName": "少女の写真",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:232:少女の写真]]"
         }
       ],
       "damage": null,
@@ -204528,7 +204924,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:18:Reshuffle Trump]]",
-          "commonEventName": "Reshuffle Trump"
+          "commonEventName": "Reshuffle Trump",
+          "originalJapaneseName": "再思トランプ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:18:再思トランプ]]"
         }
       ],
       "damage": null,
@@ -204629,7 +205027,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:36:Black Ash]]",
-          "commonEventName": "Black Ash"
+          "commonEventName": "Black Ash",
+          "originalJapaneseName": "黒の灰",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:36:黒の灰]]"
         }
       ],
       "damage": null,
@@ -204685,7 +205085,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:58:Drink Me]]",
-          "commonEventName": "Drink Me"
+          "commonEventName": "Drink Me",
+          "originalJapaneseName": "私をお飲み",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:58:私をお飲み]]"
         }
       ],
       "damage": null,
@@ -204718,7 +205120,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:59:Eat Me]]",
-          "commonEventName": "Eat Me"
+          "commonEventName": "Eat Me",
+          "originalJapaneseName": "私をお食べ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:59:私をお食べ]]"
         }
       ],
       "damage": null,
@@ -204774,7 +205178,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:215:Soul Acquisition 250000]]",
-          "commonEventName": "Soul Acquisition 250000"
+          "commonEventName": "Soul Acquisition 250000",
+          "originalJapaneseName": "ソウル入手250000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:215:ソウル入手250000]]"
         }
       ],
       "damage": null,
@@ -205004,7 +205410,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:222:Defiled Black Soul]]",
-          "commonEventName": "Defiled Black Soul"
+          "commonEventName": "Defiled Black Soul",
+          "originalJapaneseName": "穢れた黒のソウル",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:222:穢れた黒のソウル]]"
         }
       ],
       "damage": null,
@@ -205037,7 +205445,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:233:Dream Soul]]",
-          "commonEventName": "Dream Soul"
+          "commonEventName": "Dream Soul",
+          "originalJapaneseName": "夢のソウル",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:233:夢のソウル]]"
         }
       ],
       "damage": null,
@@ -205159,7 +205569,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:220:Soul of the Outer One]]",
-          "commonEventName": "Soul of the Outer One"
+          "commonEventName": "Soul of the Outer One",
+          "originalJapaneseName": "外なる者のソウル",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:220:外なる者のソウル]]"
         }
       ],
       "damage": null,
@@ -205192,7 +205604,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:216:Soul Acquisition 25000]]",
-          "commonEventName": "Soul Acquisition 25000"
+          "commonEventName": "Soul Acquisition 25000",
+          "originalJapaneseName": "ソウル入手25000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:216:ソウル入手25000]]"
         }
       ],
       "damage": null,
@@ -205225,7 +205639,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:217:Soul Acquisition 50000]]",
-          "commonEventName": "Soul Acquisition 50000"
+          "commonEventName": "Soul Acquisition 50000",
+          "originalJapaneseName": "ソウル入手50000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:217:ソウル入手50000]]"
         }
       ],
       "damage": null,
@@ -205308,7 +205724,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:234:Sendam Adjustment]]",
-          "commonEventName": "Sendam Adjustment"
+          "commonEventName": "Sendam Adjustment",
+          "originalJapaneseName": "Sendam調整",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:234:Sendam調整]]"
         }
       ],
       "damage": null,
@@ -205484,7 +205902,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:17:Satyr's Cock]]",
-          "commonEventName": "Satyr's Cock"
+          "commonEventName": "Satyr's Cock",
+          "originalJapaneseName": "サティロスちんぽ",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:17:サティロスちんぽ]]"
         }
       ],
       "damage": null,
@@ -205550,7 +205970,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:288:Old King's Bone Powder]]",
-          "commonEventName": "Old King's Bone Powder"
+          "commonEventName": "Old King's Bone Powder",
+          "originalJapaneseName": "古王の骨粉",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:288:古王の骨粉]]"
         }
       ],
       "damage": null,
@@ -205583,7 +206005,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:299:Squirrel's Fur]]",
-          "commonEventName": "Squirrel's Fur"
+          "commonEventName": "Squirrel's Fur",
+          "originalJapaneseName": "リスの毛",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:299:リスの毛]]"
         }
       ],
       "damage": null,
@@ -207141,7 +207565,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:23:Soul Acquisition 1000]]",
-          "commonEventName": "Soul Acquisition 1000"
+          "commonEventName": "Soul Acquisition 1000",
+          "originalJapaneseName": "ソウル入手1000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:23:ソウル入手1000]]"
         }
       ],
       "damage": null,
@@ -207174,7 +207600,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:24:Soul Acquisition 2000]]",
-          "commonEventName": "Soul Acquisition 2000"
+          "commonEventName": "Soul Acquisition 2000",
+          "originalJapaneseName": "ソウル入手2000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:24:ソウル入手2000]]"
         }
       ],
       "damage": null,
@@ -207207,7 +207635,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:25:Soul Acquisition 3000]]",
-          "commonEventName": "Soul Acquisition 3000"
+          "commonEventName": "Soul Acquisition 3000",
+          "originalJapaneseName": "ソウル入手3000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:25:ソウル入手3000]]"
         }
       ],
       "damage": null,
@@ -207240,7 +207670,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:26:Soul Acquisition 5000]]",
-          "commonEventName": "Soul Acquisition 5000"
+          "commonEventName": "Soul Acquisition 5000",
+          "originalJapaneseName": "ソウル入手5000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:26:ソウル入手5000]]"
         }
       ],
       "damage": null,
@@ -207273,7 +207705,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:26:Soul Acquisition 5000]]",
-          "commonEventName": "Soul Acquisition 5000"
+          "commonEventName": "Soul Acquisition 5000",
+          "originalJapaneseName": "ソウル入手5000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:26:ソウル入手5000]]"
         }
       ],
       "damage": null,
@@ -207306,7 +207740,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:26:Soul Acquisition 5000]]",
-          "commonEventName": "Soul Acquisition 5000"
+          "commonEventName": "Soul Acquisition 5000",
+          "originalJapaneseName": "ソウル入手5000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:26:ソウル入手5000]]"
         }
       ],
       "damage": null,
@@ -207339,7 +207775,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:28:Soul Acquisition 10000]]",
-          "commonEventName": "Soul Acquisition 10000"
+          "commonEventName": "Soul Acquisition 10000",
+          "originalJapaneseName": "ソウル入手10000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:28:ソウル入手10000]]"
         }
       ],
       "damage": null,
@@ -207372,7 +207810,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:27:Soul Acquisition 8000]]",
-          "commonEventName": "Soul Acquisition 8000"
+          "commonEventName": "Soul Acquisition 8000",
+          "originalJapaneseName": "ソウル入手8000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:27:ソウル入手8000]]"
         }
       ],
       "damage": null,
@@ -207405,7 +207845,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:27:Soul Acquisition 8000]]",
-          "commonEventName": "Soul Acquisition 8000"
+          "commonEventName": "Soul Acquisition 8000",
+          "originalJapaneseName": "ソウル入手8000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:27:ソウル入手8000]]"
         }
       ],
       "damage": null,
@@ -207438,7 +207880,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:28:Soul Acquisition 10000]]",
-          "commonEventName": "Soul Acquisition 10000"
+          "commonEventName": "Soul Acquisition 10000",
+          "originalJapaneseName": "ソウル入手10000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:28:ソウル入手10000]]"
         }
       ],
       "damage": null,
@@ -207471,7 +207915,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:25:Soul Acquisition 3000]]",
-          "commonEventName": "Soul Acquisition 3000"
+          "commonEventName": "Soul Acquisition 3000",
+          "originalJapaneseName": "ソウル入手3000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:25:ソウル入手3000]]"
         }
       ],
       "damage": null,
@@ -207504,7 +207950,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:29:Soul Acquisition 20000]]",
-          "commonEventName": "Soul Acquisition 20000"
+          "commonEventName": "Soul Acquisition 20000",
+          "originalJapaneseName": "ソウル入手20000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:29:ソウル入手20000]]"
         }
       ],
       "damage": null,
@@ -207537,7 +207985,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:24:Soul Acquisition 2000]]",
-          "commonEventName": "Soul Acquisition 2000"
+          "commonEventName": "Soul Acquisition 2000",
+          "originalJapaneseName": "ソウル入手2000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:24:ソウル入手2000]]"
         }
       ],
       "damage": null,
@@ -207570,7 +208020,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:24:Soul Acquisition 2000]]",
-          "commonEventName": "Soul Acquisition 2000"
+          "commonEventName": "Soul Acquisition 2000",
+          "originalJapaneseName": "ソウル入手2000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:24:ソウル入手2000]]"
         }
       ],
       "damage": null,
@@ -207603,7 +208055,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:24:Soul Acquisition 2000]]",
-          "commonEventName": "Soul Acquisition 2000"
+          "commonEventName": "Soul Acquisition 2000",
+          "originalJapaneseName": "ソウル入手2000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:24:ソウル入手2000]]"
         }
       ],
       "damage": null,
@@ -207636,7 +208090,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:29:Soul Acquisition 20000]]",
-          "commonEventName": "Soul Acquisition 20000"
+          "commonEventName": "Soul Acquisition 20000",
+          "originalJapaneseName": "ソウル入手20000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:29:ソウル入手20000]]"
         }
       ],
       "damage": null,
@@ -207669,7 +208125,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:29:Soul Acquisition 20000]]",
-          "commonEventName": "Soul Acquisition 20000"
+          "commonEventName": "Soul Acquisition 20000",
+          "originalJapaneseName": "ソウル入手20000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:29:ソウル入手20000]]"
         }
       ],
       "damage": null,
@@ -207702,7 +208160,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:28:Soul Acquisition 10000]]",
-          "commonEventName": "Soul Acquisition 10000"
+          "commonEventName": "Soul Acquisition 10000",
+          "originalJapaneseName": "ソウル入手10000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:28:ソウル入手10000]]"
         }
       ],
       "damage": null,
@@ -207735,7 +208195,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:29:Soul Acquisition 20000]]",
-          "commonEventName": "Soul Acquisition 20000"
+          "commonEventName": "Soul Acquisition 20000",
+          "originalJapaneseName": "ソウル入手20000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:29:ソウル入手20000]]"
         }
       ],
       "damage": null,
@@ -207768,7 +208230,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:29:Soul Acquisition 20000]]",
-          "commonEventName": "Soul Acquisition 20000"
+          "commonEventName": "Soul Acquisition 20000",
+          "originalJapaneseName": "ソウル入手20000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:29:ソウル入手20000]]"
         }
       ],
       "damage": null,
@@ -207801,7 +208265,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:29:Soul Acquisition 20000]]",
-          "commonEventName": "Soul Acquisition 20000"
+          "commonEventName": "Soul Acquisition 20000",
+          "originalJapaneseName": "ソウル入手20000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:29:ソウル入手20000]]"
         }
       ],
       "damage": null,
@@ -207834,7 +208300,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:217:Soul Acquisition 50000]]",
-          "commonEventName": "Soul Acquisition 50000"
+          "commonEventName": "Soul Acquisition 50000",
+          "originalJapaneseName": "ソウル入手50000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:217:ソウル入手50000]]"
         }
       ],
       "damage": null,
@@ -207867,7 +208335,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:216:Soul Acquisition 25000]]",
-          "commonEventName": "Soul Acquisition 25000"
+          "commonEventName": "Soul Acquisition 25000",
+          "originalJapaneseName": "ソウル入手25000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:216:ソウル入手25000]]"
         }
       ],
       "damage": null,
@@ -207900,7 +208370,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:216:Soul Acquisition 25000]]",
-          "commonEventName": "Soul Acquisition 25000"
+          "commonEventName": "Soul Acquisition 25000",
+          "originalJapaneseName": "ソウル入手25000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:216:ソウル入手25000]]"
         }
       ],
       "damage": null,
@@ -207933,7 +208405,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:216:Soul Acquisition 25000]]",
-          "commonEventName": "Soul Acquisition 25000"
+          "commonEventName": "Soul Acquisition 25000",
+          "originalJapaneseName": "ソウル入手25000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:216:ソウル入手25000]]"
         }
       ],
       "damage": null,
@@ -207966,7 +208440,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:216:Soul Acquisition 25000]]",
-          "commonEventName": "Soul Acquisition 25000"
+          "commonEventName": "Soul Acquisition 25000",
+          "originalJapaneseName": "ソウル入手25000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:216:ソウル入手25000]]"
         }
       ],
       "damage": null,
@@ -207999,7 +208475,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:216:Soul Acquisition 25000]]",
-          "commonEventName": "Soul Acquisition 25000"
+          "commonEventName": "Soul Acquisition 25000",
+          "originalJapaneseName": "ソウル入手25000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:216:ソウル入手25000]]"
         }
       ],
       "damage": null,
@@ -208032,7 +208510,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:216:Soul Acquisition 25000]]",
-          "commonEventName": "Soul Acquisition 25000"
+          "commonEventName": "Soul Acquisition 25000",
+          "originalJapaneseName": "ソウル入手25000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:216:ソウル入手25000]]"
         }
       ],
       "damage": null,
@@ -208065,7 +208545,9 @@ const itemsData = {
           "value1": 0,
           "value2": 0,
           "description": "Triggers [[COMMONEVENT:216:Soul Acquisition 25000]]",
-          "commonEventName": "Soul Acquisition 25000"
+          "commonEventName": "Soul Acquisition 25000",
+          "originalJapaneseName": "ソウル入手25000",
+          "descriptionJapanese": "Triggers [[COMMONEVENT:216:ソウル入手25000]]"
         }
       ],
       "damage": null,
