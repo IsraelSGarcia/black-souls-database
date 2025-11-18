@@ -609,12 +609,14 @@ function navigateToCrossReference(type, id) {
     if (targetSection && currentSection !== targetSection) {
         // Navigating to a different section - showSection will clear search (expected)
         // Build and push the target state immediately for instant URL update
-        // Temporarily disable isRestoringState to allow the push, then restore it
+        // Set scroll positions to 0 for new page navigation
         const wasRestoring = isRestoringState;
         const targetState = {
             view: targetSection,
             selectedId: parseInt(id),
-            game: currentGame || 'bs2'
+            game: currentGame || 'bs2',
+            resultsListScrollTop: 0,
+            detailPanelScrollTop: 0
         };
         if (!wasRestoring) {
             // Use force=true to bypass isRestoringState check and push immediately
@@ -627,6 +629,11 @@ function navigateToCrossReference(type, id) {
         // Use requestAnimationFrame to ensure DOM is ready, then select
         // Keep isRestoringState true during selection to prevent duplicate pushes
         requestAnimationFrame(() => {
+            // Reset scroll positions to top before selecting (new page should start at top)
+            if (resultsList) resultsList.scrollTop = 0;
+            if (detailPanel) detailPanel.scrollTop = 0;
+            if (detailContent) detailContent.scrollTop = 0;
+            
             // Temporarily keep isRestoringState true to prevent selectX from pushing
             isRestoringState = true;
             if (targetSection === 'skills') {
@@ -674,50 +681,99 @@ function navigateToCrossReference(type, id) {
             searchSkills('');
             renderResults();
             updateResultsCount();
+            // Reset scroll positions to top before selecting (new page should start at top)
+            if (resultsList) resultsList.scrollTop = 0;
+            if (detailPanel) detailPanel.scrollTop = 0;
+            if (detailContent) detailContent.scrollTop = 0;
             selectSkill(parseInt(id));
             newState = buildNavigationState();
+            // Set scroll positions to 0 in the new state
+            newState.resultsListScrollTop = 0;
+            newState.detailPanelScrollTop = 0;
             scrollToSelectedItem(targetSection, parseInt(id));
         } else if (targetSection === 'states') {
             searchStates('');
             renderStatesResults();
             updateResultsCount();
+            // Reset scroll positions to top before selecting (new page should start at top)
+            if (resultsList) resultsList.scrollTop = 0;
+            if (detailPanel) detailPanel.scrollTop = 0;
+            if (detailContent) detailContent.scrollTop = 0;
             selectState(parseInt(id));
             newState = buildNavigationState();
+            // Set scroll positions to 0 in the new state
+            newState.resultsListScrollTop = 0;
+            newState.detailPanelScrollTop = 0;
             scrollToSelectedItem(targetSection, parseInt(id));
         } else if (targetSection === 'weapons') {
             searchWeapons('');
             renderWeaponsResults();
             updateResultsCount();
+            // Reset scroll positions to top before selecting (new page should start at top)
+            if (resultsList) resultsList.scrollTop = 0;
+            if (detailPanel) detailPanel.scrollTop = 0;
+            if (detailContent) detailContent.scrollTop = 0;
             selectWeapon(parseInt(id));
             newState = buildNavigationState();
+            // Set scroll positions to 0 in the new state
+            newState.resultsListScrollTop = 0;
+            newState.detailPanelScrollTop = 0;
             scrollToSelectedItem(targetSection, parseInt(id));
         } else if (targetSection === 'armors') {
             searchArmors('');
             renderArmorsResults();
             updateResultsCount();
+            // Reset scroll positions to top before selecting (new page should start at top)
+            if (resultsList) resultsList.scrollTop = 0;
+            if (detailPanel) detailPanel.scrollTop = 0;
+            if (detailContent) detailContent.scrollTop = 0;
             selectArmor(parseInt(id));
             newState = buildNavigationState();
+            // Set scroll positions to 0 in the new state
+            newState.resultsListScrollTop = 0;
+            newState.detailPanelScrollTop = 0;
             scrollToSelectedItem(targetSection, parseInt(id));
         } else if (targetSection === 'items') {
             searchItems('');
             renderItemsResults();
             updateResultsCount();
+            // Reset scroll positions to top before selecting (new page should start at top)
+            if (resultsList) resultsList.scrollTop = 0;
+            if (detailPanel) detailPanel.scrollTop = 0;
+            if (detailContent) detailContent.scrollTop = 0;
             selectItem(parseInt(id));
             newState = buildNavigationState();
+            // Set scroll positions to 0 in the new state
+            newState.resultsListScrollTop = 0;
+            newState.detailPanelScrollTop = 0;
             scrollToSelectedItem(targetSection, parseInt(id));
         } else if (targetSection === 'enemies') {
             searchEnemies('');
             renderEnemiesResults();
             updateResultsCount();
+            // Reset scroll positions to top before selecting (new page should start at top)
+            if (resultsList) resultsList.scrollTop = 0;
+            if (detailPanel) detailPanel.scrollTop = 0;
+            if (detailContent) detailContent.scrollTop = 0;
             selectEnemy(parseInt(id));
             newState = buildNavigationState();
+            // Set scroll positions to 0 in the new state
+            newState.resultsListScrollTop = 0;
+            newState.detailPanelScrollTop = 0;
             scrollToSelectedItem(targetSection, parseInt(id));
         } else if (targetSection === 'elements') {
             searchElements('');
             renderElementsResults();
             updateResultsCount();
+            // Reset scroll positions to top before selecting (new page should start at top)
+            if (resultsList) resultsList.scrollTop = 0;
+            if (detailPanel) detailPanel.scrollTop = 0;
+            if (detailContent) detailContent.scrollTop = 0;
             selectElement(parseInt(id));
             newState = buildNavigationState();
+            // Set scroll positions to 0 in the new state
+            newState.resultsListScrollTop = 0;
+            newState.detailPanelScrollTop = 0;
             scrollToSelectedItem(targetSection, parseInt(id));
         }
         
