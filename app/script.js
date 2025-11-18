@@ -6240,10 +6240,14 @@ const SEARCH_DEBOUNCE_MS = 500; // Wait 500ms after user stops typing before upd
 
 searchInput.addEventListener('input', (e) => {
     const searchValue = e.target.value;
+    const isSearchCleared = !searchValue.trim();
     
-    // Reset left panel scroll to top when search changes
+    // Get currently selected ID before performing search
+    const currentSelectedId = getCurrentSelectedId();
+    
+    // Reset left panel scroll to top when search changes (unless clearing search with selected item)
     const resultsList = document.getElementById('results-list');
-    if (resultsList) {
+    if (resultsList && !(isSearchCleared && currentSelectedId)) {
         resultsList.scrollTop = 0;
     }
     
@@ -6271,6 +6275,14 @@ searchInput.addEventListener('input', (e) => {
         renderElementsResults();
     }
     updateResultsCount();
+    
+    // If search was cleared and there's a selected item, scroll to show it
+    if (isSearchCleared && currentSelectedId && currentSection) {
+        // Use requestAnimationFrame to ensure DOM is ready after rendering
+        requestAnimationFrame(() => {
+            scrollToSelectedItem(currentSection, currentSelectedId);
+        });
+    }
     
     // Debounce history updates to prevent duplicates
     // Clear previous timer
