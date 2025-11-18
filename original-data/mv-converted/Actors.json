@@ -1,203 +1,6447 @@
 [
-null,
-{"id":1,"battlerName":"","characterIndex":5,"characterName":"!Flame","classId":13,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[{"code":23,"dataId":8,"value":1.0},{"code":13,"dataId":7,"value":0.01},{"code":13,"dataId":8,"value":0.01}],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"<レベル限界増加:900>\n<戦闘終了後ステート解除:1>\n<戦闘中装備変更>\n<戦闘中装備変更禁止:4,3,2,1>\n<限界変動:0,99999>\n<限界変動:1,99999>\n<限界変動:2,99999>\n<限界変動:3,99999>\n<限界変動:4,99999>\n<限界変動:5,99999>\n<限界変動:6,99999>\n<限界変動:7,99999>","profile":""},
-{"id":2,"battlerName":"","characterIndex":0,"characterName":"$主人公","classId":1,"equips":[101,51,25,17,0],"faceIndex":3,"faceName":"DS_Actor20","traits":[{"code":23,"dataId":8,"value":1.0},{"code":13,"dataId":7,"value":0.01},{"code":13,"dataId":8,"value":0.01}],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,99999>\n<限界変動:2,99999>\n<限界変動:3,99999>\n<限界変動:4,99999>\n<限界変動:5,99999>\n<限界変動:6,99999>\n<限界変動:7,99999>\n<戦闘終了後ステート解除:1>\n<戦闘中装備変更>\n<戦闘中装備変更禁止:4,3,2,1>","profile":""},
-{"id":3,"battlerName":"","characterIndex":2,"characterName":"Evil","classId":2,"equips":[112,43,24,16,0],"faceIndex":2,"faceName":"Evil","traits":[{"code":23,"dataId":8,"value":1.0},{"code":13,"dataId":7,"value":0.01},{"code":13,"dataId":8,"value":0.01}],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,99999>\n<限界変動:2,99999>\n<限界変動:3,99999>\n<限界変動:4,99999>\n<限界変動:5,99999>\n<限界変動:6,99999>\n<限界変動:7,99999>\n<戦闘終了後ステート解除:1>\n<戦闘中装備変更>\n<戦闘中装備変更禁止:4,3,2,1>","profile":""},
-{"id":4,"battlerName":"","characterIndex":5,"characterName":"Evil","classId":3,"equips":[167,45,23,15,0],"faceIndex":5,"faceName":"Evil","traits":[{"code":23,"dataId":8,"value":1.0},{"code":13,"dataId":7,"value":0.01},{"code":13,"dataId":8,"value":0.01}],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,99999>\n<限界変動:2,99999>\n<限界変動:3,99999>\n<限界変動:4,99999>\n<限界変動:5,99999>\n<限界変動:6,99999>\n<限界変動:7,99999>\n<戦闘終了後ステート解除:1>\n<戦闘中装備変更>\n<戦闘中装備変更禁止:4,3,2,1>","profile":""},
-{"id":5,"battlerName":"","characterIndex":2,"characterName":"fc_priestA_mageA_toku","classId":4,"equips":[200,45,22,14,0],"faceIndex":0,"faceName":"face079b","traits":[{"code":23,"dataId":8,"value":1.0},{"code":13,"dataId":7,"value":0.01},{"code":13,"dataId":8,"value":0.01}],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,99999>\n<限界変動:2,99999>\n<限界変動:3,99999>\n<限界変動:4,99999>\n<限界変動:5,99999>\n<限界変動:6,99999>\n<限界変動:7,99999>\n<戦闘終了後ステート解除:1>\n<戦闘中装備変更>\n<戦闘中装備変更禁止:4,3,2,1>","profile":""},
-{"id":6,"battlerName":"","characterIndex":7,"characterName":"Evil","classId":5,"equips":[156,47,26,18,0],"faceIndex":7,"faceName":"Evil","traits":[{"code":23,"dataId":8,"value":1.0},{"code":13,"dataId":7,"value":0.01},{"code":13,"dataId":8,"value":0.01}],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,99999>\n<限界変動:2,99999>\n<限界変動:3,99999>\n<限界変動:4,99999>\n<限界変動:5,99999>\n<限界変動:6,99999>\n<限界変動:7,99999>\n<戦闘終了後ステート解除:1>\n<戦闘中装備変更>\n<戦闘中装備変更禁止:4,3,2,1>","profile":""},
-{"id":7,"battlerName":"","characterIndex":2,"characterName":"fc_crusader","classId":6,"equips":[211,39,27,19,0],"faceIndex":2,"faceName":"face071a","traits":[{"code":23,"dataId":8,"value":1.0},{"code":13,"dataId":7,"value":0.01},{"code":13,"dataId":8,"value":0.01}],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,99999>\n<限界変動:2,99999>\n<限界変動:3,99999>\n<限界変動:4,99999>\n<限界変動:5,99999>\n<限界変動:6,99999>\n<限界変動:7,99999>\n<戦闘終了後ステート解除:1>\n<戦闘中装備変更>\n<戦闘中装備変更禁止:4,3,2,1>","profile":""},
-{"id":8,"battlerName":"","characterIndex":0,"characterName":"狩人","classId":7,"equips":[222,65,0,6,0],"faceIndex":0,"faceName":"face073b","traits":[{"code":23,"dataId":8,"value":1.0},{"code":13,"dataId":7,"value":0.01},{"code":13,"dataId":8,"value":0.01}],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,99999>\n<限界変動:2,99999>\n<限界変動:3,99999>\n<限界変動:4,99999>\n<限界変動:5,99999>\n<限界変動:6,99999>\n<限界変動:7,99999>\n<戦闘終了後ステート解除:1>\n<戦闘中装備変更>\n<戦闘中装備変更禁止:4,3,2,1>","profile":""},
-{"id":9,"battlerName":"","characterIndex":3,"characterName":"Evil","classId":8,"equips":[255,42,0,9,0],"faceIndex":3,"faceName":"Evil","traits":[{"code":23,"dataId":8,"value":1.0},{"code":13,"dataId":7,"value":0.01},{"code":13,"dataId":8,"value":0.01}],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,99999>\n<限界変動:2,99999>\n<限界変動:3,99999>\n<限界変動:4,99999>\n<限界変動:5,99999>\n<限界変動:6,99999>\n<限界変動:7,99999>\n<戦闘終了後ステート解除:1>\n<戦闘中装備変更>\n<戦闘中装備変更禁止:4,3,2,1>","profile":""},
-{"id":10,"battlerName":"","characterIndex":0,"characterName":"もこ","classId":9,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[{"code":23,"dataId":8,"value":1.0},{"code":13,"dataId":7,"value":0.01},{"code":13,"dataId":8,"value":0.01}],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,99999>\n<限界変動:2,99999>\n<限界変動:3,99999>\n<限界変動:4,99999>\n<限界変動:5,99999>\n<限界変動:6,99999>\n<限界変動:7,99999>\n<戦闘終了後ステート解除:1>\n<戦闘中装備変更>\n<戦闘中装備変更禁止:4,3,2,1>","profile":""},
-{"id":11,"battlerName":"","characterIndex":0,"characterName":"","classId":10,"equips":[0,0,0,0,0],"faceIndex":3,"faceName":"","traits":[{"code":23,"dataId":8,"value":1.0},{"code":13,"dataId":7,"value":0.01},{"code":13,"dataId":8,"value":0.01}],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,99999>\n<限界変動:2,99999>\n<限界変動:3,99999>\n<限界変動:4,99999>\n<限界変動:5,99999>\n<限界変動:6,99999>\n<限界変動:7,99999>\n<戦闘終了後ステート解除:1>\n<戦闘中装備変更>\n<戦闘中装備変更禁止:4,3,2,1>","profile":""},
-{"id":12,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":13,"battlerName":"","characterIndex":1,"characterName":"","classId":25,"equips":[89,0,0,0,0],"faceIndex":1,"faceName":"poro","traits":[{"code":54,"dataId":1,"value":0.0},{"code":54,"dataId":2,"value":0.0},{"code":53,"dataId":3,"value":0.0},{"code":62,"dataId":0,"value":0.0},{"code":62,"dataId":2,"value":0.0},{"code":51,"dataId":2,"value":0.0},{"code":51,"dataId":4,"value":0.0},{"code":23,"dataId":1,"value":2.0}],"initialLevel":99,"maxLevel":99,"name":"Poro","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>","profile":"Automatically fights. Summoned by Red Hood."},
-{"id":14,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"注意！スキル名前のため弄らない","profile":""},
-{"id":15,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":16,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":17,"battlerName":"","characterIndex":0,"characterName":"$ノーデ","classId":39,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ノーデ","traits":[{"code":21,"dataId":0,"value":1.1},{"code":23,"dataId":3,"value":2.0}],"initialLevel":1,"maxLevel":1,"name":"Node","nickname":"","note":"","profile":"Covenant Lv0\n[HP+10% / Recovery from Items*2]"},
-{"id":18,"battlerName":"","characterIndex":0,"characterName":"$ノーデ","classId":39,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ノーデ","traits":[{"code":21,"dataId":0,"value":1.25},{"code":23,"dataId":3,"value":2.0}],"initialLevel":1,"maxLevel":1,"name":"Node","nickname":"","note":"","profile":"Covenant Lv1\n[HP+25% / Recovery from Items*2]"},
-{"id":19,"battlerName":"","characterIndex":0,"characterName":"$ノーデ","classId":39,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ノーデ","traits":[{"code":21,"dataId":0,"value":1.35},{"code":23,"dataId":3,"value":2.0}],"initialLevel":1,"maxLevel":1,"name":"Node","nickname":"","note":"","profile":"Covenant Lv2\n[HP+35% / Recovery from Items*2]"},
-{"id":20,"battlerName":"","characterIndex":0,"characterName":"$ノーデ","classId":39,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ノーデ","traits":[{"code":21,"dataId":0,"value":1.5},{"code":23,"dataId":3,"value":2.0}],"initialLevel":1,"maxLevel":1,"name":"Node","nickname":"","note":"","profile":"Covenant Lv3\n[HP+50% / Recovery from Items*2]"},
-{"id":21,"battlerName":"","characterIndex":0,"characterName":"ビル","classId":40,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ビル","traits":[{"code":21,"dataId":1,"value":1.1},{"code":23,"dataId":4,"value":0.5}],"initialLevel":1,"maxLevel":1,"name":"Bill","nickname":"","note":"","profile":"Covenant Lv0\n[MP+10% / MP Costs*1/2]"},
-{"id":22,"battlerName":"","characterIndex":0,"characterName":"ビル","classId":40,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ビル","traits":[{"code":21,"dataId":1,"value":1.2},{"code":23,"dataId":4,"value":0.5}],"initialLevel":1,"maxLevel":1,"name":"Bill","nickname":"","note":"","profile":"Covenant Lv1\n[MP+20% / MP Costs*1/2]"},
-{"id":23,"battlerName":"","characterIndex":0,"characterName":"ビル","classId":40,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ビル","traits":[{"code":21,"dataId":1,"value":1.3},{"code":23,"dataId":4,"value":0.5}],"initialLevel":1,"maxLevel":1,"name":"Bill","nickname":"","note":"","profile":"Covenant Lv2\n[MP+30% / MP Costs*1/2]"},
-{"id":24,"battlerName":"","characterIndex":0,"characterName":"ビル","classId":40,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ビル","traits":[{"code":21,"dataId":1,"value":1.5},{"code":23,"dataId":4,"value":0.5}],"initialLevel":1,"maxLevel":1,"name":"Bill","nickname":"","note":"","profile":"Covenant Lv3\n[MP+50% / MP Costs*1/2]"},
-{"id":25,"battlerName":"","characterIndex":0,"characterName":"$ドド","classId":41,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ドド","traits":[{"code":21,"dataId":6,"value":1.1},{"code":64,"dataId":3,"value":0.0}],"initialLevel":1,"maxLevel":1,"name":"Dodo","nickname":"","note":"","profile":"Covenant Lv0\n[SPD+10% / Preemptive Strike Rate Up]"},
-{"id":26,"battlerName":"","characterIndex":0,"characterName":"$ドド","classId":41,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ドド","traits":[{"code":21,"dataId":6,"value":1.2},{"code":64,"dataId":3,"value":0.0}],"initialLevel":1,"maxLevel":1,"name":"Dodo","nickname":"","note":"","profile":"Covenant Lv1\n[SPD+20% / Preemptive Strike Rate Up]"},
-{"id":27,"battlerName":"","characterIndex":0,"characterName":"$ドド","classId":41,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ドド","traits":[{"code":21,"dataId":6,"value":1.3},{"code":64,"dataId":3,"value":0.0}],"initialLevel":1,"maxLevel":1,"name":"Dodo","nickname":"","note":"","profile":"Covenant Lv2\n[SPD+30% / Preemptive Strike Rate Up]"},
-{"id":28,"battlerName":"","characterIndex":0,"characterName":"$ドド","classId":41,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ドド","traits":[{"code":21,"dataId":6,"value":1.5},{"code":64,"dataId":3,"value":0.0}],"initialLevel":1,"maxLevel":1,"name":"Dodo","nickname":"","note":"","profile":"Covenant Lv3\n[SPD+50% / Preemptive Strike Rate Up]"},
-{"id":29,"battlerName":"","characterIndex":1,"characterName":"シーシャ","classId":42,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"シーシャ","traits":[{"code":21,"dataId":3,"value":1.15},{"code":23,"dataId":1,"value":1.5}],"initialLevel":1,"maxLevel":1,"name":"Shisha","nickname":"","note":"","profile":"Covenant Lv0\n[DEF+15% / Guard Effectiveness Up [S]]"},
-{"id":30,"battlerName":"","characterIndex":1,"characterName":"シーシャ","classId":42,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"シーシャ","traits":[{"code":21,"dataId":3,"value":1.2},{"code":23,"dataId":1,"value":1.5}],"initialLevel":1,"maxLevel":1,"name":"Shisha","nickname":"","note":"","profile":"Covenant Lv1\n[DEF+20% / Guard Effectiveness Up [S]]"},
-{"id":31,"battlerName":"","characterIndex":1,"characterName":"シーシャ","classId":42,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"シーシャ","traits":[{"code":21,"dataId":3,"value":1.35},{"code":23,"dataId":1,"value":1.5}],"initialLevel":1,"maxLevel":1,"name":"Shisha","nickname":"","note":"","profile":"Covenant Lv2\n[DEF+35% / Guard Effectiveness Up [S]]"},
-{"id":32,"battlerName":"","characterIndex":1,"characterName":"シーシャ","classId":42,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"シーシャ","traits":[{"code":21,"dataId":3,"value":1.5},{"code":23,"dataId":1,"value":2.0}],"initialLevel":1,"maxLevel":1,"name":"Shisha","nickname":"","note":"","profile":"Covenant Lv3\n[DEF+50% / Guard Effectiveness Up [M]]"},
-{"id":33,"battlerName":"","characterIndex":0,"characterName":"$公爵夫人","classId":43,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"公爵夫人","traits":[{"code":61,"dataId":0,"value":0.15},{"code":21,"dataId":6,"value":0.95}],"initialLevel":1,"maxLevel":1,"name":"Margaret","nickname":"","note":"","profile":"Covenant Lv0\n[Bonus Action 15% / SPD-5%]"},
-{"id":34,"battlerName":"","characterIndex":0,"characterName":"$公爵夫人","classId":43,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"公爵夫人","traits":[{"code":61,"dataId":0,"value":0.3},{"code":21,"dataId":6,"value":0.85}],"initialLevel":1,"maxLevel":1,"name":"Margaret","nickname":"","note":"","profile":"Covenant Lv1\n[Bonus Action 30% / SPD-15%]"},
-{"id":35,"battlerName":"","characterIndex":0,"characterName":"$公爵夫人","classId":43,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"公爵夫人","traits":[{"code":61,"dataId":0,"value":0.5},{"code":21,"dataId":6,"value":0.7}],"initialLevel":1,"maxLevel":1,"name":"Margaret","nickname":"","note":"","profile":"Covenant Lv2\n[Bonus Action 50% / SPD-30%]"},
-{"id":36,"battlerName":"","characterIndex":0,"characterName":"$公爵夫人","classId":43,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"公爵夫人","traits":[{"code":61,"dataId":0,"value":1.0},{"code":21,"dataId":6,"value":0.5}],"initialLevel":1,"maxLevel":1,"name":"Margaret","nickname":"","note":"","profile":"Covenant Lv3\n[Bonus Action 100% / SPD-50%]"},
-{"id":37,"battlerName":"","characterIndex":0,"characterName":"$ロリーナ","classId":44,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ロリーナ","traits":[{"code":11,"dataId":3,"value":0.85},{"code":11,"dataId":4,"value":0.85},{"code":11,"dataId":5,"value":0.85},{"code":11,"dataId":9,"value":0.85},{"code":11,"dataId":10,"value":0.85}],"initialLevel":1,"maxLevel":1,"name":"Lorina","nickname":"","note":"","profile":"Covenant Lv0\n[Fire/Lightning/Ice/Dark/Light Resistance+15%]"},
-{"id":38,"battlerName":"","characterIndex":0,"characterName":"$ロリーナ","classId":44,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ロリーナ","traits":[{"code":11,"dataId":3,"value":0.75},{"code":11,"dataId":4,"value":0.75},{"code":11,"dataId":5,"value":0.75},{"code":11,"dataId":9,"value":0.75},{"code":11,"dataId":10,"value":0.75}],"initialLevel":1,"maxLevel":1,"name":"Lorina","nickname":"","note":"","profile":"Covenant Lv1\n[Fire/Lightning/Ice/Dark/Light Resistance+25%]"},
-{"id":39,"battlerName":"","characterIndex":0,"characterName":"$ロリーナ","classId":44,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ロリーナ","traits":[{"code":11,"dataId":3,"value":0.65},{"code":11,"dataId":4,"value":0.65},{"code":11,"dataId":5,"value":0.65},{"code":11,"dataId":9,"value":0.65},{"code":11,"dataId":10,"value":0.65}],"initialLevel":1,"maxLevel":1,"name":"Lorina","nickname":"","note":"","profile":"Covenant Lv2\n[Fire/Lightning/Ice/Dark/Light Resistance+35%]"},
-{"id":40,"battlerName":"","characterIndex":0,"characterName":"$ロリーナ","classId":44,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ロリーナ","traits":[{"code":11,"dataId":3,"value":0.5},{"code":11,"dataId":4,"value":0.5},{"code":11,"dataId":5,"value":0.5},{"code":11,"dataId":9,"value":0.5},{"code":11,"dataId":10,"value":0.5}],"initialLevel":1,"maxLevel":1,"name":"Lorina","nickname":"","note":"","profile":"Covenant Lv3\n[Fire/Lightning/Ice/Dark/Light Resistance+50%]"},
-{"id":41,"battlerName":"","characterIndex":0,"characterName":"$帽子屋","classId":45,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"帽子屋","traits":[{"code":21,"dataId":4,"value":1.1},{"code":13,"dataId":28,"value":0.9}],"initialLevel":1,"maxLevel":1,"name":"Hatta","nickname":"","note":"","profile":"Covenant Lv0\n[MAG+10% / Madness Resistance+10%]"},
-{"id":42,"battlerName":"","characterIndex":0,"characterName":"$帽子屋","classId":45,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"帽子屋","traits":[{"code":21,"dataId":4,"value":1.2},{"code":13,"dataId":28,"value":0.7}],"initialLevel":1,"maxLevel":1,"name":"Hatta","nickname":"","note":"","profile":"Covenant Lv1\n[MAG+20% / Madness Resistance+30%]"},
-{"id":43,"battlerName":"","characterIndex":0,"characterName":"$帽子屋","classId":45,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"帽子屋","traits":[{"code":21,"dataId":4,"value":1.35},{"code":13,"dataId":28,"value":0.5}],"initialLevel":1,"maxLevel":1,"name":"Hatta","nickname":"","note":"","profile":"Covenant Lv2\n[MAG+35% / Madness Resistance+50%]"},
-{"id":44,"battlerName":"","characterIndex":0,"characterName":"$帽子屋","classId":45,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"帽子屋","traits":[{"code":21,"dataId":4,"value":1.5},{"code":13,"dataId":28,"value":0.0}],"initialLevel":1,"maxLevel":1,"name":"Hatta","nickname":"","note":"","profile":"Covenant Lv3\n[MAG+50% / Madness Resistance+100%]"},
-{"id":45,"battlerName":"","characterIndex":0,"characterName":"ウミガメモドキ","classId":46,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ウミガメ","traits":[{"code":21,"dataId":5,"value":1.15},{"code":23,"dataId":1,"value":1.5}],"initialLevel":1,"maxLevel":1,"name":"Mock Turtle","nickname":"","note":"","profile":"Covenant Lv0\n[MDF+15% / Guard Effectiveness Up [S]]"},
-{"id":46,"battlerName":"","characterIndex":0,"characterName":"ウミガメモドキ","classId":46,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ウミガメ","traits":[{"code":21,"dataId":5,"value":1.2},{"code":23,"dataId":1,"value":1.5}],"initialLevel":1,"maxLevel":1,"name":"Mock Turtle","nickname":"","note":"","profile":"Covenant Lv1\n[MDF+20% / Guard Effectiveness Up [S]]"},
-{"id":47,"battlerName":"","characterIndex":0,"characterName":"ウミガメモドキ","classId":46,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ウミガメ","traits":[{"code":21,"dataId":5,"value":1.35},{"code":23,"dataId":1,"value":1.5}],"initialLevel":1,"maxLevel":1,"name":"Mock Turtle","nickname":"","note":"","profile":"Covenant Lv2\n[MDF+35% / Guard Effectiveness Up [S]]"},
-{"id":48,"battlerName":"","characterIndex":0,"characterName":"ウミガメモドキ","classId":46,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ウミガメ","traits":[{"code":21,"dataId":5,"value":1.5},{"code":23,"dataId":1,"value":2.0}],"initialLevel":1,"maxLevel":1,"name":"Mock Turtle","nickname":"","note":"","profile":"Covenant Lv3\n[MDF+50% / Guard Effectiveness Up [M]]"},
-{"id":49,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":50,"battlerName":"","characterIndex":1,"characterName":"","classId":27,"equips":[93,0,0,0,0],"faceIndex":0,"faceName":"ahiru","traits":[{"code":54,"dataId":1,"value":0.0},{"code":54,"dataId":2,"value":0.0},{"code":53,"dataId":3,"value":0.0},{"code":62,"dataId":0,"value":0.0},{"code":51,"dataId":6,"value":0.0},{"code":44,"dataId":2,"value":0.0}],"initialLevel":1,"maxLevel":99,"name":"Ugly Duckling","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>","profile":"Lutwidge Town"},
-{"id":51,"battlerName":"","characterIndex":1,"characterName":"","classId":28,"equips":[94,0,0,0,0],"faceIndex":0,"faceName":"へんぜる","traits":[{"code":54,"dataId":1,"value":0.0},{"code":54,"dataId":2,"value":0.0},{"code":53,"dataId":3,"value":0.0},{"code":62,"dataId":0,"value":0.0},{"code":51,"dataId":6,"value":0.0}],"initialLevel":1,"maxLevel":99,"name":"Hansel","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>","profile":"Infinite Food"},
-{"id":52,"battlerName":"","characterIndex":1,"characterName":"","classId":29,"equips":[94,0,0,0,0],"faceIndex":0,"faceName":"ぐれーてる","traits":[{"code":54,"dataId":1,"value":0.0},{"code":54,"dataId":2,"value":0.0},{"code":53,"dataId":3,"value":0.0},{"code":62,"dataId":0,"value":0.0},{"code":51,"dataId":6,"value":0.0}],"initialLevel":1,"maxLevel":99,"name":"Gretel","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>","profile":"Infinite Food"},
-{"id":53,"battlerName":"","characterIndex":1,"characterName":"","classId":30,"equips":[95,0,0,0,0],"faceIndex":0,"faceName":"シンド","traits":[{"code":54,"dataId":1,"value":0.0},{"code":54,"dataId":2,"value":0.0},{"code":53,"dataId":3,"value":0.0},{"code":62,"dataId":0,"value":0.0},{"code":51,"dataId":6,"value":0.0},{"code":44,"dataId":2,"value":0.0}],"initialLevel":1,"maxLevel":99,"name":"Sinbad","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>","profile":"Infinite Food"},
-{"id":54,"battlerName":"","characterIndex":1,"characterName":"","classId":31,"equips":[96,0,0,0,0],"faceIndex":0,"faceName":"ぶれーめん","traits":[{"code":54,"dataId":1,"value":0.0},{"code":54,"dataId":2,"value":0.0},{"code":53,"dataId":3,"value":0.0},{"code":62,"dataId":0,"value":0.0},{"code":51,"dataId":6,"value":0.0},{"code":44,"dataId":2,"value":0.0}],"initialLevel":1,"maxLevel":99,"name":"Musicians of Bremen","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>","profile":"Slaughterhouse"},
-{"id":55,"battlerName":"","characterIndex":1,"characterName":"","classId":32,"equips":[97,0,0,0,0],"faceIndex":0,"faceName":"はんす","traits":[{"code":54,"dataId":1,"value":0.0},{"code":54,"dataId":2,"value":0.0},{"code":53,"dataId":3,"value":0.0},{"code":62,"dataId":0,"value":0.0},{"code":51,"dataId":6,"value":0.0},{"code":44,"dataId":2,"value":0.0}],"initialLevel":1,"maxLevel":99,"name":"Hans","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>","profile":"Mental Ward"},
-{"id":56,"battlerName":"","characterIndex":1,"characterName":"","classId":33,"equips":[98,0,0,0,0],"faceIndex":0,"faceName":"ぱと","traits":[{"code":54,"dataId":1,"value":0.0},{"code":54,"dataId":2,"value":0.0},{"code":53,"dataId":3,"value":0.0},{"code":62,"dataId":0,"value":0.0},{"code":51,"dataId":6,"value":0.0},{"code":44,"dataId":2,"value":0.0}],"initialLevel":1,"maxLevel":99,"name":"Patrasche","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>","profile":"Carroll River"},
-{"id":57,"battlerName":"","characterIndex":1,"characterName":"","classId":34,"equips":[99,0,0,0,0],"faceIndex":0,"faceName":"kata","traits":[{"code":54,"dataId":1,"value":0.0},{"code":54,"dataId":2,"value":0.0},{"code":53,"dataId":3,"value":0.0},{"code":62,"dataId":0,"value":0.0},{"code":51,"dataId":6,"value":0.0},{"code":44,"dataId":2,"value":0.0}],"initialLevel":1,"maxLevel":99,"name":"Catherine","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>","profile":"Ox Ford"},
-{"id":58,"battlerName":"","characterIndex":1,"characterName":"","classId":35,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ほし","traits":[{"code":54,"dataId":1,"value":0.0},{"code":54,"dataId":2,"value":0.0},{"code":53,"dataId":3,"value":0.0},{"code":62,"dataId":0,"value":0.0},{"code":51,"dataId":6,"value":0.0},{"code":44,"dataId":2,"value":0.0},{"code":44,"dataId":1,"value":0.0}],"initialLevel":1,"maxLevel":99,"name":"The Little Prince","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>","profile":"Clock Tower"},
-{"id":59,"battlerName":"","characterIndex":1,"characterName":"","classId":36,"equips":[91,0,0,0,0],"faceIndex":0,"faceName":"よろい","traits":[{"code":54,"dataId":1,"value":0.0},{"code":54,"dataId":2,"value":0.0},{"code":53,"dataId":3,"value":0.0},{"code":62,"dataId":0,"value":0.0},{"code":51,"dataId":6,"value":0.0},{"code":62,"dataId":2,"value":0.0},{"code":44,"dataId":2,"value":0.0}],"initialLevel":1,"maxLevel":99,"name":"Knight in Armor","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>","profile":"Spore Forest"},
-{"id":60,"battlerName":"","characterIndex":1,"characterName":"","classId":37,"equips":[90,0,0,0,0],"faceIndex":0,"faceName":"ぱんぷ","traits":[{"code":54,"dataId":1,"value":0.0},{"code":54,"dataId":2,"value":0.0},{"code":53,"dataId":3,"value":0.0},{"code":62,"dataId":0,"value":0.0},{"code":51,"dataId":6,"value":0.0},{"code":62,"dataId":2,"value":0.0}],"initialLevel":1,"maxLevel":99,"name":"Pumpkin-O'","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>","profile":"Spore Forest"},
-{"id":61,"battlerName":"","characterIndex":1,"characterName":"","classId":53,"equips":[88,0,0,0,0],"faceIndex":0,"faceName":"グリフィ","traits":[{"code":54,"dataId":1,"value":0.0},{"code":54,"dataId":2,"value":0.0},{"code":53,"dataId":3,"value":0.0},{"code":62,"dataId":0,"value":0.0},{"code":51,"dataId":6,"value":0.0}],"initialLevel":1,"maxLevel":99,"name":"Griffy","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>","profile":"Garden of the Heart"},
-{"id":62,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ハン","traits":[],"initialLevel":1,"maxLevel":99,"name":"Humpty Dumpty","nickname":"","note":"","profile":""},
-{"id":63,"battlerName":"","characterIndex":0,"characterName":"$ハンプティ２","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ハン２","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"グース名前","profile":"((((((Name of the Goose))))))"},
-{"id":64,"battlerName":"","characterIndex":1,"characterName":"","classId":38,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"roba","traits":[{"code":54,"dataId":1,"value":0.0},{"code":54,"dataId":2,"value":0.0},{"code":53,"dataId":3,"value":0.0},{"code":62,"dataId":0,"value":0.0},{"code":51,"dataId":6,"value":0.0},{"code":44,"dataId":2,"value":0.0},{"code":44,"dataId":1,"value":0.0}],"initialLevel":1,"maxLevel":99,"name":"The Donkey King","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>","profile":"Frissel"},
-{"id":65,"battlerName":"","characterIndex":1,"characterName":"","classId":54,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"あし","traits":[{"code":54,"dataId":1,"value":0.0},{"code":54,"dataId":2,"value":0.0},{"code":53,"dataId":3,"value":0.0},{"code":62,"dataId":0,"value":0.0},{"code":51,"dataId":6,"value":0.0},{"code":44,"dataId":2,"value":0.0},{"code":44,"dataId":1,"value":0.0},{"code":22,"dataId":3,"value":1.0},{"code":13,"dataId":1,"value":0.0}],"initialLevel":1,"maxLevel":99,"name":"Daddy-Long-Legs","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>","profile":"Queensland"},
-{"id":66,"battlerName":"","characterIndex":1,"characterName":"","classId":55,"equips":[87,0,0,0,0],"faceIndex":3,"faceName":"うさぎ騎士","traits":[{"code":54,"dataId":1,"value":0.0},{"code":54,"dataId":2,"value":0.0},{"code":53,"dataId":3,"value":0.0},{"code":62,"dataId":0,"value":0.0},{"code":51,"dataId":6,"value":0.0},{"code":62,"dataId":2,"value":0.0}],"initialLevel":1,"maxLevel":99,"name":"Vernai","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>","profile":"Jubjub, Bandersnatch, Jabberwock"},
-{"id":67,"battlerName":"","characterIndex":0,"characterName":"$紅","classId":24,"equips":[92,0,0,0,0],"faceIndex":0,"faceName":"紅ずきん","traits":[{"code":62,"dataId":0,"value":0.0}],"initialLevel":99,"maxLevel":99,"name":"Red Hood","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>","profile":"Everywhere."},
-{"id":68,"battlerName":"","characterIndex":1,"characterName":"","classId":56,"equips":[86,0,0,0,0],"faceIndex":4,"faceName":"ロビン","traits":[{"code":54,"dataId":1,"value":0.0},{"code":54,"dataId":2,"value":0.0},{"code":53,"dataId":3,"value":0.0},{"code":62,"dataId":0,"value":0.0},{"code":51,"dataId":6,"value":0.0},{"code":62,"dataId":2,"value":0.0}],"initialLevel":1,"maxLevel":99,"name":"Robin Hood","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>","profile":"Bandersnatch"},
-{"id":69,"battlerName":"","characterIndex":0,"characterName":"$メアリー","classId":15,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"メアリー","traits":[{"code":53,"dataId":0,"value":0.0},{"code":53,"dataId":4,"value":0.0},{"code":53,"dataId":3,"value":0.0},{"code":62,"dataId":0,"value":0.0}],"initialLevel":1,"maxLevel":99,"name":"Mary","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>","profile":"Fairy."},
-{"id":70,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"Nameless Forest Name Memory","nickname":"","note":"","profile":""},
-{"id":71,"battlerName":"","characterIndex":1,"characterName":"","classId":59,"equips":[88,0,0,0,0],"faceIndex":0,"faceName":"グリフィ","traits":[{"code":54,"dataId":1,"value":0.0},{"code":54,"dataId":2,"value":0.0},{"code":53,"dataId":3,"value":0.0},{"code":62,"dataId":0,"value":0.0},{"code":51,"dataId":6,"value":0.0}],"initialLevel":1,"maxLevel":99,"name":"Griffy","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>","profile":"Meryphillia Battle"},
-{"id":72,"battlerName":"","characterIndex":0,"characterName":"$ビクトリア","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ビク","traits":[{"code":21,"dataId":7,"value":1.5},{"code":22,"dataId":7,"value":0.05},{"code":22,"dataId":8,"value":0.05}],"initialLevel":1,"maxLevel":1,"name":"Victoria","nickname":"","note":"","profile":"Covenant Lv0\n[LCK+50% / HP&MP Regen+5%]"},
-{"id":73,"battlerName":"","characterIndex":0,"characterName":"$ビクトリア","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ビク","traits":[{"code":21,"dataId":7,"value":1.6},{"code":22,"dataId":7,"value":0.05},{"code":22,"dataId":8,"value":0.05}],"initialLevel":1,"maxLevel":1,"name":"Victoria","nickname":"","note":"","profile":"Covenant Lv1\n[LCK+60% / HP&MP Regen+5%]"},
-{"id":74,"battlerName":"","characterIndex":0,"characterName":"$ビクトリア","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ビク","traits":[{"code":21,"dataId":7,"value":1.7},{"code":22,"dataId":7,"value":0.05},{"code":22,"dataId":8,"value":0.05}],"initialLevel":1,"maxLevel":1,"name":"Victoria","nickname":"","note":"","profile":"Covenant Lv2\n[LCK+70% / HP&MP Regen+5%]"},
-{"id":75,"battlerName":"","characterIndex":0,"characterName":"$ビクトリア","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ビク","traits":[{"code":21,"dataId":7,"value":2.0},{"code":22,"dataId":7,"value":0.1},{"code":22,"dataId":8,"value":0.1}],"initialLevel":1,"maxLevel":1,"name":"Victoria","nickname":"","note":"","profile":"Covenant Lv3\n[LCK+100% / HP&MP Regen+10%]"},
-{"id":76,"battlerName":"","characterIndex":0,"characterName":"バンダースナッチ","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"バン","traits":[{"code":21,"dataId":2,"value":1.1},{"code":22,"dataId":6,"value":0.1}],"initialLevel":1,"maxLevel":1,"name":"Bandersnatch","nickname":"","note":"","profile":"Covenant Lv0\n[ATK+10% / Counterattack Chance+10%]"},
-{"id":77,"battlerName":"","characterIndex":0,"characterName":"バンダースナッチ","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"バン","traits":[{"code":21,"dataId":2,"value":1.2},{"code":22,"dataId":6,"value":0.15}],"initialLevel":1,"maxLevel":1,"name":"Bandersnatch","nickname":"","note":"","profile":"Covenant Lv1\n[ATK+20% / Counterattack Chance+15%]"},
-{"id":78,"battlerName":"","characterIndex":0,"characterName":"バンダースナッチ","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"バン","traits":[{"code":21,"dataId":2,"value":1.35},{"code":22,"dataId":6,"value":0.2}],"initialLevel":1,"maxLevel":1,"name":"Bandersnatch","nickname":"","note":"","profile":"Covenant Lv2\n[ATK+35% / Counterattack Chance+20%]"},
-{"id":79,"battlerName":"","characterIndex":0,"characterName":"バンダースナッチ","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"バン","traits":[{"code":21,"dataId":2,"value":1.5},{"code":22,"dataId":6,"value":0.3}],"initialLevel":1,"maxLevel":1,"name":"Bandersnatch","nickname":"","note":"","profile":"Covenant Lv3\n[ATK+50% / Counterattack Chance+30%]"},
-{"id":80,"battlerName":"","characterIndex":0,"characterName":"$ジャブジャブ","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ジャブ","traits":[{"code":22,"dataId":1,"value":0.05},{"code":22,"dataId":4,"value":0.05},{"code":22,"dataId":5,"value":0.1}],"initialLevel":1,"maxLevel":1,"name":"Jubjub","nickname":"","note":"","profile":"Covenant Lv0\n[EVA&MEV+5% / Magic Reflect+10%]"},
-{"id":81,"battlerName":"","characterIndex":0,"characterName":"$ジャブジャブ","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ジャブ","traits":[{"code":22,"dataId":1,"value":0.1},{"code":22,"dataId":4,"value":0.1},{"code":22,"dataId":5,"value":0.15}],"initialLevel":1,"maxLevel":1,"name":"Jubjub","nickname":"","note":"","profile":"Covenant Lv1\n[EVA&MEV+10% / Magic Reflect+15%]"},
-{"id":82,"battlerName":"","characterIndex":0,"characterName":"$ジャブジャブ","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ジャブ","traits":[{"code":22,"dataId":1,"value":0.15},{"code":22,"dataId":4,"value":0.15},{"code":22,"dataId":5,"value":0.2}],"initialLevel":1,"maxLevel":1,"name":"Jubjub","nickname":"","note":"","profile":"Covenant Lv2\n[EVA&MEV+15% / Magic Reflect+20%]"},
-{"id":83,"battlerName":"","characterIndex":0,"characterName":"$ジャブジャブ","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ジャブ","traits":[{"code":22,"dataId":1,"value":0.3},{"code":22,"dataId":4,"value":0.3},{"code":22,"dataId":5,"value":0.3}],"initialLevel":1,"maxLevel":1,"name":"Jubjub","nickname":"","note":"","profile":"Covenant Lv3\n[EVA&MEV+30% / Magic Reflect+30%]"},
-{"id":84,"battlerName":"","characterIndex":0,"characterName":"$ジャバ","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ジャバ","traits":[{"code":22,"dataId":2,"value":0.05},{"code":22,"dataId":0,"value":0.05}],"initialLevel":1,"maxLevel":1,"name":"Jabberwock","nickname":"","note":"","profile":"Covenant Lv0\n[Crit Chance+5% / Accuracy+5%]"},
-{"id":85,"battlerName":"","characterIndex":0,"characterName":"$ジャバ","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ジャバ","traits":[{"code":22,"dataId":2,"value":0.1},{"code":22,"dataId":0,"value":0.1}],"initialLevel":1,"maxLevel":1,"name":"Jabberwock","nickname":"","note":"","profile":"Covenant Lv1\n[Crit Chance+10% / Accuracy+10%]"},
-{"id":86,"battlerName":"","characterIndex":0,"characterName":"$ジャバ","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ジャバ","traits":[{"code":22,"dataId":2,"value":0.15},{"code":22,"dataId":0,"value":0.15}],"initialLevel":1,"maxLevel":1,"name":"Jabberwock","nickname":"","note":"","profile":"Covenant Lv2\n[Crit Chance+15% / Accuracy+15%]"},
-{"id":87,"battlerName":"","characterIndex":0,"characterName":"$ジャバ","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ジャバ","traits":[{"code":22,"dataId":2,"value":0.3},{"code":22,"dataId":0,"value":0.3}],"initialLevel":1,"maxLevel":1,"name":"Jabberwock","nickname":"","note":"","profile":"Covenant Lv3\n[Crit Chance+30% / Accuracy+30%]"},
-{"id":88,"battlerName":"","characterIndex":0,"characterName":"セイウチ","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"シヴーチ","traits":[{"code":22,"dataId":7,"value":0.1}],"initialLevel":1,"maxLevel":1,"name":"Wolris","nickname":"","note":"","profile":"Covenant Lv0\n[HP Regen+10%]"},
-{"id":89,"battlerName":"","characterIndex":0,"characterName":"セイウチ","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"シヴーチ","traits":[{"code":22,"dataId":7,"value":0.15}],"initialLevel":1,"maxLevel":1,"name":"Wolris","nickname":"","note":"","profile":"Covenant Lv1\n[HP Regen+15%]"},
-{"id":90,"battlerName":"","characterIndex":0,"characterName":"セイウチ","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"シヴーチ","traits":[{"code":22,"dataId":7,"value":0.2}],"initialLevel":1,"maxLevel":1,"name":"Wolris","nickname":"","note":"","profile":"Covenant Lv2\n[HP Regen+20%]"},
-{"id":91,"battlerName":"","characterIndex":0,"characterName":"セイウチ","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"シヴーチ","traits":[{"code":22,"dataId":7,"value":0.3}],"initialLevel":1,"maxLevel":1,"name":"Wolris","nickname":"","note":"","profile":"Covenant Lv3\n[HP Regen+30%]"},
-{"id":92,"battlerName":"","characterIndex":0,"characterName":"$クティ","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"クティ","traits":[{"code":61,"dataId":0,"value":0.05},{"code":34,"dataId":0,"value":1.0}],"initialLevel":1,"maxLevel":1,"name":"Kuti","nickname":"","note":"","profile":"Covenant Lv0\n[Bonus Action 5% / Basic Attack Count+1]"},
-{"id":93,"battlerName":"","characterIndex":0,"characterName":"$クティ","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"クティ","traits":[{"code":61,"dataId":0,"value":0.15},{"code":34,"dataId":0,"value":1.0}],"initialLevel":1,"maxLevel":1,"name":"Kuti","nickname":"","note":"","profile":"Covenant Lv1\n[Bonus Action 15% / Basic Attack Count+1]"},
-{"id":94,"battlerName":"","characterIndex":0,"characterName":"$クティ","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"クティ","traits":[{"code":61,"dataId":0,"value":0.35},{"code":34,"dataId":0,"value":1.0}],"initialLevel":1,"maxLevel":1,"name":"Kuti","nickname":"","note":"","profile":"Covenant Lv2\n[Bonus Action 35% / Basic Attack Count+1]"},
-{"id":95,"battlerName":"","characterIndex":0,"characterName":"$クティ","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"クティ","traits":[{"code":61,"dataId":0,"value":0.5},{"code":34,"dataId":0,"value":1.0}],"initialLevel":1,"maxLevel":1,"name":"Kuti","nickname":"","note":"","profile":"Covenant Lv3\n[Bonus Action 50% / Basic Attack Count+1]"},
-{"id":96,"battlerName":"","characterIndex":0,"characterName":"プリケット","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"プリ","traits":[{"code":23,"dataId":0,"value":2.0}],"initialLevel":1,"maxLevel":1,"name":"Prickett","nickname":"","note":"","profile":"Covenant Lv0\n[Chance to be targeted+200%]"},
-{"id":97,"battlerName":"","characterIndex":0,"characterName":"プリケット","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"プリ","traits":[{"code":23,"dataId":0,"value":3.0}],"initialLevel":1,"maxLevel":1,"name":"Prickett","nickname":"","note":"","profile":"Covenant Lv1\n[Chance to be targeted+300%]"},
-{"id":98,"battlerName":"","characterIndex":0,"characterName":"プリケット","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"プリ","traits":[{"code":23,"dataId":0,"value":4.0}],"initialLevel":1,"maxLevel":1,"name":"Prickett","nickname":"","note":"","profile":"Covenant Lv2\n[Chance to be targeted+400%]"},
-{"id":99,"battlerName":"","characterIndex":0,"characterName":"プリケット","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"プリ","traits":[{"code":64,"dataId":4,"value":0.0},{"code":64,"dataId":5,"value":0.0},{"code":23,"dataId":0,"value":5.0}],"initialLevel":1,"maxLevel":1,"name":"Prickett","nickname":"","note":"","profile":"Covenant Lv3\n[Aggro+500% / Drop Rates Doubled]"},
-{"id":100,"battlerName":"","characterIndex":1,"characterName":"","classId":57,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ピノッキオ","traits":[{"code":54,"dataId":1,"value":0.0},{"code":54,"dataId":2,"value":0.0},{"code":53,"dataId":3,"value":0.0},{"code":62,"dataId":0,"value":0.0},{"code":51,"dataId":6,"value":0.0},{"code":44,"dataId":2,"value":0.0},{"code":44,"dataId":1,"value":0.0},{"code":13,"dataId":1,"value":0.0},{"code":13,"dataId":56,"value":5.0},{"code":22,"dataId":1,"value":1.0}],"initialLevel":1,"maxLevel":99,"name":"Pinocchio","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>","profile":"Deep Sea"},
-{"id":101,"battlerName":"","characterIndex":1,"characterName":"","classId":58,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ピノッキオ２","traits":[{"code":54,"dataId":1,"value":0.0},{"code":54,"dataId":2,"value":0.0},{"code":53,"dataId":3,"value":0.0},{"code":62,"dataId":0,"value":0.0},{"code":51,"dataId":6,"value":0.0},{"code":44,"dataId":2,"value":0.0},{"code":44,"dataId":1,"value":0.0},{"code":13,"dataId":56,"value":5.0},{"code":14,"dataId":1,"value":0.0}],"initialLevel":1,"maxLevel":99,"name":"Puppet","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>","profile":"Deep Sea"},
-{"id":102,"battlerName":"","characterIndex":0,"characterName":"$双子","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"トゥ双子","traits":[],"initialLevel":1,"maxLevel":1,"name":"Tweedles","nickname":"","note":"<逃走成功率増加:25>","profile":"Covenant Lv0\n[Escape Success Rate+25%]"},
-{"id":103,"battlerName":"","characterIndex":0,"characterName":"$双子","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"トゥ双子","traits":[],"initialLevel":1,"maxLevel":1,"name":"Tweedles","nickname":"","note":"<逃走成功率増加:50>","profile":"Covenant Lv1\n[Escape Success Rate+50%]"},
-{"id":104,"battlerName":"","characterIndex":0,"characterName":"$双子","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"トゥ双子","traits":[],"initialLevel":1,"maxLevel":1,"name":"Tweedles","nickname":"","note":"<逃走成功率増加:70>","profile":"Covenant Lv2\n[Escape Success Rate+70%]"},
-{"id":105,"battlerName":"","characterIndex":0,"characterName":"$双子","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"トゥ双子","traits":[],"initialLevel":1,"maxLevel":1,"name":"Tweedles","nickname":"","note":"<逃走成功率増加:100>","profile":"Covenant Lv3\n[Escape Success Rate+100%]"},
-{"id":106,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":107,"battlerName":"","characterIndex":0,"characterName":"$メリフィリア","classId":21,"equips":[426,0,0,0,0],"faceIndex":0,"faceName":"me","traits":[{"code":62,"dataId":0,"value":0.0},{"code":44,"dataId":2,"value":0.0},{"code":51,"dataId":1,"value":0.0}],"initialLevel":1,"maxLevel":99,"name":"Meryphillia","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>","profile":""},
-{"id":108,"battlerName":"","characterIndex":0,"characterName":"$ハイン","classId":22,"equips":[372,0,0,0,0],"faceIndex":2,"faceName":"hain","traits":[{"code":62,"dataId":0,"value":0.0},{"code":44,"dataId":2,"value":0.0},{"code":51,"dataId":4,"value":0.0}],"initialLevel":1,"maxLevel":99,"name":"Hein","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>","profile":""},
-{"id":109,"battlerName":"","characterIndex":0,"characterName":"プリケット","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"プリ","traits":[{"code":23,"dataId":0,"value":2.0}],"initialLevel":1,"maxLevel":1,"name":"Prickett","nickname":"","note":"デート中","profile":"Covenant Lv0\n[Chance to be targeted+200%]"},
-{"id":110,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":111,"battlerName":"","characterIndex":0,"characterName":"","classId":61,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"niku","traits":[{"code":14,"dataId":27,"value":0.0},{"code":14,"dataId":4,"value":0.0},{"code":14,"dataId":12,"value":0.0},{"code":62,"dataId":2,"value":0.0},{"code":23,"dataId":0,"value":3.0},{"code":21,"dataId":0,"value":5.01},{"code":21,"dataId":0,"value":9.0},{"code":21,"dataId":0,"value":9.0},{"code":44,"dataId":1,"value":0.0},{"code":44,"dataId":2,"value":0.0},{"code":43,"dataId":837,"value":0.0},{"code":62,"dataId":0,"value":0.0},{"code":22,"dataId":7,"value":1.0}],"initialLevel":1,"maxLevel":1,"name":"Wall of Flesh","nickname":"","note":"<スキル無効:33>\n<スキル無効:34>","profile":""},
-{"id":112,"battlerName":"","characterIndex":6,"characterName":"People4","classId":17,"equips":[85,0,0,0,0],"faceIndex":2,"faceName":"カーナッキ","traits":[{"code":62,"dataId":0,"value":0.0},{"code":51,"dataId":4,"value":0.0},{"code":62,"dataId":2,"value":0.0},{"code":21,"dataId":0,"value":9.0},{"code":21,"dataId":0,"value":7.0},{"code":22,"dataId":7,"value":0.3},{"code":22,"dataId":8,"value":0.3}],"initialLevel":1,"maxLevel":99,"name":"Carnacki","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,99999>\n<限界変動:2,99999>\n<限界変動:3,99999>\n<限界変動:4,99999>\n<限界変動:5,99999>\n<限界変動:6,99999>\n<限界変動:7,99999>","profile":""},
-{"id":113,"battlerName":"","characterIndex":0,"characterName":"$フローレンス","classId":18,"equips":[83,0,0,0,0],"faceIndex":0,"faceName":"フローレンス","traits":[{"code":62,"dataId":0,"value":0.0},{"code":44,"dataId":2,"value":0.0},{"code":51,"dataId":4,"value":0.0},{"code":21,"dataId":0,"value":9.5},{"code":21,"dataId":0,"value":3.0},{"code":22,"dataId":7,"value":0.2},{"code":22,"dataId":8,"value":0.2}],"initialLevel":1,"maxLevel":99,"name":"Florence","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,99999>\n<限界変動:2,99999>\n<限界変動:3,99999>\n<限界変動:4,99999>\n<限界変動:5,99999>\n<限界変動:6,99999>\n<限界変動:7,99999>","profile":""},
-{"id":114,"battlerName":"","characterIndex":0,"characterName":"$ゲルダ","classId":19,"equips":[84,0,0,0,0],"faceIndex":0,"faceName":"ゲルダ","traits":[{"code":62,"dataId":0,"value":0.0},{"code":44,"dataId":2,"value":0.0},{"code":51,"dataId":4,"value":0.0},{"code":21,"dataId":0,"value":9.5},{"code":22,"dataId":7,"value":0.5},{"code":22,"dataId":8,"value":0.5},{"code":23,"dataId":0,"value":0.0}],"initialLevel":1,"maxLevel":99,"name":"Gerda","nickname":"","note":"<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,99999>\n<限界変動:2,99999>\n<限界変動:3,99999>\n<限界変動:4,99999>\n<限界変動:5,99999>\n<限界変動:6,99999>\n<限界変動:7,99999>","profile":""},
-{"id":115,"battlerName":"","characterIndex":0,"characterName":"!$シヨ","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"シヨ","traits":[{"code":23,"dataId":2,"value":0.8}],"initialLevel":1,"maxLevel":1,"name":"Sho","nickname":"","note":"","profile":"Covenant Lv0\n[%-based Damage Taken-20% / Recovery-20%]"},
-{"id":116,"battlerName":"","characterIndex":0,"characterName":"!$シヨ","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"シヨ","traits":[{"code":23,"dataId":2,"value":0.7}],"initialLevel":1,"maxLevel":1,"name":"Sho","nickname":"","note":"","profile":"Covenant Lv1\n[%-based Damage Taken-30% / Recovery-30%]"},
-{"id":117,"battlerName":"","characterIndex":0,"characterName":"!$シヨ","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"シヨ","traits":[{"code":23,"dataId":2,"value":0.6}],"initialLevel":1,"maxLevel":1,"name":"Sho","nickname":"","note":"","profile":"Covenant Lv2\n[%-based Damage Taken-40% / Recovery-40%]"},
-{"id":118,"battlerName":"","characterIndex":0,"characterName":"!$シヨ","classId":47,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"シヨ","traits":[{"code":23,"dataId":2,"value":0.5}],"initialLevel":1,"maxLevel":1,"name":"Sho","nickname":"","note":"","profile":"Covenant Lv3\n[%-based Damage Taken-50% / Recovery-50%]"},
-{"id":119,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":120,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":121,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":122,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":123,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":124,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":125,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":126,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":127,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":128,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":129,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":130,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":131,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":132,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":133,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":134,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":135,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":136,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":137,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":138,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":139,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":140,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":141,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":142,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":143,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":144,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":145,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":146,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":147,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":148,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":149,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":150,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":151,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":152,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":153,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":154,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":155,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":156,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":157,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":158,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":159,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":160,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":161,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":162,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":163,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":164,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":165,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":166,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":167,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":168,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":169,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":170,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":171,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":172,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":173,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":174,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":175,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":176,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":177,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":178,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":179,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":180,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":181,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":182,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":183,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":184,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":185,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":186,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":187,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":188,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":189,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":190,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":191,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":192,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":193,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":194,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":195,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":196,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":197,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":198,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":199,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
-{"id":200,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""}
+  null,
+  {
+    "id": 1,
+    "battlerName": "",
+    "characterIndex": 5,
+    "characterName": "!Flame",
+    "classId": 13,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 8,
+        "value": 1
+      },
+      {
+        "code": 13,
+        "dataId": 7,
+        "value": 0.01
+      },
+      {
+        "code": 13,
+        "dataId": 8,
+        "value": 0.01
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<戦闘終了後ステート解除:1>\n<戦闘中装備変更>\n<戦闘中装備変更禁止:4,3,2,1>\n<限界変動:0,99999>\n<限界変動:1,99999>\n<限界変動:2,99999>\n<限界変動:3,99999>\n<限界変動:4,99999>\n<限界変動:5,99999>\n<限界変動:6,99999>\n<限界変動:7,99999>",
+    "profile": ""
+  },
+  {
+    "id": 2,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$主人公",
+    "classId": 1,
+    "equips": [
+      101,
+      51,
+      25,
+      17,
+      0
+    ],
+    "faceIndex": 3,
+    "faceName": "DS_Actor20",
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 8,
+        "value": 1
+      },
+      {
+        "code": 13,
+        "dataId": 7,
+        "value": 0.01
+      },
+      {
+        "code": 13,
+        "dataId": 8,
+        "value": 0.01
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,99999>\n<限界変動:2,99999>\n<限界変動:3,99999>\n<限界変動:4,99999>\n<限界変動:5,99999>\n<限界変動:6,99999>\n<限界変動:7,99999>\n<戦闘終了後ステート解除:1>\n<戦闘中装備変更>\n<戦闘中装備変更禁止:4,3,2,1>",
+    "profile": ""
+  },
+  {
+    "id": 3,
+    "battlerName": "",
+    "characterIndex": 2,
+    "characterName": "Evil",
+    "classId": 2,
+    "equips": [
+      112,
+      43,
+      24,
+      16,
+      0
+    ],
+    "faceIndex": 2,
+    "faceName": "Evil",
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 8,
+        "value": 1
+      },
+      {
+        "code": 13,
+        "dataId": 7,
+        "value": 0.01
+      },
+      {
+        "code": 13,
+        "dataId": 8,
+        "value": 0.01
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,99999>\n<限界変動:2,99999>\n<限界変動:3,99999>\n<限界変動:4,99999>\n<限界変動:5,99999>\n<限界変動:6,99999>\n<限界変動:7,99999>\n<戦闘終了後ステート解除:1>\n<戦闘中装備変更>\n<戦闘中装備変更禁止:4,3,2,1>",
+    "profile": ""
+  },
+  {
+    "id": 4,
+    "battlerName": "",
+    "characterIndex": 5,
+    "characterName": "Evil",
+    "classId": 3,
+    "equips": [
+      167,
+      45,
+      23,
+      15,
+      0
+    ],
+    "faceIndex": 5,
+    "faceName": "Evil",
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 8,
+        "value": 1
+      },
+      {
+        "code": 13,
+        "dataId": 7,
+        "value": 0.01
+      },
+      {
+        "code": 13,
+        "dataId": 8,
+        "value": 0.01
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,99999>\n<限界変動:2,99999>\n<限界変動:3,99999>\n<限界変動:4,99999>\n<限界変動:5,99999>\n<限界変動:6,99999>\n<限界変動:7,99999>\n<戦闘終了後ステート解除:1>\n<戦闘中装備変更>\n<戦闘中装備変更禁止:4,3,2,1>",
+    "profile": ""
+  },
+  {
+    "id": 5,
+    "battlerName": "",
+    "characterIndex": 2,
+    "characterName": "fc_priestA_mageA_toku",
+    "classId": 4,
+    "equips": [
+      200,
+      45,
+      22,
+      14,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "face079b",
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 8,
+        "value": 1
+      },
+      {
+        "code": 13,
+        "dataId": 7,
+        "value": 0.01
+      },
+      {
+        "code": 13,
+        "dataId": 8,
+        "value": 0.01
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,99999>\n<限界変動:2,99999>\n<限界変動:3,99999>\n<限界変動:4,99999>\n<限界変動:5,99999>\n<限界変動:6,99999>\n<限界変動:7,99999>\n<戦闘終了後ステート解除:1>\n<戦闘中装備変更>\n<戦闘中装備変更禁止:4,3,2,1>",
+    "profile": ""
+  },
+  {
+    "id": 6,
+    "battlerName": "",
+    "characterIndex": 7,
+    "characterName": "Evil",
+    "classId": 5,
+    "equips": [
+      156,
+      47,
+      26,
+      18,
+      0
+    ],
+    "faceIndex": 7,
+    "faceName": "Evil",
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 8,
+        "value": 1
+      },
+      {
+        "code": 13,
+        "dataId": 7,
+        "value": 0.01
+      },
+      {
+        "code": 13,
+        "dataId": 8,
+        "value": 0.01
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,99999>\n<限界変動:2,99999>\n<限界変動:3,99999>\n<限界変動:4,99999>\n<限界変動:5,99999>\n<限界変動:6,99999>\n<限界変動:7,99999>\n<戦闘終了後ステート解除:1>\n<戦闘中装備変更>\n<戦闘中装備変更禁止:4,3,2,1>",
+    "profile": ""
+  },
+  {
+    "id": 7,
+    "battlerName": "",
+    "characterIndex": 2,
+    "characterName": "fc_crusader",
+    "classId": 6,
+    "equips": [
+      211,
+      39,
+      27,
+      19,
+      0
+    ],
+    "faceIndex": 2,
+    "faceName": "face071a",
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 8,
+        "value": 1
+      },
+      {
+        "code": 13,
+        "dataId": 7,
+        "value": 0.01
+      },
+      {
+        "code": 13,
+        "dataId": 8,
+        "value": 0.01
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,99999>\n<限界変動:2,99999>\n<限界変動:3,99999>\n<限界変動:4,99999>\n<限界変動:5,99999>\n<限界変動:6,99999>\n<限界変動:7,99999>\n<戦闘終了後ステート解除:1>\n<戦闘中装備変更>\n<戦闘中装備変更禁止:4,3,2,1>",
+    "profile": ""
+  },
+  {
+    "id": 8,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "狩人",
+    "classId": 7,
+    "equips": [
+      222,
+      65,
+      0,
+      6,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "face073b",
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 8,
+        "value": 1
+      },
+      {
+        "code": 13,
+        "dataId": 7,
+        "value": 0.01
+      },
+      {
+        "code": 13,
+        "dataId": 8,
+        "value": 0.01
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,99999>\n<限界変動:2,99999>\n<限界変動:3,99999>\n<限界変動:4,99999>\n<限界変動:5,99999>\n<限界変動:6,99999>\n<限界変動:7,99999>\n<戦闘終了後ステート解除:1>\n<戦闘中装備変更>\n<戦闘中装備変更禁止:4,3,2,1>",
+    "profile": ""
+  },
+  {
+    "id": 9,
+    "battlerName": "",
+    "characterIndex": 3,
+    "characterName": "Evil",
+    "classId": 8,
+    "equips": [
+      255,
+      42,
+      0,
+      9,
+      0
+    ],
+    "faceIndex": 3,
+    "faceName": "Evil",
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 8,
+        "value": 1
+      },
+      {
+        "code": 13,
+        "dataId": 7,
+        "value": 0.01
+      },
+      {
+        "code": 13,
+        "dataId": 8,
+        "value": 0.01
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,99999>\n<限界変動:2,99999>\n<限界変動:3,99999>\n<限界変動:4,99999>\n<限界変動:5,99999>\n<限界変動:6,99999>\n<限界変動:7,99999>\n<戦闘終了後ステート解除:1>\n<戦闘中装備変更>\n<戦闘中装備変更禁止:4,3,2,1>",
+    "profile": ""
+  },
+  {
+    "id": 10,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "もこ",
+    "classId": 9,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 8,
+        "value": 1
+      },
+      {
+        "code": 13,
+        "dataId": 7,
+        "value": 0.01
+      },
+      {
+        "code": 13,
+        "dataId": 8,
+        "value": 0.01
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,99999>\n<限界変動:2,99999>\n<限界変動:3,99999>\n<限界変動:4,99999>\n<限界変動:5,99999>\n<限界変動:6,99999>\n<限界変動:7,99999>\n<戦闘終了後ステート解除:1>\n<戦闘中装備変更>\n<戦闘中装備変更禁止:4,3,2,1>",
+    "profile": ""
+  },
+  {
+    "id": 11,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 10,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 3,
+    "faceName": "",
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 8,
+        "value": 1
+      },
+      {
+        "code": 13,
+        "dataId": 7,
+        "value": 0.01
+      },
+      {
+        "code": 13,
+        "dataId": 8,
+        "value": 0.01
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,99999>\n<限界変動:2,99999>\n<限界変動:3,99999>\n<限界変動:4,99999>\n<限界変動:5,99999>\n<限界変動:6,99999>\n<限界変動:7,99999>\n<戦闘終了後ステート解除:1>\n<戦闘中装備変更>\n<戦闘中装備変更禁止:4,3,2,1>",
+    "profile": ""
+  },
+  {
+    "id": 12,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 13,
+    "battlerName": "",
+    "characterIndex": 1,
+    "characterName": "",
+    "classId": 25,
+    "equips": [
+      89,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 1,
+    "faceName": "poro",
+    "traits": [
+      {
+        "code": 54,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 53,
+        "dataId": 3,
+        "value": 0
+      },
+      {
+        "code": 62,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 62,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 51,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 51,
+        "dataId": 4,
+        "value": 0
+      },
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 2
+      }
+    ],
+    "initialLevel": 99,
+    "maxLevel": 99,
+    "name": "Poro",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>",
+    "profile": "Automatically fights. Summoned by Red Hood."
+  },
+  {
+    "id": 14,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "注意！スキル名前のため弄らない",
+    "profile": ""
+  },
+  {
+    "id": 15,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 16,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 17,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$ノーデ",
+    "classId": 39,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ノーデ",
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 1.1
+      },
+      {
+        "code": 23,
+        "dataId": 3,
+        "value": 2
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Node",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv0\n[HP+10% / Recovery from Items*2]"
+  },
+  {
+    "id": 18,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$ノーデ",
+    "classId": 39,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ノーデ",
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 1.25
+      },
+      {
+        "code": 23,
+        "dataId": 3,
+        "value": 2
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Node",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv1\n[HP+25% / Recovery from Items*2]"
+  },
+  {
+    "id": 19,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$ノーデ",
+    "classId": 39,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ノーデ",
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 1.35
+      },
+      {
+        "code": 23,
+        "dataId": 3,
+        "value": 2
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Node",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv2\n[HP+35% / Recovery from Items*2]"
+  },
+  {
+    "id": 20,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$ノーデ",
+    "classId": 39,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ノーデ",
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 1.5
+      },
+      {
+        "code": 23,
+        "dataId": 3,
+        "value": 2
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Node",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv3\n[HP+50% / Recovery from Items*2]"
+  },
+  {
+    "id": 21,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "ビル",
+    "classId": 40,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ビル",
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 1,
+        "value": 1.1
+      },
+      {
+        "code": 23,
+        "dataId": 4,
+        "value": 0.5
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Bill",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv0\n[MP+10% / MP Costs*1/2]"
+  },
+  {
+    "id": 22,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "ビル",
+    "classId": 40,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ビル",
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 1,
+        "value": 1.2
+      },
+      {
+        "code": 23,
+        "dataId": 4,
+        "value": 0.5
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Bill",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv1\n[MP+20% / MP Costs*1/2]"
+  },
+  {
+    "id": 23,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "ビル",
+    "classId": 40,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ビル",
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 1,
+        "value": 1.3
+      },
+      {
+        "code": 23,
+        "dataId": 4,
+        "value": 0.5
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Bill",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv2\n[MP+30% / MP Costs*1/2]"
+  },
+  {
+    "id": 24,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "ビル",
+    "classId": 40,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ビル",
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 1,
+        "value": 1.5
+      },
+      {
+        "code": 23,
+        "dataId": 4,
+        "value": 0.5
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Bill",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv3\n[MP+50% / MP Costs*1/2]"
+  },
+  {
+    "id": 25,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$ドド",
+    "classId": 41,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ドド",
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 1.1
+      },
+      {
+        "code": 64,
+        "dataId": 3,
+        "value": 0
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Dodo",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv0\n[SPD+10% / Preemptive Strike Rate Up]"
+  },
+  {
+    "id": 26,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$ドド",
+    "classId": 41,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ドド",
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 1.2
+      },
+      {
+        "code": 64,
+        "dataId": 3,
+        "value": 0
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Dodo",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv1\n[SPD+20% / Preemptive Strike Rate Up]"
+  },
+  {
+    "id": 27,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$ドド",
+    "classId": 41,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ドド",
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 1.3
+      },
+      {
+        "code": 64,
+        "dataId": 3,
+        "value": 0
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Dodo",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv2\n[SPD+30% / Preemptive Strike Rate Up]"
+  },
+  {
+    "id": 28,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$ドド",
+    "classId": 41,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ドド",
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 1.5
+      },
+      {
+        "code": 64,
+        "dataId": 3,
+        "value": 0
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Dodo",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv3\n[SPD+50% / Preemptive Strike Rate Up]"
+  },
+  {
+    "id": 29,
+    "battlerName": "",
+    "characterIndex": 1,
+    "characterName": "シーシャ",
+    "classId": 42,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "シーシャ",
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.15
+      },
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 1.5
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Shisha",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv0\n[DEF+15% / Guard Effectiveness Up [S]]"
+  },
+  {
+    "id": 30,
+    "battlerName": "",
+    "characterIndex": 1,
+    "characterName": "シーシャ",
+    "classId": 42,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "シーシャ",
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.2
+      },
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 1.5
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Shisha",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv1\n[DEF+20% / Guard Effectiveness Up [S]]"
+  },
+  {
+    "id": 31,
+    "battlerName": "",
+    "characterIndex": 1,
+    "characterName": "シーシャ",
+    "classId": 42,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "シーシャ",
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.35
+      },
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 1.5
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Shisha",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv2\n[DEF+35% / Guard Effectiveness Up [S]]"
+  },
+  {
+    "id": 32,
+    "battlerName": "",
+    "characterIndex": 1,
+    "characterName": "シーシャ",
+    "classId": 42,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "シーシャ",
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 3,
+        "value": 1.5
+      },
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 2
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Shisha",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv3\n[DEF+50% / Guard Effectiveness Up [M]]"
+  },
+  {
+    "id": 33,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$公爵夫人",
+    "classId": 43,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "公爵夫人",
+    "traits": [
+      {
+        "code": 61,
+        "dataId": 0,
+        "value": 0.15
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.95
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Margaret",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv0\n[Bonus Action 15% / SPD-5%]"
+  },
+  {
+    "id": 34,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$公爵夫人",
+    "classId": 43,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "公爵夫人",
+    "traits": [
+      {
+        "code": 61,
+        "dataId": 0,
+        "value": 0.3
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.85
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Margaret",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv1\n[Bonus Action 30% / SPD-15%]"
+  },
+  {
+    "id": 35,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$公爵夫人",
+    "classId": 43,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "公爵夫人",
+    "traits": [
+      {
+        "code": 61,
+        "dataId": 0,
+        "value": 0.5
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.7
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Margaret",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv2\n[Bonus Action 50% / SPD-30%]"
+  },
+  {
+    "id": 36,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$公爵夫人",
+    "classId": 43,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "公爵夫人",
+    "traits": [
+      {
+        "code": 61,
+        "dataId": 0,
+        "value": 1
+      },
+      {
+        "code": 21,
+        "dataId": 6,
+        "value": 0.5
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Margaret",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv3\n[Bonus Action 100% / SPD-50%]"
+  },
+  {
+    "id": 37,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$ロリーナ",
+    "classId": 44,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ロリーナ",
+    "traits": [
+      {
+        "code": 11,
+        "dataId": 3,
+        "value": 0.85
+      },
+      {
+        "code": 11,
+        "dataId": 4,
+        "value": 0.85
+      },
+      {
+        "code": 11,
+        "dataId": 5,
+        "value": 0.85
+      },
+      {
+        "code": 11,
+        "dataId": 9,
+        "value": 0.85
+      },
+      {
+        "code": 11,
+        "dataId": 10,
+        "value": 0.85
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Lorina",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv0\n[Fire/Lightning/Ice/Dark/Light Resistance+15%]"
+  },
+  {
+    "id": 38,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$ロリーナ",
+    "classId": 44,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ロリーナ",
+    "traits": [
+      {
+        "code": 11,
+        "dataId": 3,
+        "value": 0.75
+      },
+      {
+        "code": 11,
+        "dataId": 4,
+        "value": 0.75
+      },
+      {
+        "code": 11,
+        "dataId": 5,
+        "value": 0.75
+      },
+      {
+        "code": 11,
+        "dataId": 9,
+        "value": 0.75
+      },
+      {
+        "code": 11,
+        "dataId": 10,
+        "value": 0.75
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Lorina",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv1\n[Fire/Lightning/Ice/Dark/Light Resistance+25%]"
+  },
+  {
+    "id": 39,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$ロリーナ",
+    "classId": 44,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ロリーナ",
+    "traits": [
+      {
+        "code": 11,
+        "dataId": 3,
+        "value": 0.65
+      },
+      {
+        "code": 11,
+        "dataId": 4,
+        "value": 0.65
+      },
+      {
+        "code": 11,
+        "dataId": 5,
+        "value": 0.65
+      },
+      {
+        "code": 11,
+        "dataId": 9,
+        "value": 0.65
+      },
+      {
+        "code": 11,
+        "dataId": 10,
+        "value": 0.65
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Lorina",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv2\n[Fire/Lightning/Ice/Dark/Light Resistance+35%]"
+  },
+  {
+    "id": 40,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$ロリーナ",
+    "classId": 44,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ロリーナ",
+    "traits": [
+      {
+        "code": 11,
+        "dataId": 3,
+        "value": 0.5
+      },
+      {
+        "code": 11,
+        "dataId": 4,
+        "value": 0.5
+      },
+      {
+        "code": 11,
+        "dataId": 5,
+        "value": 0.5
+      },
+      {
+        "code": 11,
+        "dataId": 9,
+        "value": 0.5
+      },
+      {
+        "code": 11,
+        "dataId": 10,
+        "value": 0.5
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Lorina",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv3\n[Fire/Lightning/Ice/Dark/Light Resistance+50%]"
+  },
+  {
+    "id": 41,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$帽子屋",
+    "classId": 45,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "帽子屋",
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 4,
+        "value": 1.1
+      },
+      {
+        "code": 13,
+        "dataId": 28,
+        "value": 0.9
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Hatta",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv0\n[MAG+10% / Madness Resistance+10%]"
+  },
+  {
+    "id": 42,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$帽子屋",
+    "classId": 45,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "帽子屋",
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 4,
+        "value": 1.2
+      },
+      {
+        "code": 13,
+        "dataId": 28,
+        "value": 0.7
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Hatta",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv1\n[MAG+20% / Madness Resistance+30%]"
+  },
+  {
+    "id": 43,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$帽子屋",
+    "classId": 45,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "帽子屋",
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 4,
+        "value": 1.35
+      },
+      {
+        "code": 13,
+        "dataId": 28,
+        "value": 0.5
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Hatta",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv2\n[MAG+35% / Madness Resistance+50%]"
+  },
+  {
+    "id": 44,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$帽子屋",
+    "classId": 45,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "帽子屋",
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 4,
+        "value": 1.5
+      },
+      {
+        "code": 13,
+        "dataId": 28,
+        "value": 0
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Hatta",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv3\n[MAG+50% / Madness Resistance+100%]"
+  },
+  {
+    "id": 45,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "ウミガメモドキ",
+    "classId": 46,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ウミガメ",
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 5,
+        "value": 1.15
+      },
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 1.5
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Mock Turtle",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv0\n[MDF+15% / Guard Effectiveness Up [S]]"
+  },
+  {
+    "id": 46,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "ウミガメモドキ",
+    "classId": 46,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ウミガメ",
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 5,
+        "value": 1.2
+      },
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 1.5
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Mock Turtle",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv1\n[MDF+20% / Guard Effectiveness Up [S]]"
+  },
+  {
+    "id": 47,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "ウミガメモドキ",
+    "classId": 46,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ウミガメ",
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 5,
+        "value": 1.35
+      },
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 1.5
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Mock Turtle",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv2\n[MDF+35% / Guard Effectiveness Up [S]]"
+  },
+  {
+    "id": 48,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "ウミガメモドキ",
+    "classId": 46,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ウミガメ",
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 5,
+        "value": 1.5
+      },
+      {
+        "code": 23,
+        "dataId": 1,
+        "value": 2
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Mock Turtle",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv3\n[MDF+50% / Guard Effectiveness Up [M]]"
+  },
+  {
+    "id": 49,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 50,
+    "battlerName": "",
+    "characterIndex": 1,
+    "characterName": "",
+    "classId": 27,
+    "equips": [
+      93,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ahiru",
+    "traits": [
+      {
+        "code": 54,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 53,
+        "dataId": 3,
+        "value": 0
+      },
+      {
+        "code": 62,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 51,
+        "dataId": 6,
+        "value": 0
+      },
+      {
+        "code": 44,
+        "dataId": 2,
+        "value": 0
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "Ugly Duckling",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>",
+    "profile": "Lutwidge Town"
+  },
+  {
+    "id": 51,
+    "battlerName": "",
+    "characterIndex": 1,
+    "characterName": "",
+    "classId": 28,
+    "equips": [
+      94,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "へんぜる",
+    "traits": [
+      {
+        "code": 54,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 53,
+        "dataId": 3,
+        "value": 0
+      },
+      {
+        "code": 62,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 51,
+        "dataId": 6,
+        "value": 0
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "Hansel",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>",
+    "profile": "Infinite Food"
+  },
+  {
+    "id": 52,
+    "battlerName": "",
+    "characterIndex": 1,
+    "characterName": "",
+    "classId": 29,
+    "equips": [
+      94,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ぐれーてる",
+    "traits": [
+      {
+        "code": 54,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 53,
+        "dataId": 3,
+        "value": 0
+      },
+      {
+        "code": 62,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 51,
+        "dataId": 6,
+        "value": 0
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "Gretel",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>",
+    "profile": "Infinite Food"
+  },
+  {
+    "id": 53,
+    "battlerName": "",
+    "characterIndex": 1,
+    "characterName": "",
+    "classId": 30,
+    "equips": [
+      95,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "シンド",
+    "traits": [
+      {
+        "code": 54,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 53,
+        "dataId": 3,
+        "value": 0
+      },
+      {
+        "code": 62,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 51,
+        "dataId": 6,
+        "value": 0
+      },
+      {
+        "code": 44,
+        "dataId": 2,
+        "value": 0
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "Sinbad",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>",
+    "profile": "Infinite Food"
+  },
+  {
+    "id": 54,
+    "battlerName": "",
+    "characterIndex": 1,
+    "characterName": "",
+    "classId": 31,
+    "equips": [
+      96,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ぶれーめん",
+    "traits": [
+      {
+        "code": 54,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 53,
+        "dataId": 3,
+        "value": 0
+      },
+      {
+        "code": 62,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 51,
+        "dataId": 6,
+        "value": 0
+      },
+      {
+        "code": 44,
+        "dataId": 2,
+        "value": 0
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "Musicians of Bremen",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>",
+    "profile": "Slaughterhouse"
+  },
+  {
+    "id": 55,
+    "battlerName": "",
+    "characterIndex": 1,
+    "characterName": "",
+    "classId": 32,
+    "equips": [
+      97,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "はんす",
+    "traits": [
+      {
+        "code": 54,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 53,
+        "dataId": 3,
+        "value": 0
+      },
+      {
+        "code": 62,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 51,
+        "dataId": 6,
+        "value": 0
+      },
+      {
+        "code": 44,
+        "dataId": 2,
+        "value": 0
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "Hans",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>",
+    "profile": "Mental Ward"
+  },
+  {
+    "id": 56,
+    "battlerName": "",
+    "characterIndex": 1,
+    "characterName": "",
+    "classId": 33,
+    "equips": [
+      98,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ぱと",
+    "traits": [
+      {
+        "code": 54,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 53,
+        "dataId": 3,
+        "value": 0
+      },
+      {
+        "code": 62,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 51,
+        "dataId": 6,
+        "value": 0
+      },
+      {
+        "code": 44,
+        "dataId": 2,
+        "value": 0
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "Patrasche",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>",
+    "profile": "Carroll River"
+  },
+  {
+    "id": 57,
+    "battlerName": "",
+    "characterIndex": 1,
+    "characterName": "",
+    "classId": 34,
+    "equips": [
+      99,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "kata",
+    "traits": [
+      {
+        "code": 54,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 53,
+        "dataId": 3,
+        "value": 0
+      },
+      {
+        "code": 62,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 51,
+        "dataId": 6,
+        "value": 0
+      },
+      {
+        "code": 44,
+        "dataId": 2,
+        "value": 0
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "Catherine",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>",
+    "profile": "Ox Ford"
+  },
+  {
+    "id": 58,
+    "battlerName": "",
+    "characterIndex": 1,
+    "characterName": "",
+    "classId": 35,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ほし",
+    "traits": [
+      {
+        "code": 54,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 53,
+        "dataId": 3,
+        "value": 0
+      },
+      {
+        "code": 62,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 51,
+        "dataId": 6,
+        "value": 0
+      },
+      {
+        "code": 44,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 44,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "The Little Prince",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>",
+    "profile": "Clock Tower"
+  },
+  {
+    "id": 59,
+    "battlerName": "",
+    "characterIndex": 1,
+    "characterName": "",
+    "classId": 36,
+    "equips": [
+      91,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "よろい",
+    "traits": [
+      {
+        "code": 54,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 53,
+        "dataId": 3,
+        "value": 0
+      },
+      {
+        "code": 62,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 51,
+        "dataId": 6,
+        "value": 0
+      },
+      {
+        "code": 62,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 44,
+        "dataId": 2,
+        "value": 0
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "Knight in Armor",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>",
+    "profile": "Spore Forest"
+  },
+  {
+    "id": 60,
+    "battlerName": "",
+    "characterIndex": 1,
+    "characterName": "",
+    "classId": 37,
+    "equips": [
+      90,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ぱんぷ",
+    "traits": [
+      {
+        "code": 54,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 53,
+        "dataId": 3,
+        "value": 0
+      },
+      {
+        "code": 62,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 51,
+        "dataId": 6,
+        "value": 0
+      },
+      {
+        "code": 62,
+        "dataId": 2,
+        "value": 0
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "Pumpkin-O'",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>",
+    "profile": "Spore Forest"
+  },
+  {
+    "id": 61,
+    "battlerName": "",
+    "characterIndex": 1,
+    "characterName": "",
+    "classId": 53,
+    "equips": [
+      88,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "グリフィ",
+    "traits": [
+      {
+        "code": 54,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 53,
+        "dataId": 3,
+        "value": 0
+      },
+      {
+        "code": 62,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 51,
+        "dataId": 6,
+        "value": 0
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "Griffy",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>",
+    "profile": "Garden of the Heart"
+  },
+  {
+    "id": 62,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ハン",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "Humpty Dumpty",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 63,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$ハンプティ２",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ハン２",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "グース名前",
+    "profile": "((((((Name of the Goose))))))"
+  },
+  {
+    "id": 64,
+    "battlerName": "",
+    "characterIndex": 1,
+    "characterName": "",
+    "classId": 38,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "roba",
+    "traits": [
+      {
+        "code": 54,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 53,
+        "dataId": 3,
+        "value": 0
+      },
+      {
+        "code": 62,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 51,
+        "dataId": 6,
+        "value": 0
+      },
+      {
+        "code": 44,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 44,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "The Donkey King",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>",
+    "profile": "Frissel"
+  },
+  {
+    "id": 65,
+    "battlerName": "",
+    "characterIndex": 1,
+    "characterName": "",
+    "classId": 54,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "あし",
+    "traits": [
+      {
+        "code": 54,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 53,
+        "dataId": 3,
+        "value": 0
+      },
+      {
+        "code": 62,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 51,
+        "dataId": 6,
+        "value": 0
+      },
+      {
+        "code": 44,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 44,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 3,
+        "value": 1
+      },
+      {
+        "code": 13,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "Daddy-Long-Legs",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>",
+    "profile": "Queensland"
+  },
+  {
+    "id": 66,
+    "battlerName": "",
+    "characterIndex": 1,
+    "characterName": "",
+    "classId": 55,
+    "equips": [
+      87,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 3,
+    "faceName": "うさぎ騎士",
+    "traits": [
+      {
+        "code": 54,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 53,
+        "dataId": 3,
+        "value": 0
+      },
+      {
+        "code": 62,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 51,
+        "dataId": 6,
+        "value": 0
+      },
+      {
+        "code": 62,
+        "dataId": 2,
+        "value": 0
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "Vernai",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>",
+    "profile": "Jubjub, Bandersnatch, Jabberwock"
+  },
+  {
+    "id": 67,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$紅",
+    "classId": 24,
+    "equips": [
+      92,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "紅ずきん",
+    "traits": [
+      {
+        "code": 62,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "initialLevel": 99,
+    "maxLevel": 99,
+    "name": "Red Hood",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>",
+    "profile": "Everywhere."
+  },
+  {
+    "id": 68,
+    "battlerName": "",
+    "characterIndex": 1,
+    "characterName": "",
+    "classId": 56,
+    "equips": [
+      86,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 4,
+    "faceName": "ロビン",
+    "traits": [
+      {
+        "code": 54,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 53,
+        "dataId": 3,
+        "value": 0
+      },
+      {
+        "code": 62,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 51,
+        "dataId": 6,
+        "value": 0
+      },
+      {
+        "code": 62,
+        "dataId": 2,
+        "value": 0
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "Robin Hood",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>",
+    "profile": "Bandersnatch"
+  },
+  {
+    "id": 69,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$メアリー",
+    "classId": 15,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "メアリー",
+    "traits": [
+      {
+        "code": 53,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 53,
+        "dataId": 4,
+        "value": 0
+      },
+      {
+        "code": 53,
+        "dataId": 3,
+        "value": 0
+      },
+      {
+        "code": 62,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "Mary",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>",
+    "profile": "Fairy."
+  },
+  {
+    "id": 70,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "Nameless Forest Name Memory",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 71,
+    "battlerName": "",
+    "characterIndex": 1,
+    "characterName": "",
+    "classId": 59,
+    "equips": [
+      88,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "グリフィ",
+    "traits": [
+      {
+        "code": 54,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 53,
+        "dataId": 3,
+        "value": 0
+      },
+      {
+        "code": 62,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 51,
+        "dataId": 6,
+        "value": 0
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "Griffy",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>",
+    "profile": "Meryphillia Battle"
+  },
+  {
+    "id": 72,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$ビクトリア",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ビク",
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 7,
+        "value": 1.5
+      },
+      {
+        "code": 22,
+        "dataId": 7,
+        "value": 0.05
+      },
+      {
+        "code": 22,
+        "dataId": 8,
+        "value": 0.05
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Victoria",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv0\n[LCK+50% / HP&MP Regen+5%]"
+  },
+  {
+    "id": 73,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$ビクトリア",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ビク",
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 7,
+        "value": 1.6
+      },
+      {
+        "code": 22,
+        "dataId": 7,
+        "value": 0.05
+      },
+      {
+        "code": 22,
+        "dataId": 8,
+        "value": 0.05
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Victoria",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv1\n[LCK+60% / HP&MP Regen+5%]"
+  },
+  {
+    "id": 74,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$ビクトリア",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ビク",
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 7,
+        "value": 1.7
+      },
+      {
+        "code": 22,
+        "dataId": 7,
+        "value": 0.05
+      },
+      {
+        "code": 22,
+        "dataId": 8,
+        "value": 0.05
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Victoria",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv2\n[LCK+70% / HP&MP Regen+5%]"
+  },
+  {
+    "id": 75,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$ビクトリア",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ビク",
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 7,
+        "value": 2
+      },
+      {
+        "code": 22,
+        "dataId": 7,
+        "value": 0.1
+      },
+      {
+        "code": 22,
+        "dataId": 8,
+        "value": 0.1
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Victoria",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv3\n[LCK+100% / HP&MP Regen+10%]"
+  },
+  {
+    "id": 76,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "バンダースナッチ",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "バン",
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 2,
+        "value": 1.1
+      },
+      {
+        "code": 22,
+        "dataId": 6,
+        "value": 0.1
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Bandersnatch",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv0\n[ATK+10% / Counterattack Chance+10%]"
+  },
+  {
+    "id": 77,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "バンダースナッチ",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "バン",
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 2,
+        "value": 1.2
+      },
+      {
+        "code": 22,
+        "dataId": 6,
+        "value": 0.15
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Bandersnatch",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv1\n[ATK+20% / Counterattack Chance+15%]"
+  },
+  {
+    "id": 78,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "バンダースナッチ",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "バン",
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 2,
+        "value": 1.35
+      },
+      {
+        "code": 22,
+        "dataId": 6,
+        "value": 0.2
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Bandersnatch",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv2\n[ATK+35% / Counterattack Chance+20%]"
+  },
+  {
+    "id": 79,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "バンダースナッチ",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "バン",
+    "traits": [
+      {
+        "code": 21,
+        "dataId": 2,
+        "value": 1.5
+      },
+      {
+        "code": 22,
+        "dataId": 6,
+        "value": 0.3
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Bandersnatch",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv3\n[ATK+50% / Counterattack Chance+30%]"
+  },
+  {
+    "id": 80,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$ジャブジャブ",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ジャブ",
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.05
+      },
+      {
+        "code": 22,
+        "dataId": 4,
+        "value": 0.05
+      },
+      {
+        "code": 22,
+        "dataId": 5,
+        "value": 0.1
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Jubjub",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv0\n[EVA&MEV+5% / Magic Reflect+10%]"
+  },
+  {
+    "id": 81,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$ジャブジャブ",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ジャブ",
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.1
+      },
+      {
+        "code": 22,
+        "dataId": 4,
+        "value": 0.1
+      },
+      {
+        "code": 22,
+        "dataId": 5,
+        "value": 0.15
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Jubjub",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv1\n[EVA&MEV+10% / Magic Reflect+15%]"
+  },
+  {
+    "id": 82,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$ジャブジャブ",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ジャブ",
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.15
+      },
+      {
+        "code": 22,
+        "dataId": 4,
+        "value": 0.15
+      },
+      {
+        "code": 22,
+        "dataId": 5,
+        "value": 0.2
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Jubjub",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv2\n[EVA&MEV+15% / Magic Reflect+20%]"
+  },
+  {
+    "id": 83,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$ジャブジャブ",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ジャブ",
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.3
+      },
+      {
+        "code": 22,
+        "dataId": 4,
+        "value": 0.3
+      },
+      {
+        "code": 22,
+        "dataId": 5,
+        "value": 0.3
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Jubjub",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv3\n[EVA&MEV+30% / Magic Reflect+30%]"
+  },
+  {
+    "id": 84,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$ジャバ",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ジャバ",
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 2,
+        "value": 0.05
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0.05
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Jabberwock",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv0\n[Crit Chance+5% / Accuracy+5%]"
+  },
+  {
+    "id": 85,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$ジャバ",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ジャバ",
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 2,
+        "value": 0.1
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0.1
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Jabberwock",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv1\n[Crit Chance+10% / Accuracy+10%]"
+  },
+  {
+    "id": 86,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$ジャバ",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ジャバ",
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 2,
+        "value": 0.15
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0.15
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Jabberwock",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv2\n[Crit Chance+15% / Accuracy+15%]"
+  },
+  {
+    "id": 87,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$ジャバ",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ジャバ",
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 2,
+        "value": 0.3
+      },
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0.3
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Jabberwock",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv3\n[Crit Chance+30% / Accuracy+30%]"
+  },
+  {
+    "id": 88,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "セイウチ",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "シヴーチ",
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 7,
+        "value": 0.1
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Wolris",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv0\n[HP Regen+10%]"
+  },
+  {
+    "id": 89,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "セイウチ",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "シヴーチ",
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 7,
+        "value": 0.15
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Wolris",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv1\n[HP Regen+15%]"
+  },
+  {
+    "id": 90,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "セイウチ",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "シヴーチ",
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 7,
+        "value": 0.2
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Wolris",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv2\n[HP Regen+20%]"
+  },
+  {
+    "id": 91,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "セイウチ",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "シヴーチ",
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 7,
+        "value": 0.3
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Wolris",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv3\n[HP Regen+30%]"
+  },
+  {
+    "id": 92,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$クティ",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "クティ",
+    "traits": [
+      {
+        "code": 61,
+        "dataId": 0,
+        "value": 0.05
+      },
+      {
+        "code": 34,
+        "dataId": 0,
+        "value": 1
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Kuti",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv0\n[Bonus Action 5% / Basic Attack Count+1]"
+  },
+  {
+    "id": 93,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$クティ",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "クティ",
+    "traits": [
+      {
+        "code": 61,
+        "dataId": 0,
+        "value": 0.15
+      },
+      {
+        "code": 34,
+        "dataId": 0,
+        "value": 1
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Kuti",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv1\n[Bonus Action 15% / Basic Attack Count+1]"
+  },
+  {
+    "id": 94,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$クティ",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "クティ",
+    "traits": [
+      {
+        "code": 61,
+        "dataId": 0,
+        "value": 0.35
+      },
+      {
+        "code": 34,
+        "dataId": 0,
+        "value": 1
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Kuti",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv2\n[Bonus Action 35% / Basic Attack Count+1]"
+  },
+  {
+    "id": 95,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$クティ",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "クティ",
+    "traits": [
+      {
+        "code": 61,
+        "dataId": 0,
+        "value": 0.5
+      },
+      {
+        "code": 34,
+        "dataId": 0,
+        "value": 1
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Kuti",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv3\n[Bonus Action 50% / Basic Attack Count+1]"
+  },
+  {
+    "id": 96,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "プリケット",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "プリ",
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 0,
+        "value": 2
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Prickett",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv0\n[Chance to be targeted+200%]"
+  },
+  {
+    "id": 97,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "プリケット",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "プリ",
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 0,
+        "value": 3
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Prickett",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv1\n[Chance to be targeted+300%]"
+  },
+  {
+    "id": 98,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "プリケット",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "プリ",
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 0,
+        "value": 4
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Prickett",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv2\n[Chance to be targeted+400%]"
+  },
+  {
+    "id": 99,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "プリケット",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "プリ",
+    "traits": [
+      {
+        "code": 64,
+        "dataId": 4,
+        "value": 0
+      },
+      {
+        "code": 64,
+        "dataId": 5,
+        "value": 0
+      },
+      {
+        "code": 23,
+        "dataId": 0,
+        "value": 5
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Prickett",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv3\n[Aggro+500% / Drop Rates Doubled]"
+  },
+  {
+    "id": 100,
+    "battlerName": "",
+    "characterIndex": 1,
+    "characterName": "",
+    "classId": 57,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ピノッキオ",
+    "traits": [
+      {
+        "code": 54,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 53,
+        "dataId": 3,
+        "value": 0
+      },
+      {
+        "code": 62,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 51,
+        "dataId": 6,
+        "value": 0
+      },
+      {
+        "code": 44,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 44,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 13,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 13,
+        "dataId": 56,
+        "value": 5
+      },
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 1
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "Pinocchio",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>",
+    "profile": "Deep Sea"
+  },
+  {
+    "id": 101,
+    "battlerName": "",
+    "characterIndex": 1,
+    "characterName": "",
+    "classId": 58,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ピノッキオ２",
+    "traits": [
+      {
+        "code": 54,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 54,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 53,
+        "dataId": 3,
+        "value": 0
+      },
+      {
+        "code": 62,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 51,
+        "dataId": 6,
+        "value": 0
+      },
+      {
+        "code": 44,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 44,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 13,
+        "dataId": 56,
+        "value": 5
+      },
+      {
+        "code": 14,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "Puppet",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>",
+    "profile": "Deep Sea"
+  },
+  {
+    "id": 102,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$双子",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "トゥ双子",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Tweedles",
+    "nickname": "",
+    "note": "<逃走成功率増加:25>",
+    "profile": "Covenant Lv0\n[Escape Success Rate+25%]"
+  },
+  {
+    "id": 103,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$双子",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "トゥ双子",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Tweedles",
+    "nickname": "",
+    "note": "<逃走成功率増加:50>",
+    "profile": "Covenant Lv1\n[Escape Success Rate+50%]"
+  },
+  {
+    "id": 104,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$双子",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "トゥ双子",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Tweedles",
+    "nickname": "",
+    "note": "<逃走成功率増加:70>",
+    "profile": "Covenant Lv2\n[Escape Success Rate+70%]"
+  },
+  {
+    "id": 105,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$双子",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "トゥ双子",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Tweedles",
+    "nickname": "",
+    "note": "<逃走成功率増加:100>",
+    "profile": "Covenant Lv3\n[Escape Success Rate+100%]"
+  },
+  {
+    "id": 106,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 107,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$メリフィリア",
+    "classId": 21,
+    "equips": [
+      426,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "me",
+    "traits": [
+      {
+        "code": 62,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 44,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 51,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "Meryphillia",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>",
+    "profile": ""
+  },
+  {
+    "id": 108,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$ハイン",
+    "classId": 22,
+    "equips": [
+      372,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 2,
+    "faceName": "hain",
+    "traits": [
+      {
+        "code": 62,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 44,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 51,
+        "dataId": 4,
+        "value": 0
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "Hein",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,9999>\n<限界変動:2,9999>\n<限界変動:3,9999>\n<限界変動:4,9999>\n<限界変動:5,9999>\n<限界変動:6,9999>\n<限界変動:7,9999>",
+    "profile": ""
+  },
+  {
+    "id": 109,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "プリケット",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "プリ",
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 0,
+        "value": 2
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Prickett",
+    "nickname": "",
+    "note": "デート中",
+    "profile": "Covenant Lv0\n[Chance to be targeted+200%]"
+  },
+  {
+    "id": 110,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 111,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 61,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "niku",
+    "traits": [
+      {
+        "code": 14,
+        "dataId": 27,
+        "value": 0
+      },
+      {
+        "code": 14,
+        "dataId": 4,
+        "value": 0
+      },
+      {
+        "code": 14,
+        "dataId": 12,
+        "value": 0
+      },
+      {
+        "code": 62,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 23,
+        "dataId": 0,
+        "value": 3
+      },
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 5.01
+      },
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 9
+      },
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 9
+      },
+      {
+        "code": 44,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 44,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 43,
+        "dataId": 837,
+        "value": 0
+      },
+      {
+        "code": 62,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 22,
+        "dataId": 7,
+        "value": 1
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Wall of Flesh",
+    "nickname": "",
+    "note": "<スキル無効:33>\n<スキル無効:34>",
+    "profile": ""
+  },
+  {
+    "id": 112,
+    "battlerName": "",
+    "characterIndex": 6,
+    "characterName": "People4",
+    "classId": 17,
+    "equips": [
+      85,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 2,
+    "faceName": "カーナッキ",
+    "traits": [
+      {
+        "code": 62,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 51,
+        "dataId": 4,
+        "value": 0
+      },
+      {
+        "code": 62,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 9
+      },
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 7
+      },
+      {
+        "code": 22,
+        "dataId": 7,
+        "value": 0.3
+      },
+      {
+        "code": 22,
+        "dataId": 8,
+        "value": 0.3
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "Carnacki",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,99999>\n<限界変動:2,99999>\n<限界変動:3,99999>\n<限界変動:4,99999>\n<限界変動:5,99999>\n<限界変動:6,99999>\n<限界変動:7,99999>",
+    "profile": ""
+  },
+  {
+    "id": 113,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$フローレンス",
+    "classId": 18,
+    "equips": [
+      83,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "フローレンス",
+    "traits": [
+      {
+        "code": 62,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 44,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 51,
+        "dataId": 4,
+        "value": 0
+      },
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 9.5
+      },
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 3
+      },
+      {
+        "code": 22,
+        "dataId": 7,
+        "value": 0.2
+      },
+      {
+        "code": 22,
+        "dataId": 8,
+        "value": 0.2
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "Florence",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,99999>\n<限界変動:2,99999>\n<限界変動:3,99999>\n<限界変動:4,99999>\n<限界変動:5,99999>\n<限界変動:6,99999>\n<限界変動:7,99999>",
+    "profile": ""
+  },
+  {
+    "id": 114,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "$ゲルダ",
+    "classId": 19,
+    "equips": [
+      84,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "ゲルダ",
+    "traits": [
+      {
+        "code": 62,
+        "dataId": 0,
+        "value": 0
+      },
+      {
+        "code": 44,
+        "dataId": 2,
+        "value": 0
+      },
+      {
+        "code": 51,
+        "dataId": 4,
+        "value": 0
+      },
+      {
+        "code": 21,
+        "dataId": 0,
+        "value": 9.5
+      },
+      {
+        "code": 22,
+        "dataId": 7,
+        "value": 0.5
+      },
+      {
+        "code": 22,
+        "dataId": 8,
+        "value": 0.5
+      },
+      {
+        "code": 23,
+        "dataId": 0,
+        "value": 0
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "Gerda",
+    "nickname": "",
+    "note": "<レベル限界増加:900>\n<限界変動:0,99999>\n<限界変動:1,99999>\n<限界変動:2,99999>\n<限界変動:3,99999>\n<限界変動:4,99999>\n<限界変動:5,99999>\n<限界変動:6,99999>\n<限界変動:7,99999>",
+    "profile": ""
+  },
+  {
+    "id": 115,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "!$シヨ",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "シヨ",
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 2,
+        "value": 0.8
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Sho",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv0\n[%-based Damage Taken-20% / Recovery-20%]"
+  },
+  {
+    "id": 116,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "!$シヨ",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "シヨ",
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 2,
+        "value": 0.7
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Sho",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv1\n[%-based Damage Taken-30% / Recovery-30%]"
+  },
+  {
+    "id": 117,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "!$シヨ",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "シヨ",
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 2,
+        "value": 0.6
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Sho",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv2\n[%-based Damage Taken-40% / Recovery-40%]"
+  },
+  {
+    "id": 118,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "!$シヨ",
+    "classId": 47,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "シヨ",
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 2,
+        "value": 0.5
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 1,
+    "name": "Sho",
+    "nickname": "",
+    "note": "",
+    "profile": "Covenant Lv3\n[%-based Damage Taken-50% / Recovery-50%]"
+  },
+  {
+    "id": 119,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 120,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 121,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 122,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 123,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 124,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 125,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 126,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 127,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 128,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 129,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 130,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 131,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 132,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 133,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 134,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 135,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 136,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 137,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 138,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 139,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 140,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 141,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 142,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 143,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 144,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 145,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 146,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 147,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 148,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 149,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 150,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 151,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 152,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 153,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 154,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 155,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 156,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 157,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 158,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 159,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 160,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 161,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 162,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 163,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 164,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 165,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 166,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 167,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 168,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 169,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 170,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 171,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 172,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 173,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 174,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 175,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 176,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 177,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 178,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 179,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 180,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 181,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 182,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 183,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 184,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 185,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 186,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 187,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 188,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 189,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 190,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 191,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 192,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 193,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 194,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 195,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 196,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 197,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 198,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 199,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 200,
+    "battlerName": "",
+    "characterIndex": 0,
+    "characterName": "",
+    "classId": 1,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 0,
+    "faceName": "",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  }
 ]

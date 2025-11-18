@@ -505,9 +505,13 @@ function convertCrossReferences(text) {
     if (!text || typeof text !== 'string') return text;
     
     // Pattern: [[TYPE:ID:NAME]]
-    const markerRegex = /\[\[(SKILL|STATE|WEAPON|ARMOR|ITEM|ENEMY|ELEMENT):(\d+):([^\]]+)\]\]/g;
+    const markerRegex = /\[\[(SKILL|STATE|WEAPON|ARMOR|ITEM|ENEMY|ELEMENT|COMMONEVENT):(\d+):([^\]]+)\]\]/g;
     
     return text.replace(markerRegex, (match, type, id, name) => {
+        // COMMONEVENT doesn't have a section, so display as plain text
+        if (type === 'COMMONEVENT') {
+            return escapeHtml(name);
+        }
         const typeLower = type.toLowerCase();
         // Create a link with data attributes for navigation
         // The name is already in the text, so we escape it for HTML
@@ -543,10 +547,14 @@ function convertCrossReferencesAndEscapeExcludingSelf(text, sourceType, sourceId
     if (!text || typeof text !== 'string') return text;
     
     // Pattern: [[TYPE:ID:NAME]]
-    const markerRegex = /\[\[(SKILL|STATE|WEAPON|ARMOR|ITEM|ENEMY|ELEMENT):(\d+):([^\]]+)\]\]/g;
+    const markerRegex = /\[\[(SKILL|STATE|WEAPON|ARMOR|ITEM|ENEMY|ELEMENT|COMMONEVENT):(\d+):([^\]]+)\]\]/g;
     
     // Replace markers, but convert self-references to plain text
     let result = text.replace(markerRegex, (match, type, id, name) => {
+        // COMMONEVENT doesn't have a section, so display as plain text
+        if (type === 'COMMONEVENT') {
+            return name; // Will be escaped later
+        }
         // Check if this is a self-reference
         if (sourceType && sourceId && type === sourceType && Number(id) === Number(sourceId)) {
             // Self-reference: return just the name as plain text (will be escaped later)
@@ -2681,29 +2689,29 @@ function renderSkillDetail(skill) {
     const formulaToggles = detailContent.querySelectorAll('.show-original-toggle[data-toggle="formula"]');
     formulaToggles.forEach(toggle => {
         toggle.addEventListener('click', () => {
-            const formulaDisplay = detailContent.querySelector('#formula-display');
-            const isShowingOriginal = toggle.dataset.showing === 'original';
-            
-            if (isShowingOriginal) {
-                formulaDisplay.textContent = skill.damage.readableFormula;
-                toggle.innerHTML = `
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke="currentColor" stroke-width="2"/>
-                        <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" stroke="currentColor" stroke-width="2"/>
-                    </svg>
-                    Show Original Formula
-                `;
-                toggle.dataset.showing = 'readable';
-            } else {
-                formulaDisplay.textContent = skill.damage.formula;
-                toggle.innerHTML = `
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke="currentColor" stroke-width="2"/>
-                        <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" stroke="currentColor" stroke-width="2"/>
-                    </svg>
-                    Show Readable Formula
-                `;
-                toggle.dataset.showing = 'original';
+                const formulaDisplay = detailContent.querySelector('#formula-display');
+                const isShowingOriginal = toggle.dataset.showing === 'original';
+                
+                if (isShowingOriginal) {
+                    formulaDisplay.textContent = skill.damage.readableFormula;
+                    toggle.innerHTML = `
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke="currentColor" stroke-width="2"/>
+                            <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                        Show Original Formula
+                    `;
+                    toggle.dataset.showing = 'readable';
+                } else {
+                    formulaDisplay.textContent = skill.damage.formula;
+                    toggle.innerHTML = `
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke="currentColor" stroke-width="2"/>
+                            <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                        Show Readable Formula
+                    `;
+                    toggle.dataset.showing = 'original';
             }
         });
     });
@@ -5935,7 +5943,7 @@ function renderItemEffects(item) {
                 const effectDesc = effect.description ? convertCrossReferencesAndEscape(effect.description) : '';
                 const effectType = effect.codeName ? escapeHtml(effect.codeName) : 'Effect';
                 return `
-                    <div class="effect-item">
+                <div class="effect-item">
                         ${effect.description ? `<div class="effect-description">${effectDesc}</div>` : `<div class="effect-type">${effectType}</div>`}
                         ${hasOriginalData ? `
                             <button class="show-original-toggle" data-toggle="effect" data-effect-index="${index}">
@@ -5946,7 +5954,7 @@ function renderItemEffects(item) {
                                 Show Original Data
                             </button>
                         ` : ''}
-                    </div>
+                </div>
                 `;
             }).join('')}
         </div>

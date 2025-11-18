@@ -32,6 +32,7 @@ const weaponsData = JSON.parse(fs.readFileSync(path.join(dataDir, 'Weapons.json'
 const armorsData = JSON.parse(fs.readFileSync(path.join(dataDir, 'Armors.json'), 'utf8'));
 const enemiesData = JSON.parse(fs.readFileSync(path.join(dataDir, 'Enemies.json'), 'utf8'));
 const itemsData = JSON.parse(fs.readFileSync(path.join(dataDir, 'Items.json'), 'utf8'));
+const commonEventsData = JSON.parse(fs.readFileSync(path.join(dataDir, 'CommonEvents.json'), 'utf8'));
 
 // Translate Japanese element names to English
 const elementTranslations = {
@@ -1861,6 +1862,10 @@ const processedSkills = skillsData
                     // Resolve ID references in effect description
                     if (effectInfo.description) {
                         effectInfo.description = resolveAndLog(effectInfo.description, idResolvers, 'skill', skill.id, 'effect');
+                        // Check for untranslated Japanese in effect descriptions
+                        if (containsJapanese(effectInfo.description)) {
+                            console.warn(`⚠️  Untranslated Japanese in skill effect description (ID: ${skill.id}, effect code ${effect.code}): "${effectInfo.description.substring(0, 100)}..."`);
+                        }
                     }
                     
                     // CRITICAL: Ensure raw values are always present before returning
@@ -2156,6 +2161,10 @@ const processedStates = statesData
         traits.forEach(trait => {
             if (trait.description) {
                 trait.description = resolveAndLog(trait.description, idResolvers, 'state', state.id, 'trait');
+                // Check for untranslated Japanese in trait descriptions
+                if (containsJapanese(trait.description)) {
+                    console.warn(`⚠️  Untranslated Japanese in state trait description (ID: ${state.id}, trait code ${trait.code}): "${trait.description.substring(0, 100)}..."`);
+                }
             }
         });
         
@@ -2293,6 +2302,10 @@ const processedWeapons = weaponsData
         traits.forEach(trait => {
             if (trait.description) {
                 trait.description = resolveAndLog(trait.description, idResolvers, 'weapon', weapon.id, 'trait');
+                // Check for untranslated Japanese in trait descriptions
+                if (containsJapanese(trait.description)) {
+                    console.warn(`⚠️  Untranslated Japanese in weapon trait description (ID: ${weapon.id}, trait code ${trait.code}): "${trait.description.substring(0, 100)}..."`);
+                }
             }
         });
         
@@ -2401,6 +2414,10 @@ const processedArmors = armorsData
         traits.forEach(trait => {
             if (trait.description) {
                 trait.description = resolveAndLog(trait.description, idResolvers, 'armor', armor.id, 'trait');
+                // Check for untranslated Japanese in trait descriptions
+                if (containsJapanese(trait.description)) {
+                    console.warn(`⚠️  Untranslated Japanese in armor trait description (ID: ${armor.id}, trait code ${trait.code}): "${trait.description.substring(0, 100)}..."`);
+                }
             }
         });
         
@@ -2468,6 +2485,10 @@ const processedEnemies = enemiesData
         traits.forEach(trait => {
             if (trait.description) {
                 trait.description = resolveAndLog(trait.description, idResolvers, 'enemy', enemy.id, 'trait');
+                // Check for untranslated Japanese in trait descriptions
+                if (containsJapanese(trait.description)) {
+                    console.warn(`⚠️  Untranslated Japanese in enemy trait description (ID: ${enemy.id}, trait code ${trait.code}): "${trait.description.substring(0, 100)}..."`);
+                }
             }
         });
         
@@ -2702,7 +2723,12 @@ const processedItems = itemsData
                 effectInfo.description = `Learn ${skillRef}`;
             } else if (effect.code === 44) {
                 // Common Event
-                effectInfo.description = `Triggers common event #${effect.dataId}`;
+                const commonEvent = commonEventsData.find(ce => ce && ce.id === effect.dataId);
+                const commonEventName = commonEvent && commonEvent.name ? commonEvent.name : `Common Event #${effect.dataId}`;
+                effectInfo.commonEventName = commonEventName;
+                // Insert cross-reference marker directly
+                const commonEventRef = `[[COMMONEVENT:${effect.dataId}:${commonEventName}]]`;
+                effectInfo.description = `Triggers ${commonEventRef}`;
             } else {
                 effectInfo.description = `Effect code ${effect.code}, data ${effect.dataId}, value ${effect.value1}`;
             }
@@ -2743,6 +2769,10 @@ const processedItems = itemsData
         effects.forEach(effect => {
             if (effect.description) {
                 effect.description = resolveAndLog(effect.description, idResolvers, 'item', item.id, 'effect');
+                // Check for untranslated Japanese in effect descriptions
+                if (containsJapanese(effect.description)) {
+                    console.warn(`⚠️  Untranslated Japanese in item effect description (ID: ${item.id}, effect code ${effect.code}): "${effect.description.substring(0, 100)}..."`);
+                }
             }
         });
         
@@ -4084,7 +4114,8 @@ const untranslatedSkills = processedSkills.filter(s =>
     containsJapanese(s.description) || 
     containsJapanese(s.message1) || 
     containsJapanese(s.message2) || 
-    (s.note && s.note.untranslated)
+    (s.note && s.note.untranslated) ||
+    (s.effects && s.effects.some(effect => effect.description && containsJapanese(effect.description)))
 ).length;
 
 const untranslatedStates = processedStates.filter(s => 
@@ -4093,30 +4124,35 @@ const untranslatedStates = processedStates.filter(s =>
     containsJapanese(s.message2) || 
     containsJapanese(s.message3) || 
     containsJapanese(s.message4) || 
-    (s.note && s.note.untranslated)
+    (s.note && s.note.untranslated) ||
+    (s.traits && s.traits.some(trait => trait.description && containsJapanese(trait.description)))
 ).length;
 
 const untranslatedWeapons = processedWeapons.filter(w => 
     containsJapanese(w.name) || 
     containsJapanese(w.description) || 
-    (w.note && w.note.untranslated)
+    (w.note && w.note.untranslated) ||
+    (w.traits && w.traits.some(trait => trait.description && containsJapanese(trait.description)))
 ).length;
 
 const untranslatedArmors = processedArmors.filter(a => 
     containsJapanese(a.name) || 
     containsJapanese(a.description) || 
-    (a.note && a.note.untranslated)
+    (a.note && a.note.untranslated) ||
+    (a.traits && a.traits.some(trait => trait.description && containsJapanese(trait.description)))
 ).length;
 
 const untranslatedEnemies = processedEnemies.filter(e => 
     containsJapanese(e.name) || 
-    (e.note && e.note.untranslated)
+    (e.note && e.note.untranslated) ||
+    (e.traits && e.traits.some(trait => trait.description && containsJapanese(trait.description)))
 ).length;
 
 const untranslatedItems = processedItems.filter(i => 
     containsJapanese(i.name) || 
     containsJapanese(i.description) || 
-    (i.note && i.note.untranslated)
+    (i.note && i.note.untranslated) ||
+    (i.effects && i.effects.some(effect => effect.description && containsJapanese(effect.description)))
 ).length;
 
 const totalUntranslated = untranslatedSkills + untranslatedStates + untranslatedWeapons + untranslatedArmors + untranslatedEnemies + untranslatedItems;

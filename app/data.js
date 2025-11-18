@@ -202544,7 +202544,8 @@ const itemsData = {
           "dataId": 223,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #223"
+          "description": "Triggers [[COMMONEVENT:223:緑のソウル]]",
+          "commonEventName": "緑のソウル"
         }
       ],
       "damage": null,
@@ -202576,7 +202577,8 @@ const itemsData = {
           "dataId": 224,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #224"
+          "description": "Triggers [[COMMONEVENT:224:紫のソウル]]",
+          "commonEventName": "紫のソウル"
         }
       ],
       "damage": null,
@@ -202608,7 +202610,8 @@ const itemsData = {
           "dataId": 225,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #225"
+          "description": "Triggers [[COMMONEVENT:225:赤のソウル]]",
+          "commonEventName": "赤のソウル"
         }
       ],
       "damage": null,
@@ -202640,7 +202643,8 @@ const itemsData = {
           "dataId": 226,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #226"
+          "description": "Triggers [[COMMONEVENT:226:青のソウル]]",
+          "commonEventName": "青のソウル"
         }
       ],
       "damage": null,
@@ -202672,7 +202676,8 @@ const itemsData = {
           "dataId": 227,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #227"
+          "description": "Triggers [[COMMONEVENT:227:黄のソウル]]",
+          "commonEventName": "黄のソウル"
         }
       ],
       "damage": null,
@@ -202704,7 +202709,8 @@ const itemsData = {
           "dataId": 228,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #228"
+          "description": "Triggers [[COMMONEVENT:228:灰のソウル]]",
+          "commonEventName": "灰のソウル"
         }
       ],
       "damage": null,
@@ -202736,7 +202742,8 @@ const itemsData = {
           "dataId": 229,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #229"
+          "description": "Triggers [[COMMONEVENT:229:白のソウル]]",
+          "commonEventName": "白のソウル"
         }
       ],
       "damage": null,
@@ -202768,7 +202775,8 @@ const itemsData = {
           "dataId": 230,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #230"
+          "description": "Triggers [[COMMONEVENT:230:四葉のソウル]]",
+          "commonEventName": "四葉のソウル"
         }
       ],
       "damage": null,
@@ -202800,7 +202808,8 @@ const itemsData = {
           "dataId": 221,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #221"
+          "description": "Triggers [[COMMONEVENT:221:黒のソウル]]",
+          "commonEventName": "黒のソウル"
         }
       ],
       "damage": null,
@@ -202832,7 +202841,8 @@ const itemsData = {
           "dataId": 3,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #3"
+          "description": "Triggers [[COMMONEVENT:3:帰還の骨粉]]",
+          "commonEventName": "帰還の骨粉"
         }
       ],
       "damage": null,
@@ -202864,7 +202874,8 @@ const itemsData = {
           "dataId": 48,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #48"
+          "description": "Triggers [[COMMONEVENT:48:兎の懐中時計]]",
+          "commonEventName": "兎の懐中時計"
         },
         {
           "code": 21,
@@ -202906,7 +202917,8 @@ const itemsData = {
           "dataId": 31,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #31"
+          "description": "Triggers [[COMMONEVENT:31:ステルス]]",
+          "commonEventName": "ステルス"
         }
       ],
       "damage": null,
@@ -203377,7 +203389,8 @@ const itemsData = {
           "dataId": 19,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #19"
+          "description": "Triggers [[COMMONEVENT:19:ソウル入手50]]",
+          "commonEventName": "ソウル入手50"
         }
       ],
       "damage": null,
@@ -203409,7 +203422,8 @@ const itemsData = {
           "dataId": 20,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #20"
+          "description": "Triggers [[COMMONEVENT:20:ソウル入手200]]",
+          "commonEventName": "ソウル入手200"
         }
       ],
       "damage": null,
@@ -203441,7 +203455,8 @@ const itemsData = {
           "dataId": 21,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #21"
+          "description": "Triggers [[COMMONEVENT:21:ソウル入手400]]",
+          "commonEventName": "ソウル入手400"
         }
       ],
       "damage": null,
@@ -203473,7 +203488,8 @@ const itemsData = {
           "dataId": 22,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #22"
+          "description": "Triggers [[COMMONEVENT:22:ソウル入手800]]",
+          "commonEventName": "ソウル入手800"
         }
       ],
       "damage": null,
@@ -203505,7 +203521,8 @@ const itemsData = {
           "dataId": 23,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #23"
+          "description": "Triggers [[COMMONEVENT:23:ソウル入手1000]]",
+          "commonEventName": "ソウル入手1000"
         }
       ],
       "damage": null,
@@ -203537,7 +203554,8 @@ const itemsData = {
           "dataId": 24,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #24"
+          "description": "Triggers [[COMMONEVENT:24:ソウル入手2000]]",
+          "commonEventName": "ソウル入手2000"
         }
       ],
       "damage": null,
@@ -203569,7 +203587,8 @@ const itemsData = {
           "dataId": 25,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #25"
+          "description": "Triggers [[COMMONEVENT:25:ソウル入手3000]]",
+          "commonEventName": "ソウル入手3000"
         }
       ],
       "damage": null,
@@ -203601,7 +203620,8 @@ const itemsData = {
           "dataId": 26,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #26"
+          "description": "Triggers [[COMMONEVENT:26:ソウル入手5000]]",
+          "commonEventName": "ソウル入手5000"
         }
       ],
       "damage": null,
@@ -203633,7 +203653,8 @@ const itemsData = {
           "dataId": 27,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #27"
+          "description": "Triggers [[COMMONEVENT:27:ソウル入手8000]]",
+          "commonEventName": "ソウル入手8000"
         }
       ],
       "damage": null,
@@ -203665,7 +203686,8 @@ const itemsData = {
           "dataId": 28,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #28"
+          "description": "Triggers [[COMMONEVENT:28:ソウル入手10000]]",
+          "commonEventName": "ソウル入手10000"
         }
       ],
       "damage": null,
@@ -203697,7 +203719,8 @@ const itemsData = {
           "dataId": 29,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #29"
+          "description": "Triggers [[COMMONEVENT:29:ソウル入手20000]]",
+          "commonEventName": "ソウル入手20000"
         }
       ],
       "damage": null,
@@ -203801,7 +203824,8 @@ const itemsData = {
           "dataId": 47,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #47"
+          "description": "Triggers [[COMMONEVENT:47:Sendam減らす（少女の写真）]]",
+          "commonEventName": "Sendam減らす（少女の写真）"
         }
       ],
       "damage": null,
@@ -204029,7 +204053,8 @@ const itemsData = {
           "dataId": 3,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #3"
+          "description": "Triggers [[COMMONEVENT:3:帰還の骨粉]]",
+          "commonEventName": "帰還の骨粉"
         }
       ],
       "damage": null,
@@ -204265,7 +204290,8 @@ const itemsData = {
           "dataId": 231,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #231"
+          "description": "Triggers [[COMMONEVENT:231:処方薬]]",
+          "commonEventName": "処方薬"
         }
       ],
       "damage": null,
@@ -204297,7 +204323,8 @@ const itemsData = {
           "dataId": 232,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #232"
+          "description": "Triggers [[COMMONEVENT:232:少女の写真]]",
+          "commonEventName": "少女の写真"
         }
       ],
       "damage": null,
@@ -204329,7 +204356,8 @@ const itemsData = {
           "dataId": 18,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #18"
+          "description": "Triggers [[COMMONEVENT:18:再思トランプ]]",
+          "commonEventName": "再思トランプ"
         }
       ],
       "damage": null,
@@ -204429,7 +204457,8 @@ const itemsData = {
           "dataId": 36,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #36"
+          "description": "Triggers [[COMMONEVENT:36:黒の灰]]",
+          "commonEventName": "黒の灰"
         }
       ],
       "damage": null,
@@ -204484,7 +204513,8 @@ const itemsData = {
           "dataId": 58,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #58"
+          "description": "Triggers [[COMMONEVENT:58:私をお飲み]]",
+          "commonEventName": "私をお飲み"
         }
       ],
       "damage": null,
@@ -204516,7 +204546,8 @@ const itemsData = {
           "dataId": 59,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #59"
+          "description": "Triggers [[COMMONEVENT:59:私をお食べ]]",
+          "commonEventName": "私をお食べ"
         }
       ],
       "damage": null,
@@ -204571,7 +204602,8 @@ const itemsData = {
           "dataId": 215,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #215"
+          "description": "Triggers [[COMMONEVENT:215:ソウル入手250000]]",
+          "commonEventName": "ソウル入手250000"
         }
       ],
       "damage": null,
@@ -204800,7 +204832,8 @@ const itemsData = {
           "dataId": 222,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #222"
+          "description": "Triggers [[COMMONEVENT:222:穢れた黒のソウル]]",
+          "commonEventName": "穢れた黒のソウル"
         }
       ],
       "damage": null,
@@ -204832,7 +204865,8 @@ const itemsData = {
           "dataId": 233,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #233"
+          "description": "Triggers [[COMMONEVENT:233:夢のソウル]]",
+          "commonEventName": "夢のソウル"
         }
       ],
       "damage": null,
@@ -204953,7 +204987,8 @@ const itemsData = {
           "dataId": 220,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #220"
+          "description": "Triggers [[COMMONEVENT:220:外なる者のソウル]]",
+          "commonEventName": "外なる者のソウル"
         }
       ],
       "damage": null,
@@ -204985,7 +205020,8 @@ const itemsData = {
           "dataId": 216,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #216"
+          "description": "Triggers [[COMMONEVENT:216:ソウル入手25000]]",
+          "commonEventName": "ソウル入手25000"
         }
       ],
       "damage": null,
@@ -205017,7 +205053,8 @@ const itemsData = {
           "dataId": 217,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #217"
+          "description": "Triggers [[COMMONEVENT:217:ソウル入手50000]]",
+          "commonEventName": "ソウル入手50000"
         }
       ],
       "damage": null,
@@ -205099,7 +205136,8 @@ const itemsData = {
           "dataId": 234,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #234"
+          "description": "Triggers [[COMMONEVENT:234:Sendam調整]]",
+          "commonEventName": "Sendam調整"
         }
       ],
       "damage": null,
@@ -205274,7 +205312,8 @@ const itemsData = {
           "dataId": 17,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #17"
+          "description": "Triggers [[COMMONEVENT:17:サティロスちんぽ]]",
+          "commonEventName": "サティロスちんぽ"
         }
       ],
       "damage": null,
@@ -205339,7 +205378,8 @@ const itemsData = {
           "dataId": 288,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #288"
+          "description": "Triggers [[COMMONEVENT:288:古王の骨粉]]",
+          "commonEventName": "古王の骨粉"
         }
       ],
       "damage": null,
@@ -205371,7 +205411,8 @@ const itemsData = {
           "dataId": 299,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #299"
+          "description": "Triggers [[COMMONEVENT:299:リスの毛]]",
+          "commonEventName": "リスの毛"
         }
       ],
       "damage": null,
@@ -206928,7 +206969,8 @@ const itemsData = {
           "dataId": 23,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #23"
+          "description": "Triggers [[COMMONEVENT:23:ソウル入手1000]]",
+          "commonEventName": "ソウル入手1000"
         }
       ],
       "damage": null,
@@ -206960,7 +207002,8 @@ const itemsData = {
           "dataId": 24,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #24"
+          "description": "Triggers [[COMMONEVENT:24:ソウル入手2000]]",
+          "commonEventName": "ソウル入手2000"
         }
       ],
       "damage": null,
@@ -206992,7 +207035,8 @@ const itemsData = {
           "dataId": 25,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #25"
+          "description": "Triggers [[COMMONEVENT:25:ソウル入手3000]]",
+          "commonEventName": "ソウル入手3000"
         }
       ],
       "damage": null,
@@ -207024,7 +207068,8 @@ const itemsData = {
           "dataId": 26,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #26"
+          "description": "Triggers [[COMMONEVENT:26:ソウル入手5000]]",
+          "commonEventName": "ソウル入手5000"
         }
       ],
       "damage": null,
@@ -207056,7 +207101,8 @@ const itemsData = {
           "dataId": 26,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #26"
+          "description": "Triggers [[COMMONEVENT:26:ソウル入手5000]]",
+          "commonEventName": "ソウル入手5000"
         }
       ],
       "damage": null,
@@ -207088,7 +207134,8 @@ const itemsData = {
           "dataId": 26,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #26"
+          "description": "Triggers [[COMMONEVENT:26:ソウル入手5000]]",
+          "commonEventName": "ソウル入手5000"
         }
       ],
       "damage": null,
@@ -207120,7 +207167,8 @@ const itemsData = {
           "dataId": 28,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #28"
+          "description": "Triggers [[COMMONEVENT:28:ソウル入手10000]]",
+          "commonEventName": "ソウル入手10000"
         }
       ],
       "damage": null,
@@ -207152,7 +207200,8 @@ const itemsData = {
           "dataId": 27,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #27"
+          "description": "Triggers [[COMMONEVENT:27:ソウル入手8000]]",
+          "commonEventName": "ソウル入手8000"
         }
       ],
       "damage": null,
@@ -207184,7 +207233,8 @@ const itemsData = {
           "dataId": 27,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #27"
+          "description": "Triggers [[COMMONEVENT:27:ソウル入手8000]]",
+          "commonEventName": "ソウル入手8000"
         }
       ],
       "damage": null,
@@ -207216,7 +207266,8 @@ const itemsData = {
           "dataId": 28,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #28"
+          "description": "Triggers [[COMMONEVENT:28:ソウル入手10000]]",
+          "commonEventName": "ソウル入手10000"
         }
       ],
       "damage": null,
@@ -207248,7 +207299,8 @@ const itemsData = {
           "dataId": 25,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #25"
+          "description": "Triggers [[COMMONEVENT:25:ソウル入手3000]]",
+          "commonEventName": "ソウル入手3000"
         }
       ],
       "damage": null,
@@ -207280,7 +207332,8 @@ const itemsData = {
           "dataId": 29,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #29"
+          "description": "Triggers [[COMMONEVENT:29:ソウル入手20000]]",
+          "commonEventName": "ソウル入手20000"
         }
       ],
       "damage": null,
@@ -207312,7 +207365,8 @@ const itemsData = {
           "dataId": 24,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #24"
+          "description": "Triggers [[COMMONEVENT:24:ソウル入手2000]]",
+          "commonEventName": "ソウル入手2000"
         }
       ],
       "damage": null,
@@ -207344,7 +207398,8 @@ const itemsData = {
           "dataId": 24,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #24"
+          "description": "Triggers [[COMMONEVENT:24:ソウル入手2000]]",
+          "commonEventName": "ソウル入手2000"
         }
       ],
       "damage": null,
@@ -207376,7 +207431,8 @@ const itemsData = {
           "dataId": 24,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #24"
+          "description": "Triggers [[COMMONEVENT:24:ソウル入手2000]]",
+          "commonEventName": "ソウル入手2000"
         }
       ],
       "damage": null,
@@ -207408,7 +207464,8 @@ const itemsData = {
           "dataId": 29,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #29"
+          "description": "Triggers [[COMMONEVENT:29:ソウル入手20000]]",
+          "commonEventName": "ソウル入手20000"
         }
       ],
       "damage": null,
@@ -207440,7 +207497,8 @@ const itemsData = {
           "dataId": 29,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #29"
+          "description": "Triggers [[COMMONEVENT:29:ソウル入手20000]]",
+          "commonEventName": "ソウル入手20000"
         }
       ],
       "damage": null,
@@ -207472,7 +207530,8 @@ const itemsData = {
           "dataId": 28,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #28"
+          "description": "Triggers [[COMMONEVENT:28:ソウル入手10000]]",
+          "commonEventName": "ソウル入手10000"
         }
       ],
       "damage": null,
@@ -207504,7 +207563,8 @@ const itemsData = {
           "dataId": 29,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #29"
+          "description": "Triggers [[COMMONEVENT:29:ソウル入手20000]]",
+          "commonEventName": "ソウル入手20000"
         }
       ],
       "damage": null,
@@ -207536,7 +207596,8 @@ const itemsData = {
           "dataId": 29,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #29"
+          "description": "Triggers [[COMMONEVENT:29:ソウル入手20000]]",
+          "commonEventName": "ソウル入手20000"
         }
       ],
       "damage": null,
@@ -207568,7 +207629,8 @@ const itemsData = {
           "dataId": 29,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #29"
+          "description": "Triggers [[COMMONEVENT:29:ソウル入手20000]]",
+          "commonEventName": "ソウル入手20000"
         }
       ],
       "damage": null,
@@ -207600,7 +207662,8 @@ const itemsData = {
           "dataId": 217,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #217"
+          "description": "Triggers [[COMMONEVENT:217:ソウル入手50000]]",
+          "commonEventName": "ソウル入手50000"
         }
       ],
       "damage": null,
@@ -207632,7 +207695,8 @@ const itemsData = {
           "dataId": 216,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #216"
+          "description": "Triggers [[COMMONEVENT:216:ソウル入手25000]]",
+          "commonEventName": "ソウル入手25000"
         }
       ],
       "damage": null,
@@ -207664,7 +207728,8 @@ const itemsData = {
           "dataId": 216,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #216"
+          "description": "Triggers [[COMMONEVENT:216:ソウル入手25000]]",
+          "commonEventName": "ソウル入手25000"
         }
       ],
       "damage": null,
@@ -207696,7 +207761,8 @@ const itemsData = {
           "dataId": 216,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #216"
+          "description": "Triggers [[COMMONEVENT:216:ソウル入手25000]]",
+          "commonEventName": "ソウル入手25000"
         }
       ],
       "damage": null,
@@ -207728,7 +207794,8 @@ const itemsData = {
           "dataId": 216,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #216"
+          "description": "Triggers [[COMMONEVENT:216:ソウル入手25000]]",
+          "commonEventName": "ソウル入手25000"
         }
       ],
       "damage": null,
@@ -207760,7 +207827,8 @@ const itemsData = {
           "dataId": 216,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #216"
+          "description": "Triggers [[COMMONEVENT:216:ソウル入手25000]]",
+          "commonEventName": "ソウル入手25000"
         }
       ],
       "damage": null,
@@ -207792,7 +207860,8 @@ const itemsData = {
           "dataId": 216,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #216"
+          "description": "Triggers [[COMMONEVENT:216:ソウル入手25000]]",
+          "commonEventName": "ソウル入手25000"
         }
       ],
       "damage": null,
@@ -207824,7 +207893,8 @@ const itemsData = {
           "dataId": 216,
           "value1": 0,
           "value2": 0,
-          "description": "Triggers common event #216"
+          "description": "Triggers [[COMMONEVENT:216:ソウル入手25000]]",
+          "commonEventName": "ソウル入手25000"
         }
       ],
       "damage": null,
