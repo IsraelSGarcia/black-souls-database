@@ -1084,7 +1084,13 @@ function updateHelpContent(view) {
                     <li><strong>Cost:</strong> MP required to use the skill</li>
                     <li><strong>Target:</strong> Who is affected (1 Enemy, All Allies, User, etc.)</li>
                     <li><strong>Success Rate:</strong> Base hit chance before evasion is calculated</li>
-                    <li><strong>Hit Type:</strong> Physical Attack, Magical Attack, or Certain Hit</li>
+                    <li><strong>Hit Type:</strong> Determines if the skill can be evaded:
+                        <ul>
+                            <li><strong>Certain Hit:</strong> Cannot be evaded - always hits the target</li>
+                            <li><strong>Physical Attack:</strong> Can be evaded by physical evasion stats</li>
+                            <li><strong>Magical Attack:</strong> Can be evaded by magical evasion stats</li>
+                        </ul>
+                    </li>
                     <li><strong>Repeats:</strong> Number of times the skill hits per use</li>
                     <li><strong>Speed Modifier:</strong> Turn order adjustment (positive = faster, negative = slower)</li>
                     <li><strong>Usable:</strong> Where the skill can be used (Battle Screen, Menu, or Both)</li>
