@@ -79,9 +79,7 @@ function buildNavigationState() {
     
     // Determine the current view
     let currentView = currentSection;
-    if (!currentSection && searchInputEl && searchInputEl.value.trim() !== '') {
-        currentView = 'search'; // Indicate search page
-    } else if (!currentSection) {
+    if (!currentSection) {
         currentView = (sectionsViewEl && sectionsViewEl.classList.contains('hidden')) ? 'games' : 'sections';
     }
     
@@ -279,10 +277,6 @@ function restoreStateFromHistory(state, forceRestore = false) {
         } else if (savedView === 'sections') {
             showSectionsView(savedGame || 'bs2');
             isRestoringState = false; // No async operations for sections view
-        } else if (savedView === 'search') {
-            // Search page no longer exists, redirect to sections view
-            showSectionsView(savedGame || 'bs2');
-            isRestoringState = false;
         } else if (savedView) {
             // Restore section
             showSection(savedView, true); // preserveSearch = true
@@ -292,6 +286,7 @@ function restoreStateFromHistory(state, forceRestore = false) {
                 pendingOperations++;
                 setTimeout(() => {
                     searchInput.value = savedSearchQuery;
+                    updateClearButtonVisibility();
                     // Trigger search with the query
                     if (savedView === 'skills') {
                         searchSkills(savedSearchQuery);
@@ -756,6 +751,7 @@ function navigateToCrossReference(type, id) {
         // Clear search input and reset filtered arrays
         if (searchInput) {
             searchInput.value = '';
+            updateClearButtonVisibility();
         }
         
         // Temporarily set isRestoringState to prevent selectX from pushing
@@ -980,6 +976,7 @@ headerTitle.addEventListener('click', navigateToUpLevel);
 // Make up button navigate to up level
 upButton.addEventListener('click', handleUpButton);
 const searchInput = document.getElementById('search-input');
+const searchClear = document.getElementById('search-clear');
 const resultsList = document.getElementById('results-list');
 const resultsCount = document.getElementById('results-count');
 const detailPanel = document.getElementById('detail-panel');
@@ -1713,6 +1710,7 @@ function showSection(sectionName, preserveSearch = false, skipHistoryPush = fals
         // Clear search and selection (unless preserving search)
         if (!preserveSearch) {
             searchInput.value = '';
+            updateClearButtonVisibility();
             searchSkills(''); // Reset filtered array to show all skills
         }
         selectedSkillId = null;
@@ -1769,6 +1767,7 @@ function showSection(sectionName, preserveSearch = false, skipHistoryPush = fals
         // Clear search and selection (unless preserving search)
         if (!preserveSearch) {
             searchInput.value = '';
+            updateClearButtonVisibility();
             searchStates(''); // Reset filtered array to show all states
         }
         selectedStateId = null;
@@ -1824,6 +1823,7 @@ function showSection(sectionName, preserveSearch = false, skipHistoryPush = fals
         // Clear search and selection (unless preserving search)
         if (!preserveSearch) {
             searchInput.value = '';
+            updateClearButtonVisibility();
             searchWeapons(''); // Reset filtered array to show all weapons
         }
         selectedWeaponId = null;
@@ -1879,6 +1879,7 @@ function showSection(sectionName, preserveSearch = false, skipHistoryPush = fals
         // Clear search and selection (unless preserving search)
         if (!preserveSearch) {
             searchInput.value = '';
+            updateClearButtonVisibility();
             searchArmors(''); // Reset filtered array to show all armors
         }
         selectedArmorId = null;
@@ -1934,6 +1935,7 @@ function showSection(sectionName, preserveSearch = false, skipHistoryPush = fals
         // Clear search and selection (unless preserving search)
         if (!preserveSearch) {
             searchInput.value = '';
+            updateClearButtonVisibility();
             searchEnemies(''); // Reset filtered array to show all enemies
         }
         selectedEnemyId = null;
@@ -1989,6 +1991,7 @@ function showSection(sectionName, preserveSearch = false, skipHistoryPush = fals
         // Clear search and selection (unless preserving search)
         if (!preserveSearch) {
             searchInput.value = '';
+            updateClearButtonVisibility();
             searchItems(''); // Reset filtered array to show all items
         }
         selectedItemId = null;
@@ -2044,6 +2047,7 @@ function showSection(sectionName, preserveSearch = false, skipHistoryPush = fals
         // Clear search and selection (unless preserving search)
         if (!preserveSearch) {
             searchInput.value = '';
+            updateClearButtonVisibility();
             searchElements(''); // Reset filtered array to show all elements
         }
         selectedElementId = null;
@@ -6273,6 +6277,29 @@ function updateResultsCount() {
     }
 }
 
+// Update clear button visibility based on search input value
+function updateClearButtonVisibility() {
+    if (searchClear && searchInput) {
+        if (searchInput.value.trim() !== '') {
+            searchClear.classList.remove('hidden');
+        } else {
+            searchClear.classList.add('hidden');
+        }
+    }
+}
+
+// Clear button click handler
+if (searchClear) {
+    searchClear.addEventListener('click', () => {
+        if (searchInput) {
+            searchInput.value = '';
+            searchInput.focus(); // Keep focus on input after clearing
+            // Trigger input event to update search and clear button visibility
+            searchInput.dispatchEvent(new Event('input', { bubbles: true }));
+        }
+    });
+}
+
 // Event listeners
 // Debounce timer for search input to prevent too many history entries
 let searchDebounceTimer = null;
@@ -6281,6 +6308,9 @@ const SEARCH_DEBOUNCE_MS = 500; // Wait 500ms after user stops typing before upd
 searchInput.addEventListener('input', (e) => {
     const searchValue = e.target.value;
     const isSearchCleared = !searchValue.trim();
+    
+    // Update clear button visibility
+    updateClearButtonVisibility();
     
     // Get currently selected ID before performing search
     const currentSelectedId = getCurrentSelectedId();

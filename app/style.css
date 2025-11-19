@@ -406,9 +406,39 @@ header h1.clickable-title:hover {
     justify-content: center;
 }
 
+.search-clear {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    cursor: pointer;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.2s;
+    border-radius: 4px;
+}
+
+.search-clear:hover {
+    color: var(--text-primary);
+    background: var(--surface-light);
+}
+
+.search-clear:active {
+    transform: translateY(-50%) scale(0.95);
+}
+
+.search-clear.hidden {
+    display: none;
+}
+
 #search-input {
     width: 100%;
-    padding: 11px 16px 11px 48px;
+    padding: 11px 48px 11px 48px;
     background: var(--surface);
     border: 2px solid var(--border);
     border-radius: 12px;
@@ -1369,9 +1399,10 @@ header h1.clickable-title:hover {
         order: 2;
     }
     
-    .search-input {
+    .search-input,
+    #search-input {
         font-size: 16px; /* Prevents zoom on iOS */
-        padding: 14px 16px 14px 44px;
+        padding: 14px 44px 14px 44px;
         min-height: 48px;
     }
     
@@ -1633,8 +1664,9 @@ header h1.clickable-title:hover {
         margin-top: 0;
     }
     
-    .search-input {
-        padding: 12px 14px 12px 40px;
+    .search-input,
+    #search-input {
+        padding: 12px 40px 12px 40px;
         font-size: 16px;
     }
     
