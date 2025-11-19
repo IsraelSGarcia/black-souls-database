@@ -120,13 +120,23 @@ function buildURL(state) {
 }
 
 // Check if state has changed compared to current history state
+// CRITICAL: Compare the URLs that would be generated, not just state properties
+// This ensures the URL always updates when it should, regardless of state property comparisons
 function hasStateChanged(newState) {
     const currentState = history.state;
     if (!currentState) return true;
     
-    // Compare key properties that affect navigation
-    // Note: We don't compare scroll positions because they can change without navigation
-    // We only compare properties that represent actual navigation changes
+    // Compare the URLs that would be generated from each state
+    // This is the definitive check - if the URL would be different, state has changed
+    const currentURL = buildURL(currentState);
+    const newURL = buildURL(newState);
+    
+    if (currentURL !== newURL) {
+        return true;
+    }
+    
+    // Even if URLs are the same, compare key properties to catch edge cases
+    // where URL might be the same but state meaningfully changed
     const viewChanged = currentState.view !== newState.view;
     const gameChanged = currentState.game !== newState.game;
     const selectedIdChanged = currentState.selectedId !== newState.selectedId;
@@ -137,9 +147,6 @@ function hasStateChanged(newState) {
         return true;
     }
     
-    // Even if all properties are the same, if we're navigating via cross-reference
-    // we might want to create a new history entry to preserve the navigation path
-    // But for now, we'll only create entries when something actually changes
     return false;
 }
 
@@ -4821,17 +4828,19 @@ function selectWeapon(weaponId) {
     }
     
     // Update browser history
-    // Use replaceState if state hasn't meaningfully changed to avoid duplicates
-    // Update browser history
+    // CRITICAL: Always push state when selecting a weapon to ensure URL updates immediately
+    // Build state explicitly with the weaponId to ensure it's captured correctly
     if (!isRestoringState) {
-        const newState = buildNavigationState();
-        const currentState = history.state;
-        // If state hasn't changed (same view, game, selectedId, searchQuery), use replaceState
-        if (currentState && !hasStateChanged(newState)) {
-            pushHistoryState(newState, true); // Use replaceState to avoid duplicates
-        } else {
-            pushHistoryState(newState); // Use pushState for actual navigation changes
-        }
+        const searchInputEl = document.getElementById('search-input');
+        const newState = {
+            view: 'weapons',
+            game: currentGame || 'bs2',
+            selectedId: weaponId, // Use weaponId directly instead of getCurrentSelectedId()
+            searchQuery: searchInputEl ? searchInputEl.value : null,
+            resultsListScrollTop: 0,
+            detailPanelScrollTop: 0
+        };
+        pushHistoryState(newState); // Always push (not replace) to ensure URL updates
     }
 }
 
@@ -4984,7 +4993,8 @@ function renderWeaponDetail(weapon) {
         });
     }
     
-    attachEffectOriginalDataHandlers(item._sortedEffects || item.effects);
+    // Note: Weapons don't have effects like items do, so this line was incorrect
+    // Removed: attachEffectOriginalDataHandlers(item._sortedEffects || item.effects);
 }
 
 // Render weapon basic stats
