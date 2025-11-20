@@ -309,6 +309,8 @@ function restoreStateFromHistory(state, forceRestore = false) {
                     } else if (savedView === 'elements') {
                         searchElements(savedSearchQuery);
                         renderElementsResults();
+                    } else if (savedView === 'stats') {
+                        renderStats();
                     }
                     updateResultsCount(); // Update results count after search
                     markOperationComplete();
@@ -476,7 +478,7 @@ function parseURL() {
             // Handle /bs2/section format
             if (parts[0] === 'bs2') {
                 const section = parts[1];
-                if (['skills', 'states', 'weapons', 'armors', 'items', 'enemies', 'elements'].includes(section)) {
+                    if (['skills', 'states', 'weapons', 'armors', 'items', 'enemies', 'elements', 'stats'].includes(section)) {
                     return { view: section, game: 'bs2' };
                 }
             }
@@ -508,14 +510,14 @@ function parseURL() {
         return { view: 'sections', game: 'bs2' };
     } else if (parts.length === 1) {
         const section = parts[0];
-        if (['skills', 'states', 'weapons', 'armors', 'items', 'enemies', 'elements'].includes(section)) {
+        if (['skills', 'states', 'weapons', 'armors', 'items', 'enemies', 'elements', 'stats'].includes(section)) {
             return { view: section, game: 'bs2' };
         }
     } else if (parts.length === 2) {
         // Handle /bs2/section format
         if (parts[0] === 'bs2') {
             const section = parts[1];
-            if (['skills', 'states', 'weapons', 'armors', 'items', 'enemies', 'elements'].includes(section)) {
+            if (['skills', 'states', 'weapons', 'armors', 'items', 'enemies', 'elements', 'stats'].includes(section)) {
                 return { view: section, game: 'bs2' };
             }
         }
@@ -736,6 +738,9 @@ function navigateToCrossReference(type, id) {
             } else if (targetSection === 'elements') {
                 selectElement(parseInt(id));
                 scrollToSelectedItem(targetSection, parseInt(id));
+            } else if (targetSection === 'stats') {
+                // Stats section doesn't have individual items to select
+                scrollToSelectedItem(targetSection, null);
             }
             // Restore isRestoringState
             isRestoringState = wasRestoring;
@@ -880,6 +885,7 @@ function getCurrentSelectedId() {
     if (currentSection === 'items') return selectedItemId;
     if (currentSection === 'enemies') return selectedEnemyId;
     if (currentSection === 'elements') return selectedElementId;
+    if (currentSection === 'stats') return null; // Stats section doesn't have individual items to select
     return null;
 }
 
@@ -896,6 +902,7 @@ function scrollToSelectedItem(section, itemId) {
     else if (section === 'items') selector = `.skill-card[data-item-id="${itemId}"]`;
     else if (section === 'enemies') selector = `.skill-card[data-enemy-id="${itemId}"]`;
     else if (section === 'elements') selector = `.skill-card[data-element-id="${itemId}"]`;
+    else if (section === 'stats') return; // Stats section doesn't have individual items to select
     
     if (selector) {
         // Try multiple times in case the DOM hasn't fully rendered yet
@@ -1038,6 +1045,7 @@ function updateHelpContent(view) {
                             <li><strong>Enemies:</strong> Browse all enemies and monsters. Includes base stats, traits, actions (skills), drops, and rewards.</li>
                             <li><strong>Items:</strong> Browse all consumable items and equipment. Includes effects, usage conditions, damage information, and purchase prices.</li>
                             <li><strong>Elements:</strong> Browse all damage elements and their interactions. Includes skills and items using each element, element rate modifiers, and attack element additions from equipment and states.</li>
+                            <li><strong>Stats:</strong> Complete reference guide for all statistics and parameters. Includes explanations of Standard Parameters, Extended Parameters, and Special Parameters with detailed descriptions of how each stat affects gameplay.</li>
                         </ul>
                     </section>
             
@@ -1562,6 +1570,50 @@ function updateHelpContent(view) {
                 <p>This makes it easy to explore how elements interact with other game mechanics.</p>
             </section>
         `;
+    } else if (view === 'stats') {
+        helpContent.innerHTML = `
+            <section class="help-section">
+                <p class="help-note"><em>Note: This help content adapts to show information relevant to your current location in the database.</em></p>
+            </section>
+            
+            <section class="help-section">
+                <h3>Statistics Guide</h3>
+                <p>The Stats section provides a complete reference for all statistics in Black Souls II, organized into three categories:</p>
+                <ul>
+                    <li><strong>Standard Parameters:</strong> Core combat statistics (Max HP, Attack, Defense, etc.)</li>
+                    <li><strong>Extended Parameters:</strong> Secondary combat statistics (Hit Rate, Evasion, Critical Hits, etc.)</li>
+                    <li><strong>Special Parameters:</strong> Advanced modifiers (Damage Rates, Healing Effectiveness, etc.)</li>
+                </ul>
+            </section>
+            
+            <section class="help-section">
+                <h3>Understanding Statistics</h3>
+                <p>Each statistic includes:</p>
+                <ul>
+                    <li><strong>Parameter ID:</strong> The numeric identifier used internally by the game</li>
+                    <li><strong>Full Name:</strong> The complete name of the statistic</li>
+                    <li><strong>Abbreviation:</strong> The short form commonly used in formulas and displays</li>
+                    <li><strong>Explanation:</strong> A detailed description of what the statistic does and how it affects gameplay</li>
+                </ul>
+            </section>
+            
+            <section class="help-section">
+                <h3>How Statistics Work</h3>
+                <ul>
+                    <li><strong>Base Stats:</strong> Starting values determined by character class and level</li>
+                    <li><strong>Equipment Modifiers:</strong> Bonuses from weapons, armor, and accessories</li>
+                    <li><strong>State Modifiers:</strong> Temporary changes from buffs, debuffs, and status effects</li>
+                    <li><strong>Rate Modifiers:</strong> Multiplicative changes that affect percentages and effectiveness</li>
+                </ul>
+                <p>Most stat modifications stack, allowing for powerful combinations when properly planned.</p>
+            </section>
+            
+            <section class="help-section">
+                <h3>Navigation</h3>
+                <p>Use the up button (↑) in the header to return to the sections menu.</p>
+                <p>This stats reference is read-only and displays all available statistics in a single scrollable view.</p>
+            </section>
+        `;
     }
 }
 
@@ -1696,6 +1748,8 @@ function showSection(sectionName, preserveSearch = false, skipHistoryPush = fals
         mainContent.classList.remove('hidden');
         // CRITICAL: Set display to grid, not just remove hidden class
         mainContent.style.display = 'grid';
+        // Reset grid columns to default (two columns) for non-stats sections
+        mainContent.style.gridTemplateColumns = '';
         
         currentSection = sectionName;
         
@@ -1753,6 +1807,8 @@ function showSection(sectionName, preserveSearch = false, skipHistoryPush = fals
         mainContent.classList.remove('hidden');
         // CRITICAL: Set display to grid, not just remove hidden class
         mainContent.style.display = 'grid';
+        // Reset grid columns to default (two columns) for non-stats sections
+        mainContent.style.gridTemplateColumns = '';
         
         currentSection = sectionName;
         
@@ -1809,6 +1865,8 @@ function showSection(sectionName, preserveSearch = false, skipHistoryPush = fals
         mainContent.classList.remove('hidden');
         // CRITICAL: Set display to grid, not just remove hidden class
         mainContent.style.display = 'grid';
+        // Reset grid columns to default (two columns) for non-stats sections
+        mainContent.style.gridTemplateColumns = '';
         
         currentSection = sectionName;
         
@@ -1865,6 +1923,8 @@ function showSection(sectionName, preserveSearch = false, skipHistoryPush = fals
         mainContent.classList.remove('hidden');
         // CRITICAL: Set display to grid, not just remove hidden class
         mainContent.style.display = 'grid';
+        // Reset grid columns to default (two columns) for non-stats sections
+        mainContent.style.gridTemplateColumns = '';
         
         currentSection = sectionName;
         
@@ -1921,6 +1981,8 @@ function showSection(sectionName, preserveSearch = false, skipHistoryPush = fals
         mainContent.classList.remove('hidden');
         // CRITICAL: Set display to grid, not just remove hidden class
         mainContent.style.display = 'grid';
+        // Reset grid columns to default (two columns) for non-stats sections
+        mainContent.style.gridTemplateColumns = '';
         
         currentSection = sectionName;
         
@@ -1977,6 +2039,8 @@ function showSection(sectionName, preserveSearch = false, skipHistoryPush = fals
         mainContent.classList.remove('hidden');
         // CRITICAL: Set display to grid, not just remove hidden class
         mainContent.style.display = 'grid';
+        // Reset grid columns to default (two columns) for non-stats sections
+        mainContent.style.gridTemplateColumns = '';
         
         currentSection = sectionName;
         
@@ -2033,6 +2097,8 @@ function showSection(sectionName, preserveSearch = false, skipHistoryPush = fals
         mainContent.classList.remove('hidden');
         // CRITICAL: Set display to grid, not just remove hidden class
         mainContent.style.display = 'grid';
+        // Reset grid columns to default (two columns) for non-stats sections
+        mainContent.style.gridTemplateColumns = '';
         
         currentSection = sectionName;
         
@@ -2082,6 +2148,45 @@ function showSection(sectionName, preserveSearch = false, skipHistoryPush = fals
         }
         
         updateHelpContent('elements');
+    } else if (sectionName === 'stats') {
+        gamesView.classList.add('hidden');
+        sectionsView.classList.add('hidden');
+        searchSection.classList.add('hidden');
+        mainContent.classList.remove('hidden');
+        // CRITICAL: Set display to grid, not just remove hidden class
+        mainContent.style.display = 'grid';
+        // Stats section: single column layout for full-width content
+        mainContent.style.gridTemplateColumns = '1fr';
+        
+        currentSection = sectionName;
+        
+        headerTitle.textContent = 'Black Souls II Database - Stats';
+        headerSubtitle.textContent = 'View all statistics and their explanations';
+        headerTitle.classList.add('hidden');
+        headerSubtitle.classList.add('hidden');
+        
+        // For stats, show detail panel full width (no results panel)
+        document.querySelector('.results-panel').style.display = 'none';
+        document.querySelector('.detail-panel').style.display = 'flex';
+        document.querySelector('.detail-panel').classList.remove('mobile-active');
+        
+        // Reset scroll positions
+        if (detailContent) detailContent.scrollTop = 0;
+        
+        // Clear detail panel
+        if (detailContent) {
+            detailContent.innerHTML = '';
+            detailContent.style.display = 'block';
+        }
+        const placeholder = document.querySelector('.detail-placeholder');
+        if (placeholder) {
+            placeholder.style.display = 'none';
+        }
+        
+        // Render stats
+        renderStats();
+        
+        updateHelpContent('stats');
     }
     
     // Update browser history
@@ -2117,7 +2222,8 @@ function handleUpButton() {
         (currentSection === 'armors' && selectedArmorId != null) ||
         (currentSection === 'enemies' && selectedEnemyId != null) ||
         (currentSection === 'items' && selectedItemId != null) ||
-        (currentSection === 'elements' && selectedElementId != null);
+        (currentSection === 'elements' && selectedElementId != null) ||
+        (currentSection === 'stats');
     
     const hasSelection = urlHasSelection || stateHasSelection || varHasSelection;
     
@@ -4790,6 +4896,292 @@ function renderElementsResults() {
     });
 }
 
+// Stats definitions with explanations
+const statsDefinitions = {
+    standard: [
+        { 
+            id: 0, 
+            name: 'Max HP', 
+            abbreviation: 'MHP', 
+            explanation: 'Maximum Hit Points. Determines how much damage a character can take before being incapacitated. Higher values mean more durability in battle.',
+            interactions: '<strong>Calculation:</strong> All modifiers multiply together (equipment, states, buffs). Example: Base 100 × 1.20 (equipment) × 1.25 (buff level 1) = 150 HP.<br><strong>Buffs:</strong> Two-stage system: Level 1 = ×1.25, Level 2 = ×1.50. Re-applying a buff at max level resets duration but doesn\'t increase effect.<br><strong>Usage:</strong> Used directly in formulas like "b.mhp / 2" for revival skills.'
+        },
+        { 
+            id: 1, 
+            name: 'Max MP', 
+            abbreviation: 'MMP', 
+            explanation: 'Maximum Magic Points. Determines how many skills and spells a character can use. Skills consume MP when used, and MP regenerates between battles or with certain effects.',
+            interactions: '<strong>Calculation:</strong> All modifiers multiply together (equipment, states, buffs). Buffs use same two-stage system as HP: Level 1 = ×1.25, Level 2 = ×1.50.'
+        },
+        { 
+            id: 2, 
+            name: 'Attack', 
+            abbreviation: 'ATK', 
+            explanation: 'Physical attack power. Affects damage dealt by physical attacks and skills that use physical damage formulas. Higher attack means more damage dealt to enemies.',
+            interactions: '<strong>Calculation:</strong> All modifiers multiply together (base, equipment, states, buffs). Example: Base 100 × 1.20 (equipment) × 1.25 (buff level 1) = 150 ATK.<br><strong>Buffs:</strong> Two-stage system: Level 1 = ×1.25, Level 2 = ×1.50.<br><strong>In Damage Formulas:</strong> Used as <code>a.atk</code>. Example: "a.atk × 4 - b.def × 2" with 150 ATK → (150 × 4) - (50 × 2) = 500 damage.'
+        },
+        { 
+            id: 3, 
+            name: 'Defense', 
+            abbreviation: 'DEF', 
+            explanation: 'Physical defense. Reduces damage taken from physical attacks. Higher defense means less damage received from enemy physical attacks.',
+            interactions: '<strong>Calculation:</strong> All modifiers multiply together. Used in formulas as <code>b.def</code> to reduce damage: <code>damage = (a.atk × mult) - (b.def × mult)</code>.<br><strong>Example:</strong> Enemy 150 ATK, you 80 DEF, formula "a.atk × 4 - b.def × 2" → (150 × 4) - (80 × 2) = 440 damage.'
+        },
+        { 
+            id: 4, 
+            name: 'Magic Attack', 
+            abbreviation: 'MAT', 
+            explanation: 'Magic attack power. Affects damage dealt by magical skills and spells. Higher magic attack means more damage dealt with magical abilities.',
+            interactions: '<strong>Calculation:</strong> All modifiers multiply together. Used as <code>a.mat</code> in formulas: <code>damage = (a.mat × mult) - (b.mdf × mult)</code> OR <code>damage = a.mat × mult</code> (no defense).<br><strong>Example:</strong> 80 MAT, "a.mat × 5 - b.mdf × 2", 30 MDF → (80 × 5) - (30 × 2) = 340 damage. Pure magic "a.mat × 6" → 480 damage (ignores MDF).'
+        },
+        { 
+            id: 5, 
+            name: 'Magic Defense', 
+            abbreviation: 'MDF', 
+            explanation: 'Magic defense. Reduces damage taken from magical attacks and spells. Higher magic defense means less damage received from enemy magical attacks.',
+            interactions: '<strong>Calculation:</strong> All modifiers multiply together. Used as <code>b.mdf</code> in formulas to reduce magic damage: <code>damage = (a.mat × mult) - (b.mdf × mult)</code>.<br><strong>Example:</strong> Enemy 90 MAT, you 40 MDF, "a.mat × 5 - b.mdf × 2" → (90 × 5) - (40 × 2) = 370 damage.'
+        },
+        { 
+            id: 6, 
+            name: 'Agility', 
+            abbreviation: 'AGI', 
+            explanation: 'Determines turn order and action speed in battle. Characters with higher agility act faster and more frequently. Also affects evasion rates.',
+            interactions: '<strong>Calculation:</strong> All modifiers multiply together.<br><strong>Turn Order:</strong> <code>ActionSpeed = AGI + Random(5 + AGI × 0.25) + skill.speed</code> — Variance scales with AGI itself. Example: AGI 50 has variance range 50-67. Higher AGI means larger variance ranges, requiring bigger AGI gaps to guarantee first strike.<br><strong>Speed Priority:</strong> Skills have speed correction (Guard = +2000) that supersedes AGI. +2000 priority skills act before standard attacks regardless of AGI.'
+        },
+        { 
+            id: 7, 
+            name: 'Luck', 
+            abbreviation: 'LUK', 
+            explanation: 'Affects critical hit rates, evasion, and various random effects. Higher luck increases the chance of favorable outcomes like critical hits and successful dodges.',
+            interactions: '<strong>Calculation:</strong> All modifiers multiply together.<br><strong>State Infliction:</strong> <code>success_rate = base_rate × (100 + attacker_LUK - target_LUK) / 100</code>. Higher LUK increases chance to inflict states/debuffs.<br><strong>Critical Hit Rate:</strong> LUK factors into CRI calculations (engine-dependent).<br><strong>Critical Evasion:</strong> LUK also modifies CEV calculations.<br><strong>Effect:</strong> Higher LUK improves all random event success rates throughout combat.'
+        }
+    ],
+    extended: [
+        { 
+            id: 8, 
+            name: 'Hit Rate', 
+            abbreviation: 'HIT', 
+            explanation: 'The accuracy of physical attacks. Higher hit rate increases the chance of successfully hitting enemies, especially those with high evasion.',
+            interactions: '<strong>Calculation:</strong> All modifiers add together. Example: Base 95 + equipment 5 + state 10 = 110% total.<br><strong>Hit Chance:</strong> <code>P(Hit) = HIT × (1 - EVA)</code> (multiplicative). Example: 100% HIT × (1 - 0.25 EVA) = 75% hit chance. HIT above 100% doesn\'t reduce EVA - extra accuracy is wasted unless suffering from blind effects.<br><strong>Certain Hit:</strong> Skills with hitType = 0 bypass HIT/EVA entirely - always hit.'
+        },
+        { 
+            id: 9, 
+            name: 'Evasion Rate', 
+            abbreviation: 'EVA', 
+            explanation: 'The ability to dodge physical attacks. Higher evasion rate increases the chance of avoiding enemy physical attacks entirely.',
+            interactions: '<strong>Calculation:</strong> All modifiers add together (Base EVA + equipment + state = total EVA).<br><strong>Hit Chance:</strong> <code>P(Hit) = attacker.HIT × (1 - your.EVA)</code> (multiplicative). Example: 100% HIT × (1 - 0.25 EVA) = 75% chance to hit. EVA is an absolute reduction of final hit probability.<br><strong>Note:</strong> Certain Hit (hitType = 0) completely bypasses EVA.'
+        },
+        { 
+            id: 10, 
+            name: 'Critical Hit Rate', 
+            abbreviation: 'CRI', 
+            explanation: 'The chance of landing critical hits with physical attacks. Critical hits deal significantly more damage than normal attacks.',
+            interactions: '<strong>Calculation:</strong> All modifiers add together.<br><strong>Critical Chance:</strong> <code>critical_chance = attacker.CRI - target.CEV</code> (subtractive). Example: 20% CRI - 5% CEV = 15% chance to crit.<br><strong>Critical Damage:</strong> Exactly 3× normal damage: <code>critical_damage = normal_damage × 3</code>. If normal damage is 300, critical = 900.<br><strong>Note:</strong> LUK stat modifies CRI. Critical hits always hit (ignore evasion) but can be prevented by CEV.'
+        },
+        { 
+            id: 11, 
+            name: 'Critical Evasion Rate', 
+            abbreviation: 'CEV', 
+            explanation: 'The ability to avoid critical hits from enemies. Higher critical evasion reduces the chance of enemies landing critical hits on you.',
+            interactions: '<strong>Calculation:</strong> All modifiers add together.<br><strong>Critical Chance:</strong> <code>critical_chance = attacker.CRI - your.CEV</code> (subtractive, cannot go negative). Example: 25% CRI - 10% CEV = 15% chance to be critically hit. If 20% CRI - 25% CEV = 0% chance.<br><strong>Impact:</strong> High CEV prevents 3× damage bursts. If normal hit is 400, crit = 1200. Reducing crit chance from 20% to 5% saves significant damage.<br><strong>Note:</strong> LUK modifies CEV.'
+        },
+        { 
+            id: 12, 
+            name: 'Magic Evasion Rate', 
+            abbreviation: 'MEV', 
+            explanation: 'The ability to dodge magical attacks and spells. Higher magic evasion increases the chance of avoiding enemy magical attacks entirely.',
+            interactions: '<strong>Calculation:</strong> All modifiers add together.<br><strong>Magic Hit Chance:</strong> <code>magic_hit_chance = magic_base_hit - your.MEV</code> (subtractive, typically uses skill successRate or default 100% minus MEV). Example: 100% base hit - 20% MEV = 80% chance to hit.<br><strong>Hit Types:</strong> hitType = 2 (Magical) checks MEV. hitType = 0 (Certain Hit) bypasses MEV.'
+        },
+        { 
+            id: 13, 
+            name: 'Magic Reflection Rate', 
+            abbreviation: 'MRF', 
+            explanation: 'The chance of reflecting magical attacks back at the attacker. When triggered, the spell is redirected to the caster instead of affecting the target.',
+            interactions: '<strong>Calculation:</strong> All modifiers add together. Example: Equipment 15% + state 15% = 30% total.<br><strong>Reflection Check:</strong> Happens before damage: if <code>random() < MRF</code> (as percentage), spell reflects.<br><strong>When Reflected:</strong> Original target takes no damage, spell applies to caster with same values, caster can still evade/block the reflected spell.<br><strong>Note:</strong> Only affects magical attacks (hitType = 2).'
+        },
+        { 
+            id: 14, 
+            name: 'Counterattack Rate', 
+            abbreviation: 'CNT', 
+            explanation: 'The chance of counterattacking after being hit by a physical attack. Counterattacks allow you to strike back immediately after being attacked.',
+            interactions: '<strong>Calculation:</strong> All modifiers add together. Example: Equipment 10% + state 15% = 25% total.<br><strong>Trigger:</strong> Check happens after taking physical damage: if <code>random() < CNT</code> (percentage), counterattack triggers.<br><strong>Counterattack Formula:</strong> Uses your normal physical attack: <code>counter_damage = (your.ATK × 4) - (attacker.DEF × 2)</code> (subtractive).<br><strong>Note:</strong> Counterattacks are separate actions that occur immediately. Only triggers on physical attacks (hitType = 1).'
+        },
+        { 
+            id: 15, 
+            name: 'HP Regeneration Rate', 
+            abbreviation: 'HRG', 
+            explanation: 'The rate at which HP regenerates per turn. Higher values mean more HP recovered automatically each turn in battle.',
+            interactions: '<strong>Calculation:</strong> All modifiers add together. Example: Equipment HRG 5% + state HRG 8% = 13% total.<br><strong>Important:</strong> HRG is percentage-based: <code>HP_gained_per_turn = MaxHP × (HRG_total / 100)</code>. HRG = 5% means 5% of Max HP per turn (multiplicative with Max HP). Negative HRG acts as poison damage.<br><strong>Timing:</strong> Regeneration happens at turn end. Slip damage is subject to variance.'
+        },
+        { 
+            id: 16, 
+            name: 'MP Regeneration Rate', 
+            abbreviation: 'MRG', 
+            explanation: 'The rate at which MP regenerates per turn. Higher values mean more MP recovered automatically each turn, allowing for more skill usage.',
+            interactions: '<strong>Calculation:</strong> All modifiers add together. Example: Equipment MRG 5% + state MRG 6% = 11% total.<br><strong>Important:</strong> MRG is percentage-based: <code>MP_gained_per_turn = MaxMP × (MRG_total / 100)</code>. MRG = 5% means 5% of Max MP per turn (multiplicative with Max MP).<br><strong>Timing:</strong> Regeneration happens at turn end.'
+        }
+    ],
+    special: [
+        { 
+            id: 18, 
+            name: 'Target Rate', 
+            abbreviation: 'TGR', 
+            explanation: 'Determines how likely this character is to be targeted by enemies. Higher target rate means enemies are more likely to attack this character over others.',
+            interactions: '<strong>Calculation:</strong> All modifiers multiply together. Example: Base 1.0 (100%) × 1.50 equipment = 1.50 (150%).<br><strong>AI Target Selection:</strong> <code>target_weight = base_weight × TGR</code>. Higher TGR = higher weight in AI calculations. Example: Character A has TGR 1.50, Character B has TGR 0.50 → A is 3× more likely to be targeted.<br><strong>Values:</strong> Above 1.0 increases priority, below 1.0 decreases it.'
+        },
+        { 
+            id: 19, 
+            name: 'Guard Effectiveness', 
+            abbreviation: 'GRD', 
+            explanation: 'Increases the effectiveness of the guard command. Higher guard effectiveness reduces more damage when guarding, making it a more viable defensive option.',
+            interactions: '<strong>Calculation:</strong> All modifiers multiply together.<br><strong>Base Guard:</strong> Reduces damage by 50%: <code>guarded_damage = damage × 0.50</code>.<br><strong>GRD Formula:</strong> <code>final_reduction = 0.50 × GRD</code>. Examples: GRD 1.50 → damage × 0.75 (take 25% damage, 75% reduction). GRD 0.80 → damage × 0.40 (take 40% damage, 60% reduction).<br><strong>Order:</strong> GRD multiplies the base 50% guard reduction.'
+        },
+        { 
+            id: 20, 
+            name: 'Recovery Effectiveness', 
+            abbreviation: 'REC', 
+            explanation: 'Increases the effectiveness of healing and recovery skills. When receiving healing, the amount healed is multiplied by this rate, allowing for more efficient healing.',
+            interactions: '<strong>Calculation:</strong> All modifiers multiply together.<br><strong>Formula:</strong> <code>final_heal = base_heal × REC</code> - applied to ALL healing (skills, items, regeneration, drain effects).<br><strong>Example:</strong> Skill heals 100 HP × REC 1.30 = 130 HP. 100 HP × REC 0.70 = 70 HP.'
+        },
+        { 
+            id: 21, 
+            name: 'Pharmacology', 
+            abbreviation: 'PHA', 
+            explanation: 'Increases the effectiveness of items used in battle. Items heal or restore more when used by characters with higher pharmacology.',
+            interactions: '<strong>Calculation:</strong> All modifiers multiply together.<br><strong>Formula:</strong> <code>item_effect = base_effect × PHA</code>.<br><strong>Important:</strong> ONLY affects items (Effect Code 11/12 from items), NOT skills.<br><strong>Example:</strong> Potion heals 50 HP × PHA 1.25 = 62.5 HP. 50 HP × PHA 0.80 = 40 HP.<br><strong>Order:</strong> PHA multiplies BEFORE REC. If item heals 50 HP: 50 × PHA 1.25 = 62.5, then 62.5 × REC 1.30 = 81.25 final.'
+        },
+        { 
+            id: 22, 
+            name: 'MP Cost Rate', 
+            abbreviation: 'MCR', 
+            explanation: 'Modifies the MP cost of skills. Values below 100% reduce MP costs, while values above 100% increase them. Lower values allow for more skill usage.',
+            interactions: '<strong>Calculation:</strong> All modifiers multiply together.<br><strong>Formula:</strong> <code>effective_MP_cost = base_MP_cost × MCR</code>. Example: 20 MP × MCR 0.80 = 16 MP. 20 MP × MCR 1.20 = 24 MP.<br><strong>Note:</strong> Applied to ALL skills.'
+        },
+        { 
+            id: 24, 
+            name: 'Physical Damage Rate', 
+            abbreviation: 'PDR', 
+            explanation: 'Modifies all physical damage taken. Values below 100% reduce physical damage taken, while values above 100% increase it. Useful for survivability.',
+            interactions: '<strong>Calculation:</strong> All modifiers multiply together.<br><strong>Application:</strong> Applied AFTER damage calculation: <code>final_damage = damage × PDR</code>. Example: After DEF = 400 damage, 400 × PDR 0.75 = 300. 400 × PDR 1.20 = 480 (take 20% more).<br><strong>Note:</strong> This is FINAL modifier - affects all physical damage from all sources (skills, normal attacks, counters).'
+        },
+        { 
+            id: 25, 
+            name: 'Magical Damage Rate', 
+            abbreviation: 'MDR', 
+            explanation: 'Modifies all magical damage taken. Values below 100% reduce magical damage taken, while values above 100% increase it. Helps resist enemy spells.',
+            interactions: '<strong>Calculation:</strong> All modifiers multiply together.<br><strong>Application:</strong> Applied AFTER magic damage calculation: <code>final = damage × MDR</code>. Example: After MDF = 350 damage, 350 × MDR 0.70 = 245. 350 × MDR 1.30 = 455 (take 30% more).<br><strong>Note:</strong> FINAL modifier - affects ALL magical damage (spells, skills with hitType = 2, magic counters).'
+        },
+        { 
+            id: 26, 
+            name: 'Floor Damage Rate', 
+            abbreviation: 'FDR', 
+            explanation: 'Modifies damage taken from environmental hazards like poison floors or traps. Lower values reduce damage from map hazards.',
+            interactions: '<strong>Calculation:</strong> All modifiers multiply together.<br><strong>Formula:</strong> <code>final_floor_damage = base_floor_damage × FDR</code>. Example: Floor deals 50/turn, 50 × FDR 0.60 = 30/turn. 50 × FDR 1.50 = 75/turn.<br><strong>Important:</strong> ONLY affects environmental/trap damage (poison floors, spikes, etc.), NOT combat damage from enemies.<br><strong>Timing:</strong> Applied per step/turn on hazardous terrain.'
+        },
+        { 
+            id: 27, 
+            name: 'Experience Rate', 
+            abbreviation: 'EXR', 
+            explanation: 'Modifies experience points gained after battle. Values above 100% increase EXP gained, making leveling faster. Values below 100% reduce EXP gained.',
+            interactions: '<strong>Calculation:</strong> All modifiers multiply together.<br><strong>Formula:</strong> <code>final_EXP = base_EXP × EXR</code>. Example: Battle gives 100 EXP × EXR 1.50 = 150 EXP. 100 EXP × EXR 0.75 = 75 EXP.<br><strong>Timing:</strong> Applied after battle completion to total EXP gained.<br><strong>Scope:</strong> If EXR comes from equipment/state, it affects the entire party\'s EXP gain.'
+        }
+    ]
+};
+
+// Render stats section
+function renderStats() {
+    if (!detailContent) return;
+    
+    let html = `
+        <div class="detail-header">
+            <h1>Statistics & Explanations</h1>
+            <p class="detail-subtitle">Complete guide to all statistics in Black Souls II</p>
+        </div>
+        
+        <div class="detail-section">
+            <h2>Standard Parameters</h2>
+            <p class="detail-description">Core statistics that form the foundation of a character's combat capabilities. These are the primary stats visible in the status menu and affected by level-ups and equipment.</p>
+            <div class="stats-list">
+    `;
+    
+    statsDefinitions.standard.forEach(stat => {
+        html += `
+            <div class="stat-item">
+                <div class="stat-header">
+                    <span class="stat-id">#${stat.id}</span>
+                    <h3 class="stat-name">${stat.name} <span class="stat-abbrev">(${stat.abbreviation})</span></h3>
+                </div>
+                <p class="stat-explanation">${stat.explanation}</p>
+                ${stat.interactions ? `<div class="stat-interactions"><strong>How it works:</strong> ${stat.interactions}</div>` : ''}
+            </div>
+        `;
+    });
+    
+    html += `
+            </div>
+        </div>
+        
+        <div class="detail-section">
+            <h2>Extended Parameters</h2>
+            <p class="detail-description">Secondary combat statistics that affect hit rates, evasion, critical hits, and regeneration. These parameters fine-tune combat effectiveness beyond the core stats.</p>
+            <div class="stats-list">
+    `;
+    
+    statsDefinitions.extended.forEach(stat => {
+        html += `
+            <div class="stat-item">
+                <div class="stat-header">
+                    <span class="stat-id">#${stat.id}</span>
+                    <h3 class="stat-name">${stat.name} <span class="stat-abbrev">(${stat.abbreviation})</span></h3>
+                </div>
+                <p class="stat-explanation">${stat.explanation}</p>
+                ${stat.interactions ? `<div class="stat-interactions"><strong>How it works:</strong> ${stat.interactions}</div>` : ''}
+            </div>
+        `;
+    });
+    
+    html += `
+            </div>
+        </div>
+        
+        <div class="detail-section">
+            <h2>Special Parameters</h2>
+            <p class="detail-description">Advanced statistics that modify damage rates, healing effectiveness, targeting, and experience gain. These parameters provide fine-grained control over combat mechanics and progression.</p>
+            <div class="stats-list">
+    `;
+    
+    statsDefinitions.special.forEach(stat => {
+        html += `
+            <div class="stat-item">
+                <div class="stat-header">
+                    <span class="stat-id">#${stat.id}</span>
+                    <h3 class="stat-name">${stat.name} <span class="stat-abbrev">(${stat.abbreviation})</span></h3>
+                </div>
+                <p class="stat-explanation">${stat.explanation}</p>
+                ${stat.interactions ? `<div class="stat-interactions"><strong>How it works:</strong> ${stat.interactions}</div>` : ''}
+            </div>
+        `;
+    });
+    
+    html += `
+            </div>
+        </div>
+        
+        <div class="detail-section">
+            <h2>Notes</h2>
+            <ul class="detail-list">
+                <li>Parameter ID 17 (TP Regeneration Rate) and Parameter ID 23 (TP Charge Rate) are not used in this database as TP (Technical Points) has been removed from the game system.</li>
+                <li>All stat modifications from equipment, states, and skills stack additively or multiplicatively depending on the parameter type (Standard/Special = multiplicative, Extended = additive).</li>
+                <li>Rate-based parameters (like Element Rate, Physical Damage Rate) use percentage values where 100% is normal, 200% is double, and 50% is half.</li>
+                <li>Some stats are primarily modified through equipment and states rather than character level-ups.</li>
+                <li>In damage formulas, <code>a.</code> refers to the attacker's stats and <code>b.</code> refers to the target's stats.</li>
+            </ul>
+        </div>
+    `;
+    
+    detailContent.innerHTML = html;
+}
+
 // Select and display weapon details
 function selectWeapon(weaponId) {
     selectedWeaponId = weaponId;
@@ -6349,6 +6741,9 @@ searchInput.addEventListener('input', (e) => {
     } else if (currentSection === 'elements') {
         searchElements(searchValue);
         renderElementsResults();
+    } else if (currentSection === 'stats') {
+        // Stats section doesn't have search - always render all stats
+        renderStats();
     }
     updateResultsCount();
     

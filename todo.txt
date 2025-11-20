@@ -5,3 +5,5 @@
 - Implement status
 
 - Differentiate multiplication and summation
+
+- Change hit type certain hit to unavoidable

@@ -1983,23 +1983,29 @@ function processTraits(traits, statesData, skillsData = null, elements = null) {
         // NOTE: Only generate descriptions for codes with documented sources
         // All codes are currently marked as "Unknown" until sources are documented
         if (trait.code === 11) { // Element Rate
+            // Element Rate is multiplicative (multiplies damage)
             if (elements && trait.dataId >= 0 && trait.dataId < elements.length) {
                 const elementName = elements[trait.dataId] || `Element ${trait.dataId}`;
                 const rate = trait.value;
-                const ratePercent = Math.round(rate * 100);
+                // Format as multiplier: value 2.0 = ×2.00, value 0.5 = ×0.50
+                const multiplier = rate.toFixed(2);
                 // Create cross-reference to element: [[ELEMENT:ID:NAME]]
                 const elementRef = `[[ELEMENT:${trait.dataId}:${elementName}]]`;
-                traitInfo.description = `${elementRef} damage rate: ${ratePercent}%`;
+                traitInfo.description = `${elementRef} damage rate: ×${multiplier}`;
             } else {
-                traitInfo.description = `Element Rate (element ${trait.dataId || '?'}, rate ${trait.value || '?'})`;
+                const multiplier = trait.value ? trait.value.toFixed(2) : '?';
+                traitInfo.description = `Element Rate (element ${trait.dataId || '?'}, rate ×${multiplier})`;
             }
         } else if (trait.code === 12) { // Debuff Rate
+            // Debuff Rate is multiplicative (multiplies debuff probability)
             // dataId: parameter ID (0-7: standard parameters)
             const paramName = parameterNames[trait.dataId] || `Parameter ${trait.dataId}`;
             const rate = trait.value;
-            const ratePercent = Math.round(rate * 100);
-            traitInfo.description = `${paramName} debuff rate: ${ratePercent}%`;
+            // Format as multiplier: value 2.0 = ×2.00, value 0.5 = ×0.50
+            const multiplier = rate.toFixed(2);
+            traitInfo.description = `${paramName} debuff rate: ×${multiplier}`;
         } else if (trait.code === 13) { // State Rate
+            // State Rate is multiplicative (multiplies state probability)
             const state = statesData.find(s => s && s.id === trait.dataId);
             // Use state name if available, otherwise use "State #X" as fallback
             const stateName = state?.name && state.name.trim() !== '' 
@@ -2007,8 +2013,10 @@ function processTraits(traits, statesData, skillsData = null, elements = null) {
                 : `State #${trait.dataId}`;
             // Insert cross-reference marker directly
             const stateRef = `[[STATE:${trait.dataId}:${stateName}]]`;
-            const ratePercent = Math.round(trait.value * 100);
-            traitInfo.description = `${stateRef} rate: ${ratePercent}%`;
+            const rate = trait.value;
+            // Format as multiplier: value 2.0 = ×2.00, value 0.5 = ×0.50
+            const multiplier = rate.toFixed(2);
+            traitInfo.description = `${stateRef} rate: ×${multiplier}`;
         } else if (trait.code === 14) { // State Resist
             // FIXED: dataId is a state ID, not a parameter ID
             // Note: According to RPG Maker VX Ace documentation, the presence of this trait implies 100% resistance
@@ -2021,12 +2029,12 @@ function processTraits(traits, statesData, skillsData = null, elements = null) {
             const stateRef = `[[STATE:${trait.dataId}:${stateName}]]`;
             traitInfo.description = `Immune to ${stateRef}`;
         } else if (trait.code === 21) { // Parameter
+            // Parameter traits are multiplicative (Standard Parameters)
             // Get parameter name (0-7: standard parameters)
             let paramName = parameterNames[trait.dataId] || `Parameter ${trait.dataId}`;
-            const percent = Math.round((trait.value - 1) * 100);
-            traitInfo.description = percent >= 0 
-                ? `${paramName} +${percent}%`
-                : `${paramName} ${percent}%`;
+            // Format as multiplier: value 2.0 = ×2.00, value 1.5 = ×1.50
+            const multiplier = trait.value.toFixed(2);
+            traitInfo.description = `${paramName} ×${multiplier}`;
         } else if (trait.code === 22) { // Ex-Parameter
             // Ex-Parameter: dataId is array index (0-9), maps to parameter IDs 8-16
             // SOURCE: editor-screenshot (200544.png) - parameter IDs are 8-16
@@ -2054,6 +2062,7 @@ function processTraits(traits, statesData, skillsData = null, elements = null) {
                 traitInfo.description = `Ex-Parameter ${trait.dataId} ${percent >= 0 ? '+' : ''}${percent}%`;
             }
         } else if (trait.code === 23) { // Sp-Parameter
+            // Sp-Parameter traits are multiplicative (Special Parameters)
             // Sp-Parameter: dataId is array index (0-9), maps to parameter IDs 18-27
             // SOURCE: editor-screenshot (200552.png) - parameter IDs are 18-27
             // The game data uses 0-based indices, so we map: index 0 → param 18, index 1 → param 19, etc.
@@ -2070,15 +2079,13 @@ function processTraits(traits, statesData, skillsData = null, elements = null) {
                 9: "Experience Rate"         // Parameter ID 27
             };
             const spParamName = spParamIndexToName[trait.dataId];
+            // Format as multiplier: value 2.0 = ×2.00, value 1.5 = ×1.50
+            const multiplier = trait.value.toFixed(2);
             if (spParamName) {
-                const percent = Math.round((trait.value - 1) * 100);
-                traitInfo.description = percent >= 0 
-                    ? `${spParamName} +${percent}%`
-                    : `${spParamName} ${percent}%`;
+                traitInfo.description = `${spParamName} ×${multiplier}`;
             } else {
                 // Unknown index - show both index and value
-                const percent = Math.round((trait.value - 1) * 100);
-                traitInfo.description = `Sp-Parameter ${trait.dataId} ${percent >= 0 ? '+' : ''}${percent}%`;
+                traitInfo.description = `Sp-Parameter ${trait.dataId} ×${multiplier}`;
             }
         } else if (trait.code === 31) { // Attack Element
             // dataId: element ID, value: not used by engine
@@ -2101,12 +2108,12 @@ function processTraits(traits, statesData, skillsData = null, elements = null) {
             const chance = Math.round(trait.value * 100);
             traitInfo.description = `${chance}% chance to inflict ${stateRef}`;
         } else if (trait.code === 33) { // Attack Speed
-            // dataId: typically 0, value: speed modifier
-            const speedMod = trait.value;
-            const percent = Math.round((speedMod - 1) * 100);
-            traitInfo.description = percent >= 0 
-                ? `Attack speed +${percent}%`
-                : `Attack speed ${percent}%`;
+            // Attack Speed is additive (flat addition to speed)
+            // dataId: typically 0, value: flat speed addition (integer)
+            const speedAdd = Math.round(trait.value);
+            traitInfo.description = speedAdd >= 0 
+                ? `Attack speed +${speedAdd}`
+                : `Attack speed ${speedAdd}`;
         } else if (trait.code === 34) { // Attack Times+
             // dataId: typically 0, value: number of additional attacks
             const additionalAttacks = trait.value;
@@ -2177,12 +2184,12 @@ function processTraits(traits, statesData, skillsData = null, elements = null) {
             const slotType = equipTypes[trait.dataId] || `Slot Type ${trait.dataId}`;
             traitInfo.description = `Slot Type: ${slotType}`;
         } else if (trait.code === 61) { // Action Times+
-            // dataId: typically 0, value: action count modifier (e.g., 2.0 = double actions)
-            const actionMod = trait.value;
-            const percent = Math.round((actionMod - 1) * 100);
-            traitInfo.description = percent >= 0 
-                ? `Action count +${percent}% (${actionMod}x)`
-                : `Action count ${percent}% (${actionMod}x)`;
+            // Action Times+ is additive: actions_per_turn = 1 + value
+            // dataId: typically 0, value: flat addition to action count (e.g., 1.0 = +1 action, 2.0 = +2 actions)
+            const actionAdd = Math.round(trait.value);
+            traitInfo.description = actionAdd >= 0 
+                ? `Action count +${actionAdd}`
+                : `Action count ${actionAdd}`;
         } else if (trait.code === 62) { // Special Flag
             // dataId: special flag ID, value: typically 1
             // Common flags: 0 = Auto Battle, 1 = Guard, 2 = Substitute, 3 = Preserve TP, 4 = Add State Type
@@ -2788,14 +2795,44 @@ const processedItems = itemsData
                 effectInfo.parameter = paramName;
                 effectInfo.amount = amount;
                 effectInfo.description = `${action} ${paramName} permanently by ${Math.abs(amount)}`;
-            } else if (effect.code === 11) {
-                // HP Recover
+            } else if (effect.code === 11) { // Recover HP (can be negative for drain)
                 const percent = Math.round(effect.value1 * 100);
-                effectInfo.description = `Recovers ${percent}% HP`;
-            } else if (effect.code === 12) {
-                // MP Recover
+                const flat = Math.round(effect.value2);
+                effectInfo.percent = percent;
+                effectInfo.flat = flat;
+                
+                // Determine if this is recovery or drain
+                const isRecovery = percent > 0 || flat > 0;
+                const action = isRecovery ? "Recover" : "Drain";
+                const absPercent = Math.abs(percent);
+                const absFlat = Math.abs(flat);
+                
+                if (absPercent > 0 && absFlat > 0) {
+                    effectInfo.description = `${action} ${absPercent}% + ${absFlat} HP`;
+                } else if (absPercent > 0) {
+                    effectInfo.description = `${action} ${absPercent}% HP`;
+                } else if (absFlat > 0) {
+                    effectInfo.description = `${action} ${absFlat} HP`;
+                }
+            } else if (effect.code === 12) { // Recover MP (can be negative for drain)
                 const percent = Math.round(effect.value1 * 100);
-                effectInfo.description = `Recovers ${percent}% MP`;
+                const flat = Math.round(effect.value2);
+                effectInfo.percent = percent;
+                effectInfo.flat = flat;
+                
+                // Determine if this is recovery or drain
+                const isRecovery = percent > 0 || flat > 0;
+                const action = isRecovery ? "Recover" : "Drain";
+                const absPercent = Math.abs(percent);
+                const absFlat = Math.abs(flat);
+                
+                if (absPercent > 0 && absFlat > 0) {
+                    effectInfo.description = `${action} ${absPercent}% + ${absFlat} MP`;
+                } else if (absPercent > 0) {
+                    effectInfo.description = `${action} ${absPercent}% MP`;
+                } else if (absFlat > 0) {
+                    effectInfo.description = `${action} ${absFlat} MP`;
+                }
             } else if (effect.code === 41) {
                 effectInfo.description = specialEffectDescriptions[effect.dataId] || "Special Effect";
             } else if (effect.code === 43) {
@@ -2955,16 +2992,17 @@ function processElements(systemData, processedSkills, processedItems, processedW
                 trait.code === 11 && trait.dataId === index
             );
             elementRateTraits.forEach(trait => {
-                const ratePercent = Math.round(trait.value * 100);
+                const rate = trait.value;
+                const multiplier = rate.toFixed(2);
                 // Use plain element name instead of cross-reference (avoid self-reference)
                 elementRateModifiers.push({
                     sourceType: 'weapon',
                     sourceId: weapon.id,
                     sourceName: weapon.name,
                     reference: `[[WEAPON:${weapon.id}:${weapon.name}]]`,
-                    rate: trait.value,
-                    ratePercent: ratePercent,
-                    description: `${englishName} damage rate: ${ratePercent}%`
+                    rate: rate,
+                    ratePercent: Math.round(rate * 100),
+                    description: `${englishName} damage rate: ×${multiplier}`
                 });
             });
         });
@@ -2975,16 +3013,17 @@ function processElements(systemData, processedSkills, processedItems, processedW
                 trait.code === 11 && trait.dataId === index
             );
             elementRateTraits.forEach(trait => {
-                const ratePercent = Math.round(trait.value * 100);
+                const rate = trait.value;
+                const multiplier = rate.toFixed(2);
                 // Use plain element name instead of cross-reference (avoid self-reference)
                 elementRateModifiers.push({
                     sourceType: 'armor',
                     sourceId: armor.id,
                     sourceName: armor.name,
                     reference: `[[ARMOR:${armor.id}:${armor.name}]]`,
-                    rate: trait.value,
-                    ratePercent: ratePercent,
-                    description: `${englishName} damage rate: ${ratePercent}%`
+                    rate: rate,
+                    ratePercent: Math.round(rate * 100),
+                    description: `${englishName} damage rate: ×${multiplier}`
                 });
             });
         });
@@ -2995,16 +3034,17 @@ function processElements(systemData, processedSkills, processedItems, processedW
                 trait.code === 11 && trait.dataId === index
             );
             elementRateTraits.forEach(trait => {
-                const ratePercent = Math.round(trait.value * 100);
+                const rate = trait.value;
+                const multiplier = rate.toFixed(2);
                 // Use plain element name instead of cross-reference (avoid self-reference)
                 elementRateModifiers.push({
                     sourceType: 'state',
                     sourceId: state.id,
                     sourceName: state.name,
                     reference: `[[STATE:${state.id}:${state.name}]]`,
-                    rate: trait.value,
-                    ratePercent: ratePercent,
-                    description: `${englishName} damage rate: ${ratePercent}%`
+                    rate: rate,
+                    ratePercent: Math.round(rate * 100),
+                    description: `${englishName} damage rate: ×${multiplier}`
                 });
             });
         });
@@ -3015,16 +3055,17 @@ function processElements(systemData, processedSkills, processedItems, processedW
                 trait.code === 11 && trait.dataId === index
             );
             elementRateTraits.forEach(trait => {
-                const ratePercent = Math.round(trait.value * 100);
+                const rate = trait.value;
+                const multiplier = rate.toFixed(2);
                 // Use plain element name instead of cross-reference (avoid self-reference)
                 elementRateModifiers.push({
                     sourceType: 'enemy',
                     sourceId: enemy.id,
                     sourceName: enemy.name,
                     reference: `[[ENEMY:${enemy.id}:${enemy.name}]]`,
-                    rate: trait.value,
-                    ratePercent: ratePercent,
-                    description: `${englishName} damage rate: ${ratePercent}%`
+                    rate: rate,
+                    ratePercent: Math.round(rate * 100),
+                    description: `${englishName} damage rate: ×${multiplier}`
                 });
             });
         });

@@ -654,6 +654,13 @@ header h1.clickable-title:hover {
     display: flex;
     flex-direction: column;
     min-height: 0;
+    max-width: 100%;
+}
+
+.detail-content {
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .detail-panel::-webkit-scrollbar {
@@ -863,6 +870,89 @@ header h1.clickable-title:hover {
     border: 1px solid var(--border);
     border-radius: 8px;
     padding: 12px;
+    margin-bottom: 12px;
+}
+
+.stat-item:last-child {
+    margin-bottom: 0;
+}
+
+.stat-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.stat-id {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    background: var(--surface);
+    padding: 4px 8px;
+    border-radius: 4px;
+    min-width: 40px;
+    text-align: center;
+}
+
+.stat-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0;
+}
+
+.stat-abbrev {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--text-secondary);
+}
+
+.stat-explanation {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.stat-interactions {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid var(--border);
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.8;
+}
+
+.stat-interactions strong {
+    color: var(--primary-light);
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.stat-interactions strong:first-child {
+    margin-top: 0;
+}
+
+.stat-interactions code {
+    background: var(--background);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.85em;
+    color: var(--text-primary);
+    border: 1px solid var(--border);
+    word-break: break-all;
+    overflow-wrap: break-word;
+    max-width: 100%;
+    display: inline-block;
+}
+
+.stats-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 .stat-label {
@@ -875,6 +965,28 @@ header h1.clickable-title:hover {
     font-size: 1.1rem;
     font-weight: 600;
     color: var(--text-primary);
+}
+
+/* Calculation examples in stats section */
+.calculation-example {
+    background: var(--background);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px;
+    margin: 8px 0;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.calculation-example > div {
+    margin: 4px 0;
+}
+
+.calculation-example > div:last-child {
+    margin-top: 8px;
+    font-weight: 600;
+    color: var(--primary-light);
 }
 
 /* Effect Items */
