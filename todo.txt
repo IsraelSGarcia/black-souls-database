@@ -2,8 +2,16 @@
 
 - Update element Physical icon
 
-- Implement status
-
-- Differentiate multiplication and summation
-
 - Change hit type certain hit to unavoidable
+
+- Update section icons
+
+- Bug: page not updating correctly. When in Guarding Angel for example and click on Rage, the URL doesn't change.
+
+- Bug: Armor equipment slot seems to be all wrong.
+
+- MSP seems to be used for Maximum MP.
+
+- Should this be multiplying? Genuine question.
+
+"50% chance to inflict Fear"

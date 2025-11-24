@@ -5175,6 +5175,7 @@ function renderStats() {
                 <li>Rate-based parameters (like Element Rate, Physical Damage Rate) use percentage values where 100% is normal, 200% is double, and 50% is half.</li>
                 <li>Some stats are primarily modified through equipment and states rather than character level-ups.</li>
                 <li>In damage formulas, <code>a.</code> refers to the attacker's stats and <code>b.</code> refers to the target's stats.</li>
+                <li><strong>State Application Chances:</strong> When multiple sources provide chances to inflict the same state (e.g., a skill with "50% chance to inflict Fear" and equipment with "50% chance to inflict Fear"), each source is checked <strong>independently</strong>. The overall probability is calculated as: <code>1 - (1 - chance₁) × (1 - chance₂) × ...</code>. Example: Two 50% chances = 1 - (0.5 × 0.5) = 75% overall chance. This is <strong>not</strong> additive (50% + 50% ≠ 100%) or multiplicative (50% × 1.5 ≠ 75%), but rather independent probability checks.</li>
             </ul>
         </div>
     `;
