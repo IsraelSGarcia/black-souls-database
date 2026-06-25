@@ -2271,3 +2271,29 @@ header h1.clickable-title:hover {
     margin-top: 2px;
 }
 
+.activity-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4px;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.activity-reactions {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.activity-reaction-badge {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 2px 8px;
+    font-size: 0.72rem;
+    color: var(--text-secondary);
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
