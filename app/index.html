@@ -83,19 +83,36 @@
 
         <!-- Games View -->
         <div id="games-view" class="games-view">
-            <div class="games-grid">
-                <div class="game-card" data-game="bs2">
-                    <div class="game-icon">
-                        <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="8" y="16" width="48" height="32" rx="4" stroke="currentColor" stroke-width="2"/>
-                            <circle cx="20" cy="32" r="4" stroke="currentColor" stroke-width="2"/>
-                            <path d="M40 26L44 32L40 38M48 26L52 32L48 38" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
+            <div class="home-layout">
+                <!-- Left Panel (Recent Activity) -->
+                <div class="home-sidebar">
+                    <div class="activity-sidebar-card" id="recent-activity-card">
+                        <div class="activity-icon">
+                            <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="8" y="12" width="48" height="40" rx="6" stroke="currentColor" stroke-width="2"/>
+                                <path d="M18 24H46M18 34H46M18 44H34" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h2>Recent Activity</h2>
                     </div>
-                    <h2>Black Souls II</h2>
                 </div>
-                <!-- Future games can be added here -->
+
+                <!-- Painel da Direita (Jogos) -->
+                <div class="games-grid">
+                    <div class="game-card" data-game="bs2">
+                        <div class="game-icon">
+                            <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="8" y="16" width="48" height="32" rx="4" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="20" cy="32" r="4" stroke="currentColor" stroke-width="2"/>
+                                <path d="M40 26L44 32L40 38M48 26L52 32L48 38" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h2>Black Souls II</h2>
+                    </div>
+                </div>
             </div>
+            <!-- Games Giscus Comments -->
+            <div id="games-giscus-container" class="giscus-container"></div>
         </div>
 
         <!-- Sections View -->
@@ -179,6 +196,32 @@
                 </div>
                 <!-- Future sections can be added here -->
             </div>
+            <!-- Sections Giscus Comments -->
+            <div id="sections-giscus-container" class="giscus-container"></div>
+        </div>
+
+        <!-- Activity View -->
+        <div id="activity-view" class="activity-view hidden">
+            <div class="activity-page-header">
+                <h2 class="activity-page-title">Recent Activity</h2>
+                <p class="activity-page-subtitle">Latest comments and discussions from the community</p>
+            </div>
+            <div class="activity-info-card">
+                <div class="info-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                        <path d="M12 16V12M12 8H12.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="info-content">
+                    <h3>About Comments</h3>
+                    <p>The comment system on this site is powered by <strong>Giscus</strong>, an open-source, secure tool that uses <strong>GitHub Discussions</strong> as a database. To comment or interact on pages, simply sign in with your GitHub account.</p>
+                    <p class="info-note">New comments appear in this general activity feed in about 2 to 3 minutes after being posted.</p>
+                </div>
+            </div>
+            <div id="activity-page-list" class="activity-page-list">
+                <!-- Cards de comentários injetados dinamicamente -->
+            </div>
         </div>
 
         <div class="main-content hidden" id="main-content">
@@ -198,6 +241,8 @@
                 <div id="detail-content" class="detail-content" style="display: none;">
                     <!-- Skill details will be inserted here -->
                 </div>
+                <!-- Details Giscus Comments -->
+                <div id="detail-giscus-container" class="giscus-container"></div>
             </div>
         </div>
     </div>

@@ -5,22 +5,22 @@
 }
 
 :root {
-    --primary-color: #6366f1;
-    --primary-dark: #4f46e5;
-    --primary-light: #818cf8;
-    --secondary-color: #8b5cf6;
-    --background: #0f172a;
-    --surface: #1e293b;
-    --surface-light: #334155;
-    --text-primary: #f8fafc;
-    --text-secondary: #cbd5e1;
-    --text-muted: #94a3b8;
-    --border: #334155;
-    --success: #10b981;
-    --warning: #f59e0b;
-    --danger: #ef4444;
-    --info: #3b82f6;
-    --shadow: rgba(0, 0, 0, 0.3);
+    --primary-color: #ffffff;
+    --primary-dark: #a3a3a3;
+    --primary-light: #e5e5e5;
+    --secondary-color: #525252;
+    --background: #0a0a0a;
+    --surface: #171717;
+    --surface-light: #262626;
+    --text-primary: #f5f5f5;
+    --text-secondary: #d4d4d4;
+    --text-muted: #737373;
+    --border: #262626;
+    --success: #a3a3a3;
+    --warning: #737373;
+    --danger: #404040;
+    --info: #a3a3a3;
+    --shadow: rgba(0, 0, 0, 0.6);
 }
 
 html {
@@ -31,7 +31,7 @@ html {
 
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    background: linear-gradient(135deg, #0a0a0a 0%, #171717 100%);
     color: var(--text-primary);
     padding: 0;
     line-height: 1.6;
@@ -164,11 +164,12 @@ header h1.clickable-title:hover {
     padding-top: 12px;
 }
 
-.game-card {
+.game-card,
+.activity-sidebar-card {
     background: var(--surface);
     border: 2px solid var(--border);
     border-radius: 26px;
-    padding: 56px;
+    padding: 40px 24px;
     text-align: center;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -179,21 +180,22 @@ header h1.clickable-title:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 32px;
+    gap: 20px;
 }
 
-.game-card:hover {
+.game-card:hover,
+.activity-sidebar-card:hover {
     background: var(--surface-light);
     border-color: var(--primary-color);
     transform: translateY(-6px);
     box-shadow: 0 16px 32px var(--shadow);
 }
 
-.game-icon {
+.game-icon,
+.activity-icon {
     width: 140px;
     height: 140px;
-    margin: 0 auto 36px;
-    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    margin: 0 auto;
     border-radius: 26px;
     display: flex;
     align-items: center;
@@ -202,15 +204,28 @@ header h1.clickable-title:hover {
     transition: transform 0.3s ease;
 }
 
+.game-icon {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+}
+
+.activity-icon {
+    background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
+}
+
 .game-card:hover .game-icon {
     transform: scale(1.1) rotate(5deg);
 }
 
-.game-card h2 {
-    font-size: 1.8rem;
+.activity-sidebar-card:hover .activity-icon {
+    transform: scale(1.1) rotate(-5deg);
+}
+
+.game-card h2,
+.activity-sidebar-card h2 {
+    font-size: 1.5rem;
     font-weight: 700;
     color: var(--text-primary);
-    margin-bottom: 12px;
+    margin: 0;
 }
 
 .game-card p {
@@ -455,7 +470,7 @@ header h1.clickable-title:hover {
 #search-input:focus {
     outline: none;
     border-color: var(--primary-color);
-    box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.1);
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.08);
 }
 
 .search-info {
@@ -629,8 +644,8 @@ header h1.clickable-title:hover {
 }
 
 .cost-mp {
-    background: rgba(59, 130, 246, 0.2);
-    color: var(--info);
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--text-secondary);
 }
 
 .skill-card-description {
@@ -792,27 +807,27 @@ header h1.clickable-title:hover {
 }
 
 .tag-primary {
-    background: rgba(99, 102, 241, 0.2);
+    background: rgba(255, 255, 255, 0.08);
     color: var(--primary-light);
 }
 
 .tag-success {
-    background: rgba(16, 185, 129, 0.2);
+    background: rgba(255, 255, 255, 0.05);
     color: var(--success);
 }
 
 .tag-warning {
-    background: rgba(245, 158, 11, 0.2);
+    background: rgba(255, 255, 255, 0.05);
     color: var(--warning);
 }
 
 .tag-danger {
-    background: rgba(239, 68, 68, 0.2);
+    background: rgba(255, 255, 255, 0.05);
     color: var(--danger);
 }
 
 .tag-info {
-    background: rgba(59, 130, 246, 0.2);
+    background: rgba(255, 255, 255, 0.05);
     color: var(--info);
 }
 
@@ -1031,7 +1046,7 @@ header h1.clickable-title:hover {
 .cross-reference:hover {
     color: var(--primary-color);
     text-decoration-color: var(--primary-color);
-    background-color: rgba(99, 102, 241, 0.1);
+    background-color: rgba(255, 255, 255, 0.05);
     padding: 2px 4px;
     margin: -2px -4px;
     border-radius: 3px;
@@ -1328,7 +1343,7 @@ header h1.clickable-title:hover {
 .show-original-toggle:focus {
     outline: none;
     border-color: var(--primary-color);
-    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.08);
 }
 
 .original-data-box {
@@ -1469,11 +1484,13 @@ header h1.clickable-title:hover {
     }
     
     .game-card,
+    .activity-sidebar-card,
     .section-card {
         padding: 24px;
     }
     
     .game-icon,
+    .activity-icon,
     .section-icon {
         width: 64px;
         height: 64px;
@@ -1481,12 +1498,14 @@ header h1.clickable-title:hover {
     }
     
     .game-icon svg,
+    .activity-icon svg,
     .section-icon svg {
         width: 40px;
         height: 40px;
     }
     
     .game-card h2,
+    .activity-sidebar-card h2,
     .section-card h2 {
         font-size: 1.25rem;
     }
@@ -1663,11 +1682,13 @@ header h1.clickable-title:hover {
     }
     
     .game-card,
+    .activity-sidebar-card,
     .section-card {
         padding: 20px;
     }
     
     .game-card h2,
+    .activity-sidebar-card h2,
     .section-card h2 {
         font-size: 1.1rem;
     }
@@ -1700,7 +1721,10 @@ header h1.clickable-title:hover {
     
     /* Make scrollbars thinner on mobile */
     .results-list::-webkit-scrollbar,
-    .detail-panel::-webkit-scrollbar {
+    .detail-panel::-webkit-scrollbar,
+    .games-view::-webkit-scrollbar,
+    .sections-view::-webkit-scrollbar,
+    .activity-view::-webkit-scrollbar {
         width: 4px;
     }
 }
@@ -1738,12 +1762,14 @@ header h1.clickable-title:hover {
     }
     
     .game-card,
+    .activity-sidebar-card,
     .section-card {
         padding: 16px;
         border-radius: 12px;
     }
     
     .game-icon,
+    .activity-icon,
     .section-icon {
         width: 56px;
         height: 56px;
@@ -1751,12 +1777,14 @@ header h1.clickable-title:hover {
     }
     
     .game-icon svg,
+    .activity-icon svg,
     .section-icon svg {
         width: 32px;
         height: 32px;
     }
     
     .game-card h2,
+    .activity-sidebar-card h2,
     .section-card h2 {
         font-size: 1rem;
         margin-bottom: 6px;
@@ -1917,6 +1945,7 @@ header h1.clickable-title:hover {
     }
     
     .game-card,
+    .activity-sidebar-card,
     .section-card {
         cursor: default;
     }
@@ -1927,6 +1956,7 @@ header h1.clickable-title:hover {
     }
     
     .game-card:hover,
+    .activity-sidebar-card:hover,
     .section-card:hover {
         transform: none;
     }
@@ -1937,6 +1967,7 @@ header h1.clickable-title:hover {
     }
     
     .game-card:active,
+    .activity-sidebar-card:active,
     .section-card:active {
         transform: scale(0.98);
     }
@@ -1971,14 +2002,272 @@ header h1.clickable-title:hover {
     }
     
     .game-card,
+    .activity-sidebar-card,
     .section-card {
         padding: 16px 20px;
     }
     
     .game-icon,
+    .activity-icon,
     .section-icon {
         width: 48px;
         height: 48px;
     }
+}
+
+.giscus-container {
+    margin-top: 2.5rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border);
+    width: 100%;
+    min-height: 150px; /* Evita quebras bruscas de layout enquanto carrega o iframe */
+}
+
+/* Activity Page View */
+.activity-view {
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 2rem;
+}
+
+.activity-view.hidden {
+    display: none !important;
+}
+
+.activity-page-header {
+    margin-bottom: 0.5rem;
+}
+
+.activity-page-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+}
+
+.activity-page-subtitle {
+    color: var(--text-muted);
+    font-size: 1rem;
+}
+
+.activity-page-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.activity-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.activity-card:hover {
+    transform: translateX(4px);
+    border-color: var(--primary-color);
+    box-shadow: 0 4px 12px var(--shadow);
+}
+
+.activity-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.activity-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid var(--border);
+}
+
+.activity-meta {
+    display: flex;
+    flex-direction: column;
+}
+
+.activity-author {
+    font-weight: 600;
+    color: var(--text-primary);
+    font-size: 0.9rem;
+}
+
+.activity-time {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+}
+
+.activity-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    flex-grow: 1;
+}
+
+.activity-text {
+    font-style: italic;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-break: break-word;
+}
+
+.activity-link-container {
+    margin-top: auto;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.activity-item-link {
+    color: var(--primary-light);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.activity-item-link:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+/* Home Layout (Sidebar on the left, games grid on the right) */
+.home-layout {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 32px;
+    width: min(100%, 1200px);
+    margin: 0 auto;
+    align-items: start;
+    padding: 20px;
+}
+
+.home-sidebar {
+    position: sticky;
+    top: 20px;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Alinha a grade de jogos à esquerda e remove padding superior para alinhar perfeitamente com o card lateral */
+.home-layout .games-grid {
+    justify-content: flex-start;
+    padding-top: 0;
+}
+
+/* Tablet & Mobile styles for home layout */
+@media (max-width: 1024px) {
+    .home-layout {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        padding: 10px;
+    }
+    
+    .home-sidebar {
+        width: 100%;
+        max-width: 320px;
+        position: static;
+    }
+}
+
+/* Make .activity-view scrollable on desktop and style its list spacing */
+.activity-view {
+    flex: 1;
+    overflow-y: auto;
+    min-height: 0;
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 1rem 2rem;
+}
+
+/* Custom Scrollbars for all main views to match item pages */
+.games-view::-webkit-scrollbar,
+.sections-view::-webkit-scrollbar,
+.activity-view::-webkit-scrollbar {
+    width: 8px;
+}
+
+.games-view::-webkit-scrollbar-track,
+.sections-view::-webkit-scrollbar-track,
+.activity-view::-webkit-scrollbar-track {
+    background: var(--surface);
+}
+
+.games-view::-webkit-scrollbar-thumb,
+.sections-view::-webkit-scrollbar-thumb,
+.activity-view::-webkit-scrollbar-thumb {
+    background: var(--border);
+    border-radius: 4px;
+}
+
+.games-view::-webkit-scrollbar-thumb:hover,
+.sections-view::-webkit-scrollbar-thumb:hover,
+.activity-view::-webkit-scrollbar-thumb:hover {
+    background: var(--surface-light);
+}
+
+/* Activity Info Card */
+.activity-info-card {
+    display: flex;
+    gap: 16px;
+    background: rgba(38, 38, 38, 0.45);
+    border: 1px dashed var(--border);
+    border-radius: 12px;
+    padding: 1.25rem;
+    color: var(--text-secondary);
+    align-items: flex-start;
+}
+
+.activity-info-card .info-icon {
+    color: var(--primary-light);
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+}
+
+.activity-info-card .info-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.activity-info-card h3 {
+    color: var(--text-primary);
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.activity-info-card p {
+    font-size: 0.88rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.activity-info-card .info-note {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    font-style: italic;
+    margin-top: 2px;
 }
 

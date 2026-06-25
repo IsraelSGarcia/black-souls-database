@@ -5,6 +5,21 @@
 // DO NOT add any TP-related functionality, UI elements, or references.
 // ============================================================================
 
+// Giscus Comments Configuration
+const GISCUS_CONFIG = {
+    repo: 'IsraelSGarcia/black-souls-database',
+    repoId: 'R_kgDOQPkd9w',
+    category: 'Comments',
+    categoryId: 'DIC_kwDOQPkd984C_19A',
+    mapping: 'specific',
+    strict: '1',
+    reactionsEnabled: '1',
+    emitMetadata: '0',
+    inputPosition: 'bottom',
+    theme: 'dark', // Fixed dark theme to match database dark theme
+    lang: 'en',
+};
+
 let allSkills = [];
 let filteredSkills = [];
 let selectedSkillId = null;
@@ -28,6 +43,7 @@ let filteredElements = [];
 let selectedElementId = null;
 let currentGame = null;
 let currentSection = null;
+let cameFromActivity = false;
 
 // Navigation history for cross-references
 // NOTE: We now rely entirely on browser history API instead of a custom stack
@@ -105,6 +121,8 @@ function buildURL(state) {
     } else if (state.view === 'sections') {
         const game = state.game === 'bs2' ? 'bs2' : (state.game || 'bs2');
         return `#/${game}`;
+    } else if (state.view === 'activity') {
+        return '#/activity';
     } else if (state.view && state.selectedId) {
         const section = state.view;
         const game = state.game === 'bs2' ? 'bs2' : (state.game || 'bs2');
@@ -188,6 +206,9 @@ function pushHistoryState(state, replace = false, force = false) {
     
     // Update page title
     document.title = title;
+    
+    // Update Giscus comments for the new state
+    updateGiscusFromCurrentState();
 }
 
 // Get page title from state
@@ -267,6 +288,7 @@ function restoreStateFromHistory(state, forceRestore = false) {
             if (pendingOperations === 0) {
                 // All async operations complete, safe to reset flag
                 isRestoringState = false;
+                updateGiscusFromCurrentState();
             }
         };
         
@@ -274,9 +296,15 @@ function restoreStateFromHistory(state, forceRestore = false) {
         if (savedView === 'games') {
             showGamesView();
             isRestoringState = false; // No async operations for games view
+            updateGiscusFromCurrentState();
         } else if (savedView === 'sections') {
             showSectionsView(savedGame || 'bs2');
             isRestoringState = false; // No async operations for sections view
+            updateGiscusFromCurrentState();
+        } else if (savedView === 'activity') {
+            showActivityView();
+            isRestoringState = false; // No async operations for activity view
+            updateGiscusFromCurrentState();
         } else if (savedView) {
             // Restore section
             showSection(savedView, true); // preserveSearch = true
@@ -447,6 +475,7 @@ function restoreStateFromHistory(state, forceRestore = false) {
             // If no async operations were scheduled, reset flag immediately
             if (pendingOperations === 0) {
                 isRestoringState = false;
+                updateGiscusFromCurrentState();
         }
         }
     } catch (error) {
@@ -962,6 +991,12 @@ const headerSubtitle = document.getElementById('header-subtitle');
 
 // Navigation function to go back to up level (same as clicking title)
 function navigateToUpLevel() {
+    if (cameFromActivity) {
+        cameFromActivity = false;
+        showActivityView();
+        return;
+    }
+    
     const titleText = headerTitle.textContent;
     
     if (titleText === 'Black Souls Database') {
@@ -973,6 +1008,8 @@ function navigateToUpLevel() {
     } else if (titleText.startsWith('Black Souls II Database - ')) {
         // On a section view (Skills, States, etc.), go back to sections
         showSectionsView('bs2');
+    } else if (titleText === 'Recent Activity') {
+        showGamesView();
     }
 }
 
@@ -1621,11 +1658,19 @@ function updateHelpContent(view) {
 
 // Show Games View (initial landing page)
 function showGamesView() {
+    if (!isRestoringState) {
+        cameFromActivity = false;
+    }
     gamesView.classList.remove('hidden');
     sectionsView.classList.add('hidden');
     searchSection.classList.add('hidden');
     mainContent.classList.add('hidden');
     upButton.classList.add('hidden');
+    
+    const activityView = document.getElementById('activity-view');
+    if (activityView) {
+        activityView.classList.add('hidden');
+    }
     
     headerTitle.textContent = 'Black Souls Database';
     headerSubtitle.textContent = 'Select a game to explore';
@@ -1653,11 +1698,19 @@ function showGamesView() {
 
 // Show Sections View for a selected game
 function showSectionsView(gameName) {
+    if (!isRestoringState) {
+        cameFromActivity = false;
+    }
     gamesView.classList.add('hidden');
     sectionsView.classList.remove('hidden');
     searchSection.classList.add('hidden');
     mainContent.classList.add('hidden');
     upButton.classList.remove('hidden');
+    
+    const activityView = document.getElementById('activity-view');
+    if (activityView) {
+        activityView.classList.add('hidden');
+    }
     
     currentGame = gameName;
     currentSection = null;
@@ -1709,6 +1762,40 @@ function showSectionsView(gameName) {
     }
 }
 
+// Exibe a página dedicada de atividade recente
+function showActivityView() {
+    gamesView.classList.add('hidden');
+    sectionsView.classList.add('hidden');
+    searchSection.classList.add('hidden');
+    mainContent.classList.add('hidden');
+    upButton.classList.remove('hidden');
+    
+    const activityView = document.getElementById('activity-view');
+    if (activityView) {
+        activityView.classList.remove('hidden');
+    }
+    
+    headerTitle.textContent = 'Recent Activity';
+    headerSubtitle.textContent = 'Activity feed of the database';
+    headerTitle.classList.remove('hidden');
+    headerSubtitle.classList.add('hidden');
+    
+    currentGame = null;
+    currentSection = 'activity';
+    
+    loadRecentActivity(); // Carrega os comentários na página dedicada
+    
+    if (!isRestoringState) {
+        const newState = buildNavigationState();
+        const currentState = history.state;
+        if (currentState && !hasStateChanged(newState)) {
+            pushHistoryState(newState, true);
+        } else {
+            pushHistoryState(newState);
+        }
+    }
+}
+
 // Update placeholder icon based on section
 function updatePlaceholderIcon(sectionName) {
     const placeholder = document.querySelector('.detail-placeholder');
@@ -1732,11 +1819,17 @@ function updatePlaceholderIcon(sectionName) {
     }
 }
 
-// Show Section Details (e.g., Skills, States)
-// preserveSearch: if true, don't clear the search input
-// skipHistoryPush: if true, don't push to history (used when navigating from sections search)
+// Show a specific database section (Skills, States, Weapons, etc.)
+// Called when user clicks a section card or navigates via URL
 function showSection(sectionName, preserveSearch = false, skipHistoryPush = false) {
-    // Show up button when viewing a section
+    if (!isRestoringState) {
+        cameFromActivity = false;
+    }
+    const activityView = document.getElementById('activity-view');
+    if (activityView) {
+        activityView.classList.add('hidden');
+    }
+
     if (upButton) {
         upButton.classList.remove('hidden');
     }
@@ -2207,6 +2300,19 @@ function showSection(sectionName, preserveSearch = false, skipHistoryPush = fals
 // Handle up button navigation
 // Navigates up one layer at a time: Detail -> Section List -> Sections Menu -> Games View -> (nothing)
 function handleUpButton() {
+    if (cameFromActivity) {
+        cameFromActivity = false;
+        showActivityView();
+        return;
+    }
+
+    // Check if we're on the activity view
+    const activityViewEl = document.getElementById('activity-view');
+    if (activityViewEl && !activityViewEl.classList.contains('hidden')) {
+        showGamesView();
+        return;
+    }
+
     // Get current state to determine what layer we're on
     const currentState = history.state;
     const urlState = parseURL();
@@ -6779,9 +6885,19 @@ searchInput.addEventListener('input', (e) => {
 document.querySelectorAll('.game-card').forEach(card => {
     card.addEventListener('click', () => {
         const game = card.dataset.game;
-        showSectionsView(game);
+        if (game) {
+            showSectionsView(game);
+        }
     });
 });
+
+// Recent activity button click handler
+const recentActivityCard = document.getElementById('recent-activity-card');
+if (recentActivityCard) {
+    recentActivityCard.addEventListener('click', () => {
+        showActivityView();
+    });
+}
 
 // Section cards click handler
 document.querySelectorAll('.section-card').forEach(card => {
@@ -6920,7 +7036,184 @@ window.addEventListener('DOMContentLoaded', () => {
             // On games view, ensure it's properly initialized
             showGamesView();
             pushHistoryState(buildNavigationState(), true);
+            updateGiscusFromCurrentState();
         }
     }
 });
+
+// ============================================================================
+// GISCUS COMMENT SYSTEM INTEGRATION
+// ============================================================================
+
+// Genérica para carregar o Giscus em um contêiner específico com um termo
+function loadGiscusForContainer(container, term) {
+    // Evita recarregar se o mesmo termo já estiver carregado neste contêiner
+    if (container.dataset.loadedTerm === term) {
+        return;
+    }
+
+    if (!GISCUS_CONFIG.categoryId || GISCUS_CONFIG.categoryId === 'YOUR_GISCUS_CATEGORY_ID_HERE') {
+        console.warn('Giscus não está configurado. Insira o categoryId no objeto GISCUS_CONFIG.');
+        return;
+    }
+
+    container.innerHTML = ''; // Limpa iframe anterior
+    container.dataset.loadedTerm = term; // Salva o termo carregado atualmente
+
+    const script = document.createElement('script');
+    script.src = 'https://giscus.app/client.js';
+    script.setAttribute('data-repo', GISCUS_CONFIG.repo);
+    script.setAttribute('data-repo-id', GISCUS_CONFIG.repoId);
+    script.setAttribute('data-category', GISCUS_CONFIG.category);
+    script.setAttribute('data-category-id', GISCUS_CONFIG.categoryId);
+    script.setAttribute('data-mapping', GISCUS_CONFIG.mapping);
+    script.setAttribute('data-term', term);
+    script.setAttribute('data-strict', GISCUS_CONFIG.strict);
+    script.setAttribute('data-reactions-enabled', GISCUS_CONFIG.reactionsEnabled);
+    script.setAttribute('data-emit-metadata', GISCUS_CONFIG.emitMetadata);
+    script.setAttribute('data-input-position', GISCUS_CONFIG.inputPosition);
+    script.setAttribute('data-theme', GISCUS_CONFIG.theme);
+    script.setAttribute('data-lang', GISCUS_CONFIG.lang);
+    script.setAttribute('crossorigin', 'anonymous');
+    script.async = true;
+
+    container.appendChild(script);
+}
+
+// Analisa o estado atual e atualiza a área de comentários correta
+function updateGiscusFromCurrentState() {
+    // Evita atualizar enquanto o histórico está restaurando para prevenir duplo carregamento
+    if (isRestoringState) return;
+
+    const state = buildNavigationState();
+
+    // Determina o contêiner e o termo alvo do estado atual
+    let targetContainerId = null;
+    let targetTerm = null;
+
+    if (state.view === 'games') {
+        targetContainerId = 'games-giscus-container';
+        targetTerm = 'home';
+    } else if (state.view === 'sections') {
+        targetContainerId = 'sections-giscus-container';
+        targetTerm = `${state.game || 'bs2'}-home`;
+    } else if (state.view) {
+        targetContainerId = 'detail-giscus-container';
+        targetTerm = state.selectedId 
+            ? `${state.game || 'bs2'}-${state.view}-${state.selectedId}` 
+            : `${state.game || 'bs2'}-${state.view}-general`;
+    }
+
+    // Oculta e limpa apenas os contêineres que não são o alvo atual
+    document.querySelectorAll('.giscus-container').forEach(el => {
+        if (el.id !== targetContainerId) {
+            el.style.display = 'none';
+            el.innerHTML = '';
+            el.dataset.loadedTerm = ''; // Limpa o termo carregado dele
+        }
+    });
+
+    // Exibe e carrega o contêiner alvo se necessário
+    if (targetContainerId && targetTerm) {
+        const container = document.getElementById(targetContainerId);
+        if (container) {
+            container.style.display = 'block';
+            loadGiscusForContainer(container, targetTerm);
+        }
+    }
+}
+
+// Carrega os comentários recentes na página dedicada a partir do JSON estático
+async function loadRecentActivity() {
+    const sectionEl = document.getElementById('activity-view');
+    const listEl = document.getElementById('activity-page-list');
+    if (!sectionEl || !listEl) return;
+    
+    try {
+        const response = await fetch('recent-comments.json');
+        if (!response.ok) {
+            listEl.innerHTML = '<div class="empty-state"><p>No recent activity found.</p></div>';
+            return;
+        }
+        const comments = await response.json();
+        
+        if (!comments || comments.length === 0) {
+            listEl.innerHTML = '<div class="empty-state"><p>No recent activity found.</p></div>';
+            return;
+        }
+        
+        listEl.innerHTML = comments.map(comment => {
+            const date = new Date(comment.date);
+            const year = date.getFullYear();
+            const month = String(date.getMonth() + 1).padStart(2, '0');
+            const day = String(date.getDate()).padStart(2, '0');
+            const hours = String(date.getHours()).padStart(2, '0');
+            const minutes = String(date.getMinutes()).padStart(2, '0');
+            const formattedDate = `${year}/${month}/${day} ${hours}:${minutes}`;
+            
+            const escapedText = escapeHtml(comment.text);
+            const escapedAuthor = escapeHtml(comment.author);
+            const escapedItemName = escapeHtml(comment.itemName);
+            
+            return `
+                <div class="activity-card">
+                    <div class="activity-header">
+                        <img class="activity-avatar" src="${comment.avatarUrl}" alt="${escapedAuthor}" onerror="this.src='https://github.com/identicons/${escapedAuthor}.png'">
+                        <div class="activity-meta">
+                            <span class="activity-author">${escapedAuthor}</span>
+                            <span class="activity-time">${formattedDate}</span>
+                        </div>
+                    </div>
+                    <div class="activity-body">
+                        <div class="activity-text">"${escapedText}"</div>
+                        <div class="activity-link-container">
+                            Commented on: <a href="${comment.link}" class="activity-item-link">${escapedItemName}</a>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }).join('');
+        
+        // Intercepta os cliques para usar a navegação SPA nativa sem recarregar a página
+        listEl.querySelectorAll('.activity-item-link').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const href = link.getAttribute('href');
+                if (href && href.startsWith('#/')) {
+                    const hashPath = href.substring(2);
+                    const parts = hashPath.split('/').filter(p => p);
+                    if (parts.length > 0) {
+                        let section = parts[0];
+                        let idStr = parts[1];
+                        if (parts[0] === 'bs2') {
+                            section = parts[1];
+                            idStr = parts[2];
+                        }
+                        
+                        const id = parseInt(idStr);
+                        if (section && !isNaN(id)) {
+                            showSection(section, false, true);
+                            cameFromActivity = true;
+                            setTimeout(() => {
+                                if (section === 'skills') selectSkill(id);
+                                else if (section === 'states') selectState(id);
+                                else if (section === 'weapons') selectWeapon(id);
+                                else if (section === 'armors') selectArmor(id);
+                                else if (section === 'enemies') selectEnemy(id);
+                                else if (section === 'items') selectItem(id);
+                                else if (section === 'elements') selectElement(id);
+                            }, 100);
+                        } else if (section) {
+                            showSection(section);
+                            cameFromActivity = true;
+                        }
+                    }
+                }
+            });
+        });
+    } catch (error) {
+        console.error('Error loading recent activity:', error);
+        listEl.innerHTML = '<div class="empty-state"><p>Error loading recent activity.</p></div>';
+    }
+}
 
