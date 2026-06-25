@@ -15,7 +15,7 @@ const GISCUS_CONFIG = {
     strict: '1',
     reactionsEnabled: '1',
     emitMetadata: '0',
-    inputPosition: 'bottom',
+    inputPosition: 'top',
     theme: 'dark', // Fixed dark theme to match database dark theme
     lang: 'en',
 };

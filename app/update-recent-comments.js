@@ -140,18 +140,6 @@ async function run() {
 
             const resolved = resolveItemName(term);
 
-            // 1. Adiciona a discussão em si (primeiro comentário da página)
-            if (disc.author) {
-                allActivity.push({
-                    author: disc.author.login,
-                    avatarUrl: disc.author.avatarUrl,
-                    text: disc.bodyText,
-                    date: disc.createdAt,
-                    itemName: resolved.name,
-                    link: resolved.link
-                });
-            }
-
             // 2. Adiciona as respostas/comentários internos
             if (disc.comments && disc.comments.nodes) {
                 disc.comments.nodes.forEach(comment => {
