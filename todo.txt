@@ -24,5 +24,3 @@ Skills That Cast This Skill (1)
 - Battle messages should be the first thing in details.
 
 - Why is AP never mentioned anywhere?
-
-- Link doesn't work in Commented on: Home (General Comments)

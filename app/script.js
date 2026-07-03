@@ -7297,8 +7297,14 @@ async function loadRecentActivity() {
                     </div>
                     <div class="activity-body">
                         <div class="activity-text">"${escapedText}"</div>
-                        <div class="activity-link-container">
-                            Commented on: <a href="${comment.link}" class="activity-item-link">${escapedItemName}</a>
+                        <div class="activity-footer">
+                            <div class="activity-reactions">
+                                ${comment.upvoteCount > 0 ? `<span class="activity-reaction-badge">🔺 ${comment.upvoteCount}</span>` : ''}
+                                ${comment.reactions && comment.reactions.length > 0 ? comment.reactions.map(r => `<span class="activity-reaction-badge">${r.emoji} ${r.count}</span>`).join('') : ''}
+                            </div>
+                            <div class="activity-link-container">
+                                Commented on: <a href="${comment.link}" class="activity-item-link">${escapedItemName}</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -7313,6 +7319,19 @@ async function loadRecentActivity() {
                 if (href && href.startsWith('#/')) {
                     const hashPath = href.substring(2);
                     const parts = hashPath.split('/').filter(p => p);
+                    
+                    if (parts.length === 0) {
+                        showGamesView();
+                        cameFromActivity = true;
+                        return;
+                    }
+                    
+                    if (parts.length === 1 && parts[0] === 'bs2') {
+                        showSectionsView('bs2');
+                        cameFromActivity = true;
+                        return;
+                    }
+                    
                     if (parts.length > 0) {
                         let section = parts[0];
                         let idStr = parts[1];
