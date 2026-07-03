@@ -1,0 +1,74 @@
+Skill 1 Attack: Damage Formula: a.atk * 4 - b.def * 2
+Skill 3 Multihit: Damage Formula: a.atk * 4 - b.def * 2
+Skill 4 Double Strike: Damage Formula: a.atk * 4 - b.def * 2
+Skill 5 Triple Strike: Damage Formula: a.atk * 4 - b.def * 2
+Skill 8 Fire Breath: Damage Formula: a.atk * 5 - b.def * 2
+Skill 9 Blizzard Breath: Damage Formula: a.atk * 5 - b.def * 2
+Skill 10 Blitz: Damage Formula: a.atk * 5 - b.def * 2
+Skill 21 Ram: Damage Formula: a.atk * 4 - b.def * 2
+Skill 23 Drain Blood: Damage Formula: a.atk * 2 - b.def
+Skill 24 Meditate: Damage Formula: b.mhp / 4
+Skill 26 Heal: Damage Formula: 250 + a.mat
+Skill 27 Heal II: Damage Formula: 1000 + a.mat * 2
+Skill 28 Heal III: Damage Formula: 4000 + a.mat * 4
+Skill 29 Restore: Damage Formula: 250 + a.mat
+Skill 30 Restore II: Damage Formula: 1000 + a.mat * 2
+Skill 33 Raise: Damage Formula: b.mhp / 10
+Skill 34 Raise II: Damage Formula: b.mhp / 2
+Skill 49 Drain Life: Damage Formula: 200 + a.mat * 4 - b.mdf * 2
+Skill 50 Drain Mana: Damage Formula: 20 + a.mat - b.mdf * 0.5
+Skill 51 Fire: Damage Formula: 150 + a.mat * 2 - b.mdf * 2
+Skill 52 Fire II: Damage Formula: 400 + a.mat * 2 - b.mdf * 2
+Skill 53 Firestorm: Damage Formula: 150 + a.mat * 2 - b.mdf * 2
+Skill 54 Firestorm II: Damage Formula: 400 + a.mat * 2 - b.mdf * 2
+Skill 55 Ice: Damage Formula: 150 + a.mat * 2 - b.mdf * 2
+Skill 56 Ice II: Damage Formula: 400 + a.mat * 2 - b.mdf * 2
+Skill 57 Blizzard: Damage Formula: 150 + a.mat * 2 - b.mdf * 2
+Skill 58 Blizzard II: Damage Formula: 400 + a.mat * 2 - b.mdf * 2
+Skill 59 Thunder: Damage Formula: 200 + a.mat * 2 - b.mdf * 2
+Skill 60 Thunder II: Damage Formula: 500 + a.mat * 2 - b.mdf * 2
+Skill 61 Thunderstorm: Damage Formula: 200 + a.mat * 2 - b.mdf * 2
+Skill 62 Thunderstorm II: Damage Formula: 500 + a.mat * 2 - b.mdf * 2
+Skill 63 Water: Damage Formula: 300 + a.mat * 2 - b.mdf * 2
+Skill 64 Wave: Damage Formula: 300 + a.mat * 2 - b.mdf * 2
+Skill 65 Stone: Damage Formula: 300 + a.mat * 2 - b.mdf * 2
+Skill 66 Quake: Damage Formula: 300 + a.mat * 2 - b.mdf * 2
+Skill 67 Wind: Damage Formula: 300 + a.mat * 2 - b.mdf * 2
+Skill 68 Tornado: Damage Formula: 300 + a.mat * 2 - b.mdf * 2
+Skill 69 Holy: Damage Formula: 400 + a.mat * 2 - b.mdf * 2
+Skill 70 Starlight: Damage Formula: 400 + a.mat * 2 - b.mdf * 2
+Skill 71 Shade: Damage Formula: 400 + a.mat * 2 - b.mdf * 2
+Skill 72 Darkness: Damage Formula: 400 + a.mat * 2 - b.mdf * 2
+Skill 73 Burst: Damage Formula: 300 + a.mat * 2
+Skill 74 Nuclear: Damage Formula: 300 + a.mat * 2
+Skill 80 Strong Attack: Damage Formula: a.atk * 5 - b.def * 2
+Skill 81 Mow Down: Damage Formula: a.atk * 2 - b.def * 2
+Skill 83 Berserker's Dance: Damage Formula: a.atk * 5 - b.def * 2
+Skill 84 Gigas Rampage: Damage Formula: a.atk * 12 - b.def * 6
+Skill 85 Tackle: Damage Formula: a.atk * 4 + a.def * 2 - b.def * 2
+Skill 88 Umbral Kick: Damage Formula: a.atk * 5
+Skill 89 Dragon Claw Waltz: Damage Formula: a.atk * 12
+Skill 94 Zex Sturm: Damage Formula: a.atk * 5 - b.def * 2
+Skill 95 Aura Blade: Damage Formula: a.atk * 4 + a.mat * 3 - b.def - b.mdf
+Skill 99 Radiant Blade: Damage Formula: a.atk * 5 + a.mat * 5 - b.def - b.mdf
+Skill 100 Pierce: Damage Formula: a.atk * 4
+Skill 103 Return of Swallow: Damage Formula: a.atk * 3 - b.def * 2
+Skill 104 Phantom Blossom Blade: Damage Formula: a.atk * 4 - b.def * 2
+Skill 105 Disarm: Damage Formula: a.atk * 4 - b.def * 2
+Skill 106 Dislodge: Damage Formula: a.atk * 4 - b.def * 2
+Skill 108 Triple Shot: Damage Formula: a.atk * 4 + a.agi * 2 - b.def * 2
+Skill 109 Thousand Arrows: Damage Formula: a.atk * 3 + a.agi * 2 - b.def * 2
+Skill 113 Assassin Edge: Damage Formula: a.atk * 3 + a.luk * 4 - b.def * 2
+Skill 114 Variant Crow: Damage Formula: a.atk * 3 - b.def * 2
+Skill 117 Divine Punishment: Damage Formula: a.mat * 5 - b.mdf
+Skill 122 Magic Torrent: Damage Formula: b.mmp * 0.5
+Skill 131 All Attack: Damage Formula: a.atk * 4 - b.def * 2
+Skill 132 Blaze: Damage Formula: 150 + a.mat * 2 - b.mdf * 2
+Skill 136 Silence Bubble: Damage Formula: 300 + a.mat * 2 - b.mdf * 2
+Skill 138 Swallow Whole: Damage Formula: 300 + a.mat * 2 - b.mdf * 2
+Skill 139 Fresh Power: Damage Formula: 
+Skill 141 Dark Side Moon: Damage Formula: 500 + a.mat * 4 - b.mdf * 2
+Skill 142 Hail Bullets: Damage Formula: 200 + a.mat * 2 - b.mdf * 2
+Skill 143 Conflagration: Damage Formula: 400 + a.mat * 2 - b.mdf * 2
+Skill 144 Ruinous Storm: Damage Formula: 300 + a.mat * 2
+Skill 148 りゅうせいぐん: Damage Formula: 500 + a.mat * 6 - b.mdf * 6

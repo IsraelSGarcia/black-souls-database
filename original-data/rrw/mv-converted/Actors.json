@@ -1,0 +1,13 @@
+[
+null,
+{"id":1,"battlerName":"","characterIndex":1,"characterName":"紅","classId":1,"equips":[0,0,0,62,0],"faceIndex":0,"faceName":"aka","traits":[{"code":54,"dataId":1,"value":0.0},{"code":54,"dataId":2,"value":0.0},{"code":53,"dataId":3,"value":0.0}],"initialLevel":1,"maxLevel":99,"name":"Red Hood","nickname":"","note":"","profile":""},
+{"id":2,"battlerName":"","characterIndex":1,"characterName":"","classId":3,"equips":[103,0,0,0,0],"faceIndex":4,"faceName":"","traits":[{"code":54,"dataId":1,"value":0.0},{"code":54,"dataId":2,"value":0.0},{"code":53,"dataId":3,"value":0.0},{"code":62,"dataId":0,"value":0.0},{"code":62,"dataId":2,"value":0.0}],"initialLevel":99,"maxLevel":99,"name":"Wolf","nickname":"","note":"","profile":""},
+{"id":3,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":4,"battlerName":"","characterIndex":0,"characterName":"紅","classId":2,"equips":[86,0,0,62,0],"faceIndex":3,"faceName":"People4","traits":[{"code":54,"dataId":1,"value":0.0},{"code":54,"dataId":2,"value":0.0},{"code":53,"dataId":3,"value":0.0}],"initialLevel":99,"maxLevel":99,"name":"Strongest","nickname":"","note":"","profile":""},
+{"id":5,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":6,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":7,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":8,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":9,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":10,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""}
+]

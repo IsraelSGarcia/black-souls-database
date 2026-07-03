@@ -1,0 +1,1287 @@
+Troop 14 Talking Flower  Page 1 Line 1:  - Comment: NW名前指定 喋る花
+Troop 14 Talking Flower  Page 3 Line 1:  - Comment: NW名前指定 喋る花
+Troop 69 Crestfallen Hero  Page 1 Line 1:  - Comment: ネームウィンドウ on
+Troop 69 Crestfallen Hero  Page 1 Line 2:  - Comment: NW名前指定 心折れた勇者
+Troop 69 Crestfallen Hero  Page 3 Line 1:  - Comment: NW名前指定 心折れた勇者
+Troop 72 Tortoise Knight Adaman  Page 1 Line 1:  - Comment: NW名前指定 亀騎士アダマン
+Troop 72 Tortoise Knight Adaman  Page 3 Line 1:  - Comment: NW名前指定 亀騎士アダマン
+Troop 73 Hare Knight L-Mi'raj  Page 1 Line 1:  - Comment: NW名前指定 兎騎士ルミラージ
+Troop 73 Hare Knight L-Mi'raj  Page 3 Line 1:  - Comment: NW名前指定 兎騎士ルミラージ
+Troop 136 ヘンゼル, グレーテル  Page 1 Line 2:  - Comment: NW名前指定 ヘンゼル
+Troop 136 ヘンゼル, グレーテル  Page 1 Line 7:  - Comment: NW名前指定 グレーテル
+Troop 136 ヘンゼル, グレーテル  Page 1 Line 10:  - Comment: NW名前指定 ヘンゼル
+Troop 136 ヘンゼル, グレーテル  Page 1 Line 14:  - Comment: NW名前指定 グレーテル
+Troop 136 ヘンゼル, グレーテル  Page 2 Line 1:  - Comment: NW名前指定 ヘンゼル
+Troop 136 ヘンゼル, グレーテル  Page 2 Line 5:  - Comment: NW名前指定 ヘンゼル
+Troop 136 ヘンゼル, グレーテル  Page 3 Line 1:  - Comment: NW名前指定 グレーテル
+Troop 136 ヘンゼル, グレーテル  Page 3 Line 4:  - Comment: NW名前指定 グレーテル
+Troop 136 ヘンゼル, グレーテル  Page 3 Line 8:  - Comment: NW名前指定 グレーテル
+Troop 136 ヘンゼル, グレーテル  Page 3 Line 11:  - Comment: NW名前指定 グレーテル
+Troop 137 Hyena of Hunger  Page 1 Line 1:  - Comment: NW名前指定 飢餓のハイエナ
+Troop 137 Hyena of Hunger  Page 2 Line 1:  - Comment: NW名前指定 飢餓のハイエナ
+Troop 139 Iron King  Page 1 Line 2:  - Comment: NW名前指定 鉄の王様
+Troop 139 Iron King  Page 1 Line 6:  - Comment: NW名前指定 鉄の王様
+Troop 139 Iron King  Page 3 Line 3:  - Comment: NW名前指定 裸の王様
+Troop 139 Iron King  Page 3 Line 9:  - Comment: NW名前指定 裸の王様
+Troop 139 Iron King  Page 3 Line 15:  - Comment: NW名前指定 裸の王様
+Troop 140 ハーメルンの笛吹き男, 疫病ネズミ*4  Page 1 Line 1:  - Comment: NW名前指定 ハーメルンの笛吹き男
+Troop 140 ハーメルンの笛吹き男, 疫病ネズミ*4  Page 2 Line 1:  - Comment: NW名前指定 ハーメルンの笛吹き男
+Troop 140 ハーメルンの笛吹き男, 疫病ネズミ*4  Page 2 Line 4:  - Comment: NW名前指定 ハーメルンの笛吹き男
+Troop 143 Ugly Duckling  Page 1 Line 1:  - Comment: NW名前指定 醜いアヒルの子
+Troop 143 Ugly Duckling  Page 3 Line 1:  - Comment: NW名前指定 醜いアヒルの子
+Troop 144 The Beanstalk Jack  Page 1 Line 1:  - Comment: NW名前指定 ジャック
+Troop 144 The Beanstalk Jack  Page 3 Line 1:  - Comment: NW名前指定 ジャック
+Troop 144 The Beanstalk Jack  Page 3 Line 6:  - Comment: NW名前指定 ジャック
+Troop 145 Petern Pan  Page 1 Line 1:  - Comment: NW名前指定 ピーター・パン
+Troop 145 Petern Pan  Page 1 Line 4:  - Comment: NW名前指定 ピーター・パン
+Troop 145 Petern Pan  Page 3 Line 1:  - Comment: NW名前指定 ピーター・パン
+Troop 146 King Sinbad  Page 1 Line 1:  - Comment: NW名前指定 王者シンドバッド
+Troop 146 King Sinbad  Page 1 Line 5:  - Comment: NW名前指定 王者シンドバッド
+Troop 146 King Sinbad  Page 3 Line 1:  - Comment: NW名前指定 王者シンドバッド
+Troop 148 Donkey King  Page 1 Line 1:  - Comment: NW名前指定 ロバの王様
+Troop 148 Donkey King  Page 3 Line 1:  - Comment: NW名前指定 ロバの王様
+Troop 151 Little Match Girl  Page 1 Line 1:  - Comment: NW名前指定 マッチ売りの少女
+Troop 151 Little Match Girl  Page 1 Line 4:  - Comment: NW名前指定 マッチ売りの少女
+Troop 151 Little Match Girl  Page 2 Line 1:  - Comment: NW名前指定 マッチ売りの少女
+Troop 151 Little Match Girl  Page 2 Line 4:  - Comment: NW名前指定 マッチ売りの少女
+Troop 151 Little Match Girl  Page 2 Line 9:  - Comment: NW名前指定 マッチ売りの少女
+Troop 151 Little Match Girl  Page 2 Line 14:  - Comment: NW名前指定 マッチ売りの少女
+Troop 152 Devourer Patrasche  Page 1 Line 1:  - Comment: NW名前指定 パトラッシュ
+Troop 152 Devourer Patrasche  Page 3 Line 1:  - Comment: NW名前指定 パトラッシュ
+Troop 152 Devourer Patrasche  Page 3 Line 4:  - Comment: NW名前指定 パトラッシュ
+Troop 156 Princess Frog  Page 1 Line 5:  - Comment: NW名前指定 カエルのお姫様
+Troop 156 Princess Frog  Page 1 Line 9:  - Comment: NW名前指定 カエルのお姫様
+Troop 157 Rapunzel  Page 2 Line 1:  - Comment: NW名前指定 髪長姫ラプンツェル
+Troop 157 Rapunzel  Page 2 Line 5:  - Comment: NW名前指定 髪長姫ラプンツェル
+Troop 158 白雪姫, 小人*7  Page 1 Line 4:  - Comment: NW名前指定 小人
+Troop 158 白雪姫, 小人*7  Page 1 Line 9:  - Comment: NW名前指定 小人
+Troop 158 白雪姫, 小人*7  Page 2 Line 14:  - Comment: NW名前指定 白雪姫
+Troop 158 白雪姫, 小人*7  Page 2 Line 19:  - Comment: NW名前指定 白雪姫
+Troop 158 白雪姫, 小人*7  Page 2 Line 23:  - Comment: NW名前指定 白雪姫
+Troop 159 Little Mermaid  Page 4 Line 1:  - Comment: NW名前指定 人魚姫
+Troop 159 Little Mermaid  Page 4 Line 5:  - Comment: NW名前指定 人魚姫
+Troop 159 Little Mermaid  Page 4 Line 10:  - Comment: NW名前指定 人魚姫
+Troop 161 Ash-clad Princess Cinderella  Page 3 Line 11:  - Comment: NW名前指定 シンデレラ
+Troop 161 Ash-clad Princess Cinderella  Page 3 Line 16:  - Comment: NW名前指定 シンデレラ
+Troop 161 Ash-clad Princess Cinderella  Page 3 Line 21:  - Comment: NW名前指定 シンデレラ
+Troop 164 Torture Queen Elisabeth Bathory  Page 1 Line 2:  - Comment: NW名前指定 エリザベート・バートリー
+Troop 164 Torture Queen Elisabeth Bathory  Page 1 Line 6:  - Comment: NW名前指定 エリザベート・バートリー
+Troop 164 Torture Queen Elisabeth Bathory  Page 2 Line 1:  - Comment: NW名前指定 エリザベート・バートリー
+Troop 164 Torture Queen Elisabeth Bathory  Page 2 Line 6:  - Comment: NW名前指定 エリザベート・バートリー
+Troop 167 Heartless Tin Man  Page 1 Line 1:  - Comment: NW名前指定 心失くしのブリキ
+Troop 167 Heartless Tin Man  Page 3 Line 1:  - Comment: NW名前指定 心失くしのブリキ
+Troop 168 Cowardly Lion  Page 1 Line 1:  - Comment: NW名前指定 臆病なライオン
+Troop 168 Cowardly Lion  Page 3 Line 1:  - Comment: NW名前指定 臆病なライオン
+Troop 168 Cowardly Lion  Page 3 Line 5:  - Comment: NW名前指定 臆病なライオン
+Troop 169 Moronic Scarecrow  Page 1 Line 1:  - Comment: NW名前指定 知恵遅れの案山子
+Troop 169 Moronic Scarecrow  Page 3 Line 1:  - Comment: NW名前指定 知恵遅れの案山子
+Troop 170 Lamia  Page 1 Line 2:  - Comment: NW名前指定 ラミア
+Troop 170 Lamia  Page 1 Line 7:  - Comment: NW名前指定 ラミア
+Troop 171 Blacksmith Lops  Page 1 Line 1:  - Comment: ネームウィンドウ on
+Troop 171 Blacksmith Lops  Page 1 Line 2:  - Comment: NW名前指定 鍛冶屋ロプス
+Troop 171 Blacksmith Lops  Page 3 Line 1:  - Comment: ネームウィンドウ on
+Troop 171 Blacksmith Lops  Page 3 Line 2:  - Comment: NW名前指定 鍛冶屋ロプス
+Troop 177 Corrupt Sage  Page 1 Line 1:  - Comment: ネームウィンドウ on
+Troop 177 Corrupt Sage  Page 1 Line 2:  - Comment: NW名前指定 堕落した賢者
+Troop 177 Corrupt Sage  Page 1 Line 6:  - Comment: NW名前指定 堕落した賢者
+Troop 178 Snow White's Prince  Page 1 Line 1:  - Comment: NW名前指定 白雪の王子
+Troop 186 Hare Knight L-Mi'raj  Page 1 Line 1:  - Comment: NW名前指定 兎騎士ルミラージ
+Troop 186 Hare Knight L-Mi'raj  Page 3 Line 1:  - Comment: NW名前指定 兎騎士ルミラージ
+Troop 187 Tortoise Knight Adaman  Page 1 Line 1:  - Comment: NW名前指定 亀騎士アダマン
+Troop 187 Tortoise Knight Adaman  Page 3 Line 1:  - Comment: NW名前指定 亀騎士アダマン
+Troop 189 亀騎士アダマン, 兎騎士ルミラージ  Page 1 Line 1:  - Comment: NW名前指定 兎騎士ルミラージ
+Troop 189 亀騎士アダマン, 兎騎士ルミラージ  Page 1 Line 5:  - Comment: NW名前指定 亀騎士アダマン
+Troop 189 亀騎士アダマン, 兎騎士ルミラージ  Page 1 Line 9:  - Comment: NW名前指定 兎騎士ルミラージ
+Troop 189 亀騎士アダマン, 兎騎士ルミラージ  Page 1 Line 13:  - Comment: NW名前指定 亀騎士アダマン
+Troop 190 Black Vanguard Lindamea  Page 1 Line 2:  - Comment: NW名前指定 黒の尖兵リンダメア
+Troop 190 Black Vanguard Lindamea  Page 1 Line 6:  - Comment: NW名前指定 黒の尖兵リンダメア
+Troop 190 Black Vanguard Lindamea  Page 1 Line 13:  - Comment: NW名前指定 黒の尖兵リンダメア
+Troop 190 Black Vanguard Lindamea  Page 1 Line 17:  - Comment: NW名前指定 黒の尖兵リンダメア
+Troop 191 Black Arbiter Hein  Page 1 Line 2:  - Comment: NW名前指定 黒の審判者ハイン
+Troop 191 Black Arbiter Hein  Page 1 Line 6:  - Comment: NW名前指定 黒の審判者ハイン
+Troop 191 Black Arbiter Hein  Page 1 Line 10:  - Comment: NW名前指定 黒の審判者ハイン
+Troop 191 Black Arbiter Hein  Page 1 Line 16:  - Comment: NW名前指定 黒の審判者ハイン
+Troop 191 Black Arbiter Hein  Page 2 Line 1:  - Comment: NW名前指定 黒の審判者ハイン
+Troop 191 Black Arbiter Hein  Page 2 Line 6:  - Comment: NW名前指定 黒の審判者ハイン
+Troop 193 Black Chaplain Ezwald  Page 1 Line 1:  - Comment: NW名前指定 黒の教戒師エズワルド
+Troop 193 Black Chaplain Ezwald  Page 1 Line 6:  - Comment: NW名前指定 黒の教戒師エズワルド
+Troop 193 Black Chaplain Ezwald  Page 2 Line 1:  - Comment: NW名前指定 黒の教戒師エズワルド
+Troop 193 Black Chaplain Ezwald  Page 2 Line 5:  - Comment: NW名前指定 黒の教戒師エズワルド
+Troop 193 Black Chaplain Ezwald  Page 2 Line 10:  - Comment: NW名前指定 黒の教戒師エズワルド
+Troop 194 Marionette Boy Pinocchio  Page 1 Line 1:  - Comment: NW名前指定 傀儡子ピノッキオ
+Troop 194 Marionette Boy Pinocchio  Page 1 Line 6:  - Comment: NW名前指定 人形
+Troop 194 Marionette Boy Pinocchio  Page 1 Line 9:  - Comment: NW名前指定 傀儡子ピノッキオ
+Troop 194 Marionette Boy Pinocchio  Page 2 Line 1:  - Comment: NW名前指定 傀儡子ピノッキオ
+Troop 194 Marionette Boy Pinocchio  Page 2 Line 5:  - Comment: NW名前指定 傀儡子ピノッキオ
+Troop 195 Saint's Guardian Ox  Page 1 Line 1:  - Comment: NW名前指定 聖女の護衛オックス
+Troop 196 Saint's Guardian Belior  Page 1 Line 1:  - Comment: NW名前指定 聖女の護衛ベリオール
+Troop 197 Saint Catherine  Page 2 Line 3:  - Comment: NW名前指定 聖女カタリナ
+Troop 197 Saint Catherine  Page 3 Line 1:  - Comment: NW名前指定 聖女カタリナ
+Troop 197 Saint Catherine  Page 3 Line 5:  - Comment: NW名前指定 聖女カタリナ
+Troop 197 Saint Catherine  Page 3 Line 9:  - Comment: NW名前指定 聖女カタリナ
+Troop 197 Saint Catherine  Page 3 Line 14:  - Comment: NW名前指定 聖女カタリナ
+Troop 197 Saint Catherine  Page 3 Line 18:  - Comment: NW名前指定 聖女カタリナ
+Troop 199 カタリナ一向　聖森  Page 1 Line 3:  - Comment: NW名前指定 聖女の護衛ベリオール
+Troop 199 カタリナ一向　聖森  Page 1 Line 7:  - Comment: NW名前指定 聖女の護衛オックス
+Troop 200 Guardian Chameleon  Page 1 Line 3:  - Comment: NW名前指定 守護のカメレオン
+Troop 200 Guardian Chameleon  Page 1 Line 8:  - Comment: NW名前指定 守護のカメレオン
+Troop 200 Guardian Chameleon  Page 3 Line 1:  - Comment: NW名前指定 守護のカメレオン
+Troop 224 Chaos Witch Dorothy  Page 1 Line 2:  - Comment: NW名前指定 混沌の魔女ドロシー
+Troop 224 Chaos Witch Dorothy  Page 3 Line 1:  - Comment: NW名前指定 混沌の魔女ドロシー
+Troop 224 Chaos Witch Dorothy  Page 3 Line 5:  - Comment: NW名前指定 混沌の魔女ドロシー
+Troop 224 Chaos Witch Dorothy  Page 3 Line 10:  - Comment: NW名前指定 混沌の魔女ドロシー
+Troop 225 Wandering Knight Izu  Page 1 Line 1:  - Comment: NW名前指定 放浪騎士イズ
+Troop 225 Wandering Knight Izu  Page 3 Line 1:  - Comment: NW名前指定 放浪騎士イズ
+Troop 226 Golden Goose  Page 1 Line 1:  - Comment: NW名前指定 黄金のガチョウ
+Troop 226 Golden Goose  Page 1 Line 5:  - Comment: NW名前指定 黄金のガチョウ
+Troop 226 Golden Goose  Page 3 Line 1:  - Comment: NW名前指定 黄金のガチョウ
+Troop 226 Golden Goose  Page 3 Line 5:  - Comment: NW名前指定 黄金のガチョウ
+Troop 226 Golden Goose  Page 3 Line 11:  - Comment: NW名前指定 黄金のガチョウ
+Troop 227 Holy Beast Jeanne d'Arc  Page 1 Line 1:  - Comment: NW名前指定 聖獣ジャンヌ・ダルク
+Troop 227 Holy Beast Jeanne d'Arc  Page 2 Line 1:  - Comment: NW名前指定 聖獣ジャンヌ・ダルク
+Troop 227 Holy Beast Jeanne d'Arc  Page 2 Line 4:  - Comment: NW名前指定 聖獣ジャンヌ・ダルク
+Troop 227 Holy Beast Jeanne d'Arc  Page 2 Line 8:  - Comment: NW名前指定 聖獣ジャンヌ・ダルク
+Troop 228 Demon of Desire Victoria  Page 1 Line 2:  - Comment: NW名前指定 淫魔獣ヴィクトリア
+Troop 228 Demon of Desire Victoria  Page 1 Line 7:  - Comment: NW名前指定 淫魔獣ヴィクトリア
+Troop 228 Demon of Desire Victoria  Page 1 Line 11:  - Comment: NW名前指定 淫魔獣ヴィクトリア
+Troop 228 Demon of Desire Victoria  Page 2 Line 1:  - Comment: NW名前指定 淫魔獣ヴィクトリア
+Troop 228 Demon of Desire Victoria  Page 2 Line 5:  - Comment: NW名前指定 淫魔獣ヴィクトリア
+Troop 229 黒の尖兵リンダメア2回目  Page 2 Line 1:  - Comment: NW名前指定 黒の尖兵リンダメア
+Troop 229 黒の尖兵リンダメア2回目  Page 2 Line 4:  - Comment: NW名前指定 黒の尖兵リンダメア
+Troop 229 黒の尖兵リンダメア2回目  Page 2 Line 9:  - Comment: NW名前指定 黒の尖兵リンダメア
+Troop 235 Ash-clad Princess Cinderella  Page 3 Line 11:  - Comment: NW名前指定 シンデレラ
+Troop 235 Ash-clad Princess Cinderella  Page 3 Line 16:  - Comment: NW名前指定 シンデレラ
+Troop 235 Ash-clad Princess Cinderella  Page 3 Line 21:  - Comment: NW名前指定 シンデレラ
+Troop 236 Mary Sue  Page 6 Line 2:  - Comment: NW名前指定 メアリィ・スー
+Troop 236 Mary Sue  Page 6 Line 7:  - Comment: NW名前指定 メアリィ・スー
+Troop 236 Mary Sue  Page 6 Line 12:  - Comment: NW名前指定 メアリィ・スー
+Troop 236 Mary Sue  Page 6 Line 18:  - Comment: NW名前指定 メアリィ・スー
+Troop 240 フェアリーA, フェアリーB, フェアリーC  Page 1 Line 1:  - Comment: NW名前指定 フェアリーA
+Troop 240 フェアリーA, フェアリーB, フェアリーC  Page 1 Line 4:  - Comment: NW名前指定 フェアリーB
+Troop 240 フェアリーA, フェアリーB, フェアリーC  Page 1 Line 7:  - Comment: NW名前指定 フェアリーC
+Troop 256 Shadowmoon Knight Oentius  Page 1 Line 2:  - Comment: NW名前指定 陰月の騎士オーエンティウス
+Troop 256 Shadowmoon Knight Oentius  Page 1 Line 5:  - Comment: NW名前指定 陰月の騎士オーエンティウス
+Troop 258 Sinner Wilt  Page 1 Line 2:  - Comment: NW名前指定 罪背負いのヴィルト
+Troop 258 Sinner Wilt  Page 1 Line 6:  - Comment: NW名前指定 罪背負いのヴィルト
+Troop 258 Sinner Wilt  Page 2 Line 1:  - Comment: NW名前指定 罪背負いのヴィルト
+Troop 258 Sinner Wilt  Page 2 Line 6:  - Comment: NW名前指定 罪背負いのヴィルト
+Troop 259 Clock Crok  Page 1 Line 2:  - Comment: NW名前指定 時計鰐
+Troop 259 Clock Crok  Page 2 Line 2:  - Comment: NW名前指定 時計鰐
+Troop 260 Demonbeast Vilt  Page 1 Line 2:  - Comment: NW名前指定 魔獣ヴィルト
+Troop 260 Demonbeast Vilt  Page 1 Line 6:  - Comment: NW名前指定 魔獣ヴィルト
+Troop 260 Demonbeast Vilt  Page 2 Line 1:  - Comment: NW名前指定 魔獣ヴィルト
+Troop 260 Demonbeast Vilt  Page 2 Line 5:  - Comment: NW名前指定 魔獣ヴィルト
+Troop 260 Demonbeast Vilt  Page 2 Line 9:  - Comment: NW名前指定 魔獣ヴィルト
+Troop 305 車輪骸骨*2, 愚かな王子  Page 1 Line 2:  - Comment: NW名前指定 愚かな王子
+Troop 305 車輪骸骨*2, 愚かな王子  Page 2 Line 1:  - Comment: NW名前指定 愚かな王子
+Troop 305 車輪骸骨*2, 愚かな王子  Page 2 Line 5:  - Comment: NW名前指定 愚かな王子
+Troop 306 Lord of Corruption  Page 1 Line 2:  - Comment: NW名前指定 退廃主
+Troop 306 Lord of Corruption  Page 2 Line 1:  - Comment: NW名前指定 退廃主
+Troop 306 Lord of Corruption  Page 2 Line 6:  - Comment: NW名前指定 退廃主
+Troop 306 Lord of Corruption  Page 2 Line 9:  - Comment: NW名前指定 退廃主
+Troop 309 Vampire  Page 1 Line 2:  - Comment: NW名前指定 ヴァンパイア
+Troop 309 Vampire  Page 6 Line 1:  - Comment: NW名前指定 ヴァンパイア
+Troop 309 Vampire  Page 6 Line 5:  - Comment: NW名前指定 ヴァンパイア
+Troop 309 Vampire  Page 6 Line 9:  - Comment: NW名前指定 ヴァンパイア
+Troop 310 ヘンゼル, グレーテル犯す  Page 1 Line 2:  - Comment: NW名前指定 ヘンゼル
+Troop 310 ヘンゼル, グレーテル犯す  Page 1 Line 7:  - Comment: NW名前指定 グレーテル
+Troop 310 ヘンゼル, グレーテル犯す  Page 1 Line 10:  - Comment: NW名前指定 ヘンゼル
+Troop 310 ヘンゼル, グレーテル犯す  Page 2 Line 1:  - Comment: NW名前指定 ヘンゼル
+Troop 310 ヘンゼル, グレーテル犯す  Page 2 Line 5:  - Comment: NW名前指定 ヘンゼル
+Troop 310 ヘンゼル, グレーテル犯す  Page 3 Line 1:  - Comment: NW名前指定 グレーテル
+Troop 310 ヘンゼル, グレーテル犯す  Page 3 Line 4:  - Comment: NW名前指定 グレーテル
+Troop 310 ヘンゼル, グレーテル犯す  Page 3 Line 8:  - Comment: NW名前指定 グレーテル
+Troop 310 ヘンゼル, グレーテル犯す  Page 3 Line 11:  - Comment: NW名前指定 グレーテル
+Troop 314 Lust Demon Satyr  Page 1 Line 2:  - Comment: NW名前指定 色情魔サティロス
+Troop 314 Lust Demon Satyr  Page 1 Line 6:  - Comment: NW名前指定 色情魔サティロス
+Troop 314 Lust Demon Satyr  Page 1 Line 9:  - Comment: NW名前指定 色情魔サティロス
+Troop 314 Lust Demon Satyr  Page 2 Line 1:  - Comment: NW名前指定 色情魔サティロス
+Troop 314 Lust Demon Satyr  Page 2 Line 4:  - Comment: NW名前指定 色情魔サティロス
+Troop 315 灰かぶり姫シンデレラ2回目  Page 3 Line 11:  - Comment: NW名前指定 シンデレラ
+Troop 315 灰かぶり姫シンデレラ2回目  Page 3 Line 16:  - Comment: NW名前指定 シンデレラ
+Troop 315 灰かぶり姫シンデレラ2回目  Page 3 Line 21:  - Comment: NW名前指定 シンデレラ
+Troop 317 Cursed Brother Hansel  Page 1 Line 2:  - Comment: NW名前指定 ヘンゼル
+Troop 317 Cursed Brother Hansel  Page 2 Line 1:  - Comment: NW名前指定 ヘンゼル
+Troop 317 Cursed Brother Hansel  Page 2 Line 5:  - Comment: NW名前指定 ヘンゼル
+Troop 317 Cursed Brother Hansel  Page 2 Line 9:  - Comment: NW名前指定 ヘンゼル
+Troop 318 Cursed Sister Gretel  Page 1 Line 2:  - Comment: NW名前指定 グレーテル
+Troop 318 Cursed Sister Gretel  Page 1 Line 6:  - Comment: NW名前指定 グレーテル
+Troop 318 Cursed Sister Gretel  Page 2 Line 1:  - Comment: NW名前指定 グレーテル
+Troop 318 Cursed Sister Gretel  Page 2 Line 6:  - Comment: NW名前指定 グレーテル
+Troop 318 Cursed Sister Gretel  Page 2 Line 10:  - Comment: NW名前指定 グレーテル
+Common Event 1 篝火 Line 19:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 20:  - Comment: 
+Common Event 1 篝火 Line 21:  - Comment: 聖森
+Common Event 1 篝火 Line 22:  - Comment: 
+Common Event 1 篝火 Line 23:  - Comment: 
+Common Event 1 篝火 Line 24:  - Comment: =====＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 68:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 69:  - Comment: 
+Common Event 1 篝火 Line 70:  - Comment: 捨てられの森
+Common Event 1 篝火 Line 71:  - Comment: 
+Common Event 1 篝火 Line 72:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 92:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 93:  - Comment: 
+Common Event 1 篝火 Line 94:  - Comment: 下水道
+Common Event 1 篝火 Line 95:  - Comment: 
+Common Event 1 篝火 Line 96:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 116:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 117:  - Comment: 
+Common Event 1 篝火 Line 118:  - Comment: 淫腐街
+Common Event 1 篝火 Line 119:  - Comment: 
+Common Event 1 篝火 Line 120:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 140:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 141:  - Comment: 
+Common Event 1 篝火 Line 142:  - Comment: アイバーン砦
+Common Event 1 篝火 Line 143:  - Comment: 
+Common Event 1 篝火 Line 144:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 168:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 169:  - Comment: 
+Common Event 1 篝火 Line 170:  - Comment: ベヒモス牧場
+Common Event 1 篝火 Line 171:  - Comment: 
+Common Event 1 篝火 Line 172:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 192:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 193:  - Comment: 
+Common Event 1 篝火 Line 194:  - Comment: ヤーコプ廃坑
+Common Event 1 篝火 Line 195:  - Comment: 
+Common Event 1 篝火 Line 196:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 216:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 217:  - Comment: 
+Common Event 1 篝火 Line 218:  - Comment: ゴーテルの塔
+Common Event 1 篝火 Line 219:  - Comment: 
+Common Event 1 篝火 Line 220:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 241:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 242:  - Comment: 
+Common Event 1 篝火 Line 243:  - Comment: 墓地街エリクシール
+Common Event 1 篝火 Line 244:  - Comment: 
+Common Event 1 篝火 Line 245:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 265:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 266:  - Comment: 
+Common Event 1 篝火 Line 267:  - Comment: 骸骨迷宮
+Common Event 1 篝火 Line 268:  - Comment: 
+Common Event 1 篝火 Line 269:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 289:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 290:  - Comment: 
+Common Event 1 篝火 Line 291:  - Comment: ポセイドンホテル
+Common Event 1 篝火 Line 292:  - Comment: 
+Common Event 1 篝火 Line 293:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 313:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 314:  - Comment: 
+Common Event 1 篝火 Line 315:  - Comment: ヘルサ砂漠
+Common Event 1 篝火 Line 316:  - Comment: 
+Common Event 1 篝火 Line 317:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 337:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 338:  - Comment: 
+Common Event 1 篝火 Line 339:  - Comment: 白雪の庭
+Common Event 1 篝火 Line 340:  - Comment: 
+Common Event 1 篝火 Line 341:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 361:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 362:  - Comment: 
+Common Event 1 篝火 Line 363:  - Comment: ロプスの鍛冶場
+Common Event 1 篝火 Line 364:  - Comment: 
+Common Event 1 篝火 Line 365:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 385:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 386:  - Comment: 
+Common Event 1 篝火 Line 387:  - Comment: 穢れ沼
+Common Event 1 篝火 Line 388:  - Comment: 
+Common Event 1 篝火 Line 389:  - Comment: 
+Common Event 1 篝火 Line 390:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 410:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 411:  - Comment: 
+Common Event 1 篝火 Line 412:  - Comment: 不思議の国
+Common Event 1 篝火 Line 413:  - Comment: 
+Common Event 1 篝火 Line 414:  - Comment: 
+Common Event 1 篝火 Line 415:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 436:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 437:  - Comment: 
+Common Event 1 篝火 Line 438:  - Comment: ロスト城門
+Common Event 1 篝火 Line 439:  - Comment: 
+Common Event 1 篝火 Line 440:  - Comment: 
+Common Event 1 篝火 Line 441:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 465:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 466:  - Comment: 
+Common Event 1 篝火 Line 467:  - Comment: ロスト中間
+Common Event 1 篝火 Line 468:  - Comment: 
+Common Event 1 篝火 Line 469:  - Comment: 
+Common Event 1 篝火 Line 470:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 490:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 491:  - Comment: 
+Common Event 1 篝火 Line 492:  - Comment: ロスト最奥
+Common Event 1 篝火 Line 493:  - Comment: 
+Common Event 1 篝火 Line 494:  - Comment: 
+Common Event 1 篝火 Line 495:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 515:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 516:  - Comment: 
+Common Event 1 篝火 Line 517:  - Comment: 黒の裁判所
+Common Event 1 篝火 Line 518:  - Comment: 
+Common Event 1 篝火 Line 519:  - Comment: 
+Common Event 1 篝火 Line 520:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 540:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 541:  - Comment: 
+Common Event 1 篝火 Line 542:  - Comment: 旧淫腐街
+Common Event 1 篝火 Line 543:  - Comment: 
+Common Event 1 篝火 Line 544:  - Comment: 
+Common Event 1 篝火 Line 545:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 565:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 566:  - Comment: 
+Common Event 1 篝火 Line 567:  - Comment: サバトの森庭
+Common Event 1 篝火 Line 568:  - Comment: 
+Common Event 1 篝火 Line 569:  - Comment: 
+Common Event 1 篝火 Line 570:  - Comment: =====＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 590:  - Comment: ==＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 1 篝火 Line 591:  - Comment: 
+Common Event 1 篝火 Line 592:  - Comment: 暗黒の入り口
+Common Event 1 篝火 Line 593:  - Comment: 
+Common Event 1 篝火 Line 594:  - Comment: 
+Common Event 1 篝火 Line 595:  - Comment: =====＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 5 武器強化 Line 1:  - Comment: ＋0～3に欠片9個
+Common Event 5 武器強化 Line 2:  - Comment: ＋4～6に大欠片9個
+Common Event 5 武器強化 Line 3:  - Comment: ＋7～9に塊9個
+Common Event 5 武器強化 Line 4:  - Comment: ＋10に原盤1個
+Common Event 5 武器強化 Line 5:  - Comment: 
+Common Event 5 武器強化 Line 6:  - Comment: 原盤　場所　全１２
+Common Event 5 武器強化 Line 7:  - Comment: ゴーテル２　ヘルサ１　白雪１ 秘密の花園１　ロスト３
+Common Event 5 武器強化 Line 8:  - Comment: アトランティカ１
+Common Event 5 武器強化 Line 9:  - Comment: 
+Common Event 5 武器強化 Line 10:  - Comment: 勇者、祈り主、バンダースナッチドロップ
+Common Event 5 武器強化 Line 11:  - Comment: 
+Common Event 5 武器強化 Line 12:  - Comment: 他２はぺろぺろちょうだいから
+Common Event 5 武器強化 Line 23:  - Comment: =================＝＝＝＝＝＝＝＝＝＝＝＝＝－－
+Common Event 5 武器強化 Line 24:  - Comment: 
+Common Event 5 武器強化 Line 25:  - Comment: 　　　　　　　　　　騎士の剣
+Common Event 5 武器強化 Line 26:  - Comment: 
+Common Event 5 武器強化 Line 27:  - Comment: =================＝＝＝＝－＝＝＝＝＝＝＝＝＝＝
+Common Event 5 武器強化 Line 348:  - Comment: =================＝＝＝＝＝＝＝＝＝＝＝＝＝－－
+Common Event 5 武器強化 Line 349:  - Comment: 
+Common Event 5 武器強化 Line 350:  - Comment: 　　　　　　　　　　盗賊の短刀
+Common Event 5 武器強化 Line 351:  - Comment: 
+Common Event 5 武器強化 Line 352:  - Comment: =================＝＝＝＝－＝＝＝＝＝＝＝＝＝＝
+Common Event 5 武器強化 Line 673:  - Comment: =================＝＝＝＝＝＝＝＝＝＝＝＝＝－－
+Common Event 5 武器強化 Line 674:  - Comment: 
+Common Event 5 武器強化 Line 675:  - Comment: 　　　　　　　　　　グレートソード
+Common Event 5 武器強化 Line 676:  - Comment: 
+Common Event 5 武器強化 Line 677:  - Comment: =================＝＝＝＝－＝＝＝＝＝＝＝＝＝＝
+Common Event 5 武器強化 Line 998:  - Comment: =================＝＝＝＝＝＝＝＝＝＝＝＝＝－－
+Common Event 5 武器強化 Line 999:  - Comment: 
+Common Event 5 武器強化 Line 1000:  - Comment: 　　　　　　　　　　魔神刀
+Common Event 5 武器強化 Line 1001:  - Comment: 
+Common Event 5 武器強化 Line 1002:  - Comment: =================＝＝＝＝－＝＝＝＝＝＝＝＝＝＝
+Common Event 5 武器強化 Line 1323:  - Comment: =================＝＝＝＝＝＝＝＝＝＝＝＝＝－－
+Common Event 5 武器強化 Line 1324:  - Comment: 
+Common Event 5 武器強化 Line 1325:  - Comment: 　　　　　　　　　　パルチザン
+Common Event 5 武器強化 Line 1326:  - Comment: 
+Common Event 5 武器強化 Line 1327:  - Comment: =================＝＝＝＝－＝＝＝＝＝＝＝＝＝＝
+Common Event 5 武器強化 Line 1648:  - Comment: =================＝＝＝＝＝＝＝＝＝＝＝＝＝－－
+Common Event 5 武器強化 Line 1649:  - Comment: 
+Common Event 5 武器強化 Line 1650:  - Comment: 　　　　　　　　　　大鉄球
+Common Event 5 武器強化 Line 1651:  - Comment: 
+Common Event 5 武器強化 Line 1652:  - Comment: =================＝＝＝＝－＝＝＝＝＝＝＝＝＝＝
+Common Event 5 武器強化 Line 1973:  - Comment: =================＝＝＝＝＝＝＝＝＝＝＝＝＝－－
+Common Event 5 武器強化 Line 1974:  - Comment: 
+Common Event 5 武器強化 Line 1975:  - Comment: 　　　　　　　　　　肉断ち大斧
+Common Event 5 武器強化 Line 1976:  - Comment: 
+Common Event 5 武器強化 Line 1977:  - Comment: =================＝＝＝＝－＝＝＝＝＝＝＝＝＝＝
+Common Event 5 武器強化 Line 2298:  - Comment: =================＝＝＝＝＝＝＝＝＝＝＝＝＝－－
+Common Event 5 武器強化 Line 2299:  - Comment: 
+Common Event 5 武器強化 Line 2300:  - Comment: 　　　　　　　　　　ハンスの機関銃
+Common Event 5 武器強化 Line 2301:  - Comment: 
+Common Event 5 武器強化 Line 2302:  - Comment: =================＝＝＝＝－＝＝＝＝＝＝＝＝＝＝
+Common Event 5 武器強化 Line 2623:  - Comment: =================＝＝＝＝＝＝＝＝＝＝＝＝＝－－
+Common Event 5 武器強化 Line 2624:  - Comment: 
+Common Event 5 武器強化 Line 2625:  - Comment: 　　　　　　　　　　ストームルーラー
+Common Event 5 武器強化 Line 2626:  - Comment: 
+Common Event 5 武器強化 Line 2627:  - Comment: =================＝＝＝＝－＝＝＝＝＝＝＝＝＝＝
+Common Event 5 武器強化 Line 2948:  - Comment: =================＝＝＝＝＝＝＝＝＝＝＝＝＝－－
+Common Event 5 武器強化 Line 2949:  - Comment: 
+Common Event 5 武器強化 Line 2950:  - Comment: 　　　　　　　　　　アンドールの剣
+Common Event 5 武器強化 Line 2951:  - Comment: 
+Common Event 5 武器強化 Line 2952:  - Comment: =================＝＝＝＝－＝＝＝＝＝＝＝＝＝＝
+Common Event 5 武器強化 Line 3273:  - Comment: =================＝＝＝＝＝＝＝＝＝＝＝＝＝－－
+Common Event 5 武器強化 Line 3274:  - Comment: 
+Common Event 5 武器強化 Line 3275:  - Comment: 　　　　　　　　　　魔術師の杖
+Common Event 5 武器強化 Line 3276:  - Comment: 
+Common Event 5 武器強化 Line 3277:  - Comment: =================＝＝＝＝－＝＝＝＝＝＝＝＝＝＝
+Common Event 5 武器強化 Line 3598:  - Comment: =================＝＝＝＝＝＝＝＝＝＝＝＝＝－－
+Common Event 5 武器強化 Line 3599:  - Comment: 
+Common Event 5 武器強化 Line 3600:  - Comment: 　　　　　　　　　　ハンターボウ
+Common Event 5 武器強化 Line 3601:  - Comment: 
+Common Event 5 武器強化 Line 3602:  - Comment: =================＝＝＝＝－＝＝＝＝＝＝＝＝＝＝
+Common Event 5 武器強化 Line 3923:  - Comment: =================＝＝＝＝＝＝＝＝＝＝＝＝＝－－
+Common Event 5 武器強化 Line 3924:  - Comment: 
+Common Event 5 武器強化 Line 3925:  - Comment: 　　　　　　　　　　シールドバンカー
+Common Event 5 武器強化 Line 3926:  - Comment: 
+Common Event 5 武器強化 Line 3927:  - Comment: =================＝＝＝＝－＝＝＝＝＝＝＝＝＝＝
+Common Event 5 武器強化 Line 4248:  - Comment: =================＝＝＝＝＝＝＝＝＝＝＝＝＝－－
+Common Event 5 武器強化 Line 4249:  - Comment: 
+Common Event 5 武器強化 Line 4250:  - Comment: 　　　　　　　　　　陰月の剣
+Common Event 5 武器強化 Line 4251:  - Comment: 
+Common Event 5 武器強化 Line 4252:  - Comment: 
+Common Event 5 武器強化 Line 4253:  - Comment: =================＝＝＝＝－＝＝＝＝＝＝＝＝＝＝
+Common Event 14 アイテム購入 Line 135:  - Comment: NW名前指定 祈り主
+Common Event 14 アイテム購入 Line 139:  - Comment: NW名前指定 祈り主
+Common Event 15 ポセイドンホテルイベント Line 13:  - Comment: NW名前指定 傀儡子ピノッキオ
+Common Event 15 ポセイドンホテルイベント Line 39:  - Comment: NW名前指定 傀儡子ピノッキオ
+Common Event 15 ポセイドンホテルイベント Line 65:  - Comment: NW名前指定 傀儡子ピノッキオ
+Common Event 15 ポセイドンホテルイベント Line 91:  - Comment: NW名前指定 傀儡子ピノッキオ
+Common Event 15 ポセイドンホテルイベント Line 117:  - Comment: NW名前指定 傀儡子ピノッキオ
+Common Event 15 ポセイドンホテルイベント Line 143:  - Comment: NW名前指定 傀儡子ピノッキオ
+Common Event 15 ポセイドンホテルイベント Line 169:  - Comment: NW名前指定 傀儡子ピノッキオ
+Common Event 15 ポセイドンホテルイベント Line 195:  - Comment: NW名前指定 傀儡子ピノッキオ
+Common Event 15 ポセイドンホテルイベント Line 221:  - Comment: NW名前指定 傀儡子ピノッキオ
+Common Event 15 ポセイドンホテルイベント Line 247:  - Comment: NW名前指定 傀儡子ピノッキオ
+Common Event 33 ソウル位置 Line 1:  - Comment: 必ずEV001にすること
+Common Event 35 レベルアップ Line 1:  - Comment: NW名前指定 祈り主
+Common Event 35 レベルアップ Line 10:  - Comment: NW名前指定 祈り主
+Common Event 35 レベルアップ Line 28:  - Comment: NW名前指定 祈り主
+Common Event 48 リィフ召喚 Line 19:  - Comment: ===========＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 48 リィフ召喚 Line 20:  - Comment: 特殊セリフ判定
+Common Event 48 リィフ召喚 Line 21:  - Comment: 1.ヘングレ 
+Common Event 48 リィフ召喚 Line 22:  - Comment: ======＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 48 リィフ召喚 Line 34:  - Comment: ===========＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 48 リィフ召喚 Line 35:  - Comment: 特殊セリフ判定
+Common Event 48 リィフ召喚 Line 36:  - Comment: 2.ヘルカイザー
+Common Event 48 リィフ召喚 Line 37:  - Comment: ======＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 48 リィフ召喚 Line 358:  - Comment: NW名前指定 祈り主
+Common Event 48 リィフ召喚 Line 365:  - Comment: NW名前指定 祈り主
+Common Event 48 リィフ召喚 Line 375:  - Comment: ===========＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 48 リィフ召喚 Line 376:  - Comment: 特殊セリフ判定
+Common Event 48 リィフ召喚 Line 377:  - Comment: 44.リンダメア
+Common Event 48 リィフ召喚 Line 378:  - Comment: ======＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 61 ドロシー召喚 Line 18:  - Comment: ===========＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 61 ドロシー召喚 Line 19:  - Comment: 特殊セリフ判定
+Common Event 61 ドロシー召喚 Line 20:  - Comment: 2.ヘルカイザー
+Common Event 61 ドロシー召喚 Line 21:  - Comment: ======＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 61 ドロシー召喚 Line 309:  - Comment: NW名前指定 色情魔サティロス
+Common Event 61 ドロシー召喚 Line 343:  - Comment: ===========＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 61 ドロシー召喚 Line 344:  - Comment: 特殊セリフ判定
+Common Event 61 ドロシー召喚 Line 345:  - Comment: 44.リンダメア
+Common Event 61 ドロシー召喚 Line 346:  - Comment: ======＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 65 エルマ召喚 Line 29:  - Comment: ===========＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 65 エルマ召喚 Line 30:  - Comment: 特殊セリフ判定
+Common Event 65 エルマ召喚 Line 31:  - Comment: 2.ヘルカイザー
+Common Event 65 エルマ召喚 Line 32:  - Comment: ======＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 65 エルマ召喚 Line 310:  - Comment: ===========＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 65 エルマ召喚 Line 311:  - Comment: 特殊セリフ判定
+Common Event 65 エルマ召喚 Line 312:  - Comment: 44.リンダメア
+Common Event 65 エルマ召喚 Line 313:  - Comment: ======＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 74 シーン：フェアリーA Line 7:  - Comment: NW名前指定 フェアリーA
+Common Event 74 シーン：フェアリーA Line 17:  - Comment: NW名前指定 フェアリーA
+Common Event 74 シーン：フェアリーA Line 24:  - Comment: NW名前指定 フェアリーA
+Common Event 74 シーン：フェアリーA Line 38:  - Comment: NW名前指定 フェアリーA
+Common Event 74 シーン：フェアリーA Line 43:  - Comment: NW名前指定 フェアリーA
+Common Event 74 シーン：フェアリーA Line 52:  - Comment: NW名前指定 フェアリーA
+Common Event 74 シーン：フェアリーA Line 62:  - Comment: NW名前指定 フェアリーA
+Common Event 74 シーン：フェアリーA Line 71:  - Comment: NW名前指定 フェアリーA
+Common Event 74 シーン：フェアリーA Line 83:  - Comment: NW名前指定 フェアリーA
+Common Event 75 シーン：フェアリーB Line 7:  - Comment: NW名前指定 フェアリーB
+Common Event 75 シーン：フェアリーB Line 16:  - Comment: NW名前指定 フェアリーB
+Common Event 75 シーン：フェアリーB Line 23:  - Comment: NW名前指定 フェアリーB
+Common Event 75 シーン：フェアリーB Line 37:  - Comment: NW名前指定 フェアリーB
+Common Event 75 シーン：フェアリーB Line 42:  - Comment: NW名前指定 フェアリーB
+Common Event 75 シーン：フェアリーB Line 52:  - Comment: NW名前指定 フェアリーB
+Common Event 75 シーン：フェアリーB Line 62:  - Comment: NW名前指定 フェアリーB
+Common Event 75 シーン：フェアリーB Line 71:  - Comment: NW名前指定 フェアリーB
+Common Event 75 シーン：フェアリーB Line 83:  - Comment: NW名前指定 フェアリーB
+Common Event 76 シーン：フェアリーC Line 7:  - Comment: NW名前指定 フェアリーC
+Common Event 76 シーン：フェアリーC Line 11:  - Comment: NW名前指定 フェアリーC
+Common Event 76 シーン：フェアリーC Line 20:  - Comment: NW名前指定 フェアリーC
+Common Event 76 シーン：フェアリーC Line 29:  - Comment: NW名前指定 フェアリーC
+Common Event 76 シーン：フェアリーC Line 47:  - Comment: NW名前指定 フェアリーC
+Common Event 76 シーン：フェアリーC Line 53:  - Comment: NW名前指定 フェアリーC
+Common Event 76 シーン：フェアリーC Line 63:  - Comment: NW名前指定 フェアリーC
+Common Event 76 シーン：フェアリーC Line 73:  - Comment: NW名前指定 フェアリーC
+Common Event 76 シーン：フェアリーC Line 82:  - Comment: NW名前指定 フェアリーC
+Common Event 76 シーン：フェアリーC Line 94:  - Comment: NW名前指定 フェアリーC
+Common Event 145 ヴィクトリア召喚 Line 28:  - Comment: ===========＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 145 ヴィクトリア召喚 Line 29:  - Comment: 特殊セリフ判定
+Common Event 145 ヴィクトリア召喚 Line 30:  - Comment: 2.ヘルカイザー
+Common Event 145 ヴィクトリア召喚 Line 31:  - Comment: ======＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 145 ヴィクトリア召喚 Line 328:  - Comment: ===========＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 145 ヴィクトリア召喚 Line 329:  - Comment: 特殊セリフ判定
+Common Event 145 ヴィクトリア召喚 Line 330:  - Comment: 44.リンダメア
+Common Event 145 ヴィクトリア召喚 Line 331:  - Comment: ======＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 150 グース召喚 Line 28:  - Comment: ===========＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 150 グース召喚 Line 29:  - Comment: 特殊セリフ判定
+Common Event 150 グース召喚 Line 30:  - Comment: 2.ヘルカイザー
+Common Event 150 グース召喚 Line 31:  - Comment: ======＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 150 グース召喚 Line 326:  - Comment: ===========＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 150 グース召喚 Line 327:  - Comment: 特殊セリフ判定
+Common Event 150 グース召喚 Line 328:  - Comment: 44.リンダメア
+Common Event 150 グース召喚 Line 329:  - Comment: ======＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 155 エリザベート召喚 Line 28:  - Comment: ===========＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 155 エリザベート召喚 Line 29:  - Comment: 特殊セリフ判定
+Common Event 155 エリザベート召喚 Line 30:  - Comment: 2.ヘルカイザー
+Common Event 155 エリザベート召喚 Line 31:  - Comment: ======＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 155 エリザベート召喚 Line 294:  - Comment: ===========＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 155 エリザベート召喚 Line 295:  - Comment: 特殊セリフ判定
+Common Event 155 エリザベート召喚 Line 296:  - Comment: 44.リンダメア
+Common Event 155 エリザベート召喚 Line 297:  - Comment: ======＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 155 エリザベート召喚 Line 302:  - Comment: NW名前指定 黒の尖兵リンダメア
+Common Event 155 エリザベート召喚 Line 334:  - Comment: NW名前指定 黒の審判者ハイン
+Common Event 155 エリザベート召喚 Line 352:  - Comment: NW名前指定 黒の教戒師エズワルド
+Common Event 160 カタリナ召喚 Line 27:  - Comment: ===========＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 160 カタリナ召喚 Line 28:  - Comment: 特殊セリフ判定
+Common Event 160 カタリナ召喚 Line 29:  - Comment: 2.ヘルカイザー
+Common Event 160 カタリナ召喚 Line 30:  - Comment: ======＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 160 カタリナ召喚 Line 318:  - Comment: ===========＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 160 カタリナ召喚 Line 319:  - Comment: 特殊セリフ判定
+Common Event 160 カタリナ召喚 Line 320:  - Comment: 44.リンダメア
+Common Event 160 カタリナ召喚 Line 321:  - Comment: ======＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 165 ジャンヌ召喚 Line 28:  - Comment: ===========＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 165 ジャンヌ召喚 Line 29:  - Comment: 特殊セリフ判定
+Common Event 165 ジャンヌ召喚 Line 30:  - Comment: 2.ヘルカイザー
+Common Event 165 ジャンヌ召喚 Line 31:  - Comment: ======＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 165 ジャンヌ召喚 Line 331:  - Comment: ===========＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 165 ジャンヌ召喚 Line 332:  - Comment: 特殊セリフ判定
+Common Event 165 ジャンヌ召喚 Line 333:  - Comment: 44.リンダメア
+Common Event 165 ジャンヌ召喚 Line 334:  - Comment: ======＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 170 ミランダ召喚 Line 27:  - Comment: ===========＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 170 ミランダ召喚 Line 28:  - Comment: 特殊セリフ判定
+Common Event 170 ミランダ召喚 Line 29:  - Comment: 2.ヘルカイザー
+Common Event 170 ミランダ召喚 Line 30:  - Comment: ======＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 170 ミランダ召喚 Line 304:  - Comment: NW名前指定 色情魔サティロス
+Common Event 170 ミランダ召喚 Line 339:  - Comment: ===========＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 170 ミランダ召喚 Line 340:  - Comment: 特殊セリフ判定
+Common Event 170 ミランダ召喚 Line 341:  - Comment: 44.リンダメア
+Common Event 170 ミランダ召喚 Line 342:  - Comment: ======＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 170 ミランダ召喚 Line 346:  - Comment: NW名前指定 黒の尖兵リンダメア
+Common Event 170 ミランダ召喚 Line 355:  - Comment: NW名前指定 黒の尖兵リンダメア
+Common Event 170 ミランダ召喚 Line 371:  - Comment: NW名前指定 黒の審判者ハイン
+Common Event 170 ミランダ召喚 Line 378:  - Comment: NW名前指定 黒の審判者ハイン
+Common Event 170 ミランダ召喚 Line 395:  - Comment: NW名前指定 黒の教戒師エズワルド
+Common Event 170 ミランダ召喚 Line 399:  - Comment: NW名前指定 黒の教戒師エズワルド
+Common Event 195 ジャバウォックイベント Line 3:  - Comment: NW名前指定 死体
+Common Event 195 ジャバウォックイベント Line 32:  - Comment: NW名前指定 死体
+Common Event 195 ジャバウォックイベント Line 75:  - Comment: NW名前指定 死体
+Common Event 195 ジャバウォックイベント Line 117:  - Comment: NW名前指定 死体
+Common Event 195 ジャバウォックイベント Line 159:  - Comment: NW名前指定 死体
+Common Event 195 ジャバウォックイベント Line 201:  - Comment: NW名前指定 死体
+Common Event 195 ジャバウォックイベント Line 243:  - Comment: NW名前指定 死体
+Common Event 195 ジャバウォックイベント Line 284:  - Comment: NW名前指定 死体
+Common Event 195 ジャバウォックイベント Line 326:  - Comment: NW名前指定 死体
+Common Event 195 ジャバウォックイベント Line 368:  - Comment: NW名前指定 死体
+Common Event 195 ジャバウォックイベント Line 410:  - Comment: NW名前指定 死体
+Common Event 201 周回プレイ準備 Line 104:  - Comment: ==============================================================-
+Common Event 201 周回プレイ準備 Line 105:  - Comment: ネームウィンドウ on
+Common Event 203 紅ずきん召喚 Line 28:  - Comment: ===========＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 203 紅ずきん召喚 Line 29:  - Comment: 特殊セリフ判定
+Common Event 203 紅ずきん召喚 Line 30:  - Comment: 2.ヘルカイザー
+Common Event 203 紅ずきん召喚 Line 31:  - Comment: ======＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 203 紅ずきん召喚 Line 305:  - Comment: ===========＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 203 紅ずきん召喚 Line 306:  - Comment: 特殊セリフ判定
+Common Event 203 紅ずきん召喚 Line 307:  - Comment: 44.リンダメア
+Common Event 203 紅ずきん召喚 Line 308:  - Comment: ======＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+Common Event 233 個別エンド：ジャンヌ Line 71:  - Comment: NW名前指定 貴婦人
+Common Event 233 個別エンド：ジャンヌ Line 74:  - Comment: NW名前指定 貴族
+Common Event 236 個別エンド：カタリナ Line 69:  - Comment: NW名前指定 教徒
+Common Event 236 個別エンド：カタリナ Line 76:  - Comment: NW名前指定 国民
+Common Event 236 個別エンド：カタリナ Line 88:  - Comment: NW名前指定 教徒
+Common Event 236 個別エンド：カタリナ Line 95:  - Comment: NW名前指定 教徒
+Common Event 236 個別エンド：カタリナ Line 98:  - Comment: NW名前指定 教徒
+Common Event 236 個別エンド：カタリナ Line 105:  - Comment: NW名前指定 教徒
+Common Event 236 個別エンド：カタリナ Line 121:  - Comment: NW名前指定 邪神
+Common Event 236 個別エンド：カタリナ Line 126:  - Comment: NW名前指定 邪神
+Common Event 239 個別エンド：グース Line 43:  - Comment: NW名前指定 子供
+Common Event 239 個別エンド：グース Line 93:  - Comment: NW名前指定 子供
+Common Event 239 個別エンド：グース Line 110:  - Comment: NW名前指定 子供
+Common Event 239 個別エンド：グース Line 125:  - Comment: NW名前指定 子供
+Common Event 239 個別エンド：グース Line 128:  - Comment: NW名前指定 子供
+Map 2 地下牢 - Event 5 EV005 (45,5) - Page 1 Line 1:  - Comment: NW名前指定 兎騎士ルミラージ
+Map 2 地下牢 - Event 5 EV005 (45,5) - Page 1 Line 4:  - Comment: NW名前指定 兎騎士ルミラージ
+Map 2 地下牢 - Event 5 EV005 (45,5) - Page 1 Line 9:  - Comment: NW名前指定 兎騎士ルミラージ
+Map 2 地下牢 - Event 5 EV005 (45,5) - Page 1 Line 14:  - Comment: NW名前指定 兎騎士ルミラージ
+Map 2 地下牢 - Event 5 EV005 (45,5) - Page 1 Line 19:  - Comment: NW名前指定 兎騎士ルミラージ
+Map 2 地下牢 - Event 5 EV005 (45,5) - Page 2 Line 1:  - Comment: NW名前指定 兎騎士ルミラージ
+Map 2 地下牢 - Event 5 EV005 (45,5) - Page 2 Line 6:  - Comment: NW名前指定 兎騎士ルミラージ
+Map 2 地下牢 - Event 5 EV005 (45,5) - Page 2 Line 11:  - Comment: NW名前指定 兎騎士ルミラージ
+Map 2 地下牢 - Event 5 EV005 (45,5) - Page 2 Line 20:  - Comment: NW名前指定 兎騎士ルミラージ
+Map 2 地下牢 - Event 5 EV005 (45,5) - Page 3 Line 1:  - Comment: NW名前指定 兎騎士ルミラージ
+Map 2 地下牢 - Event 5 EV005 (45,5) - Page 3 Line 5:  - Comment: NW名前指定 兎騎士ルミラージ
+Map 2 地下牢 - Event 5 EV005 (45,5) - Page 3 Line 15:  - Comment: NW名前指定 兎騎士ルミラージ
+Map 2 地下牢 - Event 13 敵 (32,24) - Page 1 Line 5:  - Comment: NW名前指定 醜いアヒルの子
+Map 4 地底世界クン・ヤン - Event 6 EV006 (10,13) - Page 1 Line 1:  - Comment: NW名前指定 お人好しのエリン
+Map 4 地底世界クン・ヤン - Event 6 EV006 (10,13) - Page 1 Line 6:  - Comment: NW名前指定 お人好しのエリン
+Map 4 地底世界クン・ヤン - Event 6 EV006 (10,13) - Page 1 Line 11:  - Comment: NW名前指定 お人好しのエリン
+Map 4 地底世界クン・ヤン - Event 6 EV006 (10,13) - Page 1 Line 18:  - Comment: NW名前指定 お人好しのエリン
+Map 4 地底世界クン・ヤン - Event 6 EV006 (10,13) - Page 2 Line 1:  - Comment: NW名前指定 お人好しのエリン
+Map 4 地底世界クン・ヤン - Event 6 EV006 (10,13) - Page 2 Line 7:  - Comment: NW名前指定 お人好しのエリン
+Map 4 地底世界クン・ヤン - Event 6 EV006 (10,13) - Page 2 Line 16:  - Comment: NW名前指定 お人好しのエリン
+Map 6 １● - Event 28 EV028 (60,64) - Page 1 Line 1:  - Comment: NW名前指定 放浪騎士イズ
+Map 6 １● - Event 28 EV028 (60,64) - Page 1 Line 5:  - Comment: NW名前指定 放浪騎士イズ
+Map 6 １● - Event 28 EV028 (60,64) - Page 2 Line 1:  - Comment: NW名前指定 放浪騎士イズ
+Map 6 １● - Event 28 EV028 (60,64) - Page 2 Line 6:  - Comment: NW名前指定 放浪騎士イズ
+Map 6 １● - Event 28 EV028 (60,64) - Page 2 Line 15:  - Comment: NW名前指定 放浪騎士イズ
+Map 7 OP - Event 1 EV001 (1,0) - Page 1 Line 1:  - Comment: ネームウィンドウ on
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 1 Line 1:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 1 Line 5:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 1 Line 11:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 1 Line 15:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 1 Line 20:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 1 Line 24:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 1 Line 31:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 2 Line 1:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 2 Line 12:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 2 Line 15:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 2 Line 21:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 2 Line 28:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 2 Line 33:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 2 Line 37:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 2 Line 56:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 2 Line 63:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 3 Line 1:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 3 Line 6:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 3 Line 18:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 3 Line 21:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 3 Line 27:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 3 Line 34:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 3 Line 39:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 3 Line 43:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 3 Line 62:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 3 Line 69:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 4 Line 1:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 4 Line 5:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 4 Line 10:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 4 Line 23:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 4 Line 26:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 4 Line 32:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 4 Line 39:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 4 Line 44:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 4 Line 48:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 4 Line 67:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 4 Line 74:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 5 Line 1:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 5 Line 5:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 5 Line 10:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 5 Line 14:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 5 Line 28:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 5 Line 31:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 5 Line 37:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 5 Line 44:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 5 Line 49:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 5 Line 53:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 5 Line 72:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 2 EV002 (17,16) - Page 5 Line 79:  - Comment: NW名前指定 祈り主
+Map 10 聖森 - Event 3 心折れた勇者 (13,11) - Page 1 Line 1:  - Comment: ネームウィンドウ on
+Map 10 聖森 - Event 3 心折れた勇者 (13,11) - Page 1 Line 2:  - Comment: NW名前指定 心折れた勇者
+Map 10 聖森 - Event 3 心折れた勇者 (13,11) - Page 1 Line 5:  - Comment: NW名前指定 心折れた勇者
+Map 10 聖森 - Event 3 心折れた勇者 (13,11) - Page 2 Line 1:  - Comment: ネームウィンドウ on
+Map 10 聖森 - Event 3 心折れた勇者 (13,11) - Page 2 Line 2:  - Comment: NW名前指定 心折れた勇者
+Map 10 聖森 - Event 3 心折れた勇者 (13,11) - Page 2 Line 7:  - Comment: NW名前指定 心折れた勇者
+Map 10 聖森 - Event 3 心折れた勇者 (13,11) - Page 2 Line 10:  - Comment: NW名前指定 心折れた勇者
+Map 10 聖森 - Event 3 心折れた勇者 (13,11) - Page 2 Line 16:  - Comment: NW名前指定 心折れた勇者
+Map 10 聖森 - Event 3 心折れた勇者 (13,11) - Page 2 Line 21:  - Comment: NW名前指定 心折れた勇者
+Map 10 聖森 - Event 3 心折れた勇者 (13,11) - Page 2 Line 25:  - Comment: NW名前指定 心折れた勇者
+Map 10 聖森 - Event 3 心折れた勇者 (13,11) - Page 2 Line 33:  - Comment: NW名前指定 心折れた勇者
+Map 10 聖森 - Event 3 心折れた勇者 (13,11) - Page 3 Line 1:  - Comment: ネームウィンドウ on
+Map 10 聖森 - Event 3 心折れた勇者 (13,11) - Page 3 Line 2:  - Comment: NW名前指定 心折れた勇者
+Map 10 聖森 - Event 3 心折れた勇者 (13,11) - Page 3 Line 7:  - Comment: NW名前指定 心折れた勇者
+Map 10 聖森 - Event 3 心折れた勇者 (13,11) - Page 3 Line 13:  - Comment: NW名前指定 心折れた勇者
+Map 10 聖森 - Event 3 心折れた勇者 (13,11) - Page 3 Line 20:  - Comment: NW名前指定 心折れた勇者
+Map 10 聖森 - Event 3 心折れた勇者 (13,11) - Page 3 Line 24:  - Comment: NW名前指定 心折れた勇者
+Map 10 聖森 - Event 3 心折れた勇者 (13,11) - Page 3 Line 30:  - Comment: NW名前指定 心折れた勇者
+Map 10 聖森 - Event 3 心折れた勇者 (13,11) - Page 3 Line 36:  - Comment: NW名前指定 心折れた勇者
+Map 10 聖森 - Event 3 心折れた勇者 (13,11) - Page 3 Line 41:  - Comment: NW名前指定 心折れた勇者
+Map 10 聖森 - Event 3 心折れた勇者 (13,11) - Page 3 Line 50:  - Comment: NW名前指定 心折れた勇者
+Map 10 聖森 - Event 3 心折れた勇者 (13,11) - Page 4 Line 1:  - Comment: ネームウィンドウ on
+Map 10 聖森 - Event 3 心折れた勇者 (13,11) - Page 4 Line 2:  - Comment: NW名前指定 心折れた勇者
+Map 10 聖森 - Event 3 心折れた勇者 (13,11) - Page 4 Line 6:  - Comment: NW名前指定 心折れた勇者
+Map 10 聖森 - Event 3 心折れた勇者 (13,11) - Page 4 Line 11:  - Comment: NW名前指定 心折れた勇者
+Map 10 聖森 - Event 3 心折れた勇者 (13,11) - Page 4 Line 15:  - Comment: NW名前指定 心折れた勇者
+Map 10 聖森 - Event 3 心折れた勇者 (13,11) - Page 5 Line 1:  - Comment: ネームウィンドウ on
+Map 10 聖森 - Event 3 心折れた勇者 (13,11) - Page 5 Line 2:  - Comment: NW名前指定 立ち直った勇者
+Map 10 聖森 - Event 3 心折れた勇者 (13,11) - Page 5 Line 7:  - Comment: NW名前指定 立ち直った勇者
+Map 10 聖森 - Event 4 EV004 (25,12) - Page 1 Line 1:  - Comment: NW名前指定 フェアリーA
+Map 10 聖森 - Event 4 EV004 (25,12) - Page 2 Line 1:  - Comment: NW名前指定 フェアリーA
+Map 10 聖森 - Event 4 EV004 (25,12) - Page 2 Line 8:  - Comment: NW名前指定 フェアリーA
+Map 10 聖森 - Event 4 EV004 (25,12) - Page 3 Line 1:  - Comment: NW名前指定 フェアリーA
+Map 10 聖森 - Event 4 EV004 (25,12) - Page 3 Line 5:  - Comment: NW名前指定 フェアリーA
+Map 10 聖森 - Event 4 EV004 (25,12) - Page 4 Line 1:  - Comment: NW名前指定 フェアリーA
+Map 10 聖森 - Event 4 EV004 (25,12) - Page 4 Line 5:  - Comment: NW名前指定 フェアリーA
+Map 10 聖森 - Event 4 EV004 (25,12) - Page 4 Line 13:  - Comment: NW名前指定 フェアリーA
+Map 10 聖森 - Event 4 EV004 (25,12) - Page 5 Line 1:  - Comment: NW名前指定 フェアリーA
+Map 10 聖森 - Event 4 EV004 (25,12) - Page 5 Line 5:  - Comment: NW名前指定 フェアリーA
+Map 10 聖森 - Event 6 EV006 (8,27) - Page 1 Line 1:  - Comment: NW名前指定 フェアリーB
+Map 10 聖森 - Event 6 EV006 (8,27) - Page 2 Line 1:  - Comment: NW名前指定 フェアリーB
+Map 10 聖森 - Event 6 EV006 (8,27) - Page 2 Line 8:  - Comment: NW名前指定 フェアリーB
+Map 10 聖森 - Event 6 EV006 (8,27) - Page 3 Line 1:  - Comment: NW名前指定 フェアリーB
+Map 10 聖森 - Event 6 EV006 (8,27) - Page 3 Line 4:  - Comment: NW名前指定 フェアリーB
+Map 10 聖森 - Event 6 EV006 (8,27) - Page 3 Line 12:  - Comment: NW名前指定 フェアリーB
+Map 10 聖森 - Event 6 EV006 (8,27) - Page 4 Line 1:  - Comment: NW名前指定 フェアリーB
+Map 10 聖森 - Event 6 EV006 (8,27) - Page 4 Line 4:  - Comment: NW名前指定 フェアリーB
+Map 10 聖森 - Event 20 EV020 (8,16) - Page 1 Line 1:  - Comment: NW名前指定 フェアリーB
+Map 10 聖森 - Event 20 EV020 (8,16) - Page 1 Line 5:  - Comment: NW名前指定 フェアリーB
+Map 10 聖森 - Event 20 EV020 (8,16) - Page 1 Line 9:  - Comment: NW名前指定 フェアリーB
+Map 10 聖森 - Event 20 EV020 (8,16) - Page 1 Line 17:  - Comment: NW名前指定 フェアリーB
+Map 10 聖森 - Event 20 EV020 (8,16) - Page 2 Line 1:  - Comment: NW名前指定 フェアリーB
+Map 10 聖森 - Event 20 EV020 (8,16) - Page 2 Line 5:  - Comment: NW名前指定 フェアリーB
+Map 10 聖森 - Event 20 EV020 (8,16) - Page 2 Line 9:  - Comment: NW名前指定 フェアリーB
+Map 10 聖森 - Event 20 EV020 (8,16) - Page 3 Line 1:  - Comment: NW名前指定 フェアリーB
+Map 10 聖森 - Event 20 EV020 (8,16) - Page 3 Line 5:  - Comment: NW名前指定 フェアリーB
+Map 10 聖森 - Event 20 EV020 (8,16) - Page 3 Line 13:  - Comment: NW名前指定 フェアリーB
+Map 10 聖森 - Event 20 EV020 (8,16) - Page 4 Line 1:  - Comment: NW名前指定 フェアリーB
+Map 10 聖森 - Event 20 EV020 (8,16) - Page 4 Line 5:  - Comment: NW名前指定 フェアリーB
+Map 10 聖森 - Event 22 オックス (11,25) - Page 1 Line 1:  - Comment: NW名前指定 聖女の護衛オックス
+Map 10 聖森 - Event 23 ベリオール (13,25) - Page 1 Line 1:  - Comment: NW名前指定 聖女の護衛ベリオール
+Map 10 聖森 - Event 23 ベリオール (13,25) - Page 1 Line 4:  - Comment: NW名前指定 聖女の護衛ベリオール
+Map 10 聖森 - Event 23 ベリオール (13,25) - Page 1 Line 13:  - Comment: NW名前指定 聖女の護衛ベリオール
+Map 10 聖森 - Event 24 EV024 (15,19) - Page 1 Line 1:  - Comment: NW名前指定 放浪騎士イズ
+Map 10 聖森 - Event 24 EV024 (15,19) - Page 1 Line 5:  - Comment: NW名前指定 放浪騎士イズ
+Map 10 聖森 - Event 24 EV024 (15,19) - Page 1 Line 10:  - Comment: NW名前指定 放浪騎士イズ
+Map 10 聖森 - Event 24 EV024 (15,19) - Page 1 Line 15:  - Comment: NW名前指定 放浪騎士イズ
+Map 10 聖森 - Event 24 EV024 (15,19) - Page 1 Line 18:  - Comment: NW名前指定 放浪騎士イズ
+Map 10 聖森 - Event 24 EV024 (15,19) - Page 2 Line 1:  - Comment: NW名前指定 放浪騎士イズ
+Map 10 聖森 - Event 24 EV024 (15,19) - Page 2 Line 12:  - Comment: NW名前指定 放浪騎士イズ
+Map 11 ２ - Event 13 EV013 (24,17) - Page 1 Line 1:  - Comment: NW名前指定 フェアリーC
+Map 11 ２ - Event 13 EV013 (24,17) - Page 1 Line 5:  - Comment: NW名前指定 フェアリーC
+Map 11 ２ - Event 13 EV013 (24,17) - Page 2 Line 1:  - Comment: NW名前指定 フェアリーC
+Map 11 ２ - Event 13 EV013 (24,17) - Page 2 Line 7:  - Comment: NW名前指定 フェアリーC
+Map 11 ２ - Event 13 EV013 (24,17) - Page 2 Line 16:  - Comment: NW名前指定 フェアリーC
+Map 11 ２ - Event 13 EV013 (24,17) - Page 3 Line 1:  - Comment: NW名前指定 フェアリーC
+Map 11 ２ - Event 13 EV013 (24,17) - Page 3 Line 7:  - Comment: NW名前指定 フェアリーC
+Map 11 ２ - Event 13 EV013 (24,17) - Page 4 Line 1:  - Comment: NW名前指定 フェアリーC
+Map 11 ２ - Event 13 EV013 (24,17) - Page 4 Line 4:  - Comment: NW名前指定 フェアリーC
+Map 11 ２ - Event 13 EV013 (24,17) - Page 4 Line 13:  - Comment: NW名前指定 フェアリーC
+Map 11 ２ - Event 13 EV013 (24,17) - Page 5 Line 1:  - Comment: NW名前指定 フェアリーC
+Map 11 ２ - Event 13 EV013 (24,17) - Page 5 Line 4:  - Comment: NW名前指定 フェアリーC
+Map 11 ２ - Event 14 EV014 (11,15) - Page 1 Line 14:  - Comment: NW名前指定 犬
+Map 11 ２ - Event 18 EV018 (31,19) - Page 1 Line 1:  - Comment: NW名前指定 名も無き商人
+Map 11 ２ - Event 18 EV018 (31,19) - Page 1 Line 6:  - Comment: NW名前指定 名も無き商人
+Map 11 ２ - Event 18 EV018 (31,19) - Page 2 Line 1:  - Comment: NW名前指定 名も無き商人
+Map 11 ２ - Event 18 EV018 (31,19) - Page 2 Line 7:  - Comment: NW名前指定 名も無き商人
+Map 11 ２ - Event 18 EV018 (31,19) - Page 2 Line 14:  - Comment: NW名前指定 名も無き商人
+Map 11 ２ - Event 18 EV018 (31,19) - Page 2 Line 21:  - Comment: NW名前指定 名も無き商人
+Map 11 ２ - Event 18 EV018 (31,19) - Page 2 Line 26:  - Comment: NW名前指定 名も無き商人
+Map 11 ２ - Event 18 EV018 (31,19) - Page 2 Line 31:  - Comment: NW名前指定 名も無き商人
+Map 11 ２ - Event 18 EV018 (31,19) - Page 3 Line 1:  - Comment: NW名前指定 名も無き商人
+Map 11 ２ - Event 18 EV018 (31,19) - Page 3 Line 6:  - Comment: NW名前指定 名も無き商人
+Map 11 ２ - Event 18 EV018 (31,19) - Page 3 Line 20:  - Comment: NW名前指定 名も無き商人
+Map 11 ２ - Event 18 EV018 (31,19) - Page 3 Line 29:  - Comment: NW名前指定 名も無き商人
+Map 12 ２ - Event 3 EV003 (31,19) - Page 1 Line 1:  - Comment: NW名前指定 陰月の騎士オーエンティウス
+Map 12 ２ - Event 3 EV003 (31,19) - Page 1 Line 5:  - Comment: NW名前指定 陰月の騎士オーエンティウス
+Map 12 ２ - Event 3 EV003 (31,19) - Page 1 Line 10:  - Comment: NW名前指定 陰月の騎士オーエンティウス
+Map 12 ２ - Event 3 EV003 (31,19) - Page 1 Line 13:  - Comment: NW名前指定 陰月の騎士オーエンティウス
+Map 12 ２ - Event 3 EV003 (31,19) - Page 1 Line 20:  - Comment: NW名前指定 陰月の騎士オーエンティウス
+Map 12 ２ - Event 3 EV003 (31,19) - Page 1 Line 26:  - Comment: NW名前指定 陰月の騎士オーエンティウス
+Map 12 ２ - Event 3 EV003 (31,19) - Page 2 Line 1:  - Comment: NW名前指定 陰月の騎士オーエンティウス
+Map 12 ２ - Event 3 EV003 (31,19) - Page 2 Line 6:  - Comment: NW名前指定 陰月の騎士オーエンティウス
+Map 12 ２ - Event 3 EV003 (31,19) - Page 2 Line 10:  - Comment: NW名前指定 陰月の騎士オーエンティウス
+Map 12 ２ - Event 3 EV003 (31,19) - Page 3 Line 1:  - Comment: NW名前指定 陰月の騎士オーエンティウス
+Map 12 ２ - Event 3 EV003 (31,19) - Page 3 Line 11:  - Comment: NW名前指定 陰月の騎士オーエンティウス
+Map 14 ３ - Event 7 ロプス (7,65) - Page 1 Line 1:  - Comment: ネームウィンドウ on
+Map 14 ３ - Event 7 ロプス (7,65) - Page 1 Line 2:  - Comment: NW名前指定 鍛冶屋ロプス
+Map 14 ３ - Event 7 ロプス (7,65) - Page 1 Line 5:  - Comment: NW名前指定 鍛冶屋ロプス
+Map 14 ３ - Event 7 ロプス (7,65) - Page 2 Line 1:  - Comment: ネームウィンドウ on
+Map 14 ３ - Event 7 ロプス (7,65) - Page 2 Line 2:  - Comment: NW名前指定 鍛冶屋ロプス
+Map 14 ３ - Event 7 ロプス (7,65) - Page 2 Line 8:  - Comment: NW名前指定 鍛冶屋ロプス
+Map 14 ３ - Event 7 ロプス (7,65) - Page 2 Line 15:  - Comment: NW名前指定 鍛冶屋ロプス
+Map 15 １ - Event 10 エズワルド (30,13) - Page 1 Line 1:  - Comment: NW名前指定 教戒師エズワルド
+Map 15 １ - Event 10 エズワルド (30,13) - Page 1 Line 5:  - Comment: NW名前指定 教戒師エズワルド
+Map 15 １ - Event 10 エズワルド (30,13) - Page 2 Line 2:  - Comment: NW名前指定 教戒師エズワルド
+Map 15 １ - Event 10 エズワルド (30,13) - Page 2 Line 11:  - Comment: NW名前指定 教戒師エズワルド
+Map 15 １ - Event 10 エズワルド (30,13) - Page 2 Line 15:  - Comment: NW名前指定 教戒師エズワルド
+Map 15 １ - Event 10 エズワルド (30,13) - Page 2 Line 20:  - Comment: NW名前指定 教戒師エズワルド
+Map 15 １ - Event 10 エズワルド (30,13) - Page 2 Line 41:  - Comment: NW名前指定 教戒師エズワルド
+Map 15 １ - Event 10 エズワルド (30,13) - Page 2 Line 46:  - Comment: NW名前指定 教戒師エズワルド
+Map 15 １ - Event 10 エズワルド (30,13) - Page 2 Line 57:  - Comment: NW名前指定 教戒師エズワルド
+Map 15 １ - Event 10 エズワルド (30,13) - Page 2 Line 64:  - Comment: NW名前指定 教戒師エズワルド
+Map 15 １ - Event 10 エズワルド (30,13) - Page 2 Line 74:  - Comment: NW名前指定 教戒師エズワルド
+Map 15 １ - Event 10 エズワルド (30,13) - Page 2 Line 78:  - Comment: NW名前指定 教戒師エズワルド
+Map 15 １ - Event 10 エズワルド (30,13) - Page 2 Line 83:  - Comment: NW名前指定 教戒師エズワルド
+Map 15 １ - Event 12  (27,15) - Page 1 Line 1:  - Comment: NW名前指定 盗賊
+Map 15 １ - Event 12  (27,15) - Page 1 Line 4:  - Comment: NW名前指定 盗賊
+Map 19 １● - Event 10 敵 (22,4) - Page 1 Line 1:  - Comment: NW名前指定 喋る花
+Map 19 １● - Event 10 敵 (22,4) - Page 1 Line 5:  - Comment: NW名前指定 喋る花
+Map 19 １● - Event 10 敵 (22,4) - Page 1 Line 10:  - Comment: NW名前指定 喋る花
+Map 19 １● - Event 10 敵 (22,4) - Page 1 Line 14:  - Comment: NW名前指定 喋る花
+Map 19 １● - Event 10 敵 (22,4) - Page 2 Line 1:  - Comment: NW名前指定 喋る花
+Map 19 １● - Event 10 敵 (22,4) - Page 2 Line 6:  - Comment: NW名前指定 喋る花
+Map 19 １● - Event 10 敵 (22,4) - Page 2 Line 16:  - Comment: NW名前指定 喋る花
+Map 19 １● - Event 10 敵 (22,4) - Page 2 Line 21:  - Comment: NW名前指定 喋る花
+Map 19 １● - Event 10 敵 (22,4) - Page 2 Line 30:  - Comment: NW名前指定 喋る花
+Map 19 １● - Event 10 敵 (22,4) - Page 2 Line 45:  - Comment: NW名前指定 喋る花
+Map 19 １● - Event 10 敵 (22,4) - Page 3 Line 1:  - Comment: NW名前指定 喋る花
+Map 19 １● - Event 10 敵 (22,4) - Page 3 Line 5:  - Comment: NW名前指定 喋る花
+Map 19 １● - Event 10 敵 (22,4) - Page 3 Line 15:  - Comment: NW名前指定 喋る花
+Map 19 １● - Event 10 敵 (22,4) - Page 3 Line 20:  - Comment: NW名前指定 喋る花
+Map 19 １● - Event 10 敵 (22,4) - Page 3 Line 29:  - Comment: NW名前指定 喋る花
+Map 19 １● - Event 10 敵 (22,4) - Page 3 Line 44:  - Comment: NW名前指定 喋る花
+Map 19 １● - Event 10 敵 (22,4) - Page 4 Line 3:  - Comment: NW名前指定 退廃主
+Map 19 １● - Event 10 敵 (22,4) - Page 4 Line 7:  - Comment: NW名前指定 退廃主
+Map 19 １● - Event 21 EV021 (49,41) - Page 1 Line 1:  - Comment: NW名前指定 亀騎士アダマン
+Map 19 １● - Event 21 EV021 (49,41) - Page 1 Line 4:  - Comment: NW名前指定 亀騎士アダマン
+Map 19 １● - Event 21 EV021 (49,41) - Page 1 Line 8:  - Comment: NW名前指定 亀騎士アダマン
+Map 19 １● - Event 21 EV021 (49,41) - Page 2 Line 1:  - Comment: NW名前指定 亀騎士アダマン
+Map 19 １● - Event 21 EV021 (49,41) - Page 2 Line 6:  - Comment: NW名前指定 亀騎士アダマン
+Map 19 １● - Event 21 EV021 (49,41) - Page 2 Line 12:  - Comment: NW名前指定 亀騎士アダマン
+Map 19 １● - Event 21 EV021 (49,41) - Page 2 Line 17:  - Comment: NW名前指定 亀騎士アダマン
+Map 19 １● - Event 21 EV021 (49,41) - Page 2 Line 22:  - Comment: NW名前指定 亀騎士アダマン
+Map 19 １● - Event 21 EV021 (49,41) - Page 2 Line 31:  - Comment: NW名前指定 亀騎士アダマン
+Map 19 １● - Event 21 EV021 (49,41) - Page 3 Line 1:  - Comment: NW名前指定 亀騎士アダマン
+Map 19 １● - Event 21 EV021 (49,41) - Page 3 Line 5:  - Comment: NW名前指定 亀騎士アダマン
+Map 19 １● - Event 21 EV021 (49,41) - Page 3 Line 11:  - Comment: NW名前指定 亀騎士アダマン
+Map 19 １● - Event 21 EV021 (49,41) - Page 3 Line 16:  - Comment: NW名前指定 亀騎士アダマン
+Map 19 １● - Event 21 EV021 (49,41) - Page 3 Line 21:  - Comment: NW名前指定 亀騎士アダマン
+Map 19 １● - Event 21 EV021 (49,41) - Page 3 Line 30:  - Comment: NW名前指定 亀騎士アダマン
+Map 21 ３　BOSS - Event 12 EV012 (21,25) - Page 1 Line 1:  - Comment: NW名前指定 罪背負いのヴィルト
+Map 21 ３　BOSS - Event 12 EV012 (21,25) - Page 1 Line 9:  - Comment: NW名前指定 罪背負いのヴィルト
+Map 21 ３　BOSS - Event 12 EV012 (21,25) - Page 1 Line 18:  - Comment: NW名前指定 罪背負いのヴィルト
+Map 21 ３　BOSS - Event 12 EV012 (21,25) - Page 1 Line 34:  - Comment: NW名前指定 罪背負いのヴィルト
+Map 21 ３　BOSS - Event 12 EV012 (21,25) - Page 2 Line 1:  - Comment: NW名前指定 罪背負いのヴィルト
+Map 21 ３　BOSS - Event 12 EV012 (21,25) - Page 2 Line 5:  - Comment: NW名前指定 罪背負いのヴィルト
+Map 21 ３　BOSS - Event 12 EV012 (21,25) - Page 2 Line 9:  - Comment: NW名前指定 罪背負いのヴィルト
+Map 21 ３　BOSS - Event 12 EV012 (21,25) - Page 2 Line 14:  - Comment: NW名前指定 罪背負いのヴィルト
+Map 21 ３　BOSS - Event 12 EV012 (21,25) - Page 2 Line 19:  - Comment: NW名前指定 罪背負いのヴィルト
+Map 21 ３　BOSS - Event 12 EV012 (21,25) - Page 2 Line 23:  - Comment: NW名前指定 罪背負いのヴィルト
+Map 21 ３　BOSS - Event 12 EV012 (21,25) - Page 2 Line 28:  - Comment: NW名前指定 罪背負いのヴィルト
+Map 21 ３　BOSS - Event 12 EV012 (21,25) - Page 2 Line 33:  - Comment: NW名前指定 罪背負いのヴィルト
+Map 21 ３　BOSS - Event 12 EV012 (21,25) - Page 3 Line 1:  - Comment: NW名前指定 罪背負いのヴィルト
+Map 21 ３　BOSS - Event 12 EV012 (21,25) - Page 3 Line 8:  - Comment: NW名前指定 罪背負いのヴィルト
+Map 21 ３　BOSS - Event 12 EV012 (21,25) - Page 3 Line 14:  - Comment: NW名前指定 罪背負いのヴィルト
+Map 21 ３　BOSS - Event 12 EV012 (21,25) - Page 3 Line 18:  - Comment: NW名前指定 罪背負いのヴィルト
+Map 21 ３　BOSS - Event 12 EV012 (21,25) - Page 3 Line 46:  - Comment: NW名前指定 罪背負いのヴィルト
+Map 21 ３　BOSS - Event 12 EV012 (21,25) - Page 3 Line 57:  - Comment: NW名前指定 罪背負いのヴィルト
+Map 21 ３　BOSS - Event 12 EV012 (21,25) - Page 3 Line 73:  - Comment: NW名前指定 罪背負いのヴィルト
+Map 22 魔女の家 - Event 5 EV005 (9,26) - Page 3 Line 8:  - Comment: NW名前指定 ヘンゼル
+Map 22 魔女の家 - Event 5 EV005 (9,26) - Page 3 Line 12:  - Comment: NW名前指定 ヘンゼル
+Map 22 魔女の家 - Event 5 EV005 (9,26) - Page 3 Line 19:  - Comment: NW名前指定 グレーテル
+Map 22 魔女の家 - Event 5 EV005 (9,26) - Page 3 Line 25:  - Comment: NW名前指定 ヘンゼル
+Map 22 魔女の家 - Event 5 EV005 (9,26) - Page 3 Line 38:  - Comment: NW名前指定 ヘンゼル
+Map 22 魔女の家 - Event 5 EV005 (9,26) - Page 3 Line 50:  - Comment: NW名前指定 グレーテル
+Map 22 魔女の家 - Event 5 EV005 (9,26) - Page 3 Line 53:  - Comment: NW名前指定 ヘンゼル
+Map 22 魔女の家 - Event 5 EV005 (9,26) - Page 3 Line 57:  - Comment: NW名前指定 ヘンゼル
+Map 22 魔女の家 - Event 5 EV005 (9,26) - Page 4 Line 8:  - Comment: NW名前指定 ヘンゼル
+Map 22 魔女の家 - Event 5 EV005 (9,26) - Page 4 Line 12:  - Comment: NW名前指定 ヘンゼル
+Map 22 魔女の家 - Event 5 EV005 (9,26) - Page 4 Line 19:  - Comment: NW名前指定 グレーテル
+Map 22 魔女の家 - Event 5 EV005 (9,26) - Page 4 Line 25:  - Comment: NW名前指定 ヘンゼル
+Map 22 魔女の家 - Event 5 EV005 (9,26) - Page 4 Line 38:  - Comment: NW名前指定 ヘンゼル
+Map 22 魔女の家 - Event 5 EV005 (9,26) - Page 4 Line 50:  - Comment: NW名前指定 グレーテル
+Map 22 魔女の家 - Event 5 EV005 (9,26) - Page 4 Line 53:  - Comment: NW名前指定 ヘンゼル
+Map 22 魔女の家 - Event 5 EV005 (9,26) - Page 4 Line 57:  - Comment: NW名前指定 ヘンゼル
+Map 22 魔女の家 - Event 5 EV005 (9,26) - Page 7 Line 1:  - Comment: NW名前指定 罪背負いのヴィルト
+Map 22 魔女の家 - Event 5 EV005 (9,26) - Page 7 Line 7:  - Comment: NW名前指定 罪背負いのヴィルト
+Map 22 魔女の家 - Event 5 EV005 (9,26) - Page 7 Line 16:  - Comment: NW名前指定 罪背負いのヴィルト
+Map 22 魔女の家 - Event 5 EV005 (9,26) - Page 7 Line 27:  - Comment: NW名前指定 罪背負いのヴィルト
+Map 22 魔女の家 - Event 5 EV005 (9,26) - Page 7 Line 31:  - Comment: NW名前指定 罪背負いのヴィルト
+Map 22 魔女の家 - Event 5 EV005 (9,26) - Page 10 Line 1:  - Comment: NW名前指定 魔獣ヴィルト
+Map 22 魔女の家 - Event 13 EV013 (20,17) - Page 1 Line 1:  - Comment: NW名前指定 猫
+Map 22 魔女の家 - Event 14 EV014 (21,16) - Page 1 Line 1:  - Comment: NW名前指定 猫
+Map 22 魔女の家 - Event 14 EV014 (21,16) - Page 1 Line 20:  - Comment: NW名前指定 猫
+Map 22 魔女の家 - Event 14 EV014 (21,16) - Page 1 Line 27:  - Comment: NW名前指定 猫
+Map 22 魔女の家 - Event 14 EV014 (21,16) - Page 2 Line 1:  - Comment: NW名前指定 猫
+Map 22 魔女の家 - Event 15 EV015 (21,18) - Page 1 Line 1:  - Comment: NW名前指定 猫
+Map 22 魔女の家 - Event 16 EV016 (22,17) - Page 1 Line 1:  - Comment: NW名前指定 猫
+Map 22 魔女の家 - Event 16 EV016 (22,17) - Page 1 Line 5:  - Comment: NW名前指定 猫
+Map 25 ２　BOSS　● - Event 85 EV085 (26,42) - Page 1 Line 1:  - Comment: NW名前指定 ハーメルンの笛吹き男
+Map 25 ２　BOSS　● - Event 85 EV085 (26,42) - Page 1 Line 4:  - Comment: NW名前指定 ハーメルンの笛吹き男
+Map 25 ２　BOSS　● - Event 85 EV085 (26,42) - Page 2 Line 1:  - Comment: NW名前指定 ハーメルンの笛吹き男
+Map 25 ２　BOSS　● - Event 85 EV085 (26,42) - Page 2 Line 7:  - Comment: NW名前指定 ハーメルンの笛吹き男
+Map 25 ２　BOSS　● - Event 85 EV085 (26,42) - Page 2 Line 11:  - Comment: NW名前指定 ハーメルンの笛吹き男
+Map 25 ２　BOSS　● - Event 85 EV085 (26,42) - Page 2 Line 15:  - Comment: NW名前指定 ハーメルンの笛吹き男
+Map 25 ２　BOSS　● - Event 85 EV085 (26,42) - Page 2 Line 20:  - Comment: NW名前指定 ハーメルンの笛吹き男
+Map 25 ２　BOSS　● - Event 85 EV085 (26,42) - Page 2 Line 27:  - Comment: NW名前指定 ハーメルンの笛吹き男
+Map 25 ２　BOSS　● - Event 85 EV085 (26,42) - Page 2 Line 31:  - Comment: NW名前指定 ハーメルンの笛吹き男
+Map 25 ２　BOSS　● - Event 85 EV085 (26,42) - Page 2 Line 39:  - Comment: NW名前指定 ハーメルンの笛吹き男
+Map 25 ２　BOSS　● - Event 85 EV085 (26,42) - Page 3 Line 1:  - Comment: NW名前指定 ハーメルンの笛吹き男
+Map 25 ２　BOSS　● - Event 85 EV085 (26,42) - Page 3 Line 7:  - Comment: NW名前指定 ハーメルンの笛吹き男
+Map 25 ２　BOSS　● - Event 85 EV085 (26,42) - Page 3 Line 11:  - Comment: NW名前指定 ハーメルンの笛吹き男
+Map 25 ２　BOSS　● - Event 85 EV085 (26,42) - Page 3 Line 18:  - Comment: NW名前指定 ハーメルンの笛吹き男
+Map 25 ２　BOSS　● - Event 85 EV085 (26,42) - Page 3 Line 22:  - Comment: NW名前指定 ハーメルンの笛吹き男
+Map 25 ２　BOSS　● - Event 85 EV085 (26,42) - Page 3 Line 30:  - Comment: NW名前指定 ハーメルンの笛吹き男
+Map 27 淫腐街 - Event 35 EV035 (65,29) - Page 1 Line 9:  - Comment: NW名前指定 売春婦
+Map 27 淫腐街 - Event 35 EV035 (65,29) - Page 1 Line 15:  - Comment: NW名前指定 売春婦
+Map 27 淫腐街 - Event 35 EV035 (65,29) - Page 1 Line 23:  - Comment: NW名前指定 売春婦
+Map 27 淫腐街 - Event 37 EV037 (63,29) - Page 1 Line 9:  - Comment: NW名前指定 売春婦
+Map 27 淫腐街 - Event 37 EV037 (63,29) - Page 1 Line 15:  - Comment: NW名前指定 売春婦
+Map 27 淫腐街 - Event 37 EV037 (63,29) - Page 1 Line 23:  - Comment: NW名前指定 売春婦
+Map 27 淫腐街 - Event 54 EV054 (64,29) - Page 1 Line 9:  - Comment: NW名前指定 売春婦
+Map 27 淫腐街 - Event 54 EV054 (64,29) - Page 1 Line 15:  - Comment: NW名前指定 売春婦
+Map 27 淫腐街 - Event 54 EV054 (64,29) - Page 1 Line 23:  - Comment: NW名前指定 売春婦
+Map 27 淫腐街 - Event 64 敵 (3,14) - Page 1 Line 1:  - Comment: NW名前指定 売春婦
+Map 27 淫腐街 - Event 64 敵 (3,14) - Page 1 Line 9:  - Comment: NW名前指定 売春婦
+Map 27 淫腐街 - Event 70 EV070 (8,49) - Page 1 Line 6:  - Comment: NW名前指定 犬
+Map 27 淫腐街 - Event 73 EV073 (36,40) - Page 1 Line 4:  - Comment: NW名前指定 マッチ売りの少女
+Map 29 デバッグ - Event 1 ソウル (2,1) - Page 1 Line 1:  - Comment: <出現条件>
+Map 29 デバッグ - Event 1 ソウル (2,1) - Page 1 Line 2:  - Comment: スイッチ[69] == ON 
+Map 29 デバッグ - Event 1 ソウル (2,1) - Page 1 Line 3:  - Comment: 変数[21] == 29
+Map 29 デバッグ - Event 1 ソウル (2,1) - Page 1 Line 4:  - Comment: <条件終了>
+Map 31 娼館「胎児の夢」 - Event 2 EV002 (14,10) - Page 1 Line 1:  - Comment: NW名前指定 死んだ眼をしている男性
+Map 31 娼館「胎児の夢」 - Event 2 EV002 (14,10) - Page 1 Line 6:  - Comment: NW名前指定 死んだ眼をしている男性
+Map 31 娼館「胎児の夢」 - Event 2 EV002 (14,10) - Page 1 Line 11:  - Comment: NW名前指定 死んだ眼をしている男性
+Map 31 娼館「胎児の夢」 - Event 2 EV002 (14,10) - Page 1 Line 20:  - Comment: NW名前指定 死んだ眼をしている男性
+Map 31 娼館「胎児の夢」 - Event 3 EV003 (6,10) - Page 1 Line 1:  - Comment: NW名前指定 街の兵士
+Map 31 娼館「胎児の夢」 - Event 3 EV003 (6,10) - Page 1 Line 6:  - Comment: NW名前指定 街の兵士
+Map 31 娼館「胎児の夢」 - Event 3 EV003 (6,10) - Page 1 Line 11:  - Comment: NW名前指定 街の兵士
+Map 31 娼館「胎児の夢」 - Event 3 EV003 (6,10) - Page 1 Line 19:  - Comment: NW名前指定 街の兵士
+Map 31 娼館「胎児の夢」 - Event 5 EV005 (10,5) - Page 1 Line 1:  - Comment: NW名前指定 男主
+Map 31 娼館「胎児の夢」 - Event 5 EV005 (10,5) - Page 1 Line 5:  - Comment: NW名前指定 男主
+Map 31 娼館「胎児の夢」 - Event 5 EV005 (10,5) - Page 1 Line 14:  - Comment: NW名前指定 男主
+Map 31 娼館「胎児の夢」 - Event 10 EV010 (31,6) - Page 1 Line 3:  - Comment: NW名前指定 女
+Map 31 娼館「胎児の夢」 - Event 10 EV010 (31,6) - Page 1 Line 6:  - Comment: NW名前指定 女
+Map 31 娼館「胎児の夢」 - Event 11 EV011 (26,6) - Page 1 Line 3:  - Comment: NW名前指定 女
+Map 31 娼館「胎児の夢」 - Event 12 EV012 (21,6) - Page 1 Line 3:  - Comment: NW名前指定 女
+Map 32 マッチ屋 - Event 5 EV005 (16,14) - Page 3 Line 4:  - Comment: NW名前指定 エルマの母
+Map 32 マッチ屋 - Event 5 EV005 (16,14) - Page 3 Line 10:  - Comment: NW名前指定 エルマの母
+Map 32 マッチ屋 - Event 5 EV005 (16,14) - Page 6 Line 8:  - Comment: NW名前指定 エルマの母
+Map 33 ２階　BOSS - Event 15 裸の王様 (10,8) - Page 1 Line 6:  - Comment: NW名前指定 使用人
+Map 33 ２階　BOSS - Event 15 裸の王様 (10,8) - Page 1 Line 9:  - Comment: NW名前指定 使用人
+Map 33 ２階　BOSS - Event 15 裸の王様 (10,8) - Page 1 Line 16:  - Comment: NW名前指定 使用人
+Map 33 ２階　BOSS - Event 15 裸の王様 (10,8) - Page 1 Line 23:  - Comment: NW名前指定 鉄の王様
+Map 33 ２階　BOSS - Event 15 裸の王様 (10,8) - Page 1 Line 45:  - Comment: NW名前指定 鉄の王様
+Map 33 ２階　BOSS - Event 15 裸の王様 (10,8) - Page 1 Line 48:  - Comment: NW名前指定 鉄の王様
+Map 33 ２階　BOSS - Event 15 裸の王様 (10,8) - Page 1 Line 55:  - Comment: NW名前指定 鉄の王様
+Map 41 ２ - Event 41 亀 (22,32) - Page 1 Line 1:  - Comment: NW名前指定 亀騎士アダマン
+Map 41 ２ - Event 41 亀 (22,32) - Page 1 Line 4:  - Comment: NW名前指定 亀騎士アダマン
+Map 41 ２ - Event 41 亀 (22,32) - Page 2 Line 6:  - Comment: NW名前指定 亀騎士アダマン
+Map 41 ２ - Event 41 亀 (22,32) - Page 2 Line 10:  - Comment: NW名前指定 亀騎士アダマン
+Map 41 ２ - Event 41 亀 (22,32) - Page 2 Line 20:  - Comment: NW名前指定 亀騎士アダマン
+Map 41 ２ - Event 41 亀 (22,32) - Page 3 Line 1:  - Comment: NW名前指定 亀騎士アダマン
+Map 41 ２ - Event 41 亀 (22,32) - Page 3 Line 6:  - Comment: NW名前指定 亀騎士アダマン
+Map 41 ２ - Event 41 亀 (22,32) - Page 3 Line 10:  - Comment: NW名前指定 亀騎士アダマン
+Map 41 ２ - Event 41 亀 (22,32) - Page 3 Line 19:  - Comment: NW名前指定 亀騎士アダマン
+Map 43 ４　BOSS - Event 16 EV016 (21,35) - Page 1 Line 1:  - Comment: NW名前指定 死にかけの戦士
+Map 43 ４　BOSS - Event 16 EV016 (21,35) - Page 1 Line 5:  - Comment: NW名前指定 死にかけの戦士
+Map 43 ４　BOSS - Event 16 EV016 (21,35) - Page 1 Line 9:  - Comment: NW名前指定 死にかけの戦士
+Map 43 ４　BOSS - Event 16 EV016 (21,35) - Page 2 Line 1:  - Comment: NW名前指定 死にかけの戦士
+Map 43 ４　BOSS - Event 16 EV016 (21,35) - Page 2 Line 11:  - Comment: NW名前指定 死にかけの戦士
+Map 43 ４　BOSS - Event 16 EV016 (21,35) - Page 2 Line 16:  - Comment: NW名前指定 死にかけの戦士
+Map 43 ４　BOSS - Event 16 EV016 (21,35) - Page 2 Line 26:  - Comment: NW名前指定 死にかけの戦士
+Map 43 ４　BOSS - Event 16 EV016 (21,35) - Page 2 Line 30:  - Comment: NW名前指定 死にかけの戦士
+Map 43 ４　BOSS - Event 16 EV016 (21,35) - Page 2 Line 39:  - Comment: NW名前指定 死にかけの戦士
+Map 43 ４　BOSS - Event 16 EV016 (21,35) - Page 2 Line 43:  - Comment: NW名前指定 死にかけの戦士
+Map 43 ４　BOSS - Event 16 EV016 (21,35) - Page 2 Line 52:  - Comment: NW名前指定 死にかけの戦士
+Map 43 ４　BOSS - Event 16 EV016 (21,35) - Page 2 Line 57:  - Comment: NW名前指定 死にかけの戦士
+Map 43 ４　BOSS - Event 16 EV016 (21,35) - Page 3 Line 1:  - Comment: NW名前指定 死にかけの戦士
+Map 43 ４　BOSS - Event 16 EV016 (21,35) - Page 3 Line 5:  - Comment: NW名前指定 死にかけの戦士
+Map 46 １ - Event 2 EV002 (8,7) - Page 1 Line 1:  - Comment: NW名前指定 堕落した賢者
+Map 46 １ - Event 2 EV002 (8,7) - Page 1 Line 5:  - Comment: NW名前指定 堕落した賢者
+Map 46 １ - Event 2 EV002 (8,7) - Page 2 Line 3:  - Comment: NW名前指定 堕落した賢者
+Map 46 １ - Event 2 EV002 (8,7) - Page 2 Line 8:  - Comment: NW名前指定 堕落した賢者
+Map 46 １ - Event 2 EV002 (8,7) - Page 2 Line 12:  - Comment: NW名前指定 堕落した賢者
+Map 46 １ - Event 2 EV002 (8,7) - Page 2 Line 19:  - Comment: NW名前指定 堕落した賢者
+Map 48 白雪城 - Event 6 敵 (20,25) - Page 1 Line 1:  - Comment: NW名前指定 白雪の王子
+Map 48 白雪城 - Event 6 敵 (20,25) - Page 2 Line 1:  - Comment: NW名前指定 白雪の王子
+Map 48 白雪城 - Event 6 敵 (20,25) - Page 2 Line 11:  - Comment: NW名前指定 白雪の王子
+Map 48 白雪城 - Event 6 敵 (20,25) - Page 2 Line 16:  - Comment: NW名前指定 白雪の王子
+Map 48 白雪城 - Event 6 敵 (20,25) - Page 2 Line 25:  - Comment: NW名前指定 白雪の王子
+Map 48 白雪城 - Event 6 敵 (20,25) - Page 3 Line 1:  - Comment: NW名前指定 白雪の王子
+Map 48 白雪城 - Event 6 敵 (20,25) - Page 3 Line 4:  - Comment: NW名前指定 白雪の王子
+Map 48 白雪城 - Event 6 敵 (20,25) - Page 3 Line 9:  - Comment: NW名前指定 白雪の王子
+Map 53 ３　BOSS - Event 6 EV006 (25,15) - Page 1 Line 2:  - Comment: NW名前指定 小人
+Map 53 ３　BOSS - Event 6 EV006 (25,15) - Page 2 Line 2:  - Comment: NW名前指定 小人
+Map 53 ３　BOSS - Event 8 EV008 (26,19) - Page 1 Line 2:  - Comment: NW名前指定 小人
+Map 53 ３　BOSS - Event 8 EV008 (26,19) - Page 2 Line 2:  - Comment: NW名前指定 小人
+Map 53 ３　BOSS - Event 9 EV009 (20,19) - Page 1 Line 2:  - Comment: NW名前指定 小人
+Map 53 ３　BOSS - Event 9 EV009 (20,19) - Page 2 Line 2:  - Comment: NW名前指定 小人
+Map 53 ３　BOSS - Event 11 EV011 (24,18) - Page 1 Line 2:  - Comment: NW名前指定 小人
+Map 53 ３　BOSS - Event 11 EV011 (24,18) - Page 2 Line 2:  - Comment: NW名前指定 小人
+Map 53 ３　BOSS - Event 12 EV012 (22,18) - Page 1 Line 1:  - Comment: NW名前指定 小人
+Map 53 ３　BOSS - Event 12 EV012 (22,18) - Page 1 Line 4:  - Comment: NW名前指定 小人
+Map 53 ３　BOSS - Event 12 EV012 (22,18) - Page 1 Line 9:  - Comment: NW名前指定 小人
+Map 53 ３　BOSS - Event 12 EV012 (22,18) - Page 2 Line 1:  - Comment: NW名前指定 小人
+Map 53 ３　BOSS - Event 12 EV012 (22,18) - Page 2 Line 5:  - Comment: NW名前指定 小人
+Map 53 ３　BOSS - Event 13 EV013 (23,16) - Page 1 Line 2:  - Comment: NW名前指定 小人
+Map 53 ３　BOSS - Event 13 EV013 (23,16) - Page 2 Line 2:  - Comment: NW名前指定 小人
+Map 57 室内 - Event 20 黒の審判者 (41,31) - Page 1 Line 1:  - Comment: NW名前指定 黒の審判者ハイン
+Map 57 室内 - Event 20 黒の審判者 (41,31) - Page 1 Line 4:  - Comment: NW名前指定 黒の審判者ハイン
+Map 57 室内 - Event 20 黒の審判者 (41,31) - Page 2 Line 1:  - Comment: NW名前指定 黒の審判者ハイン
+Map 57 室内 - Event 20 黒の審判者 (41,31) - Page 2 Line 5:  - Comment: NW名前指定 黒の審判者ハイン
+Map 57 室内 - Event 20 黒の審判者 (41,31) - Page 2 Line 9:  - Comment: NW名前指定 黒の審判者ハイン
+Map 57 室内 - Event 20 黒の審判者 (41,31) - Page 2 Line 15:  - Comment: NW名前指定 黒の審判者ハイン
+Map 57 室内 - Event 20 黒の審判者 (41,31) - Page 2 Line 20:  - Comment: NW名前指定 黒の審判者ハイン
+Map 57 室内 - Event 20 黒の審判者 (41,31) - Page 2 Line 29:  - Comment: NW名前指定 黒の審判者ハイン
+Map 57 室内 - Event 20 黒の審判者 (41,31) - Page 3 Line 4:  - Comment: NW名前指定 黒の審判者ハイン
+Map 63 ２ - Event 22 商人 (45,6) - Page 1 Line 1:  - Comment: NW名前指定 名も無き商人
+Map 63 ２ - Event 22 商人 (45,6) - Page 1 Line 4:  - Comment: NW名前指定 名も無き商人
+Map 63 ２ - Event 22 商人 (45,6) - Page 2 Line 1:  - Comment: NW名前指定 名も無き商人
+Map 63 ２ - Event 22 商人 (45,6) - Page 2 Line 9:  - Comment: NW名前指定 名も無き商人
+Map 63 ２ - Event 22 商人 (45,6) - Page 2 Line 17:  - Comment: NW名前指定 名も無き商人
+Map 63 ２ - Event 22 商人 (45,6) - Page 2 Line 25:  - Comment: NW名前指定 名も無き商人
+Map 63 ２ - Event 22 商人 (45,6) - Page 2 Line 28:  - Comment: NW名前指定 名も無き商人
+Map 63 ２ - Event 22 商人 (45,6) - Page 2 Line 38:  - Comment: NW名前指定 名も無き商人
+Map 63 ２ - Event 22 商人 (45,6) - Page 3 Line 1:  - Comment: NW名前指定 名も無き商人
+Map 63 ２ - Event 22 商人 (45,6) - Page 3 Line 11:  - Comment: NW名前指定 名も無き商人
+Map 63 ２ - Event 22 商人 (45,6) - Page 3 Line 14:  - Comment: NW名前指定 名も無き商人
+Map 65 ４ - Event 14 EV014 (9,15) - Page 1 Line 1:  - Comment: NW名前指定 守護のカメレオン
+Map 65 ４ - Event 14 EV014 (9,15) - Page 1 Line 5:  - Comment: NW名前指定 守護のカメレオン
+Map 65 ４ - Event 14 EV014 (9,15) - Page 1 Line 14:  - Comment: NW名前指定 守護のカメレオン
+Map 65 ４ - Event 14 EV014 (9,15) - Page 1 Line 23:  - Comment: NW名前指定 守護のカメレオン
+Map 65 ４ - Event 14 EV014 (9,15) - Page 1 Line 37:  - Comment: NW名前指定 守護のカメレオン
+Map 65 ４ - Event 14 EV014 (9,15) - Page 1 Line 49:  - Comment: NW名前指定 守護のカメレオン
+Map 65 ４ - Event 15 EV015 (8,13) - Page 1 Line 1:  - Comment: NW名前指定 守護のカメレオン
+Map 65 ４ - Event 15 EV015 (8,13) - Page 1 Line 5:  - Comment: NW名前指定 守護のカメレオン
+Map 65 ４ - Event 17 EV017 (3,13) - Page 1 Line 1:  - Comment: NW名前指定 守護のカメレオン
+Map 65 ４ - Event 17 EV017 (3,13) - Page 1 Line 5:  - Comment: NW名前指定 守護のカメレオン
+Map 65 ４ - Event 17 EV017 (3,13) - Page 1 Line 16:  - Comment: NW名前指定 守護のカメレオン
+Map 65 ４ - Event 17 EV017 (3,13) - Page 1 Line 28:  - Comment: NW名前指定 守護のカメレオン
+Map 67 墓地街エリクシール - Event 24 EV024 (62,88) - Page 1 Line 1:  - Comment: NW名前指定 老人
+Map 67 墓地街エリクシール - Event 24 EV024 (62,88) - Page 1 Line 5:  - Comment: NW名前指定 老人
+Map 67 墓地街エリクシール - Event 24 EV024 (62,88) - Page 1 Line 10:  - Comment: NW名前指定 老人
+Map 67 墓地街エリクシール - Event 61 EV061 (10,19) - Page 1 Line 1:  - Comment: NW名前指定 兎騎士ルミラージ
+Map 67 墓地街エリクシール - Event 61 EV061 (10,19) - Page 1 Line 5:  - Comment: NW名前指定 兎騎士ルミラージ
+Map 67 墓地街エリクシール - Event 61 EV061 (10,19) - Page 2 Line 1:  - Comment: NW名前指定 兎騎士ルミラージ
+Map 67 墓地街エリクシール - Event 61 EV061 (10,19) - Page 2 Line 6:  - Comment: NW名前指定 兎騎士ルミラージ
+Map 67 墓地街エリクシール - Event 61 EV061 (10,19) - Page 2 Line 16:  - Comment: NW名前指定 兎騎士ルミラージ
+Map 67 墓地街エリクシール - Event 61 EV061 (10,19) - Page 3 Line 1:  - Comment: NW名前指定 兎騎士ルミラージ
+Map 67 墓地街エリクシール - Event 61 EV061 (10,19) - Page 3 Line 11:  - Comment: NW名前指定 兎騎士ルミラージ
+Map 67 墓地街エリクシール - Event 63 EV063 (15,35) - Page 1 Line 1:  - Comment: NW名前指定 放浪騎士イズ
+Map 67 墓地街エリクシール - Event 63 EV063 (15,35) - Page 1 Line 5:  - Comment: NW名前指定 放浪騎士イズ
+Map 67 墓地街エリクシール - Event 63 EV063 (15,35) - Page 2 Line 1:  - Comment: NW名前指定 放浪騎士イズ
+Map 67 墓地街エリクシール - Event 63 EV063 (15,35) - Page 2 Line 6:  - Comment: NW名前指定 放浪騎士イズ
+Map 67 墓地街エリクシール - Event 63 EV063 (15,35) - Page 2 Line 12:  - Comment: NW名前指定 放浪騎士イズ
+Map 67 墓地街エリクシール - Event 63 EV063 (15,35) - Page 2 Line 23:  - Comment: NW名前指定 放浪騎士イズ
+Map 68 大聖堂　BOSS - Event 63 EV063 (28,34) - Page 1 Line 8:  - Comment: NW名前指定 ネロ
+Map 68 大聖堂　BOSS - Event 63 EV063 (28,34) - Page 1 Line 13:  - Comment: NW名前指定 ネロ
+Map 68 大聖堂　BOSS - Event 63 EV063 (28,34) - Page 1 Line 17:  - Comment: NW名前指定 ネロ
+Map 68 大聖堂　BOSS - Event 63 EV063 (28,34) - Page 1 Line 21:  - Comment: NW名前指定 ネロ
+Map 68 大聖堂　BOSS - Event 63 EV063 (28,34) - Page 1 Line 26:  - Comment: NW名前指定 ネロ
+Map 68 大聖堂　BOSS - Event 63 EV063 (28,34) - Page 1 Line 37:  - Comment: NW名前指定 パトラッシュ
+Map 68 大聖堂　BOSS - Event 63 EV063 (28,34) - Page 1 Line 40:  - Comment: NW名前指定 パトラッシュ
+Map 68 大聖堂　BOSS - Event 63 EV063 (28,34) - Page 1 Line 44:  - Comment: NW名前指定 パトラッシュ
+Map 81 秘密の花園　BOSS - Event 6 兎 (11,8) - Page 1 Line 1:  - Comment: NW名前指定 兎騎士ルミラージ
+Map 81 秘密の花園　BOSS - Event 6 兎 (11,8) - Page 1 Line 5:  - Comment: NW名前指定 兎騎士ルミラージ
+Map 81 秘密の花園　BOSS - Event 6 兎 (11,8) - Page 1 Line 13:  - Comment: NW名前指定 兎騎士ルミラージ
+Map 81 秘密の花園　BOSS - Event 6 兎 (11,8) - Page 1 Line 31:  - Comment: NW名前指定 兎騎士ルミラージ
+Map 81 秘密の花園　BOSS - Event 6 兎 (11,8) - Page 2 Line 1:  - Comment: NW名前指定 兎騎士ルミラージ
+Map 81 秘密の花園　BOSS - Event 6 兎 (11,8) - Page 2 Line 6:  - Comment: NW名前指定 兎騎士ルミラージ
+Map 81 秘密の花園　BOSS - Event 6 兎 (11,8) - Page 2 Line 16:  - Comment: NW名前指定 兎騎士ルミラージ
+Map 81 秘密の花園　BOSS - Event 6 兎 (11,8) - Page 3 Line 1:  - Comment: NW名前指定 兎騎士ルミラージ
+Map 81 秘密の花園　BOSS - Event 6 兎 (11,8) - Page 3 Line 5:  - Comment: NW名前指定 兎騎士ルミラージ
+Map 81 秘密の花園　BOSS - Event 6 兎 (11,8) - Page 3 Line 9:  - Comment: NW名前指定 兎騎士ルミラージ
+Map 81 秘密の花園　BOSS - Event 6 兎 (11,8) - Page 3 Line 13:  - Comment: NW名前指定 兎騎士ルミラージ
+Map 81 秘密の花園　BOSS - Event 6 兎 (11,8) - Page 3 Line 23:  - Comment: NW名前指定 兎騎士ルミラージ
+Map 81 秘密の花園　BOSS - Event 7 亀 (10,8) - Page 1 Line 1:  - Comment: NW名前指定 亀騎士アダマン
+Map 81 秘密の花園　BOSS - Event 7 亀 (10,8) - Page 1 Line 9:  - Comment: NW名前指定 亀騎士アダマン
+Map 81 秘密の花園　BOSS - Event 7 亀 (10,8) - Page 1 Line 27:  - Comment: NW名前指定 亀騎士アダマン
+Map 81 秘密の花園　BOSS - Event 7 亀 (10,8) - Page 2 Line 1:  - Comment: NW名前指定 亀騎士アダマン
+Map 81 秘密の花園　BOSS - Event 7 亀 (10,8) - Page 2 Line 5:  - Comment: NW名前指定 亀騎士アダマン
+Map 81 秘密の花園　BOSS - Event 7 亀 (10,8) - Page 2 Line 10:  - Comment: NW名前指定 亀騎士アダマン
+Map 81 秘密の花園　BOSS - Event 7 亀 (10,8) - Page 2 Line 21:  - Comment: NW名前指定 亀騎士アダマン
+Map 81 秘密の花園　BOSS - Event 7 亀 (10,8) - Page 3 Line 1:  - Comment: NW名前指定 亀騎士アダマン
+Map 81 秘密の花園　BOSS - Event 7 亀 (10,8) - Page 3 Line 6:  - Comment: NW名前指定 亀騎士アダマン
+Map 81 秘密の花園　BOSS - Event 7 亀 (10,8) - Page 3 Line 11:  - Comment: NW名前指定 亀騎士アダマン
+Map 81 秘密の花園　BOSS - Event 7 亀 (10,8) - Page 3 Line 20:  - Comment: NW名前指定 亀騎士アダマン
+Map 81 秘密の花園　BOSS - Event 8 EV008 (19,3) - Page 1 Line 2:  - Comment: NW名前指定 兎騎士ルミラージ
+Map 81 秘密の花園　BOSS - Event 8 EV008 (19,3) - Page 1 Line 5:  - Comment: NW名前指定 亀騎士アダマン
+Map 81 秘密の花園　BOSS - Event 10 EV010 (7,2) - Page 2 Line 1:  - Comment: NW名前指定 亀騎士アダマン
+Map 82 穢れ沼●　BOSS - Event 56 EV056 (210,21) - Page 1 Line 2:  - Comment: NW名前指定 カエル
+Map 82 穢れ沼●　BOSS - Event 56 EV056 (210,21) - Page 1 Line 5:  - Comment: NW名前指定 カエル
+Map 82 穢れ沼●　BOSS - Event 56 EV056 (210,21) - Page 2 Line 2:  - Comment: NW名前指定 カエル
+Map 82 穢れ沼●　BOSS - Event 56 EV056 (210,21) - Page 2 Line 5:  - Comment: NW名前指定 カエル
+Map 82 穢れ沼●　BOSS - Event 59 EV059 (213,23) - Page 1 Line 2:  - Comment: NW名前指定 カエル
+Map 82 穢れ沼●　BOSS - Event 60 EV060 (216,18) - Page 1 Line 2:  - Comment: NW名前指定 カエル
+Map 82 穢れ沼●　BOSS - Event 61 EV061 (211,18) - Page 1 Line 1:  - Comment: NW名前指定 カエルのハインリヒ
+Map 82 穢れ沼●　BOSS - Event 61 EV061 (211,18) - Page 1 Line 24:  - Comment: NW名前指定 カエルのハインリヒ
+Map 82 穢れ沼●　BOSS - Event 61 EV061 (211,18) - Page 1 Line 34:  - Comment: NW名前指定 カエルのハインリヒ
+Map 82 穢れ沼●　BOSS - Event 61 EV061 (211,18) - Page 2 Line 1:  - Comment: NW名前指定 カエルのハインリヒ
+Map 82 穢れ沼●　BOSS - Event 62 EV062 (217,20) - Page 1 Line 2:  - Comment: NW名前指定 カエル
+Map 82 穢れ沼●　BOSS - Event 62 EV062 (217,20) - Page 2 Line 2:  - Comment: NW名前指定 カエル
+Map 82 穢れ沼●　BOSS - Event 66 ドナル (48,96) - Page 1 Line 1:  - Comment: NW名前指定 罪作りなドナル
+Map 82 穢れ沼●　BOSS - Event 66 ドナル (48,96) - Page 1 Line 7:  - Comment: NW名前指定 罪作りなドナル
+Map 82 穢れ沼●　BOSS - Event 66 ドナル (48,96) - Page 1 Line 13:  - Comment: NW名前指定 罪作りなドナル
+Map 82 穢れ沼●　BOSS - Event 66 ドナル (48,96) - Page 1 Line 23:  - Comment: NW名前指定 罪作りなドナル
+Map 84 １ - Event 8 EV008 (35,8) - Page 1 Line 1:  - Comment: NW名前指定 傀儡子ピノッキオ
+Map 84 １ - Event 8 EV008 (35,8) - Page 1 Line 5:  - Comment: NW名前指定 傀儡子ピノッキオ
+Map 84 １ - Event 8 EV008 (35,8) - Page 1 Line 9:  - Comment: NW名前指定 傀儡子ピノッキオ
+Map 84 １ - Event 8 EV008 (35,8) - Page 1 Line 16:  - Comment: NW名前指定 人形
+Map 84 １ - Event 8 EV008 (35,8) - Page 1 Line 21:  - Comment: NW名前指定 傀儡子ピノッキオ
+Map 84 １ - Event 8 EV008 (35,8) - Page 1 Line 27:  - Comment: NW名前指定 傀儡子ピノッキオ
+Map 84 １ - Event 8 EV008 (35,8) - Page 1 Line 34:  - Comment: NW名前指定 人形
+Map 84 １ - Event 8 EV008 (35,8) - Page 2 Line 1:  - Comment: NW名前指定 傀儡子ピノッキオ
+Map 84 １ - Event 8 EV008 (35,8) - Page 2 Line 37:  - Comment: NW名前指定 黒の審判者ハイン
+Map 84 １ - Event 8 EV008 (35,8) - Page 2 Line 42:  - Comment: NW名前指定 黒の審判者ハイン
+Map 84 １ - Event 8 EV008 (35,8) - Page 2 Line 47:  - Comment: NW名前指定 黒の審判者ハイン
+Map 84 １ - Event 8 EV008 (35,8) - Page 2 Line 73:  - Comment: NW名前指定 人形
+Map 91 ５ - Event 21 EV021 (12,4) - Page 1 Line 1:  - Comment: NW名前指定 放浪騎士イズ
+Map 91 ５ - Event 21 EV021 (12,4) - Page 1 Line 4:  - Comment: NW名前指定 放浪騎士イズ
+Map 91 ５ - Event 21 EV021 (12,4) - Page 1 Line 8:  - Comment: NW名前指定 放浪騎士イズ
+Map 91 ５ - Event 21 EV021 (12,4) - Page 1 Line 11:  - Comment: NW名前指定 放浪騎士イズ
+Map 91 ５ - Event 21 EV021 (12,4) - Page 1 Line 16:  - Comment: NW名前指定 放浪騎士イズ
+Map 91 ５ - Event 21 EV021 (12,4) - Page 2 Line 1:  - Comment: NW名前指定 放浪騎士イズ
+Map 91 ５ - Event 21 EV021 (12,4) - Page 2 Line 11:  - Comment: NW名前指定 放浪騎士イズ
+Map 97 キャラメイク - Event 1 EV001 (15,18) - Page 1 Line 28:  - Comment: NW名前指定 ？？？
+Map 97 キャラメイク - Event 1 EV001 (15,18) - Page 1 Line 32:  - Comment: NW名前指定 ？？？
+Map 105 １ - Event 11 EV011 (32,11) - Page 1 Line 20:  - Comment: NW名前指定 黒の尖兵リンダメア
+Map 105 １ - Event 11 EV011 (32,11) - Page 1 Line 24:  - Comment: NW名前指定 黒の尖兵リンダメア
+Map 105 １ - Event 11 EV011 (32,11) - Page 1 Line 43:  - Comment: NW名前指定 黒の尖兵リンダメア
+Map 105 １ - Event 11 EV011 (32,11) - Page 1 Line 58:  - Comment: NW名前指定 黒の尖兵リンダメア
+Map 105 １ - Event 11 EV011 (32,11) - Page 1 Line 61:  - Comment: NW名前指定 黒の尖兵リンダメア
+Map 105 １ - Event 11 EV011 (32,11) - Page 1 Line 68:  - Comment: NW名前指定 黒の尖兵リンダメア
+Map 105 １ - Event 11 EV011 (32,11) - Page 1 Line 74:  - Comment: NW名前指定 黒の尖兵リンダメア
+Map 105 １ - Event 11 EV011 (32,11) - Page 1 Line 99:  - Comment: NW名前指定 黒の尖兵リンダメア
+Map 105 １ - Event 24 EV024 (32,10) - Page 1 Line 20:  - Comment: NW名前指定 黒の尖兵リンダメア
+Map 105 １ - Event 24 EV024 (32,10) - Page 1 Line 24:  - Comment: NW名前指定 黒の尖兵リンダメア
+Map 105 １ - Event 24 EV024 (32,10) - Page 1 Line 43:  - Comment: NW名前指定 黒の尖兵リンダメア
+Map 105 １ - Event 24 EV024 (32,10) - Page 1 Line 58:  - Comment: NW名前指定 黒の尖兵リンダメア
+Map 105 １ - Event 24 EV024 (32,10) - Page 1 Line 61:  - Comment: NW名前指定 黒の尖兵リンダメア
+Map 105 １ - Event 24 EV024 (32,10) - Page 1 Line 68:  - Comment: NW名前指定 黒の尖兵リンダメア
+Map 105 １ - Event 24 EV024 (32,10) - Page 1 Line 74:  - Comment: NW名前指定 黒の尖兵リンダメア
+Map 105 １ - Event 24 EV024 (32,10) - Page 1 Line 99:  - Comment: NW名前指定 黒の尖兵リンダメア
+Map 105 １ - Event 25 EV025 (32,12) - Page 1 Line 20:  - Comment: NW名前指定 黒の尖兵リンダメア
+Map 105 １ - Event 25 EV025 (32,12) - Page 1 Line 24:  - Comment: NW名前指定 黒の尖兵リンダメア
+Map 105 １ - Event 25 EV025 (32,12) - Page 1 Line 43:  - Comment: NW名前指定 黒の尖兵リンダメア
+Map 105 １ - Event 25 EV025 (32,12) - Page 1 Line 58:  - Comment: NW名前指定 黒の尖兵リンダメア
+Map 105 １ - Event 25 EV025 (32,12) - Page 1 Line 61:  - Comment: NW名前指定 黒の尖兵リンダメア
+Map 105 １ - Event 25 EV025 (32,12) - Page 1 Line 68:  - Comment: NW名前指定 黒の尖兵リンダメア
+Map 105 １ - Event 25 EV025 (32,12) - Page 1 Line 74:  - Comment: NW名前指定 黒の尖兵リンダメア
+Map 105 １ - Event 25 EV025 (32,12) - Page 1 Line 99:  - Comment: NW名前指定 黒の尖兵リンダメア
+Map 106 ２　ＢＯＳＳ - Event 2 EV002 (13,17) - Page 1 Line 216:  - Comment: NW名前指定 ？？？
+Map 107 １ - Event 17 バンダースナッチ (30,26) - Page 1 Line 1:  - Comment: NW名前指定 バンダースナッチ
+Map 107 １ - Event 17 バンダースナッチ (30,26) - Page 1 Line 4:  - Comment: NW名前指定 バンダースナッチ
+Map 107 １ - Event 17 バンダースナッチ (30,26) - Page 1 Line 8:  - Comment: NW名前指定 バンダースナッチ
+Map 107 １ - Event 17 バンダースナッチ (30,26) - Page 1 Line 14:  - Comment: NW名前指定 バンダースナッチ
+Map 107 １ - Event 17 バンダースナッチ (30,26) - Page 1 Line 20:  - Comment: NW名前指定 バンダースナッチ
+Map 107 １ - Event 17 バンダースナッチ (30,26) - Page 1 Line 51:  - Comment: NW名前指定 バンダースナッチ
+Map 107 １ - Event 17 バンダースナッチ (30,26) - Page 1 Line 81:  - Comment: NW名前指定 バンダースナッチ
+Map 107 １ - Event 17 バンダースナッチ (30,26) - Page 1 Line 112:  - Comment: NW名前指定 バンダースナッチ
+Map 107 １ - Event 17 バンダースナッチ (30,26) - Page 1 Line 144:  - Comment: NW名前指定 バンダースナッチ
+Map 107 １ - Event 24 EV024 (29,26) - Page 1 Line 1:  - Comment: NW名前指定 バンダースナッチ
+Map 107 １ - Event 24 EV024 (29,26) - Page 1 Line 7:  - Comment: NW名前指定 バンダースナッチ
+Map 107 １ - Event 24 EV024 (29,26) - Page 1 Line 38:  - Comment: NW名前指定 バンダースナッチ
+Map 107 １ - Event 25 EV025 (35,36) - Page 1 Line 1:  - Comment: NW名前指定 兎
+Map 107 １ - Event 25 EV025 (35,36) - Page 1 Line 4:  - Comment: NW名前指定 兎
+Map 107 １ - Event 26 EV026 (26,34) - Page 1 Line 1:  - Comment: NW名前指定 兎
+Map 107 １ - Event 27 EV027 (38,27) - Page 1 Line 1:  - Comment: NW名前指定 兎
+Map 107 １ - Event 27 EV027 (38,27) - Page 1 Line 12:  - Comment: NW名前指定 兎
+Map 107 １ - Event 27 EV027 (38,27) - Page 1 Line 15:  - Comment: NW名前指定 兎
+Map 107 １ - Event 27 EV027 (38,27) - Page 1 Line 18:  - Comment: NW名前指定 兎
+Map 107 １ - Event 27 EV027 (38,27) - Page 1 Line 24:  - Comment: NW名前指定 兎
+Map 107 １ - Event 28 EV028 (22,28) - Page 1 Line 1:  - Comment: NW名前指定 兎
+Map 107 １ - Event 28 EV028 (22,28) - Page 1 Line 7:  - Comment: NW名前指定 兎
+Map 107 １ - Event 29 EV029 (30,32) - Page 1 Line 1:  - Comment: NW名前指定 熊
+Map 107 １ - Event 30 EV030 (40,31) - Page 1 Line 1:  - Comment: NW名前指定 兎
+Map 107 １ - Event 31 EV031 (22,31) - Page 1 Line 1:  - Comment: NW名前指定 兎
+Map 107 １ - Event 31 EV031 (22,31) - Page 1 Line 6:  - Comment: NW名前指定 兎
+Map 107 １ - Event 31 EV031 (22,31) - Page 1 Line 11:  - Comment: NW名前指定 兎
+Map 107 １ - Event 31 EV031 (22,31) - Page 1 Line 20:  - Comment: NW名前指定 兎
+Map 107 １ - Event 32 EV032 (41,28) - Page 1 Line 1:  - Comment: NW名前指定 兎
+Map 107 １ - Event 32 EV032 (41,28) - Page 1 Line 5:  - Comment: NW名前指定 兎
+Map 107 １ - Event 33 EV033 (19,24) - Page 1 Line 1:  - Comment: NW名前指定 喋るラフレシア
+Map 107 １ - Event 33 EV033 (19,24) - Page 1 Line 5:  - Comment: NW名前指定 喋るラフレシア
+Map 107 １ - Event 33 EV033 (19,24) - Page 1 Line 10:  - Comment: NW名前指定 喋るラフレシア
+Map 107 １ - Event 33 EV033 (19,24) - Page 1 Line 15:  - Comment: NW名前指定 喋るラフレシア
+Map 107 １ - Event 33 EV033 (19,24) - Page 1 Line 20:  - Comment: NW名前指定 喋るラフレシア
+Map 107 １ - Event 33 EV033 (19,24) - Page 2 Line 1:  - Comment: NW名前指定 喋らないラフレシア
+Map 119 １－２ - Event 7 ケト (12,5) - Page 1 Line 1:  - Comment: NW名前指定 呪術師ケト
+Map 119 １－２ - Event 7 ケト (12,5) - Page 1 Line 4:  - Comment: NW名前指定 呪術師ケト
+Map 119 １－２ - Event 7 ケト (12,5) - Page 1 Line 8:  - Comment: NW名前指定 呪術師ケト
+Map 119 １－２ - Event 7 ケト (12,5) - Page 2 Line 1:  - Comment: NW名前指定 呪術師ケト
+Map 119 １－２ - Event 7 ケト (12,5) - Page 2 Line 6:  - Comment: NW名前指定 呪術師ケト
+Map 119 １－２ - Event 7 ケト (12,5) - Page 2 Line 10:  - Comment: NW名前指定 呪術師ケト
+Map 119 １－２ - Event 7 ケト (12,5) - Page 3 Line 1:  - Comment: NW名前指定 呪術師ケト
+Map 119 １－２ - Event 7 ケト (12,5) - Page 3 Line 6:  - Comment: NW名前指定 呪術師ケト
+Map 119 １－２ - Event 7 ケト (12,5) - Page 3 Line 10:  - Comment: NW名前指定 呪術師ケト
+Map 119 １－２ - Event 7 ケト (12,5) - Page 3 Line 14:  - Comment: NW名前指定 呪術師ケト
+Map 119 １－２ - Event 7 ケト (12,5) - Page 3 Line 19:  - Comment: NW名前指定 呪術師ケト
+Map 119 １－２ - Event 7 ケト (12,5) - Page 3 Line 26:  - Comment: NW名前指定 呪術師ケト
+Map 119 １－２ - Event 7 ケト (12,5) - Page 3 Line 36:  - Comment: NW名前指定 呪術師ケト
+Map 119 １－２ - Event 7 ケト (12,5) - Page 4 Line 4:  - Comment: NW名前指定 呪術師ケト
+Map 119 １－２ - Event 7 ケト (12,5) - Page 4 Line 9:  - Comment: NW名前指定 呪術師ケト
+Map 119 １－２ - Event 7 ケト (12,5) - Page 4 Line 13:  - Comment: NW名前指定 呪術師ケト
+Map 119 １－２ - Event 7 ケト (12,5) - Page 4 Line 25:  - Comment: NW名前指定 呪術師ケト
+Map 119 １－２ - Event 7 ケト (12,5) - Page 4 Line 31:  - Comment: NW名前指定 呪術師ケト
+Map 119 １－２ - Event 7 ケト (12,5) - Page 4 Line 46:  - Comment: NW名前指定 呪術師ケト
+Map 119 １－２ - Event 7 ケト (12,5) - Page 4 Line 51:  - Comment: NW名前指定 呪術師ケト
+Map 119 １－２ - Event 7 ケト (12,5) - Page 4 Line 56:  - Comment: NW名前指定 呪術師ケト
+Map 119 １－２ - Event 7 ケト (12,5) - Page 4 Line 73:  - Comment: NW名前指定 呪術師ケト
+Map 119 １－２ - Event 7 ケト (12,5) - Page 4 Line 79:  - Comment: NW名前指定 呪術師ケト
+Map 119 １－２ - Event 7 ケト (12,5) - Page 4 Line 93:  - Comment: NW名前指定 呪術師ケト
+Map 119 １－２ - Event 7 ケト (12,5) - Page 4 Line 103:  - Comment: NW名前指定 呪術師ケト
+Map 119 １－２ - Event 7 ケト (12,5) - Page 4 Line 127:  - Comment: NW名前指定 呪術師ケト
+Map 119 １－２ - Event 7 ケト (12,5) - Page 4 Line 132:  - Comment: NW名前指定 呪術師ケト
+Map 119 １－２ - Event 7 ケト (12,5) - Page 4 Line 136:  - Comment: NW名前指定 呪術師ケト
+Map 119 １－２ - Event 7 ケト (12,5) - Page 4 Line 140:  - Comment: NW名前指定 呪術師ケト
+Map 119 １－２ - Event 7 ケト (12,5) - Page 4 Line 145:  - Comment: NW名前指定 呪術師ケト
+Map 119 １－２ - Event 7 ケト (12,5) - Page 4 Line 152:  - Comment: NW名前指定 呪術師ケト
+Map 119 １－２ - Event 7 ケト (12,5) - Page 4 Line 162:  - Comment: NW名前指定 呪術師ケト
+Map 119 １－２ - Event 7 ケト (12,5) - Page 5 Line 1:  - Comment: NW名前指定 呪術師ケト
+Map 119 １－２ - Event 7 ケト (12,5) - Page 5 Line 6:  - Comment: NW名前指定 呪術師ケト
+Map 119 １－２ - Event 7 ケト (12,5) - Page 5 Line 10:  - Comment: NW名前指定 呪術師ケト
+Map 119 １－２ - Event 7 ケト (12,5) - Page 5 Line 15:  - Comment: NW名前指定 呪術師ケト
+Map 119 １－２ - Event 7 ケト (12,5) - Page 5 Line 25:  - Comment: NW名前指定 呪術師ケト
+Map 125 ぱーてぃ - Event 2 EV002 (17,16) - Page 1 Line 1:  - Comment: NW名前指定 祈り主
+Map 125 ぱーてぃ - Event 2 EV002 (17,16) - Page 1 Line 5:  - Comment: NW名前指定 祈り主
+Map 125 ぱーてぃ - Event 2 EV002 (17,16) - Page 1 Line 9:  - Comment: NW名前指定 祈り主
+Map 125 ぱーてぃ - Event 4 EV004 (23,22) - Page 1 Line 1:  - Comment: NW名前指定 フェアリーC
+Map 125 ぱーてぃ - Event 4 EV004 (23,22) - Page 1 Line 5:  - Comment: NW名前指定 フェアリーC
+Map 125 ぱーてぃ - Event 9 EV009 (14,10) - Page 1 Line 1:  - Comment: NW名前指定 放浪騎士イズ
+Map 125 ぱーてぃ - Event 9 EV009 (14,10) - Page 1 Line 5:  - Comment: NW名前指定 放浪騎士イズ
+Map 125 ぱーてぃ - Event 10 EV010 (19,5) - Page 1 Line 1:  - Comment: NW名前指定 フェアリーA
+Map 125 ぱーてぃ - Event 10 EV010 (19,5) - Page 1 Line 4:  - Comment: NW名前指定 フェアリーA
+Map 125 ぱーてぃ - Event 18 エズワルド (26,22) - Page 1 Line 1:  - Comment: NW名前指定 教戒師エズワルド
+Map 125 ぱーてぃ - Event 18 エズワルド (26,22) - Page 1 Line 5:  - Comment: NW名前指定 教戒師エズワルド
+Map 125 ぱーてぃ - Event 19 EV019 (22,14) - Page 1 Line 2:  - Comment: NW名前指定 犬
+Map 125 ぱーてぃ - Event 20 EV020 (8,16) - Page 1 Line 1:  - Comment: NW名前指定 フェアリーB
+Map 128 ２ - Event 4 EV004 (16,16) - Page 1 Line 1:  - Comment: NW名前指定 祈り主
+Map 128 ２ - Event 4 EV004 (16,16) - Page 1 Line 5:  - Comment: NW名前指定 祈り主
+Map 128 ２ - Event 4 EV004 (16,16) - Page 1 Line 10:  - Comment: NW名前指定 祈り主
+Map 128 ２ - Event 4 EV004 (16,16) - Page 2 Line 1:  - Comment: NW名前指定 祈り主
+Map 128 ２ - Event 4 EV004 (16,16) - Page 2 Line 5:  - Comment: NW名前指定 祈り主
+Map 128 ２ - Event 4 EV004 (16,16) - Page 2 Line 10:  - Comment: NW名前指定 祈り主
+Map 128 ２ - Event 4 EV004 (16,16) - Page 2 Line 15:  - Comment: NW名前指定 祈り主
+Map 128 ２ - Event 4 EV004 (16,16) - Page 3 Line 1:  - Comment: NW名前指定 祈り主
+Map 128 ２ - Event 4 EV004 (16,16) - Page 3 Line 6:  - Comment: NW名前指定 祈り主
+Map 128 ２ - Event 4 EV004 (16,16) - Page 3 Line 19:  - Comment: NW名前指定 祈り主
+Map 128 ２ - Event 4 EV004 (16,16) - Page 3 Line 22:  - Comment: NW名前指定 祈り主
+Map 128 ２ - Event 4 EV004 (16,16) - Page 3 Line 29:  - Comment: NW名前指定 祈り主
+Map 128 ２ - Event 4 EV004 (16,16) - Page 3 Line 33:  - Comment: NW名前指定 祈り主
+Map 128 ２ - Event 6 エズワルド (26,22) - Page 1 Line 1:  - Comment: NW名前指定 教戒師エズワルド
+Map 128 ２ - Event 6 エズワルド (26,22) - Page 1 Line 5:  - Comment: NW名前指定 教戒師エズワルド
+Map 132 ５　BOSS - Event 13 EV013 (14,16) - Page 1 Line 58:  - Comment: NW名前指定 陰月の騎士オーエンティウス
+Map 132 ５　BOSS - Event 13 EV013 (14,16) - Page 1 Line 61:  - Comment: NW名前指定 陰月の騎士オーエンティウス
+Map 132 ５　BOSS - Event 13 EV013 (14,16) - Page 1 Line 66:  - Comment: NW名前指定 陰月の騎士オーエンティウス
+Map 132 ５　BOSS - Event 13 EV013 (14,16) - Page 1 Line 70:  - Comment: NW名前指定 陰月の騎士オーエンティウス
+Map 133 ６　BOSS - Event 13 EV013 (13,21) - Page 1 Line 8:  - Comment: NW名前指定 陰月の騎士オーエンティウス
+Map 133 ６　BOSS - Event 16 黒の審判者 (11,33) - Page 1 Line 1:  - Comment: NW名前指定 黒の審判者ハイン
+Map 133 ６　BOSS - Event 16 黒の審判者 (11,33) - Page 1 Line 5:  - Comment: NW名前指定 黒の審判者ハイン
+Map 133 ６　BOSS - Event 16 黒の審判者 (11,33) - Page 1 Line 10:  - Comment: NW名前指定 黒の審判者ハイン
+Map 133 ６　BOSS - Event 16 黒の審判者 (11,33) - Page 1 Line 16:  - Comment: NW名前指定 黒の審判者ハイン
+Map 133 ６　BOSS - Event 16 黒の審判者 (11,33) - Page 1 Line 21:  - Comment: NW名前指定 黒の審判者ハイン
+Map 133 ６　BOSS - Event 16 黒の審判者 (11,33) - Page 1 Line 27:  - Comment: NW名前指定 黒の審判者ハイン
+Map 133 ６　BOSS - Event 16 黒の審判者 (11,33) - Page 1 Line 31:  - Comment: NW名前指定 黒の審判者ハイン
+Map 133 ６　BOSS - Event 16 黒の審判者 (11,33) - Page 2 Line 4:  - Comment: NW名前指定 黒の審判者ハイン
+Map 133 ６　BOSS - Event 16 黒の審判者 (11,33) - Page 2 Line 8:  - Comment: NW名前指定 黒の審判者ハイン
+Map 133 ６　BOSS - Event 16 黒の審判者 (11,33) - Page 2 Line 14:  - Comment: NW名前指定 黒の審判者ハイン
+Map 133 ６　BOSS - Event 16 黒の審判者 (11,33) - Page 2 Line 20:  - Comment: NW名前指定 黒の審判者ハイン
+Map 133 ６　BOSS - Event 16 黒の審判者 (11,33) - Page 2 Line 26:  - Comment: NW名前指定 黒の審判者ハイン
+Map 133 ６　BOSS - Event 16 黒の審判者 (11,33) - Page 2 Line 36:  - Comment: NW名前指定 黒の審判者ハイン
+Map 133 ６　BOSS - Event 16 黒の審判者 (11,33) - Page 2 Line 41:  - Comment: NW名前指定 黒の審判者ハイン
+Map 133 ６　BOSS - Event 16 黒の審判者 (11,33) - Page 2 Line 47:  - Comment: NW名前指定 黒の審判者ハイン
+Map 133 ６　BOSS - Event 16 黒の審判者 (11,33) - Page 2 Line 52:  - Comment: NW名前指定 黒の審判者ハイン
+Map 133 ６　BOSS - Event 16 黒の審判者 (11,33) - Page 2 Line 61:  - Comment: NW名前指定 黒の審判者ハイン
+Map 133 ６　BOSS - Event 16 黒の審判者 (11,33) - Page 3 Line 4:  - Comment: NW名前指定 黒の審判者ハイン
+Map 133 ６　BOSS - Event 16 黒の審判者 (11,33) - Page 3 Line 8:  - Comment: NW名前指定 黒の審判者ハイン
+Map 133 ６　BOSS - Event 16 黒の審判者 (11,33) - Page 3 Line 14:  - Comment: NW名前指定 黒の審判者ハイン
+Map 133 ６　BOSS - Event 16 黒の審判者 (11,33) - Page 3 Line 20:  - Comment: NW名前指定 黒の審判者ハイン
+Map 133 ６　BOSS - Event 16 黒の審判者 (11,33) - Page 3 Line 26:  - Comment: NW名前指定 黒の審判者ハイン
+Map 133 ６　BOSS - Event 16 黒の審判者 (11,33) - Page 3 Line 36:  - Comment: NW名前指定 黒の審判者ハイン
+Map 133 ６　BOSS - Event 16 黒の審判者 (11,33) - Page 3 Line 39:  - Comment: NW名前指定 黒の審判者ハイン
+Map 133 ６　BOSS - Event 16 黒の審判者 (11,33) - Page 3 Line 46:  - Comment: NW名前指定 黒の審判者ハイン
+Map 133 ６　BOSS - Event 16 黒の審判者 (11,33) - Page 3 Line 51:  - Comment: NW名前指定 黒の審判者ハイン
+Map 133 ６　BOSS - Event 16 黒の審判者 (11,33) - Page 3 Line 60:  - Comment: NW名前指定 黒の審判者ハイン
+Map 133 ６　BOSS - Event 16 黒の審判者 (11,33) - Page 4 Line 4:  - Comment: NW名前指定 黒の審判者ハイン
+Map 133 ６　BOSS - Event 16 黒の審判者 (11,33) - Page 5 Line 1:  - Comment: NW名前指定 黒の審判者ハイン
+Map 133 ６　BOSS - Event 16 黒の審判者 (11,33) - Page 5 Line 5:  - Comment: NW名前指定 黒の審判者ハイン
+Map 133 ６　BOSS - Event 16 黒の審判者 (11,33) - Page 5 Line 9:  - Comment: NW名前指定 黒の審判者ハイン
+Map 133 ６　BOSS - Event 16 黒の審判者 (11,33) - Page 5 Line 14:  - Comment: NW名前指定 黒の審判者ハイン
+Map 133 ６　BOSS - Event 18 EV018 (12,21) - Page 1 Line 8:  - Comment: NW名前指定 陰月の騎士オーエンティウス
+Map 135 淫魔教会　ＢＯＳＳ - Event 13  (12,16) - Page 1 Line 9:  - Comment: NW名前指定 リリス
+Map 135 淫魔教会　ＢＯＳＳ - Event 13  (12,16) - Page 1 Line 13:  - Comment: NW名前指定 リリス
+Map 135 淫魔教会　ＢＯＳＳ - Event 13  (12,16) - Page 1 Line 19:  - Comment: NW名前指定 リリス
+Map 135 淫魔教会　ＢＯＳＳ - Event 13  (12,16) - Page 1 Line 25:  - Comment: NW名前指定 リリス
+Map 135 淫魔教会　ＢＯＳＳ - Event 13  (12,16) - Page 1 Line 31:  - Comment: NW名前指定 リリス
+Map 137 １　ＢＯＳＳ - Event 6 EV006 (41,36) - Page 1 Line 63:  - Comment: NW名前指定 黒の尖兵リンダメア
+Map 137 １　ＢＯＳＳ - Event 6 EV006 (41,36) - Page 1 Line 75:  - Comment: NW名前指定 黒の尖兵リンダメア
+Map 137 １　ＢＯＳＳ - Event 6 EV006 (41,36) - Page 1 Line 79:  - Comment: NW名前指定 黒の尖兵リンダメア
+Map 138 ２ - Event 5 EV005 (16,9) - Page 1 Line 1:  - Comment: NW名前指定 死体
+Map 138 ２ - Event 5 EV005 (16,9) - Page 1 Line 4:  - Comment: NW名前指定 死体
+Map 138 ２ - Event 5 EV005 (16,9) - Page 2 Line 1:  - Comment: NW名前指定 死体
+Map 138 ２ - Event 5 EV005 (16,9) - Page 2 Line 4:  - Comment: NW名前指定 死体
+Map 138 ２ - Event 5 EV005 (16,9) - Page 2 Line 8:  - Comment: NW名前指定 死体
+Map 138 ２ - Event 5 EV005 (16,9) - Page 3 Line 1:  - Comment: NW名前指定 死体
+Map 138 ２ - Event 5 EV005 (16,9) - Page 3 Line 5:  - Comment: NW名前指定 死体
+Map 138 ２ - Event 5 EV005 (16,9) - Page 3 Line 13:  - Comment: NW名前指定 死体
+Map 138 ２ - Event 5 EV005 (16,9) - Page 3 Line 51:  - Comment: NW名前指定 死体
+Map 138 ２ - Event 5 EV005 (16,9) - Page 4 Line 1:  - Comment: NW名前指定 死体
+Map 138 ２ - Event 5 EV005 (16,9) - Page 4 Line 7:  - Comment: NW名前指定 死体
+Map 138 ２ - Event 5 EV005 (16,9) - Page 4 Line 11:  - Comment: NW名前指定 死体
+Map 138 ２ - Event 5 EV005 (16,9) - Page 4 Line 15:  - Comment: NW名前指定 死体
