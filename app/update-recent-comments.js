@@ -28,9 +28,35 @@ query($owner: String!, $name: String!) {
           nodes {
             bodyText
             createdAt
+            updatedAt
+            upvoteCount
             author {
               login
               avatarUrl
+            }
+            reactionGroups {
+              content
+              reactors {
+                totalCount
+              }
+            }
+            replies(last: 10) {
+              nodes {
+                bodyText
+                createdAt
+                updatedAt
+                upvoteCount
+                author {
+                  login
+                  avatarUrl
+                }
+                reactionGroups {
+                  content
+                  reactors {
+                    totalCount
+                  }
+                }
+              }
             }
           }
         }
@@ -131,6 +157,32 @@ async function run() {
         const discussions = result.data.repository.discussions.nodes;
         const allActivity = [];
 
+        const emojiMap = {
+            THUMBS_UP: '👍',
+            THUMBS_DOWN: '👎',
+            LAUGH: '😄',
+            HOORAY: '🎉',
+            CONFUSED: '😕',
+            HEART: '❤️',
+            ROCKET: '🚀',
+            EYES: '👀'
+        };
+
+        function getReactions(node) {
+            const reactions = [];
+            if (node.reactionGroups) {
+                node.reactionGroups.forEach(rg => {
+                    if (rg.reactors && rg.reactors.totalCount > 0) {
+                        reactions.push({
+                            emoji: emojiMap[rg.content] || rg.content,
+                            count: rg.reactors.totalCount
+                        });
+                    }
+                });
+            }
+            return reactions;
+        }
+
         discussions.forEach(disc => {
             // Filtrar apenas discussões criadas pela nossa database
             const term = disc.title;
@@ -143,14 +195,42 @@ async function run() {
             // 2. Adiciona as respostas/comentários internos
             if (disc.comments && disc.comments.nodes) {
                 disc.comments.nodes.forEach(comment => {
+                    const commentDate = comment.updatedAt && new Date(comment.updatedAt) > new Date(comment.createdAt)
+                        ? comment.updatedAt 
+                        : comment.createdAt;
+                        
                     if (comment.author) {
                         allActivity.push({
                             author: comment.author.login,
                             avatarUrl: comment.author.avatarUrl,
                             text: comment.bodyText,
-                            date: comment.createdAt,
+                            date: commentDate,
                             itemName: resolved.name,
-                            link: resolved.link
+                            link: resolved.link,
+                            upvoteCount: comment.upvoteCount || 0,
+                            reactions: getReactions(comment)
+                        });
+                    }
+                    
+                    // Adiciona as réplicas/respostas internas (replies)
+                    if (comment.replies && comment.replies.nodes) {
+                        comment.replies.nodes.forEach(reply => {
+                            const replyDate = reply.updatedAt && new Date(reply.updatedAt) > new Date(reply.createdAt)
+                                ? reply.updatedAt 
+                                : reply.createdAt;
+                                
+                            if (reply.author) {
+                                allActivity.push({
+                                    author: reply.author.login,
+                                    avatarUrl: reply.author.avatarUrl,
+                                    text: reply.bodyText,
+                                    date: replyDate,
+                                    itemName: resolved.name,
+                                    link: resolved.link,
+                                    upvoteCount: reply.upvoteCount || 0,
+                                    reactions: getReactions(reply)
+                                });
+                            }
                         });
                     }
                 });
