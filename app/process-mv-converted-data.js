@@ -23,16 +23,8 @@ const path = require('path');
 // - tpCost and tpGain properties on skills
 // ============================================================================
 
-// Load data files
-const dataDir = path.join(__dirname, '..', 'original-data', 'mv-converted');
-const systemData = JSON.parse(fs.readFileSync(path.join(dataDir, 'System.json'), 'utf8'));
-const statesData = JSON.parse(fs.readFileSync(path.join(dataDir, 'States.json'), 'utf8'));
-const skillsData = JSON.parse(fs.readFileSync(path.join(dataDir, 'Skills.json'), 'utf8'));
-const weaponsData = JSON.parse(fs.readFileSync(path.join(dataDir, 'Weapons.json'), 'utf8'));
-const armorsData = JSON.parse(fs.readFileSync(path.join(dataDir, 'Armors.json'), 'utf8'));
-const enemiesData = JSON.parse(fs.readFileSync(path.join(dataDir, 'Enemies.json'), 'utf8'));
-const itemsData = JSON.parse(fs.readFileSync(path.join(dataDir, 'Items.json'), 'utf8'));
-const commonEventsData = JSON.parse(fs.readFileSync(path.join(dataDir, 'CommonEvents.json'), 'utf8'));
+// Load data files (lexically scoped module-level variables)
+let systemData, statesData, skillsData, weaponsData, armorsData, enemiesData, itemsData, commonEventsData;
 
 // Translate Japanese element names to English
 const elementTranslations = {
@@ -117,8 +109,554 @@ const commonEventTranslations = {
     "自爆ブ": "Self-Destruct Bu",
     "ソニビン捕食": "Sonibin Predation",
     "自爆ラース": "Self-Destruct Rarse",
-    "自爆ハンプティ": "Self-Destruct Humpty"
+    "自爆ハンプティ": "Self-Destruct Humpty",
+    "丸呑みスイッチ": "Swallow Whole Switch",
+    "狼を呼ぶ": "Summon Wolf",
+    "りゅうせい発動": "Draco Meteor Activation",
+    "帰還の手鏡": "Hand Mirror of Return",
+    "ステ": "Stats",
+    "罪人のソウル": "Sinner's Soul",
+    "消えかけ": "Fading",
+    "故も知らぬ": "Unknown",
+    "故も知らぬ大きな": "Large Unknown",
+    "名も無き戦士": "Nameless Warrior",
+    "名も無き戦士大きな": "Large Nameless Warrior",
+    "高名な騎士": "Famous Knight",
+    "高名な騎士大きな": "Large Famous Knight",
+    "勇敢な勇者": "Brave Hero",
+    "勇敢な勇者大きな": "Large Brave Hero",
+    "英雄の": "Hero's",
+    "偉大な英雄": "Great Hero",
+    
+    // Summoning and Boss Common Events
+    "ヘルブレスチャージ": "Hell Breath Charge",
+    "ヘルブレス": "Hell Breath",
+    "鼠仲間を呼ぶ": "Summon Rat Ally",
+    "リィフ召喚": "Summon Leaf",
+    "ドロシー召喚": "Summon Dorothy",
+    "エルマ召喚": "Summon Elma",
+    "ヴィクトリア召喚": "Summon Victoria",
+    "グース召喚": "Summon Goose",
+    "エリザベート召喚": "Summon Elizabeth",
+    "カタリナ召喚": "Summon Katarina",
+    "ジャンヌ召喚": "Summon Jeanne",
+    "ミランダ召喚": "Summon Miranda",
+    "紅ずきん召喚": "Summon Red Riding Hood",
+    "ラスボス技回避チャージ": "Last Boss Skill Evasion Charge",
+    "ラスボス技回避": "Last Boss Skill Evasion",
+    "ラスボス技パリィチャージ": "Last Boss Skill Parry Charge",
+    "ラスボス技パリィ": "Last Boss Skill Parry",
+    "ラスボス技防御チャージ": "Last Boss Skill Guard Charge",
+    "ラスボス技防御": "Last Boss Skill Guard",
+    "ホテルイベント終わり": "Hotel Event End",
+    "ポロ召喚": "Summon Polo"
 };
+
+const jpToEnDictionary = {
+    "<HP回復無効:100>": "<HP Recovery Nullified: 100>",
+    "<使用者効果 2>": "<Caster Effect 2>",
+    "<攻撃ID変更:131>": "<Attack ID Change: 131>",
+    "<攻撃ID変更:154>": "<Attack ID Change: 154>",
+    "<攻撃ID変更:243>": "<Attack ID Change: 243>",
+    "<攻撃ID変更:283>": "<Attack ID Change: 283>",
+    "<攻撃ID変更:286>": "<Attack ID Change: 286>",
+    "<攻撃ID変更": "<Attack ID Change",
+    "<自動蘇生:500,42,100>": "<Auto-Revive: 500, State 42, 100% chance>",
+    "<自動蘇生:self.mhp*3/4,0>": "<Auto-Revive: 75% Max HP, State 0>",
+    "<自動蘇生破損:100>": "<Auto-Revive Break: 100% chance>",
+    "自動蘇生破損": "Auto-Revive Break",
+    "自動蘇生": "Auto-Revive",
+    "死んだ回数30": "Death count: 30",
+    "死んだ回数": "Death count",
+    "ステルス:150": "Stealth: 150",
+    "ソウル二倍": "Double Souls",
+    "ドロップ二倍": "Double Drops",
+    "一閃（敵専用）": "Flash (Enemy Only)",
+    "カルマブレイク（敵専用）": "Karma Break (Enemy Only)",
+    "ドラゴンスキン": "Dragonskin",
+    "聖騎士の御旗": "Holy Knight's Banner",
+    "刀技.敵単体に対して強力な攻撃.": "Katana skill. A powerful attack to a single enemy.",
+    "刀技。敵単体に対して強力な攻撃。": "Katana skill. A powerful attack to a single enemy.",
+    "風神": "Wind God",
+    "砂漠": "Desert",
+    "スキル１番は［攻撃］コマンドを選択したときに使用されます。": "Skill #1 is used when the [Attack] command is selected.",
+    "スキル２番は［防御］コマンドを選択したときに使用されます。": "Skill #2 is used when the [Guard] command is selected.",
+    "ステート１番はＨＰが０になったときに自動的に付加されます。": "State #1 is automatically applied when HP becomes 0.",
+    "らすぼすパリィ技チャージ": "Last Boss Parry Charge",
+    "らすぼす回避技チャージ": "Last Boss Evasion Charge",
+    "らすぼす防御技チャージ": "Last Boss Guard Charge",
+    "ラスボスパリィ技": "Last Boss Parry",
+    "ラスボス回避技": "Last Boss Evasion",
+    "ラスボス防御技": "Last Boss Guard",
+    "カタリナの車輪チャージ": "Katarina's Wheel Charge",
+    "場所：プロローグ、淫腐街": "Location: Prologue, Slums",
+    "場所：聖森": "Location: Sacred Forest",
+    "白雪の庭": "Snow White's Garden",
+    "白雪城": "Snow White Castle",
+    "白雪": "Snow White",
+    "暗黒の鍾乳洞": "Dark Limestone Cave",
+    "暗黒": "Darkness",
+    "下水道入り口": "Sewer Entrance",
+    "下水道": "Sewer",
+    "名も無きデーモン": "Nameless Demon",
+    "水着イベント全て終わる": "All swimsuit events completed",
+    "水着": "Swimsuit",
+    "水": "Water",
+    "風俗": "Brothel",
+    "風": "Wind",
+    "大地の力を秘めた魔法のハンマー。": "A magical hammer harboring the power of the earth.",
+    "大地の力": "Earth Power",
+    "大地": "Earth",
+    "氷結": "Freeze",
+    "氷の力": "Ice Power",
+    "氷": "Ice",
+    "雷の力": "Thunder Power",
+    "雷": "Thunder",
+    "炎の力": "Fire Power",
+    "炎": "Fire",
+    "人魚姫の空間では召還できない。": "Cannot be summoned in Little Mermaid's space.",
+    "人魚姫": "Little Mermaid",
+    "この形態に、攻撃すると反撃される。": "Attacking this form triggers a counterattack.",
+    "反撃": "Counterattack",
+    "売春": "Prostitution",
+    "プロローグ": "Prologue",
+    "淫腐町": "Slums",
+    "旧淫腐町": "Old Slums",
+    "淫腐街": "Slums",
+    "旧淫腐街": "Old Slums",
+    "淫腐": "Slums",
+    "捨てられの森　エリザベートイベント": "Abandoned Forest, Elizabeth Event",
+    "捨てられの森": "Abandoned Forest",
+    "捨てられ森": "Abandoned Forest",
+    "捨てられ": "Abandoned",
+    "アトランティカ": "Atlantica",
+    "歌う骨": "Singing Bone",
+    "腐海": "Rotten Sea",
+    "カラミール": "Calamir",
+    "バフォ": "Bapho",
+    "ピラミッド頂上": "Pyramid Peak",
+    "愚かな王子": "Foolish Prince",
+    "ロストエンパイアリィフ": "Lost Empire Leaf",
+    "ロストエンパイア": "Lost Empire",
+    "これを持っていると個別ＥＤがＢＡＤＥＮＤになる。": "Possessing this leads to the BAD END for individual endings.",
+    "心折れた勇者": "Broken-Hearted Hero",
+    "マリアンナ": "Marianna",
+    "祈り主": "Prayer",
+    "柵 of fenceで捕まってる": "Captured inside the fence",
+    "柵の仲で捕まってる。触れ合い可能": "Captured inside the fence. Interaction possible.",
+    "バトル可能": "Battle possible",
+    "ヒロイン全員が可愛いと言う": "All heroines say cute",
+    "アイバーン砦": "Fort Ivarn",
+    "アイバーン": "Ivarn",
+    "透明状態": "Invisible State",
+    "Gothelの塔": "Gothel's Tower",
+    "ゴーテルの塔": "Gothel's Tower",
+    "ゴーテル": "Gothel",
+    "Helsa砂漠": "Helsa Desert",
+    "ヘルサ": "Helsa",
+    "ドロシー家": "Dorothy's House",
+    "ドロシー": "Dorothy",
+    "聖森": "Sacred Forest",
+    "大聖堂": "Cathedral",
+    "サバトの森庭": "Sabbat Forest Garden",
+    "秘密の花園": "Secret Garden",
+    "暗黒 of Limestone Cave": "Dark Limestone Cave",
+    "西風の名を冠する魔法 of claw": "A magical claw bearing the name of the west wind.",
+    "グリフォンの紋章が刻まれた鋼 of shield": "A steel shield engraved with the emblem of a Griffon.",
+    "巨人族 of heroが使ったとされる重斧。": "A heavy axe said to have been used by the giants' hero.",
+    "戦闘用に作られた両刃 of axe": "A double-edged axe made for combat.",
+    "魔法 of metal Mythrilで作られた長槍。": "A spear made of magical metal Mythril.",
+    "銘をもたない細身 of sword": "A slender katana with no brand name.",
+    "穢れ沼": "Defiled Swamp",
+    "サバト": "Sabbat",
+    "ラスダン": "Final Dungeon",
+    "終点": "Terminus",
+    "魔女の家": "Witch's House",
+    "赤ずきんの家": "Red Riding Hood's House",
+    "主人公": "Protagonist",
+    "味方": "Ally",
+    "浜辺": "Beach",
+    "かばう": "Cover",
+    "ぺろぺろちょうだい！でのちいさなメダル的立場": "Lick Lick Please! Small Medal position",
+    "ぺろぺろちょうだい": "Lick Lick Please",
+    "ぺろぺろ": "Lick Lick",
+    "アリス of Protection": "Blessing of Alice",
+    "アリスの加護": "Blessing of Alice",
+    "天使の加護": "Angelic Blessing",
+    "守られている": "Protected",
+    "守護のカメレオン": "Chameleon of Protection",
+    "ヤーコプ": "Jacob",
+    "紅ずきんが仲間になると出ていく。": "Leaves once Red Riding Hood joins.",
+    "紅ずきんの母親": "Red Riding Hood's Mother",
+    "鉄のハンス": "Iron Hans",
+    "鉄壁の守り": "Iron Wall Guard",
+    "鎧を来た猫": "Cat Wearing Armor",
+    "隠れる": "Hide",
+    "食いしばり": "Endure",
+    "骸骨迷宮": "Skeleton Labyrinth",
+    "魔法反射": "Magic Reflect",
+    "エリクシール": "Elixir",
+    "オーエンティウス": "Oentius",
+    "カタリナ": "Katarina",
+    "ヘルカイザー": "Hell Kaiser",
+    "ヘルブレス": "Hell Breath",
+    "ベヒモス牧場": "Behemoth Ranch",
+    "ホテルポセイドン": "Poseidon Hotel",
+    "ポセイドンホテル": "Poseidon Hotel",
+    "2回目": "2nd encounter",
+    "二回目": "2nd encounter",
+    "仲間になる": "Joins the party",
+    "会心回避": "Critical Evasion",
+    "会心率上昇2": "Critical Rate Up 2",
+    "会心率上昇１００": "Critical Rate 100% Up",
+    "会心率上昇": "Critical Rate Up",
+    "内なる大力": "Inner Great Strength",
+    "凍解状態になる": "Becomes unfrozen",
+    "凍解": "Thaw",
+    "加速": "Acceleration",
+    "召喚中": "Summoned",
+    "呪術師セト": "Sorcerer Seth",
+    "セト": "Seth",
+    "回復逆転。": "Recovery Reversal.",
+    "回避率上昇": "Evasion Rate Up",
+    "大型盾": "Large Shield",
+    "大蛇": "Giant Snake",
+    "恐怖": "Fear",
+    "手封": "Seal Hands",
+    "挑発": "Taunt",
+    "暴走した狼。": "A wolf that went berserk.",
+    "暴走２": "Berserk 2",
+    "暴走": "Berserk",
+    "死を悟る。": "Accepts death.",
+    "沈黙": "Silence",
+    "減速": "Slow",
+    "脆弱": "Fragile",
+    "虚弱": "Weakness",
+    "試練": "Trial",
+    "霧に飲まれて魔獣化。": "Consumed by fog and transforms.",
+    "Wind神": "Wind God",
+    "HP再生": "HP Regeneration",
+    "HP再生rasubosu": "HP Regeneration (Last Boss)",
+    "MP再生": "MP Regeneration",
+    "“打ち砕くもの”の異名をもつ戦神の槌。": "The hammer of the god of war, known by the alias 'The Crusher'.",
+    "こうもり": "Bat",
+    "なめし皮で作られたベスト。": "A vest made of tanned leather.",
+    "なめし皮で作られた帽子。": "A hat made of tanned leather.",
+    "なめし皮を重ねて組んだ鎧。": "Armor constructed by layering tanned leather.",
+    "にかわで固めた硬皮のベスト。": "A stiff leather vest hardened with glue.",
+    "りゅうせいぐん": "Draco Meteor",
+    "りゅうせいぐんチャージ": "Draco Meteor (Charge)",
+    "アイアンクロウ": "Iron Claw",
+    "アイアンシールド": "Iron Shield",
+    "アイアンブレスト": "Iron Breastplate",
+    "アイアンヘルム": "Iron Helm",
+    "アイアンメイル": "Iron Mail",
+    "アサシンダガー": "Assassin Dagger",
+    "アースブレイカー": "Earthbreaker",
+    "インプ": "Imp",
+    "ウィスプ": "Wisp",
+    "ウェアウルフ": "Werewolf",
+    "ウォーハンマー": "Warhammer",
+    "ウッドシールド": "Wood Shield",
+    "ウッドスタッフ": "Wood Staff",
+    "エルブンボウ": "Elven Bow",
+    "エレメンタルマント": "Elemental Cloak",
+    "オーガ": "Ogre",
+    "オーク": "Orc",
+    "ガーゴイル": "Gargoyle",
+    "キマイラ": "Chimera",
+    "クリムゾンアクス": "Crimson Axe",
+    "クロスボウ": "Crossbow",
+    "グリフォンの紋章が刻まれた鋼の盾。": "A steel shield engraved with the emblem of a Griffon.",
+    "ゲイザー": "Gazer",
+    "コカトリス": "Cockatrice",
+    "ゴースト": "Ghost",
+    "サハギン": "Sahagin",
+    "サレット": "Sallet",
+    "サークレット": "Circlet",
+    "ショートソード": "Short Sword",
+    "ショートボウ": "Short Bow",
+    "スケルトン": "Skeleton",
+    "スタン": "Stun",
+    "スパイクシールド": "Spike Shield",
+    "スピア": "Spear",
+    "スライム": "Slime",
+    "セスタス": "Cestus",
+    "ゾンビ": "Zombie",
+    "ターバン": "Turban",
+    "ダガー": "Dagger",
+    "チェインコイフ": "Chain Coif",
+    "チェインメイル": "Chain Mail",
+    "デーモン": "Demon",
+    "ドラグーン": "Dragoon",
+    "ドラゴンスケイル": "Dragon Scale",
+    "ドラゴンバックラー": "Dragon Buckler",
+    "ドラゴンファング": "Dragon Fang",
+    "ナイトシールド": "Knight Shield",
+    "ナイトヘルム": "Knight Helm",
+    "ナイフ": "Knife",
+    "ハルバード": "Halberd",
+    "ハンドアクス": "Hand Axe",
+    "ハードレザー": "Hard Leather",
+    "ハーミットローブ": "Hermit Robe",
+    "バグナウ": "Bagh Nakh",
+    "バックラー": "Buckler",
+    "バトルアクス": "Battle Axe",
+    "バルディッシュ": "Bardiche",
+    "バンダナ": "Bandana",
+    "パペット": "Puppet",
+    "パルチザン": "Partisan",
+    "ピースメイカー": "Peacemaker",
+    "ファルシオン": "Falchion",
+    "フォースワンド": "Force Wand",
+    "フリントロック": "Flintlock",
+    "フレイル": "Flail",
+    "ブリガンダイン": "Brigandine",
+    "ブロンズキャップ": "Bronze Cap",
+    "ブロンズブレスト": "Bronze Breastplate",
+    "プレートメイル": "Plate Mail",
+    "ホーネット": "Hornet",
+    "ホーリーランス": "Holy Lance",
+    "マインゴーシュ": "Main Gauche",
+    "マスケット": "Musket",
+    "ミスリルのかぎ爪が仕込まれた手甲。": "Gauntlets fitted with Mythril claws.",
+    "ミスリルアクス": "Mythril Axe",
+    "ミスリルキャップ": "Mythril Cap",
+    "ミスリルクロウ": "Mythril Claw",
+    "ミスリルサークレット": "Mythril Circlet",
+    "ミスリルシールド": "Mythril Shield",
+    "ミスリルスピア": "Mythril Spear",
+    "ミスリルソード": "Mythril Sword",
+    "ミスリルナイフ": "Mythril Knife",
+    "ミスリルバックラー": "Mythril Buckler",
+    "ミスリルブレスト": "Mythril Breastplate",
+    "ミスリルヘルム": "Mythril Helm",
+    "ミスリルボウ": "Mythril Bow",
+    "ミスリルメイス": "Mythril Mace",
+    "ミスリルメイル": "Mythril Mail",
+    "ミスリルロッド": "Mythril Rod",
+    "ミスリル銀糸で編まれた帽子。": "A hat woven from Mythril silver threads.",
+    "ミミック": "Mimic",
+    "ミランダ斧": "Miranda Axe",
+    "メイス": "Mace",
+    "ヤドリギの老木から作られた杖。": "A staff crafted from an old mistletoe tree.",
+    "ラウンドシールド": "Round Shield",
+    "ラミア": "Lamia",
+    "ルーンブレード": "Rune Blade",
+    "レザーアーマー": "Leather Armor",
+    "レザーキャップ": "Leather Cap",
+    "レザーバンダナ": "Leather Bandana",
+    "レザーベスト": "Leather Vest",
+    "ロングソード": "Longsword",
+    "ロングボウ": "Longbow",
+    "ヴァンパイア": "Vampire",
+    "一般防具": "General Armor",
+    "七支刀": "Seven-Branched Sword",
+    "三日月型の刃をもつ戦斧。": "A battle axe with a crescent-shaped blade.",
+    "不死身": "Immortal",
+    "伐採に使う小型の斧。": "A small axe used for logging.",
+    "冒険者の服": "Adventurer's Clothes",
+    "出血": "Bleeding",
+    "刀": "Katana",
+    "刀身にルーン文字の刻まれた剣。": "A sword with runic letters engraved on its blade.",
+    "剣": "Sword",
+    "剣士たちの生き血を吸ってきた魔性の刀。": "A demonic katana that has sucked the lifeblood of swordsmen.",
+    "力貯め": "Charge Power",
+    "勝利と災厄をもたらす魔剣。": "A magic sword that brings victory and disaster.",
+    "反りのある刀身をもつ幅広の剣。": "A broadsword with a curved blade.",
+    "古の老賢者が身につけていたローブ。": "A robe worn by an ancient wise sage.",
+    "古代魔法文明の技術で作られた額飾り。": "A forehead ornament crafted with technology from the ancient magic civilization.",
+    "名のある刀匠に鍛えられた業物の刀。": "A masterfully crafted katana forged by a renowned swordsmith.",
+    "吸収": "Absorption",
+    "堅木を重ね合わせて作った盾。": "A shield made by layering hardwood together.",
+    "大クラゲ": "Giant Jellyfish",
+    "大グモ": "Giant Spider",
+    "大サソリ": "Giant Scorpion",
+    "大ネズミ": "Giant Rat",
+    "妖刀ムラマサ": "Demon Blade Muramasa",
+    "妖精の森に生える霊木から作られた弓。": "A bow made from spiritual wood growing in the fairy forest.",
+    "威力を高めた戦闘用の長弓。": "A combat longbow designed for increased power.",
+    "守りの霧": "Mist of Protection",
+    "小型盾": "Small Shield",
+    "巨人族の英雄が使ったとされる重斧。": "A heavy axe said to have been used by the giants' hero.",
+    "幅広 of heavy axe" : "A heavy axe said to have been used by the giants' hero.",
+    "幅広の刀身をもつ戦闘用の短刀。": "A combat dagger with a broad blade.",
+    "幅広の刃をもった鋼鉄製の長槍。": "A steel halberd with a broad blade.",
+    "弓": "Bow",
+    "強力なバネで矢を射出する石弓。": "A crossbow that shoots arrows with a powerful spring.",
+    "影の国に伝わる魔力を帯びた槍。": "A magical spear handed down in the Land of Shadows.",
+    "戦闘不能": "Incapacitated",
+    "戦闘用に作られた両刃の斧。": "A double-edged axe made for combat.",
+    "戦闘用に作られた鋼鉄のハンマー。": "A steel hammer made for combat.",
+    "打撃力を高めた金属製の棍棒。": "A metal club designed to increase striking force.",
+    "拳頭にトゲがついたグローブ。": "Gloves with spikes attached to the knuckles.",
+    "攻撃を受け流すこともできる短剣。": "A dagger that can also parry attacks.",
+    "攻撃を受け流すための小型盾。": "A small shield meant for parrying attacks.",
+    "斧": "Axe",
+    "斬馬刀": "Zanbato",
+    "日常生活にも使えるナイフ。": "A knife that can also be used in everyday life.",
+    "普段着": "Casual Clothes",
+    "暗殺者が好んで使う漆黒の短刀。": "A jet-black dagger preferred by assassins.",
+    "暗闇": "Blindness",
+    "暗黒": "Darkness",
+    "月の女神の名を冠する白銀の弓。": "A silver bow bearing the name of the goddess of the moon.",
+    "木綿で作られた厚手のローブ。": "A thick robe made of cotton.",
+    "木綿のローブ": "Cotton Robe",
+    "杖": "Staff",
+    "柄の先に鎖で鉄球をつないだ打撃武器。": "A striking weapon with an iron ball attached to the end of the handle by a chain.",
+    "極楽鳥の羽がついたオシャレな帽子。": "A stylish hat with a bird of paradise feather.",
+    "槌": "Hammer",
+    "槍": "Spear",
+    "樫の木で作られた堅い杖。": "A sturdy staff made of oak.",
+    "毒": "Poison",
+    "毛皮で作られた帽子。": "A hat made of fur.",
+    "毛皮の帽子": "Fur Hat",
+    "消費MP減": "MP Consumption Down",
+    "混乱": "Confusion",
+    "滅びた王国に伝わる剣。行動回数追加+20%": "A sword handed down in a ruined kingdom. Extra Action +20%",
+    "火打ち式の旧式拳銃。": "An obsolete flintlock pistol.",
+    "無銘の刀": "Unbranded Katana",
+    "燃焼": "Burning",
+    "爪": "Claw",
+    "物理": "Physical",
+    "物理回避": "Physical Evasion",
+    "狩猟用に作られた短めの弓。": "A shorter bow designed for hunting.",
+    "狼の爪": "Wolf Claw",
+    "異常防止": "Ailment Prevention",
+    "異様な大きさの大斧。": "A giant axe of unusual size.",
+    "白き神 of spear": "A holy spear blessed by the White God.",
+    "白き神の祝福を受けた聖なる槍。": "A holy spear blessed by the White God.",
+    "真紅に染め上げられた戦斧。": "A battle axe dyed crimson.",
+    "睡眠": "Sleep",
+    "短い４本の爪が取りつけられた格闘武器。": "A martial weapon fitted with four short claws.",
+    "短剣": "Dagger",
+    "破壊力に優れた太刀。": "A katana of excellent destructive power.",
+    "破邪の力を秘めた古代刀。": "An ancient sword harboring the power to dispel evil.",
+    "神聖": "Holy",
+    "穂先に斧頭の取りつけられた槍。": "A spear with an axe head attached to the tip.",
+    "突きに特化させた短めの槍。": "A short spear specialized for thrusting.",
+    "竜の皮膚から作られた帽子。": "A hat made of dragon skin.",
+    "竜の鱗から作られた兜。": "A helm made of dragon scales.",
+    "竜の鱗から作られた小型盾。": "A small shield made of dragon scales.",
+    "竜の鱗から作られた胸当て。": "A breastplate made of dragon scales.",
+    "竜の鱗から作られた鎧。": "Armor made of dragon scales.",
+    "竜巻の名を冠する魔法の短剣。": "A magic dagger bearing the name of the tornado.",
+    "竜牙の拳頭をもつ手甲。": "Gauntlets with dragon-fang knuckles.",
+    "竜鱗の兜": "Dragon Scale Helm",
+    "竜鱗の鎧": "Dragon Scale Armor",
+    "精神集中を助ける宝珠のついた杖。": "A staff with a gem that aids concentration.",
+    "精霊王の力が宿る究極のマント。": "The ultimate cloak harboring the power of the Elemental King.",
+    "紅ずきんのほうちょう": "Red Riding Hood's Kitchen Knife",
+    "絹で作られた上質なマント。": "A high-quality cloak made of silk.",
+    "絹のマント": "Silk Cloak",
+    "羽根付き帽子": "Feathered Hat",
+    "胃液": "Gastric Juice",
+    "虎徹": "Kotetsu",
+    "血塗られた包丁。即死+80%": "A blood-stained kitchen knife. Instant Death +80%",
+    "術士のローブ": "Conjurer's Robe",
+    "術者の魔力を増幅させる銀製の杖。": "A silver staff that amplifies the caster's magical power.",
+    "表面に攻撃用のトゲがついた円盾。": "A round shield with offensive spikes on its surface.",
+    "裏地にルーン文字が刻まれたローブ。": "A robe with runic letters engraved on its lining.",
+    "西風の名を冠する魔法の爪。": "A magical claw bearing the name of the west wind.",
+    "西風の名を冠する魔法の爪": "A magical claw bearing the name of the west wind.",
+    "賢者の石が埋め込まれた魔杖。": "A magical staff embedded with a Philosopher's Stone.",
+    "賢者の額冠": "Sage's Diadem",
+    "身につけた者の魔力を高める髪飾り。": "A hair ornament that increases the magical power of the wearer.",
+    "軽くて扱いやすい刀身の短い剣。": "A light, easy-to-use sword with a short blade.",
+    "軽装防具": "Light Armor",
+    "通気性の高い布の服。": "Highly breathable cloth clothing.",
+    "過酷な旅にも耐えられる丈夫な服。": "Durable clothing that can withstand harsh journeys.",
+    "重ねて巻きつけて頭を守る厚手の布。": "A thick cloth wrapped repeatedly to protect the head.",
+    "重装防具": "Heavy Armor",
+    "鉄で作られたリング状 of diadem": "An iron ring-shaped forehead ornament.",
+    "鉄で作られたリング状の額飾り。": "An iron ring-shaped forehead ornament.",
+    "鉄の枠で補強した木製の円盾。": "A wooden round shield reinforced with an iron frame.",
+    "鉄の鎖を組み上げて作った鎧。": "Armor made by assembling iron chains.",
+    "銀の髪飾り": "Silver Hairpin",
+    "銃": "Gun",
+    "銃士に支給される歩兵銃。": "An infantry rifle issued to musketeers.",
+    "銅 of hairpin": "Bronze Hairpin",
+    "銅の髪飾り": "Bronze Hairpin",
+    "銘をもたない細身の刀。": "A slender katana with no brand name.",
+    "鋭い切れ味を誇る戦闘用の長剣。": "A combat longsword boasting sharp cutting edge.",
+    "鋼板から打ち出した鉄の胸当て。": "An iron breastplate forged from steel plate.",
+    "鋼板で補強したなめし皮製の服.": "Clothing made of tanned leather reinforced with steel plates.",
+    "鋼板で補強したなめし皮製の服。": "Clothing made of tanned leather reinforced with steel plates.",
+    "鋼板を加工して作った帽子。": "A hat made by processing steel plates.",
+    "鋼鉄のかぎ爪が仕込まれた手甲。": "Gauntlets with built-in steel claws.",
+    "鋼鉄製の兜。": "A steel helm.",
+    "鋼鉄製の盾。": "A steel shield.",
+    "鋼鉄製の鎧。": "A steel armor.",
+    "雷の力": "Thunder Power",
+    "雷": "Thunder",
+    "霊子を弾丸 in gun": "A magical gun that converts spiritual particles into bullets.",
+    "霊子を弾丸に換えて撃ち出す魔銃。": "A magical gun that converts spiritual particles into bullets.",
+    "霊木の杖": "Spiritual Wood Staff",
+    "霊銀の太刀": "Mithril Katana",
+    "霊銀銃": "Mithril Gun",
+    "青銅で作られた粗末な胸当て。": "A cheap breastplate made of bronze.",
+    "青銅で作られた髪飾り。": "A hair ornament made of bronze.",
+    "青銅で補強された帽子。": "A hat reinforced with bronze.",
+    "頭部を覆う鉄鎖で編まれたフード。": "A hood woven with iron chains covering the head.",
+    "額を守る布製のハチマキ。": "A cloth headband protecting the forehead.",
+    "額を守る皮製のハチマキ.": "A leather headband protecting the forehead.",
+    "額を守る皮製のハチマキ。": "A leather headband protecting the forehead.",
+    "風の力": "Wind Power",
+    "風": "Wind",
+    "食人花": "Man-eating Flower",
+    "騎兵が使用するカービン銃。": "A carbine rifle used by cavalry.",
+    "騎士が身につける板金鎧。": "Plate armor worn by knights.",
+    "騎士が身につける装飾された兜。": "A decorated helm worn by knights.",
+    "魔刃ヴォーテクス": "Demon Blade Vortex",
+    "魔剣ティルヴィング": "Magic Sword Tyrfing",
+    "魔力貯め": "Magic Charge",
+    "魔弓アルテミス": "Magic Bow Artemis",
+    "魔斧ギガンテス": "Magic Axe Gigantes",
+    "魔杖アゾット": "Magic Staff Azoth",
+    "魔槌ミョルニル": "Magic Hammer Mjolnir",
+    "魔槍ゲイボルグ": "Magic Spear Gae Bolg",
+    "魔法の金属で作られた太刀。": "A katana made of magical metal.",
+    "魔法の金属ミスリルで作られたナイフ。": "A knife made of magical metal Mythril.",
+    "魔法の金属ミスリルで作られた兜。": "A helm made of magical metal Mythril.",
+    "魔法の金属ミスリルで作られた小型盾。": "A small shield made of magical metal Mythril.",
+    "魔法の金属ミスリルで作られた弓。": "A bow made of magical metal Mythril.",
+    "魔法の金属ミスリルで作られた戦槌。": "A war hammer made of magical metal Mythril.",
+    "魔法の金属ミスリルで作られた斧。": "An axe made of magical metal Mythril.",
+    "魔法の金属ミスリルで作られた杖。": "A staff made of magical metal Mythril.",
+    "魔法 of metal Mythrilで作られた盾。": "A shield made of magical metal Mythril.",
+    "魔法の金属ミスリルで作られた盾。": "A shield made of magical metal Mythril.",
+    "魔法の金属ミスリルで作られた胸当て。": "A breastplate made of magical metal Mythril.",
+    "魔法の金属ミスリルで作られた鎧。": "Armor made of magical metal Mythril.",
+    "魔法の金属ミスリルで作られた長剣。": "A longsword made of magical metal Mythril.",
+    "魔法の金属ミスリルで作られた長槍。": "A spear made of magical metal Mythril.",
+    "魔法の金属ミスリルで作られた額飾り。": "A forehead ornament made of magical metal Mythril.",
+    "魔法の金属ミスリルの銃身をもつ銃。": "A gun with a barrel made of magical metal Mythril.",
+    "魔法回避": "Magic Evasion",
+    "魔法防具": "Magic Armor",
+    "魔爪ゼファー": "Magic Claw Zephyr",
+    "魔王": "Demon King",
+    "魔神": "Demon God",
+    "魔道士の杖": "Mage Staff",
+    "魔銃エーテルブラスト": "Magic Gun Ether Blast",
+    "麻痺": "Paralysis",
+    "黒色火薬を用いたリボルバー式拳銃。": "A revolver pistol using black powder.",
+    "防具": "Armor",
+    "～～全部で３２（２４）～～～": ""
+};
+
+function translateString(text) {
+    if (!text || typeof text !== 'string') return text;
+    let result = text;
+    // Sort keys by length desc to replace longest compound words first
+    const sortedKeys = Object.keys(jpToEnDictionary).sort((a, b) => b.length - a.length);
+    for (const key of sortedKeys) {
+        if (result.includes(key)) {
+            result = result.split(key).join(jpToEnDictionary[key]);
+        }
+    }
+    return result;
+}
+
 
 // Map element IDs to icon indices
 // Icon indices based on actual icons used in the game data
@@ -171,12 +709,9 @@ const armorTypeTranslations = {
     "大型盾": "Large Shield"
 };
 
-// Create mapping tables - translate Japanese to English
-const elements = (systemData.elements || []).map(el => elementTranslations[el] || el || "");
-const weaponTypes = (systemData.weaponTypes || []).map(wt => weaponTypeTranslations[wt] || wt || "");
-const armorTypes = (systemData.armorTypes || []).map(at => armorTypeTranslations[at] || at || "");
-const equipTypes = systemData.equipTypes || [];
-const skillTypes = systemData.skillTypes || [];
+// Create mapping tables variables
+let elements, weaponTypes, armorTypes, equipTypes, skillTypes;
+let idResolvers;
 
 // Scope type descriptions
 // NOTE: Only scope types with documented sources should be included here.
@@ -502,6 +1037,131 @@ const traitCodeSources = {
 
 // Japanese to English translations for common note patterns
 const translations = {
+    ...elementTranslations,
+    ...commonEventTranslations,
+    ...weaponTypeTranslations,
+    ...armorTypeTranslations,
+    // RPG Maker parameters and common terms
+    "戦闘不能": "Incapacitated",
+    "沈黙": "Silence",
+    "暗闇": "Blindness",
+    "麻痺": "Paralysis",
+    "スタン": "Stun",
+    "睡眠": "Sleep",
+    "混乱": "Confusion",
+    "水": "Water",
+    "氷結": "Freeze",
+    "神聖": "Holy",
+    "出血": "Bleeding",
+    "燃焼": "Burning",
+    "帰還の手鏡": "Return Mirror",
+    "ステ": "Stats",
+    "自動蘇生": "Auto-Revive",
+    "自動蘇生破損": "Auto-Revive Break",
+    "風俗": "Brothel",
+    "売春": "Prostitution",
+    
+    // Locations
+    "ゴーテルの塔": "Gothel's Tower",
+    "ポセイドンホテル": "Poseidon Hotel",
+    "ホテルポセイドン": "Poseidon Hotel",
+    "ヘルサ砂漠": "Helsa Desert",
+    "白雪城": "Snow White Castle",
+    "ロストエンパイア": "Lost Empire",
+    "淫腐街": "Slums",
+    "旧淫腐街": "Old Slums",
+    "旧淫腐町": "Old Slums",
+    "旧淫腐": "Old Slums",
+    "ベヒモス牧場": "Behemoth Ranch",
+    "下水道入り口": "Sewer Entrance",
+    "捨てられの森": "Abandoned Forest",
+    "ドロシー家": "Dorothy's House",
+    "聖森": "Sacred Forest",
+    "骸骨迷宮": "Skeleton Labyrinth",
+    "大聖堂": "Cathedral",
+    "サバトの森庭": "Sabbat Forest Garden",
+    "秘密の花園": "Secret Garden",
+    "捨てられ": "Abandoned",
+    "穢れ沼": "Defiled Swamp",
+    "白雪の庭": "Snow White's Garden",
+    "サバト": "Sabbat",
+    "ラスダン": "Final Dungeon",
+    
+    // Characters/Items/Events
+    "ドロシー": "Dorothy",
+    "エリクシール": "Elixir",
+    "グースお礼": "Goose Reward",
+    "セト": "Seth",
+    "呪術師セト": "Sorcerer Seth",
+    "カタリナ": "Katarina",
+    "守護のカメレオン": "Chameleon of Protection",
+    "アイバーン": "Ivarn",
+    "ヤーコプ": "Jacob",
+    "紅ずきんの母親": "Red Riding Hood's Mother",
+    
+    // Messages/Combat/Mechanics
+    "死を悟る。": "Accepts death.",
+    "終点": "Terminus",
+    "仲間になる。": "Joins the party.",
+    "仲間になる": "Joins the party.",
+    "凍解状態になる。": "Becomes unfrozen.",
+    "凍解状態になる": "Becomes unfrozen.",
+    "カルマが１５で敵対、魔獣化する。": "Becomes hostile and transforms at 15 Karma.",
+    "紅ずきんが仲間になると出ていく。": "Leaves once Red Riding Hood joins.",
+    "霧に飲まれて魔獣化。": "Consumed by fog and transforms.",
+    "二回目": "2nd encounter",
+    "2回目": "2nd encounter",
+    "じゃんけん。": "Rock-paper-scissors.",
+    "回復逆転。": "Recovery Reversal.",
+    "この形態に、攻撃すると反撃される。": "Attacking this form triggers a counterattack.",
+    "人魚姫の空間では召還できない。": "Cannot be summoned in Little Mermaid's space.",
+    "イベント": "Event",
+    "試練": "Trial",
+    
+    // Weapons/Armor names and tags
+    "鎧を来た猫": "Cat Wearing Armor",
+    "魔女の家": "Witch's House",
+    "赤ずきんの家": "Red Riding Hood's House",
+    "鉄のハンス": "Iron Hans",
+    "攻撃ID変更": "Change Attack ID",
+    "オーエンティウス": "Oentius",
+    "ぺろぺろ": "Lick Lick",
+    "ヘルカイザー": "Hell Kaiser",
+    "名も無きデーモン": "Nameless Demon",
+    
+    // Notes location mapping and other terms
+    "場所：プロローグ、淫腐街": "Location: Prologue, Slums",
+    "プロローグ": "Prologue",
+    "淫腐街": "Slums",
+    "淫腐町": "Slums",
+    "淫腐": "Slums",
+    "捨てられ森": "Abandoned Forest",
+    "捨てられの森　エリザベートイベント": "Abandoned Forest, Elizabeth Event",
+    "アトランティカ": "Atlantica",
+    "歌う骨": "Singing Bone",
+    "腐海": "Rotten Sea",
+    "暗黒 of Limestone Cave": "Dark Limestone Cave", // For safety
+    "暗黒の鍾乳洞": "Dark Limestone Cave",
+    "カラミール": "Calamir",
+    "バフォ": "Bapho",
+    "ピラミッド頂上": "Pyramid Peak",
+    "愚かな王子": "Foolish Prince",
+    "水着イベント全て終わる": "All swimsuit events completed",
+    "ロストエンパイアリィフ": "Lost Empire Leaf",
+    "これを持っていると個別ＥＤがＢＡＤＥＮＤになる。": "Possessing this leads to the BAD END for individual endings.",
+    "心折れた勇者": "Broken-Hearted Hero",
+    "マリアンナ": "Marianna",
+    "祈り主": "Prayer",
+    "柵の仲で捕まってる。触れ合い可能": "Captured inside the fence. Interaction possible.",
+    "バトル可能": "Battle possible",
+    "ヒロイン全員が可愛いと言う": "All heroines say cute",
+    "アイバーン砦": "Fort Ivarn",
+    "透明状態": "Invisible State",
+    
+    // Specific text translations
+    "暴走した狼。": "A wolf that went berserk.",
+    "滅びた王国に伝わる剣.行動回数追加+20%": "A sword handed down in a ruined kingdom. Extra Action +20%",
+
     // System messages
     "スキル１番は［攻撃］コマンドを選択したときに使用されます。": "Skill #1 is used when the [Attack] command is selected.",
     "スキル２番は［防御］コマンドを選択したときに使用されます。": "Skill #2 is used when the [Guard] command is selected.",
@@ -787,8 +1447,22 @@ const translations = {
     "妊婦のソウル": "Pregnant Woman Soul",
     "ジャブジャブ落": "Jab Jab Drop",
     "分身": "Clone",
-    "混沌ダンジョン": "Chaos Dungeon"
+    "混沌ダンジョン": "Chaos Dungeon",
+    ...jpToEnDictionary
 };
+
+// Normalize translations keys by converting Japanese punctuation (keeping full-width spaces)
+for (const key of Object.keys(translations)) {
+    const normalizedKey = convertJapanesePunctuationKeepSpaces(key);
+    if (normalizedKey !== key) {
+        translations[normalizedKey] = translations[key];
+        delete translations[key];
+    }
+}
+
+const sortedTranslationKeys = Object.keys(translations).sort((a, b) => b.length - a.length);
+const sortedTranslationEntries = Object.entries(translations).sort((a, b) => b[0].length - a[0].length);
+
 
 // Convert Japanese (full-width) punctuation to ASCII (half-width)
 function convertJapanesePunctuation(text) {
@@ -812,25 +1486,43 @@ function convertJapanesePunctuation(text) {
         .replace(/　/g, ' '); // Full-width space to regular space
 }
 
+// Convert Japanese (full-width) punctuation to ASCII (half-width) but keep full-width spaces
+function convertJapanesePunctuationKeepSpaces(text) {
+    if (!text) return text;
+    
+    return text
+        .replace(/！/g, '!')
+        .replace(/？/g, '?')
+        .replace(/～/g, '~')
+        .replace(/、/g, ',')
+        .replace(/。/g, '.')
+        .replace(/（/g, '(')
+        .replace(/）/g, ')')
+        .replace(/「/g, '"')
+        .replace(/」/g, '"')
+        .replace(/『/g, '"')
+        .replace(/』/g, '"')
+        .replace(/【/g, '[')
+        .replace(/】/g, ']')
+        .replace(/〜/g, '~');
+}
+
 // Simple translation function for strings (names, descriptions) using the translations object
 function translateSimpleString(text) {
     if (!text) return text;
     
-    let result = convertJapanesePunctuation(text.trim());
+    let result = convertJapanesePunctuationKeepSpaces(text.trim());
     
-    // Apply translations from the translations object
-    let changed = true;
-    while (changed) {
-        changed = false;
-        for (const [jpn, eng] of Object.entries(translations)) {
-            if (result.includes(jpn)) {
-                result = result.replace(new RegExp(jpn, 'g'), eng);
-                changed = true;
-            }
+    for (const jpn of sortedTranslationKeys) {
+        if (!jpn) continue;
+        if (result.includes(jpn)) {
+            const eng = translations[jpn];
+            // Use split/join to do literal replacement
+            result = result.split(jpn).join(eng);
         }
     }
     
-    return result;
+    return result.replace(/　/g, ' ');
 }
 
 // Detect Japanese characters (Hiragana, Katakana, Kanji)
@@ -852,7 +1544,7 @@ function createIDResolvers(skillsData, statesData, weaponsData, armorsData, item
         getSkillName: (id) => {
             if (!skillsData || !id) return null;
             const skill = skillsData.find(s => s && s.id === parseInt(id));
-            return skill && skill.name ? skill.name : null;
+            return skill && skill.name ? translateSimpleString(skill.name) : null;
         },
         
         // Resolve state ID to name
@@ -861,35 +1553,36 @@ function createIDResolvers(skillsData, statesData, weaponsData, armorsData, item
             const state = statesData.find(s => s && s.id === parseInt(id));
             if (!state) return null;
             // If state exists but has no name, return "State #X" as fallback
-            return state.name && state.name.trim() !== '' ? state.name : `State #${id}`;
+            const name = state.name && state.name.trim() !== '' ? state.name : `State #${id}`;
+            return translateSimpleString(name);
         },
         
         // Resolve weapon ID to name
         getWeaponName: (id) => {
             if (!weaponsData || !id) return null;
             const weapon = weaponsData.find(w => w && w.id === parseInt(id));
-            return weapon && weapon.name ? weapon.name : null;
+            return weapon && weapon.name ? translateSimpleString(weapon.name) : null;
         },
         
         // Resolve armor ID to name
         getArmorName: (id) => {
             if (!armorsData || !id) return null;
             const armor = armorsData.find(a => a && a.id === parseInt(id));
-            return armor && armor.name ? armor.name : null;
+            return armor && armor.name ? translateSimpleString(armor.name) : null;
         },
         
         // Resolve item ID to name
         getItemName: (id) => {
             if (!itemsData || !id) return null;
             const item = itemsData.find(i => i && i.id === parseInt(id));
-            return item && item.name ? item.name : null;
+            return item && item.name ? translateSimpleString(item.name) : null;
         },
         
         // Resolve enemy ID to name
         getEnemyName: (id) => {
             if (!enemiesData || !id) return null;
             const enemy = enemiesData.find(e => e && e.id === parseInt(id));
-            return enemy && enemy.name ? enemy.name : null;
+            return enemy && enemy.name ? translateSimpleString(enemy.name) : null;
         }
     };
 }
@@ -1215,7 +1908,7 @@ function translateNote(note, skillsData = null, statesData = null, sourceType = 
     
     // Normalize whitespace: trim and replace multiple spaces/newlines, but preserve full-width spaces for translation matching
     // First, normalize regular spaces and tabs, but keep full-width spaces (　) for now
-    let english = note.trim().replace(/[ \t]+/g, ' ').replace(/\n\s*\n/g, '\n');
+    let english = convertJapanesePunctuationKeepSpaces(note.trim()).replace(/[ \t]+/g, ' ').replace(/\n\s*\n/g, '\n');
     // Then normalize full-width spaces separately (after translations, we'll convert them)
     english = english.replace(/　+/g, '　');
     let hasTranslation = false;
@@ -1378,7 +2071,7 @@ function translateNote(note, skillsData = null, statesData = null, sourceType = 
         { regex: /血涙の池/g, replacement: () => `Blood Tears Pool` },
         { regex: /血涙/g, replacement: () => `Blood Tears` },
         // Order matters: more specific patterns first - "ぺろぺろちょうだい" must come before "ぺろぺろ"
-        { regex: /ぺろぺろちょうだい！でのちいさなメダル的立場/g, replacement: () => `Lick Lick Please! Small Medal position` },
+        { regex: /ぺろぺろちょうだい!でのちいさなメダル的立場/g, replacement: () => `Lick Lick Please! Small Medal position` },
         { regex: /ぺろぺろちょうだい/g, replacement: () => `Lick Lick Please` },
         { regex: /ぺろぺろバード/g, replacement: () => `Lick Lick Bird` },
         { regex: /ジャブジャブ落/g, replacement: () => `Jab Jab Drop` },
@@ -1604,44 +2297,39 @@ function translateNote(note, skillsData = null, statesData = null, sourceType = 
     }
     
     // Then apply simple text translations for any remaining Japanese text
-    // Apply translations multiple times until no more matches
-    // IMPORTANT: Process longer/more specific translations first to avoid conflicts
-    // Sort translations by length (longest first) to handle nested patterns correctly
-    const sortedTranslations = Object.entries(translations).sort((a, b) => b[0].length - a[0].length);
-    
-    changed = true;
-    while (changed) {
-        changed = false;
-        for (const [jpn, eng] of sortedTranslations) {
-            if (english.includes(jpn)) {
-                // Skip if this translation would create a duplicate (e.g., if we already have the bracketed version)
-                // Check if the English translation already exists in the text
-                if (jpn.includes('[') && eng.includes('[')) {
-                    // This is a bracketed translation - check if the unbracketed version is already in the text
-                    const unbracketedJpn = jpn.replace(/[\[\]]/g, '');
-                    const unbracketedEng = eng.replace(/[\[\]]/g, '');
-                    // If the unbracketed English is already in the text and we're about to add the bracketed version,
-                    // skip to avoid creating duplicates
-                    if (english.includes(unbracketedEng) && !english.includes(eng)) {
-                        // Only add if the bracketed version isn't already there
-                        continue;
-                    }
-                } else if (!jpn.includes('[') && eng.includes('[')) {
-                    // This is an unbracketed -> bracketed translation
-                    // Skip if the bracketed version is already in the text
-                    const bracketedEng = `[${eng}]`;
-                    if (english.includes(bracketedEng)) {
-                        continue;
-                    }
+    // Process longer/more specific translations first to avoid conflicts
+    for (const [jpn, eng] of sortedTranslationEntries) {
+        if (!jpn) continue;
+        if (english.includes(jpn)) {
+            // Skip if this translation would create a duplicate (e.g., if we already have the bracketed version)
+            // Check if the English translation already exists in the text
+            if (jpn.includes('[') && eng.includes('[')) {
+                // This is a bracketed translation - check if the unbracketed version is already in the text
+                const unbracketedJpn = jpn.replace(/[\[\]]/g, '');
+                const unbracketedEng = eng.replace(/[\[\]]/g, '');
+                // If the unbracketed English is already in the text and we're about to add the bracketed version,
+                // skip to avoid creating duplicates
+                if (english.includes(unbracketedEng) && !english.includes(eng)) {
+                    // Only add if the bracketed version isn't already there
+                    continue;
                 }
-                
-                english = english.replace(new RegExp(jpn.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g'), eng);
-                hasTranslation = true;
-                changed = true;
+            } else if (!jpn.includes('[') && eng.includes('[')) {
+                // This is an unbracketed -> bracketed translation
+                // Skip if the bracketed version is already in the text
+                const bracketedEng = `[${eng}]`;
+                if (english.includes(bracketedEng)) {
+                    continue;
+                }
             }
+            
+            english = english.replace(new RegExp(jpn.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g'), eng);
+            hasTranslation = true;
         }
     }
     
+    // Convert remaining full-width spaces to regular spaces
+    english = english.replace(/　/g, ' ');
+
     // Detect if there's still Japanese text remaining (untranslated)
     // Do this BEFORE newline filtering to catch any remaining Japanese
     const hasUntranslated = containsJapanese(english);
@@ -1671,10 +2359,48 @@ function translateNote(note, skillsData = null, statesData = null, sourceType = 
     };
 }
 
-// Create ID resolvers for all object types (available globally for processing)
-const idResolvers = createIDResolvers(skillsData, statesData, weaponsData, armorsData, itemsData, enemiesData);
+function processGameData(gameId) {
+    console.log(`\n========================================`);
+    console.log(`Processing Game: ${gameId}`);
+    console.log(`========================================`);
+
+    const dataDir = path.join(__dirname, '..', 'original-data', gameId, 'mv-converted');
+    if (!fs.existsSync(dataDir)) {
+        console.warn(`⚠️  Skipping ${gameId} (data directory not found: ${dataDir})`);
+        return null;
+    }
+
+    // Load game-specific data files
+    systemData = JSON.parse(fs.readFileSync(path.join(dataDir, 'System.json'), 'utf8'));
+    statesData = JSON.parse(fs.readFileSync(path.join(dataDir, 'States.json'), 'utf8'));
+    skillsData = JSON.parse(fs.readFileSync(path.join(dataDir, 'Skills.json'), 'utf8'));
+    weaponsData = JSON.parse(fs.readFileSync(path.join(dataDir, 'Weapons.json'), 'utf8'));
+    armorsData = JSON.parse(fs.readFileSync(path.join(dataDir, 'Armors.json'), 'utf8'));
+    enemiesData = JSON.parse(fs.readFileSync(path.join(dataDir, 'Enemies.json'), 'utf8'));
+    itemsData = JSON.parse(fs.readFileSync(path.join(dataDir, 'Items.json'), 'utf8'));
+    commonEventsData = JSON.parse(fs.readFileSync(path.join(dataDir, 'CommonEvents.json'), 'utf8'));
+
+    // Populate mapping tables (using game-specific systemData)
+    elements = (systemData.elements || []).map((el, idx) => {
+        if (idx === 6) return "Water";
+        return translateSimpleString(el) || "";
+    });
+    weaponTypes = (systemData.weaponTypes || []).map(wt => weaponTypeTranslations[wt] || wt || "");
+    armorTypes = (systemData.armorTypes || []).map(at => armorTypeTranslations[at] || at || "");
+    equipTypes = systemData.equipTypes || [];
+    skillTypes = systemData.skillTypes || [];
+
+    // Reset stats
+    idRefStats.totalDetections = 0;
+    idRefStats.totalReplacements = 0;
+    idRefStats.unresolvedDetections = 0;
+    idRefStats.byType = { skills: 0, states: 0, weapons: 0, armors: 0, enemies: 0, items: 0 };
+
+    // Create ID resolvers
+    idResolvers = createIDResolvers(skillsData, statesData, weaponsData, armorsData, itemsData, enemiesData);
 
 // Process skills data
+console.log('  Processing skills...');
 const processedSkills = skillsData
     .filter(skill => skill !== null) // Remove null entries
     .filter(skill => skill.name && skill.name.trim() !== '') // Remove nameless skills
@@ -1682,8 +2408,8 @@ const processedSkills = skillsData
         const translated = translateNote(skill.note, skillsData, statesData, 'skill', skill.id);
         
         // Check for untranslated Japanese in name and description
-        let skillName = convertJapanesePunctuation(skill.name);
-        let skillDescription = convertJapanesePunctuation(skill.description);
+        let skillName = translateSimpleString(skill.name);
+        let skillDescription = translateSimpleString(skill.description);
         
         // Resolve ID references in text
         skillName = resolveAndLog(skillName, idResolvers, 'skill', skill.id, 'name');
@@ -1707,6 +2433,8 @@ const processedSkills = skillsData
             id: skill.id,
             name: skillName,
             description: skillDescription,
+            japaneseName: skill.name !== skillName ? skill.name : undefined,
+            japaneseDescription: skill.description !== skillDescription ? skill.description : undefined,
             iconIndex: skill.iconIndex,
             mpCost: skill.mpCost,
             // NOTE: tpCost and tpGain have been removed - DO NOT add them back
@@ -1837,10 +2565,8 @@ const processedSkills = skillsData
                     // Add specific descriptions based on effect code - no IDs shown
                     if (effect.code === 21) { // Add State
                         const state = statesData.find(s => s && s.id === effect.dataId);
-                        // Use state name if available, otherwise use "State #X" as fallback
-                        const stateName = state?.name && state.name.trim() !== '' 
-                            ? state.name 
-                            : `State #${effect.dataId}`;
+                        const rawName = state?.name && state.name.trim() !== '' ? state.name : `State #${effect.dataId}`;
+                        const stateName = translateSimpleString(rawName);
                         const chance = Math.round(effect.value1 * 100);
                         effectInfo.stateName = stateName;
                         effectInfo.chance = chance;
@@ -1851,10 +2577,8 @@ const processedSkills = skillsData
                             : `Inflict ${stateRef}`;
                     } else if (effect.code === 22) { // Remove State
                         const state = statesData.find(s => s && s.id === effect.dataId);
-                        // Use state name if available, otherwise use "State #X" as fallback
-                        const stateName = state?.name && state.name.trim() !== '' 
-                            ? state.name 
-                            : `State #${effect.dataId}`;
+                        const rawName = state?.name && state.name.trim() !== '' ? state.name : `State #${effect.dataId}`;
+                        const stateName = translateSimpleString(rawName);
                         effectInfo.stateName = stateName;
                         // Insert cross-reference marker directly
                         const stateRef = `[[STATE:${effect.dataId}:${stateName}]]`;
@@ -2009,7 +2733,7 @@ function processTraits(traits, statesData, skillsData = null, elements = null) {
             const state = statesData.find(s => s && s.id === trait.dataId);
             // Use state name if available, otherwise use "State #X" as fallback
             const stateName = state?.name && state.name.trim() !== '' 
-                ? state.name 
+                ? translateSimpleString(state.name) 
                 : `State #${trait.dataId}`;
             // Insert cross-reference marker directly
             const stateRef = `[[STATE:${trait.dataId}:${stateName}]]`;
@@ -2024,7 +2748,7 @@ function processTraits(traits, statesData, skillsData = null, elements = null) {
             const state = statesData.find(s => s && s.id === trait.dataId);
             // Use state name if available, otherwise use "State #X" as fallback
             const stateName = state?.name && state.name.trim() !== '' 
-                ? state.name 
+                ? translateSimpleString(state.name) 
                 : `State #${trait.dataId}`;
             const stateRef = `[[STATE:${trait.dataId}:${stateName}]]`;
             traitInfo.description = `Immune to ${stateRef}`;
@@ -2102,7 +2826,7 @@ function processTraits(traits, statesData, skillsData = null, elements = null) {
             const state = statesData.find(s => s && s.id === trait.dataId);
             // Use state name if available, otherwise use "State #X" as fallback
             const stateName = state?.name && state.name.trim() !== '' 
-                ? state.name 
+                ? translateSimpleString(state.name) 
                 : `State #${trait.dataId}`;
             const stateRef = `[[STATE:${trait.dataId}:${stateName}]]`;
             const chance = Math.round(trait.value * 100);
@@ -2137,7 +2861,7 @@ function processTraits(traits, statesData, skillsData = null, elements = null) {
             // dataId: skill ID, value: typically 0
             if (skillsData) {
                 const skill = skillsData.find(s => s && s.id === trait.dataId);
-                const skillName = skill?.name || "Unknown Skill";
+                const skillName = skill?.name ? translateSimpleString(skill.name) : "Unknown Skill";
                 const skillRef = `[[SKILL:${trait.dataId}:${skillName}]]`;
                 traitInfo.description = `Add ${skillRef}`;
             } else {
@@ -2147,7 +2871,7 @@ function processTraits(traits, statesData, skillsData = null, elements = null) {
             // dataId: skill ID, value: typically 0
             if (skillsData) {
                 const skill = skillsData.find(s => s && s.id === trait.dataId);
-                const skillName = skill?.name || "Unknown Skill";
+                const skillName = skill?.name ? translateSimpleString(skill.name) : "Unknown Skill";
                 const skillRef = `[[SKILL:${trait.dataId}:${skillName}]]`;
                 traitInfo.description = `Seal ${skillRef}`;
             } else {
@@ -2236,6 +2960,7 @@ function processTraits(traits, statesData, skillsData = null, elements = null) {
 }
 
 // Process states data
+console.log('  Processing states...');
 const processedStates = statesData
     .filter(state => state !== null) // Remove null entries
     .map(state => {
@@ -2262,14 +2987,14 @@ const processedStates = statesData
         
         // Check for untranslated Japanese in state name and messages
         // Handle empty names - use fallback if name is empty
-        let stateName = state.name ? convertJapanesePunctuation(state.name) : `State #${state.id}`;
+        let stateName = state.name ? translateSimpleString(state.name) : `State #${state.id}`;
         stateName = resolveAndLog(stateName, idResolvers, 'state', state.id, 'name');
         if (state.name && containsJapanese(stateName)) {
             console.warn(`⚠️  Untranslated Japanese in state name (ID: ${state.id}): "${stateName}"`);
         }
         
         const checkMessage = (msg, fieldName, id) => {
-            let converted = convertJapanesePunctuation(msg);
+            let converted = translateSimpleString(msg);
             converted = resolveAndLog(converted, idResolvers, 'state', id, fieldName);
             if (containsJapanese(converted)) {
                 console.warn(`⚠️  Untranslated Japanese in state ${fieldName} (ID: ${id}): "${converted.substring(0, 100)}..."`);
@@ -2290,6 +3015,7 @@ const processedStates = statesData
         return {
             id: state.id,
             name: stateName,
+            japaneseName: state.name !== stateName ? state.name : undefined,
             iconIndex: state.iconIndex,
             message1: checkMessage(state.message1, 'message1', state.id),
             message2: checkMessage(state.message2, 'message2', state.id),
@@ -2319,6 +3045,7 @@ const processedStates = statesData
     });
 
 // Process weapons data
+console.log('  Processing weapons...');
 const processedWeapons = weaponsData
     .filter(weapon => weapon !== null) // Remove null entries
     .filter(weapon => weapon.name && weapon.name.trim() !== '') // Remove nameless weapons
@@ -2402,8 +3129,8 @@ const processedWeapons = weaponsData
         });
         
         // Check for untranslated Japanese in weapon name and description
-        let weaponName = convertJapanesePunctuation(weapon.name);
-        let weaponDescription = convertJapanesePunctuation(weapon.description);
+        let weaponName = translateSimpleString(weapon.name);
+        let weaponDescription = translateSimpleString(weapon.description);
         
         // Resolve ID references
         weaponName = resolveAndLog(weaponName, idResolvers, 'weapon', weapon.id, 'name');
@@ -2420,6 +3147,8 @@ const processedWeapons = weaponsData
             id: weapon.id,
             name: weaponName,
             description: weaponDescription,
+            japaneseName: weapon.name !== weaponName ? weapon.name : undefined,
+            japaneseDescription: weapon.description !== weaponDescription ? weapon.description : undefined,
             iconIndex: weapon.iconIndex,
             price: weapon.price,
             wtypeId: weapon.wtypeId,
@@ -2435,6 +3164,7 @@ const processedWeapons = weaponsData
     });
 
 // Process armors data
+console.log('  Processing armors...');
 const processedArmors = armorsData
     .filter(armor => armor !== null) // Remove null entries
     .filter(armor => armor.name && armor.name.trim() !== '') // Remove nameless armors
@@ -2514,8 +3244,8 @@ const processedArmors = armorsData
         });
         
         // Check for untranslated Japanese in armor name and description
-        let armorName = convertJapanesePunctuation(armor.name);
-        let armorDescription = convertJapanesePunctuation(armor.description);
+        let armorName = translateSimpleString(armor.name);
+        let armorDescription = translateSimpleString(armor.description);
         
         // Resolve ID references
         armorName = resolveAndLog(armorName, idResolvers, 'armor', armor.id, 'name');
@@ -2532,6 +3262,8 @@ const processedArmors = armorsData
             id: armor.id,
             name: armorName,
             description: armorDescription,
+            japaneseName: armor.name !== armorName ? armor.name : undefined,
+            japaneseDescription: armor.description !== armorDescription ? armor.description : undefined,
             iconIndex: armor.iconIndex,
             price: armor.price,
             atypeId: armor.atypeId,
@@ -2551,6 +3283,7 @@ const processedArmors = armorsData
     });
 
 // Process enemies data
+console.log('  Processing enemies...');
 const processedEnemies = enemiesData
     .filter(enemy => enemy !== null) // Remove null entries
     .filter(enemy => enemy.name && enemy.name.trim() !== '') // Remove nameless enemies
@@ -2587,7 +3320,8 @@ const processedEnemies = enemiesData
         // Process actions array: resolve skillId to skill names and format conditions
         const actions = (enemy.actions || []).map(action => {
             const skill = skillsData.find(s => s && s.id === action.skillId);
-            const skillName = skill && skill.name ? skill.name : `Skill #${action.skillId}`;
+            const rawName = skill && skill.name ? skill.name : `Skill #${action.skillId}`;
+            const skillName = translateSimpleString(rawName);
             // Insert cross-reference marker directly
             const skillRef = `[[SKILL:${action.skillId}:${skillName}]]`;
             
@@ -2644,7 +3378,8 @@ const processedEnemies = enemiesData
             } else if (conditionType === 4) {
                 // State: resolve state ID to name
                 const state = statesData.find(s => s && s.id === param1);
-                const stateName = state && state.name ? state.name : `State #${param1}`;
+                const rawName = state && state.name ? state.name : `State #${param1}`;
+                const stateName = translateSimpleString(rawName);
                 conditionText = `State: [[STATE:${param1}:${stateName}]]`;
             } else if (conditionType === 5) {
                 // Party Level: level or above
@@ -2705,7 +3440,7 @@ const processedEnemies = enemiesData
         });
         
         // Check for untranslated Japanese in enemy name
-        let enemyName = convertJapanesePunctuation(enemy.name);
+        let enemyName = translateSimpleString(enemy.name);
         
         // Resolve ID references
         enemyName = resolveAndLog(enemyName, idResolvers, 'enemy', enemy.id, 'name');
@@ -2717,6 +3452,7 @@ const processedEnemies = enemiesData
         return {
             id: enemy.id,
             name: enemyName,
+            japaneseName: enemy.name !== enemyName ? enemy.name : undefined,
             iconIndex: enemy.iconIndex || 0,
             battlerName: enemy.battlerName,
             baseStats: baseStats,
@@ -2730,6 +3466,7 @@ const processedEnemies = enemiesData
     });
 
 // Process items data
+console.log('  Processing items...');
 const processedItems = itemsData
     .filter(item => item !== null) // Remove null entries
     .filter(item => item.name && item.name.trim() !== '') // Remove nameless items
@@ -2757,7 +3494,8 @@ const processedItems = itemsData
             // Resolve state IDs where applicable (code 21 for states)
             if (effect.code === 21) {
                 const state = statesData.find(s => s && s.id === effect.dataId);
-                const stateName = state && state.name ? state.name : `State #${effect.dataId}`;
+                const rawName = state && state.name ? state.name : `State #${effect.dataId}`;
+                const stateName = translateSimpleString(rawName);
                 const chance = Math.round(effect.value1 * 100);
                 effectInfo.stateName = stateName;
                 effectInfo.chance = chance;
@@ -2769,7 +3507,8 @@ const processedItems = itemsData
             } else if (effect.code === 22) {
                 // Remove State
                 const state = statesData.find(s => s && s.id === effect.dataId);
-                const stateName = state && state.name ? state.name : `State #${effect.dataId}`;
+                const rawName = state && state.name ? state.name : `State #${effect.dataId}`;
+                const stateName = translateSimpleString(rawName);
                 effectInfo.stateName = stateName;
                 // Insert cross-reference marker directly
                 const stateRef = `[[STATE:${effect.dataId}:${stateName}]]`;
@@ -2838,7 +3577,8 @@ const processedItems = itemsData
             } else if (effect.code === 43) {
                 // Learn Skill
                 const skill = skillsData.find(s => s && s.id === effect.dataId);
-                const skillName = skill && skill.name ? skill.name : `Skill #${effect.dataId}`;
+                const rawName = skill && skill.name ? skill.name : `Skill #${effect.dataId}`;
+                const skillName = translateSimpleString(rawName);
                 effectInfo.skillName = skillName;
                 // Insert cross-reference marker directly
                 const skillRef = `[[SKILL:${effect.dataId}:${skillName}]]`;
@@ -2924,6 +3664,8 @@ const processedItems = itemsData
             id: item.id,
             name: itemName,
             description: itemDescription,
+            japaneseName: item.name !== itemName ? item.name : undefined,
+            japaneseDescription: item.description !== itemDescription ? item.description : undefined,
             iconIndex: item.iconIndex,
             price: item.price,
             itypeId: item.itypeId,
@@ -2951,7 +3693,7 @@ function processElements(systemData, processedSkills, processedItems, processedW
         // Special handling for Element #6 (Water) - empty in Japanese but named Water
         const isEmpty = index === 6 ? false : (!japaneseName || japaneseName.trim() === "");
         // Special handling for Element #6 (Water) - empty in Japanese but has English name
-        const englishName = index === 6 ? "Water" : (elementTranslations[japaneseName] || japaneseName || "");
+        const englishName = index === 6 ? "Water" : (translateSimpleString(japaneseName) || "");
         
         // Find skills using this element
         // Skills have damage.element.id which equals skill.damage.elementId
@@ -4735,13 +5477,36 @@ if (ignoredDataIdValue.length > 0) {
     console.log(`   ✅ 0 instances`);
 }
 
-// Generate data.js file for client-side use
-const dataJsContent = `const skillsData = ${JSON.stringify({ skills: processedSkills }, null, 2)};
-const statesData = ${JSON.stringify({ states: processedStates }, null, 2)};
-const weaponsData = ${JSON.stringify({ weapons: processedWeapons }, null, 2)};
-const armorsData = ${JSON.stringify({ armors: processedArmors }, null, 2)};
-const enemiesData = ${JSON.stringify({ enemies: processedEnemies }, null, 2)};
-const itemsData = ${JSON.stringify({ items: processedItems }, null, 2)};
-const elementsData = ${JSON.stringify({ elements: processedElements }, null, 2)};`;
-fs.writeFileSync(path.join(__dirname, 'data.js'), dataJsContent);
+    return {
+        skills: processedSkills,
+        states: processedStates,
+        weapons: processedWeapons,
+        armors: processedArmors,
+        enemies: processedEnemies,
+        items: processedItems,
+        elements: processedElements
+    };
+}
+
+function main() {
+    const games = ['bs1', 'bs2', 'rrw'];
+    const allGamesData = {};
+
+    for (const gameId of games) {
+        const gameData = processGameData(gameId);
+        if (gameData) {
+            allGamesData[gameId] = gameData;
+        }
+    }
+
+    // Write combined JSON file
+    fs.writeFileSync(path.join(__dirname, 'processed-data.json'), JSON.stringify(allGamesData, null, 2));
+
+    // Generate combined data.js file for client-side use
+    const dataJsContent = `const gamesData = ${JSON.stringify(allGamesData, null, 2)};`;
+    fs.writeFileSync(path.join(__dirname, 'data.js'), dataJsContent);
+    console.log('\n✓ Saved all games data to processed-data.json and data.js');
+}
+
+main();
 

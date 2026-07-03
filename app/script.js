@@ -45,6 +45,38 @@ let currentGame = null;
 let currentSection = null;
 let cameFromActivity = false;
 
+// Helper function to dynamically switch the IconSet spritesheet by setting body classes
+function updateGameBodyClass(gameName) {
+    document.body.classList.remove('game-bs1', 'game-bs2', 'game-rrw');
+    if (gameName) {
+        document.body.classList.add(`game-${gameName}`);
+    }
+}
+
+// Dynamic redirection of old data globals to gamesData based on currentGame
+const getActiveGameData = () => {
+    const gameId = currentGame || 'bs2';
+    return typeof gamesData !== 'undefined' ? (gamesData[gameId] || {}) : {};
+};
+
+Object.defineProperty(window, 'skillsData', { get: () => getActiveGameData(), configurable: true });
+Object.defineProperty(window, 'statesData', { get: () => getActiveGameData(), configurable: true });
+Object.defineProperty(window, 'weaponsData', { get: () => getActiveGameData(), configurable: true });
+Object.defineProperty(window, 'armorsData', { get: () => getActiveGameData(), configurable: true });
+Object.defineProperty(window, 'enemiesData', { get: () => getActiveGameData(), configurable: true });
+Object.defineProperty(window, 'itemsData', { get: () => getActiveGameData(), configurable: true });
+Object.defineProperty(window, 'elementsData', { get: () => getActiveGameData(), configurable: true });
+
+const gameNames = {
+    'bs1': 'Black Souls I',
+    'bs2': 'Black Souls II',
+    'rrw': 'Red Riding Woods'
+};
+
+const getGamePrettyName = () => {
+    return gameNames[currentGame || 'bs2'] || 'Black Souls II';
+};
+
 // Navigation history for cross-references
 // NOTE: We now rely entirely on browser history API instead of a custom stack
 // This ensures consistency between cross-reference navigation and regular navigation
@@ -273,6 +305,20 @@ function restoreStateFromHistory(state, forceRestore = false) {
         const savedGame = state.game;
         const savedSelectedId = state.selectedId;
         const savedSearchQuery = state.searchQuery;
+        
+        // Update global currentGame and reset cache lists if game changed
+        const targetGame = savedGame || 'bs2';
+        if (currentGame !== targetGame) {
+            allSkills = [];
+            allStates = [];
+            allWeapons = [];
+            allArmors = [];
+            allEnemies = [];
+            allItems = [];
+            allElements = [];
+        }
+        currentGame = targetGame;
+        updateGameBodyClass(targetGame);
         // Extract saved scroll positions - these will be restored after content loads
         const savedResultsListScrollTop = state.resultsListScrollTop || 0;
         const savedDetailPanelScrollTop = state.detailPanelScrollTop || 0;
@@ -489,86 +535,71 @@ function restoreStateFromHistory(state, forceRestore = false) {
 function parseURL() {
     const path = window.location.pathname;
     const hash = window.location.hash;
+    const validGames = ['bs1', 'bs2', 'rrw'];
     
+    // Helper to extract state from parts array
+    const stateFromParts = (parts) => {
+        if (parts.length === 0) {
+            return { view: 'games' };
+        }
+        
+        // Check if first part is a game ID
+        if (validGames.includes(parts[0])) {
+            const game = parts[0];
+            if (parts.length === 1) {
+                return { view: 'sections', game: game };
+            }
+            if (parts.length === 2) {
+                const section = parts[1];
+                if (['skills', 'states', 'weapons', 'armors', 'items', 'enemies', 'elements', 'stats'].includes(section)) {
+                    return { view: section, game: game };
+                }
+            }
+            if (parts.length === 3) {
+                const section = parts[1];
+                const id = parseInt(parts[2]);
+                if (!isNaN(id) && ['skills', 'states', 'weapons', 'armors', 'items', 'enemies', 'elements'].includes(section)) {
+                    return { view: section, selectedId: id, game: game };
+                }
+            }
+        }
+        
+        // Fallback for paths that don't start with a game ID (default to bs2)
+        if (parts.length === 1) {
+            if (parts[0] === 'sections') {
+                return { view: 'sections', game: 'bs2' };
+            }
+            if (['skills', 'states', 'weapons', 'armors', 'items', 'enemies', 'elements', 'stats'].includes(parts[0])) {
+                return { view: parts[0], game: 'bs2' };
+            }
+        }
+        
+        if (parts.length === 2) {
+            const section = parts[0];
+            const id = parseInt(parts[1]);
+            if (!isNaN(id) && ['skills', 'states', 'weapons', 'armors', 'items', 'enemies', 'elements'].includes(section)) {
+                return { view: section, selectedId: id, game: 'bs2' };
+            }
+        }
+        
+        return { view: 'games' };
+    };
+
     // Handle hash-based URLs (fallback for GitHub Pages)
     if (hash && hash.startsWith('#/')) {
         const hashPath = hash.substring(2);
         const parts = hashPath.split('/').filter(p => p);
-        
-        if (parts.length === 0) {
-            return { view: 'games' };
-        } else if (parts.length === 1 && parts[0] === 'sections') {
-            return { view: 'sections', game: 'bs2' };
-        } else if (parts.length === 1 && parts[0] === 'bs2') {
-            return { view: 'sections', game: 'bs2' };
-        } else if (parts.length === 1) {
-            return { view: parts[0], game: 'bs2' };
-        } else if (parts.length === 2) {
-            // Handle /bs2/section format
-            if (parts[0] === 'bs2') {
-                const section = parts[1];
-                    if (['skills', 'states', 'weapons', 'armors', 'items', 'enemies', 'elements', 'stats'].includes(section)) {
-                    return { view: section, game: 'bs2' };
-                }
-            }
-            const section = parts[0];
-            const id = parseInt(parts[1]);
-            if (!isNaN(id)) {
-                return { view: section, selectedId: id, game: 'bs2' };
-            }
-        } else if (parts.length === 3) {
-            // Handle /bs2/section/id format
-            if (parts[0] === 'bs2') {
-                const section = parts[1];
-                const id = parseInt(parts[2]);
-                if (!isNaN(id) && ['skills', 'states', 'weapons', 'armors', 'items', 'enemies', 'elements'].includes(section)) {
-                    return { view: section, selectedId: id, game: 'bs2' };
-                }
-            }
-        }
+        return stateFromParts(parts);
     }
     
     // Handle path-based URLs
-    const parts = path.split('/').filter(p => p);
-    
-    if (parts.length === 0) {
-        return { view: 'games' };
-    } else if (parts.length === 1 && parts[0] === 'sections') {
-        return { view: 'sections', game: 'bs2' };
-    } else if (parts.length === 1 && parts[0] === 'bs2') {
-        return { view: 'sections', game: 'bs2' };
-    } else if (parts.length === 1) {
-        const section = parts[0];
-        if (['skills', 'states', 'weapons', 'armors', 'items', 'enemies', 'elements', 'stats'].includes(section)) {
-            return { view: section, game: 'bs2' };
-        }
-    } else if (parts.length === 2) {
-        // Handle /bs2/section format
-        if (parts[0] === 'bs2') {
-            const section = parts[1];
-            if (['skills', 'states', 'weapons', 'armors', 'items', 'enemies', 'elements', 'stats'].includes(section)) {
-                return { view: section, game: 'bs2' };
-            }
-        }
-        const section = parts[0];
-        const id = parseInt(parts[1]);
-        if (!isNaN(id) && ['skills', 'states', 'weapons', 'armors', 'items', 'enemies', 'elements'].includes(section)) {
-            return { view: section, selectedId: id, game: 'bs2' };
-        }
-    } else if (parts.length === 3 && parts[0] === 'sections') {
-        return { view: 'sections', game: parts[1] === 'bs2' ? 'bs2' : parts[1] };
-    } else if (parts.length === 3) {
-        const game = parts[0];
-        const section = parts[1];
-        const id = parseInt(parts[2]);
-        if (!isNaN(id) && ['skills', 'states', 'weapons', 'armors', 'items', 'enemies', 'elements'].includes(section)) {
-            return { view: section, selectedId: id, game: game === 'bs2' ? 'bs2' : game };
-        }
-    } else if (parts.length === 2 && parts[1] === 'sections') {
-        return { view: 'sections', game: parts[0] === 'bs2' ? 'bs2' : parts[0] };
+    let parts = path.split('/').filter(p => p);
+    // Ignore repo name in path if present (e.g. for GitHub Pages /black-souls-database/)
+    if (parts.length > 0 && parts[0] === 'black-souls-database') {
+        parts.shift();
     }
     
-    return { view: 'games' };
+    return stateFromParts(parts);
 }
 
 // Helper function to calculate icon sprite position
@@ -997,18 +1028,11 @@ function navigateToUpLevel() {
         return;
     }
     
-    const titleText = headerTitle.textContent;
-    
-    if (titleText === 'Black Souls Database') {
-        // Already on games view, do nothing
-        return;
-    } else if (titleText === 'Black Souls II Database') {
-        // On sections view, go back to games
+    if (currentSection) {
+        showSectionsView(currentGame || 'bs2');
+    } else if (currentGame) {
         showGamesView();
-    } else if (titleText.startsWith('Black Souls II Database - ')) {
-        // On a section view (Skills, States, etc.), go back to sections
-        showSectionsView('bs2');
-    } else if (titleText === 'Recent Activity') {
+    } else if (headerTitle.textContent === 'Recent Activity') {
         showGamesView();
     }
 }
@@ -1678,6 +1702,7 @@ function showGamesView() {
     headerSubtitle.classList.add('hidden');
     
     currentGame = null;
+    updateGameBodyClass(null);
     currentSection = null;
     
     updateHelpContent('games');
@@ -1712,13 +1737,46 @@ function showSectionsView(gameName) {
         activityView.classList.add('hidden');
     }
     
+    const gameNames = {
+        'bs1': 'Black Souls I',
+        'bs2': 'Black Souls II',
+        'rrw': 'Red Riding Woods'
+    };
+    const prettyName = gameNames[gameName] || 'Black Souls II';
+    
+    if (currentGame !== gameName) {
+        allSkills = [];
+        allStates = [];
+        allWeapons = [];
+        allArmors = [];
+        allEnemies = [];
+        allItems = [];
+        allElements = [];
+    }
+    
     currentGame = gameName;
+    updateGameBodyClass(gameName);
     currentSection = null;
     
-    if (gameName === 'bs2') {
-        headerTitle.textContent = 'Black Souls II Database';
-        headerSubtitle.textContent = 'Select a section to explore';
-    }
+    headerTitle.textContent = `${prettyName} Database`;
+    headerSubtitle.textContent = 'Select a section to explore';
+    
+    // Dynamically show/hide section cards based on whether the game has data for it
+    const gameData = (typeof gamesData !== 'undefined' ? gamesData[gameName] : null) || {};
+    document.querySelectorAll('.section-card').forEach(card => {
+        const section = card.dataset.section;
+        if (section === 'stats') {
+            card.style.display = 'flex';
+            return;
+        }
+        const dataArray = gameData[section];
+        if (dataArray && dataArray.length > 0) {
+            card.style.display = 'flex';
+        } else {
+            card.style.display = 'none';
+        }
+    });
+    
     headerTitle.classList.add('hidden');
     headerSubtitle.classList.add('hidden');
     
@@ -1740,7 +1798,7 @@ function showSectionsView(gameName) {
     // Show sections grid
     const sectionsGrid = document.querySelector('.sections-grid');
     if (sectionsGrid) {
-        sectionsGrid.style.display = 'flex';
+        sectionsGrid.style.display = 'grid';
     }
     if (mainContent) {
         mainContent.style.display = 'none';
@@ -1781,6 +1839,7 @@ function showActivityView() {
     headerSubtitle.classList.add('hidden');
     
     currentGame = null;
+    updateGameBodyClass(null);
     currentSection = 'activity';
     
     loadRecentActivity(); // Carrega os comentários na página dedicada
@@ -1819,8 +1878,6 @@ function updatePlaceholderIcon(sectionName) {
     }
 }
 
-// Show a specific database section (Skills, States, Weapons, etc.)
-// Called when user clicks a section card or navigates via URL
 function showSection(sectionName, preserveSearch = false, skipHistoryPush = false) {
     if (!isRestoringState) {
         cameFromActivity = false;
@@ -1833,6 +1890,22 @@ function showSection(sectionName, preserveSearch = false, skipHistoryPush = fals
     if (upButton) {
         upButton.classList.remove('hidden');
     }
+
+    const sectionDisplayNames = {
+        skills: { name: 'Skills', desc: 'all skills' },
+        states: { name: 'States', desc: 'all status effects' },
+        weapons: { name: 'Weapons', desc: 'all weapons' },
+        armors: { name: 'Armors', desc: 'all armor and defensive equipment' },
+        enemies: { name: 'Enemies', desc: 'all enemies and monsters' },
+        items: { name: 'Items', desc: 'all consumable items and equipment' },
+        elements: { name: 'Elements', desc: 'all damage elements and their interactions' },
+        stats: { name: 'Stats', desc: 'all statistics and their explanations' }
+    };
+    
+    const displayInfo = sectionDisplayNames[sectionName] || { name: sectionName.charAt(0).toUpperCase() + sectionName.slice(1), desc: `all ${sectionName}` };
+    const prettyGameName = getGamePrettyName();
+    headerTitle.textContent = `${prettyGameName} Database - ${displayInfo.name}`;
+    headerSubtitle.textContent = `Search and explore ${displayInfo.desc} from ${prettyGameName}`;
     
     if (sectionName === 'skills') {
         gamesView.classList.add('hidden');
@@ -1846,8 +1919,7 @@ function showSection(sectionName, preserveSearch = false, skipHistoryPush = fals
         
         currentSection = sectionName;
         
-        headerTitle.textContent = 'Black Souls II Database - Skills';
-        headerSubtitle.textContent = 'Search and explore all skills from Black Souls II';
+
         headerTitle.classList.add('hidden');
         headerSubtitle.classList.add('hidden');
         
@@ -1905,8 +1977,7 @@ function showSection(sectionName, preserveSearch = false, skipHistoryPush = fals
         
         currentSection = sectionName;
         
-        headerTitle.textContent = 'Black Souls II Database - States';
-        headerSubtitle.textContent = 'Search and explore all status effects from Black Souls II';
+
         headerTitle.classList.add('hidden');
         headerSubtitle.classList.add('hidden');
         
@@ -1963,8 +2034,7 @@ function showSection(sectionName, preserveSearch = false, skipHistoryPush = fals
         
         currentSection = sectionName;
         
-        headerTitle.textContent = 'Black Souls II Database - Weapons';
-        headerSubtitle.textContent = 'Search and explore all weapons from Black Souls II';
+
         headerTitle.classList.add('hidden');
         headerSubtitle.classList.add('hidden');
         
@@ -2021,8 +2091,7 @@ function showSection(sectionName, preserveSearch = false, skipHistoryPush = fals
         
         currentSection = sectionName;
         
-        headerTitle.textContent = 'Black Souls II Database - Armors';
-        headerSubtitle.textContent = 'Search and explore all armor and defensive equipment from Black Souls II';
+
         headerTitle.classList.add('hidden');
         headerSubtitle.classList.add('hidden');
         
@@ -2079,8 +2148,7 @@ function showSection(sectionName, preserveSearch = false, skipHistoryPush = fals
         
         currentSection = sectionName;
         
-        headerTitle.textContent = 'Black Souls II Database - Enemies';
-        headerSubtitle.textContent = 'Search and explore all enemies and monsters from Black Souls II';
+
         headerTitle.classList.add('hidden');
         headerSubtitle.classList.add('hidden');
         
@@ -2137,8 +2205,7 @@ function showSection(sectionName, preserveSearch = false, skipHistoryPush = fals
         
         currentSection = sectionName;
         
-        headerTitle.textContent = 'Black Souls II Database - Items';
-        headerSubtitle.textContent = 'Search and explore all consumable items and equipment from Black Souls II';
+
         headerTitle.classList.add('hidden');
         headerSubtitle.classList.add('hidden');
         
@@ -2195,8 +2262,7 @@ function showSection(sectionName, preserveSearch = false, skipHistoryPush = fals
         
         currentSection = sectionName;
         
-        headerTitle.textContent = 'Black Souls II Database - Elements';
-        headerSubtitle.textContent = 'Search and explore all damage elements and their interactions from Black Souls II';
+
         headerTitle.classList.add('hidden');
         headerSubtitle.classList.add('hidden');
         
@@ -2253,8 +2319,7 @@ function showSection(sectionName, preserveSearch = false, skipHistoryPush = fals
         
         currentSection = sectionName;
         
-        headerTitle.textContent = 'Black Souls II Database - Stats';
-        headerSubtitle.textContent = 'View all statistics and their explanations';
+
         headerTitle.classList.add('hidden');
         headerSubtitle.classList.add('hidden');
         
@@ -2862,9 +2927,23 @@ function renderSkillDetail(skill) {
         <div class="detail-header">
             <div class="detail-title-row">
                 <div class="detail-icon" ${iconStyle}></div>
-                <div class="detail-title">${escapeHtml(skill.name)} <span class="detail-id">#${skill.id}</span></div>
+                <div>
+                    <div class="detail-title">${escapeHtml(skill.name)} <span class="detail-id">#${skill.id}</span></div>
+                    ${skill.japaneseName ? `
+                        <div class="detail-subtitle" style="font-size: 0.95rem; color: var(--text-secondary); margin-top: 4px; font-style: italic;">
+                            Original Name: ${escapeHtml(skill.japaneseName)}
+                        </div>
+                    ` : ''}
+                </div>
             </div>
-            <div class="detail-description">${convertCrossReferencesAndEscape(skill.description)}</div>
+            <div class="detail-description">
+                ${convertCrossReferencesAndEscape(skill.description)}
+                ${skill.japaneseDescription ? `
+                    <div class="original-japanese-text mt-2" style="font-size: 0.9em; opacity: 0.7; font-style: italic; border-left: 2px solid var(--primary-color, #a855f7); padding-left: 8px;">
+                        Original: ${escapeHtml(skill.japaneseDescription)}
+                    </div>
+                ` : ''}
+            </div>
         </div>
         
         ${renderBasicStats(skill)}
@@ -4179,7 +4258,14 @@ function renderStateDetail(state) {
         <div class="detail-header">
             <div class="detail-title-row">
                 <div class="detail-icon" ${iconStyle}></div>
-                <div class="detail-title">${escapeHtml(state.name)} <span class="detail-id">#${state.id}</span></div>
+                <div>
+                    <div class="detail-title">${escapeHtml(state.name)} <span class="detail-id">#${state.id}</span></div>
+                    ${state.japaneseName ? `
+                        <div class="detail-subtitle" style="font-size: 0.95rem; color: var(--text-secondary); margin-top: 4px; font-style: italic;">
+                            Original Name: ${escapeHtml(state.japaneseName)}
+                        </div>
+                    ` : ''}
+                </div>
             </div>
         </div>
         
@@ -5201,7 +5287,7 @@ function renderStats() {
     let html = `
         <div class="detail-header">
             <h1>Statistics & Explanations</h1>
-            <p class="detail-subtitle">Complete guide to all statistics in Black Souls II</p>
+            <p class="detail-subtitle">Complete guide to all statistics in ${getGamePrettyName()}</p>
         </div>
         
         <div class="detail-section">
@@ -5365,7 +5451,14 @@ function renderWeaponDetail(weapon) {
         <div class="detail-header">
             <div class="detail-title-row">
                 <div class="detail-icon" ${iconStyle}></div>
-                <div class="detail-title">${escapeHtml(weapon.name)} <span class="detail-id">#${weapon.id}</span></div>
+                <div>
+                    <div class="detail-title">${escapeHtml(weapon.name)} <span class="detail-id">#${weapon.id}</span></div>
+                    ${weapon.japaneseName ? `
+                        <div class="detail-subtitle" style="font-size: 0.95rem; color: var(--text-secondary); margin-top: 4px; font-style: italic;">
+                            Original Name: ${escapeHtml(weapon.japaneseName)}
+                        </div>
+                    ` : ''}
+                </div>
             </div>
         </div>
         
@@ -5373,6 +5466,11 @@ function renderWeaponDetail(weapon) {
             <div class="detail-section">
                 <div class="section-title">Description</div>
                 <div class="detail-text">${convertCrossReferencesAndEscape(weapon.description)}</div>
+                ${weapon.japaneseDescription ? `
+                    <div class="original-japanese-text mt-2" style="font-size: 0.9em; opacity: 0.7; font-style: italic; border-left: 2px solid var(--primary-color, #a855f7); padding-left: 8px;">
+                        Original: ${escapeHtml(weapon.japaneseDescription)}
+                    </div>
+                ` : ''}
             </div>
         ` : ''}
         
@@ -5508,16 +5606,16 @@ function renderWeaponDetail(weapon) {
 
 // Render weapon basic stats
 function renderWeaponBasicStats(weapon) {
+    if (weapon.price <= 0) return '';
+    
     return `
         <div class="detail-section">
             <div class="section-title">Basic Information</div>
             <div class="stats-grid">
-                ${weapon.price > 0 ? `
-                    <div class="stat-item">
-                        <div class="stat-label">Price</div>
-                        <div class="stat-value">${weapon.price}G</div>
-                    </div>
-                ` : ''}
+                <div class="stat-item">
+                    <div class="stat-label">Price</div>
+                    <div class="stat-value">${weapon.price}G</div>
+                </div>
             </div>
         </div>
     `;
@@ -5871,7 +5969,14 @@ function renderArmorDetail(armor) {
         <div class="detail-header">
             <div class="detail-title-row">
                 <div class="detail-icon" ${iconStyle}></div>
-                <div class="detail-title">${escapeHtml(armor.name)} <span class="detail-id">#${armor.id}</span></div>
+                <div>
+                    <div class="detail-title">${escapeHtml(armor.name)} <span class="detail-id">#${armor.id}</span></div>
+                    ${armor.japaneseName ? `
+                        <div class="detail-subtitle" style="font-size: 0.95rem; color: var(--text-secondary); margin-top: 4px; font-style: italic;">
+                            Original Name: ${escapeHtml(armor.japaneseName)}
+                        </div>
+                    ` : ''}
+                </div>
             </div>
         </div>
         
@@ -5879,6 +5984,11 @@ function renderArmorDetail(armor) {
             <div class="detail-section">
                 <div class="section-title">Description</div>
                 <div class="detail-text">${convertCrossReferencesAndEscape(armor.description)}</div>
+                ${armor.japaneseDescription ? `
+                    <div class="original-japanese-text mt-2" style="font-size: 0.9em; opacity: 0.7; font-style: italic; border-left: 2px solid var(--primary-color, #a855f7); padding-left: 8px;">
+                        Original: ${escapeHtml(armor.japaneseDescription)}
+                    </div>
+                ` : ''}
             </div>
         ` : ''}
         
@@ -6116,7 +6226,14 @@ function renderEnemyDetail(enemy) {
         <div class="detail-header">
             <div class="detail-title-row">
                 ${imageHtml}
-                <div class="detail-title">${escapeHtml(enemy.name)} <span class="detail-id">#${enemy.id}</span></div>
+                <div>
+                    <div class="detail-title">${escapeHtml(enemy.name)} <span class="detail-id">#${enemy.id}</span></div>
+                    ${enemy.japaneseName ? `
+                        <div class="detail-subtitle" style="font-size: 0.95rem; color: var(--text-secondary); margin-top: 4px; font-style: italic;">
+                            Original Name: ${escapeHtml(enemy.japaneseName)}
+                        </div>
+                    ` : ''}
+                </div>
             </div>
         </div>
         
@@ -6353,7 +6470,14 @@ function renderItemDetail(item) {
         <div class="detail-header">
             <div class="detail-title-row">
                 <div class="detail-icon" ${iconStyle}></div>
-                <div class="detail-title">${escapeHtml(item.name)} <span class="detail-id">#${item.id}</span></div>
+                <div>
+                    <div class="detail-title">${escapeHtml(item.name)} <span class="detail-id">#${item.id}</span></div>
+                    ${item.japaneseName ? `
+                        <div class="detail-subtitle" style="font-size: 0.95rem; color: var(--text-secondary); margin-top: 4px; font-style: italic;">
+                            Original Name: ${escapeHtml(item.japaneseName)}
+                        </div>
+                    ` : ''}
+                </div>
             </div>
         </div>
         
@@ -6361,6 +6485,11 @@ function renderItemDetail(item) {
             <div class="detail-section">
                 <div class="section-title">Description</div>
                 <div class="detail-text">${convertCrossReferencesAndEscape(item.description)}</div>
+                ${item.japaneseDescription ? `
+                    <div class="original-japanese-text mt-2" style="font-size: 0.9em; opacity: 0.7; font-style: italic; border-left: 2px solid var(--primary-color, #a855f7); padding-left: 8px;">
+                        Original: ${escapeHtml(item.japaneseDescription)}
+                    </div>
+                ` : ''}
             </div>
         ` : ''}
         
@@ -6459,19 +6588,20 @@ function renderElementDetail(element) {
         <div class="detail-header">
             <div class="detail-title-row">
                 <div class="detail-icon" ${iconStyle}></div>
-                <div class="detail-title">${escapeHtml(elementName)} <span class="detail-id">#${element.id}</span></div>
+                <div>
+                    <div class="detail-title">${escapeHtml(elementName)} <span class="detail-id">#${element.id}</span></div>
+                    ${japaneseName ? `
+                        <div class="detail-subtitle" style="font-size: 0.95rem; color: var(--text-secondary); margin-top: 4px; font-style: italic;">
+                            Original Name: ${escapeHtml(japaneseName)}
+                        </div>
+                    ` : ''}
+                </div>
             </div>
         </div>
         
         <div class="detail-section">
             <div class="section-title">Element Information</div>
             <div class="stats-grid">
-                ${japaneseName ? `
-                    <div class="stat-item">
-                        <div class="stat-label">Japanese Name</div>
-                        <div class="stat-value">${escapeHtml(japaneseName)}</div>
-                    </div>
-                ` : ''}
                 ${element.isEmpty ? `
                     <div class="stat-item">
                         <div class="stat-label">Status</div>
@@ -7026,6 +7156,7 @@ window.addEventListener('DOMContentLoaded', () => {
     // If there's already a state in history, use it
     if (history.state) {
         restoreStateFromHistory(history.state);
+        updateGiscusFromCurrentState();
     } else {
         // Otherwise, parse URL and set initial state
         const state = parseURL();

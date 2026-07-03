@@ -1,0 +1,30 @@
+Common Event 5 武器強化 Line 8:  - Comment: =================＝＝＝＝＝＝＝＝＝＝＝＝＝－－
+Common Event 5 武器強化 Line 9:  - Comment: 
+Common Event 5 武器強化 Line 10:  - Comment: 　　　　　　　　　　ほうちょう
+Common Event 5 武器強化 Line 11:  - Comment: 
+Common Event 5 武器強化 Line 12:  - Comment: =================＝＝＝＝－＝＝＝＝＝＝＝＝＝＝
+Common Event 5 武器強化 Line 183:  - Comment: =================＝＝＝＝＝＝＝＝＝＝＝＝＝－－
+Common Event 5 武器強化 Line 184:  - Comment: 
+Common Event 5 武器強化 Line 185:  - Comment: 　　　　　　　　　　肉断ち大斧
+Common Event 5 武器強化 Line 186:  - Comment: 
+Common Event 5 武器強化 Line 187:  - Comment: =================＝＝＝＝－＝＝＝＝＝＝＝＝＝＝
+Common Event 5 武器強化 Line 358:  - Comment: =================＝＝＝＝＝＝＝＝＝＝＝＝＝－－
+Common Event 5 武器強化 Line 359:  - Comment: 
+Common Event 5 武器強化 Line 360:  - Comment: 　　　　　　　　　　ハンターボウ
+Common Event 5 武器強化 Line 361:  - Comment: 
+Common Event 5 武器強化 Line 362:  - Comment: =================＝＝＝＝－＝＝＝＝＝＝＝＝＝＝
+Common Event 5 武器強化 Line 533:  - Comment: =================＝＝＝＝＝＝＝＝＝＝＝＝＝－－
+Common Event 5 武器強化 Line 534:  - Comment: 
+Common Event 5 武器強化 Line 535:  - Comment: 　　　　　　　　　　マシンガン
+Common Event 5 武器強化 Line 536:  - Comment: 
+Common Event 5 武器強化 Line 537:  - Comment: =================＝＝＝＝－＝＝＝＝＝＝＝＝＝＝
+Common Event 5 武器強化 Line 708:  - Comment: =================＝＝＝＝＝＝＝＝＝＝＝＝＝－－
+Common Event 5 武器強化 Line 709:  - Comment: 
+Common Event 5 武器強化 Line 710:  - Comment: 　　　　　　　　　　アンドールの剣
+Common Event 5 武器強化 Line 711:  - Comment: 
+Common Event 5 武器強化 Line 712:  - Comment: =================＝＝＝＝－＝＝＝＝＝＝＝＝＝＝
+Common Event 5 武器強化 Line 883:  - Comment: =================＝＝＝＝＝＝＝＝＝＝＝＝＝－－
+Common Event 5 武器強化 Line 884:  - Comment: 
+Common Event 5 武器強化 Line 885:  - Comment: 　　　　　　　　　　大鉄球
+Common Event 5 武器強化 Line 886:  - Comment: 
+Common Event 5 武器強化 Line 887:  - Comment: =================＝＝＝＝－＝＝＝＝＝＝＝＝＝＝

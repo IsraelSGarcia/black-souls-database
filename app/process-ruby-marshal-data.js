@@ -4,10 +4,6 @@ const path = require('path');
 // @savannstm/marshal is an ES module, so we need to use dynamic import
 let load;
 
-// Define paths
-const inputDir = path.join(__dirname, '..', 'original-data', 'ruby-marshal-converted');
-const outputDir = inputDir;
-
 // List of main data files to process (excluding map files)
 const dataFilesToProcess = [
     'System',
@@ -26,14 +22,8 @@ const dataFilesToProcess = [
     'Scripts'
 ];
 
-// Create output directory if it doesn't exist
-if (!fs.existsSync(outputDir)) {
-    fs.mkdirSync(outputDir, { recursive: true });
-    console.log(`Created output directory: ${outputDir}`);
-}
-
 // Function to process a single .rvdata2 file
-async function processRvdata2File(filename) {
+async function processRvdata2File(filename, inputDir, outputDir) {
     const inputPath = path.join(inputDir, filename);
     const outputFilename = filename.replace('.rvdata2', '.json');
     const outputPath = path.join(outputDir, outputFilename);
@@ -41,7 +31,6 @@ async function processRvdata2File(filename) {
     try {
         // Check if file exists
         if (!fs.existsSync(inputPath)) {
-            console.warn(`⚠️  File not found: ${filename}`);
             return false;
         }
 
@@ -83,8 +72,6 @@ async function processRvdata2File(filename) {
 // Main processing function
 async function main() {
     console.log('Starting Ruby Marshal Converted data processing...\n');
-    console.log(`Input directory: ${inputDir}`);
-    console.log(`Output directory: ${outputDir}\n`);
 
     // Load the marshal module (ES module)
     try {
@@ -100,26 +87,52 @@ async function main() {
         process.exit(1);
     }
 
-    let successCount = 0;
-    let failCount = 0;
+    const args = process.argv.slice(2);
+    const games = args.length > 0 ? args : ['bs1', 'bs2', 'rrw'];
 
-    // Process each data file
-    for (const filename of dataFilesToProcess) {
-        const fullFilename = `${filename}.rvdata2`;
-        if (await processRvdata2File(fullFilename)) {
-            successCount++;
-        } else {
-            failCount++;
+    for (const game of games) {
+        const inputDir = path.join(__dirname, '..', 'original-data', game, 'ruby-marshal-converted');
+        const outputDir = inputDir;
+
+        if (!fs.existsSync(inputDir)) {
+            console.log(`Skipping game ${game} - directory not found: ${inputDir}`);
+            continue;
         }
-    }
 
-    // Summary
-    console.log('\n' + '='.repeat(50));
-    console.log('Processing Summary:');
-    console.log(`  Successfully processed: ${successCount} files`);
-    console.log(`  Failed: ${failCount} files`);
-    console.log(`  Output directory: ${outputDir}`);
-    console.log('='.repeat(50));
+        console.log(`\n========================================`);
+        console.log(`Processing Game: ${game}`);
+        console.log(`Input/Output Directory: ${inputDir}`);
+        console.log(`========================================`);
+
+        let successCount = 0;
+        let failCount = 0;
+        let foundAny = false;
+
+        // Process each data file
+        for (const filename of dataFilesToProcess) {
+            const fullFilename = `${filename}.rvdata2`;
+            if (fs.existsSync(path.join(inputDir, fullFilename))) {
+                foundAny = true;
+                if (await processRvdata2File(fullFilename, inputDir, outputDir)) {
+                    successCount++;
+                } else {
+                    failCount++;
+                }
+            }
+        }
+
+        if (!foundAny) {
+            console.log(`No .rvdata2 files found in ${inputDir}. Skipping conversion.`);
+            continue;
+        }
+
+        // Summary
+        console.log('\n' + '='.repeat(50));
+        console.log(`Summary for ${game}:`);
+        console.log(`  Successfully processed: ${successCount} files`);
+        console.log(`  Failed: ${failCount} files`);
+        console.log('='.repeat(50));
+    }
 }
 
 // Run the script

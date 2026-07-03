@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=20251120T055814Z">
+    <link rel="stylesheet" href="style.css?v=20260703T223900Z">
 </head>
 <body>
     <div class="container">
@@ -83,32 +83,31 @@
 
         <!-- Games View -->
         <div id="games-view" class="games-view">
-            <div class="home-layout">
-                <!-- Left Panel (Recent Activity) -->
-                <div class="home-sidebar">
-                    <div class="activity-sidebar-card" id="recent-activity-card">
-                        <div class="activity-icon">
-                            <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="8" y="12" width="48" height="40" rx="6" stroke="currentColor" stroke-width="2"/>
-                                <path d="M18 24H46M18 34H46M18 44H34" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                            </svg>
-                        </div>
-                        <h2>Recent Activity</h2>
+            <div class="games-grid">
+                <!-- Recent Activity Card -->
+                <div class="game-card" id="recent-activity-card">
+                    <div class="game-icon">
+                        <div class="recent-activity-icon-sprite"></div>
                     </div>
+                    <h2>Recent Activity</h2>
                 </div>
 
-                <!-- Painel da Direita (Jogos) -->
-                <div class="games-grid">
-                    <div class="game-card" data-game="bs2">
-                        <div class="game-icon">
-                            <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="8" y="16" width="48" height="32" rx="4" stroke="currentColor" stroke-width="2"/>
-                                <circle cx="20" cy="32" r="4" stroke="currentColor" stroke-width="2"/>
-                                <path d="M40 26L44 32L40 38M48 26L52 32L48 38" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </div>
-                        <h2>Black Souls II</h2>
-                    </div>
+                <!-- Red Riding Woods Card -->
+                <div class="game-card" data-game="rrw">
+                    <div class="game-icon"></div>
+                    <h2>Red Riding Woods</h2>
+                </div>
+
+                <!-- Black Souls I Card -->
+                <div class="game-card" data-game="bs1">
+                    <div class="game-icon"></div>
+                    <h2>Black Souls I</h2>
+                </div>
+
+                <!-- Black Souls II Card -->
+                <div class="game-card" data-game="bs2">
+                    <div class="game-icon"></div>
+                    <h2>Black Souls II</h2>
                 </div>
             </div>
             <!-- Games Giscus Comments -->
@@ -118,83 +117,69 @@
         <!-- Sections View -->
         <div id="sections-view" class="sections-view hidden">
             <div class="sections-grid">
-                <div class="section-card" data-section="skills">
-                    <div class="section-icon">
-                        <svg width="48" height="48" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M32 4L36.5 24.5L56 20L44 32L56 44L36.5 39.5L32 60L27.5 39.5L8 44L20 32L8 20L27.5 24.5L32 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-                        </svg>
-                    </div>
-                    <h2>Skills</h2>
-                </div>
-                <div class="section-card" data-section="states">
-                    <div class="section-icon">
-                        <svg width="48" height="48" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="8" y="8" width="48" height="48" rx="8" stroke="currentColor" stroke-width="2"/>
-                            <path d="M32 20L28 28L20 28L26 34L24 42L32 38L40 42L38 34L44 28L36 28L32 20Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-                        </svg>
-                    </div>
-                    <h2>States</h2>
-                </div>
-                <div class="section-card" data-section="weapons">
-                    <div class="section-icon">
-                        <svg width="48" height="48" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M32 8L28 24L12 20L24 32L12 44L28 40L32 56L36 40L52 44L40 32L52 20L36 24L32 8Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-                            <path d="M24 32L40 32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                        </svg>
-                    </div>
-                    <h2>Weapons</h2>
-                </div>
+                <!-- Armors Card -->
                 <div class="section-card" data-section="armors">
                     <div class="section-icon">
-                        <svg width="48" height="48" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="16" y="8" width="32" height="48" rx="4" stroke="currentColor" stroke-width="2"/>
-                            <path d="M24 16L40 16M24 24L40 24M24 32L40 32M24 40L40 40" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                            <circle cx="32" cy="48" r="4" stroke="currentColor" stroke-width="2"/>
-                        </svg>
+                        <div class="section-spritesheet-icon section-armor-icon"></div>
                     </div>
                     <h2>Armors</h2>
                 </div>
-                <div class="section-card" data-section="enemies">
-                    <div class="section-icon">
-                        <svg width="48" height="48" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="32" cy="20" r="8" stroke="currentColor" stroke-width="2"/>
-                            <path d="M16 48C16 40 20 32 32 32C44 32 48 40 48 48" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                            <path d="M24 40L20 44M40 40L44 44" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                        </svg>
-                    </div>
-                    <h2>Enemies</h2>
-                </div>
-                <div class="section-card" data-section="items">
-                    <div class="section-icon">
-                        <svg width="48" height="48" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M32 8L20 16L20 32L32 40L44 32L44 16L32 8Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-                            <path d="M20 32L32 40L44 32" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M32 40L32 56" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                        </svg>
-                    </div>
-                    <h2>Items</h2>
-                </div>
+
+                <!-- Elements Card -->
                 <div class="section-card" data-section="elements">
                     <div class="section-icon">
-                        <svg width="48" height="48" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="32" cy="32" r="20" stroke="currentColor" stroke-width="2"/>
-                            <path d="M32 12L36 28L52 24L40 32L52 40L36 36L32 52L28 36L12 40L24 32L12 24L28 28L32 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-                        </svg>
+                        <div class="section-spritesheet-icon section-element-icon"></div>
                     </div>
                     <h2>Elements</h2>
                 </div>
+
+                <!-- Enemies Card -->
+                <div class="section-card" data-section="enemies">
+                    <div class="section-icon">
+                        <div class="section-enemies-icon"></div>
+                    </div>
+                    <h2>Enemies</h2>
+                </div>
+
+                <!-- Items Card -->
+                <div class="section-card" data-section="items">
+                    <div class="section-icon">
+                        <div class="section-spritesheet-icon section-item-icon"></div>
+                    </div>
+                    <h2>Items</h2>
+                </div>
+
+                <!-- Skills Card -->
+                <div class="section-card" data-section="skills">
+                    <div class="section-icon">
+                        <div class="section-spritesheet-icon section-skill-icon"></div>
+                    </div>
+                    <h2>Skills</h2>
+                </div>
+
+                <!-- States Card -->
+                <div class="section-card" data-section="states">
+                    <div class="section-icon">
+                        <div class="section-spritesheet-icon section-state-icon"></div>
+                    </div>
+                    <h2>States</h2>
+                </div>
+
+                <!-- Stats Card -->
                 <div class="section-card" data-section="stats">
                     <div class="section-icon">
-                        <svg width="48" height="48" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="8" y="8" width="48" height="48" rx="4" stroke="currentColor" stroke-width="2"/>
-                            <path d="M16 32L24 24L32 32L40 16L48 40" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-                            <path d="M16 48L48 48" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                            <path d="M32 8L32 48" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                        </svg>
+                        <div class="section-spritesheet-icon section-stats-icon"></div>
                     </div>
                     <h2>Stats</h2>
                 </div>
-                <!-- Future sections can be added here -->
+
+                <!-- Weapons Card -->
+                <div class="section-card" data-section="weapons">
+                    <div class="section-icon">
+                        <div class="section-spritesheet-icon section-weapon-icon"></div>
+                    </div>
+                    <h2>Weapons</h2>
+                </div>
             </div>
             <!-- Sections Giscus Comments -->
             <div id="sections-giscus-container" class="giscus-container"></div>
@@ -248,8 +233,8 @@
         </div>
     </div>
 
-    <script src="data.js?v=20251120T060419Z"></script>
-    <script src="script.js?v=20251124T231106Z"></script>
+    <script src="data.js?v=20260703T223900Z"></script>
+    <script src="script.js?v=20260703T223900Z"></script>
 </body>
 </html>
 

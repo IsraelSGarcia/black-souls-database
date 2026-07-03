@@ -155,12 +155,13 @@ header h1.clickable-title:hover {
 }
 
 .games-grid {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     gap: 32px;
     margin: 0 auto;
-    width: min(100%, 1040px);
+    width: 100%;
+    max-width: 1400px;
     padding-top: 12px;
 }
 
@@ -174,8 +175,6 @@ header h1.clickable-title:hover {
     cursor: pointer;
     transition: all 0.3s ease;
     aspect-ratio: 1 / 1;
-    flex: 0 0 320px;
-    width: 320px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -267,8 +266,8 @@ header h1.clickable-title:hover {
 }
 
 .sections-grid {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     gap: 16px;
     margin: 0 auto;
@@ -291,8 +290,6 @@ header h1.clickable-title:hover {
     cursor: pointer;
     transition: all 0.3s ease;
     aspect-ratio: 1 / 1;
-    flex: 0 0 220px;
-    width: 220px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -876,7 +873,7 @@ header h1.clickable-title:hover {
 
 .stats-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     gap: 12px;
 }
 
@@ -1415,12 +1412,12 @@ header h1.clickable-title:hover {
     }
     
     .games-grid {
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
     
     .sections-grid {
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        grid-template-columns: repeat(2, 1fr);
         gap: 16px;
     }
 }
@@ -2267,7 +2264,301 @@ header h1.clickable-title:hover {
 .activity-info-card .info-note {
     font-size: 0.8rem;
     color: var(--text-muted);
+    transform: translateX(4px);
+    border-color: var(--primary-color);
+    box-shadow: 0 4px 12px var(--shadow);
+}
+
+.activity-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.activity-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid var(--border);
+}
+
+.activity-meta {
+    display: flex;
+    flex-direction: column;
+}
+
+.activity-author {
+    font-weight: 600;
+    color: var(--text-primary);
+    font-size: 0.9rem;
+}
+
+.activity-time {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+}
+
+.activity-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    flex-grow: 1;
+}
+
+.activity-text {
+    font-style: italic;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-break: break-word;
+}
+
+.activity-link-container {
+    margin-top: auto;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.activity-item-link {
+    color: var(--primary-light);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.activity-item-link:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+/* Home Layout (Sidebar on the left, games grid on the right) */
+.home-layout {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 32px;
+    width: min(100%, 1200px);
+    margin: 0 auto;
+    align-items: start;
+    padding: 20px;
+}
+
+.home-sidebar {
+    position: sticky;
+    top: 20px;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Alinha a grade de jogos à esquerda e remove padding superior para alinhar perfeitamente com o card lateral */
+.home-layout .games-grid {
+    justify-content: flex-start;
+    padding-top: 0;
+}
+
+/* Tablet & Mobile styles for home layout */
+@media (max-width: 1024px) {
+    .home-layout {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        padding: 10px;
+    }
+    
+    .home-sidebar {
+        width: 100%;
+        max-width: 320px;
+        position: static;
+    }
+}
+
+/* Make .activity-view scrollable on desktop and style its list spacing */
+.activity-view {
+    flex: 1;
+    overflow-y: auto;
+    min-height: 0;
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 1rem 2rem;
+}
+
+/* Custom Scrollbars for all main views to match item pages */
+.games-view::-webkit-scrollbar,
+.sections-view::-webkit-scrollbar,
+.activity-view::-webkit-scrollbar {
+    width: 8px;
+}
+
+.games-view::-webkit-scrollbar-track,
+.sections-view::-webkit-scrollbar-track,
+.activity-view::-webkit-scrollbar-track {
+    background: var(--surface);
+}
+
+.games-view::-webkit-scrollbar-thumb,
+.sections-view::-webkit-scrollbar-thumb,
+.activity-view::-webkit-scrollbar-thumb {
+    background: var(--border);
+    border-radius: 4px;
+}
+
+.games-view::-webkit-scrollbar-thumb:hover,
+.sections-view::-webkit-scrollbar-thumb:hover,
+.activity-view::-webkit-scrollbar-thumb:hover {
+    background: var(--surface-light);
+}
+
+/* Activity Info Card */
+.activity-info-card {
+    display: flex;
+    gap: 16px;
+    background: rgba(38, 38, 38, 0.45);
+    border: 1px dashed var(--border);
+    border-radius: 12px;
+    padding: 1.25rem;
+    color: var(--text-secondary);
+    align-items: flex-start;
+}
+
+.activity-info-card .info-icon {
+    color: var(--primary-light);
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+}
+
+.activity-info-card .info-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.activity-info-card h3 {
+    color: var(--text-primary);
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.activity-info-card p {
+    font-size: 0.88rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.activity-info-card .info-note {
+    font-size: 0.8rem;
+    color: var(--text-muted);
     font-style: italic;
     margin-top: 2px;
 }
 
+/* Dynamic game-specific IconSet styles */
+body.game-bs1 .skill-icon,
+body.game-bs1 .detail-icon {
+    background-image: url('IconSet-bs1.png');
+}
+body.game-bs2 .skill-icon,
+body.game-bs2 .detail-icon {
+    background-image: url('IconSet-bs2.png');
+}
+body.game-rrw .skill-icon,
+body.game-rrw .detail-icon {
+    background-image: url('IconSet-rrw.png');
+}
+
+/* Custom Game Hero pictures */
+.game-card[data-game="rrw"] .game-icon {
+    background-image: url('rrw-hero.png');
+    background-size: cover;
+    background-position: center;
+}
+.game-card[data-game="bs1"] .game-icon {
+    background-image: url('bs1-hero.png');
+    background-size: cover;
+    background-position: center;
+}
+.game-card[data-game="bs2"] .game-icon {
+    background-image: url('bs2-hero.png');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Recent Activity card spritesheet icon */
+.recent-activity-icon-sprite {
+    width: 64px;
+    height: 64px;
+    background-image: url('IconSet-bs2.png');
+    background-size: 1024px auto; /* 16 cols x 64px = 1024px */
+    background-position: -256px -64px; /* col 4, row 1 */
+    background-repeat: no-repeat;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+
+/* Section spritesheet icons (48px) */
+.section-spritesheet-icon {
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-size: 768px auto; /* 16 cols x 48px = 768px */
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+
+.section-armor-icon {
+    background-image: url('IconSet-rrw.png');
+    background-position: -384px -480px; /* col 8, row 10 */
+}
+
+.section-element-icon {
+    background-image: url('IconSet-rrw.png');
+    background-position: 0px -288px; /* col 0, row 6 */
+}
+
+.section-item-icon {
+    background-image: url('IconSet-rrw.png');
+    background-position: -432px -576px; /* col 9, row 12 */
+}
+
+.section-skill-icon {
+    background-image: url('IconSet-bs1.png');
+    background-position: -288px -288px; /* col 6, row 6 */
+}
+
+.section-state-icon {
+    background-image: url('IconSet-bs1.png');
+    background-position: -384px -48px; /* col 8, row 1 */
+}
+
+.section-stats-icon {
+    background-image: url('IconSet-bs2.png');
+    background-position: -240px -336px; /* col 5, row 7 */
+}
+
+.section-weapon-icon {
+    background-image: url('IconSet-bs1.png');
+    background-position: -672px -1152px; /* col 14, row 24 */
+}
+
+/* Enemies Section card icon (uses Archspider battler) */
+.section-enemies-icon {
+    width: 64px;
+    height: 64px;
+    background-image: url('Battlers/2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
