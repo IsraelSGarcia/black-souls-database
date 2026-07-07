@@ -6,17 +6,25 @@
 
 
 
-\- Did you implement references in all sections?
+~~- Make sure that is nothing you forgot behind with your terrible git workings.~~
 
 
 
-\- I want you to ponder if there's something you forget to implement in one of the sections or that you should implement.
+\- Were references implemented in all sections? Thoroughly check please.
 
 
 
-\- Make sure that is nothing you forgot behind with your terrible git workings.
+\- I want you to ponder if there's something that was forgotten to implement in one of the sections or that you think should be implemented.
 
 
+
+
+
+
+
+* When in an item within a section, the Up button should send you back to the section, not the sections menu.
+* Make sure the buttons in home and sections are all square and same size (as in all of the same page are the same size). As of now, for example, Developer Comments box is bigger.
+* Comments not show in mobile in sections
 
 
 
