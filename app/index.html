@@ -15,7 +15,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=20260703T223900Z">
+    <link rel="stylesheet" href="style.css?v=20260707T120000Z">
+    <link rel="icon" type="image/png" href="favicon.png?v=20260705T070100Z">
 </head>
 <body>
     <div class="container">
@@ -116,7 +117,8 @@
 
         <!-- Sections View -->
         <div id="sections-view" class="sections-view hidden">
-            <div class="sections-grid">
+            <!-- Main Grid (Core Sections + Others Card) -->
+            <div class="sections-grid" id="main-sections-grid">
                 <!-- Armors Card -->
                 <div class="section-card" data-section="armors">
                     <div class="section-icon">
@@ -165,6 +167,14 @@
                     <h2>States</h2>
                 </div>
 
+                <!-- Weapons Card -->
+                <div class="section-card" data-section="weapons">
+                    <div class="section-icon">
+                        <div class="section-spritesheet-icon section-weapon-icon"></div>
+                    </div>
+                    <h2>Weapons</h2>
+                </div>
+
                 <!-- Stats Card -->
                 <div class="section-card" data-section="stats">
                     <div class="section-icon">
@@ -173,12 +183,71 @@
                     <h2>Stats</h2>
                 </div>
 
-                <!-- Weapons Card -->
-                <div class="section-card" data-section="weapons">
+                <!-- Others Card -->
+                <div class="section-card" data-section="others" id="others-section-card">
                     <div class="section-icon">
-                        <div class="section-spritesheet-icon section-weapon-icon"></div>
+                        <div class="section-spritesheet-icon section-others-icon"></div>
                     </div>
-                    <h2>Weapons</h2>
+                    <h2>Others</h2>
+                </div>
+            </div>
+
+            <!-- Others Grid (Supplementary Sections) -->
+            <div class="sections-grid hidden" id="others-sections-grid">
+                <!-- Actors Card -->
+                <div class="section-card" data-section="actors">
+                    <div class="section-icon">
+                        <div class="section-spritesheet-icon section-actor-icon"></div>
+                    </div>
+                    <h2>Actors</h2>
+                </div>
+
+                <!-- Classes Card -->
+                <div class="section-card" data-section="classes">
+                    <div class="section-icon">
+                        <div class="section-spritesheet-icon section-class-icon"></div>
+                    </div>
+                    <h2>Classes</h2>
+                </div>
+
+                <!-- Common Events Card -->
+                <div class="section-card" data-section="commonEvents">
+                    <div class="section-icon">
+                        <div class="section-spritesheet-icon section-common-event-icon"></div>
+                    </div>
+                    <h2>Common Events</h2>
+                </div>
+
+                <!-- Developer Comments Card -->
+                <div class="section-card" data-section="comments">
+                    <div class="section-icon">
+                        <div class="section-spritesheet-icon section-comment-icon"></div>
+                    </div>
+                    <h2>Developer Comments</h2>
+                </div>
+
+                <!-- Locations Card -->
+                <div class="section-card" data-section="locations">
+                    <div class="section-icon">
+                        <div class="section-spritesheet-icon section-location-icon"></div>
+                    </div>
+                    <h2>Locations</h2>
+                </div>
+
+                <!-- Scripts Card -->
+                <div class="section-card" data-section="scripts">
+                    <div class="section-icon">
+                        <div class="section-spritesheet-icon section-script-icon"></div>
+                    </div>
+                    <h2>Scripts</h2>
+                </div>
+
+                <!-- Troops Card -->
+                <div class="section-card" data-section="troops">
+                    <div class="section-icon">
+                        <div class="section-troop-icon"></div>
+                    </div>
+                    <h2>Troops</h2>
                 </div>
             </div>
             <!-- Sections Giscus Comments -->
@@ -233,8 +302,8 @@
         </div>
     </div>
 
-    <script src="data.js?v=20260703T223900Z"></script>
-    <script src="script.js?v=20260703T223900Z"></script>
+    <script src="data.js?v=20260707T120000Z"></script>
+    <script src="script.js?v=20260707T120000Z"></script>
 </body>
 </html>
 

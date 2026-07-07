@@ -57,3 +57,34 @@ Do not open raw HTML files directly from the filesystem (e.g. using `file:///` U
 Always run the database compilation pipeline before handing work off to the user.
 
 - **Data Compiler Execution:** If you make changes that affect database mappings, translation tables, or JSON schemas, you must run `node app/process-mv-converted-data.js` and verify that the build succeeds with **0 warnings** and **0 untranslated items** before notifying the user.
+
+---
+
+## 6. No Machine or Online Translation APIs
+
+- **Forbidden Practices:** Never use Google Translate, DeepL, or any other online machine translation API (neither via HTTP fetches, child process scripting, nor third-party libraries) to translate game data automatically.
+- **Manual Translations Only:** All translations must be added manually to the local translation dictionary inside `app/process-mv-converted-data.js` or via explicit data-mapping configurations.
+
+---
+
+## 7. Git Operations — Extreme Care Required
+
+Git operations that destroy or revert work are strictly controlled.
+
+### Forbidden Without Explicit User Confirmation
+- **`git checkout -- <file>`** and **`git restore <file>`**: These silently discard all uncommitted changes to a file. Never run them without explicitly telling the user what will be lost and getting their approval.
+- **`git reset --hard`**: Discards all uncommitted changes across the entire working tree. Absolutely forbidden without user approval.
+- **`git revert`**: Creates a new commit that undoes a previous one. Only use when the user explicitly asks to undo a commit by name or hash.
+- **`git clean -f`**: Deletes untracked files permanently. Forbidden without explicit approval.
+
+### Preferred Alternatives
+- **Fix forward instead of reverting:** If code is broken, understand why and fix the root cause directly in the file. Do not reach for `git reset` or `git checkout` as a shortcut.
+- **Use `git stash`** (not `git reset`) if work needs to be temporarily set aside, so it can always be recovered.
+- **Inspect before acting:** Always run `git diff` or `git status` to understand the current state before any destructive operation.
+- **Never run revert operations speculatively.** Only run them when you are certain it is the correct action AND the user has explicitly approved it.
+
+---
+
+## 8. Progress Summaries
+
+- **Always summarize the work since the last user request that changed scope, including across interruptions, very clearly before ending a turn.** Call out what changed, what was verified, and any remaining risks or unrelated pre-existing changes.

@@ -153,6 +153,629 @@ const commonEventTranslations = {
 };
 
 const jpToEnDictionary = {
+    // Supplementary Section Translations
+    "喋る花": "Talking Flower",
+    "亀騎士アダマン": "Adamant Turtle Knight",
+    "兎騎士ルミラージ": "Rumirage Rabbit Knight",
+    "飢餓のハイエナ": "Starving Hyena",
+    "鉄の王様": "Iron King",
+    "裸の王様": "Naked King",
+    "ヘンゼル": "Hansel",
+    "グレーテル": "Gretel",
+    "誓約": "Covenant",
+    "深度": "Depth",
+    "アクター": "Actor",
+    "出現条件": "Spawn Conditions",
+    "条件終了": "End Conditions",
+    "ヘングレ": "Hansel & Gretel",
+    "特殊セリフ判定": "Special Dialogue Check",
+    "亡者": "Undead",
+    "マンドラゴラ": "Mandrake",
+    "ダークフェアリー": "Dark Fairy",
+    "アルラウネ": "Alraune",
+    "溝ネズミ": "Sewer Rat",
+    "カダヴァー": "Cadaver",
+    "鉄騎士": "Iron Knight",
+    "スフィンクス": "Sphinx",
+    "デザートライダー": "Desert Rider",
+    "ヒッポグリフ": "Hippogriff",
+    "メドゥーサ": "Medusa",
+    "暴れ猪": "Wild Boar",
+    "死食鶏": "Carrion Crow",
+    "ケンタウロス": "Centaur",
+    "人食い蟻": "Man-Eating Ant",
+    "皆殺しバッタ": "Slaughter Locust",
+    "成虫": "Adult",
+    "幼虫": "Larva",
+    "猛Poison蝶": "Poisonous Butterfly",
+    "グール": "Ghoul",
+    "ガスト": "Gast",
+    "骸骨": "Skeleton",
+    "呪術師": "Shaman",
+    "車輪骸骨": "Skeleton Wheel",
+    "スノーエンジェル": "Snow Angel",
+    "アイスゴーレム": "Ice Golem",
+    "白ウサギ": "White Rabbit",
+    "三日月の夢": "Crescent Moon Dream",
+    "ケルピー": "Kelpie",
+    "吸い尽くす者": "All-Consuming One",
+    "ベルゼフフォ": "Beelzebub",
+    "ダイダロス": "Daedalus",
+    "天啓者": "Apocalyptist",
+    "ニンゲン": "Human",
+    "蠢く蝙蝠": "Wriggling Bat",
+    "仄暗き悪魔": "Dimly Lit Demon",
+    "サキュバス": "Succubus",
+    "ドライアド": "Dryad",
+    "スキュラ": "Scylla",
+    "ダンジョン": "Dungeon",
+    "ミストバタフライ": "Mist Butterfly",
+    "ドラゴンバタフライ": "Dragon Butterfly",
+    "オニヒトデ": "Crown-of-Thorns Starfish",
+    "マーメイド": "Mermaid",
+    "人食い魚": "Man-Eating Fish",
+    "キメラ": "Chimera",
+    "スノーホワイト": "Snow White",
+    "焼灼の蟹": "Cauterizing Crab",
+    "騎士素質": "Knight Talent",
+    "盗賊素質": "Thief Talent",
+    "魔術師素質": "Mage Talent",
+    "一軒家": "House",
+    "谷間の関所": "Valley Checkpoint",
+    "篝火": "Bonfire",
+    "レベルアップ": "Level Up",
+    "簡易殺す": "Simple Kill",
+    "メアリィ・スー": "Mary Sue",
+    "潜む者": "Lurker",
+    "サイクロプス": "Cyclops",
+    "セラフィム": "Seraphim",
+    "ハーメルンの笛吹き男": "Pied Piper of Hamelin",
+    "NW名前指定": "NW Name Assignment",
+    "喋る": "Talking",
+    "花": "Flower",
+    "南": "South",
+    "西": "West",
+    "東": "East",
+    "北": "North",
+    "墓地街Elixir": "Graveyard Town Elixir",
+    "ピノッキオがオーナー": "Pinocchio is the owner",
+    "ヴィルヘルム大橋": "Wilhelm Great Bridge",
+    "不思議の国": "Wonderland",
+    "透明になっていればスルーできる.": "Can be bypassed if invisible.",
+    "監視された川": "Monitored River",
+    "倒した": "Defeated",
+    "裏庭": "Backyard",
+    "キャラメイク": "Character Creation",
+    "アリスの図書室": "Alice's Library",
+    "ブレーメン家": "Bremen House",
+    "ベヒモス通過": "Behemoth Passed",
+    "黒き魂の集い所": "Gathering Place of Black Souls",
+    "回想部屋": "Gallery Room",
+    "地下室": "Basement",
+    "塵海": "Sea of Dust",
+    "グーStatsント": "Gootent",
+    "Ａエンド": "Ending A",
+    "Ｂエンド": "Ending B",
+    "Ｃエンド": "Ending C",
+    "ぱーてぃ": "Party",
+    "Ｃルート": "Route C",
+    "Trialの戦い": "Battle of Trial",
+    "彼女の部屋": "Her Room",
+    "Ｄルート": "Route D",
+    "武器強化": "Weapon Upgrade",
+    "武器アイテム増やす": "Increase Weapon/Item",
+    "武器アイテム減らす": "Decrease Weapon/Item",
+    "篝火転送": "Bonfire Warp",
+    "篝火転送減らす": "Decrease Bonfire Warp",
+    "アイテム購入": "Item Purchase",
+    "射精": "Ejaculation",
+    "ソウル取り戻す": "Retrieve Souls",
+    "ソウル位置": "Souls Position",
+    "すぅーっと消える": "Fade Out",
+    "もこもこに乗る": "Ride Mokomoko",
+    "もこもこ降りる": "Dismount Mokomoko",
+    "勝ちイベ": "Victory Event",
+    "負けイベ": "Defeat Event",
+    "リィフ外す": "Remove Leaf",
+    "喰われる": "Devoured",
+    "黒の騎士復活まで5分": "5 minutes until Black Knight revives",
+    "刺し殺す": "Stab to Death",
+    "Dorothy外す": "Remove Dorothy",
+    "エルマ外す": "Remove Elma",
+    "リィフレベルアップ": "Leaf Level Up",
+    "Dorothyレベルアップ": "Dorothy Level Up",
+    "エルマレベルアップ": "Elma Level Up",
+    "リィフソウル供給": "Leaf Soul Feed",
+    "リィフソウル供給２": "Leaf Soul Feed 2",
+    "リィフホテル": "Leaf Hotel",
+    "エルマレイプ": "Elma Non-consensual",
+    "エルマお礼": "Elma Reward",
+    "エルマソウル供給": "Elma Soul Feed",
+    "エルマソウル供給２": "Elma Soul Feed 2",
+    "エルマホテル": "Elma Hotel",
+    "ヴィクレイプ": "Victoria Non-consensual",
+    "ヴィク和姦": "Victoria Consensual",
+    "ヴィクソウル供給": "Victoria Soul Feed",
+    "ヴィクソウル供給２": "Victoria Soul Feed 2",
+    "ヴィクホテル": "Victoria Hotel",
+    "グースレイプ": "Goose Non-consensual",
+    "グース和姦": "Goose Consensual",
+    "グースソウル供給": "Goose Soul Feed",
+    "グースソウル供給２": "Goose Soul Feed 2",
+    "グースホテル": "Goose Hotel",
+    "エリザベートレイプ": "Elisabeth Non-consensual",
+    "エリザベート褒美": "Elisabeth Reward",
+    "エリザベートソウル供給": "Elisabeth Soul Feed",
+    "エリザベートソウル供給２": "Elisabeth Soul Feed 2",
+    "エリザベートホテル": "Elisabeth Hotel",
+    "Katarina和姦": "Katarina Consensual",
+    "ジャンヌレイプ": "Jeanne Non-consensual",
+    "ジャンヌ和姦": "Jeanne Consensual",
+    "ジャンヌソウル供給": "Jeanne Soul Feed",
+    "ジャンヌソウル供給２": "Jeanne Soul Feed 2",
+    "ジャンヌホテル": "Jeanne Hotel",
+    "ミランダソウル供給": "Miranda Soul Feed",
+    "ミランダソウル供給２": "Miranda Soul Feed 2",
+    "ミランダホテル": "Miranda Hotel",
+    "紅ずきん寝レイプ": "Red Riding Hood Sleeping Non-consensual",
+    "紅ずきんレイプ２": "Red Riding Hood Non-consensual 2",
+    "紅ずきんProstitution": "Red Riding Hood Prostitution",
+    "アリス犯す": "Alice Non-consensual",
+    "アリスご褒美": "Alice Reward",
+    "アリス和姦": "Alice Consensual",
+    "ラ・ベルレイプ": "La Belle Non-consensual",
+    "カエル姫誓約": "Frog Princess Covenant",
+    "ラプンツェル誓約": "Rapunzel Covenant",
+    "White姫誓約": "White Princess Covenant",
+    "シンデレラ逆レイプ": "Cinderella Reverse Non-consensual",
+    "紅ずきんソウル供給": "Red Riding Hood Soul Feed",
+    "紅ずきんソウル供給２": "Red Riding Hood Soul Feed 2",
+    "紅ずきんホテル": "Red Riding Hood Hotel",
+    "北Windの騎士": "North Wind Knight",
+    "魂の貴婦人エリザベートSecond": "Lady of Souls Elisabeth Second",
+    "魔女Dorothy": "Witch Dorothy",
+    "魔女の使い": "Witch's Familiar",
+    "黒の尖兵Lindamear2nd": "Black Vanguard Lindamear 2nd",
+    "ポロ": "Polo",
+    "紅ずきん死を悟る": "Red Riding Hood Realizes Death",
+    "グレーテル犯す": "Gretel Non-consensual",
+    "千匹の仔を孕みし森の黒山羊": "Black Goat of the Woods with a Thousand Young",
+    "ネームウィンドウ": "Name Window",
+    "醜いアヒルの子": "Ugly Duckling",
+    "ジャック": "Jack",
+    "ピーター・パン": "Peter Pan",
+    "王者シンドバッド": "King Sinbad",
+    "ロバの王様": "Donkey King",
+    "マッチ売りの少女": "Little Match Girl",
+    "パトラッシュ": "Patrasche",
+    "カエルのお姫様": "Frog Princess",
+    "髪長姫ラプンツェル": "Rapunzel",
+    "シンデレラ": "Cinderella",
+    "エリザベート・バートリー": "Elisabeth Bathory",
+    "心失くしのブリキ": "Heartless Tin Man",
+    "臆病なライオン": "Cowardly Lion",
+    "知恵遅れの案山子": "Brainless Scarecrow",
+    "鍛冶屋ロプス": "Blacksmith Lopes",
+    "堕落した賢者": "Corrupted Sage",
+    "Whiteの王子": "Prince White",
+    "黒の尖兵Lindamear": "Black Vanguard Lindamear",
+    "黒の審判者ハイン": "Black Adjudicator Hein",
+    "黒の教戒師エズワルド": "Black Preacher Eswald",
+    "傀儡子ピノッキオ": "Puppeteer Pinocchio",
+    "人形": "Doll",
+    "聖女の護衛オックス": "Saint's Guard Ox",
+    "聖女の護衛ベリオール": "Saint's Guard Belial",
+    "聖女Katarina": "Saint Katarina",
+    "Chaosの魔女Dorothy": "Witch of Chaos Dorothy",
+    "放浪騎士イズ": "Wandering Knight Is",
+    "黄金のガチョウ": "Golden Goose",
+    "聖獣ジャンヌ・ダルク": "Holy Beast Jeanne d'Arc",
+    "淫魔獣ヴィクトリア": "Succubus Beast Victoria",
+    "陰月の騎士Oentius": "Knight of the Dark Moon Oentius",
+    "罪背負いのヴィルト": "Sin-Bearer Wirt",
+    "時計鰐": "Clock Crocodile",
+    "魔獣ヴィルト": "Beast Wirt",
+    "退廃主": "Decadent Lord",
+    "色情魔サティロス": "Satyr Satyrus",
+    "ロプスの鍛冶場": "Lopes' Forge",
+    "ロスト城門": "Lost Castle Gate",
+    "ロスト中間": "Lost Middle",
+    "ロスト最奥": "Lost Deepest Area",
+    "黒の裁判所": "Black Court",
+    "Darknessの入り口": "Entrance to Darkness",
+    "必ずEV001にすること": "Must be EV001",
+    "1.ヘングレ": "1. Hansel & Gretel",
+    "死体": "Corpse",
+    "貴婦人": "Noblewoman",
+    "貴族": "Noble",
+    "教徒": "Believer",
+    "国民": "Citizen",
+    "邪神": "Evil God",
+    "子供": "Child",
+    "お人好しのエリン": "Good-Natured Erin",
+    "立ち直った勇者": "Recovered Hero",
+    "名も無き商人": "Nameless Merchant",
+    "教戒師エズワルド": "Preacher Eswald",
+    "盗賊": "Thief",
+    "Prostitution婦": "Prostitute",
+    "死んだ眼をしている男性": "Man with Dead Eyes",
+    "街の兵士": "Town Soldier",
+    "男主": "Male Protagonist",
+    "女": "Woman",
+    "エルマの母": "Elma's Mother",
+    "使用人": "Servant",
+    "死にかけのWarrior": "Dying Warrior",
+    "老人": "Old Man",
+    "ネロ": "Nero",
+    "れべる上限": "Level Cap",
+    "サムライ": "Samurai",
+    "アーチャー": "Archer",
+    "シーフ": "Thief",
+    "僧侶": "Cleric",
+    "魔道士": "Mage",
+    "賢者": "Sage",
+    "よわい": "Weak",
+    "紅ずきんの家": "Red Riding Hood's House",
+    "地下牢": "Dungeon",
+    "地底世界クン・ヤン": "Underground World K'n-yan",
+    "真実の家": "House of Truth",
+    "デバッグ": "Debug",
+    "マッチ屋": "Match Shop",
+    "裸の王": "Naked King",
+    "Jacob廃坑": "Jacob Abandoned Mine",
+    "ウサギ穴": "Rabbit Hole",
+    "室内": "Indoor",
+    "シーン：": "Scene: ",
+    "アリス": "Alice",
+    "犯す": "Rape",
+    "ご褒美": "Reward",
+    "和姦": "Consensual",
+    "寝レイプ": "Sleeping Non-consensual",
+    "レイプ２": "Non-consensual 2",
+    "逆レイプ": "Reverse Non-consensual",
+    "レイプ": "Non-consensual",
+    "お礼": "Thanks",
+    "ソウル供給２": "Soul Feed 2",
+    "ソウル供給": "Soul Feed",
+    "ホテル": "Hotel",
+    "褒美": "Reward",
+    "誓約Lv": "Covenant Lv",
+    "出現条件": "Spawn Conditions",
+    "スイッチ": "Switch",
+    "変数": "Variable",
+    "死んだ眼をしている": "with Dead Eyes",
+    "男性": "Man",
+    "街の": "Town ",
+    "兵士": "Soldier",
+    "男主": "Male Protagonist",
+    "使用人": "Servant",
+    "死にかけの": "Dying ",
+    "ロプスの": "Lopes' ",
+    "鍛冶場": "Forge",
+    "ロスト": "Lost ",
+    "城門": "Castle Gate",
+    "中間": "Middle",
+    "最奥": "Deepest Area",
+    "黒の": "Black ",
+    "裁判所": "Court",
+    "の入り口": " Entrance",
+    "入り口": "Entrance",
+    "必ず": "Must be ",
+    "にすること": "",
+    "特殊セリフ判定": "Special Dialogue Check",
+    "1.ヘングレ": "1. Hansel & Gretel",
+    "お人好しのエリン": "Good-Natured Erin",
+    "立ち直った勇者": "Recovered Hero",
+    "名も無き商人": "Nameless Merchant",
+    "教戒師": "Preacher ",
+    "エズワルド": "Eswald",
+    "Prostitution婦": "Prostitute",
+    "エルマの母": "Elma's Mother",
+    "グーStatsント": "Gootent",
+    "Ａエンド": "Ending A",
+    "Ｂエンド": "Ending B",
+    "Ｃエンド": "Ending C",
+    "ぱーてぃ": "Party",
+    "Ｃルート": "Route C",
+    "Trialの戦い": "Battle of Trial",
+    "彼女の部屋": "Her Room",
+    "Ｄルート": "Route D",
+    "墜落部屋": "Crash Room",
+    "霧の公園": "Foggy Park",
+    "オックス・ウォード学院": "Oxward Academy",
+    "精神病棟": "Mental Ward",
+    "月面": "Moon Surface",
+    "嘆きのBeach": "Beach of Mourning",
+    "オイスターの腐死海": "Rotten Sea of Oysters",
+    "古き羊の店": "Old Sheep Shop",
+    "リデル墓地": "Liddell Cemetery",
+    "ロスト城": "Lost Castle",
+    "廃墟街": "Ruined Town",
+    "屠殺場": "Slaughterhouse",
+    "オズの国": "Land of Oz",
+    "チェシャの家": "Cheshire's House",
+    "クイーンランド": "Queenland",
+    "ワンダーランド": "Wonderland",
+    "夢の狭間": "Interstice of Dreams",
+    "夢": "Dream",
+    "海の底": "Sea Bottom",
+    "竜宮城": "Ryugu Castle",
+    "クン・ヤン": "K'n-yan",
+    "トール神殿": "Thor Temple",
+    "ジギスムント城": "Sigismund Castle",
+    "ジギスムント": "Sigismund",
+    "ブランブル城": "Bramble Castle",
+    "赤の女王の城": "Red Queen's Castle",
+    "心臓": "Heart",
+    "脳ミソ": "Brain",
+    "聖森": "Sacred Forest",
+    "暗黒の鍾乳洞": "Dark Limestone Cave",
+    "下水道入り口": "Sewer Entrance",
+    "北": "North",
+    "東": "East",
+    "南": "South",
+    "西": "West",
+    "ゴーテルの塔": " Gothel's Tower",
+    "ポセイドンホテル": "Poseidon Hotel",
+    "ヘルサ砂漠": "Helsa Desert",
+    "白雪城": "Snow White Castle",
+    "ロストエンパイア": "Lost Empire",
+    "淫腐街": "Slums",
+    "旧淫腐街": "Old Slums",
+    "ベヒモス牧場": "Behemoth Ranch",
+    "白雪の庭": "Snow White's Garden",
+    "下水道": "Sewer",
+    "ジークフリート大橋": "Siegfried Great Bridge",
+    "オズの魔女": "Witch of Oz",
+    "アリスの図書室": "Alice's Library",
+    "ブレーメン家": "Bremen House",
+    "黒き魂 of 集い所": "Gathering Place of Black Souls",
+    "黒き魂の集い所": "Gathering Place of Black Souls",
+    "回想部屋": "Gallery Room",
+    "地下室": "Basement",
+    "塵海": "Sea of Dust",
+    " Trial": " Trial",
+    "彼女の部屋": "Her Room",
+    "誓約": "Covenant",
+    "個別エンド": "Individual Ending",
+    "レイス": "Wraith",
+    "背徳者": "Debauchee",
+    "信仰者": "Believer",
+    "深遠の騎士": "Abyssal Knight",
+    "Poison蜘蛛": "Poison Spider",
+    "Dark霊": "Dark Spirit",
+    "ハクタク": "Hakutaku",
+    "死天使": "Death Angel",
+    "天翼の石像": "Heavenly Winged Statue",
+    "Darkness物質": "Darkness Matter",
+    "失敗作": "Failure",
+    "ヴィレッジャ": "Villager",
+    "リザードマン": "Lizardman",
+    "ネコマタ": "Nekomata",
+    "ピクシー": "Pixy",
+    "聖Woman": "Saintly Woman",
+    "逃走成功率増加": "Escape Success Rate Increase",
+    "処刑バサミ": "Execution Scissors",
+    "小": "Small",
+    "すぅー": "Fade",
+    "ケルベロス": "Cerberus",
+    "疫病ネズミ": "Plague Rat",
+    
+    // Core weapon/armor descriptions
+    "巨人族の英雄が使ったとされる重Axe": "A heavy Axe said to have been used by a giant hero.",
+    "幅広の刃をもった鋼鉄製の長Spear": "A long steel Spear with a wide blade.",
+    "Sword士たちの生き血を吸ってきた魔性のKatana": "A demonic Katana that has sucked the lifeblood of warriors.",
+    "鋼板を加工して作った帽子": "A hat made from processed steel plates.",
+    "鉄の鎖を組み上げて作った鎧": "Armor made by assembling iron chains.",
+    "堅木を重ね合わせて作った盾": "A shield made by layering hardwood.",
+    
+    // Additional locations, events, comments
+    "燻りの森": "Smoldering Forest",
+    "Child部屋": "Child's Room",
+    "ProstitutionSmall屋": "Prostitution Hut",
+    "テニエル橋": "Tenniel Bridge",
+    "終わらないお茶会": "Never-ending Tea Party",
+    "童話庫": "Fairy Tale Treasury",
+    "プレイヤー初期位置": "Player Initial Position",
+    "家": "House",
+    "外": "Outside",
+    "Ｇエンド": "Ending G",
+    "Ｂルート": "Route B",
+    "浸Water": "Submerged",
+    "食屍鬼の巣": "Ghoul's Nest",
+    "ボス部屋": "Boss Room",
+    "宇宙": "Outer Space",
+    "虚無": "Void",
+    "棺": "Coffin",
+    "離れの牢獄": "Isolated Prison",
+    "居間": "Living Room",
+    "１階廊下": "1F Hallway",
+    "玄関": "Entrance",
+    "２階廊下": "2F Hallway",
+    "自室": "My Room",
+    "次Womanの部屋": "Second Daughter's Room",
+    "三Womanの部屋": "Third Daughter's Room",
+    "長Womanの部屋": "Eldest Daughter's Room",
+    "Ｈエンド": "Ending H",
+    "ラスト": "Last",
+    "フォグon": "Fog ON",
+    "敵SwitchOFF": "Enemy Switch OFF",
+    "武器レシピ追加": "Add Weapon Recipe",
+    "Dream霊出現": "Dream Spirit Spawns",
+    "悪Dream霊SwitchOFF": "Evil Dream Spirit Switch OFF",
+    "悪Dream霊出現": "Evil Dream Spirit Spawns",
+    "脱出２": "Escape 2",
+    "脱出": "Escape",
+    "屋根": "Roof",
+    "宝箱中身": "Chest Contents",
+    "死": "Death",
+    "ユニス強姦": "Unis Assault",
+    "リデル家Location移動": "Liddell House Area Transition",
+    "リデル家Event": "Liddell House Event",
+    "崩壊": "Collapse",
+    "Event通過": "Event Passed",
+    "AAAーーー": "AAA---",
+    "AaAOAAAAーーーー?": "AaAOAAAA----?",
+    "ーーー": "---",
+    "ーーーー": "----",
+    "全滅処理": "Game Over Processing",
+    "個別エンド": "Individual Ending",
+    
+    // BS1 comments and locations
+    "アクターレベル代入": "Assign Actor Level",
+    "現在仲間レベル代入": "Assign Current Companion Level",
+    "周回プレイ準備": "Prepare for New Game Plus",
+    "Marianna監禁": "Marianna Imprisonment",
+    "ヘングレフェラ": "Hansel & Gretel Oral",
+    "Water遊びEvent": "Water Play Event",
+    "外す": "Remove",
+    "アリスの家": "Alice's House",
+    "お茶会": "Tea Party",
+    "アリスの庭": "Alice's Garden",
+    "お茶会BOSS": "Tea Party BOSS",
+    "アリスの寝室": "Alice's Bedroom",
+    "女王の城": "Queen's Castle",
+    "図書室": "Library",
+    "ブレーメンの家": "Bremen's House",
+    "ブレーメン": "Bremen",
+    "地下": "Basement",
+    "ロスト帝国": "Lost Empire",
+    "ロスト街": "Lost Town",
+    "ロスト城": "Lost Castle",
+    "グースの家": "Goose's House",
+    "グース": "Goose",
+    "荒野の狼": "Steppenwolf",
+    "荒野": "Steppe",
+    "聖女の庵": "Saint's Hermitage",
+    "庵": "Hermitage",
+    "聖堂": "Sanctuary",
+    "聖女の部屋": "Saint's Room",
+    "ジギスムント城": "Sigismund Castle",
+    "ブランブル城": "Bramble Castle",
+    "中庭": "Courtyard",
+    "庭": "Garden",
+    "バルコニー": "Balcony",
+    "塔": "Tower",
+    "最上階": "Top Floor",
+    "ボス": "Boss",
+    "捨てられの森": "Abandoned Forest",
+    "ヤーコプ廃坑": "Jacob Abandoned Mine",
+    "秘密の花園": "Secret Garden",
+    "アトランティカ": "Atlantica",
+    "祈り主": "Prayer Master",
+    "骸骨迷宮": "Skeleton Labyrinth",
+    "穢れ沼": "Defiled Swamp",
+    "サバトの森庭": "Sabbat Forest Garden",
+    "暗黒の入り口": "Entrance to Darkness",
+    "原盤": "Slab",
+    "場所": "Location",
+    "全１２": "Total 12",
+    "秘密のFlower園１": "Secret Garden 1",
+    "秘密のフラワー園": "Secret Garden",
+    "他２はぺろぺろちょうだいから": "Other 2 are from licking",
+    "騎士の剣": "Knight's Sword",
+    "短刀": "Dagger",
+    "魔神刀": "Demonic Sword",
+    "パルチザン": "Partisan",
+    "大鉄球": "Large Iron Ball",
+    "肉断ち大斧": "Butcher Great Axe",
+    "ハンスの機関銃": "Hans' Machine Gun",
+    "陰月の剣": "Dark Moon Sword",
+    "魔術師の杖": "Mage's Staff",
+    "ハンターボウ": "Hunter's Bow",
+    "シールドバンカー": "Shield Bunker",
+    "ヘルカイザー": "Hell Kaiser",
+    "リンダメア": "Lindamear",
+    
+    // Additional locations and events
+    "ヴィルヘルム": "Wilhelm",
+    "ロプスの": "Lopes' ",
+    "鍛冶屋": "Blacksmith",
+    "真実": "Truth",
+    "娼館": "Brothel",
+    "胎児の夢": "Dream of the Fetus",
+    "マッチ屋": "Match Shop",
+    "不思議": "Wonder",
+    "アリスの": "Alice's ",
+    "図書": "Library",
+    "塵": "Dust",
+    "オックス": "Ox",
+    "ウォード": "Ward",
+    "精神": "Mental",
+    "病棟": "Ward",
+    "嘆き": "Mourning",
+    "オイスター": "Oyster",
+    "古き": "Old ",
+    "羊の店": "Sheep Shop",
+    "羊": "Sheep",
+    "リデル": "Liddell",
+    "墓地": "Cemetery",
+    "チェシャ": "Cheshire",
+    "クイーン": "Queen",
+    "ワンダー": "Wonder",
+    "狭間": "Interstice",
+    "底": "Bottom",
+    "竜宮": "Ryugu",
+    "トール": "Thor",
+    "神殿": "Temple",
+    "ジギス": "Sigis",
+    "ムント": "mund",
+    "ブラン": "Bramble",
+    "ブル": "Castle",
+    "赤の": "Red ",
+    "女王": "Queen",
+    "魔女の": "Witch's ",
+    "使い": "Familiar",
+    "尖兵": "Vanguard",
+    "黒山羊": "Black Goat",
+    "醜い": "Ugly",
+    "アヒル": "Duck",
+    "シンド": "Sin",
+    "バッド": "bad",
+    "心失": "Heartless",
+    "臆病": "Cowardly",
+    "知恵": "Brainless",
+    "案山子": "Scarecrow",
+    "審判": "Adjudicator",
+    "ハイン": "Hein",
+    "教戒": "Preacher",
+    "エズ": "Es",
+    "ワルド": "wald",
+    "傀儡": "Puppeteer",
+    "ピノ": "Pinocchio",
+    "キオ": "",
+    "護衛": "Guard",
+    "陰月": "Dark Moon",
+    "時計": "Clock",
+    "鰐": "Crocodile",
+    "淫魔": "Succubus",
+    "サティ": "Satyr",
+    "ロス": "us",
+    "裁判": "Court",
+    "名も": "Nameless",
+    "無き": "",
+    "商人": "Merchant",
+    "強姦": "Assault",
+    "移動": "Transition",
+    "崩壊": "Collapse",
+    "通過": "Passed",
+    "お茶": "Tea ",
+    "会": "Party",
+    "寝室": "Bedroom",
+    "ハンス": "Hans",
+    "機関": "Machine ",
+    "銃": "Gun",
+    "大斧": "Great Axe",
+    "陰": "Dark ",
+    "月": "Moon",
+    "大鷲": "Giant Eagle",
+    "妊婦": "Pregnant Woman",
+    "落": "Drop",
+    "分身": "Clone",
+    "混沌": "Chaos",
+    "カタリナ": "Katarina",
+    "車輪": "Wheel",
+
     "<HP回復無効:100>": "<HP Recovery Nullified: 100>",
     "<使用者効果 2>": "<Caster Effect 2>",
     "<攻撃ID変更:131>": "<Attack ID Change: 131>",
@@ -1511,18 +2134,108 @@ function convertJapanesePunctuationKeepSpaces(text) {
 function translateSimpleString(text) {
     if (!text) return text;
     
-    let result = convertJapanesePunctuationKeepSpaces(text.trim());
+    let result = convertJapanesePunctuation(text.trim());
     
-    for (const jpn of sortedTranslationKeys) {
-        if (!jpn) continue;
-        if (result.includes(jpn)) {
-            const eng = translations[jpn];
-            // Use split/join to do literal replacement
-            result = result.split(jpn).join(eng);
+    // First apply dictionary translations
+    let previousResult;
+    let passes = 0;
+    
+    do {
+        previousResult = result;
+        for (const jpn of sortedTranslationKeys) {
+            if (!jpn) continue;
+            if (result.includes(jpn)) {
+                const eng = translations[jpn];
+                result = result.split(jpn).join(eng);
+            }
         }
-    }
+        passes++;
+    } while (result !== previousResult && passes < 3);
     
-    return result.replace(/　/g, ' ');
+    // Then apply pattern-based rules
+    result = result.replace(/<レベル限界増加:(\d+)>/g, '<Level Cap Increase:$1>');
+    result = result.replace(/レベル限界増加/g, 'Level Cap Increase');
+    result = result.replace(/<限界変動:(\d+),(\d+)>/g, '<Limit Modifier:$1,$2>');
+    result = result.replace(/限界変動/g, 'Limit Modifier');
+    result = result.replace(/==マップフォグ(.*)==/g, '==Map Fog$1==');
+    result = result.replace(/マップフォグ/g, 'Map Fog');
+    result = result.replace(/<色調\s*(.*?)>/g, '<Color Tone $1>');
+    result = result.replace(/色調/g, 'Color Tone');
+    result = result.replace(/<天候\s*(.*?)>/g, '<Weather $1>');
+    result = result.replace(/天候/g, 'Weather');
+    result = result.replace(/Event通過/g, 'Event Pass');
+    
+    result = result.replace(/誓約Lv(\d+)/g, 'Covenant Lv$1');
+    result = result.replace(/深度(\d+)/g, 'Depth $1');
+    result = result.replace(/アクター(\d+|１|２|３|４|５|６|７|８|９|１０)/g, (match, p1) => {
+        const numMap = { '１': 1, '２': 2, '３': 3, '４': 4, '５': 5, '６': 6, '７': 7, '８': 8, '９': 9, '１０': 10 };
+        const num = numMap[p1] || p1;
+        return `Actor ${num}`;
+    });
+    result = result.replace(/＋(\d+)~(\d+)に(欠片|大欠片|塊|原盤)(\d+)個/g, (match, min, max, type, count) => {
+        const typeMap = { '欠片': 'Shards', '大欠片': 'Large Shards', '塊': 'Chunks', '原盤': 'Slabs' };
+        const engType = typeMap[type] || type;
+        const singularType = engType.endsWith('s') ? engType.slice(0, -1) : engType;
+        const displayType = parseInt(count) === 1 ? singularType : engType;
+        return `+${min}~${max}: ${count} ${displayType}`;
+    });
+    result = result.replace(/＋(\d+)に(欠片|大欠片|塊|原盤)(d+)個/g, (match, lvl, type, count) => {
+        const typeMap = { '欠片': 'Shards', '大欠片': 'Large Shards', '塊': 'Chunks', '原盤': 'Slabs' };
+        const engType = typeMap[type] || type;
+        const singularType = engType.endsWith('s') ? engType.slice(0, -1) : engType;
+        const displayType = parseInt(count) === 1 ? singularType : engType;
+        return `+${lvl}: ${count} ${displayType}`;
+    });
+    
+    // Gasps/breath sound effects with Japanese small tsu
+    result = result.replace(/っ♡/g, '!♡');
+    result = result.replace(/っ/g, '!');
+    
+    // Process comma-separated list of items (e.g. Troops list like "Undead*3, Mandrake*2")
+    const parts = result.split(',').map(part => {
+        let trimmed = part.trim();
+        // Check for count suffix (e.g., *3, x2, ×4)
+        const countMatch = trimmed.match(/^(.*?)\s*[\*x×]\s*(\d+)$/);
+        if (countMatch) {
+            let baseName = countMatch[1].trim();
+            const count = countMatch[2];
+            
+            // Translate baseName using dictionary
+            let previousBase;
+            let passes = 0;
+            do {
+                previousBase = baseName;
+                for (const jpn of sortedTranslationKeys) {
+                    if (!jpn) continue;
+                    if (baseName.includes(jpn)) {
+                        const eng = translations[jpn];
+                        baseName = baseName.split(jpn).join(eng);
+                    }
+                }
+                passes++;
+            } while (baseName !== previousBase && passes < 3);
+            
+            return `${baseName} x${count}`;
+        }
+        
+        // No count suffix, just translate whole trimmed part
+        let previousTrimmed;
+        let passes = 0;
+        do {
+            previousTrimmed = trimmed;
+            for (const jpn of sortedTranslationKeys) {
+                if (!jpn) continue;
+                if (trimmed.includes(jpn)) {
+                    const eng = translations[jpn];
+                    trimmed = trimmed.split(jpn).join(eng);
+                }
+            }
+            passes++;
+        } while (trimmed !== previousTrimmed && passes < 3);
+        return trimmed;
+    });
+    
+    return parts.join(', ').replace(/　/g, ' ');
 }
 
 // Detect Japanese characters (Hiragana, Katakana, Kanji)
@@ -4549,7 +5262,7 @@ function detectInferredDataWithoutBasis(processedData, allData) {
             });
         }
     });
-    
+
     // Check all hit types for sources
     Object.keys(hitTypes).forEach(codeStr => {
         const code = parseInt(codeStr);
@@ -5477,6 +6190,215 @@ if (ignoredDataIdValue.length > 0) {
     console.log(`   ✅ 0 instances`);
 }
 
+
+// ============================================================================
+// Process supplementary sections (actors, classes, locations, etc.)
+// ============================================================================
+
+// Process actors data
+let processedActors = [];
+const actorsFile = path.join(dataDir, 'Actors.json');
+if (fs.existsSync(actorsFile)) {
+    console.log('  Processing actors...');
+    const actorsRaw = JSON.parse(fs.readFileSync(actorsFile, 'utf8'));
+    processedActors = actorsRaw
+        .filter(a => a !== null && a.name && a.name.trim() !== '')
+        .map(a => {
+            const note = translateNote(a.note || '', skillsData, statesData, 'actor', a.id);
+            const actorName = translateSimpleString(a.name);
+            const nickname = translateSimpleString(a.nickname || '');
+            const profile = translateSimpleString(a.profile || '');
+            return {
+                id: a.id,
+                name: actorName,
+                japaneseName: a.name !== actorName ? a.name : undefined,
+                nickname: nickname,
+                japaneseNickname: a.nickname && a.nickname !== nickname ? a.nickname : undefined,
+                profile: profile,
+                japaneseProfile: a.profile && a.profile !== profile ? a.profile : undefined,
+                classId: a.classId,
+                initialLevel: a.initialLevel,
+                maxLevel: a.maxLevel,
+                characterName: a.characterName || '',
+                characterIndex: a.characterIndex || 0,
+                faceName: a.faceName || '',
+                faceIndex: a.faceIndex || 0,
+                equips: a.equips || [],
+                note: note
+            };
+        });
+}
+
+// Process classes data
+let processedClasses = [];
+const classesFile = path.join(dataDir, 'Classes.json');
+if (fs.existsSync(classesFile)) {
+    console.log('  Processing classes...');
+    const classesRaw = JSON.parse(fs.readFileSync(classesFile, 'utf8'));
+    processedClasses = classesRaw
+        .filter(c => c !== null && c.name && c.name.trim() !== '')
+        .map(c => {
+            const note = translateNote(c.note || '', skillsData, statesData, 'class', c.id);
+            const className = translateSimpleString(c.name);
+            return {
+                id: c.id,
+                name: className,
+                japaneseName: c.name !== className ? c.name : undefined,
+                expParams: c.expParams || [],
+                params: c.params || [],
+                traits: (c.traits || []).map(t => ({ code: t.code, dataId: t.dataId, value: t.value })),
+                learnings: (c.learnings || []).map(l => ({ level: l.level, skillId: l.skillId })),
+                note: note
+            };
+        });
+}
+
+// Process locations (MapInfos) data
+let processedLocations = [];
+const mapInfosFile = path.join(dataDir, 'MapInfos.json');
+if (fs.existsSync(mapInfosFile)) {
+    console.log('  Processing locations...');
+    const mapInfosRaw = JSON.parse(fs.readFileSync(mapInfosFile, 'utf8'));
+    processedLocations = mapInfosRaw
+        .filter(m => m !== null && m.name && m.name.trim() !== '')
+        .map(m => {
+            const displayName = translateSimpleString(m.name);
+            return {
+                id: m.id,
+                name: displayName,
+                japaneseName: m.name !== displayName ? m.name : undefined,
+                displayName: displayName,
+                parentId: m.parentId || 0,
+                order: m.order || 0
+            };
+        });
+}
+
+// Process common events data
+let processedCommonEvents = [];
+if (commonEventsData) {
+    console.log('  Processing common events...');
+    processedCommonEvents = commonEventsData
+        .filter(ce => ce !== null && ce.name && ce.name.trim() !== '')
+        .map(ce => {
+            const rawName = ce.name;
+            const translatedName = commonEventTranslations[rawName] || translateSimpleString(rawName);
+            const textCommands = (ce.list || [])
+                .filter(cmd => cmd.code === 401 || cmd.code === 108 || cmd.code === 408)
+                .map(cmd => {
+                    const rawText = Array.isArray(cmd.parameters) ? (cmd.parameters[0] || '') : '';
+                    const translated = translateSimpleString(rawText);
+                    return {
+                        code: cmd.code,
+                        text: translated,
+                        japaneseText: rawText !== translated ? rawText : undefined
+                    };
+                })
+                .filter(cmd => cmd.text && cmd.text.trim() !== '');
+            return {
+                id: ce.id,
+                name: translatedName,
+                japaneseName: rawName !== translatedName ? rawName : undefined,
+                trigger: ce.trigger || 0,
+                switchId: ce.switchId || 0,
+                list: textCommands
+            };
+        });
+}
+
+// Process troops data
+let processedTroops = [];
+const troopsFile = path.join(dataDir, 'Troops_fixed.json');
+const troopsFallback = path.join(dataDir, 'Troops.json');
+const troopsSource = fs.existsSync(troopsFile) ? troopsFile : (fs.existsSync(troopsFallback) ? troopsFallback : null);
+if (troopsSource) {
+    console.log('  Processing troops...');
+    let troopsRaw;
+    try {
+        troopsRaw = JSON.parse(fs.readFileSync(troopsSource, 'utf8'));
+    } catch (e) {
+        console.warn('  Warning: Failed to parse troops JSON: ' + e.message);
+        troopsRaw = [];
+    }
+    processedTroops = troopsRaw
+        .filter(t => t !== null && t.name && t.name.trim() !== '')
+        .map(t => {
+            const troopName = translateSimpleString(t.name);
+            return {
+                id: t.id,
+                name: troopName,
+                japaneseName: t.name !== troopName ? t.name : undefined,
+                members: (t.members || []).map(m => ({ enemyId: m.enemyId, x: m.x, y: m.y, hidden: m.hidden })),
+                pageCount: (t.pages || []).length
+            };
+        });
+}
+
+// Process scripts data (_scripts.txt)
+let processedScripts = [];
+const scriptsFile = path.join(dataDir, '_scripts.txt');
+if (fs.existsSync(scriptsFile)) {
+    console.log('  Processing scripts...');
+    const scriptLines = fs.readFileSync(scriptsFile, 'utf8').split('\n');
+    let scriptId = 0;
+    processedScripts = scriptLines
+        .map(line => line.replace(/\r$/, '').trim())
+        .filter(line => line.length > 0)
+        .map(line => {
+            scriptId++;
+            const colonIdx = line.indexOf(':');
+            let sourceName = line;
+            let rest = '';
+            if (colonIdx !== -1) {
+                sourceName = line.substring(0, colonIdx).trim();
+                rest = line.substring(colonIdx + 1).trim();
+            }
+            const colonIdx2 = rest.indexOf(':');
+            let scriptType = '';
+            let content = rest;
+            if (colonIdx2 !== -1) {
+                scriptType = rest.substring(0, colonIdx2).trim();
+                content = rest.substring(colonIdx2 + 1).trim();
+            }
+            return {
+                id: scriptId,
+                sourceName,
+                scriptType,
+                content
+            };
+        });
+}
+
+// Process developer comments (_comments.txt)
+let processedComments = [];
+const commentsFile = path.join(dataDir, '_comments.txt');
+if (fs.existsSync(commentsFile)) {
+    console.log('  Processing developer comments...');
+    const commentLines = fs.readFileSync(commentsFile, 'utf8').split('\n');
+    let commentId = 0;
+    processedComments = commentLines
+        .map(line => line.replace(/\r$/, '').trim())
+        .filter(line => line.length > 0)
+        .map(line => {
+            commentId++;
+            const commentMarker = '- Comment:';
+            const markerIdx = line.indexOf(commentMarker);
+            let context = line;
+            let text = '';
+            if (markerIdx !== -1) {
+                context = line.substring(0, markerIdx).trim();
+                text = line.substring(markerIdx + commentMarker.length).trim();
+            }
+            const translatedText = translateSimpleString(text);
+            return {
+                id: commentId,
+                context,
+                text: translatedText,
+                japaneseText: text !== translatedText ? text : undefined
+            };
+        });
+}
+
     return {
         skills: processedSkills,
         states: processedStates,
@@ -5484,7 +6406,14 @@ if (ignoredDataIdValue.length > 0) {
         armors: processedArmors,
         enemies: processedEnemies,
         items: processedItems,
-        elements: processedElements
+        elements: processedElements,
+        actors: processedActors,
+        classes: processedClasses,
+        locations: processedLocations,
+        commonEvents: processedCommonEvents,
+        troops: processedTroops,
+        scripts: processedScripts,
+        comments: processedComments
     };
 }
 
