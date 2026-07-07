@@ -2719,12 +2719,6 @@ function handleUpButton() {
         return;
     }
 
-    // If we have history states inside our app, use window.history.back() to go back to previous page
-    if (currentHistoryIndex > 0) {
-        window.history.back();
-        return;
-    }
-
     // Check if we're on the activity view
     const activityViewEl = document.getElementById('activity-view');
     if (activityViewEl && !activityViewEl.classList.contains('hidden')) {
@@ -2814,11 +2808,6 @@ function handleUpButton() {
     if (gamesViewEl && !gamesViewEl.classList.contains('hidden')) {
         // Layer 4: Games View -> do nothing (already at top)
         return;
-    }
-    
-    // Fallback: use browser history if we can't determine the layer
-    if (history.length > 1) {
-        history.back();
     }
 }
 
@@ -3325,148 +3314,16 @@ function renderSkillDetail(skill) {
         ${renderNotes(skill)}
     `;
     
-    // Add references section at the bottom
-    const hasAnyReferences = refs.itemsTeaching.length > 0 || 
-                              refs.enemiesUsing.length > 0 || 
-                              refs.referencedBy.skills.length > 0 ||
-                              refs.referencedBy.items.length > 0 ||
-                              refs.referencedBy.states.length > 0 ||
-                              refs.referencedBy.weapons.length > 0 ||
-                              refs.referencedBy.armors.length > 0 ||
-                              refs.referencedBy.enemies.length > 0;
-    
-    if (hasAnyReferences) {
-        html += `
-            <div class="detail-section">
-                <div class="section-title">References</div>
-        `;
-        
-        // Show entities that reference this skill in their notes/descriptions
-        // Use context-aware naming for better clarity
-        if (refs.referencedBy.skills.length > 0) {
-            html += `
-                <div class="subsection">
-                    <div class="subsection-title">Skills That Cast This Skill (${refs.referencedBy.skills.length})</div>
-                    <div class="effect-list">
-                        ${refs.referencedBy.skills.map(skill => `
-                            <div class="effect-item">
-                                <div class="effect-name">${convertCrossReferencesAndEscape(skill.reference)}</div>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>
-            `;
-        }
-        
-        if (refs.referencedBy.items.length > 0) {
-            html += `
-                <div class="subsection">
-                    <div class="subsection-title">Items That Reference This Skill (${refs.referencedBy.items.length})</div>
-                    <div class="effect-list">
-                        ${refs.referencedBy.items.map(item => `
-                            <div class="effect-item">
-                                <div class="effect-name">${convertCrossReferencesAndEscape(item.reference)}</div>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>
-            `;
-        }
-        
-        if (refs.referencedBy.states.length > 0) {
-            html += `
-                <div class="subsection">
-                    <div class="subsection-title">States That Reference This Skill (${refs.referencedBy.states.length})</div>
-                    <div class="effect-list">
-                        ${refs.referencedBy.states.map(state => `
-                            <div class="effect-item">
-                                <div class="effect-name">${convertCrossReferencesAndEscape(state.reference)}</div>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>
-            `;
-        }
-        
-        if (refs.referencedBy.weapons.length > 0) {
-            html += `
-                <div class="subsection">
-                    <div class="subsection-title">Weapons That Reference This Skill (${refs.referencedBy.weapons.length})</div>
-                    <div class="effect-list">
-                        ${refs.referencedBy.weapons.map(weapon => `
-                            <div class="effect-item">
-                                <div class="effect-name">${convertCrossReferencesAndEscape(weapon.reference)}</div>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>
-            `;
-        }
-        
-        if (refs.referencedBy.armors.length > 0) {
-            html += `
-                <div class="subsection">
-                    <div class="subsection-title">Armors That Reference This Skill (${refs.referencedBy.armors.length})</div>
-                    <div class="effect-list">
-                        ${refs.referencedBy.armors.map(armor => `
-                            <div class="effect-item">
-                                <div class="effect-name">${convertCrossReferencesAndEscape(armor.reference)}</div>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>
-            `;
-        }
-        
-        if (refs.referencedBy.enemies.length > 0) {
-            html += `
-                <div class="subsection">
-                    <div class="subsection-title">Enemies That Reference This Skill (${refs.referencedBy.enemies.length})</div>
-                    <div class="effect-list">
-                        ${refs.referencedBy.enemies.map(enemy => `
-                            <div class="effect-item">
-                                <div class="effect-name">${convertCrossReferencesAndEscape(enemy.reference)}</div>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>
-            `;
-        }
-        
-        // Show items that teach this skill (effect code 43: Learn Skill)
-        if (refs.itemsTeaching.length > 0) {
-            html += `
-                <div class="subsection">
-                    <div class="subsection-title">Items Teaching This Skill (${refs.itemsTeaching.length})</div>
-                    <div class="effect-list">
-                        ${refs.itemsTeaching.map(item => `
-                            <div class="effect-item">
-                                <div class="effect-name">${convertCrossReferencesAndEscape(item.reference)}</div>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>
-            `;
-        }
-        
-        // Show enemies that use this skill
-        if (refs.enemiesUsing.length > 0) {
-            html += `
-                <div class="subsection">
-                    <div class="subsection-title">Enemies Using This Skill (${refs.enemiesUsing.length})</div>
-                    <div class="effect-list">
-                        ${refs.enemiesUsing.map(enemy => `
-                            <div class="effect-item">
-                                <div class="effect-name">${convertCrossReferencesAndEscape(enemy.reference)}</div>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>
-            `;
-        }
-        
-        html += `</div>`;
-    }
+    html += renderReferencesSection([
+        { title: 'Skills That Cast This Skill', items: refs.referencedBy.skills },
+        { title: 'Items That Reference This Skill', items: refs.referencedBy.items },
+        { title: 'States That Reference This Skill', items: refs.referencedBy.states },
+        { title: 'Weapons That Reference This Skill', items: refs.referencedBy.weapons },
+        { title: 'Armors That Reference This Skill', items: refs.referencedBy.armors },
+        { title: 'Enemies That Reference This Skill', items: refs.referencedBy.enemies },
+        { title: 'Items Teaching This Skill', items: refs.itemsTeaching },
+        { title: 'Enemies Using This Skill', items: refs.enemiesUsing }
+    ]);
     
     detailContent.innerHTML = html;
     
@@ -3894,6 +3751,33 @@ function renderNotes(skill) {
                     <button class="note-toggle" data-lang="en">Show Original (Japanese)</button>
                 ` : ''}
             </div>
+        </div>
+    `;
+}
+
+function renderReferenceListItem(reference) {
+    return `
+        <div class="effect-item">
+            <div class="effect-name">${convertCrossReferencesAndEscape(reference)}</div>
+        </div>
+    `;
+}
+
+function renderReferencesSection(groups) {
+    const visibleGroups = groups.filter(group => group.items && group.items.length > 0);
+    if (visibleGroups.length === 0) return '';
+
+    return `
+        <div class="detail-section">
+            <div class="section-title">References</div>
+            ${visibleGroups.map(group => `
+                <div class="subsection">
+                    <div class="subsection-title">${group.title} (${group.items.length})</div>
+                    <div class="effect-list">
+                        ${group.items.map(item => renderReferenceListItem(item.reference)).join('')}
+                    </div>
+                </div>
+            `).join('')}
         </div>
     `;
 }
@@ -4419,7 +4303,8 @@ function findEnemyReferences(enemyId) {
     const references = {
         skillsUsed: [],
         itemsDropped: [],
-        statesApplied: []
+        statesApplied: [],
+        referencedBy: findAllTextReferences('ENEMY', enemyId)
     };
     
     // Use data directly from data.js if arrays aren't loaded yet
@@ -4475,6 +4360,13 @@ function findEnemyReferences(enemyId) {
         });
     }
     
+    references.referencedBy.skills = references.referencedBy.skills.filter(skill => Number(skill.id) !== Number(enemyId));
+    references.referencedBy.items = references.referencedBy.items.filter(item => Number(item.id) !== Number(enemyId));
+    references.referencedBy.states = references.referencedBy.states.filter(state => Number(state.id) !== Number(enemyId));
+    references.referencedBy.weapons = references.referencedBy.weapons.filter(weapon => Number(weapon.id) !== Number(enemyId));
+    references.referencedBy.armors = references.referencedBy.armors.filter(armor => Number(armor.id) !== Number(enemyId));
+    references.referencedBy.enemies = references.referencedBy.enemies.filter(enemy => Number(enemy.id) !== Number(enemyId));
+
     return references;
 }
 
@@ -4727,191 +4619,19 @@ function renderStateDetail(state) {
         ${renderStateNotes(state)}
     `;
     
-    // Add references section at the bottom
-    const hasAnyReferences = refs.skillsApplying.length > 0 || refs.skillsRemoving.length > 0 || 
-        refs.itemsApplying.length > 0 || refs.itemsRemoving.length > 0 || 
-        refs.enemiesWith.length > 0 ||
-        refs.referencedBy.skills.length > 0 ||
-        refs.referencedBy.items.length > 0 ||
-        refs.referencedBy.states.length > 0 ||
-        refs.referencedBy.weapons.length > 0 ||
-        refs.referencedBy.armors.length > 0 ||
-        refs.referencedBy.enemies.length > 0;
-    
-    if (hasAnyReferences) {
-        html += `
-            <div class="detail-section">
-                <div class="section-title">References</div>
-        `;
-        
-        if (refs.skillsApplying.length > 0) {
-            html += `
-                <div class="subsection">
-                    <div class="subsection-title">Skills Applying This State (${refs.skillsApplying.length})</div>
-                    <div class="effect-list">
-                        ${refs.skillsApplying.map(skill => `
-                            <div class="effect-item">
-                                <div class="effect-name">${convertCrossReferencesAndEscape(skill.reference)}</div>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>
-            `;
-        }
-        
-        if (refs.skillsRemoving.length > 0) {
-            html += `
-                <div class="subsection">
-                    <div class="subsection-title">Skills Removing This State (${refs.skillsRemoving.length})</div>
-                    <div class="effect-list">
-                        ${refs.skillsRemoving.map(skill => `
-                            <div class="effect-item">
-                                <div class="effect-name">${convertCrossReferencesAndEscape(skill.reference)}</div>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>
-            `;
-        }
-        
-        if (refs.itemsApplying.length > 0) {
-            html += `
-                <div class="subsection">
-                    <div class="subsection-title">Items Applying This State (${refs.itemsApplying.length})</div>
-                    <div class="effect-list">
-                        ${refs.itemsApplying.map(item => `
-                            <div class="effect-item">
-                                <div class="effect-name">${convertCrossReferencesAndEscape(item.reference)}</div>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>
-            `;
-        }
-        
-        if (refs.itemsRemoving.length > 0) {
-            html += `
-                <div class="subsection">
-                    <div class="subsection-title">Items Removing This State (${refs.itemsRemoving.length})</div>
-                    <div class="effect-list">
-                        ${refs.itemsRemoving.map(item => `
-                            <div class="effect-item">
-                                <div class="effect-name">${convertCrossReferencesAndEscape(item.reference)}</div>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>
-            `;
-        }
-        
-        if (refs.enemiesWith.length > 0) {
-            html += `
-                <div class="subsection">
-                    <div class="subsection-title">Enemies With This State (${refs.enemiesWith.length})</div>
-                    <div class="effect-list">
-                        ${refs.enemiesWith.map(enemy => `
-                            <div class="effect-item">
-                                <div class="effect-name">${convertCrossReferencesAndEscape(enemy.reference)}</div>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>
-            `;
-        }
-        
-        // Show entities that reference this state in their notes/descriptions
-        if (refs.referencedBy.skills.length > 0) {
-            html += `
-                <div class="subsection">
-                    <div class="subsection-title">Skills That Reference This State (${refs.referencedBy.skills.length})</div>
-                    <div class="effect-list">
-                        ${refs.referencedBy.skills.map(skill => `
-                            <div class="effect-item">
-                                <div class="effect-name">${convertCrossReferencesAndEscape(skill.reference)}</div>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>
-            `;
-        }
-        
-        if (refs.referencedBy.items.length > 0) {
-            html += `
-                <div class="subsection">
-                    <div class="subsection-title">Items That Reference This State (${refs.referencedBy.items.length})</div>
-                    <div class="effect-list">
-                        ${refs.referencedBy.items.map(item => `
-                            <div class="effect-item">
-                                <div class="effect-name">${convertCrossReferencesAndEscape(item.reference)}</div>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>
-            `;
-        }
-        
-        if (refs.referencedBy.states.length > 0) {
-            html += `
-                <div class="subsection">
-                    <div class="subsection-title">States That Reference This State (${refs.referencedBy.states.length})</div>
-                    <div class="effect-list">
-                        ${refs.referencedBy.states.map(state => `
-                            <div class="effect-item">
-                                <div class="effect-name">${convertCrossReferencesAndEscape(state.reference)}</div>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>
-            `;
-        }
-        
-        if (refs.referencedBy.weapons.length > 0) {
-            html += `
-                <div class="subsection">
-                    <div class="subsection-title">Weapons That Reference This State (${refs.referencedBy.weapons.length})</div>
-                    <div class="effect-list">
-                        ${refs.referencedBy.weapons.map(weapon => `
-                            <div class="effect-item">
-                                <div class="effect-name">${convertCrossReferencesAndEscape(weapon.reference)}</div>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>
-            `;
-        }
-        
-        if (refs.referencedBy.armors.length > 0) {
-            html += `
-                <div class="subsection">
-                    <div class="subsection-title">Armors That Reference This State (${refs.referencedBy.armors.length})</div>
-                    <div class="effect-list">
-                        ${refs.referencedBy.armors.map(armor => `
-                            <div class="effect-item">
-                                <div class="effect-name">${convertCrossReferencesAndEscape(armor.reference)}</div>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>
-            `;
-        }
-        
-        if (refs.referencedBy.enemies.length > 0) {
-            html += `
-                <div class="subsection">
-                    <div class="subsection-title">Enemies That Reference This State (${refs.referencedBy.enemies.length})</div>
-                    <div class="effect-list">
-                        ${refs.referencedBy.enemies.map(enemy => `
-                            <div class="effect-item">
-                                <div class="effect-name">${convertCrossReferencesAndEscape(enemy.reference)}</div>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>
-            `;
-        }
-        
-        html += `</div>`;
-    }
+    html += renderReferencesSection([
+        { title: 'Skills Applying This State', items: refs.skillsApplying },
+        { title: 'Skills Removing This State', items: refs.skillsRemoving },
+        { title: 'Items Applying This State', items: refs.itemsApplying },
+        { title: 'Items Removing This State', items: refs.itemsRemoving },
+        { title: 'Enemies With This State', items: refs.enemiesWith },
+        { title: 'Skills That Reference This State', items: refs.referencedBy.skills },
+        { title: 'Items That Reference This State', items: refs.referencedBy.items },
+        { title: 'States That Reference This State', items: refs.referencedBy.states },
+        { title: 'Weapons That Reference This State', items: refs.referencedBy.weapons },
+        { title: 'Armors That Reference This State', items: refs.referencedBy.armors },
+        { title: 'Enemies That Reference This State', items: refs.referencedBy.enemies }
+    ]);
     
     detailContent.innerHTML = html;
     
@@ -5935,24 +5655,9 @@ function renderWeaponDetail(weapon) {
         ${weapon.note.english || weapon.note.japanese ? renderWeaponNotes(weapon) : ''}
     `;
     
-    // Add references section at the bottom
-    if (refs.enemiesDropping.length > 0) {
-        html += `
-            <div class="detail-section">
-                <div class="section-title">References</div>
-                <div class="subsection">
-                    <div class="subsection-title">Enemies Dropping This Weapon (${refs.enemiesDropping.length})</div>
-                    <div class="effect-list">
-                        ${refs.enemiesDropping.map(enemy => `
-                            <div class="effect-item">
-                                <div class="effect-name">${convertCrossReferencesAndEscape(enemy.reference)}</div>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>
-            </div>
-        `;
-    }
+    html += renderReferencesSection([
+        { title: 'Enemies Dropping This Weapon', items: refs.enemiesDropping }
+    ]);
     
     detailContent.innerHTML = html;
     
@@ -6453,24 +6158,9 @@ function renderArmorDetail(armor) {
         ${armor.note.english || armor.note.japanese ? renderArmorNotes(armor) : ''}
     `;
     
-    // Add references section at the bottom
-    if (refs.enemiesDropping.length > 0) {
-        html += `
-            <div class="detail-section">
-                <div class="section-title">References</div>
-                <div class="subsection">
-                    <div class="subsection-title">Enemies Dropping This Armor (${refs.enemiesDropping.length})</div>
-                    <div class="effect-list">
-                        ${refs.enemiesDropping.map(enemy => `
-                            <div class="effect-item">
-                                <div class="effect-name">${convertCrossReferencesAndEscape(enemy.reference)}</div>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>
-            </div>
-        `;
-    }
+    html += renderReferencesSection([
+        { title: 'Enemies Dropping This Armor', items: refs.enemiesDropping }
+    ]);
     
     detailContent.innerHTML = html;
     
@@ -6668,9 +6358,6 @@ function renderEnemyDetail(enemy) {
         imageHtml = `<div class="detail-icon" ${iconStyle}></div>`;
     }
     
-    // Find references (skills used, items dropped, states applied are already shown in the detail view)
-    // This section would show reverse references if needed, but for enemies, the main sections already show this info
-    // We'll add a references section for completeness, showing what this enemy references
     const refs = findEnemyReferences(enemy.id);
     
     let html = `
@@ -6700,10 +6387,18 @@ function renderEnemyDetail(enemy) {
         
         ${enemy.note.english || enemy.note.japanese ? renderEnemyNotes(enemy) : ''}
     `;
-    
-    // Add references section at the bottom (for completeness, though most info is already shown above)
-    // This could be useful for showing unique references not already displayed
-    // For now, we'll skip it since enemies already show their skills, items, and states in detail sections
+
+    html += renderReferencesSection([
+        { title: 'Skills Used By This Enemy', items: refs.skillsUsed },
+        { title: 'Items Dropped By This Enemy', items: refs.itemsDropped },
+        { title: 'States Applied By This Enemy', items: refs.statesApplied },
+        { title: 'Skills That Reference This Enemy', items: refs.referencedBy.skills },
+        { title: 'Items That Reference This Enemy', items: refs.referencedBy.items },
+        { title: 'States That Reference This Enemy', items: refs.referencedBy.states },
+        { title: 'Weapons That Reference This Enemy', items: refs.referencedBy.weapons },
+        { title: 'Armors That Reference This Enemy', items: refs.referencedBy.armors },
+        { title: 'Enemies That Reference This Enemy', items: refs.referencedBy.enemies }
+    ]);
     
     detailContent.innerHTML = html;
     
@@ -6786,8 +6481,6 @@ function renderEnemyDetail(enemy) {
         });
     }
     
-    // Note: Enemies don't have effects like items do, so this line was incorrect
-    // Removed: attachEffectOriginalDataHandlers(item._sortedEffects || item.effects);
 }
 
 function renderEnemyBaseStats(enemy) {
@@ -6953,24 +6646,9 @@ function renderItemDetail(item) {
         ${item.note.english || item.note.japanese ? renderItemNotes(item) : ''}
     `;
     
-    // Add references section at the bottom
-    if (refs.enemiesDropping.length > 0) {
-        html += `
-            <div class="detail-section">
-                <div class="section-title">References</div>
-                <div class="subsection">
-                    <div class="subsection-title">Enemies Dropping This Item (${refs.enemiesDropping.length})</div>
-                    <div class="effect-list">
-                        ${refs.enemiesDropping.map(enemy => `
-                            <div class="effect-item">
-                                <div class="effect-name">${convertCrossReferencesAndEscape(enemy.reference)}</div>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>
-            </div>
-        `;
-    }
+    html += renderReferencesSection([
+        { title: 'Enemies Dropping This Item', items: refs.enemiesDropping }
+    ]);
     
     detailContent.innerHTML = html;
     
@@ -8783,27 +8461,9 @@ function renderClassDetail(c) {
                 <div class="note-container">${parsedNote}</div>
             </div>` : ''}
 
-            ${(() => {
-                const refs = findClassReferences(c.id);
-                if (refs.actors.length > 0) {
-                    return `
-                    <div class="detail-section">
-                        <div class="section-title">References</div>
-                        <div class="subsection">
-                            <div class="subsection-title">Actors with this Class (${refs.actors.length})</div>
-                            <div class="effect-list">
-                                ${refs.actors.map(actor => `
-                                    <div class="effect-item">
-                                        <div class="effect-name">${convertCrossReferencesAndEscape(actor.reference)}</div>
-                                    </div>
-                                `).join('')}
-                            </div>
-                        </div>
-                    </div>
-                    `;
-                }
-                return '';
-            })()}
+            ${renderReferencesSection([
+                { title: 'Actors with this Class', items: findClassReferences(c.id).actors }
+            ])}
             
             <div class="giscus-section">
                 <h3>Comments</h3>
@@ -8922,27 +8582,9 @@ function renderLocationDetail(loc) {
                 <div class="note-container">${escapeHtml(loc.note)}</div>
             </div>` : ''}
 
-            ${(() => {
-                const refs = findLocationReferences(loc.id);
-                if (refs.subLocations.length > 0) {
-                    return `
-                    <div class="detail-section">
-                        <div class="section-title">References</div>
-                        <div class="subsection">
-                            <div class="subsection-title">Sub-locations connected to this Map (${refs.subLocations.length})</div>
-                            <div class="effect-list">
-                                ${refs.subLocations.map(sub => `
-                                    <div class="effect-item">
-                                        <div class="effect-name">${convertCrossReferencesAndEscape(sub.reference)}</div>
-                                    </div>
-                                `).join('')}
-                            </div>
-                        </div>
-                    </div>
-                    `;
-                }
-                return '';
-            })()}
+            ${renderReferencesSection([
+                { title: 'Sub-locations Connected to This Map', items: findLocationReferences(loc.id).subLocations }
+            ])}
             
             <div class="giscus-section">
                 <h3>Comments</h3>
@@ -9030,57 +8672,11 @@ function renderCommonEventDetail(ce) {
                 <div class="event-log-container">${commentDetailHtml}</div>
             </div>` : ''}
 
-            ${(() => {
-                const refs = findCommonEventReferences(ce.id);
-                const hasSkills = refs.skills.length > 0;
-                const hasItems = refs.items.length > 0;
-                const hasStates = refs.states.length > 0;
-                
-                if (hasSkills || hasItems || hasStates) {
-                    return `
-                    <div class="detail-section">
-                        <div class="section-title">References</div>
-                        ${hasSkills ? `
-                        <div class="subsection" style="margin-bottom: 12px;">
-                            <div class="subsection-title">Skills Triggering This Event (${refs.skills.length})</div>
-                            <div class="effect-list">
-                                ${refs.skills.map(skill => `
-                                    <div class="effect-item">
-                                        <div class="effect-name">${convertCrossReferencesAndEscape(skill.reference)}</div>
-                                    </div>
-                                `).join('')}
-                            </div>
-                        </div>
-                        ` : ''}
-                        ${hasItems ? `
-                        <div class="subsection" style="margin-bottom: 12px;">
-                            <div class="subsection-title">Items Triggering This Event (${refs.items.length})</div>
-                            <div class="effect-list">
-                                ${refs.items.map(item => `
-                                    <div class="effect-item">
-                                        <div class="effect-name">${convertCrossReferencesAndEscape(item.reference)}</div>
-                                    </div>
-                                `).join('')}
-                            </div>
-                        </div>
-                        ` : ''}
-                        ${hasStates ? `
-                        <div class="subsection">
-                            <div class="subsection-title">States Triggering This Event (${refs.states.length})</div>
-                            <div class="effect-list">
-                                ${refs.states.map(state => `
-                                    <div class="effect-item">
-                                        <div class="effect-name">${convertCrossReferencesAndEscape(state.reference)}</div>
-                                    </div>
-                                `).join('')}
-                            </div>
-                        </div>
-                        ` : ''}
-                    </div>
-                    `;
-                }
-                return '';
-            })()}
+            ${renderReferencesSection([
+                { title: 'Skills Triggering This Event', items: findCommonEventReferences(ce.id).skills },
+                { title: 'Items Triggering This Event', items: findCommonEventReferences(ce.id).items },
+                { title: 'States Triggering This Event', items: findCommonEventReferences(ce.id).states }
+            ])}
             
             <div class="giscus-section">
                 <h3>Comments</h3>
@@ -9138,27 +8734,9 @@ function renderTroopDetail(troop) {
                 <div class="event-log-container">${commentsHtml}</div>
             </div>` : ''}
 
-            ${(() => {
-                const refs = findTroopReferences(troop.id);
-                if (refs.locations.length > 0) {
-                    return `
-                    <div class="detail-section">
-                        <div class="section-title">References</div>
-                        <div class="subsection">
-                            <div class="subsection-title">Locations Where this Troop Appears (${refs.locations.length})</div>
-                            <div class="effect-list">
-                                ${refs.locations.map(loc => `
-                                    <div class="effect-item">
-                                        <div class="effect-name">${convertCrossReferencesAndEscape(loc.reference)}</div>
-                                    </div>
-                                `).join('')}
-                            </div>
-                        </div>
-                    </div>
-                    `;
-                }
-                return '';
-            })()}
+            ${renderReferencesSection([
+                { title: 'Locations Where This Troop Appears', items: findTroopReferences(troop.id).locations }
+            ])}
             
             <div class="giscus-section">
                 <h3>Comments</h3>
