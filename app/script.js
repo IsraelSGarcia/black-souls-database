@@ -41,6 +41,27 @@ let selectedItemId = null;
 let allElements = [];
 let filteredElements = [];
 let selectedElementId = null;
+let allActors = [];
+let filteredActors = [];
+let selectedActorId = null;
+let allClasses = [];
+let filteredClasses = [];
+let selectedClassId = null;
+let allLocations = [];
+let filteredLocations = [];
+let selectedLocationId = null;
+let allCommonEvents = [];
+let filteredCommonEvents = [];
+let selectedCommonEventId = null;
+let allTroops = [];
+let filteredTroops = [];
+let selectedTroopId = null;
+let allScripts = [];
+let filteredScripts = [];
+let selectedScriptId = null;
+let allComments = [];
+let filteredComments = [];
+let selectedCommentId = null;
 let currentGame = null;
 let currentSection = null;
 let cameFromActivity = false;
@@ -66,6 +87,13 @@ Object.defineProperty(window, 'armorsData', { get: () => getActiveGameData(), co
 Object.defineProperty(window, 'enemiesData', { get: () => getActiveGameData(), configurable: true });
 Object.defineProperty(window, 'itemsData', { get: () => getActiveGameData(), configurable: true });
 Object.defineProperty(window, 'elementsData', { get: () => getActiveGameData(), configurable: true });
+Object.defineProperty(window, 'actorsData', { get: () => getActiveGameData(), configurable: true });
+Object.defineProperty(window, 'classesData', { get: () => getActiveGameData(), configurable: true });
+Object.defineProperty(window, 'locationsData', { get: () => getActiveGameData(), configurable: true });
+Object.defineProperty(window, 'commonEventsData', { get: () => getActiveGameData(), configurable: true });
+Object.defineProperty(window, 'troopsData', { get: () => getActiveGameData(), configurable: true });
+Object.defineProperty(window, 'scriptsData', { get: () => getActiveGameData(), configurable: true });
+Object.defineProperty(window, 'commentsData', { get: () => getActiveGameData(), configurable: true });
 
 const gameNames = {
     'bs1': 'Black Souls I',
@@ -128,7 +156,9 @@ function buildNavigationState() {
     // Determine the current view
     let currentView = currentSection;
     if (!currentSection) {
-        currentView = (sectionsViewEl && sectionsViewEl.classList.contains('hidden')) ? 'games' : 'sections';
+        const othersGrid = document.getElementById('others-sections-grid');
+        const othersVisible = othersGrid && !othersGrid.classList.contains('hidden');
+        currentView = (sectionsViewEl && sectionsViewEl.classList.contains('hidden')) ? 'games' : (othersVisible ? 'others' : 'sections');
     }
     
     // Capture current scroll positions - these represent where the user is NOW
@@ -198,6 +228,8 @@ function hasStateChanged(newState) {
     return false;
 }
 
+let currentHistoryIndex = 0;
+
 // Push state to browser history
 // IMPORTANT: This function updates the URL immediately and synchronously
 // The URL in the browser's address bar will update instantly when this is called
@@ -211,6 +243,15 @@ function pushHistoryState(state, replace = false, force = false) {
     if (!replace && !force && !hasStateChanged(state)) {
         console.log('[pushHistoryState] Skipped duplicate state', state);
         return; // Don't push duplicate states
+    }
+    
+    if (state) {
+        if (replace) {
+            state.historyIndex = currentHistoryIndex;
+        } else {
+            currentHistoryIndex++;
+            state.historyIndex = currentHistoryIndex;
+        }
     }
     
     const hash = buildURL(state);
@@ -227,13 +268,6 @@ function pushHistoryState(state, replace = false, force = false) {
         history.replaceState(state, title, url);
     } else {
         history.pushState(state, title, url);
-    }
-    
-    // CRITICAL: Always ensure window.location.hash matches the URL we just set
-    // This guarantees the address bar shows the correct URL immediately
-    // Even if history API updated it, we explicitly set it to ensure it's visible
-    if (window.location.hash !== url) {
-        window.location.hash = url;
     }
     
     // Update page title
@@ -344,7 +378,11 @@ function restoreStateFromHistory(state, forceRestore = false) {
             isRestoringState = false; // No async operations for games view
             updateGiscusFromCurrentState();
         } else if (savedView === 'sections') {
-            showSectionsView(savedGame || 'bs2');
+            showSectionsView(savedGame || 'bs2', false);
+            isRestoringState = false; // No async operations for sections view
+            updateGiscusFromCurrentState();
+        } else if (savedView === 'others') {
+            showSectionsView(savedGame || 'bs2', true);
             isRestoringState = false; // No async operations for sections view
             updateGiscusFromCurrentState();
         } else if (savedView === 'activity') {
@@ -383,6 +421,27 @@ function restoreStateFromHistory(state, forceRestore = false) {
                     } else if (savedView === 'elements') {
                         searchElements(savedSearchQuery);
                         renderElementsResults();
+                    } else if (savedView === 'actors') {
+                        searchActors(savedSearchQuery);
+                        renderActorsResults();
+                    } else if (savedView === 'classes') {
+                        searchClasses(savedSearchQuery);
+                        renderClassesResults();
+                    } else if (savedView === 'locations') {
+                        searchLocations(savedSearchQuery);
+                        renderLocationsResults();
+                    } else if (savedView === 'commonEvents') {
+                        searchCommonEvents(savedSearchQuery);
+                        renderCommonEventsResults();
+                    } else if (savedView === 'troops') {
+                        searchTroops(savedSearchQuery);
+                        renderTroopsResults();
+                    } else if (savedView === 'scripts') {
+                        searchScripts(savedSearchQuery);
+                        renderScriptsResults();
+                    } else if (savedView === 'comments') {
+                        searchComments(savedSearchQuery);
+                        renderCommentsResults();
                     } else if (savedView === 'stats') {
                         renderStats();
                     }
@@ -431,6 +490,27 @@ function restoreStateFromHistory(state, forceRestore = false) {
                             restored = (getCurrentSelectedId() === savedSelectedId);
                         } else if (savedView === 'elements') {
                             selectElement(savedSelectedId);
+                            restored = (getCurrentSelectedId() === savedSelectedId);
+                        } else if (savedView === 'actors') {
+                            selectActor(savedSelectedId);
+                            restored = (getCurrentSelectedId() === savedSelectedId);
+                        } else if (savedView === 'classes') {
+                            selectClass(savedSelectedId);
+                            restored = (getCurrentSelectedId() === savedSelectedId);
+                        } else if (savedView === 'locations') {
+                            selectLocation(savedSelectedId);
+                            restored = (getCurrentSelectedId() === savedSelectedId);
+                        } else if (savedView === 'commonEvents') {
+                            selectCommonEvent(savedSelectedId);
+                            restored = (getCurrentSelectedId() === savedSelectedId);
+                        } else if (savedView === 'troops') {
+                            selectTroop(savedSelectedId);
+                            restored = (getCurrentSelectedId() === savedSelectedId);
+                        } else if (savedView === 'scripts') {
+                            selectScript(savedSelectedId);
+                            restored = (getCurrentSelectedId() === savedSelectedId);
+                        } else if (savedView === 'comments') {
+                            selectComment(savedSelectedId);
                             restored = (getCurrentSelectedId() === savedSelectedId);
                         }
                         
@@ -551,14 +631,14 @@ function parseURL() {
             }
             if (parts.length === 2) {
                 const section = parts[1];
-                if (['skills', 'states', 'weapons', 'armors', 'items', 'enemies', 'elements', 'stats'].includes(section)) {
+                if (['skills', 'states', 'weapons', 'armors', 'items', 'enemies', 'elements', 'stats', 'actors', 'classes', 'locations', 'commonEvents', 'troops', 'scripts', 'comments', 'others'].includes(section)) {
                     return { view: section, game: game };
                 }
             }
             if (parts.length === 3) {
                 const section = parts[1];
                 const id = parseInt(parts[2]);
-                if (!isNaN(id) && ['skills', 'states', 'weapons', 'armors', 'items', 'enemies', 'elements'].includes(section)) {
+                if (!isNaN(id) && ['skills', 'states', 'weapons', 'armors', 'items', 'enemies', 'elements', 'actors', 'classes', 'locations', 'commonEvents', 'troops', 'scripts', 'comments'].includes(section)) {
                     return { view: section, selectedId: id, game: game };
                 }
             }
@@ -569,7 +649,7 @@ function parseURL() {
             if (parts[0] === 'sections') {
                 return { view: 'sections', game: 'bs2' };
             }
-            if (['skills', 'states', 'weapons', 'armors', 'items', 'enemies', 'elements', 'stats'].includes(parts[0])) {
+            if (['skills', 'states', 'weapons', 'armors', 'items', 'enemies', 'elements', 'stats', 'actors', 'classes', 'locations', 'commonEvents', 'troops', 'scripts', 'comments', 'others'].includes(parts[0])) {
                 return { view: parts[0], game: 'bs2' };
             }
         }
@@ -577,7 +657,7 @@ function parseURL() {
         if (parts.length === 2) {
             const section = parts[0];
             const id = parseInt(parts[1]);
-            if (!isNaN(id) && ['skills', 'states', 'weapons', 'armors', 'items', 'enemies', 'elements'].includes(section)) {
+            if (!isNaN(id) && ['skills', 'states', 'weapons', 'armors', 'items', 'enemies', 'elements', 'actors', 'classes', 'locations', 'commonEvents', 'troops', 'scripts', 'comments'].includes(section)) {
                 return { view: section, selectedId: id, game: 'bs2' };
             }
         }
@@ -625,17 +705,31 @@ function convertCrossReferences(text) {
     if (!text || typeof text !== 'string') return text;
     
     // Pattern: [[TYPE:ID:NAME]]
-    const markerRegex = /\[\[(SKILL|STATE|WEAPON|ARMOR|ITEM|ENEMY|ELEMENT|COMMONEVENT):(\d+):([^\]]+)\]\]/g;
+    const markerRegex = /\[\[(SKILL|STATE|WEAPON|ARMOR|ITEM|ENEMY|ELEMENT|COMMONEVENT|ACTOR|CLASS|LOCATION|TROOP|SCRIPT|COMMENT):(\d+):(.*?)\]\]/g;
+    
+    const typeToSection = {
+        'skill': 'skills',
+        'state': 'states',
+        'weapon': 'weapons',
+        'armor': 'armors',
+        'item': 'items',
+        'enemy': 'enemies',
+        'element': 'elements',
+        'commonevent': 'commonEvents',
+        'actor': 'actors',
+        'class': 'classes',
+        'location': 'locations',
+        'troop': 'troops',
+        'script': 'scripts',
+        'comment': 'comments'
+    };
     
     return text.replace(markerRegex, (match, type, id, name) => {
-        // COMMONEVENT doesn't have a section, so display as plain text
-        if (type === 'COMMONEVENT') {
-            return escapeHtml(name);
-        }
         const typeLower = type.toLowerCase();
+        const section = typeToSection[typeLower] || typeLower;
         // Create a link with data attributes for navigation
         // The name is already in the text, so we escape it for HTML
-        return `<a href="#" class="cross-reference" data-ref-type="${typeLower}" data-ref-id="${id}" data-ref-name="${escapeHtml(name)}" title="Click to view ${escapeHtml(name)}">${escapeHtml(name)}</a>`;
+        return `<a href="#" class="cross-reference" data-ref-type="${section}" data-ref-id="${id}" data-ref-name="${escapeHtml(name)}" title="Click to view ${escapeHtml(name)}">${escapeHtml(name)}</a>`;
     });
 }
 
@@ -667,7 +761,7 @@ function convertCrossReferencesAndEscapeExcludingSelf(text, sourceType, sourceId
     if (!text || typeof text !== 'string') return text;
     
     // Pattern: [[TYPE:ID:NAME]]
-    const markerRegex = /\[\[(SKILL|STATE|WEAPON|ARMOR|ITEM|ENEMY|ELEMENT|COMMONEVENT):(\d+):([^\]]+)\]\]/g;
+    const markerRegex = /\[\[(SKILL|STATE|WEAPON|ARMOR|ITEM|ENEMY|ELEMENT|COMMONEVENT|ACTOR|CLASS|LOCATION|TROOP|SCRIPT|COMMENT):(\d+):(.*?)\]\]/g;
     
     // Replace markers, but convert self-references to plain text
     let result = text.replace(markerRegex, (match, type, id, name) => {
@@ -723,6 +817,16 @@ function navigateToCrossReference(type, id) {
     else if (type === 'item') targetSection = 'items';
     else if (type === 'enemy') targetSection = 'enemies';
     else if (type === 'element') targetSection = 'elements';
+    else if (type === 'actor') targetSection = 'actors';
+    else if (type === 'class') targetSection = 'classes';
+    else if (type === 'location') targetSection = 'locations';
+    else if (type === 'commonevent') targetSection = 'commonEvents';
+    else if (type === 'troop') targetSection = 'troops';
+    else if (type === 'script') targetSection = 'scripts';
+    else if (type === 'comment') targetSection = 'comments';
+    else if (['skills', 'states', 'weapons', 'armors', 'items', 'enemies', 'elements', 'actors', 'classes', 'locations', 'commonEvents', 'troops', 'scripts', 'comments'].includes(type)) {
+        targetSection = type;
+    }
     
     // STEP 1: SAVE CURRENT STATE (including scroll positions) to history
     // This MUST happen BEFORE any navigation changes (showSection, selectX, scroll resets)
@@ -735,9 +839,7 @@ function navigateToCrossReference(type, id) {
         // This prevents creating duplicate entries when navigating
         const historyState = history.state;
         if (!historyState || hasStateChanged(currentState)) {
-            // Push before navigating to preserve navigation path and scroll positions
-            // Don't use force=true here - let hasStateChanged prevent duplicates
-            pushHistoryState(currentState, false, false);
+            pushHistoryState(currentState, true, false);
         }
     }
     
@@ -797,6 +899,27 @@ function navigateToCrossReference(type, id) {
                 scrollToSelectedItem(targetSection, parseInt(id));
             } else if (targetSection === 'elements') {
                 selectElement(parseInt(id));
+                scrollToSelectedItem(targetSection, parseInt(id));
+            } else if (targetSection === 'actors') {
+                selectActor(parseInt(id));
+                scrollToSelectedItem(targetSection, parseInt(id));
+            } else if (targetSection === 'classes') {
+                selectClass(parseInt(id));
+                scrollToSelectedItem(targetSection, parseInt(id));
+            } else if (targetSection === 'locations') {
+                selectLocation(parseInt(id));
+                scrollToSelectedItem(targetSection, parseInt(id));
+            } else if (targetSection === 'commonEvents') {
+                selectCommonEvent(parseInt(id));
+                scrollToSelectedItem(targetSection, parseInt(id));
+            } else if (targetSection === 'troops') {
+                selectTroop(parseInt(id));
+                scrollToSelectedItem(targetSection, parseInt(id));
+            } else if (targetSection === 'scripts') {
+                selectScript(parseInt(id));
+                scrollToSelectedItem(targetSection, parseInt(id));
+            } else if (targetSection === 'comments') {
+                selectComment(parseInt(id));
                 scrollToSelectedItem(targetSection, parseInt(id));
             } else if (targetSection === 'stats') {
                 // Stats section doesn't have individual items to select
@@ -926,12 +1049,96 @@ function navigateToCrossReference(type, id) {
             newState.resultsListScrollTop = 0;
             newState.detailPanelScrollTop = 0;
             scrollToSelectedItem(targetSection, parseInt(id));
+        } else if (targetSection === 'actors') {
+            searchActors('');
+            renderActorsResults();
+            updateResultsCount();
+            if (resultsList) resultsList.scrollTop = 0;
+            if (detailPanel) detailPanel.scrollTop = 0;
+            if (detailContent) detailContent.scrollTop = 0;
+            selectActor(parseInt(id));
+            newState = buildNavigationState();
+            newState.resultsListScrollTop = 0;
+            newState.detailPanelScrollTop = 0;
+            scrollToSelectedItem(targetSection, parseInt(id));
+        } else if (targetSection === 'classes') {
+            searchClasses('');
+            renderClassesResults();
+            updateResultsCount();
+            if (resultsList) resultsList.scrollTop = 0;
+            if (detailPanel) detailPanel.scrollTop = 0;
+            if (detailContent) detailContent.scrollTop = 0;
+            selectClass(parseInt(id));
+            newState = buildNavigationState();
+            newState.resultsListScrollTop = 0;
+            newState.detailPanelScrollTop = 0;
+            scrollToSelectedItem(targetSection, parseInt(id));
+        } else if (targetSection === 'locations') {
+            searchLocations('');
+            renderLocationsResults();
+            updateResultsCount();
+            if (resultsList) resultsList.scrollTop = 0;
+            if (detailPanel) detailPanel.scrollTop = 0;
+            if (detailContent) detailContent.scrollTop = 0;
+            selectLocation(parseInt(id));
+            newState = buildNavigationState();
+            newState.resultsListScrollTop = 0;
+            newState.detailPanelScrollTop = 0;
+            scrollToSelectedItem(targetSection, parseInt(id));
+        } else if (targetSection === 'commonEvents') {
+            searchCommonEvents('');
+            renderCommonEventsResults();
+            updateResultsCount();
+            if (resultsList) resultsList.scrollTop = 0;
+            if (detailPanel) detailPanel.scrollTop = 0;
+            if (detailContent) detailContent.scrollTop = 0;
+            selectCommonEvent(parseInt(id));
+            newState = buildNavigationState();
+            newState.resultsListScrollTop = 0;
+            newState.detailPanelScrollTop = 0;
+            scrollToSelectedItem(targetSection, parseInt(id));
+        } else if (targetSection === 'troops') {
+            searchTroops('');
+            renderTroopsResults();
+            updateResultsCount();
+            if (resultsList) resultsList.scrollTop = 0;
+            if (detailPanel) detailPanel.scrollTop = 0;
+            if (detailContent) detailContent.scrollTop = 0;
+            selectTroop(parseInt(id));
+            newState = buildNavigationState();
+            newState.resultsListScrollTop = 0;
+            newState.detailPanelScrollTop = 0;
+            scrollToSelectedItem(targetSection, parseInt(id));
+        } else if (targetSection === 'scripts') {
+            searchScripts('');
+            renderScriptsResults();
+            updateResultsCount();
+            if (resultsList) resultsList.scrollTop = 0;
+            if (detailPanel) detailPanel.scrollTop = 0;
+            if (detailContent) detailContent.scrollTop = 0;
+            selectScript(parseInt(id));
+            newState = buildNavigationState();
+            newState.resultsListScrollTop = 0;
+            newState.detailPanelScrollTop = 0;
+            scrollToSelectedItem(targetSection, parseInt(id));
+        } else if (targetSection === 'comments') {
+            searchComments('');
+            renderCommentsResults();
+            updateResultsCount();
+            if (resultsList) resultsList.scrollTop = 0;
+            if (detailPanel) detailPanel.scrollTop = 0;
+            if (detailContent) detailContent.scrollTop = 0;
+            selectComment(parseInt(id));
+            newState = buildNavigationState();
+            newState.resultsListScrollTop = 0;
+            newState.detailPanelScrollTop = 0;
+            scrollToSelectedItem(targetSection, parseInt(id));
         }
         
         // Restore isRestoringState and push the new state
         isRestoringState = wasRestoring;
-        if (newState && !wasRestoring) {
-            pushHistoryState(newState);
+        if (newState) {
+            pushHistoryState(newState, false, true); // force=true, replace=false
         }
     }
 }
@@ -945,6 +1152,13 @@ function getCurrentSelectedId() {
     if (currentSection === 'items') return selectedItemId;
     if (currentSection === 'enemies') return selectedEnemyId;
     if (currentSection === 'elements') return selectedElementId;
+    if (currentSection === 'actors') return selectedActorId;
+    if (currentSection === 'classes') return selectedClassId;
+    if (currentSection === 'locations') return selectedLocationId;
+    if (currentSection === 'commonEvents') return selectedCommonEventId;
+    if (currentSection === 'troops') return selectedTroopId;
+    if (currentSection === 'scripts') return selectedScriptId;
+    if (currentSection === 'comments') return selectedCommentId;
     if (currentSection === 'stats') return null; // Stats section doesn't have individual items to select
     return null;
 }
@@ -962,6 +1176,13 @@ function scrollToSelectedItem(section, itemId) {
     else if (section === 'items') selector = `.skill-card[data-item-id="${itemId}"]`;
     else if (section === 'enemies') selector = `.skill-card[data-enemy-id="${itemId}"]`;
     else if (section === 'elements') selector = `.skill-card[data-element-id="${itemId}"]`;
+    else if (section === 'actors') selector = `.skill-card[data-actor-id="${itemId}"]`;
+    else if (section === 'classes') selector = `.skill-card[data-class-id="${itemId}"]`;
+    else if (section === 'locations') selector = `.skill-card[data-location-id="${itemId}"]`;
+    else if (section === 'commonEvents') selector = `.skill-card[data-common-event-id="${itemId}"]`;
+    else if (section === 'troops') selector = `.skill-card[data-troop-id="${itemId}"]`;
+    else if (section === 'scripts') selector = `.skill-card[data-script-id="${itemId}"]`;
+    else if (section === 'comments') selector = `.skill-card[data-comment-id="${itemId}"]`;
     else if (section === 'stats') return; // Stats section doesn't have individual items to select
     
     if (selector) {
@@ -1722,7 +1943,7 @@ function showGamesView() {
 }
 
 // Show Sections View for a selected game
-function showSectionsView(gameName) {
+function showSectionsView(gameName, showOthers = false) {
     if (!isRestoringState) {
         cameFromActivity = false;
     }
@@ -1731,6 +1952,16 @@ function showSectionsView(gameName) {
     searchSection.classList.add('hidden');
     mainContent.classList.add('hidden');
     upButton.classList.remove('hidden');
+    
+    const mainGrid = document.getElementById('main-sections-grid');
+    const othersGrid = document.getElementById('others-sections-grid');
+    if (showOthers) {
+        if (mainGrid) mainGrid.classList.add('hidden');
+        if (othersGrid) othersGrid.classList.remove('hidden');
+    } else {
+        if (mainGrid) mainGrid.classList.remove('hidden');
+        if (othersGrid) othersGrid.classList.add('hidden');
+    }
     
     const activityView = document.getElementById('activity-view');
     if (activityView) {
@@ -1752,6 +1983,13 @@ function showSectionsView(gameName) {
         allEnemies = [];
         allItems = [];
         allElements = [];
+        allActors = [];
+        allClasses = [];
+        allLocations = [];
+        allCommonEvents = [];
+        allTroops = [];
+        allScripts = [];
+        allComments = [];
     }
     
     currentGame = gameName;
@@ -1763,10 +2001,18 @@ function showSectionsView(gameName) {
     
     // Dynamically show/hide section cards based on whether the game has data for it
     const gameData = (typeof gamesData !== 'undefined' ? gamesData[gameName] : null) || {};
+    const otherSections = ['actors', 'classes', 'locations', 'commonEvents', 'troops', 'scripts', 'comments'];
+    const hasOthersData = otherSections.some(s => gameData[s] && gameData[s].length > 0);
+
     document.querySelectorAll('.section-card').forEach(card => {
         const section = card.dataset.section;
+        if (!section) return; // Ignore back card
         if (section === 'stats') {
             card.style.display = 'flex';
+            return;
+        }
+        if (section === 'others') {
+            card.style.display = hasOthersData ? 'flex' : 'none';
             return;
         }
         const dataArray = gameData[section];
@@ -1788,6 +2034,13 @@ function showSectionsView(gameName) {
     selectedEnemyId = null;
     selectedItemId = null;
     selectedElementId = null;
+    selectedActorId = null;
+    selectedClassId = null;
+    selectedLocationId = null;
+    selectedCommonEventId = null;
+    selectedTroopId = null;
+    selectedScriptId = null;
+    selectedCommentId = null;
     
     const placeholder = document.querySelector('.detail-placeholder');
     if (placeholder) {
@@ -1870,7 +2123,14 @@ function updatePlaceholderIcon(sectionName) {
         armors: '<rect x="16" y="8" width="32" height="48" rx="4" stroke="currentColor" stroke-width="2"/><path d="M24 16L40 16M24 24L40 24M24 32L40 32M24 40L40 40" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="32" cy="48" r="4" stroke="currentColor" stroke-width="2"/>',
         enemies: '<circle cx="32" cy="20" r="8" stroke="currentColor" stroke-width="2"/><path d="M16 48C16 40 20 32 32 32C44 32 48 40 48 48" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M24 40L20 44M40 40L44 44" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
         items: '<path d="M32 8L20 16L20 32L32 40L44 32L44 16L32 8Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M20 32L32 40L44 32" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M32 40L32 56" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
-        elements: '<circle cx="32" cy="32" r="20" stroke="currentColor" stroke-width="2"/><path d="M32 12L36 28L52 24L40 32L52 40L36 36L32 52L28 36L12 40L24 32L12 24L28 28L32 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>'
+        elements: '<circle cx="32" cy="32" r="20" stroke="currentColor" stroke-width="2"/><path d="M32 12L36 28L52 24L40 32L52 40L36 36L32 52L28 36L12 40L24 32L12 24L28 28L32 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>',
+        actors: '<circle cx="32" cy="20" r="8" stroke="currentColor" stroke-width="2"/><path d="M16 48C16 40 20 32 32 32C44 32 48 40 48 48" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
+        classes: '<path d="M16 16H48V48H16V16Z" stroke="currentColor" stroke-width="2"/><path d="M24 24H40M24 32H40" stroke="currentColor" stroke-width="2"/>',
+        locations: '<circle cx="32" cy="24" r="12" stroke="currentColor" stroke-width="2"/><path d="M32 36V52M20 48H44" stroke="currentColor" stroke-width="2"/>',
+        commonEvents: '<path d="M12 24L24 12L36 24L24 36L12 24Z" stroke="currentColor" stroke-width="2"/>',
+        troops: '<path d="M12 44L24 32L36 44M48 44L40 32L32 44" stroke="currentColor" stroke-width="2"/>',
+        scripts: '<path d="M16 12H40L48 20V52H16V12Z" stroke="currentColor" stroke-width="2"/>',
+        comments: '<path d="M12 16H52V40H32L20 48V40H12V16Z" stroke="currentColor" stroke-width="2"/>'
     };
     
     if (icons[sectionName]) {
@@ -1879,6 +2139,10 @@ function updatePlaceholderIcon(sectionName) {
 }
 
 function showSection(sectionName, preserveSearch = false, skipHistoryPush = false) {
+    if (sectionName === 'others') {
+        showSectionsView(currentGame, true);
+        return;
+    }
     if (!isRestoringState) {
         cameFromActivity = false;
     }
@@ -1899,7 +2163,14 @@ function showSection(sectionName, preserveSearch = false, skipHistoryPush = fals
         enemies: { name: 'Enemies', desc: 'all enemies and monsters' },
         items: { name: 'Items', desc: 'all consumable items and equipment' },
         elements: { name: 'Elements', desc: 'all damage elements and their interactions' },
-        stats: { name: 'Stats', desc: 'all statistics and their explanations' }
+        stats: { name: 'Stats', desc: 'all statistics and their explanations' },
+        actors: { name: 'Actors', desc: 'all characters and party members' },
+        classes: { name: 'Classes', desc: 'all character classes and stat growth lines' },
+        locations: { name: 'Locations', desc: 'all map locations and encounter rates' },
+        commonEvents: { name: 'Common Events', desc: 'all global common event scripts' },
+        troops: { name: 'Troops', desc: 'all enemy battle group configurations' },
+        scripts: { name: 'Scripts', desc: 'all database formula scripts and calls' },
+        comments: { name: 'Developer Comments', desc: 'all developer event comments' }
     };
     
     const displayInfo = sectionDisplayNames[sectionName] || { name: sectionName.charAt(0).toUpperCase() + sectionName.slice(1), desc: `all ${sectionName}` };
@@ -2307,6 +2578,83 @@ function showSection(sectionName, preserveSearch = false, skipHistoryPush = fals
         }
         
         updateHelpContent('elements');
+    } else if (['actors', 'classes', 'locations', 'commonEvents', 'troops', 'scripts', 'comments'].includes(sectionName)) {
+        gamesView.classList.add('hidden');
+        sectionsView.classList.add('hidden');
+        searchSection.classList.remove('hidden');
+        mainContent.classList.remove('hidden');
+        mainContent.style.display = 'grid';
+        mainContent.style.gridTemplateColumns = '';
+        
+        currentSection = sectionName;
+        
+        headerTitle.classList.add('hidden');
+        headerSubtitle.classList.add('hidden');
+        
+        document.querySelector('.results-panel').style.display = 'block';
+        document.querySelector('.detail-panel').style.display = window.innerWidth > 1024 ? 'flex' : 'none';
+        document.querySelector('.detail-panel').classList.remove('mobile-active');
+        
+        if (resultsList) resultsList.scrollTop = 0;
+        if (detailContent) detailContent.scrollTop = 0;
+        
+        if (!preserveSearch) {
+            searchInput.value = '';
+            updateClearButtonVisibility();
+            if (sectionName === 'actors') searchActors('');
+            else if (sectionName === 'classes') searchClasses('');
+            else if (sectionName === 'locations') searchLocations('');
+            else if (sectionName === 'commonEvents') searchCommonEvents('');
+            else if (sectionName === 'troops') searchTroops('');
+            else if (sectionName === 'scripts') searchScripts('');
+            else if (sectionName === 'comments') searchComments('');
+        }
+        
+        if (sectionName === 'actors') selectedActorId = null;
+        else if (sectionName === 'classes') selectedClassId = null;
+        else if (sectionName === 'locations') selectedLocationId = null;
+        else if (sectionName === 'commonEvents') selectedCommonEventId = null;
+        else if (sectionName === 'troops') selectedTroopId = null;
+        else if (sectionName === 'scripts') selectedScriptId = null;
+        else if (sectionName === 'comments') selectedCommentId = null;
+        
+        if (detailContent) {
+            detailContent.innerHTML = '';
+            detailContent.style.display = 'none';
+        }
+        const placeholder = document.querySelector('.detail-placeholder');
+        if (placeholder) {
+            placeholder.style.display = 'flex';
+            updatePlaceholderIcon(sectionName);
+        }
+        document.querySelectorAll('.skill-card').forEach(card => {
+            card.classList.remove('active');
+        });
+        
+        if (sectionName === 'actors') {
+            if (allActors.length === 0) loadActors();
+            else { renderActorsResults(); updateResultsCount(); }
+        } else if (sectionName === 'classes') {
+            if (allClasses.length === 0) loadClasses();
+            else { renderClassesResults(); updateResultsCount(); }
+        } else if (sectionName === 'locations') {
+            if (allLocations.length === 0) loadLocations();
+            else { renderLocationsResults(); updateResultsCount(); }
+        } else if (sectionName === 'commonEvents') {
+            if (allCommonEvents.length === 0) loadCommonEvents();
+            else { renderCommonEventsResults(); updateResultsCount(); }
+        } else if (sectionName === 'troops') {
+            if (allTroops.length === 0) loadTroops();
+            else { renderTroopsResults(); updateResultsCount(); }
+        } else if (sectionName === 'scripts') {
+            if (allScripts.length === 0) loadScripts();
+            else { renderScriptsResults(); updateResultsCount(); }
+        } else if (sectionName === 'comments') {
+            if (allComments.length === 0) loadComments();
+            else { renderCommentsResults(); updateResultsCount(); }
+        }
+        
+        updateHelpContent(sectionName);
     } else if (sectionName === 'stats') {
         gamesView.classList.add('hidden');
         sectionsView.classList.add('hidden');
@@ -2371,6 +2719,12 @@ function handleUpButton() {
         return;
     }
 
+    // If we have history states inside our app, use window.history.back() to go back to previous page
+    if (currentHistoryIndex > 0) {
+        window.history.back();
+        return;
+    }
+
     // Check if we're on the activity view
     const activityViewEl = document.getElementById('activity-view');
     if (activityViewEl && !activityViewEl.classList.contains('hidden')) {
@@ -2394,7 +2748,14 @@ function handleUpButton() {
         (currentSection === 'enemies' && selectedEnemyId != null) ||
         (currentSection === 'items' && selectedItemId != null) ||
         (currentSection === 'elements' && selectedElementId != null) ||
-        (currentSection === 'stats');
+        (currentSection === 'stats') ||
+        (currentSection === 'actors' && selectedActorId != null) ||
+        (currentSection === 'classes' && selectedClassId != null) ||
+        (currentSection === 'locations' && selectedLocationId != null) ||
+        (currentSection === 'commonEvents' && selectedCommonEventId != null) ||
+        (currentSection === 'troops' && selectedTroopId != null) ||
+        (currentSection === 'scripts' && selectedScriptId != null) ||
+        (currentSection === 'comments' && selectedCommentId != null);
     
     const hasSelection = urlHasSelection || stateHasSelection || varHasSelection;
     
@@ -2404,7 +2765,9 @@ function handleUpButton() {
         // Navigate to Sections page
         // Get game from currentGame, urlState, or currentState, defaulting to 'bs2'
         const game = currentGame || (urlState && urlState.game) || (currentState && currentState.game) || 'bs2';
-        showSectionsView(game);
+        const section = currentSection || (urlState ? urlState.view : null) || (currentState ? currentState.view : null);
+        const isSupplementary = ['actors', 'classes', 'locations', 'commonEvents', 'troops', 'scripts', 'comments'].includes(section);
+        showSectionsView(game, isSupplementary);
         return;
     }
     
@@ -2415,7 +2778,7 @@ function handleUpButton() {
         const section = currentSection || 
                        (currentState ? currentState.view : null) || 
                        (urlState ? urlState.view : null);
-        if (section && ['skills', 'states', 'weapons', 'armors', 'enemies', 'items', 'elements'].includes(section)) {
+        if (section && ['skills', 'states', 'weapons', 'armors', 'enemies', 'items', 'elements', 'actors', 'classes', 'locations', 'commonEvents', 'troops', 'scripts', 'comments'].includes(section)) {
             // Navigate back to the section view, preserving search
             showSection(section, true);
             return;
@@ -2425,13 +2788,22 @@ function handleUpButton() {
     // Check if we're on a section list (has currentSection but no selectedId)
     if (currentSection && !hasSelection) {
         // Layer 2: Section List -> Sections Menu
-        showSectionsView(currentGame);
+        const isSupplementary = ['actors', 'classes', 'locations', 'commonEvents', 'troops', 'scripts', 'comments'].includes(currentSection);
+        showSectionsView(currentGame, isSupplementary);
         return;
     }
     
     // Check if we're on sections menu
     const sectionsViewEl = document.getElementById('sections-view');
     if (sectionsViewEl && !sectionsViewEl.classList.contains('hidden')) {
+        const othersGrid = document.getElementById('others-sections-grid');
+        if (othersGrid && !othersGrid.classList.contains('hidden')) {
+            showSectionsView(currentGame, false);
+            // Push state to update URL to #/game
+            const newState = buildNavigationState();
+            pushHistoryState(newState);
+            return;
+        }
         // Layer 3: Sections Menu -> Games View
         showGamesView();
         return;
@@ -2642,7 +3014,7 @@ function getDetailTextContent(obj, type) {
     // Remove HTML tags
     text = text.replace(/<[^>]*>/g, '');
     // Remove cross-reference markers but keep the name
-    text = text.replace(/\[\[[^\]]+:(\d+):([^\]]+)\]\]/g, '$2');
+    text = text.replace(/\[\[(?:SKILL|STATE|WEAPON|ARMOR|ITEM|ENEMY|ELEMENT|COMMONEVENT|ACTOR|CLASS|LOCATION|TROOP|SCRIPT|COMMENT):(?:\d+):(.*?)\]\]/g, '$1');
     // Normalize whitespace
     text = text.replace(/\s+/g, ' ').trim();
     
@@ -2946,10 +3318,10 @@ function renderSkillDetail(skill) {
             </div>
         </div>
         
+        ${renderMessages(skill)}
         ${renderBasicStats(skill)}
         ${renderDamageInfo(skill)}
         ${renderEffects(skill)}
-        ${renderMessages(skill)}
         ${renderNotes(skill)}
     `;
     
@@ -4106,6 +4478,86 @@ function findEnemyReferences(enemyId) {
     return references;
 }
 
+function findClassReferences(classId) {
+    const references = {
+        actors: []
+    };
+    const actors = allActors.length > 0 ? allActors : (actorsData?.actors || []);
+    actors.forEach(actor => {
+        if (actor && actor.classId === classId) {
+            references.actors.push({
+                id: actor.id,
+                name: actor.name,
+                reference: `[[ACTOR:${actor.id}:${actor.name}]]`
+            });
+        }
+    });
+    return references;
+}
+
+function findLocationReferences(locId) {
+    const references = {
+        subLocations: []
+    };
+    const locations = allLocations.length > 0 ? allLocations : (locationsData?.locations || []);
+    locations.forEach(loc => {
+        if (loc && loc.parentId === locId) {
+            references.subLocations.push({
+                id: loc.id,
+                name: loc.name,
+                reference: `[[LOCATION:${loc.id}:${loc.name}]]`
+            });
+        }
+    });
+    return references;
+}
+
+function findCommonEventReferences(ceId) {
+    const references = {
+        skills: [],
+        items: [],
+        states: []
+    };
+    const skills = allSkills.length > 0 ? allSkills : (skillsData?.skills || []);
+    const items = allItems.length > 0 ? allItems : (itemsData?.items || []);
+    const states = allStates.length > 0 ? allStates : (statesData?.states || []);
+    
+    // RPG Maker MV effect code 44 is "Common Event"
+    skills.forEach(s => {
+        if (s && s.effects && s.effects.some(e => e.code === 44 && e.dataId === ceId)) {
+            references.skills.push({ id: s.id, name: s.name, reference: `[[SKILL:${s.id}:${s.name}]]` });
+        }
+    });
+    items.forEach(i => {
+        if (i && i.effects && i.effects.some(e => e.code === 44 && e.dataId === ceId)) {
+            references.items.push({ id: i.id, name: i.name, reference: `[[ITEM:${i.id}:${i.name}]]` });
+        }
+    });
+    states.forEach(s => {
+        if (s && s.traits && s.traits.some(t => t.code === 44 && t.dataId === ceId)) {
+            references.states.push({ id: s.id, name: s.name, reference: `[[STATE:${s.id}:${s.name}]]` });
+        }
+    });
+    return references;
+}
+
+function findTroopReferences(troopId) {
+    const references = {
+        locations: []
+    };
+    const locations = allLocations.length > 0 ? allLocations : (locationsData?.locations || []);
+    locations.forEach(loc => {
+        if (loc && loc.encounters && loc.encounters.some(enc => enc.troopId === troopId)) {
+            references.locations.push({
+                id: loc.id,
+                name: loc.name,
+                reference: `[[LOCATION:${loc.id}:${loc.name}]]`
+            });
+        }
+    });
+    return references;
+}
+
 // Load states data (synchronous - data is already loaded from data.js)
 function loadStates() {
     try {
@@ -5102,8 +5554,8 @@ const statsDefinitions = {
             id: 1, 
             name: 'Max MP', 
             abbreviation: 'MMP', 
-            explanation: 'Maximum Magic Points. Determines how many skills and spells a character can use. Skills consume MP when used, and MP regenerates between battles or with certain effects.',
-            interactions: '<strong>Calculation:</strong> All modifiers multiply together (equipment, states, buffs). Buffs use same two-stage system as HP: Level 1 = ×1.25, Level 2 = ×1.50.'
+            explanation: 'Maximum Magic Points (MSP / Max SP). Determines how many skills and spells a character can use. Skills consume MP when used, and MP regenerates between battles or with certain effects.',
+            interactions: '<strong>Calculation:</strong> All modifiers multiply together (equipment, states, buffs). Buffs use same two-stage system as HP: Level 1 = ×1.25, Level 2 = ×1.50.<br><strong>MSP Display Note:</strong> In the game UI, the Max MP icon and stat is actually displayed as MSP (Maximum Spirit Points).'
         },
         { 
             id: 2, 
@@ -5137,8 +5589,8 @@ const statsDefinitions = {
             id: 6, 
             name: 'Agility', 
             abbreviation: 'AGI', 
-            explanation: 'Determines turn order and action speed in battle. Characters with higher agility act faster and more frequently. Also affects evasion rates.',
-            interactions: '<strong>Calculation:</strong> All modifiers multiply together.<br><strong>Turn Order:</strong> <code>ActionSpeed = AGI + Random(5 + AGI × 0.25) + skill.speed</code> — Variance scales with AGI itself. Example: AGI 50 has variance range 50-67. Higher AGI means larger variance ranges, requiring bigger AGI gaps to guarantee first strike.<br><strong>Speed Priority:</strong> Skills have speed correction (Guard = +2000) that supersedes AGI. +2000 priority skills act before standard attacks regardless of AGI.'
+            explanation: 'Determines turn order and action speed in battle. Characters with higher agility act faster and more frequently. Also governs the fill rate of the Action Points (AP) gauge in combat. Also affects evasion rates.',
+            interactions: '<strong>Calculation:</strong> All modifiers multiply together.<br><strong>Turn Order:</strong> <code>ActionSpeed = AGI + Random(5 + AGI × 0.25) + skill.speed</code> — Variance scales with AGI itself. Example: AGI 50 has variance range 50-67. Higher AGI means larger variance ranges, requiring bigger AGI gaps to guarantee first strike.<br><strong>Action Points (AP) Gauge:</strong> Agility directly governs the fill rate of the Action Points (AP) gauge in the combat system. Higher agility allows characters to charge their AP faster, leading to more frequent turns and action opportunities.<br><strong>Speed Priority:</strong> Skills have speed correction (Guard = +2000) that supersedes AGI. +2000 priority skills act before standard attacks regardless of AGI.'
         },
         { 
             id: 7, 
@@ -6100,8 +6552,7 @@ function renderArmorDetail(armor) {
             }
         });
     }
-    
-    attachEffectOriginalDataHandlers(item._sortedEffects || item.effects);
+    // Note: Armors don't have effects like items do, so this line was incorrect and has been removed
 }
 
 function renderArmorBasicStats(armor) {
@@ -6909,6 +7360,27 @@ function updateResultsCount() {
     } else if (currentSection === 'elements') {
         const count = filteredElements.length;
         resultsCount.textContent = `${count} element${count !== 1 ? 's' : ''} found`;
+    } else if (currentSection === 'actors') {
+        const count = filteredActors.length;
+        resultsCount.textContent = `${count} actor${count !== 1 ? 's' : ''} found`;
+    } else if (currentSection === 'classes') {
+        const count = filteredClasses.length;
+        resultsCount.textContent = `${count} class${count !== 1 ? 'es' : ''} found`;
+    } else if (currentSection === 'locations') {
+        const count = filteredLocations.length;
+        resultsCount.textContent = `${count} location${count !== 1 ? 's' : ''} found`;
+    } else if (currentSection === 'commonEvents') {
+        const count = filteredCommonEvents.length;
+        resultsCount.textContent = `${count} common event${count !== 1 ? 's' : ''} found`;
+    } else if (currentSection === 'troops') {
+        const count = filteredTroops.length;
+        resultsCount.textContent = `${count} troop${count !== 1 ? 's' : ''} found`;
+    } else if (currentSection === 'scripts') {
+        const count = filteredScripts.length;
+        resultsCount.textContent = `${count} script${count !== 1 ? 's' : ''} found`;
+    } else if (currentSection === 'comments') {
+        const count = filteredComments.length;
+        resultsCount.textContent = `${count} comment${count !== 1 ? 's' : ''} found`;
     }
 }
 
@@ -6978,6 +7450,27 @@ searchInput.addEventListener('input', (e) => {
     } else if (currentSection === 'elements') {
         searchElements(searchValue);
         renderElementsResults();
+    } else if (currentSection === 'actors') {
+        searchActors(searchValue);
+        renderActorsResults();
+    } else if (currentSection === 'classes') {
+        searchClasses(searchValue);
+        renderClassesResults();
+    } else if (currentSection === 'locations') {
+        searchLocations(searchValue);
+        renderLocationsResults();
+    } else if (currentSection === 'commonEvents') {
+        searchCommonEvents(searchValue);
+        renderCommonEventsResults();
+    } else if (currentSection === 'troops') {
+        searchTroops(searchValue);
+        renderTroopsResults();
+    } else if (currentSection === 'scripts') {
+        searchScripts(searchValue);
+        renderScriptsResults();
+    } else if (currentSection === 'comments') {
+        searchComments(searchValue);
+        renderCommentsResults();
     } else if (currentSection === 'stats') {
         // Stats section doesn't have search - always render all stats
         renderStats();
@@ -7033,6 +7526,20 @@ if (recentActivityCard) {
 document.querySelectorAll('.section-card').forEach(card => {
     card.addEventListener('click', () => {
         const section = card.dataset.section;
+        if (!section) return; // Ignore back card
+        
+        if (section === 'others') {
+            const mainGrid = document.getElementById('main-sections-grid');
+            const othersGrid = document.getElementById('others-sections-grid');
+            if (mainGrid) mainGrid.classList.add('hidden');
+            if (othersGrid) othersGrid.classList.remove('hidden');
+            
+            // Push state so URL becomes #/currentGame/others
+            const newState = buildNavigationState();
+            pushHistoryState(newState);
+            return;
+        }
+        
         showSection(section);
     });
 });
@@ -7073,6 +7580,9 @@ updateHelpContent('games');
 window.addEventListener('popstate', (e) => {
     // This event fires for both back and forward navigation
     if (e.state) {
+        if (e.state.historyIndex !== undefined) {
+            currentHistoryIndex = e.state.historyIndex;
+        }
         // Restore state from history (works for both back and forward)
         restoreStateFromHistory(e.state);
     } else {
@@ -7342,17 +7852,8 @@ async function loadRecentActivity() {
                         
                         const id = parseInt(idStr);
                         if (section && !isNaN(id)) {
-                            showSection(section, false, true);
                             cameFromActivity = true;
-                            setTimeout(() => {
-                                if (section === 'skills') selectSkill(id);
-                                else if (section === 'states') selectState(id);
-                                else if (section === 'weapons') selectWeapon(id);
-                                else if (section === 'armors') selectArmor(id);
-                                else if (section === 'enemies') selectEnemy(id);
-                                else if (section === 'items') selectItem(id);
-                                else if (section === 'elements') selectElement(id);
-                            }, 100);
+                            navigateToCrossReference(section, id);
                         } else if (section) {
                             showSection(section);
                             cameFromActivity = true;
@@ -7366,4 +7867,1442 @@ async function loadRecentActivity() {
         listEl.innerHTML = '<div class="empty-state"><p>Error loading recent activity.</p></div>';
     }
 }
+
+// Loader functions for the new sections
+function loadActors() {
+    try {
+        allActors = actorsData.actors || [];
+        filteredActors = allActors;
+        renderActorsResults();
+        updateResultsCount();
+    } catch (error) {
+        console.error('Error loading actors:', error);
+        resultsList.innerHTML = '<div class="empty-state"><p>Error loading actors data</p></div>';
+    }
+}
+
+function loadClasses() {
+    try {
+        allClasses = classesData.classes || [];
+        filteredClasses = allClasses;
+        renderClassesResults();
+        updateResultsCount();
+    } catch (error) {
+        console.error('Error loading classes:', error);
+        resultsList.innerHTML = '<div class="empty-state"><p>Error loading classes data</p></div>';
+    }
+}
+
+function loadLocations() {
+    try {
+        allLocations = locationsData.locations || [];
+        filteredLocations = allLocations;
+        renderLocationsResults();
+        updateResultsCount();
+    } catch (error) {
+        console.error('Error loading locations:', error);
+        resultsList.innerHTML = '<div class="empty-state"><p>Error loading locations data</p></div>';
+    }
+}
+
+function loadCommonEvents() {
+    try {
+        allCommonEvents = commonEventsData.commonEvents || [];
+        filteredCommonEvents = allCommonEvents;
+        renderCommonEventsResults();
+        updateResultsCount();
+    } catch (error) {
+        console.error('Error loading common events:', error);
+        resultsList.innerHTML = '<div class="empty-state"><p>Error loading common events data</p></div>';
+    }
+}
+
+function loadTroops() {
+    try {
+        allTroops = troopsData.troops || [];
+        filteredTroops = allTroops;
+        renderTroopsResults();
+        updateResultsCount();
+    } catch (error) {
+        console.error('Error loading troops:', error);
+        resultsList.innerHTML = '<div class="empty-state"><p>Error loading troops data</p></div>';
+    }
+}
+
+function loadScripts() {
+    try {
+        allScripts = scriptsData.scripts || [];
+        filteredScripts = allScripts;
+        renderScriptsResults();
+        updateResultsCount();
+    } catch (error) {
+        console.error('Error loading scripts:', error);
+        resultsList.innerHTML = '<div class="empty-state"><p>Error loading scripts data</p></div>';
+    }
+}
+
+function loadComments() {
+    try {
+        const rawComments = commentsData.comments || [];
+        allComments = rawComments.map(normalizeDeveloperComment);
+        filteredComments = allComments;
+        renderCommentsResults();
+        updateResultsCount();
+    } catch (error) {
+        console.error('Error loading developer comments:', error);
+        resultsList.innerHTML = '<div class="empty-state"><p>Error loading developer comments data</p></div>';
+    }
+}
+
+function normalizeDeveloperComment(comment) {
+    const content = comment.content || comment.text || '';
+    const parsedContext = parseDeveloperCommentContext(comment.context);
+    const sourceName = comment.sourceName || parsedContext.sourceName || comment.context || 'Developer Comment';
+    const type = comment.type || parsedContext.type || inferDeveloperCommentType(comment.context);
+
+    return {
+        ...comment,
+        content,
+        sourceName,
+        type,
+        sourceId: comment.sourceId || parsedContext.sourceId,
+        page: comment.page || parsedContext.page,
+        line: comment.line || parsedContext.line,
+        eventId: comment.eventId || parsedContext.eventId,
+        eventName: comment.eventName || parsedContext.eventName,
+        japaneseContent: comment.japaneseContent || comment.japaneseText || ''
+    };
+}
+
+function parseDeveloperCommentContext(context) {
+    if (!context || typeof context !== 'string') {
+        return {};
+    }
+
+    const troopMatch = context.match(/^Troop\s+(\d+)\s+(.+?)\s+Page\s+(\d+)\s+Line\s+(\d+):$/);
+    if (troopMatch) {
+        return {
+            type: 'TROOP',
+            sourceId: Number(troopMatch[1]),
+            sourceName: troopMatch[2].trim(),
+            page: Number(troopMatch[3]),
+            line: Number(troopMatch[4])
+        };
+    }
+
+    const commonEventMatch = context.match(/^Common Event\s+(\d+)\s+(.+?)\s+Line\s+(\d+):$/);
+    if (commonEventMatch) {
+        return {
+            type: 'COMMON_EVENT',
+            sourceId: Number(commonEventMatch[1]),
+            sourceName: commonEventMatch[2].trim(),
+            line: Number(commonEventMatch[3])
+        };
+    }
+
+    const mapMatch = context.match(/^Map\s+(\d+)\s+(.+?)\s+Event\s+(\d+)\s+(.+?)\s+Page\s+(\d+)\s+Line\s+(\d+):$/);
+    if (mapMatch) {
+        return {
+            type: 'MAP',
+            sourceId: Number(mapMatch[1]),
+            sourceName: mapMatch[2].trim(),
+            eventId: Number(mapMatch[3]),
+            eventName: mapMatch[4].trim(),
+            page: Number(mapMatch[5]),
+            line: Number(mapMatch[6])
+        };
+    }
+
+    return {
+        sourceName: context.replace(/:\s*$/, '')
+    };
+}
+
+function inferDeveloperCommentType(context) {
+    if (!context || typeof context !== 'string') {
+        return 'COMMENT';
+    }
+
+    if (context.startsWith('Troop ')) return 'TROOP';
+    if (context.startsWith('Common Event ')) return 'COMMON_EVENT';
+    if (context.startsWith('Map ')) return 'MAP';
+
+    return 'COMMENT';
+}
+
+// Search functions for the new sections
+function searchActors(query) {
+    if (!query.trim()) {
+        filteredActors = allActors;
+        return;
+    }
+    filteredActors = allActors.filter(actor => {
+        const queryClean = query.trim();
+        const classObj = classesData.classes?.find(c => c.id === actor.classId);
+        const className = classObj ? classObj.name : '';
+        return actor.id.toString() === queryClean ||
+               `#${actor.id}` === queryClean ||
+               simpleMatch(query, actor.name) || 
+               simpleMatch(query, actor.nickname) || 
+               simpleMatch(query, actor.profile) ||
+               simpleMatch(query, className) ||
+               (actor.note && (simpleMatch(query, actor.note.japanese) || simpleMatch(query, actor.note.english)));
+    });
+}
+
+function searchClasses(query) {
+    if (!query.trim()) {
+        filteredClasses = allClasses;
+        return;
+    }
+    filteredClasses = allClasses.filter(c => {
+        const queryClean = query.trim();
+        return c.id.toString() === queryClean ||
+               `#${c.id}` === queryClean ||
+               simpleMatch(query, c.name) || 
+               (c.note && (simpleMatch(query, c.note.japanese) || simpleMatch(query, c.note.english)));
+    });
+}
+
+function searchLocations(query) {
+    if (!query.trim()) {
+        filteredLocations = allLocations;
+        return;
+    }
+    filteredLocations = allLocations.filter(loc => {
+        const queryClean = query.trim();
+        return loc.id.toString() === queryClean ||
+               `#${loc.id}` === queryClean ||
+               simpleMatch(query, loc.name) || 
+               simpleMatch(query, loc.displayName) || 
+               simpleMatch(query, loc.note);
+    });
+}
+
+function searchCommonEvents(query) {
+    if (!query.trim()) {
+        filteredCommonEvents = allCommonEvents;
+        return;
+    }
+    filteredCommonEvents = allCommonEvents.filter(ce => {
+        const queryClean = query.trim();
+        const textMatches = ce.list && ce.list.some(cmd => cmd.translatedText && simpleMatch(query, cmd.translatedText));
+        return ce.id.toString() === queryClean ||
+               `#${ce.id}` === queryClean ||
+               simpleMatch(query, ce.name) || textMatches;
+    });
+}
+
+function searchTroops(query) {
+    if (!query.trim()) {
+        filteredTroops = allTroops;
+        return;
+    }
+    filteredTroops = allTroops.filter(t => {
+        const queryClean = query.trim();
+        return t.id.toString() === queryClean ||
+               `#${t.id}` === queryClean ||
+               simpleMatch(query, t.name);
+    });
+}
+
+function searchScripts(query) {
+    if (!query.trim()) {
+        filteredScripts = allScripts;
+        return;
+    }
+    filteredScripts = allScripts.filter(s => {
+        const queryClean = query.trim();
+        return s.id.toString() === queryClean ||
+               `#${s.id}` === queryClean ||
+               simpleMatch(query, s.sourceName) || 
+               simpleMatch(query, s.scriptType) || 
+               simpleMatch(query, s.content);
+    });
+}
+
+function searchComments(query) {
+    if (!query.trim()) {
+        filteredComments = allComments;
+        return;
+    }
+    filteredComments = allComments.filter(c => {
+        const queryClean = query.trim();
+        return c.id.toString() === queryClean ||
+               `#${c.id}` === queryClean ||
+               simpleMatch(query, c.sourceName) || 
+               simpleMatch(query, c.content);
+    });
+}
+
+// Simple matching helper (case-insensitive substring)
+function simpleMatch(query, text) {
+    if (!text) return false;
+    return text.toLowerCase().includes(query.toLowerCase());
+}
+
+// Result lists renderers for the new sections
+function renderActorsResults() {
+    if (!resultsList) return;
+    if (filteredActors.length === 0) {
+        resultsList.innerHTML = '<div class="empty-state"><p>No actors found</p></div>';
+        return;
+    }
+    resultsList.innerHTML = filteredActors.map(actor => {
+        const isActive = selectedActorId === actor.id;
+        const className = classesData.classes?.find(c => c.id === actor.classId)?.name || 'Unknown Class';
+        
+        let faceStyle = '';
+        if (actor.faceName) {
+            const xOffset = -(actor.faceIndex % 4) * 24;
+            const yOffset = -Math.floor(actor.faceIndex / 4) * 24;
+            faceStyle = `style="background-image: url('Faces/${currentGame}/${encodeURIComponent(actor.faceName)}.png'); background-size: 96px 48px; background-position: ${xOffset}px ${yOffset}px; width: 24px; height: 24px; border-radius: 3px; flex-shrink: 0; background-repeat: no-repeat; image-rendering: pixelated; margin-right: 8px;"`;
+        }
+
+        return `
+            <div class="skill-card ${isActive ? 'active' : ''}" data-actor-id="${actor.id}">
+                <div class="skill-card-header">
+                    ${actor.faceName ? `<div ${faceStyle}></div>` : ''}
+                    <div class="skill-card-title">${escapeHtml(actor.name)} <span class="detail-id">#${actor.id}</span></div>
+                </div>
+                <div class="skill-card-description">Class: ${escapeHtml(className)}</div>
+            </div>
+        `;
+    }).join('');
+    
+    resultsList.querySelectorAll('.skill-card').forEach(card => {
+        card.addEventListener('click', () => {
+            const id = parseInt(card.dataset.actorId);
+            selectActor(id);
+        });
+    });
+}
+
+function renderClassesResults() {
+    if (!resultsList) return;
+    if (filteredClasses.length === 0) {
+        resultsList.innerHTML = '<div class="empty-state"><p>No classes found</p></div>';
+        return;
+    }
+    resultsList.innerHTML = filteredClasses.map(c => {
+        const isActive = selectedClassId === c.id;
+        const learningsCount = (c.learnings || []).length;
+        const traitsCount = (c.traits || []).length;
+        const desc = `${learningsCount} skills learned • ${traitsCount} traits`;
+        return `
+            <div class="skill-card ${isActive ? 'active' : ''}" data-class-id="${c.id}">
+                <div class="skill-card-header">
+                    <div class="skill-card-title">${escapeHtml(c.name)} <span class="detail-id">#${c.id}</span></div>
+                </div>
+                <div class="skill-card-description">${desc}</div>
+            </div>
+        `;
+    }).join('');
+    
+    resultsList.querySelectorAll('.skill-card').forEach(card => {
+        card.addEventListener('click', () => {
+            const id = parseInt(card.dataset.classId);
+            selectClass(id);
+        });
+    });
+}
+
+function renderLocationsResults() {
+    if (!resultsList) return;
+    if (filteredLocations.length === 0) {
+        resultsList.innerHTML = '<div class="empty-state"><p>No locations found</p></div>';
+        return;
+    }
+    resultsList.innerHTML = filteredLocations.map(loc => {
+        const isActive = selectedLocationId === loc.id;
+        const encountersCount = (loc.encounters || []).length;
+        const detail = loc.displayName ? `${escapeHtml(loc.displayName)} • ` : '';
+        const desc = `${detail}${loc.width}x${loc.height} tiles • ${encountersCount} encounters`;
+        return `
+            <div class="skill-card ${isActive ? 'active' : ''}" data-location-id="${loc.id}">
+                <div class="skill-card-header">
+                    <div class="skill-card-title">${escapeHtml(loc.name)} <span class="detail-id">#${loc.id}</span></div>
+                </div>
+                <div class="skill-card-description">${desc}</div>
+            </div>
+        `;
+    }).join('');
+    
+    resultsList.querySelectorAll('.skill-card').forEach(card => {
+        card.addEventListener('click', () => {
+            const id = parseInt(card.dataset.locationId);
+            selectLocation(id);
+        });
+    });
+}
+
+function renderCommonEventsResults() {
+    if (!resultsList) return;
+    if (filteredCommonEvents.length === 0) {
+        resultsList.innerHTML = '<div class="empty-state"><p>No common events found</p></div>';
+        return;
+    }
+    resultsList.innerHTML = filteredCommonEvents.map(ce => {
+        const isActive = selectedCommonEventId === ce.id;
+        const triggerNames = ['None', 'Autorun', 'Parallel'];
+        const triggerName = triggerNames[ce.trigger] || 'Unknown';
+        const commandsCount = (ce.list || []).length;
+        const desc = `Trigger: ${triggerName} • ${commandsCount} commands`;
+        return `
+            <div class="skill-card ${isActive ? 'active' : ''}" data-common-event-id="${ce.id}">
+                <div class="skill-card-header">
+                    <div class="skill-card-title">${escapeHtml(ce.name)} <span class="detail-id">#${ce.id}</span></div>
+                </div>
+                <div class="skill-card-description">${desc}</div>
+            </div>
+        `;
+    }).join('');
+    
+    resultsList.querySelectorAll('.skill-card').forEach(card => {
+        card.addEventListener('click', () => {
+            const id = parseInt(card.dataset.commonEventId);
+            selectCommonEvent(id);
+        });
+    });
+}
+
+function renderTroopsResults() {
+    if (!resultsList) return;
+    if (filteredTroops.length === 0) {
+        resultsList.innerHTML = '<div class="empty-state"><p>No troops found</p></div>';
+        return;
+    }
+    resultsList.innerHTML = filteredTroops.map(t => {
+        const isActive = selectedTroopId === t.id;
+        const memberNames = (t.members || []).map(m => {
+            const enemy = enemiesData.enemies?.find(e => e.id === m.enemyId);
+            return enemy ? enemy.name : `Enemy #${m.enemyId}`;
+        });
+        let membersList = memberNames.join(', ');
+        if (membersList.length > 40) membersList = membersList.substring(0, 37) + '...';
+        const desc = membersList || 'No members';
+        return `
+            <div class="skill-card ${isActive ? 'active' : ''}" data-troop-id="${t.id}">
+                <div class="skill-card-header">
+                    <div class="skill-card-title">${escapeHtml(t.name)} <span class="detail-id">#${t.id}</span></div>
+                </div>
+                <div class="skill-card-description">${desc}</div>
+            </div>
+        `;
+    }).join('');
+    
+    resultsList.querySelectorAll('.skill-card').forEach(card => {
+        card.addEventListener('click', () => {
+            const id = parseInt(card.dataset.troopId);
+            selectTroop(id);
+        });
+    });
+}
+
+function renderScriptsResults() {
+    if (!resultsList) return;
+    if (filteredScripts.length === 0) {
+        resultsList.innerHTML = '<div class="empty-state"><p>No scripts found</p></div>';
+        return;
+    }
+    resultsList.innerHTML = filteredScripts.map(s => {
+        const isActive = selectedScriptId === s.id;
+        let codeSnippet = (s.content || '').replace(/\s+/g, ' ').trim();
+        if (codeSnippet.length > 35) codeSnippet = codeSnippet.substring(0, 32) + '...';
+        const desc = `Source: ${s.type} • ${escapeHtml(codeSnippet)}`;
+        return `
+            <div class="skill-card ${isActive ? 'active' : ''}" data-script-id="${s.id}">
+                <div class="skill-card-header">
+                    <div class="skill-card-title">${escapeHtml(s.scriptType)} <span class="detail-id">#${s.id}</span></div>
+                </div>
+                <div class="skill-card-description">${desc}</div>
+            </div>
+        `;
+    }).join('');
+    
+    resultsList.querySelectorAll('.skill-card').forEach(card => {
+        card.addEventListener('click', () => {
+            const id = parseInt(card.dataset.scriptId);
+            selectScript(id);
+        });
+    });
+}
+
+function renderCommentsResults() {
+    if (!resultsList) return;
+    if (filteredComments.length === 0) {
+        resultsList.innerHTML = '<div class="empty-state"><p>No developer comments found</p></div>';
+        return;
+    }
+    resultsList.innerHTML = filteredComments.map(c => {
+        const isActive = selectedCommentId === c.id;
+        const snippet = (c.content || '').substring(0, 40) + ((c.content || '').length > 40 ? '...' : '');
+        const desc = `Source: ${c.type} • ${escapeHtml(c.sourceName)}`;
+        return `
+            <div class="skill-card ${isActive ? 'active' : ''}" data-comment-id="${c.id}">
+                <div class="skill-card-header">
+                    <div class="skill-card-title">${escapeHtml(snippet)} <span class="detail-id">#${c.id}</span></div>
+                </div>
+                <div class="skill-card-description">${desc}</div>
+            </div>
+        `;
+    }).join('');
+    
+    resultsList.querySelectorAll('.skill-card').forEach(card => {
+        card.addEventListener('click', () => {
+            const id = parseInt(card.dataset.commentId);
+            selectComment(id);
+        });
+    });
+}
+
+// Selector functions for the new sections
+function selectActor(actorId) {
+    selectedActorId = actorId;
+    const actor = allActors.find(a => a.id === actorId);
+    if (!actor) return;
+    
+    document.querySelectorAll('.skill-card[data-actor-id]').forEach(card => {
+        card.classList.toggle('active', parseInt(card.dataset.actorId) === actorId);
+    });
+    
+    document.querySelector('.detail-placeholder').style.display = 'none';
+    detailContent.style.display = 'block';
+    
+    if (!isRestoringState) {
+        if (detailPanel) detailPanel.scrollTop = 0;
+        if (detailContent) detailContent.scrollTop = 0;
+    }
+    
+    renderActorDetail(actor);
+    updateGiscusFromCurrentState();
+    
+    if (window.innerWidth <= 1024) {
+        document.querySelector('.results-panel').style.display = 'none';
+        document.querySelector('.detail-panel').style.display = 'flex';
+        document.querySelector('.detail-panel').classList.add('mobile-active');
+    }
+    
+    if (!isRestoringState) {
+        const newState = buildNavigationState();
+        pushHistoryState(newState);
+    }
+}
+
+function selectClass(classId) {
+    selectedClassId = classId;
+    const classObj = allClasses.find(c => c.id === classId);
+    if (!classObj) return;
+    
+    document.querySelectorAll('.skill-card[data-class-id]').forEach(card => {
+        card.classList.toggle('active', parseInt(card.dataset.classId) === classId);
+    });
+    
+    document.querySelector('.detail-placeholder').style.display = 'none';
+    detailContent.style.display = 'block';
+    
+    if (!isRestoringState) {
+        if (detailPanel) detailPanel.scrollTop = 0;
+        if (detailContent) detailContent.scrollTop = 0;
+    }
+    
+    renderClassDetail(classObj);
+    updateGiscusFromCurrentState();
+    
+    if (window.innerWidth <= 1024) {
+        document.querySelector('.results-panel').style.display = 'none';
+        document.querySelector('.detail-panel').style.display = 'flex';
+        document.querySelector('.detail-panel').classList.add('mobile-active');
+    }
+    
+    if (!isRestoringState) {
+        const newState = buildNavigationState();
+        pushHistoryState(newState);
+    }
+}
+
+function selectLocation(locationId) {
+    selectedLocationId = locationId;
+    const loc = allLocations.find(l => l.id === locationId);
+    if (!loc) return;
+    
+    document.querySelectorAll('.skill-card[data-location-id]').forEach(card => {
+        card.classList.toggle('active', parseInt(card.dataset.locationId) === locationId);
+    });
+    
+    document.querySelector('.detail-placeholder').style.display = 'none';
+    detailContent.style.display = 'block';
+    
+    if (!isRestoringState) {
+        if (detailPanel) detailPanel.scrollTop = 0;
+        if (detailContent) detailContent.scrollTop = 0;
+    }
+    
+    renderLocationDetail(loc);
+    updateGiscusFromCurrentState();
+    
+    if (window.innerWidth <= 1024) {
+        document.querySelector('.results-panel').style.display = 'none';
+        document.querySelector('.detail-panel').style.display = 'flex';
+        document.querySelector('.detail-panel').classList.add('mobile-active');
+    }
+    
+    if (!isRestoringState) {
+        const newState = buildNavigationState();
+        pushHistoryState(newState);
+    }
+}
+
+function selectCommonEvent(commonEventId) {
+    selectedCommonEventId = commonEventId;
+    const ce = allCommonEvents.find(c => c.id === commonEventId);
+    if (!ce) return;
+    
+    document.querySelectorAll('.skill-card[data-common-event-id]').forEach(card => {
+        card.classList.toggle('active', parseInt(card.dataset.commonEventId) === commonEventId);
+    });
+    
+    document.querySelector('.detail-placeholder').style.display = 'none';
+    detailContent.style.display = 'block';
+    
+    if (!isRestoringState) {
+        if (detailPanel) detailPanel.scrollTop = 0;
+        if (detailContent) detailContent.scrollTop = 0;
+    }
+    
+    renderCommonEventDetail(ce);
+    updateGiscusFromCurrentState();
+    
+    if (window.innerWidth <= 1024) {
+        document.querySelector('.results-panel').style.display = 'none';
+        document.querySelector('.detail-panel').style.display = 'flex';
+        document.querySelector('.detail-panel').classList.add('mobile-active');
+    }
+    
+    if (!isRestoringState) {
+        const newState = buildNavigationState();
+        pushHistoryState(newState);
+    }
+}
+
+function selectTroop(troopId) {
+    selectedTroopId = troopId;
+    const troop = allTroops.find(t => t.id === troopId);
+    if (!troop) return;
+    
+    document.querySelectorAll('.skill-card[data-troop-id]').forEach(card => {
+        card.classList.toggle('active', parseInt(card.dataset.troopId) === troopId);
+    });
+    
+    document.querySelector('.detail-placeholder').style.display = 'none';
+    detailContent.style.display = 'block';
+    
+    if (!isRestoringState) {
+        if (detailPanel) detailPanel.scrollTop = 0;
+        if (detailContent) detailContent.scrollTop = 0;
+    }
+    
+    renderTroopDetail(troop);
+    updateGiscusFromCurrentState();
+    
+    if (window.innerWidth <= 1024) {
+        document.querySelector('.results-panel').style.display = 'none';
+        document.querySelector('.detail-panel').style.display = 'flex';
+        document.querySelector('.detail-panel').classList.add('mobile-active');
+    }
+    
+    if (!isRestoringState) {
+        const newState = buildNavigationState();
+        pushHistoryState(newState);
+    }
+}
+
+function selectScript(scriptId) {
+    selectedScriptId = scriptId;
+    const script = allScripts.find(s => s.id === scriptId);
+    if (!script) return;
+    
+    document.querySelectorAll('.skill-card[data-script-id]').forEach(card => {
+        card.classList.toggle('active', parseInt(card.dataset.scriptId) === scriptId);
+    });
+    
+    document.querySelector('.detail-placeholder').style.display = 'none';
+    detailContent.style.display = 'block';
+    
+    if (!isRestoringState) {
+        if (detailPanel) detailPanel.scrollTop = 0;
+        if (detailContent) detailContent.scrollTop = 0;
+    }
+    
+    renderScriptDetail(script);
+    updateGiscusFromCurrentState();
+    
+    if (window.innerWidth <= 1024) {
+        document.querySelector('.results-panel').style.display = 'none';
+        document.querySelector('.detail-panel').style.display = 'flex';
+        document.querySelector('.detail-panel').classList.add('mobile-active');
+    }
+    
+    if (!isRestoringState) {
+        const newState = buildNavigationState();
+        pushHistoryState(newState);
+    }
+}
+
+function selectComment(commentId) {
+    selectedCommentId = commentId;
+    const comment = allComments.find(c => c.id === commentId);
+    if (!comment) return;
+    
+    document.querySelectorAll('.skill-card[data-comment-id]').forEach(card => {
+        card.classList.toggle('active', parseInt(card.dataset.commentId) === commentId);
+    });
+    
+    document.querySelector('.detail-placeholder').style.display = 'none';
+    detailContent.style.display = 'block';
+    
+    if (!isRestoringState) {
+        if (detailPanel) detailPanel.scrollTop = 0;
+        if (detailContent) detailContent.scrollTop = 0;
+    }
+    
+    renderCommentDetail(comment);
+    updateGiscusFromCurrentState();
+    
+    if (window.innerWidth <= 1024) {
+        document.querySelector('.results-panel').style.display = 'none';
+        document.querySelector('.detail-panel').style.display = 'flex';
+        document.querySelector('.detail-panel').classList.add('mobile-active');
+    }
+    
+    if (!isRestoringState) {
+        const newState = buildNavigationState();
+        pushHistoryState(newState);
+    }
+}
+
+// Detail rendering functions for the new sections
+function renderActorDetail(actor) {
+    const classObj = classesData.classes?.find(c => c.id === actor.classId);
+    const className = classObj ? classObj.name : 'Unknown Class';
+    
+    const parsedNote = actor.note && actor.note.english ? convertCrossReferences(actor.note.english) : '';
+
+    let faceHtml = '';
+    if (actor.faceName) {
+        const xOffset = -(actor.faceIndex % 4) * 96;
+        const yOffset = -Math.floor(actor.faceIndex / 4) * 96;
+        faceHtml = `
+            <div class="actor-face-container">
+                <div class="actor-face" style="background-image: url('Faces/${currentGame}/${encodeURIComponent(actor.faceName)}.png'); background-position: ${xOffset}px ${yOffset}px;"></div>
+            </div>
+        `;
+    }
+
+    detailContent.innerHTML = `
+        <div class="detail-header">
+            <div class="detail-title-row">
+                ${faceHtml}
+                <div>
+                    <div class="detail-title">${escapeHtml(actor.name)} <span class="detail-id">#${actor.id}</span></div>
+                    ${actor.japaneseName ? `
+                        <div class="detail-subtitle" style="font-size: 0.95rem; color: var(--text-secondary); margin-top: 4px; font-style: italic;">
+                            Original Name: ${escapeHtml(actor.japaneseName)}
+                        </div>
+                    ` : ''}
+                </div>
+            </div>
+        </div>
+        
+        <div class="detail-body">
+            <div class="detail-section">
+                <div class="section-title">General Info</div>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-label">Nickname</div>
+                        <div class="stat-value">${escapeHtml(actor.nickname || '-')}</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Profile</div>
+                        <div class="stat-value">${escapeHtml(actor.profile || '-')}</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Class</div>
+                        <div class="stat-value"><a href="#/${currentGame}/classes/${actor.classId}" class="activity-item-link">${escapeHtml(className)}</a></div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Initial Level</div>
+                        <div class="stat-value">${actor.initialLevel}</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Max Level</div>
+                        <div class="stat-value">${actor.maxLevel}</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="detail-section">
+                <div class="section-title">Initial Equipment</div>
+                <div class="stats-grid">
+                    ${(actor.equips || []).map((eqId, idx) => {
+                        let slotName = idx === 0 ? 'Weapon' : `Armor Slot ${idx}`;
+                        let equipLink = 'Empty';
+                        if (eqId && eqId !== 0) {
+                            if (idx === 0) {
+                                const w = weaponsData.weapons?.find(we => we.id === eqId);
+                                const name = w ? w.name : `Weapon ID: ${eqId}`;
+                                equipLink = `<a href="#/${currentGame}/weapons/${eqId}" class="activity-item-link">${escapeHtml(name)}</a>`;
+                            } else {
+                                const a = armorsData.armors?.find(ar => ar.id === eqId);
+                                const name = a ? a.name : `Armor ID: ${eqId}`;
+                                equipLink = `<a href="#/${currentGame}/armors/${eqId}" class="activity-item-link">${escapeHtml(name)}</a>`;
+                            }
+                        }
+                        return `
+                            <div class="stat-item">
+                                <div class="stat-label">${slotName}</div>
+                                <div class="stat-value">${equipLink}</div>
+                            </div>
+                        `;
+                    }).join('')}
+                </div>
+            </div>
+            
+            ${parsedNote ? `
+            <div class="detail-section">
+                <div class="section-title">Developer Note</div>
+                <div class="note-container">${parsedNote}</div>
+            </div>` : ''}
+            
+            <div class="giscus-section">
+                <h3>Comments</h3>
+                <div id="giscus-container"></div>
+            </div>
+        </div>
+    `;
+    
+    bindCrossReferenceClicks(detailContent);
+}
+
+function renderClassDetail(c) {
+    const getParam = (paramIdx, lv) => {
+        const curve = c.params && c.params[paramIdx];
+        if (!curve) return 0;
+        return curve[lv] !== undefined ? curve[lv] : 0;
+    };
+
+    const parsedNote = c.note && c.note.english ? convertCrossReferences(c.note.english) : '';
+
+    detailContent.innerHTML = `
+        <div class="detail-header">
+            <div class="detail-title-row">
+                <div>
+                    <div class="detail-title">${escapeHtml(c.name)} <span class="detail-id">#${c.id}</span></div>
+                    ${c.japaneseName ? `
+                        <div class="detail-subtitle" style="font-size: 0.95rem; color: var(--text-secondary); margin-top: 4px; font-style: italic;">
+                            Original Name: ${escapeHtml(c.japaneseName)}
+                        </div>
+                    ` : ''}
+                </div>
+            </div>
+        </div>
+        
+        <div class="detail-body">
+            <div class="detail-section">
+                <div class="section-title">Stat Curves (Lv 1 / Lv 50 / Lv 99)</div>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-label">Max HP</div>
+                        <div class="stat-value">${getParam(0, 1)} / ${getParam(0, 50)} / ${getParam(0, 99)}</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Max MP</div>
+                        <div class="stat-value">${getParam(1, 1)} / ${getParam(1, 50)} / ${getParam(1, 99)}</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Attack (ATK)</div>
+                        <div class="stat-value">${getParam(2, 1)} / ${getParam(2, 50)} / ${getParam(2, 99)}</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Defense (DEF)</div>
+                        <div class="stat-value">${getParam(3, 1)} / ${getParam(3, 50)} / ${getParam(3, 99)}</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Magic Attack (MAT)</div>
+                        <div class="stat-value">${getParam(4, 1)} / ${getParam(4, 50)} / ${getParam(4, 99)}</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Magic Defense (MDF)</div>
+                        <div class="stat-value">${getParam(5, 1)} / ${getParam(5, 50)} / ${getParam(5, 99)}</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Agility (AGI)</div>
+                        <div class="stat-value">${getParam(6, 1)} / ${getParam(6, 50)} / ${getParam(6, 99)}</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Luck (LUK)</div>
+                        <div class="stat-value">${getParam(7, 1)} / ${getParam(7, 50)} / ${getParam(7, 99)}</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="detail-section">
+                <div class="section-title">Skills Learned</div>
+                <div class="effect-list">
+                    ${(c.learnings || []).length > 0 ? (c.learnings || []).map(l => {
+                        const skill = skillsData.skills?.find(s => s.id === l.skillId);
+                        const skillName = skill ? skill.name : `Skill ID: ${l.skillId}`;
+                        return `
+                            <div class="effect-item" style="padding: 10px 12px; border-bottom: 1px solid rgba(255, 255, 255, 0.05); display: flex; justify-content: space-between; align-items: center;">
+                                <div>
+                                    <span style="font-weight: 500; color: var(--text-primary); margin-right: 8px;">Lv ${l.level}:</span>
+                                    <a href="#/${currentGame}/skills/${l.skillId}" class="activity-item-link">${escapeHtml(skillName)}</a>
+                                </div>
+                                ${l.note ? `<div style="font-size: 0.85rem; color: var(--text-secondary); font-style: italic;">${escapeHtml(l.note)}</div>` : ''}
+                            </div>
+                        `;
+                    }).join('') : '<div class="empty-text" style="padding: 12px; color: var(--text-muted);">No skills learned</div>'}
+                </div>
+            </div>
+
+            ${(c.traits || []).length > 0 ? `
+            <div class="detail-section">
+                <div class="section-title">Class Traits</div>
+                <div class="effect-list">
+                    ${c.traits.map(t => `
+                        <div class="effect-item">
+                            <div class="effect-description">${escapeHtml(t.description || '')}</div>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>` : ''}
+
+            ${parsedNote ? `
+            <div class="detail-section">
+                <div class="section-title">Developer Note</div>
+                <div class="note-container">${parsedNote}</div>
+            </div>` : ''}
+
+            ${(() => {
+                const refs = findClassReferences(c.id);
+                if (refs.actors.length > 0) {
+                    return `
+                    <div class="detail-section">
+                        <div class="section-title">References</div>
+                        <div class="subsection">
+                            <div class="subsection-title">Actors with this Class (${refs.actors.length})</div>
+                            <div class="effect-list">
+                                ${refs.actors.map(actor => `
+                                    <div class="effect-item">
+                                        <div class="effect-name">${convertCrossReferencesAndEscape(actor.reference)}</div>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    </div>
+                    `;
+                }
+                return '';
+            })()}
+            
+            <div class="giscus-section">
+                <h3>Comments</h3>
+                <div id="giscus-container"></div>
+            </div>
+        </div>
+    `;
+    
+    bindCrossReferenceClicks(detailContent);
+}
+
+function renderLocationDetail(loc) {
+    const breadcrumbs = (loc.parentPath || []).map(p => {
+        return `<a href="#/${currentGame}/locations/${p.id}" class="activity-item-link">${escapeHtml(p.name)}</a>`;
+    }).join(' &gt; ');
+
+    const mapScripts = (locationsData.scripts || []).filter(s => s.type === 'MAP' && s.sourceId === loc.id);
+    const mapComments = (locationsData.comments || []).filter(c => c.type === 'MAP' && c.sourceId === loc.id);
+
+    const scriptsHtml = mapScripts.map(s => {
+        return `
+            <div class="event-log-line">
+                <span class="event-log-code">Event ${s.eventId} (${s.eventName}) Page ${s.page} Line ${s.line}:</span> ${escapeHtml(s.content)}
+            </div>
+        `;
+    }).join('');
+
+    const commentsHtml = mapComments.map(c => {
+        return `
+            <div class="event-log-line" style="color: #6a9955;">
+                // Event ${c.eventId} (${c.eventName}) Page ${c.page} Line ${c.line}: ${escapeHtml(c.content)}
+            </div>
+        `;
+    }).join('');
+
+    detailContent.innerHTML = `
+        <div class="detail-header">
+            <div class="detail-title-row">
+                <div>
+                    <div class="detail-title">${escapeHtml(loc.name)} <span class="detail-id">#${loc.id}</span></div>
+                    ${loc.japaneseName ? `
+                        <div class="detail-subtitle" style="font-size: 0.95rem; color: var(--text-secondary); margin-top: 4px; font-style: italic;">
+                            Original Name: ${escapeHtml(loc.japaneseName)}
+                        </div>
+                    ` : ''}
+                </div>
+            </div>
+        </div>
+        
+        <div class="detail-body">
+            ${breadcrumbs ? `
+            <div class="detail-section">
+                <div class="section-title">Breadcrumbs</div>
+                <div class="breadcrumbs-container" style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 6px; font-size: 0.9rem; color: var(--text-secondary);">
+                    ${breadcrumbs} &gt; <span style="color: var(--text-primary); font-weight: 500;">${escapeHtml(loc.name)}</span>
+                </div>
+            </div>` : ''}
+
+            <div class="detail-section">
+                <div class="section-title">Map Info</div>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-label">Display Name</div>
+                        <div class="stat-value">${escapeHtml(loc.displayName || '-')}</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Size</div>
+                        <div class="stat-value">${loc.width} &times; ${loc.height} tiles</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">BGM</div>
+                        <div class="stat-value">${loc.bgm?.name ? `${escapeHtml(loc.bgm.name)}` : 'None'}</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">BGS</div>
+                        <div class="stat-value">${loc.bgs?.name ? `${escapeHtml(loc.bgs.name)}` : 'None'}</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="detail-section">
+                <div class="section-title">Random Encounters</div>
+                <div class="effect-list">
+                    ${(loc.encounters || []).length > 0 ? (loc.encounters || []).map(enc => {
+                        const troop = troopsData.troops?.find(t => t.id === enc.troopId);
+                        const troopName = troop ? troop.name : `Troop ID: ${enc.troopId}`;
+                        const region = enc.regionFlags && enc.regionFlags.length > 0 ? enc.regionFlags.join(', ') : 'All Regions';
+                        return `
+                            <div class="effect-item" style="padding: 10px 12px; border-bottom: 1px solid rgba(255, 255, 255, 0.05); display: flex; justify-content: space-between; align-items: center;">
+                                <div>
+                                    <span style="font-weight: 500; color: var(--text-muted); margin-right: 8px;">Weight ${enc.weight}:</span>
+                                    <a href="#/${currentGame}/troops/${enc.troopId}" class="activity-item-link">${escapeHtml(troopName)}</a>
+                                </div>
+                                <div style="font-size: 0.85rem; color: var(--text-secondary);">${escapeHtml(region)}</div>
+                            </div>
+                        `;
+                    }).join('') : '<div class="empty-text" style="padding: 12px; color: var(--text-muted);">No random encounters on this map</div>'}
+                </div>
+            </div>
+
+            ${scriptsHtml ? `
+            <div class="detail-section">
+                <div class="section-title">Map Event Scripts</div>
+                <div class="event-log-container">${scriptsHtml}</div>
+            </div>` : ''}
+
+            ${commentsHtml ? `
+            <div class="detail-section">
+                <div class="section-title">Map Event Comments</div>
+                <div class="event-log-container">${commentsHtml}</div>
+            </div>` : ''}
+
+            ${loc.note ? `
+            <div class="detail-section">
+                <div class="section-title">Notes</div>
+                <div class="note-container">${escapeHtml(loc.note)}</div>
+            </div>` : ''}
+
+            ${(() => {
+                const refs = findLocationReferences(loc.id);
+                if (refs.subLocations.length > 0) {
+                    return `
+                    <div class="detail-section">
+                        <div class="section-title">References</div>
+                        <div class="subsection">
+                            <div class="subsection-title">Sub-locations connected to this Map (${refs.subLocations.length})</div>
+                            <div class="effect-list">
+                                ${refs.subLocations.map(sub => `
+                                    <div class="effect-item">
+                                        <div class="effect-name">${convertCrossReferencesAndEscape(sub.reference)}</div>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    </div>
+                    `;
+                }
+                return '';
+            })()}
+            
+            <div class="giscus-section">
+                <h3>Comments</h3>
+                <div id="giscus-container"></div>
+            </div>
+        </div>
+    `;
+    
+    bindCrossReferenceClicks(detailContent);
+}
+
+function renderCommonEventDetail(ce) {
+    const triggerNames = ['None', 'Autorun', 'Parallel'];
+    const triggerName = triggerNames[ce.trigger] || 'Unknown';
+
+    const commandsHtml = (ce.list || []).map(cmd => {
+        const indent = '&nbsp;'.repeat(cmd.indent * 2);
+        if (cmd.code === 401) {
+            return `<div class="event-log-line">${indent}<span class="event-log-code">Show Text:</span> <span class="event-log-text">"${escapeHtml(cmd.translatedText || cmd.parameters[0])}"</span></div>`;
+        }
+        if (cmd.code === 355 || cmd.code === 655) {
+            return `<div class="event-log-line">${indent}<span class="event-log-code">Script Call:</span> ${escapeHtml(cmd.parameters[0])}</div>`;
+        }
+        if (cmd.code === 108 || cmd.code === 408) {
+            return `<div class="event-log-line" style="color: #6a9955;">${indent}// Comment: ${escapeHtml(cmd.parameters[0])}</div>`;
+        }
+        return '';
+    }).filter(line => line !== '').join('');
+
+    const ceScripts = (commonEventsData.scripts || []).filter(s => s.type === 'COMMON_EVENT' && s.sourceId === ce.id);
+    const ceComments = (commonEventsData.comments || []).filter(c => c.type === 'COMMON_EVENT' && c.sourceId === ce.id);
+
+    const scriptDetailHtml = ceScripts.map(s => {
+        return `<div class="event-log-line"><span class="event-log-code">Line ${s.line}:</span> ${escapeHtml(s.content)}</div>`;
+    }).join('');
+
+    const commentDetailHtml = ceComments.map(c => {
+        return `<div class="event-log-line" style="color: #6a9955;">Line ${c.line}: ${escapeHtml(c.content)}</div>`;
+    }).join('');
+
+    detailContent.innerHTML = `
+        <div class="detail-header">
+            <div class="detail-title-row">
+                <div>
+                    <div class="detail-title">${escapeHtml(ce.name)} <span class="detail-id">#${ce.id}</span></div>
+                    ${ce.japaneseName ? `
+                        <div class="detail-subtitle" style="font-size: 0.95rem; color: var(--text-secondary); margin-top: 4px; font-style: italic;">
+                            Original Name: ${escapeHtml(ce.japaneseName)}
+                        </div>
+                    ` : ''}
+                </div>
+            </div>
+        </div>
+        
+        <div class="detail-body">
+            <div class="detail-section">
+                <div class="section-title">Trigger Info</div>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-label">Trigger</div>
+                        <div class="stat-value">${triggerName}</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Switch ID</div>
+                        <div class="stat-value">${ce.switchId || 'None'}</div>
+                    </div>
+                </div>
+            </div>
+
+            ${commandsHtml ? `
+            <div class="detail-section">
+                <div class="section-title">Event Commands Flow</div>
+                <div class="event-log-container">${commandsHtml}</div>
+            </div>` : ''}
+
+            ${scriptDetailHtml ? `
+            <div class="detail-section">
+                <div class="section-title">Associated Scripts</div>
+                <div class="event-log-container">${scriptDetailHtml}</div>
+            </div>` : ''}
+
+            ${commentDetailHtml ? `
+            <div class="detail-section">
+                <div class="section-title">Associated Comments</div>
+                <div class="event-log-container">${commentDetailHtml}</div>
+            </div>` : ''}
+
+            ${(() => {
+                const refs = findCommonEventReferences(ce.id);
+                const hasSkills = refs.skills.length > 0;
+                const hasItems = refs.items.length > 0;
+                const hasStates = refs.states.length > 0;
+                
+                if (hasSkills || hasItems || hasStates) {
+                    return `
+                    <div class="detail-section">
+                        <div class="section-title">References</div>
+                        ${hasSkills ? `
+                        <div class="subsection" style="margin-bottom: 12px;">
+                            <div class="subsection-title">Skills Triggering This Event (${refs.skills.length})</div>
+                            <div class="effect-list">
+                                ${refs.skills.map(skill => `
+                                    <div class="effect-item">
+                                        <div class="effect-name">${convertCrossReferencesAndEscape(skill.reference)}</div>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                        ` : ''}
+                        ${hasItems ? `
+                        <div class="subsection" style="margin-bottom: 12px;">
+                            <div class="subsection-title">Items Triggering This Event (${refs.items.length})</div>
+                            <div class="effect-list">
+                                ${refs.items.map(item => `
+                                    <div class="effect-item">
+                                        <div class="effect-name">${convertCrossReferencesAndEscape(item.reference)}</div>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                        ` : ''}
+                        ${hasStates ? `
+                        <div class="subsection">
+                            <div class="subsection-title">States Triggering This Event (${refs.states.length})</div>
+                            <div class="effect-list">
+                                ${refs.states.map(state => `
+                                    <div class="effect-item">
+                                        <div class="effect-name">${convertCrossReferencesAndEscape(state.reference)}</div>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                        ` : ''}
+                    </div>
+                    `;
+                }
+                return '';
+            })()}
+            
+            <div class="giscus-section">
+                <h3>Comments</h3>
+                <div id="giscus-container"></div>
+            </div>
+        </div>
+    `;
+    
+    bindCrossReferenceClicks(detailContent);
+}
+
+function renderTroopDetail(troop) {
+    const membersHtml = (troop.members || []).map((m, idx) => {
+        const enemy = enemiesData.enemies?.find(e => e.id === m.enemyId);
+        const enemyName = enemy ? enemy.name : `Enemy ID: ${m.enemyId}`;
+        return `
+            <div class="effect-item" style="padding: 10px 12px; border-bottom: 1px solid rgba(255, 255, 255, 0.05); display: flex; justify-content: space-between; align-items: center;">
+                <div>
+                    <span style="font-weight: 500; color: var(--text-muted); margin-right: 8px;">Member ${idx + 1}:</span>
+                    <a href="#/${currentGame}/enemies/${m.enemyId}" class="activity-item-link">${escapeHtml(enemyName)}</a>
+                </div>
+                <div style="font-size: 0.85rem; color: var(--text-secondary);">
+                    Position: (${m.x}, ${m.y}) ${m.hidden ? '<span style="color: #f43f5e; margin-left: 8px;">(Starts Hidden)</span>' : ''}
+                </div>
+            </div>
+        `;
+    }).join('');
+
+    const troopComments = (troopsData.comments || []).filter(c => c.type === 'TROOP' && c.sourceId === troop.id);
+    const commentsHtml = troopComments.map(c => {
+        return `<div class="event-log-line" style="color: #6a9955;">Page ${c.page} Line ${c.line}: ${escapeHtml(c.content)}</div>`;
+    }).join('');
+
+    detailContent.innerHTML = `
+        <div class="detail-header">
+            <div class="detail-title-row">
+                <div>
+                    <div class="detail-title">${escapeHtml(troop.name)} <span class="detail-id">#${troop.id}</span></div>
+                    ${troop.japaneseName ? `<div class="jp-name">${escapeHtml(troop.japaneseName)}</div>` : ''}
+                </div>
+            </div>
+        </div>
+        
+        <div class="detail-body">
+            <div class="detail-section">
+                <div class="section-title">Troop Members</div>
+                <div class="effect-list">
+                    ${membersHtml || '<div class="empty-text" style="padding: 12px; color: var(--text-muted);">No members in this troop</div>'}
+                </div>
+            </div>
+
+            ${commentsHtml ? `
+            <div class="detail-section">
+                <div class="section-title">Associated Comments</div>
+                <div class="event-log-container">${commentsHtml}</div>
+            </div>` : ''}
+
+            ${(() => {
+                const refs = findTroopReferences(troop.id);
+                if (refs.locations.length > 0) {
+                    return `
+                    <div class="detail-section">
+                        <div class="section-title">References</div>
+                        <div class="subsection">
+                            <div class="subsection-title">Locations Where this Troop Appears (${refs.locations.length})</div>
+                            <div class="effect-list">
+                                ${refs.locations.map(loc => `
+                                    <div class="effect-item">
+                                        <div class="effect-name">${convertCrossReferencesAndEscape(loc.reference)}</div>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    </div>
+                    `;
+                }
+                return '';
+            })()}
+            
+            <div class="giscus-section">
+                <h3>Comments</h3>
+                <div id="giscus-container"></div>
+            </div>
+        </div>
+    `;
+    
+    bindCrossReferenceClicks(detailContent);
+}
+
+function renderScriptDetail(script) {
+    let sourceLink = '';
+    if (script.type === 'SKILL') {
+        sourceLink = `<a href="#/${currentGame}/skills/${script.sourceId}" class="activity-item-link">Skill: ${escapeHtml(script.sourceName)}</a>`;
+    } else if (script.type === 'COMMON_EVENT') {
+        sourceLink = `<a href="#/${currentGame}/commonEvents/${script.sourceId}" class="activity-item-link">Common Event: ${escapeHtml(script.sourceName)} (Line: ${script.line})</a>`;
+    } else if (script.type === 'MAP') {
+        sourceLink = `<a href="#/${currentGame}/locations/${script.sourceId}" class="activity-item-link">Map ${script.sourceId}: ${escapeHtml(script.sourceName)} (Event ${script.eventId} ${script.eventName}, Page ${script.page} Line ${script.line})</a>`;
+    }
+
+    detailContent.innerHTML = `
+        <div class="detail-header">
+            <div class="detail-title-row">
+                <div>
+                    <div class="detail-title">Formula Script <span class="detail-id">#${script.id}</span></div>
+                    <div class="detail-subtitle" style="font-size: 0.95rem; color: var(--text-secondary); margin-top: 4px; font-style: italic;">
+                        Type: ${escapeHtml(script.scriptType)}
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="detail-body">
+            <div class="detail-section">
+                <div class="section-title">Source Context</div>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-label">Source</div>
+                        <div class="stat-value">${sourceLink}</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="detail-section">
+                <div class="section-title">Script Code</div>
+                <pre class="code-container"><code>${escapeHtml(script.content)}</code></pre>
+            </div>
+            
+            <div class="giscus-section">
+                <h3>Comments</h3>
+                <div id="giscus-container"></div>
+            </div>
+        </div>
+    `;
+    
+    bindCrossReferenceClicks(detailContent);
+}
+
+function renderCommentDetail(comment) {
+    let sourceLink = '';
+    if (comment.type === 'TROOP') {
+        const pageText = comment.page ? ` Page ${comment.page}` : '';
+        const lineText = comment.line ? ` Line ${comment.line}` : '';
+        sourceLink = `<a href="#/${currentGame}/troops/${comment.sourceId}" class="activity-item-link">Troop: ${escapeHtml(comment.sourceName)} (${pageText}${lineText})</a>`;
+    } else if (comment.type === 'COMMON_EVENT') {
+        const lineText = comment.line ? ` Line ${comment.line}` : '';
+        sourceLink = `<a href="#/${currentGame}/commonEvents/${comment.sourceId}" class="activity-item-link">Common Event: ${escapeHtml(comment.sourceName)} (${lineText})</a>`;
+    } else if (comment.type === 'MAP') {
+        const eventText = comment.eventId ? `Event ${comment.eventId}${comment.eventName ? ` ${comment.eventName}` : ''}` : comment.eventName || 'Event';
+        const pageText = comment.page ? ` Page ${comment.page}` : '';
+        const lineText = comment.line ? ` Line ${comment.line}` : '';
+        sourceLink = `<a href="#/${currentGame}/locations/${comment.sourceId}" class="activity-item-link">Map ${comment.sourceId}: ${escapeHtml(comment.sourceName)} (${escapeHtml(eventText)}${pageText}${lineText})</a>`;
+    } else {
+        sourceLink = escapeHtml(comment.sourceName || comment.context || 'Developer Comment');
+    }
+
+    detailContent.innerHTML = `
+        <div class="detail-header">
+            <div class="detail-title-row">
+                <div>
+                    <div class="detail-title">Developer Comment <span class="detail-id">#${comment.id}</span></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="detail-body">
+            <div class="detail-section">
+                <div class="section-title">Source Context</div>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-label">Source</div>
+                        <div class="stat-value">${sourceLink}</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="detail-section">
+                <div class="section-title">Comment Content</div>
+                <div class="note-container" style="font-family: monospace; white-space: pre-wrap;">${escapeHtml(comment.content || comment.text || '')}</div>
+            </div>
+            
+            <div class="giscus-section">
+                <h3>Comments</h3>
+                <div id="giscus-container"></div>
+            </div>
+        </div>
+    `;
+    
+    bindCrossReferenceClicks(detailContent);
+}
+
+function bindCrossReferenceClicks(container) {
+    container.querySelectorAll('.activity-item-link').forEach(link => {
+        link.addEventListener('click', (e) => {
+            const href = link.getAttribute('href');
+            if (href && href.startsWith('#/')) {
+                e.preventDefault();
+                const hashPath = href.substring(2);
+                const parts = hashPath.split('/').filter(p => p);
+                if (parts.length > 0) {
+                    let section = parts[0];
+                    let idStr = parts[1];
+                    if (parts[0] === 'bs1' || parts[0] === 'bs2' || parts[0] === 'rrw') {
+                        section = parts[1];
+                        idStr = parts[2];
+                    }
+                    const id = parseInt(idStr);
+                    if (section && !isNaN(id)) {
+                        navigateToCrossReference(section, id);
+                    }
+                }
+            }
+        });
+    });
+
+    container.querySelectorAll('.cross-reference').forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const type = link.dataset.refType;
+            const id = link.dataset.refId;
+            navigateToCrossReference(type, id);
+        });
+    });
+}
+
 
