@@ -15,8 +15,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=20260707T120000Z">
-    <link rel="icon" type="image/png" href="favicon.png?v=20260705T070100Z">
+    <link rel="stylesheet" href="style.css?v=20260930T012500Z">
+    <link rel="icon" type="image/png" href="favicon.png?v=20260930T012500Z">
 </head>
 <body>
     <div class="container">
@@ -252,6 +252,8 @@
             </div>
             <!-- Sections Giscus Comments -->
             <div id="sections-giscus-container" class="giscus-container"></div>
+            <!-- Others Giscus Comments -->
+            <div id="others-giscus-container" class="giscus-container"></div>
         </div>
 
         <!-- Activity View -->
@@ -287,12 +289,7 @@
             </div>
 
             <div class="detail-panel" id="detail-panel">
-                <div class="detail-placeholder">
-                    <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M32 4L36.5 24.5L56 20L44 32L56 44L36.5 39.5L32 60L27.5 39.5L8 44L20 32L8 20L27.5 24.5L32 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-                    </svg>
-                    <p>Select an item to view details</p>
-                </div>
+                <div class="detail-placeholder" aria-hidden="true"></div>
                 <div id="detail-content" class="detail-content" style="display: none;">
                     <!-- Skill details will be inserted here -->
                 </div>
@@ -302,8 +299,7 @@
         </div>
     </div>
 
-    <script src="data.js?v=20260707T120000Z"></script>
-    <script src="script.js?v=20260707T120000Z"></script>
+    <script src="data.js?v=20260930T012500Z"></script>
+    <script src="script.js?v=20260930T012500Z"></script>
 </body>
 </html>
-

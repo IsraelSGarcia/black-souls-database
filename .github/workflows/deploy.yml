@@ -39,6 +39,15 @@ jobs:
           mkdir -p _site
           # Copy all files including hidden files and subdirectories
           cp -r app/. _site/
+          # Use the supplied BS1 battlers in a game-specific runtime directory.
+          mkdir -p _site/Battlers/bs1
+          cp -r "temporary-graphics-folder-(dont-delete)/Graphics BS1/Battlers/." _site/Battlers/bs1/
+          # Use the supplied RRW battlers in a game-specific runtime directory.
+          mkdir -p _site/Battlers/rrw
+          cp -r "temporary-graphics-folder-(dont-delete)/Graphics RRW/Battlers/." _site/Battlers/rrw/
+          # Replace the source asset version with the deployed commit SHA.
+          ASSET_VERSION="${GITHUB_SHA::12}"
+          sed -i -E "s/\\?v=[^\"']+/?v=${ASSET_VERSION}/g" _site/index.html
           # Ensure .nojekyll is in the deployment directory (disable Jekyll)
           touch _site/.nojekyll
 
@@ -50,4 +59,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-

@@ -191,6 +191,7 @@ header h1.clickable-title:hover {
     cursor: pointer;
     transition: all 0.3s ease;
     aspect-ratio: 1 / 1;
+    width: 160px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -305,6 +306,9 @@ header h1.clickable-title:hover {
     cursor: pointer;
     transition: all 0.3s ease;
     aspect-ratio: 1 / 1;
+    min-width: 0;
+    min-height: 0;
+    align-self: start;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2092,6 +2096,24 @@ header h1.clickable-title:hover {
     border-top: 1px solid var(--border);
     width: 100%;
     min-height: 150px; /* Evita quebras bruscas de layout enquanto carrega o iframe */
+    min-width: 0;
+    overflow: hidden;
+}
+
+.giscus-container iframe {
+    max-width: 100%;
+}
+
+.sections-view > .giscus-container {
+    display: block;
+    clear: both;
+}
+
+@media (max-width: 768px) {
+    .sections-view > .giscus-container {
+        margin-top: 1.5rem;
+        padding: 1rem 0 0;
+    }
 }
 
 /* Activity Page View */
@@ -2207,7 +2229,7 @@ header h1.clickable-title:hover {
 
 .activity-item-link {
     color: var(--primary-light);
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: 500;
 }
 
@@ -2341,9 +2363,7 @@ header h1.clickable-title:hover {
 .activity-info-card .info-note {
     font-size: 0.8rem;
     color: var(--text-muted);
-    transform: translateX(4px);
-    border-color: var(--primary-color);
-    box-shadow: 0 4px 12px var(--shadow);
+    transform: none;
 }
 
 /* Dynamic game-specific IconSet styles */
@@ -2621,4 +2641,3 @@ body.game-rrw .detail-icon {
     image-rendering: pixelated;
     image-rendering: crisp-edges;
 }
-

@@ -20,6 +20,227 @@ const GISCUS_CONFIG = {
     lang: 'en',
 };
 
+const runtimeTranslationMap = {
+    'Cemetery街Elixir': 'Cemetery Street Elixir',
+    '打ちAbandonedたBeach': 'Abandoned Beach',
+    'Water没都市Atlantica': 'Waterlogged City Atlantica',
+    'Darkness空間': 'Darkness Space',
+    'Gooseテント': 'Goose Tent',
+    '愛Event': 'Love Event',
+    '処刑ブタ': 'Execution Pig',
+    'ハーピー': 'Harpy',
+    '飛竜': 'Wyvern',
+    'Bremenの音楽隊': 'Bremen Town Musicians',
+    '鎧を履いたKnight': 'Armored Knight',
+    'Bow兵': 'Bow Soldier',
+    '野獣アダム': 'Beast Adam',
+    '美Womanラ・ベル': 'Beautiful Woman La Belle',
+    'Snow WhitePrincess': 'Snow White Princess',
+    'Small人': 'Small Human',
+    '怪獣ベヒモス': 'Monster Behemoth',
+    '太陽のKnight': 'Knight of the Sun',
+    'NorthWindのKnight': 'North Wind Knight',
+    'Katarina一向': 'Katarina and Company',
+    '殺人Doll': 'Killer Doll',
+    'オルトus': 'Ortus',
+    '魂のNoblewomanエリザベート': 'Noblewoman Elizabeth',
+    '魔WomanDorothy': 'Witch Dorothy',
+    '紅ずきん': 'Red Riding Hood',
+    'フェアリー': 'Fairy',
+    '牛頭のDemon': 'Bull-Headed Demon',
+    '灰かぶりPrincess': 'Cinderella Princess',
+    'ハーメルンの笛吹きMale': 'Male Pied Piper of Hamelin',
+    '疫病ネズミ': 'Plague Rat',
+    '白雪Princess': 'Snow White Princess',
+    '亀Knightアダマン': 'Turtle Knight Adamant',
+    '兎Knightルミラージ': 'Rabbit Knight Rumirage',
+    'カタリナ一向　聖森': 'Katarina and Company, Sacred Forest',
+    'Chaosの魔WomanDorothy': 'Chaos Witch Dorothy',
+    '黒の尖兵リンダメア': 'Black Vanguard Lindamere',
+    'Dark MoonのKnightOentius': 'Dark Moon Knight Oentius',
+    '車輪骸骨': 'Skeleton Wheel',
+    '犯す': 'Rape',
+    'シーン：': 'Scene: ',
+    '＋10にSlab1個': '+10: One Slab',
+    '勇者': 'Hero',
+    'Prayer': 'Prayer',
+    'Bandersnatchドロップ': 'Bandersnatch Drop',
+    'ThiefのDagger': "Thief's Dagger",
+    'グレートソード': 'Greatsword',
+    'ストームルーラー': 'Storm Ruler',
+    'アンドールのSword': "Andor's Sword",
+    'ヘンゼル': 'Hansel',
+    'グレーテル': 'Gretel',
+    '太陽の': 'Sun ',
+    'のKnight': ' Knight',
+    '鎧を履いた': 'Armored ',
+    '灰かぶりPrincessシンデレラ': 'Cinderella Princess',
+    'Cinderella2nd encounter': 'Cinderella, 2nd encounter',
+    'WhitePrincess': 'White Princess',
+    '亀Knight': 'Turtle Knight',
+    '兎Knight': 'Rabbit Knight',
+    'Dark MoonのKnight': 'Dark Moon Knight',
+    '愚かな王子': 'Foolish Prince',
+    'ポセイドンホテル': 'Poseidon Hotel',
+    'ソウル位置': 'Souls Position',
+    '召喚': 'Summon',
+    'ヴィクトリア': 'Victoria',
+    'グース': 'Goose',
+    'エリザベート': 'Elizabeth',
+    'カタリナ': 'Katarina',
+    'ジャンヌ': 'Jeanne',
+    'ミランダ': 'Miranda',
+    '周回プレイ準備': 'New Game Plus Preparation',
+    '個別エンド': 'Individual Ending',
+    '地下牢': 'Dungeon',
+    '地底世界クン・ヤン': 'Underground World Kun-Yang',
+    '聖森': 'Sacred Forest',
+    '犬': 'Dog',
+    '猫': 'Cat',
+    '魔女の家': "Witch's House",
+    '淫腐街': 'Slums',
+    '娼館「胎児の夢」': 'Brothel "Dream of the Fetus"',
+    'マッチ屋': 'Match Shop',
+    '白雪城': 'Snow White Castle',
+    '室内': 'Interior',
+    '墓地街エリクシール': 'Cemetery Street Elixir',
+    '大聖堂': 'Cathedral',
+    '秘密の花園': 'Secret Garden',
+    '穢れ沼': 'Defiled Swamp',
+    'カエルのHeinリヒ': 'Heinrich the Frog',
+    'カエル': 'Frog',
+    '罪作りなドナル': 'Sinful Donal',
+    'キャラメイク': 'Character Creation',
+    '兎': 'Rabbit',
+    'NorthWindのKnight': 'North Wind Knight',
+    '灰かぶりPrincessシンデレラ': 'Cinderella Princess',
+    'ハーメルンの笛吹きMale': 'Male Pied Piper of Hamelin',
+    '白雪Princess': 'Snow White Princess',
+    '亀Knightアダマン': 'Turtle Knight Adamant',
+    'リンダメア': 'Lindamere',
+    'Oenti': 'Oentius',
+    'デバッグ': 'Debug',
+    '熊': 'Bear',
+    'Talkingラフレシア': 'Talking Rafflesia',
+    '喋らないラフレシア': 'Silent Rafflesia',
+    'Shamanケト': 'Shaman Keto',
+    'ぱーてぃ': 'Party',
+    'リリス': 'Lilith',
+    '淫魔教会': 'Demon Church',
+    '篝火': 'Bonfire',
+    '2回目': '2nd encounter',
+    'リィフ召喚': 'Summon Leaf',
+    'ドロシー召喚': 'Summon Dorothy',
+    'エルマ召喚': 'Summon Elma',
+    '２階 BOSS': '2nd Floor Boss',
+    '２Floor BOSS': '2nd Floor Boss',
+    '２ 中BOSS': '2 Mid-Boss',
+    '２ 地上': '2 Ground Floor',
+    '４ くりあ': '4 Clear',
+    '４ 地上': '4 Ground Floor',
+    '５ くりあ': '5 Clear',
+    'Boss Roomランダム': 'Random Boss Room',
+    'Duchessの館': "Duchess's Mansion",
+    'Fire行き止まり': 'Fire Dead End',
+    'Foggy Park 戻る': 'Return to Foggy Park',
+    'Hanover廃駅': 'Hanover Abandoned Station',
+    'MourningのBeach(Submerged)': "Mourning's Beach (Submerged)",
+    'Nameless Forest飛び越え': 'Jump Over Nameless Forest',
+    'Old Slumsへの道': 'Road to Old Slums',
+    'Radowitz City 上層●': 'Radowitz City Upper Area',
+    'Sewerじゃんぷ': 'Sewer Jump',
+    '素質': ' Talent',
+    '素性': ' Background',
+    '割合ダメージ': 'Percentage Damage',
+    'デート中': 'On a Date',
+    '攻撃力加算': ' Attack Increase',
+    '現在HP': ' Current HP',
+    '深度上昇判定': 'Depth Increase Check',
+    'アイテム購入': 'Item Purchase',
+    '武器強化': 'Weapon Upgrade',
+    '武器アイテム増やす': 'Increase Weapon/Item',
+    '武器アイテム減らす': 'Decrease Weapon/Item',
+    '篝火転送減らす': 'Decrease Bonfire Warp',
+    '篝火転送': 'Bonfire Warp',
+    'レベルアップ': 'Level Up',
+    '解除': 'Removal',
+    '増やす': 'Increase',
+    '減らす': 'Decrease',
+    '減る': 'Decrease',
+    '購入': 'Purchase',
+    '強化': 'Upgrade',
+    '判定': 'Check',
+    '中BOSS': 'Mid-Boss',
+    '地上': 'Ground Floor',
+    '階': 'Floor ',
+    'くりあ': 'Clear',
+    'ランダム': 'Random',
+    'の館': "'s Mansion",
+    '行き止まり': 'Dead End',
+    '戻る': 'Return',
+    '廃駅': 'Abandoned Station',
+    'のBeach': "'s Beach",
+    '名前Event': 'Name Event',
+    '名前忘れ': 'Forget Name',
+    '名前覚える': 'Remember Name',
+    '飛び越え': 'Jump Over',
+    'への道': ' Road',
+    '上層': 'Upper Area',
+    'じゃんぷ': 'Jump',
+    'アリスの部屋': "Alice's Room",
+    'カボチャの拠点': 'Pumpkin Base',
+    'キャロル川': 'Carol River',
+    'ウサギの国': 'Land of the Rabbits',
+    'ウサギ穴': 'Rabbit Hole',
+    'サバトの森庭': 'Sabbat Forest Garden',
+    'ギガース': 'Gigas',
+    '烈火の騎士': 'Knight of Blazing Fire',
+    'ゴーレム': 'Golem',
+    '血吸いダニ': 'Blood-Sucking Mite',
+    '男': 'Male',
+    '騎士': 'Knight',
+    '中)': ' (Medium)',
+    '大蜘蛛': 'Giant Spider',
+    'デュラハン': 'Dullahan',
+    '姫': 'Princess',
+    '小人': 'Small Human',
+    '教Party': ' Church Party',
+    'イベント': ' Event',
+    'ケルベロス': 'Cerberus',
+    'カエルのハインリヒ': 'Heinrich the Frog',
+    'おぞましいヒンドリ': 'Horrifying Hindley',
+    'おぞましいブレイディ': 'Horrifying Brady',
+    'ジャバウォック特攻': 'Jabberwock Bonus',
+    'ジャバウォックイベント': 'Jabberwock Event'
+};
+
+function translateRuntimeString(value) {
+    if (typeof value !== 'string') return value;
+    const translated = Object.entries(runtimeTranslationMap)
+        .sort((a, b) => b[0].length - a[0].length)
+        .reduce((text, [source, target]) => text.split(source).join(target), value);
+    return translated.replace(/[０-９]/g, digit => String.fromCharCode(digit.charCodeAt(0) - '０'.charCodeAt(0) + '0'.charCodeAt(0)));
+}
+
+function translateRuntimeDisplayData(value, key = '') {
+    if (Array.isArray(value)) {
+        value.forEach(item => translateRuntimeDisplayData(item, key));
+    } else if (value && typeof value === 'object') {
+        Object.entries(value).forEach(([childKey, childValue]) => {
+            if (/^(japanese|originalJapanese|battlerName|faceName|characterName)$/i.test(childKey)) return;
+            if (typeof childValue === 'string') {
+                value[childKey] = translateRuntimeString(childValue);
+            } else {
+                translateRuntimeDisplayData(childValue, childKey);
+            }
+        });
+    }
+}
+
+if (typeof gamesData !== 'undefined') {
+    translateRuntimeDisplayData(gamesData);
+}
+
 let allSkills = [];
 let filteredSkills = [];
 let selectedSkillId = null;
@@ -66,6 +287,18 @@ let currentGame = null;
 let currentSection = null;
 let cameFromActivity = false;
 
+function getBattlerPath(enemy) {
+    if (currentGame !== 'bs1' && currentGame !== 'rrw') {
+        return `Battlers/${encodeURIComponent(enemy.battlerName)}.png`;
+    }
+    const gameLabel = currentGame === 'bs1' ? 'BS1' : 'RRW';
+    const folderName = currentGame === 'bs1' ? 'bs1' : 'rrw';
+    const folder = window.location.protocol === 'file:'
+        ? `../temporary-graphics-folder-(dont-delete)/Graphics%20${gameLabel}/Battlers/`
+        : `Battlers/${folderName}/`;
+    return `${folder}${encodeURIComponent(enemy.battlerName)}.png`;
+}
+
 // Helper function to dynamically switch the IconSet spritesheet by setting body classes
 function updateGameBodyClass(gameName) {
     document.body.classList.remove('game-bs1', 'game-bs2', 'game-rrw');
@@ -74,10 +307,46 @@ function updateGameBodyClass(gameName) {
     }
 }
 
+function renderSupplementaryReferenceGroups(referencedBy) {
+    if (!referencedBy) return [];
+
+    return [
+        { title: 'Actors That Reference This Entry', items: referencedBy.actors },
+        { title: 'Classes That Reference This Entry', items: referencedBy.classes },
+        { title: 'Locations That Reference This Entry', items: referencedBy.locations },
+        { title: 'Common Events That Reference This Entry', items: referencedBy.commonEvents },
+        { title: 'Troops That Reference This Entry', items: referencedBy.troops },
+        { title: 'Scripts That Reference This Entry', items: referencedBy.scripts },
+        { title: 'Developer Comments That Reference This Entry', items: referencedBy.comments }
+    ];
+}
+
+function renderTextReferenceGroups(referencedBy) {
+    if (!referencedBy) return [];
+
+    return [
+        { title: 'Skills That Reference This Entry', items: referencedBy.skills },
+        { title: 'Items That Reference This Entry', items: referencedBy.items },
+        { title: 'States That Reference This Entry', items: referencedBy.states },
+        { title: 'Weapons That Reference This Entry', items: referencedBy.weapons },
+        { title: 'Armors That Reference This Entry', items: referencedBy.armors },
+        { title: 'Enemies That Reference This Entry', items: referencedBy.enemies },
+        ...renderSupplementaryReferenceGroups(referencedBy)
+    ];
+}
+
+function renderEntityTextReferences(markerType, id) {
+    return renderReferencesSection(renderTextReferenceGroups(
+        findAllTextReferences(markerType, id)
+    ));
+}
+
 // Dynamic redirection of old data globals to gamesData based on currentGame
 const getActiveGameData = () => {
     const gameId = currentGame || 'bs2';
-    return typeof gamesData !== 'undefined' ? (gamesData[gameId] || {}) : {};
+    if (typeof gamesData === 'undefined') return {};
+    translateRuntimeDisplayData(gamesData);
+    return gamesData[gameId] || {};
 };
 
 Object.defineProperty(window, 'skillsData', { get: () => getActiveGameData(), configurable: true });
@@ -283,8 +552,12 @@ function getPageTitle(state) {
     
     // Format game name for display (bs2 -> BS2)
     const formatGameName = (game) => {
-        if (game === 'bs2') return 'BS2';
-        return game || 'Black Souls II';
+        const gameLabels = {
+            bs1: 'BS1',
+            bs2: 'BS2',
+            rrw: 'RRW'
+        };
+        return gameLabels[game] || game || 'BS2';
     };
     
     if (state.view === 'games') {
@@ -293,10 +566,23 @@ function getPageTitle(state) {
         return `${formatGameName(state.game)} - Sections`;
     } else if (state.view && state.selectedId) {
         // Properly handle plural section names
-        let sectionName = state.view;
-        if (sectionName.endsWith('s')) {
-            sectionName = sectionName.slice(0, -1); // Remove 's' from plural
-        }
+        const sectionLabels = {
+            enemies: 'Enemy',
+            commonEvents: 'Common Event',
+            classes: 'Class',
+            skills: 'Skill',
+            states: 'State',
+            weapons: 'Weapon',
+            armors: 'Armor',
+            items: 'Item',
+            elements: 'Element',
+            actors: 'Actor',
+            locations: 'Location',
+            troops: 'Troop',
+            scripts: 'Script',
+            comments: 'Comment'
+        };
+        let sectionName = sectionLabels[state.view] || state.view;
         sectionName = sectionName.charAt(0).toUpperCase() + sectionName.slice(1);
         return `${formatGameName(state.game)} - ${sectionName} ${state.selectedId}`;
     } else if (state.view) {
@@ -551,6 +837,7 @@ function restoreStateFromHistory(state, forceRestore = false) {
                                 if (detailPanel) {
                                     detailPanel.scrollTop = savedDetailPanelScrollTop;
                                 }
+                                scrollToSelectedItem(savedView, savedSelectedId);
                                 // All scroll restoration attempts complete
                                 markOperationComplete();
                             }
@@ -591,6 +878,9 @@ function restoreStateFromHistory(state, forceRestore = false) {
                         }
                         if (detailPanel) {
                             detailPanel.scrollTop = savedDetailPanelScrollTop;
+                        }
+                        if (savedSelectedId) {
+                            scrollToSelectedItem(savedView, savedSelectedId);
                         }
                         markOperationComplete();
                     }
@@ -729,7 +1019,12 @@ function convertCrossReferences(text) {
         const section = typeToSection[typeLower] || typeLower;
         // Create a link with data attributes for navigation
         // The name is already in the text, so we escape it for HTML
-        return `<a href="#" class="cross-reference" data-ref-type="${section}" data-ref-id="${id}" data-ref-name="${escapeHtml(name)}" title="Click to view ${escapeHtml(name)}">${escapeHtml(name)}</a>`;
+        const href = buildURL({
+            view: section,
+            selectedId: Number(id),
+            game: currentGame || 'bs2'
+        });
+        return `<a href="${href}" class="cross-reference" data-ref-type="${section}" data-ref-id="${id}" data-ref-name="${escapeHtml(name)}" title="Click to view ${escapeHtml(name)}">${escapeHtml(name)}</a>`;
     });
 }
 
@@ -765,10 +1060,6 @@ function convertCrossReferencesAndEscapeExcludingSelf(text, sourceType, sourceId
     
     // Replace markers, but convert self-references to plain text
     let result = text.replace(markerRegex, (match, type, id, name) => {
-        // COMMONEVENT doesn't have a section, so display as plain text
-        if (type === 'COMMONEVENT') {
-            return name; // Will be escaped later
-        }
         // Check if this is a self-reference
         if (sourceType && sourceId && type === sourceType && Number(id) === Number(sourceId)) {
             // Self-reference: return just the name as plain text (will be escaped later)
@@ -776,7 +1067,27 @@ function convertCrossReferencesAndEscapeExcludingSelf(text, sourceType, sourceId
         }
         // Not a self-reference: create the link
         const typeLower = type.toLowerCase();
-        return `<a href="#" class="cross-reference" data-ref-type="${typeLower}" data-ref-id="${id}" data-ref-name="${escapeHtml(name)}" title="Click to view ${escapeHtml(name)}">${escapeHtml(name)}</a>`;
+        const section = typeLower === 'commonevent' ? 'commonEvents' : ({
+            skill: 'skills',
+            state: 'states',
+            weapon: 'weapons',
+            armor: 'armors',
+            item: 'items',
+            enemy: 'enemies',
+            element: 'elements',
+            actor: 'actors',
+            class: 'classes',
+            location: 'locations',
+            troop: 'troops',
+            script: 'scripts',
+            comment: 'comments'
+        }[typeLower] || typeLower);
+        const href = buildURL({
+            view: section,
+            selectedId: Number(id),
+            game: currentGame || 'bs2'
+        });
+        return `<a href="${href}" class="cross-reference" data-ref-type="${section}" data-ref-id="${id}" data-ref-name="${escapeHtml(name)}" title="Click to view ${escapeHtml(name)}">${escapeHtml(name)}</a>`;
     });
     
     // Now escape the remaining text, but preserve the HTML tags we just created
@@ -1188,7 +1499,7 @@ function scrollToSelectedItem(section, itemId) {
     if (selector) {
         // Try multiple times in case the DOM hasn't fully rendered yet
         let attempts = 0;
-        const maxAttempts = 10;
+        const maxAttempts = 30;
         const tryScroll = () => {
             const card = document.querySelector(selector);
             if (card) {
@@ -1202,7 +1513,7 @@ function scrollToSelectedItem(section, itemId) {
                 return true;
             } else if (attempts < maxAttempts) {
                 attempts++;
-                setTimeout(tryScroll, 50);
+                setTimeout(tryScroll, 100);
             }
             return false;
         };
@@ -1264,6 +1575,39 @@ headerTitle.addEventListener('click', navigateToUpLevel);
 
 // Make up button navigate to up level
 upButton.addEventListener('click', handleUpButton);
+
+// Preserve the same destinations for middle-click/new-tab navigation on
+// card-based controls that cannot be native links without changing their
+// existing click behavior.
+document.addEventListener('auxclick', (event) => {
+    if (event.button !== 1) return;
+    const target = event.target.closest('.game-card, .section-card, .skill-card');
+    if (!target || target.tagName === 'A') return;
+
+    let state = null;
+    if (target.classList.contains('game-card')) {
+        const game = target.dataset.game;
+        if (game) state = { view: 'sections', game };
+    } else if (target.classList.contains('section-card')) {
+        const section = target.dataset.section;
+        if (section === 'others') {
+            state = { view: 'others', game: currentGame || 'bs2' };
+        } else if (section) {
+            state = { view: section, game: currentGame || 'bs2' };
+        }
+    } else if (target.classList.contains('skill-card')) {
+        const idAttribute = Object.keys(target.dataset).find(key => key.endsWith('Id'));
+        const selectedId = idAttribute ? Number(target.dataset[idAttribute]) : null;
+        if (selectedId && currentSection) {
+            state = { view: currentSection, selectedId, game: currentGame || 'bs2' };
+        }
+    }
+
+    if (state) {
+        event.preventDefault();
+        window.open(buildURL(state), '_blank', 'noopener');
+    }
+});
 const searchInput = document.getElementById('search-input');
 const searchClear = document.getElementById('search-clear');
 const resultsList = document.getElementById('results-list');
@@ -2753,18 +3097,6 @@ function handleUpButton() {
     
     const hasSelection = urlHasSelection || stateHasSelection || varHasSelection;
     
-    // Special case: On Desktop, when on any object's detail page, go to Sections page instead of that object's section list
-    const isDesktop = window.innerWidth > 1024;
-    if (isDesktop && hasSelection) {
-        // Navigate to Sections page
-        // Get game from currentGame, urlState, or currentState, defaulting to 'bs2'
-        const game = currentGame || (urlState && urlState.game) || (currentState && currentState.game) || 'bs2';
-        const section = currentSection || (urlState ? urlState.view : null) || (currentState ? currentState.view : null);
-        const isSupplementary = ['actors', 'classes', 'locations', 'commonEvents', 'troops', 'scripts', 'comments'].includes(section);
-        showSectionsView(game, isSupplementary);
-        return;
-    }
-    
     if (hasSelection) {
         // Check if we came from sections search - if so, go back to sections search
         // Layer 1: Detail page -> Section List
@@ -3321,6 +3653,7 @@ function renderSkillDetail(skill) {
         { title: 'Weapons That Reference This Skill', items: refs.referencedBy.weapons },
         { title: 'Armors That Reference This Skill', items: refs.referencedBy.armors },
         { title: 'Enemies That Reference This Skill', items: refs.referencedBy.enemies },
+        ...renderSupplementaryReferenceGroups(refs.referencedBy),
         { title: 'Items Teaching This Skill', items: refs.itemsTeaching },
         { title: 'Enemies Using This Skill', items: refs.enemiesUsing }
     ]);
@@ -3791,7 +4124,14 @@ function findAllTextReferences(targetType, targetId) {
         states: [],
         weapons: [],
         armors: [],
-        enemies: []
+        enemies: [],
+        actors: [],
+        classes: [],
+        locations: [],
+        commonEvents: [],
+        troops: [],
+        scripts: [],
+        comments: []
     };
     
     // Use data directly from data.js if arrays aren't loaded yet
@@ -3801,6 +4141,7 @@ function findAllTextReferences(targetType, targetId) {
     const weapons = allWeapons.length > 0 ? allWeapons : (weaponsData?.weapons || []);
     const armors = allArmors.length > 0 ? allArmors : (armorsData?.armors || []);
     const enemies = allEnemies.length > 0 ? allEnemies : (enemiesData?.enemies || []);
+    const activeData = getActiveGameData();
     
     // Build pattern to match references: [[TYPE:ID:NAME]] or "Type #ID"
     const typeNames = {
@@ -3809,7 +4150,14 @@ function findAllTextReferences(targetType, targetId) {
         'STATE': 'State',
         'WEAPON': 'Weapon',
         'ARMOR': 'Armor',
-        'ENEMY': 'Enemy'
+        'ENEMY': 'Enemy',
+        'ACTOR': 'Actor',
+        'CLASS': 'Class',
+        'LOCATION': 'Location',
+        'COMMONEVENT': 'Common Event',
+        'TROOP': 'Troop',
+        'SCRIPT': 'Script',
+        'COMMENT': 'Comment'
     };
     const typeName = typeNames[targetType] || targetType;
     const refPattern = new RegExp(`\\[\\[${targetType}:${targetId}:([^\\]]+)\\]\\]|${typeName}\\s*#\\s*${targetId}\\b`, 'i');
@@ -3993,7 +4341,38 @@ function findAllTextReferences(targetType, targetId) {
                 name: enemy.name,
                 reference: `[[ENEMY:${enemy.id}:${enemy.name}]]`
             });
+
         }
+    });
+
+    // Supplementary database sections are independent reference sources.  Keep
+    // this scan outside the enemy loop: otherwise these groups were only
+    // populated when an enemy happened to reference the target, and were
+    // duplicated once for every matching enemy.
+    const supplementaryCollections = [
+        ['actors', 'ACTOR'],
+        ['classes', 'CLASS'],
+        ['locations', 'LOCATION'],
+        ['commonEvents', 'COMMONEVENT'],
+        ['troops', 'TROOP'],
+        ['scripts', 'SCRIPT'],
+        ['comments', 'COMMENT']
+    ];
+    supplementaryCollections.forEach(([section, markerType]) => {
+        const entities = activeData[section] || [];
+        if (!Array.isArray(entities)) return;
+
+        entities.forEach(entity => {
+            if (!entity || (targetType === markerType && Number(entity.id) === Number(targetId))) return;
+            if (!hasReference(JSON.stringify(entity))) return;
+
+            const name = entity.name || entity.englishName || entity.japaneseName || `#${entity.id}`;
+            references[section].push({
+                id: entity.id,
+                name,
+                reference: `[[${markerType}:${entity.id}:${name}]]`
+            });
+        });
     });
     
     // Defensive filter: Remove any self-references that might have slipped through
@@ -4220,7 +4599,8 @@ function findStateReferences(stateId) {
 
 function findWeaponReferences(weaponId) {
     const references = {
-        enemiesDropping: []
+        enemiesDropping: [],
+        referencedBy: findAllTextReferences('WEAPON', weaponId)
     };
     
     // Use data directly from data.js if arrays aren't loaded yet
@@ -4247,7 +4627,8 @@ function findWeaponReferences(weaponId) {
 
 function findArmorReferences(armorId) {
     const references = {
-        enemiesDropping: []
+        enemiesDropping: [],
+        referencedBy: findAllTextReferences('ARMOR', armorId)
     };
     
     // Use data directly from data.js if arrays aren't loaded yet
@@ -4274,7 +4655,8 @@ function findArmorReferences(armorId) {
 
 function findItemReferences(itemId) {
     const references = {
-        enemiesDropping: []
+        enemiesDropping: [],
+        referencedBy: findAllTextReferences('ITEM', itemId)
     };
     
     // Use data directly from data.js if arrays aren't loaded yet
@@ -4333,7 +4715,9 @@ function findEnemyReferences(enemyId) {
     // Items dropped by this enemy
     if (enemy.dropItems) {
         enemy.dropItems.forEach(drop => {
-            const item = items.find(i => i && i.id === drop.itemId);
+            // MV drop entries store the database item in dataId (itemId is
+            // not present), matching the lookup used by findItemReferences.
+            const item = items.find(i => i && i.id === drop.dataId);
             if (item) {
                 references.itemsDropped.push({
                     id: item.id,
@@ -4366,6 +4750,19 @@ function findEnemyReferences(enemyId) {
     references.referencedBy.weapons = references.referencedBy.weapons.filter(weapon => Number(weapon.id) !== Number(enemyId));
     references.referencedBy.armors = references.referencedBy.armors.filter(armor => Number(armor.id) !== Number(enemyId));
     references.referencedBy.enemies = references.referencedBy.enemies.filter(enemy => Number(enemy.id) !== Number(enemyId));
+
+    // Keep text references that are not already represented by the structured
+    // relationship groups below.  Previously the renderer discarded an entire
+    // source type when just one structured relationship existed.
+    const usedIds = (items) => new Set(items.map(item => Number(item.id)));
+    const specific = {
+        skills: usedIds(references.skillsUsed),
+        items: usedIds(references.itemsDropped),
+        states: usedIds(references.statesApplied)
+    };
+    Object.entries(specific).forEach(([type, ids]) => {
+        references.referencedBy[type] = references.referencedBy[type].filter(item => !ids.has(Number(item.id)));
+    });
 
     return references;
 }
@@ -4630,7 +5027,8 @@ function renderStateDetail(state) {
         { title: 'States That Reference This State', items: refs.referencedBy.states },
         { title: 'Weapons That Reference This State', items: refs.referencedBy.weapons },
         { title: 'Armors That Reference This State', items: refs.referencedBy.armors },
-        { title: 'Enemies That Reference This State', items: refs.referencedBy.enemies }
+        { title: 'Enemies That Reference This State', items: refs.referencedBy.enemies },
+        ...renderSupplementaryReferenceGroups(refs.referencedBy)
     ]);
     
     detailContent.innerHTML = html;
@@ -5145,7 +5543,7 @@ function renderEnemiesResults() {
         // Use battler sprite if available, otherwise fall back to icon
         let imageHtml = '';
         if (enemy.battlerName && enemy.battlerName.trim() !== '') {
-            const battlerPath = `Battlers/${enemy.battlerName}.png`;
+            const battlerPath = getBattlerPath(enemy);
             imageHtml = `<img src="${battlerPath}" alt="${enemy.name}" class="enemy-battler enemy-battler-list" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />`;
             // Fallback icon (hidden by default, shown if battler image fails to load)
             const iconPos = getIconPosition(enemy.iconIndex);
@@ -5656,7 +6054,8 @@ function renderWeaponDetail(weapon) {
     `;
     
     html += renderReferencesSection([
-        { title: 'Enemies Dropping This Weapon', items: refs.enemiesDropping }
+        { title: 'Enemies Dropping This Weapon', items: refs.enemiesDropping },
+        ...renderTextReferenceGroups(refs.referencedBy)
     ]);
     
     detailContent.innerHTML = html;
@@ -6159,7 +6558,8 @@ function renderArmorDetail(armor) {
     `;
     
     html += renderReferencesSection([
-        { title: 'Enemies Dropping This Armor', items: refs.enemiesDropping }
+        { title: 'Enemies Dropping This Armor', items: refs.enemiesDropping },
+        ...renderTextReferenceGroups(refs.referencedBy)
     ]);
     
     detailContent.innerHTML = html;
@@ -6346,7 +6746,7 @@ function renderEnemyDetail(enemy) {
     // Use battler sprite if available, otherwise fall back to icon
     let imageHtml = '';
     if (enemy.battlerName && enemy.battlerName.trim() !== '') {
-        const battlerPath = `Battlers/${enemy.battlerName}.png`;
+        const battlerPath = getBattlerPath(enemy);
         imageHtml = `<img src="${battlerPath}" alt="${enemy.name}" class="enemy-battler enemy-battler-detail" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />`;
         // Fallback icon (hidden by default, shown if battler image fails to load)
         const iconPos = getIconPosition(enemy.iconIndex, 1.5);
@@ -6359,6 +6759,13 @@ function renderEnemyDetail(enemy) {
     }
     
     const refs = findEnemyReferences(enemy.id);
+    const filterDuplicateReferences = (items, specificItems) => {
+        const specificIds = new Set((specificItems || []).map(item => Number(item.id)));
+        return (items || []).filter(item => !specificIds.has(Number(item.id)));
+    };
+    refs.referencedBy.skills = filterDuplicateReferences(refs.referencedBy.skills, refs.skillsUsed);
+    refs.referencedBy.items = filterDuplicateReferences(refs.referencedBy.items, refs.itemsDropped);
+    refs.referencedBy.states = filterDuplicateReferences(refs.referencedBy.states, refs.statesApplied);
     
     let html = `
         <div class="detail-header">
@@ -6397,7 +6804,8 @@ function renderEnemyDetail(enemy) {
         { title: 'States That Reference This Enemy', items: refs.referencedBy.states },
         { title: 'Weapons That Reference This Enemy', items: refs.referencedBy.weapons },
         { title: 'Armors That Reference This Enemy', items: refs.referencedBy.armors },
-        { title: 'Enemies That Reference This Enemy', items: refs.referencedBy.enemies }
+        { title: 'Enemies That Reference This Enemy', items: refs.referencedBy.enemies },
+        ...renderSupplementaryReferenceGroups(refs.referencedBy)
     ]);
     
     detailContent.innerHTML = html;
@@ -6647,7 +7055,8 @@ function renderItemDetail(item) {
     `;
     
     html += renderReferencesSection([
-        { title: 'Enemies Dropping This Item', items: refs.enemiesDropping }
+        { title: 'Enemies Dropping This Item', items: refs.enemiesDropping },
+        ...renderTextReferenceGroups(refs.referencedBy)
     ]);
     
     detailContent.innerHTML = html;
@@ -7413,6 +7822,9 @@ function updateGiscusFromCurrentState() {
     if (state.view === 'games') {
         targetContainerId = 'games-giscus-container';
         targetTerm = 'home';
+    } else if (state.view === 'others') {
+        targetContainerId = 'others-giscus-container';
+        targetTerm = `${state.game || 'bs2'}-others`;
     } else if (state.view === 'sections') {
         targetContainerId = 'sections-giscus-container';
         targetTerm = `${state.game || 'bs2'}-home`;
@@ -8316,6 +8728,16 @@ function renderActorDetail(actor) {
                         <div class="stat-label">Max Level</div>
                         <div class="stat-value">${actor.maxLevel}</div>
                     </div>
+                    ${actor.characterName ? `
+                    <div class="stat-item">
+                        <div class="stat-label">Character Graphic</div>
+                        <div class="stat-value">${escapeHtml(actor.characterName)}</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Character Graphic Index</div>
+                        <div class="stat-value">${actor.characterIndex ?? 0}</div>
+                    </div>
+                    ` : ''}
                 </div>
             </div>
             
@@ -8351,6 +8773,8 @@ function renderActorDetail(actor) {
                 <div class="section-title">Developer Note</div>
                 <div class="note-container">${parsedNote}</div>
             </div>` : ''}
+
+            ${renderEntityTextReferences('ACTOR', actor.id)}
             
             <div class="giscus-section">
                 <h3>Comments</h3>
@@ -8462,7 +8886,8 @@ function renderClassDetail(c) {
             </div>` : ''}
 
             ${renderReferencesSection([
-                { title: 'Actors with this Class', items: findClassReferences(c.id).actors }
+                { title: 'Actors with this Class', items: findClassReferences(c.id).actors },
+                ...renderTextReferenceGroups(findAllTextReferences('CLASS', c.id))
             ])}
             
             <div class="giscus-section">
@@ -8476,6 +8901,9 @@ function renderClassDetail(c) {
 }
 
 function renderLocationDetail(loc) {
+    const parentLocation = loc.parentId
+        ? (locationsData.locations || []).find(parent => parent.id === loc.parentId)
+        : null;
     const breadcrumbs = (loc.parentPath || []).map(p => {
         return `<a href="#/${currentGame}/locations/${p.id}" class="activity-item-link">${escapeHtml(p.name)}</a>`;
     }).join(' &gt; ');
@@ -8529,18 +8957,30 @@ function renderLocationDetail(loc) {
                         <div class="stat-label">Display Name</div>
                         <div class="stat-value">${escapeHtml(loc.displayName || '-')}</div>
                     </div>
+                    ${parentLocation ? `
+                    <div class="stat-item">
+                        <div class="stat-label">Parent Location</div>
+                        <div class="stat-value"><a href="#/${currentGame}/locations/${parentLocation.id}" class="activity-item-link">${escapeHtml(parentLocation.name)}</a></div>
+                    </div>
+                    ` : ''}
+                    ${loc.width !== undefined && loc.height !== undefined ? `
                     <div class="stat-item">
                         <div class="stat-label">Size</div>
                         <div class="stat-value">${loc.width} &times; ${loc.height} tiles</div>
                     </div>
+                    ` : ''}
+                    ${loc.bgm?.name ? `
                     <div class="stat-item">
                         <div class="stat-label">BGM</div>
-                        <div class="stat-value">${loc.bgm?.name ? `${escapeHtml(loc.bgm.name)}` : 'None'}</div>
+                        <div class="stat-value">${escapeHtml(loc.bgm.name)}</div>
                     </div>
+                    ` : ''}
+                    ${loc.bgs?.name ? `
                     <div class="stat-item">
                         <div class="stat-label">BGS</div>
-                        <div class="stat-value">${loc.bgs?.name ? `${escapeHtml(loc.bgs.name)}` : 'None'}</div>
+                        <div class="stat-value">${escapeHtml(loc.bgs.name)}</div>
                     </div>
+                    ` : ''}
                 </div>
             </div>
 
@@ -8583,7 +9023,8 @@ function renderLocationDetail(loc) {
             </div>` : ''}
 
             ${renderReferencesSection([
-                { title: 'Sub-locations Connected to This Map', items: findLocationReferences(loc.id).subLocations }
+                { title: 'Sub-locations Connected to This Map', items: findLocationReferences(loc.id).subLocations },
+                ...renderTextReferenceGroups(findAllTextReferences('LOCATION', loc.id))
             ])}
             
             <div class="giscus-section">
@@ -8675,7 +9116,8 @@ function renderCommonEventDetail(ce) {
             ${renderReferencesSection([
                 { title: 'Skills Triggering This Event', items: findCommonEventReferences(ce.id).skills },
                 { title: 'Items Triggering This Event', items: findCommonEventReferences(ce.id).items },
-                { title: 'States Triggering This Event', items: findCommonEventReferences(ce.id).states }
+                { title: 'States Triggering This Event', items: findCommonEventReferences(ce.id).states },
+                ...renderTextReferenceGroups(findAllTextReferences('COMMONEVENT', ce.id))
             ])}
             
             <div class="giscus-section">
@@ -8735,7 +9177,8 @@ function renderTroopDetail(troop) {
             </div>` : ''}
 
             ${renderReferencesSection([
-                { title: 'Locations Where This Troop Appears', items: findTroopReferences(troop.id).locations }
+                { title: 'Locations Where This Troop Appears', items: findTroopReferences(troop.id).locations },
+                ...renderTextReferenceGroups(findAllTextReferences('TROOP', troop.id))
             ])}
             
             <div class="giscus-section">
@@ -8785,6 +9228,8 @@ function renderScriptDetail(script) {
                 <div class="section-title">Script Code</div>
                 <pre class="code-container"><code>${escapeHtml(script.content)}</code></pre>
             </div>
+
+            ${renderEntityTextReferences('SCRIPT', script.id)}
             
             <div class="giscus-section">
                 <h3>Comments</h3>
@@ -8838,6 +9283,8 @@ function renderCommentDetail(comment) {
                 <div class="section-title">Comment Content</div>
                 <div class="note-container" style="font-family: monospace; white-space: pre-wrap;">${escapeHtml(comment.content || comment.text || '')}</div>
             </div>
+
+            ${renderEntityTextReferences('COMMENT', comment.id)}
             
             <div class="giscus-section">
                 <h3>Comments</h3>
@@ -8882,5 +9329,3 @@ function bindCrossReferenceClicks(container) {
         });
     });
 }
-
-
