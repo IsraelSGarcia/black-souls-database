@@ -7842,10 +7842,12 @@ function updateGiscusFromCurrentState() {
             : `${state.game || 'bs2'}-${state.view}-general`;
     }
 
-    // Hide inactive containers while keeping their loaded embeds available for reuse.
+    // Clear inactive containers so the next visible embed initializes immediately.
     document.querySelectorAll('.giscus-container').forEach(el => {
         if (el.id !== targetContainerId) {
             el.style.display = 'none';
+            el.innerHTML = '';
+            el.dataset.loadedTerm = '';
         }
     });
 
