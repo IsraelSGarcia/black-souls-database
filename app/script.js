@@ -291,12 +291,8 @@ function getBattlerPath(enemy) {
     if (currentGame !== 'bs1' && currentGame !== 'rrw') {
         return `Battlers/${encodeURIComponent(enemy.battlerName)}.png`;
     }
-    const gameLabel = currentGame === 'bs1' ? 'BS1' : 'RRW';
     const folderName = currentGame === 'bs1' ? 'bs1' : 'rrw';
-    const folder = window.location.protocol === 'file:'
-        ? `../temporary-graphics-folder-(dont-delete)/Graphics%20${gameLabel}/Battlers/`
-        : `Battlers/${folderName}/`;
-    return `${folder}${encodeURIComponent(enemy.battlerName)}.png`;
+    return `Battlers/${folderName}/${encodeURIComponent(enemy.battlerName)}.png`;
 }
 
 // Helper function to dynamically switch the IconSet spritesheet by setting body classes
