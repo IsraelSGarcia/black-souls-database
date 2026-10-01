@@ -214,12 +214,19 @@ const runtimeTranslationMap = {
     'ジャバウォックイベント': 'Jabberwock Event'
 };
 
+const runtimeTranslationEntries = Object.entries(runtimeTranslationMap)
+    .sort((a, b) => b[0].length - a[0].length);
+const runtimeTranslationCache = new Map();
+
 function translateRuntimeString(value) {
     if (typeof value !== 'string') return value;
-    const translated = Object.entries(runtimeTranslationMap)
-        .sort((a, b) => b[0].length - a[0].length)
+    const cached = runtimeTranslationCache.get(value);
+    if (cached !== undefined) return cached;
+    const translated = runtimeTranslationEntries
         .reduce((text, [source, target]) => text.split(source).join(target), value);
-    return translated.replace(/[０-９]/g, digit => String.fromCharCode(digit.charCodeAt(0) - '０'.charCodeAt(0) + '0'.charCodeAt(0)));
+    const result = translated.replace(/[０-９]/g, digit => String.fromCharCode(digit.charCodeAt(0) - '０'.charCodeAt(0) + '0'.charCodeAt(0)));
+    runtimeTranslationCache.set(value, result);
+    return result;
 }
 
 function translateRuntimeDisplayData(value, key = '') {
@@ -237,8 +244,12 @@ function translateRuntimeDisplayData(value, key = '') {
     }
 }
 
-if (typeof gamesData !== 'undefined') {
-    translateRuntimeDisplayData(gamesData);
+const translatedRuntimeGames = new Set();
+
+function ensureRuntimeDisplayDataTranslated(gameId) {
+    if (typeof gamesData === 'undefined' || translatedRuntimeGames.has(gameId)) return;
+    translateRuntimeDisplayData(gamesData[gameId]);
+    translatedRuntimeGames.add(gameId);
 }
 
 let allSkills = [];
@@ -341,7 +352,7 @@ function renderEntityTextReferences(markerType, id) {
 const getActiveGameData = () => {
     const gameId = currentGame || 'bs2';
     if (typeof gamesData === 'undefined') return {};
-    translateRuntimeDisplayData(gamesData);
+    ensureRuntimeDisplayDataTranslated(gameId);
     return gamesData[gameId] || {};
 };
 
@@ -5540,7 +5551,7 @@ function renderEnemiesResults() {
         let imageHtml = '';
         if (enemy.battlerName && enemy.battlerName.trim() !== '') {
             const battlerPath = getBattlerPath(enemy);
-            imageHtml = `<img src="${battlerPath}" alt="${enemy.name}" class="enemy-battler enemy-battler-list" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />`;
+            imageHtml = `<img src="${battlerPath}" alt="${enemy.name}" class="enemy-battler enemy-battler-list" loading="lazy" decoding="async" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />`;
             // Fallback icon (hidden by default, shown if battler image fails to load)
             const iconPos = getIconPosition(enemy.iconIndex);
             const iconStyle = iconPos !== 'none' ? `style="background-position: ${iconPos}; display: none;" data-icon="${enemy.iconIndex}"` : 'style="display: none;"';
@@ -6743,7 +6754,7 @@ function renderEnemyDetail(enemy) {
     let imageHtml = '';
     if (enemy.battlerName && enemy.battlerName.trim() !== '') {
         const battlerPath = getBattlerPath(enemy);
-        imageHtml = `<img src="${battlerPath}" alt="${enemy.name}" class="enemy-battler enemy-battler-detail" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />`;
+        imageHtml = `<img src="${battlerPath}" alt="${enemy.name}" class="enemy-battler enemy-battler-detail" decoding="async" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />`;
         // Fallback icon (hidden by default, shown if battler image fails to load)
         const iconPos = getIconPosition(enemy.iconIndex, 1.5);
         const iconStyle = iconPos !== 'none' ? `style="background-position: ${iconPos}; display: none;" data-icon="${enemy.iconIndex}"` : 'style="display: none;"';
@@ -7831,12 +7842,10 @@ function updateGiscusFromCurrentState() {
             : `${state.game || 'bs2'}-${state.view}-general`;
     }
 
-    // Oculta e limpa apenas os contêineres que não são o alvo atual
+    // Hide inactive containers while keeping their loaded embeds available for reuse.
     document.querySelectorAll('.giscus-container').forEach(el => {
         if (el.id !== targetContainerId) {
             el.style.display = 'none';
-            el.innerHTML = '';
-            el.dataset.loadedTerm = ''; // Limpa o termo carregado dele
         }
     });
 

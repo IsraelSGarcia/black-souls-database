@@ -7070,7 +7070,7 @@ function main() {
     fs.writeFileSync(path.join(__dirname, 'processed-data.json'), JSON.stringify(allGamesData, null, 2));
 
     // Generate combined data.js file for client-side use
-    const dataJsContent = `const gamesData = ${JSON.stringify(allGamesData, null, 2)};`;
+    const dataJsContent = `const gamesData = ${JSON.stringify(allGamesData)};`;
     fs.writeFileSync(path.join(__dirname, 'data.js'), dataJsContent);
     console.log('\n✓ Saved all games data to processed-data.json and data.js');
 }
